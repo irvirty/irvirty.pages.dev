@@ -63,45 +63,6 @@ urlSecondClean = urlSecondClean.replaceAll('!replace', '');
 
 if(rUrlCom != 'redirect'&&urlFirst != ''&&urlSecond != ''&&urlFirstClean != urlSecondClean&&urlSecondClean != location.href){
 
-
-
-
-
-// wildcard
-//https://stackoverflow.com/questions/52143451/javascript-filter-with-wildcard
-//const items = ['https://example.com/test']
-
-const items = [location.href]
-
-const filterBy = str => items.filter(
-  item => new RegExp('^' + str.replace(/\*/g, '.*') + '$').test(item)
-);
-	
-/*console.log(filterBy('https://example.com/*').length);
-console.log(filterBy('*e').length);
-console.log(filterBy('*e*').length);
-console.log(filterBy('ana').length);
-console.log(filterBy('*ana').length);
-console.log(filterBy('*an').length);
-console.log(filterBy('*an*').length);*/
-
-// 1 if strict by URL ==
-// if http (URL)
-if(filterBy(urlFirstClean).length >= 1){
-rUrl = urlSecondClean;
-rUrlCom = 'redirect';
-count++;
-console.log("redirect1 (extension)");
-}
-
-// end wildcard
-
-
-
-
-
-
-
 // 1 if strict by URL ==
 // if http (URL)
 if(urlFirstClean == location.href){
@@ -111,6 +72,31 @@ count++;
 console.log("redirect1 (extension)");
 }
 
+if(urlFirst.indexOf('!replaceAll') != -1||urlSecond.indexOf('!replaceAll') != -1){
+
+// 2.1 by word in URL replace, all
+// if not http (word)
+// with query
+
+if(location.href != urlSecondClean&&count == 0&&rUrlCom != 'redirect'&&location.href.indexOf(urlFirstClean) != -1){
+rUrl = (String(location.href).replaceAll(`${urlFirstClean}`, `${urlSecondClean}`)).trim();
+rUrlCom = 'redirect';
+count++;
+console.log("redirect2.2 (extension)");
+}
+}
+
+
+if(urlFirst.indexOf('!replace') != -1||urlSecond.indexOf('!replace') != -1){
+
+// 2.2 by word in URL replace, once
+if(location.href != urlSecondClean&&count == 0&&rUrlCom != 'redirect'&&location.href.indexOf(urlFirstClean) != -1&&location.href.indexOf(urlSecondClean) == -1){
+rUrl = (String(location.href).replace(`${urlFirstClean}`, `${urlSecondClean}`)).trim();
+rUrlCom = 'redirect';
+count++;
+console.log("redirect2.2 (extension)");
+}
+}
 
 
 

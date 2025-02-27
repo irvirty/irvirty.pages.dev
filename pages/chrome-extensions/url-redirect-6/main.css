@@ -1,4 +1,4 @@
-/* Main style v.20.0.1
+/* Main style v.20.3.0
 /* main.css + themes */
 /* The style is mostly based on classes: */
 
@@ -106,7 +106,7 @@ width: 100%;
 .h5 { font-size: 1.11em; }
 .h6 { font-size: 1.1em; }
 
-input[type="submit"], input[type="button"], input[type="text"], input[type="search"], textarea, input[type="email"], input[type="password"], form button{
+input[type="submit"], input[type="button"], input[type="text"], input[type="search"], textarea, input[type="email"], input[type="password"], form button, input[type="reset"]{
 width: 100%;
 min-height:  var(--inputHeight);
 margin: 0px;
@@ -207,9 +207,6 @@ vertical-align: middle;
 text-align: center;
 padding: 1px;
 border: 2px dashed color-mix(in srgb, var(--brand) 50%, transparent);
-
-transition: transform .250s ease-in-out;
-animation: mAni 500ms 0s, mAniBlink 500ms .5s;
 opacity: 1;
 }
 
@@ -224,18 +221,6 @@ transition: transform 1.5s ease-in-out;
 .logo:hover, .logo2:hover{ border-color: var(--c); }
 }
 
-@media (prefers-reduced-motion: no-preference) {
-@keyframes mAni {
-from { transform: rotate(0); }
-to { transform: rotate(360deg); }
-}
-
-@keyframes mAniBlink {
-from{ border: 2px solid color-mix(in srgb, var(--brand) 100%, transparent); }
-to { border: 2px solid color-mix(in srgb, var(--brand) 20%, transparent); }
-}
-}
-
 .tagList, .tagList2 {
 display: inline-flex;
 flex-wrap: wrap;
@@ -248,6 +233,7 @@ text-align: center;
 .tag, .tag2, .button {
 display: inline-flex;
 justify-content: center;
+align-content: center;
 align-items: center;
 text-align: center;
 padding: .20em .5em;
@@ -263,6 +249,7 @@ word-break: break-word;
 
 .button {
 padding: .7em 1.2em;
+min-height: var(--inputHeight);
 margin-top: 1px;
 margin-bottom: 1px;
 }
@@ -703,7 +690,7 @@ img { overflow: hidden; font-size: calc(100% - 30%); }
 ::-webkit-scrollbar-track { width: 100px; }
 /*::-webkit-scrollbar-corner { background: transparend; }*/
 
-html { scrollbar-width: thin; }
+html { scrollbar-width: auto; }
 
 input:focus{ outline: none }
 
@@ -721,4 +708,5 @@ input[type="color"], form button { vertical-align: middle; min-height: var(--inp
 }
 .reduceLight2 { filter:brightness(70%); }
 /*.reduceLight:hover, .reduceLigh2:hover { filter: brightness(90%); }*/
+
 
