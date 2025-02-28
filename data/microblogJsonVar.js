@@ -3,6 +3,16 @@ var microblogJsonVar =
 
 [
     {
+        "id": "272",
+        "text": "Enshittification - Wikipedia",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/en.wikipedia.org\/wiki\/Enshittification",
+        "tag": "#empty #word",
+        "time": 1740733534,
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/microblog\/?id=272\">id<\/a>"
+    },
+    {
         "id": "271",
         "text": "Rubber duck debugging - Wikipedia",
         "text2": "",

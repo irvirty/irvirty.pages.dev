@@ -3,6 +3,16 @@ var notesJsonVar =
 
 [
     {
+        "id": "89",
+        "text": "serika dark - Default theme in Monkeytype",
+        "text2": "",
+        "text3": "",
+        "url": "",
+        "tag": "#typing #theme #settings #config",
+        "time": 1740757650,
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/notes\/?id=89\">id<\/a>"
+    },
+    {
         "id": "88",
         "text": "I need help with changing my profile picture : r\/monkeytype",
         "text2": "",

@@ -1,33 +1,13 @@
 [
     {
-        "id": "35",
-        "text": "Microsoft only added an AI assistant extension and called it an \"AI-powered browser.\"\r\n\r\nI think a true AI-powered browser is a browser where AI is responsible for rendering the page; it generates the page after opening using its own AI rendering engine with its own page style and content. #browser.",
+        "id": "37",
+        "text": "I think the site should be updated once a day to avoid spam. To not be constantly at the top of the latest updates page, like the GitHub Explore page, and sorted by latest updates.",
         "text2": "",
         "text3": "",
         "url": "",
-        "tag": "#AI #browser",
-        "time": 1740725923,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/posts\/?id=35\">id<\/a>"
-    },
-    {
-        "id": "34",
-        "text": "Microsoft is so aggressive that no one can remove the Microsoft Edge (Chromium) browser or OneDrive cloud drive. Maybe these are not regular programs, and many other things in the system relate to them.",
-        "text2": "",
-        "text3": "",
-        "url": "",
-        "tag": "#system #OS #Microsoft #Edge #OneDrive #cloud #drive #app #program #browser",
-        "time": 1740723599,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/posts\/?id=34\">id<\/a>"
-    },
-    {
-        "id": "33",
-        "text": "serika dark - Default theme in Monkeytype",
-        "text2": "",
-        "text3": "",
-        "url": "",
-        "tag": "#typing #notes",
-        "time": 1740118576,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/posts\/?id=33\">id<\/a>"
+        "tag": "#update #spam",
+        "time": 1740731342,
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/posts\/?id=37\">id<\/a>"
     },
     {
         "id": "26",
@@ -98,16 +78,6 @@
         "tag": "#WebDesign #minimalism #post",
         "time": 1728771991,
         "rightFooter": "<a class=\"brand\" href=\"\/pages\/posts\/?id=20\">id<\/a>"
-    },
-    {
-        "id": "19",
-        "text": "I spent half a day on correcting the improvement and the working code of the extension, in the process of simplification, the value in the settings stopped being displayed. It turned out that need to use \"DOMContentLoaded\" instead of \"load\" in the extension, now the saved value is displayed in the form.",
-        "text2": "",
-        "text3": "",
-        "url": "",
-        "tag": "#extenstion #update #post #JS #JavaScript",
-        "time": 1728729765,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/posts\/?id=19\">id<\/a>"
     },
     {
         "id": "17",
@@ -198,16 +168,6 @@
         "tag": "#coding #programming",
         "time": 1728223973,
         "rightFooter": "<a class=\"brand\" href=\"\/pages\/posts\/?id=9\">id<\/a>"
-    },
-    {
-        "id": "8",
-        "text": "I added Google to the search, because I think hashtags with redirection will not be enough if this site presents itself as a search.",
-        "text2": "",
-        "text3": "",
-        "url": "",
-        "tag": "#update",
-        "time": 1728210175,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/posts\/?id=8\">id<\/a>"
     },
     {
         "id": "7",
