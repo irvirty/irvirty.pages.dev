@@ -188,11 +188,6 @@ var wordJsonVar =
         "text3": "artista"
     },
     {
-        "text": "\u0430\u0440\u0442\u0440\u043e\u0437",
-        "text2": "arthrosis",
-        "text3": "artrosis"
-    },
-    {
         "text": "\u0430\u0441\u0442\u043c\u0430",
         "text2": "asthma",
         "text3": "asma"

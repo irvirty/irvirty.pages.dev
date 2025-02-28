@@ -1,4 +1,4 @@
-// Keep v.3.10.0
+// Keep v.3.11.0
 // The static version of my offline "keep" PHP script that saves things (links, notes, etc).
 // Inspired by Twitter, Google Keep
 // Not for large data files.
@@ -1039,7 +1039,7 @@ min-width: 100px;
 min-width: 45px;
 
 max-width: 100%;
-max-width: 215px;
+max-width: 160px;
 
 margin: 3px;
 }
