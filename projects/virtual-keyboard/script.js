@@ -1,4 +1,4 @@
-// Virtual keyboard v.1.2.1
+// Virtual keyboard v.1.3.0
 //inspired:
 //Free Virtual Keyboard - Free download and install on Windows | Microsoft Store https://apps.microsoft.com/detail/9nblggh35mpc
 //Try Google Input Tools online – Google Input Tools https://www.google.com/inputtools/try/ 
@@ -12,7 +12,23 @@ shiftStatus[0] = 0;
 let taskKeyVKbr = "";
 let keyEmpty = "";
 
+let keyBrStyle = localStorage.getItem("keyBrStyle");
+if (keyBrStyle == null||keyBrStyle == ""){
+keyBrStyle = "mono";
+localStorage.setItem("keyBrStyle", "mono");
+}
+
+var keyBrStyleHide = "block";
+
+function keyBrStyleSet(item){
+localStorage.setItem("keyBrStyle", item);
+keyBrStyle = item;
+virtualKeyborad(inputId, printId, "", "");
+}
+
+
 function virtualKeyborad(inputId, printId, upperCaseStatus, taskKeyVKbr){
+
 
 upperCaseStatus[0] = upperCaseStatus;
 
@@ -22,6 +38,9 @@ let headerStyle = "";
 //console.log(window.innerWidth);
 if (window.innerWidth >= 550/*||conf["confDevice"] != "mobile"*/){
 
+keyBrStyleHide = "block";
+
+if (keyBrStyle == "colored"){
 var keysRow1 = [
 {"text":"`", "text2":"green", "text3":"c3R"},
 {"text":"1", "text2":"green", "text3":"c3R"},
@@ -86,16 +105,90 @@ var keysRow4 = [
 ];
 
 var keysRow5 = [
-{"text":"Ctrl", "text2":"grey", "text3":"c3R"},
-{"text":"Alt", "text2":"grey", "text3":"c3R"},
-{"text":"␣", "text2":"gray", "text3":"c3R"},
-{"text":"Alt", "text2":"grey", "text3":"c3R"},
-{"text":"Ctrl", "text2":"grey", "text3":"c3R"},
+{"text":"", "text2":"green", "text3":"c3R"},
+{"text":"", "text2":"green", "text3":"c3R"},
+{"text":"␣", "text2":"orange", "text3":"c3R"},
+{"text":"", "text2":"orange", "text3":"c3R"},
+{"text":"", "text2":"orange", "text3":"c3R"},
 ];
-
 
 } else {
 
+var keysRow1 = [
+{"text":"`", "text2":"", "text3":""},
+{"text":"1", "text2":"", "text3":""},
+{"text":"2", "text2":"", "text3":""},
+{"text":"3", "text2":"", "text3":""},
+{"text":"4", "text2":"", "text3":""},
+{"text":"5", "text2":"", "text3":""},
+{"text":"6", "text2":"", "text3":""},
+{"text":"7", "text2":"", "text3":""},
+{"text":"8", "text2":"", "text3":""},
+{"text":"9", "text2":"", "text3":""},
+{"text":"0", "text2":"", "text3":""},
+{"text":"-", "text2":"", "text3":""},
+{"text":"=", "text2":"", "text3":""},
+{"text":"⌫", "text2":"", "text3":""},
+{"text":"⌫", "text2":"", "text3":""},
+];
+var keysRow2 = [
+{"text":"↹", "text2":"", "text3":""},
+{"text":"q", "text2":"", "text3":""},
+{"text":"w", "text2":"", "text3":""},
+{"text":"e", "text2":"", "text3":""},
+{"text":"r", "text2":"", "text3":""},
+{"text":"t", "text2":"", "text3":""},
+{"text":"y", "text2":"", "text3":""},
+{"text":"u", "text2":"", "text3":""},
+{"text":"i", "text2":"", "text3":""},
+{"text":"o", "text2":"", "text3":""},
+{"text":"p", "text2":"", "text3":""},
+{"text":"[", "text2":"", "text3":""},
+{"text":"]", "text2":"", "text3":""},
+{"text":"!backslash", "text2":"", "text3":""},
+];
+var keysRow3 = [
+{"text":"⇪", "text2":"", "text3":""},
+{"text":"a", "text2":"", "text3":""},
+{"text":"s", "text2":"", "text3":""},
+{"text":"d", "text2":"", "text3":""},
+{"text":"f", "text2":"", "text3":""},
+{"text":"g", "text2":"", "text3":""},
+{"text":"h", "text2":"", "text3":""},
+{"text":"j", "text2":"", "text3":""},
+{"text":"k", "text2":"", "text3":""},
+{"text":"l", "text2":"", "text3":""},
+{"text":";", "text2":"", "text3":""},
+{"text":"!singlequote", "text2":"", "text3":""},
+{"text":"↵", "text2":"", "text3":""},
+];
+var keysRow4 = [
+{"text":"⇧", "text2":"", "text3":""},
+{"text":"z", "text2":"", "text3":""},
+{"text":"x", "text2":"", "text3":""},
+{"text":"c", "text2":"", "text3":""},
+{"text":"v", "text2":"", "text3":""},
+{"text":"b", "text2":"", "text3":""},
+{"text":"n", "text2":"", "text3":""},
+{"text":"m", "text2":"", "text3":""},
+{"text":",", "text2":"", "text3":""},
+{"text":".", "text2":"", "text3":""},
+{"text":"/", "text2":"", "text3":""},
+{"text":"⇧", "text2":"", "text3":""},
+];
+
+var keysRow5 = [
+{"text":"", "text2":"", "text3":""},
+{"text":"", "text2":"", "text3":""},
+{"text":"␣", "text2":"", "text3":""},
+{"text":"", "text2":"", "text3":""},
+{"text":"", "text2":"", "text3":""},
+];
+}
+
+} else {
+
+keyBrStyleHide = "none";
 
 var keysRow1 = [
 {"text":"1", "text2":"l2", "text3":"c3"},
@@ -205,7 +298,38 @@ printAllKeys += `<div id="vKeyId${val["text"]}" class="vKey" onclick="vKeyClicke
 });
 printAllKeys += `</div>`;
 
-printAllKeys = `<div class="vKeyboard">${printAllKeys}</div>`;
+
+
+let keyBrStylePrint = "";
+if (keyBrStyleHide == "block"){
+if (keyBrStyle == "colored"){
+keyBrStylePrint = `
+<a class="xSmall bold tag border margin1Px borderRadius" onclick="keyBrStyleSet('colored');return false;" href="#">Colored</a>
+<a class="xSmall gray tag border margin1Px borderRadius" onclick="keyBrStyleSet('mono');return false;" href="#">Mono</a>
+`;
+} else if (keyBrStyle == "mono"){
+keyBrStylePrint = `
+<a class="xSmall gray tag border margin1Px borderRadius" onclick="keyBrStyleSet('colored');return false;" href="#">Colored</a>
+<a class="xSmall bold tag border margin1Px borderRadius" onclick="keyBrStyleSet('mono');return false;" href="#">Mono</a>
+`;
+} else {
+keyBrStylePrint = `
+<a class="xSmall tag border margin1Px borderRadius" onclick="keyBrStyleSet('colored');return false;" href="#">Colored</a>
+<a class="xSmall tag border margin1Px borderRadius" onclick="keyBrStyleSet('mono');return false;" href="#">Mono</a>
+`;
+}
+}
+
+
+printAllKeys = `
+
+<div class="vKeyboard">
+${printAllKeys}
+<br>
+<div class="tRight">${keyBrStylePrint}</div>
+</div>
+
+`;
 
 headerStyle = `
 
