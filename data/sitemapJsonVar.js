@@ -483,7 +483,7 @@ var sitemapJsonVar = [
         "time": "id"
     },
     {
-        "text": "Posts\n\nPosts. Personal posts. | posts: ",
+        "text": "Posts\n\nPosts. Personal posts. Thoughts, reflections, remarks.\nThat is a more private and personal page that is not intended for public viewing. | posts: ",
         "url": "\/pages\/posts\/index.html",
         "tag": " #posts #page #main",
         "id": "53dcd041f945f83e20320e608ec3346f",

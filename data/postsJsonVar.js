@@ -3,6 +3,26 @@ var postsJsonVar =
 
 [
     {
+        "id": "35",
+        "text": "Microsoft only added an AI assistant extension and called it an \"AI-powered browser.\"\r\n\r\nI think a true AI-powered browser is a browser where AI is responsible for rendering the page; it generates the page after opening using its own AI rendering engine with its own page style and content. #browser.",
+        "text2": "",
+        "text3": "",
+        "url": "",
+        "tag": "#AI #browser",
+        "time": 1740725923,
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/posts\/?id=35\">id<\/a>"
+    },
+    {
+        "id": "34",
+        "text": "Microsoft is so aggressive that no one can remove the Microsoft Edge (Chromium) browser or OneDrive cloud drive. Maybe these are not regular programs, and many other things in the system relate to them.",
+        "text2": "",
+        "text3": "",
+        "url": "",
+        "tag": "#system #OS #Microsoft #Edge #OneDrive #cloud #drive #app #program #browser",
+        "time": 1740723599,
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/posts\/?id=34\">id<\/a>"
+    },
+    {
         "id": "33",
         "text": "serika dark - Default theme in Monkeytype",
         "text2": "",
