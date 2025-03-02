@@ -693,13 +693,6 @@ var sitemapJsonVar = [
         "time": "id"
     },
     {
-        "text": "Start menu\n\nSite start menu: quick access to pages. | start menu: ",
-        "url": "\/start-menu\/index.html",
-        "tag": " #start #menu #pages #search #all #page #main",
-        "id": "005ff3f10812b7008c669802fe85c2e5",
-        "time": "id"
-    },
-    {
         "text": "Stopwatch\n\nStop watch. Countdown from zero. | time stopwatch: ",
         "url": "\/projects\/time-stopwatch-30\/index.html",
         "tag": " #time #stopwatch #tool #info #countdown #timer #JavaScript #project",
@@ -1061,6 +1054,13 @@ var sitemapJsonVar = [
         "url": "\/projects\/transliterate-35\/index.html",
         "tag": " #Experimental #transliteration #text #tool #translit #JavaScript #project",
         "id": "7889d60dd8bd351837bffa8c72de05e9",
+        "time": "id"
+    },
+    {
+        "text": "\u2237 Start menu\n\nSite start menu: quick access to pages. | start menu: ",
+        "url": "\/start-menu\/index.html",
+        "tag": " #start #menu #pages #search #all #page #main",
+        "id": "005ff3f10812b7008c669802fe85c2e5",
         "time": "id"
     }
 ]

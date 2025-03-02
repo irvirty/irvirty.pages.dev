@@ -1,4 +1,4 @@
-// Keep v.3.12.0
+// Keep v.3.14.0
 // The static version of my offline "keep" PHP script that saves things (links, notes, etc).
 // Inspired by Twitter, Google Keep
 // Not for large data files.
@@ -1026,27 +1026,31 @@ margin: 0 auto;
 }
 
 .keepContent .post {
-display: flex;
 flex: 1 0 auto;
-flex-basis: auto;
-flex-direction: column;
-min-height: 100%; 
+justify-content: center;
+
+/*align-self: stretch;*/
 
 width: auto;
-width: 1fr;
-
-min-width: 100px;
-min-width: 45px;
-
+width: 220px;
 max-width: 100%;
-max-width: 160px;
+min-width: 1fr;
+gap: 0;
 
 margin: 3px;
 }
 
 .postFooter { grid-template-columns: 1fr; }
 
-@media(max-width: 220px) { .keepContent { display: block; width: 100%; }}
+@media(max-width: 500px) {
+.keepContent, .keepContent .post { display: block; width: 100%; }
+}
+
+.keepContent img {
+border-radius: var(--borderRadius2);
+box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+background-color: var(--l3);
+}
 
 </style>
 
@@ -1064,15 +1068,17 @@ keepStyle = `
 display: grid;
 width: 100%;
 /*grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));*/
-grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
 grid-template-rows: masonry;
 grid-gap: 5px;
+
 
 /*max-width: 1200px;*/
 /*margin: 0 auto;*/
 
 align-content: center;
 justify-content: space-evenly;
+justify-content: center;
 }
 
 .keepContent img {
@@ -1084,7 +1090,9 @@ background-color: var(--l3);
 
 .postFooter { grid-template-columns: 1fr; }
 
-@media(max-width: 220px) { .keepContent { display: block; width: 100%; }}
+@media(max-width: 300px) {
+.keepContent, .keepContent .post { display: block; width: 100%; }
+}
 </style>
 
 `;
@@ -2743,6 +2751,7 @@ justify-content: center;
 @media(max-width: 240px) {
 .galleryKeepNav { grid-template-columns: 1fr; }
 }
+
 </style>
 
 
