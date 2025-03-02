@@ -3,6 +3,16 @@ var postsJsonVar =
 
 [
     {
+        "id": "41",
+        "text": "I use Firefox.",
+        "text2": "",
+        "text3": "",
+        "url": "",
+        "tag": "#app #software #habit",
+        "time": 1740832228,
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/posts\/?id=41\">id<\/a>"
+    },
+    {
         "id": "37",
         "text": "I think the site should be updated once a day to avoid spam. To not be constantly at the top of the latest updates page, like the GitHub Explore page, and sorted by latest updates.",
         "text2": "",

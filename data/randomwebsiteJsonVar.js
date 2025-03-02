@@ -3,6 +3,16 @@ var randomwebsiteJsonVar =
 
 [
     {
+        "id": "112",
+        "text": "Home - The Mozilla Blog",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/blog.mozilla.org\/en\/",
+        "tag": "#blog #app #software",
+        "time": 1740837995,
+        "rightFooter": "<a class=\"brand\" href=\"\/projects\/random-website-69\/data-list.html?id=112\">id<\/a>"
+    },
+    {
         "id": "111",
         "text": "Category:Internet memes by year of introduction - Wikipedia",
         "text2": "",

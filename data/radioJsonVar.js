@@ -7,7 +7,7 @@ var radioJsonVar =
         "text2": "http:\/\/lbb.dyndns.tv:8005\/;",
         "text3": "mp3",
         "url": "https:\/\/www.lovebrothersband.com\/",
-        "tag": "#radio #RadioMusic #indie",
+        "tag": "#radio #RadioMusic #IndieMusic",
         "time": 1683377398,
         "rightFooter": ""
     },
@@ -30,6 +30,15 @@ var radioJsonVar =
         "rightFooter": ""
     },
     {
+        "text": "100hitz Hot Hitz : Today's Hitz without rap!, US | Free Internet Radio | TuneIn",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/tunein.com\/radio\/100hitz-Hot-Hitz--Todays-Hitz-without-rap-s111388\/",
+        "tag": "#radio #RadioMusic #top40 #PopMusic",
+        "time": 1680324111,
+        "rightFooter": ""
+    },
+    {
         "text": "101.7 The One",
         "text2": "https:\/\/blackburn-ais.leanstream.co\/CKNXFM-MP3",
         "text3": "mp3",
@@ -48,12 +57,39 @@ var radioJsonVar =
         "rightFooter": ""
     },
     {
+        "text": "107 Meridian FM, 107.0 FM, East Grinstead, UK | Free Internet Radio | TuneIn",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/tunein.com\/radio\/107-Meridian-FM-1070-s98953\/",
+        "tag": "#radio #RadioMusic",
+        "time": 1626659700,
+        "rightFooter": ""
+    },
+    {
         "text": "89.1 Max FM",
         "text2": "https:\/\/bayshore-ais.leanstream.co\/CISOFM-MP3",
         "text3": "mp3",
         "url": "https:\/\/www.891maxfm.ca\/",
         "tag": "#radio #AlternativeRock",
         "time": 1683383727,
+        "rightFooter": ""
+    },
+    {
+        "text": "89.1 Max FM, CISO-FM 89.1 FM, Barrie, Canada | Free Internet Radio | TuneIn",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/tunein.com\/radio\/891-Max-FM-s131113\/",
+        "tag": "#radio #RadioMusic #AlternativeRock",
+        "time": 1647439249,
+        "rightFooter": ""
+    },
+    {
+        "text": "8Radio, 94.3 FM, Dublin, Ireland | Free Internet Radio | TuneIn",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/tunein.com\/radio\/8Radio-943-s162354\/",
+        "tag": "#radio #RadioMusic #AlternativeRock",
+        "time": 1647436108,
         "rightFooter": ""
     },
     {
@@ -79,7 +115,7 @@ var radioJsonVar =
         "text2": "https:\/\/ais-sa3.cdnstream1.com\/2557_128.mp3",
         "text3": "mp3",
         "url": "https:\/\/wyep.org\/",
-        "tag": "#radio #RadioMusic #indie",
+        "tag": "#radio #RadioMusic #IndieMusic",
         "time": 1683376962,
         "rightFooter": ""
     },
@@ -88,7 +124,7 @@ var radioJsonVar =
         "text2": "",
         "text3": "",
         "url": "https:\/\/tunein.com\/radio\/913-WYEP-s24147\/",
-        "tag": "#radio #RadioMusic #indie",
+        "tag": "#radio #RadioMusic #IndieMusic",
         "time": 1720151486,
         "rightFooter": ""
     },
@@ -117,6 +153,15 @@ var radioJsonVar =
         "url": "https:\/\/96xmemphis.com\/",
         "tag": "#radio #RadioMusic #AlternativeRock",
         "time": 1683383537,
+        "rightFooter": ""
+    },
+    {
+        "text": "96X | Free Internet Radio | TuneIn",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/tunein.com\/radio\/96X-s309941\/",
+        "tag": "#radio #RadioMusic #AlternativeRock",
+        "time": 1647488590,
         "rightFooter": ""
     },
     {
@@ -174,6 +219,24 @@ var radioJsonVar =
         "rightFooter": ""
     },
     {
+        "text": "Alternative X-Rock Station | Free Internet Radio | TuneIn",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/tunein.com\/radio\/Alternative-X-Rock-Station-s263683\/",
+        "tag": "#radio #RadioMusic #AlternativeRock",
+        "time": 1647444718,
+        "rightFooter": ""
+    },
+    {
+        "text": "AlternativeRadio.us | Free Internet Radio | TuneIn",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/tunein.com\/radio\/AlternativeRadious-s221580\/",
+        "tag": "#radio #RadioMusic #AlternativeRock",
+        "time": 1646356273,
+        "rightFooter": ""
+    },
+    {
         "text": "AM 770 KTTH | Seattle's Leader of Conservative Talk Radio - MyNorthwest.com",
         "text2": "https:\/\/bonneville.cdnstream1.com\/2696_48.aac?aw_0_1st.playerid=Tuner",
         "text3": "aac",
@@ -187,8 +250,17 @@ var radioJsonVar =
         "text2": "https:\/\/stream.amazingradio.com:8443\/stream.mp3",
         "text3": "mp3",
         "url": "https:\/\/amazingradio.com\/",
-        "tag": "#radio #RadioMusic #indie",
+        "tag": "#radio #RadioMusic #IndieMusic",
         "time": 1683398276,
+        "rightFooter": ""
+    },
+    {
+        "text": "Amazing Radio | Free Internet Radio | TuneIn",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/tunein.com\/radio\/Amazing-Radio-s105824\/",
+        "tag": "#radio #RadioMusic #IndieMusic",
+        "time": 1626665593,
         "rightFooter": ""
     },
     {
@@ -205,7 +277,7 @@ var radioJsonVar =
         "text2": "https:\/\/radiocast.rtp.pt\/antena380a.mp3",
         "text3": "mp3",
         "url": "https:\/\/media.rtp.pt\/antena3\/",
-        "tag": "#radio #RadioMusic #top40 #adult #PopMusic #AlternativeRock",
+        "tag": "#radio #RadioMusic #top40 #AdultHits #PopMusic #AlternativeRock",
         "time": 1687923807,
         "rightFooter": ""
     },
@@ -216,6 +288,15 @@ var radioJsonVar =
         "url": "https:\/\/www.anthemsradio.com\/",
         "tag": "#radio #RadioMusic #90",
         "time": 1683352514,
+        "rightFooter": ""
+    },
+    {
+        "text": "Arrow Classic Rock | Free Internet Radio | TuneIn",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/tunein.com\/radio\/Arrow-Classic-Rock-s6702\/",
+        "tag": "#radio #rock #RadioMusic",
+        "time": 1646111243,
         "rightFooter": ""
     },
     {
@@ -234,6 +315,24 @@ var radioJsonVar =
         "url": "https:\/\/bailriggradio.lancastersu.co.uk\/",
         "tag": "#radio #RadioMusic #college",
         "time": 1683399019,
+        "rightFooter": ""
+    },
+    {
+        "text": "Bailrigg FM, 95.3 FM, Blackpool, UK | Free Internet Radio | TuneIn",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/tunein.com\/radio\/Bailrigg-FM-953-s20314\/",
+        "tag": "#radio #RadioMusic #CollegeRadio",
+        "time": 1740908440,
+        "rightFooter": ""
+    },
+    {
+        "text": "Bassoradio, 102.8 FM, Helsinki, Finland | Free Internet Radio | TuneIn",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/tunein.com\/radio\/Bassoradio-1028-s65168\/",
+        "tag": "#radio #PopMusic #top40 #RadioMusic",
+        "time": 1645953164,
         "rightFooter": ""
     },
     {
@@ -270,6 +369,15 @@ var radioJsonVar =
         "url": "https:\/\/tunein.com\/radio\/BBC-World-Service-s322318\/",
         "tag": "#radio #en #news",
         "time": 1739637732,
+        "rightFooter": ""
+    },
+    {
+        "text": "bigFM \u2013 Deutschlands biggste Beats | bigFM",
+        "text2": "https:\/\/stream.bigfm.de\/deutschland\/aac-128",
+        "text3": "",
+        "url": "https:\/\/www.bigfm.de\/",
+        "tag": "#radio #RadioMusic #jazz #lofi #chill #code #coding",
+        "time": 1700013447,
         "rightFooter": ""
     },
     {
@@ -327,6 +435,15 @@ var radioJsonVar =
         "rightFooter": ""
     },
     {
+        "text": "Caf\u00e9 del Mar Radio (official) | Free Internet Radio | TuneIn",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/tunein.com\/radio\/Caf-del-Mar-Radio-(official)-s280322\/",
+        "tag": "#radio #RadioMusic #chill #code #coding",
+        "time": 1624768789,
+        "rightFooter": ""
+    },
+    {
         "text": "Capital London, 95.8 FM, London, UK | Free Internet Radio | TuneIn",
         "text2": "",
         "text3": "",
@@ -340,8 +457,26 @@ var radioJsonVar =
         "text2": "https:\/\/tuneintoradio1.com\/listen\/caya_radio\/radio.mp3",
         "text3": "mp3",
         "url": "https:\/\/www.cayaradio.com\/",
-        "tag": "#radio #RadioMusic #indie #90 #rock #alternative",
+        "tag": "#radio #RadioMusic #IndieMusic #90 #rock #alternative",
         "time": 1683358049,
+        "rightFooter": ""
+    },
+    {
+        "text": "CBC Music Halifax, CBH-FM 102.7 FM, Halifax, Canada | Free Internet Radio | TuneIn",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/tunein.com\/radio\/CBC-Music-Halifax-1027-s25283\/",
+        "tag": "#radio #RadioMusic #calssical #IndieMusic #rock",
+        "time": 1647587450,
+        "rightFooter": ""
+    },
+    {
+        "text": "CBC Music Toronto, CBL-FM 94.1 FM, Toronto, Canada | Free Internet Radio | TuneIn",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/tunein.com\/radio\/CBC-Music-Toronto-941-s16699\/",
+        "tag": "#radio #RadioMusic #classical #IndieMusic #rock",
+        "time": 1647586689,
         "rightFooter": ""
     },
     {
@@ -408,6 +543,15 @@ var radioJsonVar =
         "rightFooter": ""
     },
     {
+        "text": "Chill With Starter FM | Free Internet Radio | TuneIn",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/tunein.com\/radio\/Chill-With-Starter-FM-s197282\/",
+        "tag": "#radio #RadioMusic #chill",
+        "time": 1740864749,
+        "rightFooter": ""
+    },
+    {
         "text": "CityNews Toronto | Breaking News | Top Local Stories",
         "text2": "https:\/\/rogers-hls.leanstream.co\/rogers\/tor680.stream\/icy",
         "text3": "mp3",
@@ -423,6 +567,15 @@ var radioJsonVar =
         "url": "https:\/\/tunein.com\/radio\/CityNews-Toronto-680-s31147\/",
         "tag": "#en #radio",
         "time": 1654865555,
+        "rightFooter": ""
+    },
+    {
+        "text": "Classic Oldies | Free Internet Radio | TuneIn",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/tunein.com\/radio\/Classic-Oldies-s268898\/",
+        "tag": "#radio #RadioMusic #ClassicHits",
+        "time": 1630983403,
         "rightFooter": ""
     },
     {
@@ -480,12 +633,30 @@ var radioJsonVar =
         "rightFooter": ""
     },
     {
+        "text": "Crooner Radio Lounge | Free Internet Radio | TuneIn",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/tunein.com\/radio\/Crooner-Radio-Lounge-s298983\/",
+        "tag": "#radio #RadioMusic #jazz",
+        "time": 1678453768,
+        "rightFooter": ""
+    },
+    {
         "text": "Dark Edge Radio - Soft Alternative\/Indie Music",
         "text2": "https:\/\/stream.darkedge.ro:8002\/stream\/1\/",
         "text3": "mp3",
         "url": "https:\/\/darkedge.ro\/",
-        "tag": "#radio #RadioMusic #indie",
+        "tag": "#radio #RadioMusic #IndieMusic",
         "time": 1683382871,
+        "rightFooter": ""
+    },
+    {
+        "text": "Dark Edge Radio | Free Internet Radio | TuneIn",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/tunein.com\/radio\/Dark-Edge-Radio-s304142\/",
+        "tag": "#radio #RadioMusic #IndieMusic",
+        "time": 1647517058,
         "rightFooter": ""
     },
     {
@@ -547,8 +718,17 @@ var radioJsonVar =
         "text2": "http:\/\/live-radio01.mediahubaustralia.com\/DJDW\/mp3\/",
         "text3": "mp3",
         "url": "https:\/\/www.abc.net.au\/doublej",
-        "tag": "#radio #RadioMusic #indie",
+        "tag": "#radio #RadioMusic #IndieMusic",
         "time": 1683383190,
+        "rightFooter": ""
+    },
+    {
+        "text": "Double J Sydney | Free Internet Radio | TuneIn",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/tunein.com\/radio\/Double-J-Sydney-s20270\/",
+        "tag": "#radio #RadioMusic #IndieMusic",
+        "time": 1647508935,
         "rightFooter": ""
     },
     {
@@ -558,6 +738,15 @@ var radioJsonVar =
         "url": "https:\/\/tunein.com\/radio\/DW-Radio-08-s25478\/",
         "tag": "#radio #de",
         "time": 1739637356,
+        "rightFooter": ""
+    },
+    {
+        "text": "ElverumsRadioen, 99.3 FM, Elverum, Norway | Free Internet Radio | TuneIn",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/tunein.com\/radio\/ElverumsRadioen-993-s165763\/",
+        "tag": "#radio #RadioMusic #AdultHits",
+        "time": 1740843277,
         "rightFooter": ""
     },
     {
@@ -588,11 +777,29 @@ var radioJsonVar =
         "rightFooter": ""
     },
     {
+        "text": "flash fm, 88.4 FM, Couvin, Belgium | Free Internet Radio | TuneIn",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/tunein.com\/radio\/flash-fm-884-s202287\/",
+        "tag": "#radio #RadioMusic #80s",
+        "time": 1740845593,
+        "rightFooter": ""
+    },
+    {
+        "text": "FluxFinest | Free Internet Radio | TuneIn",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/tunein.com\/radio\/FluxFinest-s259861\/",
+        "tag": "#radio #RadioMusic #IndieMusic",
+        "time": 1740865280,
+        "rightFooter": ""
+    },
+    {
         "text": "FluxFM",
         "text2": "https:\/\/channels.fluxfm.de\/flux-kompensator\/stream.mp3",
         "text3": "mp3",
         "url": "https:\/\/www.fluxfm.de\/",
-        "tag": "#radio #RadioMusic #indie",
+        "tag": "#radio #RadioMusic #IndieMusic",
         "time": 1683382805,
         "rightFooter": ""
     },
@@ -633,6 +840,24 @@ var radioJsonVar =
         "rightFooter": ""
     },
     {
+        "text": "Fuse FM | Free Internet Radio | TuneIn",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/tunein.com\/radio\/Fuse-FM-s2915\/",
+        "tag": "#radio #RadioMusic #AlternativeRock",
+        "time": 1647490801,
+        "rightFooter": ""
+    },
+    {
+        "text": "FUV Music, WFUV-HD2 90.7 FM, New York, US | Free Internet Radio | TuneIn",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/tunein.com\/radio\/FUV-Music-907-s52436\/",
+        "tag": "#radio #RadioMusic #IndieMusic #CollegeRadio",
+        "time": 1647570718,
+        "rightFooter": ""
+    },
+    {
         "text": "GotRadio - Streaming Free Internet Radio",
         "text2": "http:\/\/pureplay.cdnstream1.com\/6039_128.mp3",
         "text3": "mp3",
@@ -642,11 +867,47 @@ var radioJsonVar =
         "rightFooter": ""
     },
     {
+        "text": "GotRadio 90's Alternative, US | Free Internet Radio | TuneIn",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/tunein.com\/radio\/GotRadio-90s-Alternative-s65667\/",
+        "tag": "#radio #RadioMusic #AlternativeRock",
+        "time": 1679365003,
+        "rightFooter": ""
+    },
+    {
+        "text": "GotRadio Alternative Rock, US | Free Internet Radio | TuneIn",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/tunein.com\/radio\/GotRadio-Alternative-Rock-s49668\/",
+        "tag": "#radio #RadioMusic #AlternativeRock",
+        "time": 1679128857,
+        "rightFooter": ""
+    },
+    {
+        "text": "HAPPY HITS, Max FM 92.9 FM, Brussels, Belgium | Free Internet Radio | TuneIn",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/tunein.com\/radio\/HAPPY-HITS-929-s113070\/",
+        "tag": "#radio #RadioMusic #top40 #PopMusic",
+        "time": 1740845696,
+        "rightFooter": ""
+    },
+    {
+        "text": "Heads 106.4FM, 106.4 FM, Whangarei, New Zealand | Free Internet Radio | TuneIn",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/tunein.com\/radio\/Heads-1064FM-s167040\/",
+        "tag": "#radio #RadioMusic #IndieMusic",
+        "time": 1647527567,
+        "rightFooter": ""
+    },
+    {
         "text": "Heads FM Mangawhai 106.4 - HeadsFM",
         "text2": "http:\/\/167.114.156.116:8760\/stream",
         "text3": "mp3",
         "url": "https:\/\/www.headsfm.co.nz\/",
-        "tag": "#radio #RadioMusic #indie",
+        "tag": "#radio #RadioMusic #IndieMusic",
         "time": 1683382282,
         "rightFooter": ""
     },
@@ -673,7 +934,7 @@ var radioJsonVar =
         "text2": "http:\/\/stream-tx3.radioparadise.com\/mp3-192",
         "text3": "mp3",
         "url": "https:\/\/radioparadise.com\/home",
-        "tag": "#radio #RadioMusic #AlternativeRock #indie",
+        "tag": "#radio #RadioMusic #AlternativeRock #IndieMusic",
         "time": 1683383956,
         "rightFooter": ""
     },
@@ -691,7 +952,7 @@ var radioJsonVar =
         "text2": "https:\/\/streaming.live365.com\/a45877",
         "text3": "mp3",
         "url": "https:\/\/wknc.org\/",
-        "tag": "#radio #RadioMusic #indie",
+        "tag": "#radio #RadioMusic #IndieMusic",
         "time": 1683398953,
         "rightFooter": ""
     },
@@ -709,7 +970,7 @@ var radioJsonVar =
         "text2": "https:\/\/0n-indie.radionetz.de\/0n-indie.mp3",
         "text3": "mp3",
         "url": "https:\/\/www.webradios.de\/",
-        "tag": "#radio #RadioMusic #indie",
+        "tag": "#radio #RadioMusic #IndieMusic",
         "time": 1683357928,
         "rightFooter": ""
     },
@@ -718,7 +979,7 @@ var radioJsonVar =
         "text2": "https:\/\/music.wfuv.org\/music-hi",
         "text3": "mp3",
         "url": "https:\/\/wfuv.org\/",
-        "tag": "#radio #RadioMusic #college #indie",
+        "tag": "#radio #RadioMusic #college #IndieMusic",
         "time": 1683377140,
         "rightFooter": ""
     },
@@ -741,11 +1002,47 @@ var radioJsonVar =
         "rightFooter": ""
     },
     {
+        "text": "Houston Public Media Mixtape, KUHF-HD3 88.7 FM, Houston-Galveston, US | Free Internet Radio | TuneIn",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/tunein.com\/radio\/Houston-Public-Media-Mixtape-887-s67085\/",
+        "tag": "#radio #RadioMusic #HipHopMusic",
+        "time": 1647487939,
+        "rightFooter": ""
+    },
+    {
+        "text": "Ibiza Live Radio | Free Internet Radio | TuneIn",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/tunein.com\/radio\/Ibiza-Live-Radio-s203278\/",
+        "tag": "#radio #RadioMusic #house",
+        "time": 1624767843,
+        "rightFooter": ""
+    },
+    {
+        "text": "Ibiza Sonica Radio, Ibiza Radio Sonica 92.4 FM, Ibiza | Free Internet Radio | TuneIn",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/tunein.com\/radio\/Ibiza-Sonica-Radio-924-s78109\/",
+        "tag": "#radio #RadioMusic #dance #electronic",
+        "time": 1624768131,
+        "rightFooter": ""
+    },
+    {
+        "text": "idobi Anthm | Free Internet Radio | TuneIn",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/tunein.com\/radio\/idobi-Anthm-s237005\/",
+        "tag": "#radio #RadioMusic #IndieMusic",
+        "time": 1647535832,
+        "rightFooter": ""
+    },
+    {
         "text": "idobi Network - Running interviews into the ground since 1999",
         "text2": "http:\/\/idobianthm.idobi.com\/",
         "text3": "mp3",
         "url": "https:\/\/idobi.com\/",
-        "tag": "#radio #RadioMusic #indie",
+        "tag": "#radio #RadioMusic #IndieMusic",
         "time": 1683377336,
         "rightFooter": ""
     },
@@ -754,7 +1051,7 @@ var radioJsonVar =
         "text2": "http:\/\/peridot.streamguys.com:6010\/live",
         "text3": "mp3",
         "url": "https:\/\/891khol.org\/",
-        "tag": "#radio #RadioMusic #indie",
+        "tag": "#radio #RadioMusic #IndieMusic",
         "time": 1683382599,
         "rightFooter": ""
     },
@@ -777,11 +1074,20 @@ var radioJsonVar =
         "rightFooter": ""
     },
     {
+        "text": "KBOO Community Radio, 90.7 FM, Portland, US | Free Internet Radio | TuneIn",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/tunein.com\/radio\/KBOO-Community-Radio-907-s31809\/",
+        "tag": "#radio #RadioMusic #IndieMusic",
+        "time": 1647587409,
+        "rightFooter": ""
+    },
+    {
         "text": "KBOO | Community Radio for Portland and beyond",
         "text2": "https:\/\/live.kboo.fm:8443\/high",
         "text3": "mp3",
         "url": "https:\/\/kboo.fm\/",
-        "tag": "#radio #RadioMusic #indie",
+        "tag": "#radio #RadioMusic #IndieMusic",
         "time": 1683376534,
         "rightFooter": ""
     },
@@ -808,8 +1114,17 @@ var radioJsonVar =
         "text2": "https:\/\/kexp.streamguys1.com\/kexp64.aac",
         "text3": "aac",
         "url": "https:\/\/www.kexp.org\/",
-        "tag": "#radio #RadioMusic #indie",
+        "tag": "#radio #RadioMusic #IndieMusic",
         "time": 1683435187,
+        "rightFooter": ""
+    },
+    {
+        "text": "KEXP, KEXP-FM 90.3 FM, Seattle-Tacoma, US | Free Internet Radio | TuneIn",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/tunein.com\/radio\/KEXP-903-s32537\/",
+        "tag": "#radio #RadioMusic #IndieMusic",
+        "time": 1620118606,
         "rightFooter": ""
     },
     {
@@ -831,12 +1146,30 @@ var radioJsonVar =
         "rightFooter": ""
     },
     {
+        "text": "KINK | Free Internet Radio | TuneIn",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/tunein.com\/radio\/KINK-s210430\/",
+        "tag": "#radio #RadioMusic #AlternativeRock",
+        "time": 1620088607,
+        "rightFooter": ""
+    },
+    {
         "text": "KPTZ 91.9 FM Radio Port Townsend",
         "text2": "https:\/\/kptz.streamguys1.com\/live-mp3",
         "text3": "mp3",
         "url": "https:\/\/kptz.org\/",
-        "tag": "#radio #RadioMusic #indie",
+        "tag": "#radio #RadioMusic #IndieMusic",
         "time": 1683382748,
+        "rightFooter": ""
+    },
+    {
+        "text": "KPTZ, 91.9 FM, Seattle-Tacoma, US | Free Internet Radio | TuneIn",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/tunein.com\/radio\/KPTZ-919-s138748\/",
+        "tag": "#radio #RadioMusic #IndieMusic",
+        "time": 1647519029,
         "rightFooter": ""
     },
     {
@@ -862,8 +1195,17 @@ var radioJsonVar =
         "text2": "http:\/\/lostcoast.streamguys.us\/kslg-hi",
         "text3": "mp3",
         "url": "http:\/\/kslg.com\/",
-        "tag": "#radio #RadioMusic #indie",
+        "tag": "#radio #RadioMusic #IndieMusic",
         "time": 1683382222,
+        "rightFooter": ""
+    },
+    {
+        "text": "KUTX 98.9, 98.9 FM, Leander, US | Free Internet Radio | TuneIn",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/tunein.com\/radio\/KUTX-989-s32961\/",
+        "tag": "#radio #RadioMusic #AlternativeRock",
+        "time": 1620088621,
         "rightFooter": ""
     },
     {
@@ -873,6 +1215,24 @@ var radioJsonVar =
         "url": "https:\/\/kwss.org\/",
         "tag": "#radio #RadioMusic #AlternativeRock",
         "time": 1683383470,
+        "rightFooter": ""
+    },
+    {
+        "text": "KWSS Independent Radio, KWSS-LP 93.9 FM, Phoenix, US | Free Internet Radio | TuneIn",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/tunein.com\/radio\/KWSS-Independent-Radio-939-s97194\/",
+        "tag": "#radio #RadioMusic #AlternativeRock",
+        "time": 1740865437,
+        "rightFooter": ""
+    },
+    {
+        "text": "Labgate Alternative Rock and grunge | Free Internet Radio | TuneIn",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/tunein.com\/radio\/Labgate-Alternative-Rock-and-grunge-s301152\/",
+        "tag": "#radio #RadioMusic #AlternativeRock",
+        "time": 1647750049,
         "rightFooter": ""
     },
     {
@@ -894,6 +1254,15 @@ var radioJsonVar =
         "rightFooter": ""
     },
     {
+        "text": "Lightning 100, WRLT 100.1 FM, Nashville, US | Free Internet Radio | TuneIn",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/tunein.com\/radio\/Lightning-100-1001-s22480\/",
+        "tag": "#radio #RadioMusic #IndieRock",
+        "time": 1620088589,
+        "rightFooter": ""
+    },
+    {
         "text": "Listen Live \u2013 Happy Hits Radio 00\u2019s \u2013 Happy Hits Radio",
         "text2": "https:\/\/streams.happyhits.co.uk\/00s",
         "text3": "mp3",
@@ -912,6 +1281,51 @@ var radioJsonVar =
         "rightFooter": ""
     },
     {
+        "text": "Live - Cheesy FM (13.9K Favorites) TuneIn",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/tunein.com\/radio\/Cheesy-FM-s240329\/",
+        "tag": "#radio #RadioMusic #top40 #PopMusic",
+        "time": 1680324564,
+        "rightFooter": ""
+    },
+    {
+        "text": "Live - ENERGY Hits (42.1K Favorites) TuneIn",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/tunein.com\/radio\/ENERGY-Hits-s96837\/",
+        "tag": "#radio #RadioMusic #top40 #PopMusic",
+        "time": 1680325438,
+        "rightFooter": ""
+    },
+    {
+        "text": "Live - SLAM! Non Stop (28.3K Favorites) TuneIn",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/tunein.com\/radio\/SLAM-Non-Stop-s253879\/",
+        "tag": "#radio #RadioMusic #top40 #PopMusic",
+        "time": 1680324138,
+        "rightFooter": ""
+    },
+    {
+        "text": "Live - The Independent FM (6.2K Favorites) TuneIn",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/tunein.com\/radio\/The-Independent-FM-s165640\/",
+        "tag": "#radio #RadioMusic #IndieRock",
+        "time": 1680313194,
+        "rightFooter": ""
+    },
+    {
+        "text": "Live 00s ALIVE | Palm Radio | 472 Favorites | TuneIn",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/tunein.com\/radio\/00s-ALIVE-s291029\/",
+        "tag": "#radio #RadioMusic #00s",
+        "time": 1681865817,
+        "rightFooter": ""
+    },
+    {
         "text": "Live 101.4 FM | Radio Viking | 10.7K Favorites | TuneIn",
         "text2": "",
         "text3": "",
@@ -921,12 +1335,30 @@ var radioJsonVar =
         "rightFooter": ""
     },
     {
+        "text": "Live 101.7 FM - CKNX-FM (13.0K Favorites) TuneIn",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/tunein.com\/radio\/1017-The-One-s31273\/",
+        "tag": "#radio #RadioMusic #top40 #PopMusic",
+        "time": 1680324386,
+        "rightFooter": ""
+    },
+    {
         "text": "Live 102.6 FM | GOLD | 12.6K Favorites | TuneIn",
         "text2": "",
         "text3": "",
         "url": "https:\/\/tunein.com\/radio\/GOLD-FM-1026-s110619\/",
         "tag": "#radio #RadioMusic #ClassicHits",
         "time": 1708517230,
+        "rightFooter": ""
+    },
+    {
+        "text": "Live 103.4 FM - ENERGY Berlin (129.3K Favorites) TuneIn",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/tunein.com\/radio\/ENERGY-Berlin-1034-s11067\/",
+        "tag": "#radio #RadioMusic #top40 #PopMusic",
+        "time": 1680325916,
         "rightFooter": ""
     },
     {
@@ -1065,6 +1497,24 @@ var radioJsonVar =
         "rightFooter": ""
     },
     {
+        "text": "Live 97.6 FM | Kfm Radio | 13.6K Favorites | TuneIn",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/tunein.com\/radio\/Kfm-Radio-976-s80451\/",
+        "tag": "#radio #RadioMusic #90s",
+        "time": 1681865675,
+        "rightFooter": ""
+    },
+    {
+        "text": "Live 97.7 FM | C97 7 | CHUP-FM | 28.3K Favorites | TuneIn",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/tunein.com\/radio\/C97-7-977-s89527\/",
+        "tag": "#radio #RadioMusic #90s",
+        "time": 1681865699,
+        "rightFooter": ""
+    },
+    {
         "text": "Live 98.0 FM | Decibel | Radio Noord-Holland | 24.3K Favorites | TuneIn",
         "text2": "",
         "text3": "",
@@ -1080,6 +1530,24 @@ var radioJsonVar =
         "url": "https:\/\/tunein.com\/radio\/esradio-Directo-991-s111410\/",
         "tag": "#es #radio",
         "time": 1679806847,
+        "rightFooter": ""
+    },
+    {
+        "text": "Live 99.6 FM - SWR3 (635.8K Favorites) TuneIn",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/tunein.com\/radio\/SWR3-996-s24896\/",
+        "tag": "#radio #RadioMusic #top40 #PopMusic",
+        "time": 1680325689,
+        "rightFooter": ""
+    },
+    {
+        "text": "Live 99.9 FM - CFGX-FM (13.4K Favorites) TuneIn",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/tunein.com\/radio\/The-Fox-999-s31121\/",
+        "tag": "#radio #RadioMusic #top40 #PopMusic",
+        "time": 1680324047,
         "rightFooter": ""
     },
     {
@@ -1222,7 +1690,7 @@ var radioJsonVar =
         "text2": "",
         "text3": "",
         "url": "https:\/\/tunein.com\/radio\/JAM-FM-Black-Label-s237163\/",
-        "tag": "#radio #RadioMusic #top40 #PopMusic #dance #HipHop",
+        "tag": "#radio #RadioMusic #top40 #PopMusic #dance #HipHopMusic",
         "time": 1706025422,
         "rightFooter": ""
     },
@@ -1285,7 +1753,7 @@ var radioJsonVar =
         "text2": "",
         "text3": "",
         "url": "https:\/\/tunein.com\/radio\/RnB-Radio-s309403\/",
-        "tag": "#radio #RadioMusic #RnB #HipHop",
+        "tag": "#radio #RadioMusic #RnB #HipHopMusic",
         "time": 1706025280,
         "rightFooter": ""
     },
@@ -1375,7 +1843,7 @@ var radioJsonVar =
         "text2": "https:\/\/streams.loudspeaker.org\/radio\/8000\/one",
         "text3": "mp3",
         "url": "https:\/\/www.loudspeaker.org\/channels\/one",
-        "tag": "#radio #RadioMusic #indie",
+        "tag": "#radio #RadioMusic #IndieMusic",
         "time": 1683377279,
         "rightFooter": ""
     },
@@ -1384,7 +1852,7 @@ var radioJsonVar =
         "text2": "",
         "text3": "",
         "url": "https:\/\/tunein.com\/radio\/Loudspeaker-One-s302839\/",
-        "tag": "#radio #RadioMusic #indie",
+        "tag": "#radio #RadioMusic #IndieMusic",
         "time": 1720149299,
         "rightFooter": ""
     },
@@ -1393,8 +1861,44 @@ var radioJsonVar =
         "text2": "",
         "text3": "",
         "url": "https:\/\/tunein.com\/radio\/Loutraki-FM-969-s103776\/",
-        "tag": "#radio #RadioMusic #indie",
+        "tag": "#radio #RadioMusic #IndieMusic",
         "time": 1710832498,
+        "rightFooter": ""
+    },
+    {
+        "text": "LRT OPUS, 98.3 FM, Vilnius county, Lithuania | Free Internet Radio | TuneIn",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/tunein.com\/radio\/LRT-OPUS-983-s15908\/",
+        "tag": "#radio #RadioMusic #dance #electronic",
+        "time": 1645964659,
+        "rightFooter": ""
+    },
+    {
+        "text": "LRT RADIJAS, 612 AM, Vilnius county, Lithuania | Free Internet Radio | TuneIn",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/tunein.com\/radio\/LRT-RADIJAS-612-s25518\/",
+        "tag": "#lt #radio",
+        "time": 1645964963,
+        "rightFooter": ""
+    },
+    {
+        "text": "LuxuriaMusic | Free Internet Radio | TuneIn",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/tunein.com\/radio\/LuxuriaMusic-s98681\/",
+        "tag": "#radio #RadioMusic #IndieMusic",
+        "time": 1647523686,
+        "rightFooter": ""
+    },
+    {
+        "text": "M-1 Radio, 105.9 FM, Utena County, Lithuania | Free Internet Radio | TuneIn",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/tunein.com\/radio\/M-1-Radio-1059-s15909\/",
+        "tag": "#radio #top40 #PopMusic #RadioMusic",
+        "time": 1740838973,
         "rightFooter": ""
     },
     {
@@ -1416,6 +1920,15 @@ var radioJsonVar =
         "rightFooter": ""
     },
     {
+        "text": "Majestic Jukebox Radio | Free Internet Radio | TuneIn",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/tunein.com\/radio\/Majestic-Jukebox-Radio-s302456\/",
+        "tag": "#radio #RadiMusic #60s",
+        "time": 1631708201,
+        "rightFooter": ""
+    },
+    {
         "text": "Masuala ya hivi sasa, habari moja kwa moja - Radio France Internationale - RFI",
         "text2": "https:\/\/rfiswahili96k.ice.infomaniak.ch\/rfiswahili-96k.mp3",
         "text3": "mp3",
@@ -1429,7 +1942,7 @@ var radioJsonVar =
         "text2": "https:\/\/stream.scansat.no\/scansat_hq",
         "text3": "mp3",
         "url": "http:\/\/scansat.no\/",
-        "tag": "#radio #adult",
+        "tag": "#radio #AdultHits #RadioMusic",
         "time": 1684375592,
         "rightFooter": ""
     },
@@ -1479,6 +1992,15 @@ var radioJsonVar =
         "rightFooter": ""
     },
     {
+        "text": "Nea Nyheter, Norway | Free Internet Radio | TuneIn",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/tunein.com\/radio\/Nea-Nyheter-s309696\/",
+        "tag": "#radio #no",
+        "time": 1646042935,
+        "rightFooter": ""
+    },
+    {
         "text": "News from the Czech Republic | Radio Prague International",
         "text2": "https:\/\/rozhlas.stream\/cro7_mp3_128.mp3",
         "text3": "mp3",
@@ -1501,8 +2023,26 @@ var radioJsonVar =
         "text2": "http:\/\/msmn.co:8118\/stream?type=http&nocache=365",
         "text3": "mp3",
         "url": "https:\/\/radio.nme.com\/",
-        "tag": "#radio #RadioMusic #indie",
+        "tag": "#radio #RadioMusic #IndieMusic",
         "time": 1683383003,
+        "rightFooter": ""
+    },
+    {
+        "text": "Nova FM, 97.5 FM, Newport, UK | Free Internet Radio | TuneIn",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/tunein.com\/radio\/Nova-FM-975-s157009\/",
+        "tag": "#radio #RadioMusic #top40 #PopMusic",
+        "time": 1680325582,
+        "rightFooter": ""
+    },
+    {
+        "text": "NPO CAMPUS | Free Internet Radio | TuneIn",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/tunein.com\/radio\/NPO-CAMPUS-s86629\/",
+        "tag": "#radio #RadioMusic #AlternativeRock",
+        "time": 1740907721,
         "rightFooter": ""
     },
     {
@@ -1521,6 +2061,15 @@ var radioJsonVar =
         "url": "https:\/\/www.nrk.no\/",
         "tag": "#radio #no",
         "time": 1683395759,
+        "rightFooter": ""
+    },
+    {
+        "text": "ON Indie | Free Internet Radio | TuneIn",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/tunein.com\/radio\/ON-Indie-s307213\/",
+        "tag": "#radio #RadioMusic  #IndieMusic",
+        "time": 1680313124,
         "rightFooter": ""
     },
     {
@@ -1548,6 +2097,15 @@ var radioJsonVar =
         "url": "https:\/\/www.kronehit.at\/",
         "tag": "#radio #RadioMusic #top40 #PopMusic",
         "time": 1683395529,
+        "rightFooter": ""
+    },
+    {
+        "text": "ORF Radio FM4, ORF FM 4 103.8 FM, Wien, Austria | Free Internet Radio | TuneIn",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/tunein.com\/radio\/ORF-Radio-FM4-1038-s8235\/",
+        "tag": "#radio #RadioMusic #AlternativeRock",
+        "time": 1646355903,
         "rightFooter": ""
     },
     {
@@ -1587,12 +2145,75 @@ var radioJsonVar =
         "rightFooter": ""
     },
     {
+        "text": "Power Hit Radio, 95.9 FM, Vilnius county, Lithuania | Free Internet Radio | TuneIn",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/tunein.com\/radio\/Power-Hit-Radio-959-s2862\/",
+        "tag": "#dance #PopMusic #RadioMusic #radio",
+        "time": 1645965794,
+        "rightFooter": ""
+    },
+    {
+        "text": "Pulsas, 107.3 FM, Panevezys County, Lithuania | Free Internet Radio | TuneIn",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/tunein.com\/radio\/Pulsas-1073-s15902\/",
+        "tag": "#radio #RadioMusic #top40 #PopMusic",
+        "time": 1740839459,
+        "rightFooter": ""
+    },
+    {
+        "text": "QCIndie | Free Internet Radio | TuneIn",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/tunein.com\/radio\/QCIndie-s253577\/",
+        "tag": "#radio #RadioMusic #AlternativeRock",
+        "time": 1680312711,
+        "rightFooter": ""
+    },
+    {
         "text": "QCIndie.com \u2013 Regina's Alternative",
         "text2": "https:\/\/stream.qcindie.com\/live",
         "text3": "mp3",
         "url": "https:\/\/www.qcindie.com\/",
-        "tag": "#radio #RadioMusic #indie #alternative",
+        "tag": "#radio #RadioMusic #IndieMusic #alternative",
         "time": 1683358190,
+        "rightFooter": ""
+    },
+    {
+        "text": "Radijo stotis Laluna, Laluna Radio 94.9 FM, Vilnius county, Lithuania | Free Internet Radio | TuneIn",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/tunein.com\/radio\/Radijo-stotis-Laluna-949-s9851\/",
+        "tag": "#radio #PopMusic #top40",
+        "time": 1645966339,
+        "rightFooter": ""
+    },
+    {
+        "text": "radio 88 6, 88.6 FM, Wien, Austria | Free Internet Radio | TuneIn",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/tunein.com\/radio\/radio-88-6-886-s25744\/",
+        "tag": "#radio #rock #RadioMusic",
+        "time": 1646356781,
+        "rightFooter": ""
+    },
+    {
+        "text": "Radio Ask\u00f8y, 106.4 FM, Bergen, Norway | Free Internet Radio | TuneIn",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/tunein.com\/radio\/Radio-Ask\u00f8y-1064-s59399\/",
+        "tag": "#radio #RadioMusic #AdultHits",
+        "time": 1740844007,
+        "rightFooter": ""
+    },
+    {
+        "text": "Radio Bardufoss, 103.8 FM, Bardufoss, Norway | Free Internet Radio | TuneIn",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/tunein.com\/radio\/Radio-Bardufoss-1038-s87749\/",
+        "tag": "#radio #RadioMusic #AdultHits #top40 #PopMusic",
+        "time": 1740844047,
         "rightFooter": ""
     },
     {
@@ -1600,8 +2221,26 @@ var radioJsonVar =
         "text2": "https:\/\/s3.radio.co\/s9909bd65f\/listen",
         "text3": "mp3",
         "url": "http:\/\/www.radioburgerfuel.com\/",
-        "tag": "#radio #RadioMusic #indie",
+        "tag": "#radio #RadioMusic #IndieMusic",
         "time": 1683382021,
+        "rightFooter": ""
+    },
+    {
+        "text": "Radio BurgerFuel | Free Internet Radio | TuneIn",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/tunein.com\/radio\/Radio-BurgerFuel-s178759\/",
+        "tag": "#radio #RadioMusic #IndieMusic",
+        "time": 1647533029,
+        "rightFooter": ""
+    },
+    {
+        "text": "Radio Byron | Free Internet Radio | TuneIn",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/tunein.com\/radio\/Radio-Byron-s243820\/",
+        "tag": "#radio #RadioMusic #AlternativeRock",
+        "time": 1647746970,
         "rightFooter": ""
     },
     {
@@ -1623,12 +2262,30 @@ var radioJsonVar =
         "rightFooter": ""
     },
     {
+        "text": "Radio City, 99.4 FM, Helsinki, Finland | Free Internet Radio | TuneIn",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/tunein.com\/radio\/Radio-City-994-s14840\/",
+        "tag": "#radio #RadioMusic #rock",
+        "time": 1740864590,
+        "rightFooter": ""
+    },
+    {
         "text": "Radio Darkitalia | Free Internet Radio | TuneIn",
         "text2": "",
         "text3": "",
         "url": "https:\/\/tunein.com\/radio\/Radio-Darkitalia-s305616\/",
         "tag": "#radio #RadioMusic #AlternativeRock",
         "time": 1733984468,
+        "rightFooter": ""
+    },
+    {
+        "text": "Radio Emotion Belgique, 104.9 FM, Braine-l'Alleud, Belgium | Free Internet Radio | TuneIn",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/tunein.com\/radio\/Radio-Emotion-Belgique-1049-s242260\/",
+        "tag": "#radio #RadioMusic #AdultHits",
+        "time": 1740845779,
         "rightFooter": ""
     },
     {
@@ -1659,6 +2316,15 @@ var radioJsonVar =
         "rightFooter": ""
     },
     {
+        "text": "Radio L, 107.4 FM, Kristiansand, Norway | Free Internet Radio | TuneIn",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/tunein.com\/radio\/Radio-L-1074-s102772\/",
+        "tag": "#radio #RadioMusic #PopCountry",
+        "time": 1740844116,
+        "rightFooter": ""
+    },
+    {
         "text": "Radio Libert\u00e0, 103.5 FM, Lombardy, Italy | Free Internet Radio | TuneIn",
         "text2": "",
         "text3": "",
@@ -1668,12 +2334,57 @@ var radioJsonVar =
         "rightFooter": ""
     },
     {
+        "text": "Radio Loland, 104.4 FM, Kristiansand, Norway | Free Internet Radio | TuneIn",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/tunein.com\/radio\/Radio-Loland-1044-s110458\/",
+        "tag": "#radio #RadioMusic #WorldMusic",
+        "time": 1740844439,
+        "rightFooter": ""
+    },
+    {
+        "text": "Radio Media, 107 FM, Oudenaarde, Belgium | Free Internet Radio | TuneIn",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/tunein.com\/radio\/Radio-Media-107-s265999\/",
+        "tag": "#radio #RadioMusic #CalssicHits",
+        "time": 1740845910,
+        "rightFooter": ""
+    },
+    {
         "text": "Radio Milwaukee | Homepage | Radio Milwaukee",
         "text2": "https:\/\/wyms.streamguys1.com\/live",
         "text3": "mp3",
         "url": "https:\/\/radiomilwaukee.org\/",
         "tag": "#radio #RadioMusic #eclectic",
         "time": 1683864616,
+        "rightFooter": ""
+    },
+    {
+        "text": "Radio Nordsjo, 106.1 FM, Kristiansand, Norway | Free Internet Radio | TuneIn",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/tunein.com\/radio\/Radio-Nordsjo-1061-s108040\/",
+        "tag": "#radio #RadioMusic #top40 #PopMusic",
+        "time": 1740844483,
+        "rightFooter": ""
+    },
+    {
+        "text": "Radio Paradise | Free Internet Radio | TuneIn",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/tunein.com\/radio\/Radio-Paradise-s13606\/",
+        "tag": "#radio #RadioMusic #AlternativeRock #IndieMusic",
+        "time": 1647431060,
+        "rightFooter": ""
+    },
+    {
+        "text": "Radio Quartz, 93.9 FM, Sombreffe, Belgium | Free Internet Radio | TuneIn",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/tunein.com\/radio\/Radio-Quartz-939-s10012\/",
+        "tag": "#radio #RadioMusic #top40 #PopMusic",
+        "time": 1740846025,
         "rightFooter": ""
     },
     {
@@ -1695,6 +2406,42 @@ var radioJsonVar =
         "rightFooter": ""
     },
     {
+        "text": "Radio Rox, 901 ROX 90.1 FM, Oslo, Norway | Free Internet Radio | TuneIn",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/tunein.com\/radio\/Radio-Rox-901-s161244\/",
+        "tag": "#radio #rock #RadioMusic",
+        "time": 1646047014,
+        "rightFooter": ""
+    },
+    {
+        "text": "Radio Sotra, 100.9 FM, Brakstad, Norway | Free Internet Radio | TuneIn",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/tunein.com\/radio\/Radio-Sotra-1009-s48188\/",
+        "tag": "#radio #RadioMusic #variety",
+        "time": 1740844912,
+        "rightFooter": ""
+    },
+    {
+        "text": "Radio Superfly, 98.3 FM, Vienna, Austria | Free Internet Radio | TuneIn",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/tunein.com\/radio\/Radio-Superfly-983-s68225\/",
+        "tag": "#radio #RadioMusic #soul",
+        "time": 1740907466,
+        "rightFooter": ""
+    },
+    {
+        "text": "Radio Troms\u00f8, 105.6 FM, Troms\u00f8, Norway | Free Internet Radio | TuneIn",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/tunein.com\/radio\/Radio-Troms\u00f8-1056-s10048\/",
+        "tag": "#radio #RadioMusic #top40 #PopMusic",
+        "time": 1740844999,
+        "rightFooter": ""
+    },
+    {
         "text": "Radio Vaticana Italia, 105.0 FM, Vatican, Vatican City | Free Internet Radio | TuneIn",
         "text2": "",
         "text3": "",
@@ -1710,6 +2457,15 @@ var radioJsonVar =
         "url": "https:\/\/radiox.ch\/",
         "tag": "#radio #RadioMusic #variety",
         "time": 1683396007,
+        "rightFooter": ""
+    },
+    {
+        "text": "Radio X, 94.5 FM, Basel, Switzerland | Free Internet Radio | TuneIn",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/tunein.com\/radio\/Radio-X-945-s15444\/",
+        "tag": "#radio #RadioMusic #variety",
+        "time": 1644844052,
         "rightFooter": ""
     },
     {
@@ -1812,12 +2568,39 @@ var radioJsonVar =
         "rightFooter": ""
     },
     {
+        "text": "ROCK ANTENNE Alternative | Free Internet Radio | TuneIn",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/tunein.com\/radio\/ROCK-ANTENNE-Alternative-s125936\/",
+        "tag": "#radio #RadioMusic #AlternativeRock",
+        "time": 1679025705,
+        "rightFooter": ""
+    },
+    {
+        "text": "Rock FM, 94.9 FM, Vilnius county, Lithuania | Free Internet Radio | TuneIn",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/tunein.com\/radio\/Rock-FM-949-s183971\/",
+        "tag": "#radio #rock #RadioMusic",
+        "time": 1740839609,
+        "rightFooter": ""
+    },
+    {
         "text": "Rockabilly Radio",
         "text2": "https:\/\/rradio.fastserv.com\/hifi",
         "text3": "mp3",
         "url": "https:\/\/www.rockabillyradio.net\/",
         "tag": "#radio #RadioMusic #rockabilly #50",
         "time": 1631709181,
+        "rightFooter": ""
+    },
+    {
+        "text": "Sanctuary Radio Dark Electro Channel | Free Internet Radio | TuneIn",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/tunein.com\/radio\/Sanctuary-Radio-Dark-Electro-Channel-s121323\/",
+        "tag": "#radio #RadioMusic #AlternativeRock",
+        "time": 1740907272,
         "rightFooter": ""
     },
     {
@@ -1848,6 +2631,15 @@ var radioJsonVar =
         "rightFooter": ""
     },
     {
+        "text": "Slammin Tunes | Free Internet Radio | TuneIn",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/tunein.com\/radio\/Slammin-Tunes-s164266\/",
+        "tag": "#radio #RadioMusic #AdultHits",
+        "time": 1647750122,
+        "rightFooter": ""
+    },
+    {
         "text": "Smooth Jazz 24\/7 | Free Internet Radio | TuneIn",
         "text2": "",
         "text3": "",
@@ -1861,8 +2653,26 @@ var radioJsonVar =
         "text2": "http:\/\/ice2.somafm.com\/poptron-128-mp3",
         "text3": "mp3",
         "url": "https:\/\/somafm.com\/",
-        "tag": "#radio #RadioMusic #indie",
+        "tag": "#radio #RadioMusic #IndieMusic",
         "time": 1683382924,
+        "rightFooter": ""
+    },
+    {
+        "text": "SomaFM: Indie Pop Rocks! | Free Internet Radio | TuneIn",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/tunein.com\/radio\/SomaFM-Indie-Pop-Rocks-s2592\/",
+        "tag": "#radio #RadioMusic #IndieMusic",
+        "time": 1647510551,
+        "rightFooter": ""
+    },
+    {
+        "text": "SomaFM: PopTron | Free Internet Radio | TuneIn",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/tunein.com\/radio\/SomaFM-PopTron-s112350\/",
+        "tag": "#radio #RadioMusic #IndieMusic",
+        "time": 1647512950,
         "rightFooter": ""
     },
     {
@@ -1933,7 +2743,7 @@ var radioJsonVar =
         "text2": "",
         "text3": "",
         "url": "https:\/\/tunein.com\/radio\/The-Bridge-909-s35581\/",
-        "tag": "#radio #RadioMusic #AlternativeRock #indie #WorldMusic #blues",
+        "tag": "#radio #RadioMusic #AlternativeRock #IndieMusic #WorldMusic #blues",
         "time": 1726145713,
         "rightFooter": ""
     },
@@ -1942,8 +2752,17 @@ var radioJsonVar =
         "text2": "https:\/\/current.stream.publicradio.org\/current.mp3",
         "text3": "mp3",
         "url": "https:\/\/www.thecurrent.org\/",
-        "tag": "#radio #RadioMusic #indie #rock",
+        "tag": "#radio #RadioMusic #IndieMusic #rock",
         "time": 1683383115,
+        "rightFooter": ""
+    },
+    {
+        "text": "The Current, KCMP 89.3 FM, Saint Paul, US | Free Internet Radio | TuneIn",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/tunein.com\/radio\/The-Current-893-s20620\/",
+        "tag": "#radio #RadioMusic #IndieMusic",
+        "time": 1647509348,
         "rightFooter": ""
     },
     {
@@ -1956,6 +2775,15 @@ var radioJsonVar =
         "rightFooter": ""
     },
     {
+        "text": "The Dump - Internet Radio | Free Internet Radio | TuneIn",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/tunein.com\/radio\/The-Dump---Internet-Radio-s140358\/",
+        "tag": "#radio #RadioMusic #AlternativeRock",
+        "time": 1647749410,
+        "rightFooter": ""
+    },
+    {
         "text": "The Fox 99.9",
         "text2": "https:\/\/blackburn-ais.leanstream.co\/CFGXFM",
         "text3": "mp3",
@@ -1965,12 +2793,57 @@ var radioJsonVar =
         "rightFooter": ""
     },
     {
+        "text": "The Rebel-HD2, KUNV-HD2 91.5 FM, Las Vegas, US | Free Internet Radio | TuneIn",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/tunein.com\/radio\/The-Rebel-HD2-915-s137229\/",
+        "tag": "#radio #RadioMusic #PopMusic #CollegeRadio",
+        "time": 1647590071,
+        "rightFooter": ""
+    },
+    {
         "text": "The SoCal Sound | Southern California Radio",
         "text2": "https:\/\/stream4.885fm.org\/1",
         "text3": "mp3",
         "url": "https:\/\/www.thesocalsound.org\/",
         "tag": "#radio #RadioMusic #AlternativeRock",
         "time": 1683395225,
+        "rightFooter": ""
+    },
+    {
+        "text": "The SoCal Sound, KCSN 88.5 FM, Northridge, US | Free Internet Radio | TuneIn",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/tunein.com\/radio\/The-SoCal-Sound-885-s32164\/",
+        "tag": "#radio #RadioMusic #AlternativeRock",
+        "time": 1740907622,
+        "rightFooter": ""
+    },
+    {
+        "text": "The Spy FM | Free Internet Radio | TuneIn",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/tunein.com\/radio\/The-Spy-FM-s137971\/",
+        "tag": "#radio #RadioMusic #AlternativeRock",
+        "time": 1628726274,
+        "rightFooter": ""
+    },
+    {
+        "text": "TMM 1 | Free Internet Radio | TuneIn",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/tunein.com\/radio\/TMM-1-s159857\/",
+        "tag": "#radio #RadioMusic #IndieMusic",
+        "time": 1740904660,
+        "rightFooter": ""
+    },
+    {
+        "text": "TMM 2 | Free Internet Radio | TuneIn",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/tunein.com\/radio\/TMM-2-s155539\/",
+        "tag": "#radio #RadioMusic #IndieMusic",
+        "time": 1740865408,
         "rightFooter": ""
     },
     {
@@ -1987,8 +2860,17 @@ var radioJsonVar =
         "text2": "http:\/\/live-radio01.mediahubaustralia.com\/2TJW\/mp3\/",
         "text3": "mp3",
         "url": "https:\/\/www.abc.net.au\/triplej",
-        "tag": "#radio #RadioMusic #HipHop #AlternativeRock #indie",
+        "tag": "#radio #RadioMusic #HipHopMusic #AlternativeRock #IndieMusic",
         "time": 1683376642,
+        "rightFooter": ""
+    },
+    {
+        "text": "triple j, 2JJJ 105.7 FM, Sydney, Australia | Free Internet Radio | TuneIn",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/tunein.com\/radio\/triple-j-1057-s25508\/",
+        "tag": "#radio #RadioMusic #HipHopMusic #IndieMusic",
+        "time": 1647586373,
         "rightFooter": ""
     },
     {
@@ -1998,6 +2880,15 @@ var radioJsonVar =
         "url": "https:\/\/trojka.polskieradio.pl\/",
         "tag": "#radio #pl",
         "time": 1683440083,
+        "rightFooter": ""
+    },
+    {
+        "text": "TV Visjon Norge | Free Internet Radio | TuneIn",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/tunein.com\/radio\/TV-Visjon-Norge-s80484\/",
+        "tag": "#radio #no",
+        "time": 1740845116,
         "rightFooter": ""
     },
     {
@@ -2037,6 +2928,15 @@ var radioJsonVar =
         "rightFooter": ""
     },
     {
+        "text": "VRT Studio Brussel, 100.6 FM, Brussels, Belgium | Free Internet Radio | TuneIn",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/tunein.com\/radio\/VRT-Studio-Brussel-1006-s2611\/",
+        "tag": "#radio #RadioMusic #AlternativeRock",
+        "time": 1647439970,
+        "rightFooter": ""
+    },
+    {
         "text": "WAMU, 88.5 FM, Washington, US | Free Internet Radio | TuneIn",
         "text2": "",
         "text3": "",
@@ -2050,8 +2950,17 @@ var radioJsonVar =
         "text2": "https:\/\/playerservices.streamtheworld.com\/api\/livestream-redirect\/WERSFMAAC.aac",
         "text3": "aac",
         "url": "https:\/\/wers.org\/",
-        "tag": "#radio #RadioMusic #indie #WolrdMusic",
+        "tag": "#radio #RadioMusic #IndieMusic #WolrdMusic",
         "time": 1683377038,
+        "rightFooter": ""
+    },
+    {
+        "text": "WERS, 88.9 FM, Boston, US | Free Internet Radio | TuneIn",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/tunein.com\/radio\/WERS-889-s28589\/",
+        "tag": "#radio #RadioMusic #IndieMusic #RMBMusic",
+        "time": 1647579646,
         "rightFooter": ""
     },
     {
@@ -2073,12 +2982,30 @@ var radioJsonVar =
         "rightFooter": ""
     },
     {
+        "text": "WKNC Raleigh, WKNC-FM 88.1 FM, Raleigh-Durham, US | Free Internet Radio | TuneIn",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/tunein.com\/radio\/WKNC-Raleigh-881-s30302\/",
+        "tag": "#radio #RadioMusic #IndieRock",
+        "time": 1624751730,
+        "rightFooter": ""
+    },
+    {
         "text": "WLUW 88.7FM",
         "text2": "https:\/\/wluw.streamguys1.com\/stream.mp3",
         "text3": "mp3",
         "url": "https:\/\/wluw.org\/",
-        "tag": "#radio #RadioMusic #indie",
+        "tag": "#radio #RadioMusic #IndieMusic",
         "time": 1683382664,
+        "rightFooter": ""
+    },
+    {
+        "text": "WLUW-FM, 88.7 FM, Chicago, US | Free Internet Radio | TuneIn",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/tunein.com\/radio\/WLUW-FM-887-s30828\/",
+        "tag": "#radio #RadioMusic #IndieMusic",
+        "time": 1647524616,
         "rightFooter": ""
     },
     {
@@ -2104,8 +3031,17 @@ var radioJsonVar =
         "text2": "http:\/\/wmxm.streamguys1.com\/live",
         "text3": "mp3",
         "url": "http:\/\/wmxm.org\/",
-        "tag": "#radio #RadioMusic #indie",
+        "tag": "#radio #RadioMusic #IndieMusic",
         "time": 1683377519,
+        "rightFooter": ""
+    },
+    {
+        "text": "WMXM, 88.9 FM, Chicago, US | Free Internet Radio | TuneIn",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/tunein.com\/radio\/WMXM-889-s21320\/",
+        "tag": "#radio #RadioMusic #IndieMusic",
+        "time": 1647534381,
         "rightFooter": ""
     },
     {
@@ -2113,8 +3049,17 @@ var radioJsonVar =
         "text2": "http:\/\/22113.live.streamtheworld.com\/WNRNFM_128_SC",
         "text3": "mp3",
         "url": "https:\/\/wnrn.org\/",
-        "tag": "#radio #RadioMusic #indie #AlternativeRock #WorldMusic",
+        "tag": "#radio #RadioMusic #IndieMusic #AlternativeRock #WorldMusic",
         "time": 1683383331,
+        "rightFooter": ""
+    },
+    {
+        "text": "WNRN, 91.9 FM, Charlottesville, US | Free Internet Radio | TuneIn",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/tunein.com\/radio\/WNRN-919-s21535\/",
+        "tag": "#radio #RadioMusic #IndieMusic #AlternativeRock #WorldMusic",
+        "time": 1647507943,
         "rightFooter": ""
     },
     {
@@ -2167,8 +3112,26 @@ var radioJsonVar =
         "text2": "http:\/\/wumb.streamguys1.com\/wumb919fast",
         "text3": "mp3",
         "url": "https:\/\/wumb.org\/",
-        "tag": "#radio #RadioMusic #indie",
+        "tag": "#radio #RadioMusic #IndieMusic",
         "time": 1683376901,
+        "rightFooter": ""
+    },
+    {
+        "text": "WUMB-FM, 91.9 FM, Boston, US | Free Internet Radio | TuneIn",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/tunein.com\/radio\/WUMB-FM-919-s23389\/",
+        "tag": "#radio #RadioMusic #IndieMusic",
+        "time": 1647586185,
+        "rightFooter": ""
+    },
+    {
+        "text": "WXRV\/92.5 the River, 92.5 FM, Andover, US | Free Internet Radio | TuneIn",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/tunein.com\/radio\/WXRV925-the-River-s24062\/",
+        "tag": "#radio #RadioMusic #AlternativeRock",
+        "time": 1647438465,
         "rightFooter": ""
     },
     {
@@ -2181,12 +3144,30 @@ var radioJsonVar =
         "rightFooter": ""
     },
     {
+        "text": "XS Manchester, 106.1 FM, Manchester, UK | Free Internet Radio | TuneIn",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/tunein.com\/radio\/XS-Manchester-1061-s91723\/",
+        "tag": "#radio #RadioMusic #IndieRock",
+        "time": 1679708575,
+        "rightFooter": ""
+    },
+    {
         "text": "Y-Not Radio",
         "text2": "https:\/\/streaming.live365.com\/a54553",
         "text3": "mp3",
         "url": "https:\/\/www.ynotradio.net\/",
-        "tag": "#radio #RadioMusic #indie",
+        "tag": "#radio #RadioMusic #IndieMusic",
         "time": 1683382144,
+        "rightFooter": ""
+    },
+    {
+        "text": "Y-Not Radio | Free Internet Radio | TuneIn",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/tunein.com\/radio\/Y-Not-Radio-s127209\/",
+        "tag": "#radio #RadioMusic #IndieMusic",
+        "time": 1740903820,
         "rightFooter": ""
     },
     {

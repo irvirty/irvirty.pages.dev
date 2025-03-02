@@ -1,4 +1,4 @@
-// Search redirects v.2.8.12
+// Search redirects v.2.8.16
 // Search query + command
 
 // conf
@@ -15,23 +15,15 @@ var qr = url.searchParams.get("qr");
 var rq = url.searchParams.get("rq");
 if (rq != null){ qr = qr + rq; }
 if (qr != null){
-/*qr = qr.replaceAll(/%/g, "%25");
-q = q.replaceAll('+', ' ');
-qr = decodeURIComponent(qr);*/
 qr = qr.trim();
-
 q = qr;
-
 if (com == "on"&&String(location.href).indexOf("#!StopRedirect") == -1){
-
 location.href = fuMHideFileNameExt(qr);
 location.href = location.href + '#!StopRedirect';
-
-//location.href.replace(fuMHideFileNameExt(qr),);
-//location.href.replace(location.href + '#!StopRedirect',);
-
 }
-} else { qr = ''; }
+} else {
+qr = '';
+}
 
 /*var rUrlGet = url.searchParams.get("rUrl");
 //fuMHideFileNameExt(); //rmme
@@ -163,7 +155,7 @@ q = q3.replace(qCom, '');
 q = q.trim();
 q = encodeURIComponent(q.trim());
 urlList = [
-"/pages/site-search/?q=" + q + " r",
+"/search/?q=" + q + " r",
 ];
 if (q == ''){
 urlList = [
@@ -184,7 +176,7 @@ q = q3.replace(qCom, '');
 q = q.trim();
 q = encodeURIComponent(q);
 urlList = [
-"/pages/site-search/?q=" + q + " r",
+"/search/?q=" + q + " r",
 ];
 if (q == ''){
 urlList = [
@@ -339,6 +331,24 @@ q = q.trim();
 q = encodeURIComponent(q);
 urlList = [
 "https://www.reddit.com/search/?q=" + q + "&type=posts&sort=hot",
+];
+if (q == ''){
+urlList = [
+"https://www.reddit.com/",
+];
+}
+random = urlList[fuMRandom(0, urlList.length - 1)];
+url = random;
+sRedirectUrl = url;
+break;
+
+
+case 'redd#':
+q = q3.replace(qCom, '');
+q = q.trim();
+q = encodeURIComponent(q);
+urlList = [
+"https://www.reddit.com/search/?q=" + q + "&type=comment&sort=new",
 ];
 if (q == ''){
 urlList = [
@@ -1160,6 +1170,8 @@ sRedirectUrl = url;
 break;
 
 
+case 'qq#':
+case 'ql#':
 case 'qd#':
 q = q3.replace(qCom, '');
 q = q.trim();
@@ -1246,6 +1258,7 @@ sRedirectUrl = url;
 break;
 
 
+case 'int#':
 case 'nn#':
 q = q3.replace(qCom, '');
 q = q.trim();
@@ -1269,6 +1282,7 @@ sRedirectUrl = url;
 break;
 
 
+case 'ints#':
 case 'ns#':
 q = q3.replace(qCom, '');
 q = q.trim();
@@ -1295,6 +1309,27 @@ q = q.trim();
 q = encodeURIComponent(q);
 urlList = [
 "https://search.marginalia.nu/search?query=" + q,
+//"https://mwmbl.org/?q=" + q,
+];
+if (q == ''){
+urlList = [
+"https://search.marginalia.nu/",
+//"https://mwmbl.org/",
+];
+}
+random = urlList[fuMRandom(0, urlList.length - 1)];
+url = random;
+sRedirectUrl = url;
+break;
+
+
+case 'ol#':
+case 'od#':
+q = q3.replace(qCom, '');
+q = q.trim();
+q = encodeURIComponent(q);
+urlList = [
+"https://marginalia-search.com/search?query=" + q + "&recent=recent&newfilter=true",
 //"https://mwmbl.org/?q=" + q,
 ];
 if (q == ''){
@@ -1368,16 +1403,16 @@ sRedirectUrl = url;
 break;
 
 
-case 'qq#':
+case 'qs#':
 q = q3.replace(qCom, '');
 q = q.trim();
 q = encodeURIComponent(q);
 urlList = [
-"/pages/site-search/?q=" + q,
+"/search/?q=" + q,
 ];
 if (q == ''){
 urlList = [
-"/pages/site-search/",
+"/search/",
 ];
 }
 random = urlList[fuMRandom(0, urlList.length - 1)];

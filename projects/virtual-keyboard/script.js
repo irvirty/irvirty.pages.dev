@@ -1,4 +1,4 @@
-// Virtual keyboard v.1.3.0
+// Virtual keyboard v.1.4.0
 //inspired:
 //Free Virtual Keyboard - Free download and install on Windows | Microsoft Store https://apps.microsoft.com/detail/9nblggh35mpc
 //Try Google Input Tools online – Google Input Tools https://www.google.com/inputtools/try/ 
@@ -11,6 +11,8 @@ upperCaseStatus[0] = "off";
 shiftStatus[0] = 0;
 let taskKeyVKbr = "";
 let keyEmpty = "";
+
+
 
 let keyBrStyle = localStorage.getItem("keyBrStyle");
 if (keyBrStyle == null||keyBrStyle == ""){
@@ -25,6 +27,25 @@ localStorage.setItem("keyBrStyle", item);
 keyBrStyle = item;
 virtualKeyborad(inputId, printId, "", "");
 }
+
+
+
+
+let keyBrVisible = localStorage.getItem("keyBrVisible");
+if (keyBrVisible == null||keyBrVisible == ""){
+keyBrVisible = "show";
+localStorage.setItem("keyBrVisible", "show");
+}
+
+function keyBrVisibleSet(item){
+localStorage.setItem("keyBrVisible", item);
+keyBrVisible = item;
+virtualKeyborad(inputId, printId, "", "");
+}
+
+
+
+
 
 
 function virtualKeyborad(inputId, printId, upperCaseStatus, taskKeyVKbr){
@@ -302,17 +323,23 @@ printAllKeys += `</div>`;
 
 let keyBrStylePrint = "";
 if (keyBrStyleHide == "block"){
-if (keyBrStyle == "colored"){
+switch (keyBrStyle){
+
+case 'colored':
 keyBrStylePrint = `
 <a class="xSmall bold tag border margin1Px borderRadius" onclick="keyBrStyleSet('colored');return false;" href="#">Colored</a>
 <a class="xSmall gray tag border margin1Px borderRadius" onclick="keyBrStyleSet('mono');return false;" href="#">Mono</a>
 `;
-} else if (keyBrStyle == "mono"){
+break;
+
+case 'mono':
 keyBrStylePrint = `
 <a class="xSmall gray tag border margin1Px borderRadius" onclick="keyBrStyleSet('colored');return false;" href="#">Colored</a>
 <a class="xSmall bold tag border margin1Px borderRadius" onclick="keyBrStyleSet('mono');return false;" href="#">Mono</a>
 `;
-} else {
+break;
+
+default:
 keyBrStylePrint = `
 <a class="xSmall tag border margin1Px borderRadius" onclick="keyBrStyleSet('colored');return false;" href="#">Colored</a>
 <a class="xSmall tag border margin1Px borderRadius" onclick="keyBrStyleSet('mono');return false;" href="#">Mono</a>
@@ -321,15 +348,30 @@ keyBrStylePrint = `
 }
 
 
+if (keyBrVisible == "show"){
 printAllKeys = `
 
 <div class="vKeyboard">
 ${printAllKeys}
 <br>
-<div class="tRight">${keyBrStylePrint}</div>
+<div class="tRight">
+${keyBrStylePrint}
+<a class="xSmall gray tag border margin1Px borderRadius" onclick="keyBrVisibleSet('hide');return false;" href="#">Hide</a>
+</div>
 </div>
 
 `;
+} else {
+printAllKeys = `
+
+<div class="vKeyboard">
+<div class="tRight">
+<a class="xSmall gray tag border margin1Px borderRadius" onclick="keyBrVisibleSet('show');return false;" href="#">Show keyboard</a>
+</div>
+</div>
+
+`;
+}
 
 headerStyle = `
 

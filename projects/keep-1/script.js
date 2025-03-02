@@ -1,4 +1,4 @@
-// Keep v.3.11.1
+// Keep v.3.12.0
 // The static version of my offline "keep" PHP script that saves things (links, notes, etc).
 // Inspired by Twitter, Google Keep
 // Not for large data files.
@@ -10,7 +10,7 @@
 // fresh config in script.js
 let keepConfig = {
 "postLimit":"", // number, the number of posts per page
-"embedStatus":"", // "off"
+"embedStatus":"", // "off", "semi" (id)
 "multiEmbedStatus":"", // "on"
 "tagListStatus":"", // "off"
 "tagListLimit":"", // number
@@ -1544,6 +1544,7 @@ function highlightText(text, targetOption, subQforLight){
 
 var play = "";
 
+if (embedStatus == "semi"&&mode != "id"){ embedStatus = 'off'; }
 if (embedStatus == "not list"&&mode != "list"&&mode != "search"){ embedStatus = 'on'; }
 
 /*if (embedStatus == "notist"){
@@ -2073,6 +2074,7 @@ function highlightText2(text, targetOption){
 
 var play = "";
 
+if (embedStatus == "semi"&&mode == "id"){ embedStatus = 'on'; }
 if (embedStatus == "not list"&&mode != "list"&&mode != "search"){ embedStatus = 'on'; }
 
 /*if (embedStatus == "notist"){

@@ -1,5 +1,5 @@
 <?PHP
-// v.1.0.0
+// v.1.0.1
 
 /*
 $navArr = array(
@@ -9,7 +9,7 @@ array("url" => "/pages/#2", "title" => "title 2", "text" => "Pages 2", "class" =
 echo nav($navArr, "", "");
 */
 
-function nav($navArr, $navCurrentPage, $ext){
+function nav($navArr, $navCurrentPage){
 
 
 $navMenu = "";

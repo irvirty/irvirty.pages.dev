@@ -2625,6 +2625,11 @@
         "text3": "pastoral"
     },
     {
+        "text": "\u043f\u0430\u0442\u0440\u043e\u043d\u0430\u0442",
+        "text2": "patronage",
+        "text3": "mecenazgo"
+    },
+    {
         "text": "\u043f\u0430\u0442\u0440\u0443\u043b\u044c",
         "text2": "patrol",
         "text3": "patrulla"
@@ -4003,11 +4008,6 @@
         "text": "\u0442\u0435\u0449\u0430",
         "text2": "mother in law",
         "text3": "suegra"
-    },
-    {
-        "text": "\u0442\u0438\u0433\u0435\u043b\u044c",
-        "text2": "crucible",
-        "text3": "crisol"
     },
     {
         "text": "\u0442\u0438\u0437\u0435\u0440",
