@@ -18,9 +18,10 @@ let color = "";
 if (q != null&&q != ""){
 document.getElementById("q").value = q;
 analysis(q);
-
 analysis2(q);
 }
+
+analysis3();
 
 //https://developer.mozilla.org/en-US/docs/Web/API/Element/input_event
 //input.addEventListener("input", updateValue);
@@ -78,36 +79,6 @@ let data = [
 },
 ];
 
-
-
-
-let data2 = [
-{
-"text":"PageSpeed Insights",
-"text2":`https://pagespeed.web.dev/`,
-"text3":"9",
-"text4":""
-},
-{
-"text":"Google Analytics",
-"text2":`https://analytics.google.com/`,
-"text3":"9",
-"text4":""
-},
-{
-"text":"Google Search Console",
-"text2":`https://search.google.com/search-console`,
-"text3":"9",
-"text4":""
-},
-{
-"text":"Bing Webmaster Tools",
-"text2":`https://www.bing.com/webmasters/`,
-"text3":"9",
-"text4":""
-},
-];
-
 //https://stackoverflow.com/questions/43996959/json-sorting-by-alphabetical-order
 // JSON sorting
 data = data.sort((a,b)=> {
@@ -121,7 +92,7 @@ return a1<b1 ?-1:a1> b1? 1 :0;
 //print = `URL: ${q}`;
 print += `
 
-<div class="margin padding"></div>
+<div class="margin2 padding2"></div>
 Сheck:
 
 `;
@@ -147,42 +118,17 @@ ${val["text"]} - <span class="brand">${val["text2"]}</span>
 });
 
 
-
-// links
-print += `
-
-<div class="margin padding"></div>
-Other:
-
-`;
-
-data2.forEach((val, index) => {
-
-print += `
-
-<div class="bgList border3List borderRadius2">
-<a target="blank" href="${val["text2"]}">
-<div class="padding2 tLeft">
-${val["text"]} - <span class="brand">${val["text2"]}</span>
-</div>
-</a>
-</div>
-
-`;
-
-});
-
-document.getElementById("result").innerHTML = print; 
+document.getElementById("result2").innerHTML = print; 
 print = ``;
-}
 
-
-document.getElementById("result2").innerHTML = `
+document.getElementById("result").innerHTML = `
 <div class="margin padding"></div>
 Get page:
-<div class="bgList border3List borderRadius2 padding2">Click submit to further analyze the page
+<div class="bgList border3List borderRadius2 padding2">Click submit to receive the analysis
 </div>
 `;
+
+}
 
 
 //https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch
@@ -293,7 +239,7 @@ color = "";
 
 
 
-document.getElementById("result2").innerHTML = `
+document.getElementById("result").innerHTML = `
 <div class="margin padding"></div>
 Get page:
 <div class="bgList border3List borderRadius2 padding2">${text}</div>
@@ -301,7 +247,7 @@ Get page:
 //console.table(text);
   } catch (error) {
 //console.error(error.message);
-document.getElementById("result2").innerHTML = `
+document.getElementById("result").innerHTML = `
 <div class="margin padding"></div>
 Get page:
 <div class="bgList border3List borderRadius2 padding2">` + error.message + `</div>
@@ -312,6 +258,66 @@ Get page:
 }
 
 
-function analysisData(data){
+function analysis3(q){
 
+let data2 = [
+{
+"text":"PageSpeed Insights",
+"text2":`https://pagespeed.web.dev/`,
+"text3":"9",
+"text4":""
+},
+{
+"text":"Google Analytics",
+"text2":`https://analytics.google.com/`,
+"text3":"9",
+"text4":""
+},
+{
+"text":"Google Search Console",
+"text2":`https://search.google.com/search-console`,
+"text3":"9",
+"text4":""
+},
+{
+"text":"Bing Webmaster Tools",
+"text2":`https://www.bing.com/webmasters/`,
+"text3":"9",
+"text4":""
+},
+{
+"text":"ICANN Lookup",
+"text2":`https://lookup.icann.org/`,
+"text3":"9",
+"text4":""
+},
+];
+
+
+// links
+print += `
+
+<div class="margin2 padding2"></div>
+Other, links:
+
+`;
+
+data2.forEach((val, index) => {
+
+print += `
+
+<div class="bgList border3List borderRadius2">
+<a target="blank" href="${val["text2"]}">
+<div class="padding2 tLeft">
+${val["text"]} - <span class="brand">${val["text2"]}</span>
+</div>
+</a>
+</div>
+
+`;
+
+});
+
+document.getElementById("result3").innerHTML = print; 
+print = ``;
 }
