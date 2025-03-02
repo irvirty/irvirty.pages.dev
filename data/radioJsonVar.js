@@ -2316,15 +2316,6 @@ var radioJsonVar =
         "rightFooter": ""
     },
     {
-        "text": "Radio L, 107.4 FM, Kristiansand, Norway | Free Internet Radio | TuneIn",
-        "text2": "",
-        "text3": "",
-        "url": "https:\/\/tunein.com\/radio\/Radio-L-1074-s102772\/",
-        "tag": "#radio #RadioMusic #PopCountry",
-        "time": 1740844116,
-        "rightFooter": ""
-    },
-    {
         "text": "Radio Libert\u00e0, 103.5 FM, Lombardy, Italy | Free Internet Radio | TuneIn",
         "text2": "",
         "text3": "",
