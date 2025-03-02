@@ -1043,9 +1043,9 @@ var sitemapJsonVar = [
         "time": "id"
     },
     {
-        "text": "scrolling\n\nscrolling | scrolling: ",
+        "text": "scrolling\n\nThis is the result of an attempt to make a scrolling trainer or page for testing scrolling. I left the project unfinished. | scrolling: ",
         "url": "\/old-projects\/scrolling-76\/index.html",
-        "tag": " #scrolling #HTML_CSS #JavaScript #project",
+        "tag": " #test #scrolling #HTML_CSS #JavaScript #project",
         "id": "3b43aaf4eb17e2d814174ca8091f5605",
         "time": "id"
     },
