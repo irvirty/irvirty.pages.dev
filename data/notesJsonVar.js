@@ -3,6 +3,16 @@ var notesJsonVar =
 
 [
     {
+        "id": "90",
+        "text": "String.prototype.split() - JavaScript | MDN",
+        "text2": "===\r\nconst str = \"The quick brown fox jumps over the lazy dog.\";\r\n\r\nconst words = str.split(\" \");\r\nconsole.log(words[3]);\r\n\/\/ Expected output: \"fox\"\r\n\r\nconst chars = str.split(\"\");\r\nconsole.log(chars[8]);\r\n\/\/ Expected output: \"k\"\r\n\r\nconst strCopy = str.split();\r\nconsole.log(strCopy);\r\n\/\/ Expected output: Array [\"The quick brown fox jumps over the lazy dog.\"]",
+        "text3": "",
+        "url": "https:\/\/developer.mozilla.org\/en-US\/docs\/Web\/JavaScript\/Reference\/Global_Objects\/String\/split",
+        "tag": "#JavaScript #JS #code #coding",
+        "time": 1740961633,
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/notes\/?id=90\">id<\/a>"
+    },
+    {
         "id": "89",
         "text": "serika dark - Default theme in Monkeytype",
         "text2": "",

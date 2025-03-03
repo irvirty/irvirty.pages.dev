@@ -479,20 +479,19 @@ return (text).fuzzy(q);
 <div class="padding2"></div>
 <!-- // nav2 -->
 </noscript>
-
 <!-- tags -->
 <div class="wrapper2">
 <div class="tCenter">
 
 <div class="bold padding medium">
-<a class="op brand" href="/projects/redirects-25/?q=s">Social Networks Explore:</a>
+<a class="op brand" href="/projects/redirects-25/?q=s">Social Networks Explore (random):</a>
 </div>
 
 <div class="padding"></div>
 
 <div class="wrapper2 balance small">
 
-<span id="printTags"></span>
+<div id="printTags" class="pre"></div>
 <hr>
 <div id="printMode" class="tRight"></div>
 <span id="tagListEditForm"></span>
@@ -707,12 +706,20 @@ Science Education Internet Technology Programming
 `;
 }
 
-let arr = fuMSplit(tagList);
+//let arr = fuMSplit(tagList);
+let tagList2 = tagList.replaceAll(`
+`, `SYMBOLFORSPLIT
+SYMBOLFORSPLIT`);
+tagList2 = tagList2.replaceAll(',', ',SYMBOLFORSPLIT');
+tagList2 = tagList2.replaceAll(' ', 'SYMBOLFORSPLIT');
+let arr = tagList2.split("SYMBOLFORSPLIT");
+
 
 let tagListPrint = "";
 arr.forEach((val, index) => {
+let val2 = val.trim();
+if (val2 != ""){
 val = val.trim();
-if (val != ""){
 //console.log(val + "=" + index);
 let color = fuMRandomItem(tagListColor);
 let printTagUrl = val.toLowerCase();
@@ -742,6 +749,8 @@ tagListPrint += `<a class="inlineBlock padding op ` + color + `" href="/projects
 
 }
 
+} else {
+tagListPrint += val;
 }
 });
 
@@ -758,6 +767,7 @@ function modeSwitch(mode, tagList){
 
 let tagModePrint = "";
 let tagsModeList = `hashtags keywords search`;
+
 let arr = fuMSplit(tagsModeList);
 let tagListPrint = `<span class="op">mode:</span>`;
 arr.forEach((val, index) => {
