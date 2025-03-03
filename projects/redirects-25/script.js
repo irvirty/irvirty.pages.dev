@@ -888,27 +888,7 @@ urlList = [
 ];
 if (q == ''){
 urlList = [
-//"https://www.twitch.tv/directory/all?sort=VIEWER_COUNT",
-"https://www.youtube.com/channel/UC4R8DWoMoI7CAwX8_LjQHig/livetab?ss=CKEK",
-];
-}
-random = urlList[fuMRandom(0, urlList.length - 1)];
-url = random;
-sRedirectUrl = url;
-break;
-
-
-case 'tv#':
-q = q3.replace(qCom, '');
-q = q.trim();
-q = encodeURIComponent(q);
-urlList = [
-"https://www.twitch.tv/directory/all/tags/" + q + "?sort=VIEWER_COUNT",
-];
-if (q == ''){
-urlList = [
-"https://www.twitch.tv/directory/all?sort=VIEWER_COUNT",
-//"https://www.youtube.com/channel/UC4R8DWoMoI7CAwX8_LjQHig",
+"https://www.youtube.com/channel/UC4R8DWoMoI7CAwX8_LjQHig/livetab",
 ];
 }
 random = urlList[fuMRandom(0, urlList.length - 1)];
@@ -1031,6 +1011,24 @@ q = q.trim();
 q = encodeURIComponent(q);
 urlList = [
 "https://search.marginalia.nu/search?query=" + q,
+];
+if (q == ''){
+urlList = [
+"https://search.marginalia.nu/",
+];
+}
+random = urlList[fuMRandom(0, urlList.length - 1)];
+url = random;
+sRedirectUrl = url;
+break;
+
+
+case 'marr#':
+q = q3.replace(qCom, '');
+q = q.trim();
+q = encodeURIComponent(q);
+urlList = [
+"https://marginalia-search.com/search?query=" + q + "&recent=recent&newfilter=true",
 ];
 if (q == ''){
 urlList = [
@@ -1504,8 +1502,6 @@ let allowUrlList = [
 "soundcloud.com",
 "spotify.com",
 "tunein.com",
-"twitch.tv",
-"x.com",
 "youtube.com",
 ];
 

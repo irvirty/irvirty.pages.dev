@@ -156,6 +156,15 @@ var tvJsonVar =
         "rightFooter": ""
     },
     {
+        "text": "James Webb Space Telescope (JWST) - YouTube",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/@NASAWebbTelescope\/featured",
+        "tag": "#TV #space",
+        "time": 1740998415,
+        "rightFooter": ""
+    },
+    {
         "text": "Johnson Production Group",
         "text2": "",
         "text3": "",

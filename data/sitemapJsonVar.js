@@ -784,6 +784,13 @@ var sitemapJsonVar = [
         "time": "id"
     },
     {
+        "text": "Template: clean simple micro\n\nWebsite template description. | clean simple micro auto light dark: ",
+        "url": "\/pages\/templates\/clean-simple-micro-auto-light-dark-24\/index.html",
+        "tag": " #WebDesign #template",
+        "id": "061998c8cbc43316f6484fb78bf39e64",
+        "time": "id"
+    },
+    {
         "text": "Template: flower one page 17\n\nWebsite template description. | flower one page mini auto light dark flat: ",
         "url": "\/pages\/templates\/flower-one-page-mini-auto-light-dark-flat-17\/index.html",
         "tag": " #WebDesign #template",
