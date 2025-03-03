@@ -201,6 +201,15 @@ var videoJsonVar =
         "rightFooter": ""
     },
     {
+        "text": "Battle Beyond the Sun 1959 (Adventure, Sci-Fi) Roger Corman | Movie - YouTube",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=wLMMbCTGMaw",
+        "tag": "#video #movie",
+        "time": 1741007779,
+        "rightFooter": ""
+    },
+    {
         "text": "Beau Ideal (1931) Adventure, Romance, War, Pre Code Film - YouTube",
         "text2": "",
         "text3": "",
@@ -480,6 +489,15 @@ var videoJsonVar =
         "rightFooter": ""
     },
     {
+        "text": "Chip 'n Dale: Rescue Rangers Full Episode | S3 E4 | A Chorus Crime | \u202a@disneyxd\u202c - YouTube",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=anbNuK_sGJI",
+        "tag": "#video #cartoon",
+        "time": 1741009713,
+        "rightFooter": ""
+    },
+    {
         "text": "Christmas At The Hospital \ud83c\udf81 | Peppa Pig Official Full Episodes - YouTube",
         "text2": "",
         "text3": "",
@@ -531,6 +549,15 @@ var videoJsonVar =
         "url": "https:\/\/www.youtube.com\/watch?v=uFFzq_COOCs",
         "tag": "#video #movie #western",
         "time": 1684802006,
+        "rightFooter": ""
+    },
+    {
+        "text": "Colorized Western | Abilene Town (1946) Randolph Scott, Lloyd Bridges | subtitles - YouTube",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=B4KqVObVLO8",
+        "tag": "#video #movie",
+        "time": 1741007318,
         "rightFooter": ""
     },
     {
@@ -696,6 +723,15 @@ var videoJsonVar =
         "rightFooter": ""
     },
     {
+        "text": "Devil Girl from Mars (Sci-Fi, 1954) Patricia Laffan, Hugh McDermott | Cult Movie, Subtitle - YouTube",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=TXMm8TclN6Y",
+        "tag": "#video #movie",
+        "time": 1741007750,
+        "rightFooter": ""
+    },
+    {
         "text": "Diamond Dog Caper | Full Family Comedy Movie | French Stewart | Family Central - YouTube",
         "text2": "",
         "text3": "",
@@ -756,6 +792,15 @@ var videoJsonVar =
         "url": "https:\/\/www.youtube.com\/watch?v=Y1sKf0T-Ka8",
         "tag": "#video #movie #sci-fi",
         "time": 1684801739,
+        "rightFooter": ""
+    },
+    {
+        "text": "Double Trouble 1984 | Terence Hill, Bud Spencer | Action Movie | Subtitles - YouTube",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=L4unvareZL8",
+        "tag": "#video #movie",
+        "time": 1741007361,
         "rightFooter": ""
     },
     {
@@ -1548,6 +1593,15 @@ var videoJsonVar =
         "url": "https:\/\/www.youtube.com\/watch?v=6qC5LsUypMk",
         "tag": "#video #movie",
         "time": 1688533290,
+        "rightFooter": ""
+    },
+    {
+        "text": "Jack The Giant Killer (1962) Adventure Fantasy | directed by Nathan Juran - YouTube",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=erXQzpp8Q9A",
+        "tag": "#video #movie",
+        "time": 1741008170,
         "rightFooter": ""
     },
     {
@@ -2649,6 +2703,15 @@ var videoJsonVar =
         "rightFooter": ""
     },
     {
+        "text": "Steve Reeves | Hercules (1958) Adventure Fantasy Movie | Directed by Pietro Francisci - YouTube",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=F_IcVWBoBdY",
+        "tag": "#video #movie",
+        "time": 1741007532,
+        "rightFooter": ""
+    },
+    {
         "text": "Stranger With My Face | FULL MOVIE | 2009 | Psychological Thriller, Crime - YouTube",
         "text2": "",
         "text3": "",
@@ -2856,6 +2919,15 @@ var videoJsonVar =
         "rightFooter": ""
     },
     {
+        "text": "The Buckskin Lady (1957) Patricia Medina | Western | COLORIZED | Full Movie | Subtitled - YouTube",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=DlNZXbB3LUE",
+        "tag": "#video #movie",
+        "time": 1741007272,
+        "rightFooter": ""
+    },
+    {
         "text": "The Caving Adventure \ud83d\udd26 | Peppa Pig Official Full Episodes - YouTube",
         "text2": "",
         "text3": "",
@@ -2889,6 +2961,15 @@ var videoJsonVar =
         "url": "https:\/\/www.youtube.com\/watch?v=aHsuP8UmJlo",
         "tag": "#video #movie",
         "time": 1688537445,
+        "rightFooter": ""
+    },
+    {
+        "text": "The Day Time Ended 1979 (Adventure, Sci-Fi) Jim Davis, Christopher Mitchum, Dorothy Malone | 4K - YouTube",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=tMeVzwA6VfY",
+        "tag": "#video #movie",
+        "time": 1741007463,
         "rightFooter": ""
     },
     {
@@ -3126,6 +3207,15 @@ var videoJsonVar =
         "rightFooter": ""
     },
     {
+        "text": "The Jungle Book (1942) Sabu, Joseph Calleia | Adventure film | Movie, subtitles - YouTube",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=-8EJ9uhsfQQ",
+        "tag": "#video #movie",
+        "time": 1741006956,
+        "rightFooter": ""
+    },
+    {
         "text": "The Kennel Murder Case (1933) | Full Movie | William Powell, Mary Astor, Eugene Pallette - YouTube",
         "text2": "",
         "text3": "",
@@ -3297,6 +3387,15 @@ var videoJsonVar =
         "rightFooter": ""
     },
     {
+        "text": "The Phantom Planet (Sci-Fi, 1961) Dean Fredericks, Coleen Gray | Movie - YouTube",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=MTkOud2MBso",
+        "tag": "#video #movie",
+        "time": 1741008704,
+        "rightFooter": ""
+    },
+    {
         "text": "The Photo Booth \ud83d\udcf8 | Peppa Pig Official Full Episodes - YouTube",
         "text2": "",
         "text3": "",
@@ -3348,6 +3447,15 @@ var videoJsonVar =
         "url": "https:\/\/www.youtube.com\/watch?v=Ib2Z60ij2fs",
         "tag": "#video #movie",
         "time": 1684801804,
+        "rightFooter": ""
+    },
+    {
+        "text": "The Shape of Things to Come (1936 Sci-Fi) Directed by William Cameron Menzies - YouTube",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=eB_DxSZO6mA",
+        "tag": "#video #movie",
+        "time": 1741008331,
         "rightFooter": ""
     },
     {
@@ -3969,6 +4077,15 @@ var videoJsonVar =
         "url": "https:\/\/www.youtube.com\/watch?v=80Jahnv3t3w",
         "tag": "#video #movie #sci-fi",
         "time": 1684801626,
+        "rightFooter": ""
+    },
+    {
+        "text": "Voyage to the Prehistoric Planet 1965 | Roger Corman, Basil Rathbone | Adventure, Sci-Fi - YouTube",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=K1dtqIPlERU",
+        "tag": "#video #movie",
+        "time": 1741007596,
         "rightFooter": ""
     },
     {
