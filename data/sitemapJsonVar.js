@@ -392,7 +392,7 @@ var sitemapJsonVar = [
         "time": "id"
     },
     {
-        "text": "Movie List\n\nSmall list of movies, just a link to another movie database service, at the top there is a random movie from the list. JavaScript function for parse watchlist.csv from The Movie Database (TMDB). | movie list: ",
+        "text": "Movie List\n\nSmall list of movies, at the top there is a random movie from the list. JavaScript function for parse watchlist.csv from The Movie Database (TMDB). | movie list: ",
         "url": "\/projects\/movie-list-19\/index.html",
         "tag": " #movie #list #collection #random #JavaScript #project",
         "id": "9f9aa90c240343f41e7ca461cc59d82e",

@@ -784,6 +784,42 @@ sRedirectUrl = url;
 break;
 
 
+case 'alt#':
+q = q3.replace(qCom, '');
+q = q.trim();
+q = encodeURIComponent(q);
+urlList = [
+"https://alternativeto.net/browse/search/?q=" + q,
+];
+if (q == ''){
+urlList = [
+"https://alternativeto.net/",
+];
+}
+random = urlList[fuMRandom(0, urlList.length - 1)];
+url = random;
+sRedirectUrl = url;
+break;
+
+
+case 'mov#':
+q = q3.replace(qCom, '');
+q = q.trim();
+q = encodeURIComponent(q);
+urlList = [
+"https://www.themoviedb.org/search?query=" + q,
+];
+if (q == ''){
+urlList = [
+"https://www.themoviedb.org/",
+];
+}
+random = urlList[fuMRandom(0, urlList.length - 1)];
+url = random;
+sRedirectUrl = url;
+break;
+
+
 case 'u#':
 q = q3.replace(qCom, '');
 q = q.trim();
