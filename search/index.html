@@ -149,7 +149,6 @@
 <script src="/data/microblogJsonVar.js"></script>
 <script src="/data/articlesJsonVar.js"></script>
 <script src="/data/notesJsonVar.js"></script>
-<script src="/data/wikiJsonVar.js"></script>
 <script src="/data/randomwebsiteJsonVar.js"></script>
 
 <script>
@@ -164,8 +163,8 @@ data = data.concat(confSpeedDialDataArr2);
 
 
 
-data = data.concat(sitemapJsonVar, linksJsonVar, websitedirectoryJsonVar, microblogJsonVar, articlesJsonVar, notesJsonVar, wikiJsonVar, randomwebsiteJsonVar);
-//data = [...sitemapJsonVar, ...linksJsonVar, ...websitedirectoryJsonVar, ...microblogJsonVar, ...articlesJsonVar, ...notesJsonVar, ...wikiJsonVar, ...randomwebsiteJsonVar];
+data = data.concat(sitemapJsonVar, linksJsonVar, websitedirectoryJsonVar, microblogJsonVar, articlesJsonVar, notesJsonVar, randomwebsiteJsonVar);
+//data = [...sitemapJsonVar, ...linksJsonVar, ...websitedirectoryJsonVar, ...microblogJsonVar, ...articlesJsonVar, ...notesJsonVar, ...randomwebsiteJsonVar];
 
 
 
@@ -208,7 +207,7 @@ document.getElementById("form").appendChild(input);
 
 if (q55PrintURl == null||q55PrintURl == "null"){ q55PrintURl = ""; }
 
-let lModeList = "all sitemap links websitedirectory microblog articles notes wiki randomwebsite";
+let lModeList = "all sitemap links websitedirectory microblog articles notes randomwebsite";
 let lModeListArr = fuMSplit(lModeList);
 
 // print 1

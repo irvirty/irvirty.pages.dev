@@ -120,15 +120,6 @@ var adsJsonVar =
         "rightFooter": ""
     },
     {
-        "text": "Facebook",
-        "text2": "",
-        "text3": "",
-        "url": "https:\/\/www.facebook.com\/",
-        "tag": "#ads",
-        "time": 1620341525,
-        "rightFooter": ""
-    },
-    {
         "text": "Fedora",
         "text2": "",
         "text3": "",

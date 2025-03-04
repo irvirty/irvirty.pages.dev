@@ -3,6 +3,116 @@ var wikiJsonVar =
 
 [
     {
+        "id": "116",
+        "text": "Smartphone - Wikipedia",
+        "text2": "A smartphone is a mobile device that combines the functionality of a traditional mobile phone with advanced computing capabilities. It typically has a touchscreen interface, allowing users to access a wide range of applications and services, such as web browsing, email, and social media, as well as multimedia playback and streaming. Smartphones have built-in cameras, GPS navigation, and support for various communication methods, including voice calls, text messaging, and internet-based messaging apps. Smartphones are distinguished from older-design feature phones by their more advanced hardware capabilities and extensive mobile operating systems, access to the internet, business applications, mobile payments, and multimedia functionality, including music, video, gaming, radio, and television.\r\n\r\nSmartphones typically feature metal\u2013oxide\u2013semiconductor (MOS) integrated circuit (IC) chips, various sensors, and support for multiple wireless communication protocols. Examples of smartphone sensors include accelerometers, barometers, gyroscopes, and magnetometers; they can be used by both pre-installed and third-party software to enhance functionality. Wireless communication standards supported by smartphones include LTE, 5G NR, Wi-Fi, Bluetooth, and satellite navigation. By the mid-2020s, manufacturers began integrating satellite messaging and emergency services, expanding their utility in remote areas without reliable cellular coverage. Smartphones have largely replaced personal digital assistant (PDA) devices, handheld\/palm-sized PCs, portable media players (PMP),[1] point-and-shoot cameras, camcorders, and, to a lesser extent, handheld video game consoles, e-reader devices, pocket calculators, and GPS tracking units.\r\n\r\nFollowing the rising popularity of the iPhone in the late 2000s, the majority of smartphones have featured thin, slate-like form factors with large, capacitive touch screens with support for multi-touch gestures rather than physical keyboards. Most modern smartphones have the ability for users to download or purchase additional applications from a centralized app store. They often have support for cloud storage and cloud synchronization, and virtual assistants. Since the early 2010s, improved hardware and faster wireless communication have bolstered the growth of the smartphone industry. As of 2014, over a billion smartphones are sold globally every year. In 2019 alone, 1.54 billion smartphone units were shipped worldwide.[2] As of 2020, 75.05 percent of the world population were smartphone users.[3]",
+        "text3": "",
+        "url": "https:\/\/en.wikipedia.org\/wiki\/Smartphone",
+        "tag": "#technology",
+        "time": 1741079240,
+        "rightFooter": ""
+    },
+    {
+        "id": "115",
+        "text": "Film - Wikipedia",
+        "text2": "A film, also known as a movie or motion picture,[a] is a work of visual art that simulates experiences and otherwise communicates ideas, stories, perceptions, emotions, or atmosphere through the use of moving images that are generally, since the 1930s, synchronized with sound and (less commonly) other sensory stimulations.[1] The word \"cinema\" is borrowed from the French cin\u00e9ma, an abbreviation of cin\u00e9matographe (term coined by the Lumi\u00e8re brothers in the 1890s), from Ancient Greek meaning \"recording movement\". The word is today usually used to refer to either a purpose-built venue for screening films, known as a movie theater in the US; the film industry; the overall art form of specifically just filmmaking.",
+        "text3": "",
+        "url": "https:\/\/en.wikipedia.org\/wiki\/Film",
+        "tag": "#art",
+        "time": 1741079144,
+        "rightFooter": ""
+    },
+    {
+        "id": "114",
+        "text": "MP3 - Wikipedia",
+        "text2": "MP3 (formally MPEG-1 Audio Layer III or MPEG-2 Audio Layer III)[4] is a coding format for digital audio developed largely by the Fraunhofer Society in Germany under the lead of Karlheinz Brandenburg.[11][12] It was designed to greatly reduce the amount of data required to represent audio, yet still sound like a faithful reproduction of the original uncompressed audio to most listeners; for example, compared to CD-quality digital audio, MP3 compression can commonly achieve a 75\u201395% reduction in size, depending on the bit rate.[13] In popular usage, MP3 often refers to files of sound or music recordings stored in the MP3 file format (.mp3) on consumer electronic devices.\r\n\r\nOriginally defined in 1991 as the third audio format of the MPEG-1 standard, it was retained and further extended\u2014defining additional bit rates and support for more audio channels\u2014as the third audio format of the subsequent MPEG-2 standard. MP3 as a file format commonly designates files containing an elementary stream of MPEG-1 Audio or MPEG-2 Audio encoded data, without other complexities of the MP3 standard. Concerning audio compression, which is its most apparent element to end-users, MP3 uses lossy compression to encode data using inexact approximations and the partial discarding of data, allowing for a large reduction in file sizes when compared to uncompressed audio. The combination of small size and acceptable fidelity led to a boom in the distribution of music over the Internet in the late 1990s, with MP3 serving as an enabling technology at a time when bandwidth and storage were still at a premium. The MP3 format soon became associated with controversies surrounding copyright infringement, music piracy, and the file-ripping and sharing services MP3.com and Napster, among others. With the advent of portable media players (including \"MP3 players\"), a product category also including smartphones, MP3 support remains near-universal and a de facto standard for digital audio.",
+        "text3": "",
+        "url": "https:\/\/en.wikipedia.org\/wiki\/MP3",
+        "tag": "#file #format #audio #music",
+        "time": 1741079079,
+        "rightFooter": ""
+    },
+    {
+        "id": "113",
+        "text": "JSON - Wikipedia",
+        "text2": "JSON (JavaScript Object Notation, pronounced \/\u02c8d\u0292e\u026as\u0259n\/ or \/\u02c8d\u0292e\u026a\u02ccs\u0252n\/) is an open standard file format and data interchange format that uses human-readable text to store and transmit data objects consisting of name\u2013value pairs and arrays (or other serializable values). It is a commonly used data format with diverse uses in electronic data interchange, including that of web applications with servers.\r\n\r\nJSON is a language-independent data format. It was derived from JavaScript, but many modern programming languages include code to generate and parse JSON-format data. JSON filenames use the extension .json.\r\n\r\nDouglas Crockford originally specified the JSON format in the early 2000s.[1] He and Chip Morningstar sent the first JSON message in April 2001.",
+        "text3": "",
+        "url": "https:\/\/en.wikipedia.org\/wiki\/JSON",
+        "tag": "#file #format #data",
+        "time": 1741079045,
+        "rightFooter": ""
+    },
+    {
+        "id": "112",
+        "text": "Illustration - Wikipedia",
+        "text2": "An illustration is a decoration, interpretation, or visual explanation of a text, concept, or process,[1] designed for integration in print and digitally published media, such as posters, flyers, magazines, books, teaching materials, animations, video games and films. An illustration is typically created by an illustrator. Digital illustrations are often used to make websites and apps more user-friendly, such as the use of emojis to accompany digital type.[2] Illustration also means providing an example; either in writing or in picture form.\r\n\r\nThe origin of the word \"illustration\" is late Middle English (in the sense \u2018illumination; spiritual or intellectual enlightenment\u2019): via Old French from Latin illustratio(n-), from the verb illustrare.[3]",
+        "text3": "",
+        "url": "https:\/\/en.wikipedia.org\/wiki\/Illustration",
+        "tag": "#arit #word",
+        "time": 1741078946,
+        "rightFooter": ""
+    },
+    {
+        "id": "111",
+        "text": "Drawing - Wikipedia",
+        "text2": "Drawing is a visual art that uses an instrument to mark paper or another two-dimensional surface. The instruments used to make a drawing are pencils, crayons, pens with inks, brushes with paints, or combinations of these, and in more modern times, computer styluses with graphics tablets or gamepads in VR drawing software.\r\n\r\nA drawing instrument releases a small amount of material onto a surface, leaving a visible mark. The most common support for drawing is paper, although other materials, such as cardboard, vellum, wood, plastic, leather, canvas, and board, have been used. Temporary drawings may be made on a blackboard or whiteboard. Drawing has been a popular and fundamental means of public expression throughout human history. It is one of the simplest and most efficient means of communicating ideas.[1] The wide availability of drawing instruments makes drawing one of the most common artistic activities.\r\n\r\nIn addition to its more artistic forms, drawing is frequently used in commercial illustration, animation, architecture, engineering, and technical drawing. A quick, freehand drawing, usually not intended as a finished work, is sometimes called a sketch. An artist who practices or works in technical drawing may be called a drafter, draftsman, or draughtsman.[2]",
+        "text3": "",
+        "url": "https:\/\/en.wikipedia.org\/wiki\/Drawing",
+        "tag": "",
+        "time": 1741078883,
+        "rightFooter": ""
+    },
+    {
+        "id": "110",
+        "text": "History - Wikipedia",
+        "text2": "History is the systematic study of the past. As an academic discipline, it analyzes and interprets evidence to construct narratives about what happened and explain why it happened, focusing primarily on the human past. Some theorists categorize history as a social science, while others see it as part of the humanities or consider it a hybrid discipline. Similar debates surround the purpose of history, for example, whether its main aim is theoretical, to uncover the truth, or practical, to learn lessons from the past. In a slightly different sense, the term history refers not to an academic field but to the past itself or to individual texts about the past.\r\n\r\nHistory is a broad discipline encompassing many branches. Some focus on specific time periods, such as ancient history, while others concentrate on particular geographic regions, such as the history of Africa. Thematic categorizations include political history, social history, and economic history. Branches associated with specific research methods include quantitative history, comparative history, and oral history.\r\n\r\nHistorical research relies on primary and secondary sources to reconstruct past events and validate interpretations. Source criticism is used to evaluate these sources, assessing their authenticity, content, and reliability. Historians integrate the perspectives of several individual sources to develop a coherent narrative. Different schools of thought, such as positivism, the Annales school, Marxism, and postmodernism, have distinct methodological approaches.\r\n\r\nHistory emerged as a field of inquiry in the ancient period to replace myth-infused narratives, with influential early traditions originating in Greece, China, and later also in the Islamic world. Historical writing evolved throughout the ages and became increasingly professional, particularly during the 19th century, when a rigorous methodology and various academic institutions were established. History is related to many fields, including historiography, philosophy, education, and politics.",
+        "text3": "",
+        "url": "https:\/\/en.wikipedia.org\/wiki\/History",
+        "tag": "#word",
+        "time": 1741078840,
+        "rightFooter": ""
+    },
+    {
+        "id": "109",
+        "text": "Blender (software) - Wikipedia",
+        "text2": "Blender is a free and open-source 3D computer graphics software tool set that runs on Windows, macOS, BSD, Haiku, IRIX and Linux. It is used for creating animated films, visual effects, art, 3D-printed models, motion graphics, interactive 3D applications, and virtual reality. It is also used in creating video games.\r\n\r\nBlender is widely known for the Academy Award-winning film Flow (2024).[12]",
+        "text3": "",
+        "url": "https:\/\/en.wikipedia.org\/wiki\/Blender_(software)",
+        "tag": "#software #app #desgin #graphics",
+        "time": 1741078803,
+        "rightFooter": ""
+    },
+    {
+        "id": "108",
+        "text": "VLC media player - Wikipedia",
+        "text2": "VLC media player (previously the VideoLAN Client and commonly known as simply VLC) is a free and open-source, portable, cross-platform media player software and streaming media server developed by the VideoLAN project. VLC is available for desktop operating systems and mobile platforms, such as Android, iOS and iPadOS. VLC is also available on digital distribution platforms such as Apple's App Store, Google Play, and Microsoft Store.\r\n\r\nVLC supports many audio- and video-compression-methods and file-formats, including DVD-Video, Video CD, and streaming-protocols. It is able to stream media over computer networks and can transcode multimedia files.[14]\r\n\r\nThe default distribution of VLC includes many free decoding and encoding libraries, avoiding the need for finding\/calibrating proprietary plugins. The libavcodec library from the FFmpeg project provides many of VLC's codecs, but the player mainly[15] uses its own muxers and demuxers. It also has its own protocol implementations. It also gained distinction as the first player to support playback of encrypted DVDs on Linux and macOS by using the libdvdcss DVD decryption library; however, this library is legally controversial and is not included in many software repositories of Linux distributions as a result.[16][17] It is available on iOS under the MPLv2.[18]",
+        "text3": "",
+        "url": "https:\/\/en.wikipedia.org\/wiki\/VLC_media_player",
+        "tag": "#app #software #video #music #mp3",
+        "time": 1741078720,
+        "rightFooter": ""
+    },
+    {
+        "id": "107",
+        "text": "Creative work - Wikipedia",
+        "text2": "A creative work is a manifestation of creative effort in the world through a creative process involving one or more individuals. The term includes fine artwork (sculpture, paintings, drawing, sketching, performance art), dance, writing (literature), filmmaking, and musical composition. Creative works require a creative mindset and are not typically rendered in an arbitrary fashion, although works may demonstrate (i.e., have in common) a degree of arbitrariness, such that it is improbable that two people would independently create the same work.\r\n\r\nAt its base, creative work involves two main steps \u2013 having an idea, and then turning that idea into a substantive form or process. Typically, the creative process results in work that has some aesthetic value, identified as a creative expression. Naturally, this expression generally invokes external stimuli (e.g., influences and experiences) which a person draws on because they view the source as creative or inspirational; the degree to which this is reflected may be used in determinations of the derivativeness of the created work. Alternatively, the creator may draw on imagination, and their references may be clouded even to them, for the nature of imagination is as yet not fully understood philosophically, and the level of necessary self-examination of an artist's internal processing is a challenge for even those most self-aware of their minds and mental processes.\r\n\r\nThe term is frequently used in the context of copyright.[1]",
+        "text3": "",
+        "url": "https:\/\/en.wikipedia.org\/wiki\/Creative_work",
+        "tag": "#content",
+        "time": 1741078575,
+        "rightFooter": ""
+    },
+    {
+        "id": "106",
+        "text": "Free content - Wikipedia",
+        "text2": "Free content, libre content, libre information, or free information is any kind of creative work, such as a work of art, a book, a software program, or any other creative content for which there are very minimal copyright and other legal limitations on usage, modification and distribution. These are works or expressions which can be freely studied, applied, copied and modified by anyone for any purpose[1][better source needed] including, in some cases, commercial purposes. Free content encompasses all works in the public domain and also those copyrighted works whose licenses honor and uphold the definition of free cultural work.\r\n\r\nIn most countries, the Berne Convention grants copyright holders control over their creations by default. Therefore, copyrighted content must be explicitly declared free by the authors, which is usually accomplished by referencing or including licensing statements from within the work. The right to reuse such a work is granted by the authors in a license known as a free license, a free distribution license, or an open license, depending on the rights assigned. These freedoms given to users in the reuse of works (that is, the right to freely use, study, modify or distribute these works, possibly also for commercial purposes) are often associated with obligations (to cite the original author, to maintain the original license of the reused content) or restrictions (excluding commercial use, banning certain media) chosen by the author.[citation needed] There are a number of standardized licenses offering varied options that allow authors to choose the type of reuse of their work that they wish to authorize or forbid.",
+        "text3": "",
+        "url": "https:\/\/en.wikipedia.org\/wiki\/Free_content",
+        "tag": "#empty",
+        "time": 1741078545,
+        "rightFooter": ""
+    },
+    {
         "id": "105",
         "text": "Search engine optimization - Wikipedia",
         "text2": "Search engine optimization (SEO) is the process of improving the quality and quantity of website traffic to a website or a web page from search engines.[1][2] SEO targets unpaid search traffic (usually referred to as \"organic\" results) rather than direct traffic, referral traffic, social media traffic, or paid traffic.\r\n\r\nUnpaid search engine traffic may originate from a variety of kinds of searches, including image search, video search, academic search,[3] news search, and industry-specific vertical search engines.\r\n\r\nAs an Internet marketing strategy, SEO considers how search engines work, the computer-programmed algorithms that dictate search engine results, what people search for, the actual search queries or keywords typed into search engines, and which search engines are preferred by a target audience. SEO is performed because a website will receive more visitors from a search engine when websites rank higher within a search engine results page (SERP), with the aim of either converting the visitors or building brand awareness.[4]",
@@ -360,16 +470,6 @@ var wikiJsonVar =
         "url": "https:\/\/en.wikipedia.org\/wiki\/Computer_keyboard",
         "tag": "",
         "time": 1723968351,
-        "rightFooter": ""
-    },
-    {
-        "id": "68",
-        "text": "ActivityPub - Wikipedia",
-        "text2": "ActivityPub is a protocol and open standard for decentralized social networking. It provides a client-to-server (shortened to C2S) API for creating and modifying content, as well as a federated server-to-server (S2S) protocol for delivering notifications and content to other servers.[2] ActivityPub has become the main standard used in the fediverse, a popular network used for social networking that consists of software such as Mastodon, Pixelfed and PeerTube.[3]\r\n\r\nActivityPub is considered to be an update to the ActivityPump protocol used in pump.io, and the official W3C repository for ActivityPub is identified as a fork of ActivityPump.[4][5] The creation of a new standard for decentralized social networking was prompted by the complexity of OStatus, the most commonly used protocol at the time. OStatus was built using a multitude of technologies (such as Atom, Salmon, WebSub and WebFinger), a product of the infrastructure used in GNU social (the originator and largest user of the OStatus protocol), which made it difficult to implement the protocol into new software. OStatus was also only designed to work with microblogging services, with little flexibility to the types of data that it could hold.\r\n\r\nThe standard was first published by the World Wide Web Consortium (W3C) as a W3C Recommendation in January 2018 by the Social Web Working Group (SocialWG), a working group chartered to build the protocols and vocabularies needed to create a standard for social functionality.[6] Shortly after, further development was moved to the Social Web Incubator Community Group (SocialCG), the successor to the SocialWG.",
-        "text3": "",
-        "url": "https:\/\/en.wikipedia.org\/wiki\/ActivityPub",
-        "tag": "#technology",
-        "time": 1723337640,
         "rightFooter": ""
     },
     {
@@ -770,16 +870,6 @@ var wikiJsonVar =
         "url": "https:\/\/en.wikipedia.org\/wiki\/Microsoft",
         "tag": "#technology",
         "time": 1719568209,
-        "rightFooter": ""
-    },
-    {
-        "id": "26",
-        "text": "Facebook - Wikipedia",
-        "text2": "Facebook is a social media and social networking service owned by the American technology conglomerate Meta. Created in 2004 by Mark Zuckerberg with four other Harvard College students and roommates Eduardo Saverin, Andrew McCollum, Dustin Moskovitz, and Chris Hughes, its name derives from the face book directories often given to American university students. Membership was initially limited to Harvard students, gradually expanding to other North American universities. Since 2006, Facebook allows everyone to register from 13 years old, except in the case of a handful of nations, where the age limit is 14 years.[6] As of December 2022, Facebook claimed almost 3 billion monthly active users.[7] As of October 2023, Facebook ranked as the third-most-visited website in the world, with 22.56% of its traffic coming from the United States.[8][9] It was the most downloaded mobile app of the 2010s.[10]\r\n\r\nFacebook can be accessed from devices with Internet connectivity, such as personal computers, tablets and smartphones. After registering, users can create a profile revealing information about themselves. They can post text, photos and multimedia which are shared with any other users who have agreed to be their friend or, with different privacy settings, publicly. Users can also communicate directly with each other with Messenger, join common-interest groups, and receive notifications on the activities of their Facebook friends and the pages they follow.\r\n\r\nThe subject of numerous controversies, Facebook has often been criticized over issues such as user privacy (as with the Cambridge Analytica data scandal), political manipulation (as with the 2016 U.S. elections) and mass surveillance.[11] Facebook has also been subject to criticism over psychological effects such as addiction and low self-esteem, and various controversies over content such as fake news, conspiracy theories, copyright infringement, and hate speech.[12] Commentators have accused Facebook of willingly facilitating the spread of such content, as well as exaggerating its number of users to appeal to advertisers.[13]",
-        "text3": "",
-        "url": "https:\/\/en.wikipedia.org\/wiki\/Facebook",
-        "tag": "#technology",
-        "time": 1719568178,
         "rightFooter": ""
     },
     {
