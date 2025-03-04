@@ -3,10 +3,10 @@
 <head>
 
 <meta charset="UTF-8">
-<title>Photos</title>
+<title>Wiki</title>
 
-<meta name="description" content="Sometimes I take photos.">
-<meta name="keywords" content="photo, photos, page, main,">
+<meta name="description" content="Mini Wikipedia. Collection of articles. Some of the articles with their short article text and with links to the original for a more detailed review.">
+<meta name="keywords" content="wiki, Wikipedia, articles, text, short, collection, page, main,">
 
 <link rel="alternate" type="application/rss+xml" title="Website RSS" href="/rss.xml">
 
@@ -107,108 +107,12 @@
 <!-- content -->
 <main class="content">
 
+<h1 class="op tCenter insertIconTitle">Wiki</h1>
 
-<h1 class="tCenter op insertIconTitle">Photos</h1>
-
-<script>
-var keepJsonVar = [
-    {
-        "id": "202417",
-        "text": "Flower",
-        "url": "\/pages\/photos\/2024\/flower-17.jpg",
-        "tag": " #flower #jpg",
-        "time": "id"
-    },
-    {
-        "id": "202415",
-        "text": "Flower",
-        "url": "\/pages\/photos\/2024\/flower-15.jpg",
-        "tag": " #flower #jpg",
-        "time": "id"
-    },
-    {
-        "id": "202411",
-        "text": "Frog",
-        "url": "\/pages\/photos\/2024\/frog-11.jpg",
-        "tag": " #frog #jpg",
-        "time": "id"
-    },
-    {
-        "id": "202410",
-        "text": "Branch",
-        "url": "\/pages\/photos\/2024\/branch-10.jpg",
-        "tag": " #branch #jpg",
-        "time": "id"
-    },
-    {
-        "id": "20249",
-        "text": "Branch",
-        "url": "\/pages\/photos\/2024\/branch-9.jpg",
-        "tag": " #branch #jpg",
-        "time": "id"
-    },
-    {
-        "id": "20247",
-        "text": "Droplets branch",
-        "url": "\/pages\/photos\/2024\/droplets-branch-7.jpg",
-        "tag": " #droplets #branch #jpg",
-        "time": "id"
-    },
-    {
-        "id": "20246",
-        "text": "Flower",
-        "url": "\/pages\/photos\/2024\/flower-6.jpg",
-        "tag": " #flower #jpg",
-        "time": "id"
-    },
-    {
-        "id": "20245",
-        "text": "Droplets and branch",
-        "url": "\/pages\/photos\/2024\/droplets-and-branch-5.jpg",
-        "tag": " #droplets #and #branch #jpg",
-        "time": "id"
-    },
-    {
-        "id": "20244",
-        "text": "Droplets and branch",
-        "url": "\/pages\/photos\/2024\/droplets-and-branch-4.jpg",
-        "tag": " #droplets #and #branch #jpg",
-        "time": "id"
-    },
-    {
-        "id": "20243",
-        "text": "Droplets and branch",
-        "url": "\/pages\/photos\/2024\/droplets-and-branch-3.jpg",
-        "tag": " #droplets #and #branch #jpg",
-        "time": "id"
-    },
-    {
-        "id": "20242",
-        "text": "Flower",
-        "url": "\/pages\/photos\/2024\/flower-2.jpg",
-        "tag": " #flower #jpg",
-        "time": "id"
-    }
-];
-</script>
-<div class="wrapper3">
-<div id="printKeep"></div>
-</div>
-
-<div class="margin2 padding2"></div>
-</main>
-<!-- // content -->
-
-<footer id="footer"></footer>
-
-<script src="/js/main.js"></script>
-<script src="/js/script.js"></script>
+<!--<span class="xSmall block tCenter op">Mini Wikipedia. Collection of articles. Some of the articles with their short article text and with links to the original for a more detailed review.</span>-->
 
 
-
-<script src="/projects/keep-1/script.js"></script>
-
-
+<script src="/data/wikiJsonVar.js"></script>
 <script>
 // fresh data example in script.js
 if(keepJsonVar == undefined||keepJsonVar == ''){
@@ -237,14 +141,21 @@ var keepJsonVar =
 }
 </script>
 
+<div id="printKeep"></div>
 
-<style>
-/*.keepContent .pre { font-size: 1em; text-transform: capitalize; }
-.keepContent .pre a { text-transform: none; }*/
+<noscript>
+<div class="margin2 padding2"></div>
+</noscript>
 
-/*.keepContent .pre { font-size: 1.2em; }*/
-.keepContent .postContent:first-letter{ font-weight: bold;  }
-</style>
+
+</main>
+<!-- // content -->
+
+<footer id="footer"></footer>
+
+<script src="/js/main.js"></script>
+<script src="/js/script.js"></script>
+
 
 <!--
 Config, copy paste in html before script.js.
@@ -252,25 +163,25 @@ Fresh config in script.js
 -->
 <script>
 let keepConfig = {
-"postLimit":"", //
-"embedStatus":"", // off
-"multiEmbedStatus":"", // on
-"tagListStatus":"", // off
-"tagListLimit":"",
-"targetOption":"",
-"bottomMsg":"",
-"display":"art", //gallery
-"timeStatus":"", // off
-"usernameStatus":"off", // on, off
+"postLimit":"", // number, the number of posts per page
+"embedStatus":"", // "off", "semi" (id)
+"multiEmbedStatus":"", // "on"
+"tagListStatus":"", // "off"
+"tagListLimit":"", // number
+"targetOption":"", // "blank"
+"bottomMsg":`
+<!-- bottom text or code -->
+<div class="tCenter">License: <a class="brand inlineBlock padding" href="https://en.wikipedia.org/wiki/Wikipedia:Text_of_the_Creative_Commons_Attribution-ShareAlike_4.0_International_License">Creative Commons Attribution-ShareAlike 4.0 International License</a></div>
+`, // text
+"display":"blog", // gallery, art, blog (text, text2), all (text, text2, text3)
+"timeStatus":"", // off, disable post time (post id)
+"rightFooterStatus":"", // on, off, right footer in data
+"usernameStatus":"", // on, off
 };
 </script>
-<script>
-keep("printKeep", keepJsonVar, 'wrapperSmall', './', keepConfig);
-// printId, keepJsonVar, wrapper, embedStatus, tagListStatus, postLimit, scriptDir, multiEmbedStatus
-</script>
 
-
-
+<script src="/projects/keep-1/script.js" onload="keep('printKeep', wikiJsonVar, 'wrapper', './', keepConfig)"></script>
+<script></script>
 
 
 </body>

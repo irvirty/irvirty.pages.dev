@@ -1,5 +1,5 @@
 // Typing Speed Test (WPM) or Typing Speed Game v.3.24.0
-// Note: ignore some modes (i2, b2 ...) These modes work only on localhost and have a POST request.
+// Note: ignore some modes. These modes work only on localhost and have a POST request.
 
 const wmpAverageLimit = 30;
 const wordLengthLimit = 5.1;
@@ -51,21 +51,17 @@ if (mode == null){ mode = 'quote'; }
 
 
 
-var modeList = Array(/*"letters",*/ "1k", "words", "quote", "book", "input", "zen", "w2", "b2", "i2", /*"f2",*/);
+var modeList = Array(/*"letters",*/ "1k", "words", "quote", "book", "wiki", "input", "zen", "i2");
 var modeListPrint = '';
 modeList.forEach(FunctionModeList);
 function FunctionModeList(item, index) {
 //hide none mode in not localhost
 var skip = '';
 if (
-location.hostname != 'localhost'&&item == 'i2'||
-location.hostname != 'localhost'&&item == 'w2'||
-location.hostname != 'localhost'&&item == 'b2'||
-location.hostname != 'localhost'&&item == 'f2'
+location.hostname != 'localhost'&&item == 'i2'
 ){
 skip = 'yes';
 }
-//if (item == 'w2'&&skip != 'yes'){ modeListPrint += `<br>`; }
 if (mode == item&&skip != 'yes'){
 modeListPrint += `
 <a class="tag light4 border borderRadius2" style="color: var(--c3);" href="?mode=` + item + `">` + item + `</a>
@@ -112,24 +108,51 @@ if (quote != null){
 const random = Math.floor(Math.random() * quote.length);
 //console.log(quote[random]['text']);
 task = quote[random]['text'];
-
 }
 
 main(task);
 }
 
 
-
-
-
-if (mode == 'book'||mode == 'b2'){
+if (mode == 'wiki'){
 
 //https://stackoverflow.com/questions/16230886/trying-to-fire-the-onload-event-on-script-tag
 var script2 = document.createElement('script');
 script2.type='text/javascript';
 //script2.async = true;
 script2.charset = 'utf-8';
-script2.src = '../../data/bookJsonVar.js';
+script2.src = '/data/wikiJsonVar.js';
+document.getElementsByTagName('head')[0].appendChild(script2);
+
+//script2.onload = (event) => {}
+//https://stackoverflow.com/questions/39155645/multiple-window-onload-functions-with-only-javascript
+window.addEventListener('load', function() {
+var wiki = '';
+wiki = wikiJsonVar;
+
+if (wiki != null){
+const random = Math.floor(Math.random() * wiki.length);
+//console.log(wiki[random]['text']);
+task = wiki[random]['text'] + `
+` + wiki[random]['text2'];
+}
+
+main(task);
+});
+
+}
+
+
+
+
+if (mode == 'book'){
+
+//https://stackoverflow.com/questions/16230886/trying-to-fire-the-onload-event-on-script-tag
+var script2 = document.createElement('script');
+script2.type='text/javascript';
+//script2.async = true;
+script2.charset = 'utf-8';
+script2.src = '/data/bookJsonVar.js';
 document.getElementsByTagName('head')[0].appendChild(script2);
 
 //script2.onload = (event) => {}
@@ -175,7 +198,7 @@ main(task);
 }
 
 
-if (mode == 'words'||mode == 'w2'){
+if (mode == 'words'){
 
 //https://stackoverflow.com/questions/16230886/trying-to-fire-the-onload-event-on-script-tag
 var script2 = document.createElement('script');
@@ -343,7 +366,7 @@ function typingSpeedTranslate(textForTranslate, mode) {
 
 //console.log(mode300);
 if (location.hostname == 'localhost'){
-if (mode == 'i2'||mode == 'w2'||mode == 'b2'||mode == 'f2'){
+if (mode == 'i2'){
 document.getElementById("lPrintTr").style.display = "block";
 
 // source code none
@@ -440,6 +463,7 @@ text = letters.join("");
 
 //console.log(letters);
 var a = {
+"[":"", "]":"",
 "„":'"',
 "´":"'",
 "ˈ":"'", "ː":":",

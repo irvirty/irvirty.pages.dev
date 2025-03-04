@@ -59,9 +59,9 @@
 <!-- links in nav -->
 <a class="countMenuItem inlineBlock padding brand itemLinkAni empty" href="/start-menu/" title="Start menu">∷ Start menu</a>
 <a class="countMenuItem active2 inlineBlock padding itemLinkAniActive empty" href="/pages/" title="Pages">Pages</a>
+<a class="countMenuItem inlineBlock padding brand itemLinkAni empty" href="/games/" title="Games">Games</a>
 <a class="countMenuItem inlineBlock padding brand itemLinkAni empty" href="/projects/" title="Projects">Projects</a>
 <a class="countMenuItem inlineBlock padding brand itemLinkAni empty" href="/mini-projects/" title="Mini Projects">Mini Projects</a>
-<a class="countMenuItem inlineBlock padding brand itemLinkAni empty" href="/games/" title="Games">Games</a>
 <!-- // links in nav -->
 </span>
 
@@ -75,9 +75,9 @@
 <!-- links for show in dropdown (duplicate) -->
 <a class="countMenuItem inlineBlock padding brand itemLinkAni empty" href="/start-menu/" title="Start menu">∷ Start menu</a>
 <a class="countMenuItem active2 inlineBlock padding itemLinkAniActive empty" href="/pages/" title="Pages">Pages</a>
+<a class="countMenuItem inlineBlock padding brand itemLinkAni empty" href="/games/" title="Games">Games</a>
 <a class="countMenuItem inlineBlock padding brand itemLinkAni empty" href="/projects/" title="Projects">Projects</a>
 <a class="countMenuItem inlineBlock padding brand itemLinkAni empty" href="/mini-projects/" title="Mini Projects">Mini Projects</a>
-<a class="countMenuItem inlineBlock padding brand itemLinkAni empty" href="/games/" title="Games">Games</a>
 <!-- // links for show in dropdown (duplicate) -->
 </div>
 </div>
@@ -761,25 +761,29 @@ Sources:
 <script src="/js/script.js"></script>
 
 
+<!--
+Config, copy paste in html before script.js.
+Fresh config in script.js
+-->
 <script>
-// fresh config in script.js
-
 let keepConfig = {
-"postLimit":"", // number
-"embedStatus":"off", // off
-"multiEmbedStatus":"on", // on
-"tagListStatus":"", // off
+"postLimit":"", // number, the number of posts per page
+"embedStatus":"off", // "off", "semi" (when id)
+"multiEmbedStatus":"on", // "on"
+"tagListStatus":"", // "off"
 "tagListLimit":"", // number
-"targetOption":"", // blank
-"bottomMsg":``, // bottom text
-"display":"blog", // grid, blog
-"timeStatus":"", // off, disable post time
+"targetOption":"", // "blank"
+"bottomMsg":`
+<!-- bottom text or code -->
+`, // text
+"display":"blog", // gallery, art, blog (text, text2), all (text, text2, text3)
+"timeStatus":"", // off, disable post time (post id)
+"rightFooterStatus":"", // on, off, right footer in data
 "usernameStatus":"off", // on, off
 };
 </script>
 
 <script src="/projects/keep-1/script.js" onload="keep('printKeep', articlesJsonVar, 'wrapper', './', keepConfig)"></script>
-<script></script>
 
 
 </body>

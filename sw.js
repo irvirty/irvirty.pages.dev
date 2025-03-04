@@ -1,5 +1,5 @@
 
-//var myCacheVersion = "v.1.2.2025.03.03";
+//var myCacheVersion = "v.1.2.2025.03.04";
 
 
 
@@ -70,7 +70,7 @@ function swJsInstallFiles(){
 //https://stackoverflow.com/questions/66529102/uncaught-in-promise-typeerror-failed-to-execute-cache-on-addall-request
 //https://github.com/mdn/pwa-examples
 self.addEventListener('install', (e) => {
-e.waitUntil(caches.open("v.1.2.2025.03.03").then((cache) => cache.addAll(fileListArrFound)),);
+e.waitUntil(caches.open("v.1.2.2025.03.04").then((cache) => cache.addAll(fileListArrFound)),);
 });*/
 
 
@@ -200,10 +200,13 @@ var fileListArr = ["/404.html",
 "/data/videoJsonVar.js",
 "/data/websitedirectory.json",
 "/data/websitedirectoryJsonVar.js",
+"/data/wiki.json",
+"/data/wikiJsonVar.js",
 "/data/word.json",
 "/data/wordJsonVar.js",
-"/data2/WATCHLIST.csv",
+"/data2/watchlist.csv",
 "/data2/",
+"/data2/WATCHLIST.csv",
 "/favicon.ico",
 "/fonts/LICENSE.txt",
 "/fonts/",
@@ -1110,6 +1113,8 @@ var fileListArr = ["/404.html",
 "/pages/updates/",
 "/pages/website-directory/index.html",
 "/pages/website-directory/",
+"/pages/wiki/index.html",
+"/pages/wiki/",
 "/projects/agi-countdown-59/data-list.html",
 "/projects/",
 "/projects/agi-countdown-59/",
@@ -1188,7 +1193,6 @@ var fileListArr = ["/404.html",
 "/projects/lag-test-47/style.css",
 "/projects/movie-list-19/index.html",
 "/projects/movie-list-19/",
-"/projects/movie-list-19/script (copy 1).js",
 "/projects/movie-list-19/script.js",
 "/projects/movie-list-19/style.css",
 "/projects/music-20/index.html",
@@ -1392,7 +1396,7 @@ if (res.ok) {
 // file is present at URL
 console.log('try cache.add ' + file);
 //https://web.dev/learn/pwa/caching/
-caches.open("v.1.2.2025.03.03")
+caches.open("v.1.2.2025.03.04")
 .then(cache => {
 cache.add(file); // it stores only one resource
 //  cache.addAll(["styles.css", "app.js"]); // it stores two resources
@@ -1418,7 +1422,7 @@ if (res.ok) {
 // file is present at URL
 console.log('try cache.add ' + newFile);
 //https://web.dev/learn/pwa/caching/
-caches.open("v.1.2.2025.03.03")
+caches.open("v.1.2.2025.03.04")
 .then(cache => {
 cache.add(newFile); // it stores only one resource
 //  cache.addAll(["styles.css", "app.js"]); // it stores two resources
@@ -1451,7 +1455,7 @@ console.log('404 not found ' + newFile);
 // rm old cache
 //https://developer.mozilla.org/en-US/docs/Web/API/CacheStorage/delete
 this.addEventListener("activate", (event) => {
-  const cachesToKeep = ["v.1.2.2025.03.03"];
+  const cachesToKeep = ["v.1.2.2025.03.04"];
 
   event.waitUntil(
     caches.keys().then((keyList) =>

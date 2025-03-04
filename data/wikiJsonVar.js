@@ -1,0 +1,1035 @@
+
+var wikiJsonVar = 
+
+[
+    {
+        "id": "105",
+        "text": "Search engine optimization - Wikipedia",
+        "text2": "Search engine optimization (SEO) is the process of improving the quality and quantity of website traffic to a website or a web page from search engines.[1][2] SEO targets unpaid search traffic (usually referred to as \"organic\" results) rather than direct traffic, referral traffic, social media traffic, or paid traffic.\r\n\r\nUnpaid search engine traffic may originate from a variety of kinds of searches, including image search, video search, academic search,[3] news search, and industry-specific vertical search engines.\r\n\r\nAs an Internet marketing strategy, SEO considers how search engines work, the computer-programmed algorithms that dictate search engine results, what people search for, the actual search queries or keywords typed into search engines, and which search engines are preferred by a target audience. SEO is performed because a website will receive more visitors from a search engine when websites rank higher within a search engine results page (SERP), with the aim of either converting the visitors or building brand awareness.[4]",
+        "text3": "",
+        "url": "https:\/\/en.wikipedia.org\/wiki\/Search_engine_optimization",
+        "tag": "#SEO #word",
+        "time": 1741068282,
+        "rightFooter": ""
+    },
+    {
+        "id": "104",
+        "text": "Cricket (insect) - Wikipedia",
+        "text2": "Crickets are orthopteran insects which are related to bush crickets and more distantly, to grasshoppers. In older literature, such as Imms,[3] \"crickets\" were placed at the family level (i.e. Gryllidae), but contemporary authorities including Otte now place them in the superfamily Grylloidea.[1] The word has been used in combination to describe more distantly related taxa[3] in the suborder Ensifera, such as king crickets and mole crickets.\r\n\r\nCrickets have mainly cylindrically shaped bodies, round heads, and long antennae. Behind the head is a smooth, robust pronotum. The abdomen ends in a pair of long cerci; females have a long, cylindrical ovipositor. Diagnostic features include legs with 3-segmented tarsi; as with many Orthoptera, the hind legs have enlarged femora, providing power for jumping. The front wings are adapted as tough, leathery elytra, and some crickets chirp by rubbing parts of these together. The hind wings are membranous and folded when not in use for flight; many species, however, are flightless. The largest members of the family are the bull crickets, Brachytrupes, which are up to 5 cm (2 in) long.\r\n\r\nCrickets are distributed all around the world except at latitudes 55\u00b0 or higher, with the greatest diversity being in the tropics. They occur in varied habitats from grassland, bushes, and forests to marshes, beaches, and caves. Crickets are mainly nocturnal, and are best known for the loud, persistent, chirping song of males trying to attract females, although some species are mute. The singing species have good hearing, via the tympana on the tibiae of the front legs.\r\n\r\nCrickets often appear as characters in literature. The Talking Cricket features in Carlo Collodi's 1883 children's book, The Adventures of Pinocchio, and in films based on the book. The insect is central to Charles Dickens's 1845 The Cricket on the Hearth and George Selden's 1960 The Cricket in Times Square. Crickets are celebrated in poems by William Wordsworth, John Keats, Du Fu and Vladimir Nazor. They are kept as pets in countries from China to Europe, sometimes for cricket fighting. Crickets are efficient at converting their food into body mass, making them a candidate for food production. They are used as human food in Southeast Asia, where they are sold deep-fried in markets as snacks. They are also used to feed carnivorous pets and zoo animals. In Brazilian folklore, crickets feature as omens of various events.",
+        "text3": "",
+        "url": "https:\/\/en.wikipedia.org\/wiki\/Cricket_(insect)",
+        "tag": "#empty",
+        "time": 1740994706,
+        "rightFooter": ""
+    },
+    {
+        "id": "103",
+        "text": "List of HTTP status codes - Wikipedia",
+        "text2": "This is a list of Hypertext Transfer Protocol (HTTP) response status codes. Status codes are issued by a server in response to a client's request made to the server. It includes codes from IETF Request for Comments (RFCs), other specifications, and some additional codes used in some common applications of the HTTP. The first digit of the status code specifies one of five standard classes of responses. The optional message phrases shown are typical, but any human-readable alternative may be provided, or none at all.\r\n\r\nUnless otherwise stated, the status code is part of the HTTP standard.[1]\r\n\r\nThe Internet Assigned Numbers Authority (IANA) maintains the official registry of HTTP status codes.[2]\r\n\r\nAll HTTP response status codes are separated into five classes or categories. The first digit of the status code defines the class of response, while the last two digits do not have any classifying or categorization role. There are five classes defined by the standard:\r\n\r\n    1xx informational response \u2013 the request was received, continuing process\r\n    2xx successful \u2013 the request was successfully received, understood, and accepted\r\n    3xx redirection \u2013 further action needs to be taken in order to complete the request\r\n    4xx client error \u2013 the request contains bad syntax or cannot be fulfilled\r\n    5xx server error \u2013 the server failed to fulfill an apparently valid request",
+        "text3": "",
+        "url": "https:\/\/en.wikipedia.org\/wiki\/List_of_HTTP_status_codes",
+        "tag": "#empty",
+        "time": 1740925001,
+        "rightFooter": ""
+    },
+    {
+        "id": "102",
+        "text": "HTTP 403 - Wikipedia",
+        "text2": "HTTP 403 is an HTTP status code meaning access to the requested resource is forbidden. The server understood the request, but will not fulfill it, if it was correct.",
+        "text3": "",
+        "url": "https:\/\/en.wikipedia.org\/wiki\/HTTP_403",
+        "tag": "#empty",
+        "time": 1740924072,
+        "rightFooter": ""
+    },
+    {
+        "id": "101",
+        "text": "Art - Wikipedia",
+        "text2": "Art describes a diverse range of cultural activity centered around works utilizing creative or imaginative talents, which are expected to evoke a worthwhile experience,[1] generally through an expression of emotional power, conceptual ideas, technical proficiency, and\/or beauty.[2][3][4]\r\n\r\nThere is no generally agreed definition of what constitutes art,[5][6][7] and its interpretation has varied greatly throughout history and across cultures. In the Western tradition, the three classical branches of visual art are painting, sculpture, and architecture.[8] Theatre, dance, and other performing arts, as well as literature, music, film and other media such as interactive media, are included in a broader definition of \"the arts\".[2][9] Until the 17th century, art referred to any skill or mastery and was not differentiated from crafts or sciences. In modern usage after the 17th century, where aesthetic considerations are paramount, the fine arts are separated and distinguished from acquired skills in general, such as the decorative or applied arts.\r\n\r\nThe nature of art and related concepts, such as creativity and interpretation, are explored in a branch of philosophy known as aesthetics.[10] The resulting artworks are studied in the professional fields of art criticism and the history of art.",
+        "text3": "",
+        "url": "https:\/\/en.wikipedia.org\/wiki\/Art",
+        "tag": "#word",
+        "time": 1740875362,
+        "rightFooter": ""
+    },
+    {
+        "id": "100",
+        "text": "Dot-com bubble - Wikipedia",
+        "text2": "The dot-com bubble (or dot-com boom) was a stock market bubble that ballooned during the late-1990s and peaked on Friday, March 10, 2000. This period of market growth coincided with the widespread adoption of the World Wide Web and the Internet, resulting in a dispensation of available venture capital and the rapid growth of valuations in new dot-com startups. Between 1995 and its peak in March 2000, investments in the NASDAQ composite stock market index rose by 800%, only to fall 78% from its peak by October 2002, giving up all its gains during the bubble.\r\n\r\nDuring the dot-com crash, many online shopping companies, notably Pets.com, Webvan, and Boo.com, as well as several communication companies, such as Worldcom, NorthPoint Communications, and Global Crossing, failed and shut down.[1][2] Others, like Lastminute.com, MP3.com and PeopleSound remained through its sale and buyers acquisition. Larger companies like Amazon and Cisco Systems lost large portions of their market capitalization, with Cisco losing 80% of its stock value.[2][3]",
+        "text3": "",
+        "url": "https:\/\/en.wikipedia.org\/wiki\/Dot-com_bubble",
+        "tag": "#technology",
+        "time": 1740855948,
+        "rightFooter": ""
+    },
+    {
+        "id": "99",
+        "text": "Thursday - Wikipedia",
+        "text2": "Thunor's day\r\n\r\nThe name is derived from Old English \u00feunresd\u00e6g and Middle English Thuresday. It was named after the Old English god Thunor.[3] Thunor and Thor are derived from the name of the Germanic god of thunder, *Thunraz, equivalent to Jupiter in the interpretatio romana.\r\n\r\nIn most Romance languages, the day is named after the Roman god Jupiter, who was the god of sky and thunder. In Latin, the day was known as Iovis Dies, \"Jupiter's Day\". In Latin, the genitive or possessive case of Jupiter was Iovis\/Jovis and thus in most Romance languages it became the word for Thursday: Italian gioved\u00ec, Spanish jueves, French jeudi, Sardinian j\u00f2via, Catalan dijous, Galician xoves and Romanian joi. This is also reflected in the p-Celtic Welsh dydd Iau.\r\n\r\nThe astrological and astronomical sign of the planet Jupiter (\u2643 Jupiter) is sometimes used to represent Thursday.\r\n\r\nMost Germanic languages name the day after the Germanic thunder god: Torsdag in Danish, Norwegian, and Swedish, H\u00f3sdagur\/T\u00f3rsdagur in Faroese, Donnerstag in German or Donderdag in Dutch. Finnish and Northern Sami, both non-Germanic (Uralic) languages, uses the borrowing \"Torstai\" and \"Duorastat\". In the extinct Polabian Slavic language, it was perundan, Perun being the Slavic equivalent of Thor.[4]",
+        "text3": "",
+        "url": "https:\/\/en.wikipedia.org\/wiki\/Thursday",
+        "tag": "#word",
+        "time": 1740777074,
+        "rightFooter": ""
+    },
+    {
+        "id": "98",
+        "text": "Cinnamon (desktop environment) - Wikipedia",
+        "text2": "Cinnamon is a free and open-source desktop environment for Linux and other Unix-like operating systems, which was originally based on GNOME 3, but follows traditional desktop metaphor conventions.\r\n\r\nThe development of Cinnamon began by the Linux Mint team as the result of the April 2011 release of GNOME 3, in which the conventional desktop metaphor of GNOME 2 was discarded in favor of GNOME Shell. Following several attempts to extend GNOME 3 so that it would suit the Linux Mint design goals through \"Mint GNOME Shell Extensions\", the Linux Mint team eventually forked several GNOME 3 components to build an independent desktop environment. This separation from GNOME was finished with the release of Cinnamon 2.0.0 on October 9, 2013. Applets, extensions, actions, and desklets made explicitly for Cinnamon are no longer compatible with GNOME Shell.\r\n\r\nAs the distinctive factor and preeminent desktop environment for Linux Mint, Cinnamon has generally received favorable coverage by the press, in particular for its ease of use and gentle learning curve. In regard to its conservative design model, Cinnamon is similar to the Xfce, MATE, GNOME 2, and GNOME Flashback desktop environments.",
+        "text3": "",
+        "url": "https:\/\/en.wikipedia.org\/wiki\/Cinnamon_(desktop_environment)",
+        "tag": "#OS #DE",
+        "time": 1740675550,
+        "rightFooter": ""
+    },
+    {
+        "id": "97",
+        "text": "Internet - Wikipedia",
+        "text2": "The Internet (or internet)[a] is the global system of interconnected computer networks that uses the Internet protocol suite (TCP\/IP)[b] to communicate between networks and devices. It is a network of networks that consists of private, public, academic, business, and government networks of local to global scope, linked by a broad array of electronic, wireless, and optical networking technologies. The Internet carries a vast range of information resources and services, such as the interlinked hypertext documents and applications of the World Wide Web (WWW), electronic mail, internet telephony, and file sharing.\r\n\r\nThe origins of the Internet date back to research that enabled the time-sharing of computer resources, the development of packet switching in the 1960s and the design of computer networks for data communication.[2][3] The set of rules (communication protocols) to enable internetworking on the Internet arose from research and development commissioned in the 1970s by the Defense Advanced Research Projects Agency (DARPA) of the United States Department of Defense in collaboration with universities and researchers across the United States and in the United Kingdom and France.[4][5][6] The ARPANET initially served as a backbone for the interconnection of regional academic and military networks in the United States to enable resource sharing. The funding of the National Science Foundation Network as a new backbone in the 1980s, as well as private funding for other commercial extensions, encouraged worldwide participation in the development of new networking technologies and the merger of many networks using DARPA's Internet protocol suite.[7] The linking of commercial networks and enterprises by the early 1990s, as well as the advent of the World Wide Web,[8] marked the beginning of the transition to the modern Internet,[9] and generated sustained exponential growth as generations of institutional, personal, and mobile computers were connected to the internetwork. Although the Internet was widely used by academia in the 1980s, the subsequent commercialization of the Internet in the 1990s and beyond incorporated its services and technologies into virtually every aspect of modern life.\r\n\r\nMost traditional communication media, including telephone, radio, television, paper mail, and newspapers, are reshaped, redefined, or even bypassed by the Internet, giving birth to new services such as email, Internet telephone, Internet radio, Internet television, online music, digital newspapers, and audio and video streaming websites. Newspapers, books, and other print publishing have adapted to website technology or have been reshaped into blogging, web feeds, and online news aggregators. The Internet has enabled and accelerated new forms of personal interaction through instant messaging, Internet forums, and social networking services. Online shopping has grown exponentially for major retailers, small businesses, and entrepreneurs, as it enables firms to extend their \"brick and mortar\" presence to serve a larger market or even sell goods and services entirely online. Business-to-business and financial services on the Internet affect supply chains across entire industries.\r\n\r\nThe Internet has no single centralized governance in either technological implementation or policies for access and usage; each constituent network sets its own policies.[10] The overarching definitions of the two principal name spaces on the Internet, the Internet Protocol address (IP address) space and the Domain Name System (DNS), are directed by a maintainer organization, the Internet Corporation for Assigned Names and Numbers (ICANN). The technical underpinning and standardization of the core protocols is an activity of the Internet Engineering Task Force (IETF), a non-profit organization of loosely affiliated international participants that anyone may associate with by contributing technical expertise.[11] In November 2006, the Internet was included on USA Today's list of the New Seven Wonders.[12]",
+        "text3": "",
+        "url": "https:\/\/en.wikipedia.org\/wiki\/Internet",
+        "tag": "#technology",
+        "time": 1740182684,
+        "rightFooter": ""
+    },
+    {
+        "id": "96",
+        "text": "Large language model - Wikipedia",
+        "text2": "A large language model (LLM) is a type of machine learning model designed for natural language processing tasks such as language generation. LLMs are language models with many parameters, and are trained with self-supervised learning on a vast amount of text.\r\n\r\nThe largest and most capable LLMs are generative pretrained transformers (GPTs). Modern models can be fine-tuned for specific tasks or guided by prompt engineering.[1] These models acquire predictive power regarding syntax, semantics, and ontologies[2] inherent in human language corpora, but they also inherit inaccuracies and biases present in the data they are trained in.[3]",
+        "text3": "",
+        "url": "https:\/\/en.wikipedia.org\/wiki\/Large_language_model",
+        "tag": "#AI",
+        "time": 1739986417,
+        "rightFooter": ""
+    },
+    {
+        "id": "95",
+        "text": "Mistral AI - Wikipedia",
+        "text2": "Mistral AI SAS is a French artificial intelligence (AI) startup, headquartered in Paris. It specializes in open-weight large language models (LLMs).[2][3]",
+        "text3": "",
+        "url": "https:\/\/en.wikipedia.org\/wiki\/Mistral_AI",
+        "tag": "#AI",
+        "time": 1739986367,
+        "rightFooter": ""
+    },
+    {
+        "id": "94",
+        "text": "Gemini (language model) - Wikipedia",
+        "text2": "Gemini (formerly known as Bard) is a family of multimodal large language models developed by Google DeepMind, serving as the successor to LaMDA and PaLM 2. Comprising Gemini Ultra, Gemini Pro, Gemini Flash, and Gemini Nano, it was announced on December 6, 2023, positioned as a competitor to OpenAI's GPT-4. It powers the chatbot of the same name.",
+        "text3": "",
+        "url": "https:\/\/en.wikipedia.org\/wiki\/Gemini_(language_model)",
+        "tag": "#AI",
+        "time": 1739986044,
+        "rightFooter": ""
+    },
+    {
+        "id": "92",
+        "text": "Abbreviation - Wikipedia",
+        "text2": "An abbreviation (from Latin brevis, meaning \"short\"[1]) is a shortened form of a word or phrase, by any method including shortening, contraction, initialism (which includes acronym) or crasis. An abbreviation may be a shortened form of a word, usually ended with a trailing period. For example: etc. is the usual abbreviation for et cetera.",
+        "text3": "",
+        "url": "https:\/\/en.wikipedia.org\/wiki\/Abbreviation",
+        "tag": "#language",
+        "time": 1739823091,
+        "rightFooter": ""
+    },
+    {
+        "id": "91",
+        "text": "Acronym - Wikipedia",
+        "text2": "An acronym is a type of abbreviation consisting of a phrase whose only pronounced elements are the initial letters or initial sounds of words inside that phrase. Acronyms are often spelled with the initial letter of each word in all caps with no punctuation.\r\n\r\nFor some, an initialism[1] or alphabetism, connotes this general meaning, and an acronym is a subset with a narrower definition: an acronym pronounced as a word rather than as a sequence of letters. In this sense, NASA \/\u02c8n\u00e6s\u0259\/ is an acronym but USA \/ju\u02d0\u025bs\u02c8e\u026a\/ is not.[2][3]\r\n\r\nThe broader sense of acronym, ignoring pronunciation, is its original meaning[4] and in common use.[5] Dictionary and style-guide editors dispute whether the term acronym can be legitimately applied to abbreviations which are not pronounced as words, and they do not agree on acronym spacing, casing, and punctuation.\r\n\r\nThe phrase that the acronym stands for is called its expansion. The meaning of an acronym includes both its expansion and the meaning of its expansion.",
+        "text3": "",
+        "url": "https:\/\/en.wikipedia.org\/wiki\/Acronym",
+        "tag": "#language",
+        "time": 1739822672,
+        "rightFooter": ""
+    },
+    {
+        "id": "90",
+        "text": "Secure Hash Algorithms - Wikipedia",
+        "text2": "The Secure Hash Algorithms are a family of cryptographic hash functions published by the National Institute of Standards and Technology (NIST) as a U.S. Federal Information Processing Standard (FIPS), including:\r\n\r\n    SHA-0: A retronym applied to the original version of the 160-bit hash function published in 1993 under the name \"SHA\". It was withdrawn shortly after publication due to an undisclosed \"significant flaw\" and replaced by the slightly revised version SHA-1.\r\n    SHA-1: A 160-bit hash function which resembles the earlier MD5 algorithm. This was designed by the National Security Agency (NSA) to be part of the Digital Signature Algorithm. Cryptographic weaknesses were discovered in SHA-1, and the standard was no longer approved for most cryptographic uses after 2010.\r\n    SHA-2: A family of two similar hash functions, with different block sizes, known as SHA-256 and SHA-512. They differ in the word size; SHA-256 uses 32-bit words where SHA-512 uses 64-bit words. There are also truncated versions of each standard, known as SHA-224, SHA-384, SHA-512\/224 and SHA-512\/256. These were also designed by the NSA.\r\n    SHA-3: A hash function formerly called Keccak, chosen in 2012 after a public competition among non-NSA designers. It supports the same hash lengths as SHA-2, and its internal structure differs significantly from the rest of the SHA family.\r\n\r\nThe corresponding standards are FIPS PUB 180 (original SHA), FIPS PUB 180-1 (SHA-1), FIPS PUB 180-2 (SHA-1, SHA-256, SHA-384, and SHA-512). NIST has updated Draft FIPS Publication 202, SHA-3 Standard separate from the Secure Hash Standard (SHS).",
+        "text3": "",
+        "url": "https:\/\/en.wikipedia.org\/wiki\/Secure_Hash_Algorithms",
+        "tag": "#technology",
+        "time": 1739822568,
+        "rightFooter": ""
+    },
+    {
+        "id": "89",
+        "text": "LOL - Wikipedia",
+        "text2": "LOL, or lol, is an initialism for laughing out loud,[1][2][3][4] and a popular element of Internet slang, which can be used to indicate amusement, irony, or double meanings.[5] It was first used almost exclusively on Usenet, but has since become widespread in other forms of computer-mediated communication and even face-to-face communication. It is one of many initialisms for expressing bodily reactions, in particular laughter, as text, including initialisms for more emphatic expressions of laughter such as LMAO[6] (\"laughing my ass off\") and ROFL[7][8][9] or ROTFL[10][11] (\"rolling on the floor laughing\").\r\n\r\nIn 2003, the list of acronyms was said to \"grow by the month\",[8] and they were collected along with emoticons and smileys into folk dictionaries that are circulated informally amongst users of Usenet, IRC, and other forms of (textual) computer-mediated communication.[12] These initialisms are controversial, and several authors[13][14][15][16] recommend against their use, either in general or in specific contexts such as business communications. The Oxford English Dictionary first listed LOL in March 2011.[17]",
+        "text3": "",
+        "url": "https:\/\/en.wikipedia.org\/wiki\/LOL",
+        "tag": "#language #slang",
+        "time": 1739822490,
+        "rightFooter": ""
+    },
+    {
+        "id": "88",
+        "text": "MD5 - Wikipedia",
+        "text2": "The MD5 message-digest algorithm is a widely used hash function producing a 128-bit hash value. MD5 was designed by Ronald Rivest in 1991 to replace an earlier hash function MD4,[3] and was specified in 1992 as RFC 1321.\r\n\r\nMD5 can be used as a checksum to verify data integrity against unintentional corruption. Historically it was widely used as a cryptographic hash function; however it has been found to suffer from extensive vulnerabilities. It remains suitable for other non-cryptographic purposes, for example for determining the partition for a particular key in a partitioned database, and may be preferred due to lower computational requirements than more recent Secure Hash Algorithms.[4",
+        "text3": "",
+        "url": "https:\/\/en.wikipedia.org\/wiki\/MD5",
+        "tag": "#empty #technology",
+        "time": 1739722235,
+        "rightFooter": ""
+    },
+    {
+        "id": "87",
+        "text": "Consciousness - Wikipedia",
+        "text2": "Consciousness, at its simplest, is awareness of internal and external existence.[1] However, its nature has led to millennia of analyses, explanations, and debate by philosophers, scientists, and theologians. Opinions differ about what exactly needs to be studied or even considered consciousness. In some explanations, it is synonymous with the mind, and at other times, an aspect of it. In the past, it was one's \"inner life\", the world of introspection, of private thought, imagination, and volition.[2] Today, it often includes any kind of cognition, experience, feeling, or perception. It may be awareness, awareness of awareness, metacognition, or self-awareness, either continuously changing or not.[3][4] The disparate range of research, notions, and speculations raises a curiosity about whether the right questions are being asked.[5]\r\n\r\nExamples of the range of descriptions, definitions or explanations are: ordered distinction between self and environment, simple wakefulness, one's sense of selfhood or soul explored by \"looking within\"; being a metaphorical \"stream\" of contents, or being a mental state, mental event, or mental process of the brain.",
+        "text3": "",
+        "url": "https:\/\/en.wikipedia.org\/wiki\/Consciousness",
+        "tag": "#empty",
+        "time": 1739469407,
+        "rightFooter": ""
+    },
+    {
+        "id": "86",
+        "text": "Google Trends - Wikipedia",
+        "text2": "Google Trends is a website by Google that analyzes the popularity of top search queries in Google Search across various regions and languages. The website uses graphs to compare the search volume of different queries over a certain period of time.\r\n\r\nOn August 5, 2008, Google launched Google Insights for Search, a more sophisticated and advanced service displaying search trends data. On September 27, 2012, Google merged Google Insights for Search into Google Trends.[1]",
+        "text3": "",
+        "url": "https:\/\/en.wikipedia.org\/wiki\/Google_Trends",
+        "tag": "",
+        "time": 1739171329,
+        "rightFooter": ""
+    },
+    {
+        "id": "85",
+        "text": "Slashdot effect - Wikipedia",
+        "text2": "The Slashdot effect, also known as slashdotting, occurs when a popular website links to a smaller website, causing a massive increase in traffic. This overloads the smaller site, causing it to slow down or even temporarily become unavailable. Typically, less robust sites are unable to cope with the huge increase in traffic and become unavailable \u2013 common causes are lack of sufficient data bandwidth, servers that fail to cope with the high number of requests, and traffic quotas. Sites that are maintained on shared hosting services often fail when confronted with the Slashdot effect. This has the same effect as a denial-of-service attack, albeit accidentally. The name stems from the huge influx of web traffic which would result from the technology news site Slashdot linking to websites. The term flash crowd is a more generic term.[1]\r\n\r\nThe original circumstances have changed, as flash crowds from Slashdot were reported in 2005 to be diminishing due to competition from similar sites,[2] and the general adoption of elastically scalable cloud hosting platforms.",
+        "text3": "",
+        "url": "https:\/\/en.wikipedia.org\/wiki\/Slashdot_effect",
+        "tag": "#technology",
+        "time": 1739167903,
+        "rightFooter": ""
+    },
+    {
+        "id": "84",
+        "text": "GNOME - Wikipedia",
+        "text2": "GNOME (\/\u0261\u0259\u02c8no\u028am\/, \/\u02c8no\u028am\/)[6][7][8] originally an acronym for GNU Network Object Model Environment,[9] is a free and open-source desktop environment for Linux and other Unix-like[10] operating systems.\r\n\r\nMany major Linux distributions, including Debian, Fedora Linux, Ubuntu, Red Hat Enterprise Linux, and SUSE Linux Enterprise distribute GNOME as their default desktop environment; it is also the default in Oracle Solaris, a Unix operating system.\r\n\r\nGNOME is developed by the GNOME Project, which is composed of both volunteers and paid contributors, the largest corporate contributor being Red Hat.[11][12][13] It is an international project that aims to develop frameworks for software development, to program end-user applications based on these frameworks, and to coordinate efforts for the internationalization, localization, and accessibility of that software.\r\n\r\nIn 2023\/2024, GNOME received over 1 million Euros from Germany's Sovereign Tech Fund.[14]",
+        "text3": "",
+        "url": "https:\/\/en.wikipedia.org\/wiki\/GNOME",
+        "tag": "#technology",
+        "time": 1738721456,
+        "rightFooter": ""
+    },
+    {
+        "id": "83",
+        "text": "Vue.js - Wikipedia",
+        "text2": "Vue.js (commonly referred to as Vue; pronounced \"view\"[6]) is an open-source model\u2013view\u2013viewmodel front end JavaScript framework for building user interfaces and single-page applications.[12] It was created by Evan You and is maintained by him and the rest of the active core team members.[13]",
+        "text3": "",
+        "url": "https:\/\/en.wikipedia.org\/wiki\/Vue.js",
+        "tag": "#JS #JavaScript",
+        "time": 1738501028,
+        "rightFooter": ""
+    },
+    {
+        "id": "82",
+        "text": "Vite (software) - Wikipedia",
+        "text2": "Vite (French: [vit], like \"veet\") is a local development server written by Evan You,[1] the creator of Vue.js, and used by default by Vue and for React project templates. It has support for TypeScript and JSX. It uses Rollup [Wikidata] and esbuild internally for bundling.[2]\r\n\r\nIt monitors files as they're being edited and upon file save the web browser reloads the code being edited through a process called Hot Module Replacement (HMR)[3] which works by just reloading the specific file being changed using ES6 modules (ESM) instead of recompiling the entire application.\r\n\r\nVite provides built-in support for server-side rendering (SSR). By default, it listens on TCP port 5173. It is possible to configure Vite to serve content over HTTPS and proxy requests (including WebSocket) to a back-end web server (such as Apache HTTP Server or lighttpd).",
+        "text3": "",
+        "url": "https:\/\/en.wikipedia.org\/wiki\/Vite_(software)",
+        "tag": "",
+        "time": 1738500800,
+        "rightFooter": ""
+    },
+    {
+        "id": "81",
+        "text": "Sublime Text - Wikipedia",
+        "text2": "Sublime Text is a text and source code editor featuring a minimal interface, syntax highlighting and code folding with native support for numerous programming and markup languages, search and replace with support for regular expressions, an integrated terminal\/console window, and customizable themes. Available for Windows, macOS, and Linux, its functionality can be expanded with plugins written in Python. Community-contributed plugins can be downloaded and installed via a built-in Package Control system, or written by the user via a Python API. Sublime Text is proprietary software, but can be downloaded for free and used as an evaluation version with no time limit.",
+        "text3": "",
+        "url": "https:\/\/en.wikipedia.org\/wiki\/Sublime_Text",
+        "tag": "#software #coding",
+        "time": 1738032141,
+        "rightFooter": ""
+    },
+    {
+        "id": "80",
+        "text": "Holy grail (web design) - Wikipedia",
+        "text2": "In web design, the holy grail is a web page layout which has multiple equal-height columns that are defined with style sheets. It is commonly desired and implemented, but for many years, the various ways in which it could be implemented with available technologies all had drawbacks.[1] Because of this, finding an optimal implementation was likened to searching for the elusive Holy Grail.\r\n\r\nThe limitations of CSS and HTML, the desirability of semantically meaningful pages that rank well in search engines, and the deficiencies of various browsers combined historically to create a situation in which there was no way to create this type of layout that would be considered totally correct. As the underlying technologies did not provide a proper solution, web designers found various ways to work around the limitations. Common workarounds included changes in page structure, the addition of graphics, scripting, and the creative use of CSS. These methods were imperfect, inconvenient, and considered by some to be abuse of the web standards and their intent.\r\n\r\nMore recent web standards have provided much more complete and robust solutions for implementing this layout. In particular, the CSS Flexible Box Layout and CSS Grid Layout modules have both provided full solutions.[2][3]",
+        "text3": "",
+        "url": "https:\/\/en.wikipedia.org\/wiki\/Holy_grail_(web_design)",
+        "tag": "#CSS #WebDesign",
+        "time": 1738031413,
+        "rightFooter": ""
+    },
+    {
+        "id": "79",
+        "text": "Goodhart's law - Wikipedia",
+        "text2": "Goodhart's law is an adage often stated as, \"When a measure becomes a target, it ceases to be a good measure\".[1] It is named after British economist Charles Goodhart, who is credited with expressing the core idea of the adage in a 1975 article on monetary policy in the United Kingdom:[2]\r\n\r\n    Any observed statistical regularity will tend to collapse once pressure is placed upon it for control purposes.[3]\r\n\r\nIt was used to criticize the British Thatcher government for trying to conduct monetary policy on the basis of targets for broad and narrow money,[4] but the law reflects a much more general phenomenon.[5]",
+        "text3": "",
+        "url": "https:\/\/en.wikipedia.org\/wiki\/Goodhart's_law",
+        "tag": "#other",
+        "time": 1734826842,
+        "rightFooter": ""
+    },
+    {
+        "id": "78",
+        "text": "Inflation - Wikipedia",
+        "text2": "In economics, inflation is a general increase in the prices of goods and services in an economy. This is usually measured using a consumer price index (CPI).[3][4][5][6] When the general price level rises, each unit of currency buys fewer goods and services; consequently, inflation corresponds to a reduction in the purchasing power of money.[7][8] The opposite of CPI inflation is deflation, a decrease in the general price level of goods and services. The common measure of inflation is the inflation rate, the annualized percentage change in a general price index.[9] As prices faced by households do not all increase at the same rate, the consumer price index (CPI) is often used for this purpose.\r\n\r\nChanges in inflation are widely attributed to fluctuations in real demand for goods and services (also known as demand shocks, including changes in fiscal or monetary policy), changes in available supplies such as during energy crises (also known as supply shocks), or changes in inflation expectations, which may be self-fulfilling.[10] Moderate inflation affects economies in both positive and negative ways. The negative effects would include an increase in the opportunity cost of holding money; uncertainty over future inflation, which may discourage investment and savings; and, if inflation were rapid enough, shortages of goods as consumers begin hoarding out of concern that prices will increase in the future. Positive effects include reducing unemployment due to nominal wage rigidity,[11] allowing the central bank greater freedom in carrying out monetary policy, encouraging loans and investment instead of money hoarding, and avoiding the inefficiencies associated with deflation.\r\n\r\nToday, some economists favour a low and steady rate of inflation, though inflation is less popular with the general public than with economists, since \"inflation simultaneously transfers some of [the] people\u2019s income into the hands of government.\"[12] Low (as opposed to zero or negative) inflation reduces the probability of economic recessions by enabling the labor market to adjust more quickly in a downturn and reduces the risk that a liquidity trap prevents monetary policy from stabilizing the economy while avoiding the costs associated with high inflation.[13] The task of keeping the rate of inflation low and stable is usually given to central banks that control monetary policy, normally through the setting of interest rates and by carrying out open market operations.[10]",
+        "text3": "",
+        "url": "https:\/\/en.wikipedia.org\/wiki\/Inflation",
+        "tag": "#economy",
+        "time": 1733553012,
+        "rightFooter": ""
+    },
+    {
+        "id": "77",
+        "text": "Code review - Wikipedia",
+        "text2": "Code review (sometimes referred to as peer review) is a software quality assurance activity in which one or more people examine the source code of a computer program, either after implementation or during the development process. The persons performing the checking, excluding the author, are called \"reviewers\". At least one reviewer must not be the code's author.[1][2]\r\n\r\nCode review differs from related software quality assurance techniques like static code analysis,self-checks, testing, and pair programming. Static analysis relies primarily on automated tools, self-checks involve only the author, testing requires code execution, and pair programming is performed continuously during development rather than as a separate step.[1]",
+        "text3": "",
+        "url": "https:\/\/en.wikipedia.org\/wiki\/Code_review",
+        "tag": "#technology #coding #programming #debug",
+        "time": 1731919085,
+        "rightFooter": ""
+    },
+    {
+        "id": "76",
+        "text": "Rubber duck debugging - Wikipedia",
+        "text2": "In software engineering, rubber duck debugging (or rubberducking) is a method of debugging code by articulating a problem in spoken or written natural language. The name is a reference to a story in the book The Pragmatic Programmer in which a programmer would carry around a rubber duck and debug their code by forcing themselves to explain it, line by line, to the duck.[1] Many other terms exist for this technique, often involving different (usually) inanimate objects, or pets such as a dog or a cat. Teddy bears are also widely used.[2] When humans are involved, it is known as confessional programming.[3]",
+        "text3": "",
+        "url": "https:\/\/en.wikipedia.org\/wiki\/Rubber_duck_debugging",
+        "tag": "#technology #coding",
+        "time": 1731916727,
+        "rightFooter": ""
+    },
+    {
+        "id": "75",
+        "text": "NotebookLM - Wikipedia",
+        "text2": "NotebookLM (Google NotebookLM) is a research and note-taking online tool developed by Google Labs that uses artificial intelligence (AI), specifically Google Gemini, to assist users in interacting with their documents. It can generate summaries, explanations, and answers based on content uploaded by users. It also includes \"Audio Overviews\", which summarizes documents in a conversational, podcast-like format.[1][2] The team building the product includes popular science author Steven Johnson and product manager Raiza Martin.[3][4]\r\n\r\nNotebookLM was initially launched in 2023 as \"Project Tailwind\".[2][5] Google describes it as a \"virtual research assistant\".[6] In addition to text files, NotebookLM can process PDFs, Google Docs, websites, and Google Slides.[1] The \"Audio Overviews\" feature,[7] released in September 2024, gained media attention for its ability to condense complex documents into engaging podcasts.[6][8][9]\r\n\r\nInitially intended for researchers, NotebookLM has also been adopted by companies and students.[1] In mid-October 2024, Google removed the \"experimental\" status\/badge for the software.[10]",
+        "text3": "",
+        "url": "https:\/\/en.wikipedia.org\/wiki\/NotebookLM",
+        "tag": "#technology #AI",
+        "time": 1730922096,
+        "rightFooter": ""
+    },
+    {
+        "id": "74",
+        "text": "AppImage - Wikipedia",
+        "text2": "AppImage (formerly known as klik and PortableLinuxApps) is an open-source format for distributing portable software on Linux. It aims to allow the installation of binary software independently of specific Linux distributions, a concept often referred to as upstream packaging. As a result, one AppImage can be installed and run across Ubuntu, Arch Linux, and Red Hat Enterprise Linux without needing to use different files. It aims to be a format that is self-contained, rootless, and independent of the underlying Linux distribution.[1]\r\n\r\nReleased first in 2004 under the name klik, it was continuously developed, then renamed in 2011 to PortableLinuxApps and later in 2013 to AppImage. Version 2 was released in 2016.",
+        "text3": "",
+        "url": "https:\/\/en.wikipedia.org\/wiki\/AppImage",
+        "tag": "#technology #Linux #app #software #file",
+        "time": 1730165313,
+        "rightFooter": ""
+    },
+    {
+        "id": "73",
+        "text": "Neocities - Wikipedia",
+        "text2": "Neocities is a commercial web hosting service for static pages. It offers 1 GB of storage space for free sites and no server-side scripting for both paid and free subscriptions. The service's expressed goal is to \"revive the support of free web hosting of the now-defunct GeoCities\". Neocities was launched in 2013 by Kyle Drake.[1][2] As of April 2024, it hosted more than 765,600 sites.[3] The service is powered by an open-source backend provided under the FreeBSD license.[4][5]",
+        "text3": "",
+        "url": "https:\/\/en.wikipedia.org\/wiki\/Neocities",
+        "tag": "#internet #hosting",
+        "time": 1728170155,
+        "rightFooter": ""
+    },
+    {
+        "id": "72",
+        "text": "Landing page - Wikipedia",
+        "text2": "In online marketing, a landing page, sometimes known as a \"lead capture page\", \"single property page\", \"static page\", \"squeeze page\" or a \"destination page\", is a single web page that appears in response to clicking on a search engine optimized search result, marketing promotion, marketing email or an online advertisement.[1] The landing page will usually display directed sales copy that is a logical extension of the advertisement, search result or link. Landing pages are used for lead generation. The actions that a visitor takes on a landing page are what determine an advertiser's conversion rate. A landing page may be part of a microsite or a single page within an organization's main web site.\r\n\r\nLanding pages are often linked to social media, e-mail campaigns, search engine marketing campaigns, high-quality articles or \"affiliate account\" in order to enhance the effectiveness of the advertisements. The general goal of a landing page is to convert site visitors into sales or leads. If the goal is to obtain a lead, the landing page will include some method for the visitor to get into contact with the company, usually a phone number or an inquiry form. If a sale is required, the landing page will usually have a link for the visitor to click, which will then send them to a shopping cart or a checkout area. By analyzing activity generated by the linked URL, marketers can use click-through rates and conversion rate to determine the success of an advertisement.[2]",
+        "text3": "",
+        "url": "https:\/\/en.wikipedia.org\/wiki\/Landing_page",
+        "tag": "#technology #internet",
+        "time": 1727729404,
+        "rightFooter": ""
+    },
+    {
+        "id": "71",
+        "text": "Dynamic web page - Wikipedia",
+        "text2": "A dynamic web page is a web page constructed at runtime (during software execution), as opposed to a static web page, delivered as it is stored. A server-side dynamic web page is a web page whose construction is controlled by an application server processing server-side scripts.[1] In server-side scripting, parameters determine how the assembly of every new web page proceeds, and including the setting up of more client-side processing. A client-side dynamic web page processes the web page using JavaScript running in the browser as it loads. JavaScript can interact with the page via Document Object Model (DOM), to query page state and modify it. Even though a web page can be dynamic on the client-side, it can still be hosted on a static hosting service such as GitHub Pages or Amazon S3 as long as there is not any server-side code included.\r\n\r\nA dynamic web page is then reloaded by the user or by a computer program to change some variable content. The updating information could come from the server, or from changes made to that page's DOM. This may or may not truncate the browsing history or create a saved version to go back to, but a dynamic web page update using AJAX technologies will neither create a page to go back to, nor truncate the web browsing history forward of the displayed page. Using AJAX, the end user gets one dynamic page managed as a single page in the web browser while the actual web content rendered on that page can vary. The AJAX engine sits only on the browser requesting parts of its DOM, the DOM, for its client, from an application server. A particular application server could offer a standardized REST style interface to offer services to the web application.[2]\r\n\r\nDHTML is the umbrella term for technologies and methods used to create web pages that are not static web pages, though it has fallen out of common use since the popularization of AJAX, a term which is now itself rarely used. Client-side-scripting, server-side scripting, or a combination of these make for the dynamic web experience in a browser.",
+        "text3": "",
+        "url": "https:\/\/en.wikipedia.org\/wiki\/Dynamic_web_page",
+        "tag": "#technology",
+        "time": 1724292650,
+        "rightFooter": ""
+    },
+    {
+        "id": "70",
+        "text": "Static web page - Wikipedia",
+        "text2": "A static web page, sometimes called a flat page or a stationary page, is a web page that is delivered to a web browser exactly as stored,[1] in contrast to dynamic web pages which are generated by a web application.[2]\r\n\r\nConsequently, a static web page displays the same information for all users, from all contexts, subject to modern capabilities of a web server to negotiate content-type or language of the document where such versions are available and the server is configured to do so.[3] However, a webpage's JavaScript can introduce dynamic functionality which may make the static web page dynamic.",
+        "text3": "",
+        "url": "https:\/\/en.wikipedia.org\/wiki\/Static_web_page",
+        "tag": "#technology",
+        "time": 1724292619,
+        "rightFooter": ""
+    },
+    {
+        "id": "69",
+        "text": "Computer keyboard - Wikipedia",
+        "text2": "A computer keyboard is a peripheral input device modeled after the typewriter keyboard[1][2] which uses an arrangement of buttons or keys to act as mechanical levers or electronic switches. Replacing early punched cards and paper tape technology, interaction via teleprinter-style keyboards have been the main input method for computers since the 1970s, supplemented by the computer mouse since the 1980s.\r\n\r\nKeyboard keys (buttons) typically have a set of characters engraved or printed on them, and each press of a key typically corresponds to a single written symbol. However, producing some symbols may require pressing and holding several keys simultaneously or in sequence.[3] While most keys produce characters (letters, numbers or symbols), other keys (such as the escape key) can prompt the computer to execute system commands. In a modern computer, the interpretation of key presses is generally left to the software: the information sent to the computer, the scan code, tells it only which physical key (or keys) was pressed or released.[4]\r\n\r\nIn normal usage, the keyboard is used as a text entry interface for typing text, numbers, and symbols into application software such as a word processor, web browser or social media app. Touchscreens use virtual keyboards.",
+        "text3": "",
+        "url": "https:\/\/en.wikipedia.org\/wiki\/Computer_keyboard",
+        "tag": "",
+        "time": 1723968351,
+        "rightFooter": ""
+    },
+    {
+        "id": "68",
+        "text": "ActivityPub - Wikipedia",
+        "text2": "ActivityPub is a protocol and open standard for decentralized social networking. It provides a client-to-server (shortened to C2S) API for creating and modifying content, as well as a federated server-to-server (S2S) protocol for delivering notifications and content to other servers.[2] ActivityPub has become the main standard used in the fediverse, a popular network used for social networking that consists of software such as Mastodon, Pixelfed and PeerTube.[3]\r\n\r\nActivityPub is considered to be an update to the ActivityPump protocol used in pump.io, and the official W3C repository for ActivityPub is identified as a fork of ActivityPump.[4][5] The creation of a new standard for decentralized social networking was prompted by the complexity of OStatus, the most commonly used protocol at the time. OStatus was built using a multitude of technologies (such as Atom, Salmon, WebSub and WebFinger), a product of the infrastructure used in GNU social (the originator and largest user of the OStatus protocol), which made it difficult to implement the protocol into new software. OStatus was also only designed to work with microblogging services, with little flexibility to the types of data that it could hold.\r\n\r\nThe standard was first published by the World Wide Web Consortium (W3C) as a W3C Recommendation in January 2018 by the Social Web Working Group (SocialWG), a working group chartered to build the protocols and vocabularies needed to create a standard for social functionality.[6] Shortly after, further development was moved to the Social Web Incubator Community Group (SocialCG), the successor to the SocialWG.",
+        "text3": "",
+        "url": "https:\/\/en.wikipedia.org\/wiki\/ActivityPub",
+        "tag": "#technology",
+        "time": 1723337640,
+        "rightFooter": ""
+    },
+    {
+        "id": "67",
+        "text": "CSS grid layout - Wikipedia",
+        "text2": "In Cascading Style Sheets, CSS grid layout or CSS grid creates complex responsive web design grid layouts more easily and consistently across browsers.[6] Historically, there have been other methods for controlling web page layout methods, such as tables, floats, and more recently, CSS Flexible Box Layout (flexbox). CSS grid is currently not an official standard (it is a W3C Candidate Recommendation) although it has been adopted by the recent versions of all current major browsers.[7]",
+        "text3": "",
+        "url": "https:\/\/en.wikipedia.org\/wiki\/CSS_grid_layout",
+        "tag": "#CSS",
+        "time": 1723337524,
+        "rightFooter": ""
+    },
+    {
+        "id": "66",
+        "text": "Monopoly - Wikipedia",
+        "text2": "A monopoly (from Greek \u03bc\u03cc\u03bd\u03bf\u03c2, m\u00f3nos, 'single, alone' and \u03c0\u03c9\u03bb\u03b5\u1fd6\u03bd, p\u014dle\u00een, 'to sell'), as described by Irving Fisher, is a market with the \"absence of competition\", creating a situation where a specific person or enterprise is the only supplier of a particular thing. This contrasts with a monopsony which relates to a single entity's control of a market to purchase a good or service, and with oligopoly and duopoly which consists of a few sellers dominating a market.[1] Monopolies are thus characterised by a lack of economic competition to produce the good or service, a lack of viable substitute goods, and the possibility of a high monopoly price well above the seller's marginal cost that leads to a high monopoly profit.[2] The verb monopolise or monopolize refers to the process by which a company gains the ability to raise prices or exclude competitors. In economics, a monopoly is a single seller. In law, a monopoly is a business entity that has significant market power, that is, the power to charge overly high prices, which is associated with unfair price raises.[3] Although monopolies may be big businesses, size is not a characteristic of a monopoly. A small business may still have the power to raise prices in a small industry (or market).[3]\r\n\r\nA monopoly may also have monopsony control of a sector of a market. A monopsony is a market situation in which there is only one buyer. Likewise, a monopoly should be distinguished from a cartel (a form of oligopoly), in which several providers act together to coordinate services, prices or sale of goods. Monopolies, monopsonies and oligopolies are all situations in which one or a few entities have market power and therefore interact with their customers (monopoly or oligopoly), or suppliers (monopsony) in ways that distort the market.[citation needed]\r\n\r\nMonopolies can be formed by mergers and integrations, form naturally, or be established by a government. In many jurisdictions, competition laws restrict monopolies due to government concerns over potential adverse effects. Holding a dominant position or a monopoly in a market is often not illegal in itself; however, certain categories of behavior can be considered abusive and therefore incur legal sanctions when business is dominant. A government-granted monopoly or legal monopoly, by contrast, is sanctioned by the state, often to provide an incentive to invest in a risky venture or enrich a domestic interest group. Patents, copyrights, and trademarks are sometimes used as examples of government-granted monopolies. The government may also reserve the venture for itself, thus forming a government monopoly, for example with a state-owned company.[citation needed]\r\n\r\nMonopolies may be naturally occurring due to limited competition because the industry is resource intensive and requires substantial costs to operate (e.g., certain railroad systems).[4]",
+        "text3": "",
+        "url": "https:\/\/en.wikipedia.org\/wiki\/Monopoly",
+        "tag": "#empty",
+        "time": 1723090627,
+        "rightFooter": ""
+    },
+    {
+        "id": "65",
+        "text": "Computer science - Wikipedia",
+        "text2": "Computer science is the study of computation, information, and automation.[1][2][3] Computer science spans theoretical disciplines (such as algorithms, theory of computation, and information theory) to applied disciplines (including the design and implementation of hardware and software).[4][5][6]\r\n\r\nAlgorithms and data structures are central to computer science.[7] The theory of computation concerns abstract models of computation and general classes of problems that can be solved using them. The fields of cryptography and computer security involve studying the means for secure communication and preventing security vulnerabilities. Computer graphics and computational geometry address the generation of images. Programming language theory considers different ways to describe computational processes, and database theory concerns the management of repositories of data. Human\u2013computer interaction investigates the interfaces through which humans and computers interact, and software engineering focuses on the design and principles behind developing software. Areas such as operating systems, networks and embedded systems investigate the principles and design behind complex systems. Computer architecture describes the construction of computer components and computer-operated equipment. Artificial intelligence and machine learning aim to synthesize goal-orientated processes such as problem-solving, decision-making, environmental adaptation, planning and learning found in humans and animals. Within artificial intelligence, computer vision aims to understand and process image and video data, while natural language processing aims to understand and process textual and linguistic data.\r\n\r\nThe fundamental concern of computer science is determining what can and cannot be automated.[2][8][3][9][10] The Turing Award is generally recognized as the highest distinction in computer science.[11][12]",
+        "text3": "",
+        "url": "https:\/\/en.wikipedia.org\/wiki\/Computer_science",
+        "tag": "#technology",
+        "time": 1721301972,
+        "rightFooter": ""
+    },
+    {
+        "id": "64",
+        "text": "Processor (computing) - Wikipedia",
+        "text2": "In computing and computer science, a processor or processing unit is an electrical component (digital circuit) that performs operations on an external data source, usually memory or some other data stream.[1] It typically takes the form of a microprocessor, which can be implemented on a single or a few tightly integrated metal\u2013oxide\u2013semiconductor integrated circuit chips.[2][3] In the past, processors were constructed using multiple individual vacuum tubes,[4][5] multiple individual transistors,[6] or multiple integrated circuits.\r\n\r\nThe term is frequently used to refer to the central processing unit (CPU), the main processor in a system.[7] However, it can also refer to other coprocessors, such as a graphics processing unit (GPU).[8]\r\n\r\nTraditional processors are typically based on silicon; however, researchers have developed experimental processors based on alternative materials such as carbon nanotubes,[9] graphene,[10] diamond,[11] and alloys made of elements from groups three and five of the periodic table.[12] Transistors made of a single sheet of silicon atoms one atom tall and other 2D materials have been researched for use in processors.[13] Quantum processors have been created; they use quantum superposition to represent bits (called qubits) instead of only an on or off state.[14][15]",
+        "text3": "",
+        "url": "https:\/\/en.wikipedia.org\/wiki\/Processor_(computing)",
+        "tag": "#technology",
+        "time": 1721301908,
+        "rightFooter": ""
+    },
+    {
+        "id": "63",
+        "text": "User interface design - Wikipedia",
+        "text2": "User interface (UI) design or user interface engineering is the design of user interfaces for machines and software, such as computers, home appliances, mobile devices, and other electronic devices, with the focus on maximizing usability and the user experience. In computer or software design, user interface (UI) design primarily focuses on information architecture. It is the process of building interfaces that clearly communicate to the user what's important. UI design refers to graphical user interfaces and other forms of interface design. The goal of user interface design is to make the user's interaction as simple and efficient as possible, in terms of accomplishing user goals (user-centered design).\r\n\r\nUser interfaces are the points of interaction between users and designs. There are three types:\r\n\r\n    Graphical user interfaces (GUIs) \u2013 Users interact with visual representations on a computer's screen. The desktop is an example of a GUI.\r\n    Interfaces controlled through voice \u2013 Users interact with these through their voices. Most smart assistants, such as Siri on smartphones or Alexa on Amazon devices, use voice control.\r\n    Interactive interfaces utilizing gestures \u2013 Users interact with 3D design environments through their bodies, e.g., in virtual reality (VR) games.\r\n\r\nInterface design is involved in a wide range of projects, from computer systems, to cars, to commercial planes; all of these projects involve much of the same basic human interactions yet also require some unique skills and knowledge. As a result, designers tend to specialize in certain types of projects and have skills centered on their expertise, whether it is software design, user research, web design, or industrial design.\r\n\r\nGood user interface design facilitates finishing the task at hand without drawing unnecessary attention to itself. Graphic design and typography are utilized to support its usability, influencing how the user performs certain interactions and improving the aesthetic appeal of the design; design aesthetics may enhance or detract from the ability of users to use the functions of the interface.[1] The design process must balance technical functionality and visual elements (e.g., mental model) to create a system that is not only operational but also usable and adaptable to changing user needs.",
+        "text3": "",
+        "url": "https:\/\/en.wikipedia.org\/wiki\/User_interface_design",
+        "tag": "#coding #design",
+        "time": 1720270210,
+        "rightFooter": ""
+    },
+    {
+        "id": "62",
+        "text": "User experience design - Wikipedia",
+        "text2": "User experience design (UX design, UXD, UED, or XD), upon which is the centralized requirements for \"User Experience Design Research\" (also known as UX Design Research), defines the experience a user would go through when interacting with a company, its services, and its products.[1] User experience design is a user centered design approach because it considers the user's experience when using a product or platform.[2] Research, data analysis, and test results drive design decisions in UX design rather than aesthetic preferences and opinions, for which is known as UX Design Research. Unlike user interface design, which focuses solely on the design of a computer interface, UX design encompasses all aspects of a user's perceived experience with a product or website, such as its usability, usefulness, desirability, brand perception, and overall performance. UX design is also an element of the customer experience (CX), and encompasses all design aspects and design stages that are around a customer's experience.[3]",
+        "text3": "",
+        "url": "https:\/\/en.wikipedia.org\/wiki\/User_experience_design",
+        "tag": "#coding #design",
+        "time": 1720270153,
+        "rightFooter": ""
+    },
+    {
+        "id": "61",
+        "text": "The Simpsons - Wikipedia",
+        "text2": "The Simpsons is an American animated sitcom created by Matt Groening for the Fox Broadcasting Company.[1][2][3] Developed by Groening, James L. Brooks, and Sam Simon, the series is a satirical depiction of American life, epitomized by the Simpson family, which consists of Homer, Marge, Bart, Lisa, and Maggie. Set in the fictional town of Springfield, it caricatures society, Western culture, television, and the human condition.\r\n\r\nThe family was conceived by Groening shortly before a solicitation for a series of animated shorts with producer Brooks. He created a dysfunctional family and named the characters after his own family members, substituting Bart for his own name; he thought Simpson was a funny name in that it sounded similar to \"simpleton\".[4] The shorts became a part of The Tracey Ullman Show on April 19, 1987. After three seasons, the sketch was developed into a half-hour prime time show and became Fox's first series to land in the Top 30 ratings in a season (1989\u20131990).\r\n\r\nSince its debut on December 17, 1989, 768 episodes of the show have been broadcast. It is the longest-running American animated series, longest-running American sitcom, and the longest-running American scripted primetime television series, both in seasons and individual episodes. A feature-length film, The Simpsons Movie, was released in theaters worldwide on July 27, 2007, to critical and commercial success, with a sequel in development as of 2018. The series has also spawned numerous comic book series, video games, books, and other related media, as well as a billion-dollar merchandising industry. The Simpsons is a joint production by Gracie Films and 20th Television.[5]\r\n\r\nOn January 26, 2023, the series was renewed for its 35th and 36th seasons, taking the show through the 2024\u201325 television season.[6] Both seasons contain a combined total of 51 episodes. Seven of these episodes are season 34 holdovers, while the other 44 will be produced in the production cycle of the upcoming seasons, bringing the show's overall episode total up to 801.[7] Season 35 premiered on October 1, 2023.[8]\r\n\r\nThe Simpsons received widespread acclaim throughout its early seasons in the 1990s, which are generally considered its \"golden age\". Since then, it has been criticized for a perceived decline in quality. Time named it the 20th century's best television series,[9] and Erik Adams of The A.V. Club named it \"television's crowning achievement regardless of format\".[10] On January 14, 2000, the Simpson family was awarded a star on the Hollywood Walk of Fame. It has won dozens of awards since it debuted as a series, including 37 Primetime Emmy Awards, 34 Annie Awards, and 2 Peabody Awards. Homer's exclamatory catchphrase of \"D'oh!\" has been adopted into the English language, while The Simpsons has influenced many other later adult-oriented animated sitcom television series.",
+        "text3": "",
+        "url": "https:\/\/en.wikipedia.org\/wiki\/The_Simpsons",
+        "tag": "#empty",
+        "time": 1720003063,
+        "rightFooter": ""
+    },
+    {
+        "id": "60",
+        "text": "Qt (software) - Wikipedia",
+        "text2": "Qt (pronounced \"cute\"[7][8] or as an initialism) is cross-platform application development framework for creating graphical user interfaces as well as cross-platform applications that run on various software and hardware platforms such as Linux, Windows, macOS, Android or embedded systems with little or no change in the underlying codebase while still being a native application with native capabilities and speed.\r\n\r\nQt is currently being developed by The Qt Company, a publicly listed company, and the Qt Project under open-source governance, involving individual developers and organizations working to advance Qt.[9][10][11] Qt is available under both commercial licenses[4] and open-source[12] GPL 2.0, GPL 3.0, and LGPL 3.0 licenses.[5][6]",
+        "text3": "",
+        "url": "https:\/\/en.wikipedia.org\/wiki\/Qt_(software)",
+        "tag": "#coding #technology",
+        "time": 1719906895,
+        "rightFooter": ""
+    },
+    {
+        "id": "59",
+        "text": "Science fiction - Wikipedia",
+        "text2": "Science fiction (sometimes shortened to SF or sci-fi) is a genre of speculative fiction, which typically deals with imaginative and futuristic concepts such as advanced science and technology, space exploration, time travel, parallel universes, and extraterrestrial life. It is related to fantasy, horror, and superhero fiction and contains many subgenres. Its exact definition has long been disputed among authors, critics, scholars, and readers.\r\n\r\nScience fiction, in literature, film, television, and other media, has become popular and influential over much of the world. It has been called the \"literature of ideas\", and has sometimes been described as an exploration of the potential consequences of scientific, social, and technological innovations[1][2] or as an outlet to anticipate future scientific and technological innovations.[3] Besides providing entertainment, it can also criticize present-day society and explore alternatives. It is also often said to inspire a \"sense of wonder\".[4]",
+        "text3": "",
+        "url": "https:\/\/en.wikipedia.org\/wiki\/Science_fiction",
+        "tag": "#empty",
+        "time": 1719906563,
+        "rightFooter": ""
+    },
+    {
+        "id": "58",
+        "text": "Novel - Wikipedia",
+        "text2": "A novel is an extended work of narrative fiction usually written in prose and published as a book.[1] The English word to describe such a work derives from the Italian: novella for \"new\", \"news\", or \"short story (of something new)\", itself from the Latin: novella, a singular noun use of the neuter plural of novellus, diminutive of novus, meaning \"new\".[2] According to Margaret Doody, the novel has \"a continuous and comprehensive history of about two thousand years\", with its origins in the Ancient Greek and Roman novel, Medieval Chivalric romance, and in the tradition of the Italian Renaissance novella.[3] The ancient romance form was revived by Romanticism, in the historical romances of Walter Scott and the Gothic novel.[4] Some novelists, including Nathaniel Hawthorne,[5] Herman Melville,[6] Ann Radcliffe,[7] and John Cowper Powys,[8] preferred the term \"romance\". M. H. Abrams and Walter Scott have argued that a novel is a fiction narrative that displays a realistic depiction of the state of a society, while the romance encompasses any fictitious narrative that emphasizes marvellous or uncommon incidents.[9][10][11] Works of fiction that include marvellous or uncommon incidents are also novels, including Mary Shelley's Frankenstein,[12] J. R. R. Tolkien's The Lord of the Rings,[13] and Harper Lee's To Kill a Mockingbird.[14] Such \"romances\" should not be confused with the genre fiction romance novel, which focuses on romantic love.\r\n\r\nMurasaki Shikibu's Tale of Genji, an early 11th-century Japanese text, has sometimes been described as the world's first novel, because of its early use of the experience of intimacy in a narrative form. There is considerable debate over this, however, as there were certainly long fictional prose works that preceded it. The spread of printed books in China led to the appearance of classical Chinese novels during the Ming dynasty (1368\u20131644), and Qing dynasty (1616\u20131911). An early example from Europe was Hayy ibn Yaqdhan by the Sufi writer Ibn Tufayl in Muslim Spain.[15] Later developments occurred after the invention of the printing press. Miguel de Cervantes, author of Don Quixote (the first part of which was published in 1605), is frequently cited as the first significant European novelist of the modern era.[16] Literary historian Ian Watt, in The Rise of the Novel (1957), argued that the modern novel was born in the early 18th century.\r\n\r\nRecent technological developments have led to many novels also being published in non-print media: this includes audio books, web novels, and ebooks. Another non-traditional fiction format can be found in graphic novels. While these comic book versions of works of fiction have their origins in the 19th century, they have only become popular recently.",
+        "text3": "",
+        "url": "https:\/\/en.wikipedia.org\/wiki\/Novel",
+        "tag": "#empty",
+        "time": 1719906492,
+        "rightFooter": ""
+    },
+    {
+        "id": "57",
+        "text": "Perceptron - Wikipedia",
+        "text2": "In machine learning, the perceptron (or McCulloch\u2013Pitts neuron) is an algorithm for supervised learning of binary classifiers. A binary classifier is a function which can decide whether or not an input, represented by a vector of numbers, belongs to some specific class.[1] It is a type of linear classifier, i.e. a classification algorithm that makes its predictions based on a linear predictor function combining a set of weights with the feature vector.",
+        "text3": "",
+        "url": "https:\/\/en.wikipedia.org\/wiki\/Perceptron",
+        "tag": "#empty",
+        "time": 1719906413,
+        "rightFooter": ""
+    },
+    {
+        "id": "56",
+        "text": "Coffee - Wikipedia",
+        "text2": "Coffee is a beverage brewed from roasted coffee beans. Darkly colored, bitter, and slightly acidic, coffee has a stimulating effect on humans, primarily due to its caffeine content. It has the highest sales in the world market for hot drinks.[2]\r\n\r\nThe seeds of the Coffea plant's fruits are separated to produce unroasted green coffee beans. The beans are roasted and then ground into fine particles typically steeped in hot water before being filtered out, producing a cup of coffee. It is usually served hot, although chilled or iced coffee is common. Coffee can be prepared and presented in a variety of ways (e.g., espresso, French press, caff\u00e8 latte, or already-brewed canned coffee). Sugar, sugar substitutes, milk, and cream are often added to mask the bitter taste or enhance the flavor.\r\n\r\nThough coffee is now a global commodity, it has a long history tied closely to food traditions around the Red Sea. The earliest credible evidence of coffee drinking as the modern beverage appears in modern-day Yemen in southern Arabia in the middle of the 15th century in Sufi shrines, where coffee seeds were first roasted and brewed in a manner similar to how it is now prepared for drinking.[3] The coffee beans were procured by the Yemenis from the Ethiopian Highlands via coastal Somali intermediaries, and cultivated in Yemen. By the 16th century, the drink had reached the rest of the Middle East and North Africa, later spreading to Europe.\r\n\r\nThe two most commonly grown coffee bean types are C. arabica and C. robusta.[4] Coffee plants are cultivated in over 70 countries, primarily in the equatorial regions of the Americas, Southeast Asia, the Indian subcontinent, and Africa. As of 2023, Brazil was the leading grower of coffee beans, producing 35% of the world's total. Green, unroasted coffee is traded as an agricultural commodity. Despite coffee sales reaching billions of dollars worldwide, farmers producing coffee beans disproportionately live in poverty. Critics of the coffee industry have also pointed to its negative impact on the environment and the clearing of land for coffee-growing and water use. The global coffee industry is massive and worth $495.50 billion as of 2023.[5] Brazil, Vietnam, and Colombia are the top exporters of coffee beans as of 2023.",
+        "text3": "",
+        "url": "https:\/\/en.wikipedia.org\/wiki\/Coffee",
+        "tag": "#empty",
+        "time": 1719738285,
+        "rightFooter": ""
+    },
+    {
+        "id": "55",
+        "text": "Hash table - Wikipedia",
+        "text2": "In computing, a hash table is a data structure that implements an associative array, also called a dictionary or simply map, which is an abstract data type that maps keys to values.[2] A hash table uses a hash function to compute an index, also called a hash code, into an array of buckets or slots, from which the desired value can be found. During lookup, the key is hashed and the resulting hash indicates where the corresponding value is stored.\r\n\r\nIdeally, the hash function will assign each key to a unique bucket, but most hash table designs employ an imperfect hash function, which might cause hash collisions where the hash function generates the same index for more than one key. Such collisions are typically accommodated in some way.\r\n\r\nIn a well-dimensioned hash table, the average time complexity for each lookup is independent of the number of elements stored in the table. Many hash table designs also allow arbitrary insertions and deletions of key\u2013value pairs, at amortized constant average cost per operation.[3][4][5]\r\n\r\nHashing is an example of a space-time tradeoff. If memory is infinite, the entire key can be used directly as an index to locate its value with a single memory access. On the other hand, if infinite time is available, values can be stored without regard for their keys, and a binary search or linear search can be used to retrieve the element.[6]:\u200a458\u200a\r\n\r\nIn many situations, hash tables turn out to be on average more efficient than search trees or any other table lookup structure. For this reason, they are widely used in many kinds of computer software, particularly for associative arrays, database indexing, caches, and sets.",
+        "text3": "",
+        "url": "https:\/\/en.wikipedia.org\/wiki\/Hash_table",
+        "tag": "#coding #technology",
+        "time": 1719610224,
+        "rightFooter": ""
+    },
+    {
+        "id": "54",
+        "text": "Git - Wikipedia",
+        "text2": "Git (\/\u0261\u026at\/)[8] is a distributed version control system[9] that tracks versions of files. It is often used to control source code by programmers collaboratively developing software.\r\n\r\nDesign goals of Git include speed, data integrity, and support for distributed, non-linear workflows \u2013 thousands of parallel branches running on different computers.[10][11][12]\r\n\r\nGit was created for use in the development of the Linux kernel by Linus Torvalds and others developing the kernel.[13]\r\n\r\nAs with most other distributed version control systems, and unlike most client\u2013server systems, Git maintains a local copy of the entire repository, a.k.a. repo, with history and version-tracking abilities, independent of network access or a central server. A repo is stored on each computer in a standard directory with additional, hidden files to provide version control capabilities.[14] Git provides features to synchronize changes between repos that share history; copied (cloned) from each other. For collaboration, Git supports synchronizing with repos on remote machines. Although all repos (with the same history) are peers, developers often use a central server to host a repo to hold an integrated copy.\r\n\r\nGit is a free and open-source software shared under the GPL-2.0-only license.\r\n\r\nThe trademark \"Git\" is registered by the Software Freedom Conservancy, marking its official recognition and continued evolution in the open-source community.\r\n\r\nToday, Git is the de facto standard version control system. It is the most popular distributed version control system, with nearly 95% of developers reporting it as their primary version control system as of 2022.[15] It is the most widely used source-code management tool among professional developers. There are offerings of Git repository services, including GitHub, SourceForge, Bitbucket and GitLab.[16][17][18][19][20]",
+        "text3": "",
+        "url": "https:\/\/en.wikipedia.org\/wiki\/Git",
+        "tag": "#coding #technology",
+        "time": 1719610118,
+        "rightFooter": ""
+    },
+    {
+        "id": "53",
+        "text": "GitHub - Wikipedia",
+        "text2": "GitHub (\/\u02c8\u0261\u026ath\u028cb\/) is a developer platform that allows developers to create, store, manage and share their code. It uses Git software, providing the distributed version control of Git plus access control, bug tracking, software feature requests, task management, continuous integration, and wikis for every project.[6] Headquartered in California, it has been a subsidiary of Microsoft since 2018.[7]\r\n\r\nIt is commonly used to host open source software development projects.[8] As of January 2023, GitHub reported having over 100 million developers[9] and more than 420 million repositories,[10] including at least 28 million public repositories.[11] It is the world's largest source code host as of June 2023.",
+        "text3": "",
+        "url": "https:\/\/en.wikipedia.org\/wiki\/GitHub",
+        "tag": "#technology #coding",
+        "time": 1719610086,
+        "rightFooter": ""
+    },
+    {
+        "id": "52",
+        "text": "Android (operating system) - Wikipedia",
+        "text2": "Android is a mobile operating system based on a modified version of the Linux kernel and other open-source software, designed primarily for touchscreen mobile devices such as smartphones and tablets. Android is developed by a consortium of developers known as the Open Handset Alliance, though its most widely used version is primarily developed by Google. It was unveiled in November 2007, with the first commercial Android device, the HTC Dream, being launched in September 2008.\r\n\r\nAt its core, the operating system is known as the Android Open Source Project (AOSP)[5] and is free and open-source software (FOSS) primarily licensed under the Apache License. However, most devices run on the proprietary Android version developed by Google, which ships with additional proprietary closed-source software pre-installed,[6] most notably Google Mobile Services (GMS)[7] which includes core apps such as Google Chrome, the digital distribution platform Google Play, and the associated Google Play Services development platform. Firebase Cloud Messaging is used for push notifications. While AOSP is free, the \"Android\" name and logo are trademarks of Google, which imposes standards to restrict the use of Android branding by \"uncertified\" devices outside their ecosystem.[8][9]\r\n\r\nOver 70 percent of smartphones based on the Android Open Source Project run Google's ecosystem (which is known simply as Android), some with vendor-customized user interfaces and software suites, such as TouchWiz and later One UI by Samsung and HTC Sense.[10] Competing ecosystems and forks of AOSP include Fire OS (developed by Amazon), ColorOS by Oppo, OriginOS by Vivo, MagicUI by Honor, or custom ROMs such as LineageOS.\r\n\r\nThe source code has been used to develop variants of Android on a range of other electronics, such as game consoles, digital cameras, portable media players, and PCs, each with a specialized user interface. Some well-known derivatives include Android TV for televisions and Wear OS for wearables, both developed by Google. Software packages on Android, which use the APK format, are generally distributed through proprietary application stores like Google Play Store, Amazon Appstore, Samsung Galaxy Store, Huawei AppGallery, Cafe Bazaar, GetJar, and Aptoide, or open source platforms like F-Droid.\r\n\r\nAndroid has been the best-selling OS worldwide on smartphones since 2011 and on tablets since 2013. As of May 2021, it had over three billion monthly active users, the largest installed base of any operating system in the world,[11] and as of January 2021, the Google Play Store featured over 3 million apps.[12] Android 14, released on October 4, 2023, is the latest version, and Android 12.1\/12L includes improvements specific to foldable phones, tablets, desktop-sized screens[13] and Chromebooks.",
+        "text3": "",
+        "url": "https:\/\/en.wikipedia.org\/wiki\/Android_(operating_system)",
+        "tag": "#technology",
+        "time": 1719610008,
+        "rightFooter": ""
+    },
+    {
+        "id": "51",
+        "text": "React (JavaScript library) - Wikipedia",
+        "text2": "React (also known as React.js or ReactJS) is a free and open-source front-end JavaScript library[4][5] for building user interfaces based on components. It is maintained by Meta (formerly Facebook) and a community of individual developers and companies.[6][7][8]\r\n\r\nReact can be used to develop single-page, mobile, or server-rendered applications with frameworks like Next.js. Because React is only concerned with the user interface and rendering components to the DOM, React applications often rely on libraries for routing and other client-side functionality.[9][10] A key advantage of React is that it only rerenders those parts of the page that have changed, avoiding unnecessary rerendering of unchanged DOM elements.",
+        "text3": "",
+        "url": "https:\/\/en.wikipedia.org\/wiki\/React_(JavaScript_library)",
+        "tag": "#coding #technology",
+        "time": 1719609960,
+        "rightFooter": ""
+    },
+    {
+        "id": "50",
+        "text": "GraphQL - Wikipedia",
+        "text2": "GraphQL is an open-source data query and manipulation language for APIs and a query runtime engine.\r\n\r\nGraphQL enables declarative data fetching where a client can specify exactly what data it needs from an API. Instead of multiple endpoints that return separate data, a GraphQL server exposes a single endpoint and responds with precisely the data a client asked for.[2] Because a GraphQL server can fetch from separate data sources and present the data in a unified graph, it is not tied to any specific database or storage engine.",
+        "text3": "",
+        "url": "https:\/\/en.wikipedia.org\/wiki\/GraphQL",
+        "tag": "#coding #technology",
+        "time": 1719609886,
+        "rightFooter": ""
+    },
+    {
+        "id": "49",
+        "text": "Node.js - Wikipedia",
+        "text2": "Node.js is a cross-platform, open-source JavaScript runtime environment that can run on Windows, Linux, Unix, macOS, and more. Node.js runs on the V8 JavaScript engine, and executes JavaScript code outside a web browser.\r\n\r\nNode.js lets developers use JavaScript to write command line tools and for server-side scripting. The ability to run JavaScript code on the server is often used to generate dynamic web page content before the page is sent to the user's web browser. Consequently, Node.js represents a \"JavaScript everywhere\" paradigm,[6] unifying web-application development around a single programming language, as opposed to using different languages for the server- versus client-side programming.\r\n\r\nNode.js has an event-driven architecture capable of asynchronous I\/O. These design choices aim to optimize throughput and scalability in web applications with many input\/output operations, as well as for real-time Web applications (e.g., real-time communication programs and browser games).[7]\r\n\r\nThe Node.js distributed development project was previously governed by the Node.js Foundation,[8] and has now merged with the JS Foundation to form the OpenJS Foundation. OpenJS Foundation is facilitated by the Linux Foundation's Collaborative Projects program.[9]",
+        "text3": "",
+        "url": "https:\/\/en.wikipedia.org\/wiki\/Node.js",
+        "tag": "#coding #technology",
+        "time": 1719609808,
+        "rightFooter": ""
+    },
+    {
+        "id": "48",
+        "text": "Web development - Wikipedia",
+        "text2": "Web development is the work involved in developing a website for the Internet (World Wide Web) or an intranet (a private network).[1] Web development can range from developing a simple single static page of plain text to complex web applications, electronic businesses, and social network services. A more comprehensive list of tasks to which Web development commonly refers, may include Web engineering, Web design, Web content development, client liaison, client-side\/server-side scripting, Web server and network security configuration, and e-commerce development.\r\n\r\nAmong Web professionals, \"Web development\" usually refers to the main non-design aspects of building Web sites: writing markup and coding.[2] Web development may use content management systems (CMS) to make content changes easier and available with basic technical skills.\r\n\r\nFor larger organizations and businesses, Web development teams can consist of hundreds of people (Web developers) and follow standard methods like Agile methodologies while developing Web sites.[1] Smaller organizations may only require a single permanent or contracting developer, or secondary assignment to related job positions such as a graphic designer or information systems technician. Web development may be a collaborative effort between departments rather than the domain of a designated department. There are three kinds of Web developer specialization: front-end developer, back-end developer, and full-stack developer.[3] Front-end developers are responsible for behavior and visuals that run in the user browser, while back-end developers deal with the servers.[4] Since the commercialization of the Web, the industry has boomed and has become one of the most used technologies ever.",
+        "text3": "",
+        "url": "https:\/\/en.wikipedia.org\/wiki\/Web_development",
+        "tag": "#technology",
+        "time": 1719568956,
+        "rightFooter": ""
+    },
+    {
+        "id": "47",
+        "text": "Conversation - Wikipedia",
+        "text2": "Conversation is interactive communication between two or more people. The development of conversational skills and etiquette is an important part of socialization. The development of conversational skills in a new language is a frequent focus of language teaching and learning. Conversation analysis is a branch of sociology which studies the structure and organization of human interaction, with a more specific focus on conversational interaction.",
+        "text3": "",
+        "url": "https:\/\/en.wikipedia.org\/wiki\/Conversation",
+        "tag": "#empty",
+        "time": 1719568909,
+        "rightFooter": ""
+    },
+    {
+        "id": "46",
+        "text": "Video - Wikipedia",
+        "text2": "Video is an electronic medium for the recording, copying, playback, broadcasting, and display of moving visual media.[1] Video was first developed for mechanical television systems, which were quickly replaced by cathode-ray tube (CRT) systems, which, in turn, were replaced by flat-panel displays of several types.\r\n\r\nVideo systems vary in display resolution, aspect ratio, refresh rate, color capabilities, and other qualities. Analog and digital variants exist and can be carried on a variety of media, including radio broadcasts, magnetic tape, optical discs, computer files, and network streaming.",
+        "text3": "",
+        "url": "https:\/\/en.wikipedia.org\/wiki\/Video",
+        "tag": "#technology",
+        "time": 1719568863,
+        "rightFooter": ""
+    },
+    {
+        "id": "45",
+        "text": "Book - Wikipedia",
+        "text2": "A book is a medium for recording information in the form of writing or images. Books are typically composed of many pages, bound together and protected by a cover.[1] Modern bound books were preceded by many other written mediums, such as the codex and the scroll. The book publishing process is the series of steps involved in their creation and dissemination.\r\n\r\nAs a conceptual object, a book typically refers to a written work of substantial length, which may be distributed either physically or in digital forms like ebooks. These works are broadly classified into fiction (containing imaginary content) and non-fiction (containing content representing truths). Many smaller categories exist within these, such as children's literature meant to match the reading level and interests of children, or reference works that gather collections of non-fiction. Books are traded at both regular stores and specialized bookstores, and people can borrow them from libraries. The reception of books has led to a number of social consequences, including censorship.\r\n\r\nA physical book does not need to contain written works: for example, it may contain only drawings, engravings, photographs, puzzles, or removable content like paper dolls. Physical books may be left empty to be used for writing or drawing, such as account books, appointment books, autograph books, notebooks, diaries and sketchbooks.\r\n\r\nThe contemporary book industry has seen several major changes due to new technologies. In some markets, the sale of printed books has decreased due to the increased use of eBooks.[2] However, printed books still largely outsell eBooks, and many people have a preference for print.[3][4][5][6] The 21st century has also seen a rapid rise in the popularity of audiobooks, which are recordings of books being read aloud.[7] Additionally, awareness of the needs of people who can't access print media due to limitations like visual impairment has led to a rise in formats designed for greater accessibility, such as braille printing or formats supporting text-to-voice. Google Books estimated that as of 2010, approximately 130,000,000 unique books had been published.[8]",
+        "text3": "",
+        "url": "https:\/\/en.wikipedia.org\/wiki\/Book",
+        "tag": "#empty",
+        "time": 1719568844,
+        "rightFooter": ""
+    },
+    {
+        "id": "44",
+        "text": "Virtual assistant - Wikipedia",
+        "text2": "A virtual assistant (VA) is a software agent that can perform a range of tasks or services for a user based on user input such as commands or questions, including verbal ones. Such technologies often incorporate chatbot capabilities to simulate human conversation, such as via online chat, to facilitate interaction with their users. The interaction may be via text, graphical interface, or voice - as some virtual assistants are able to interpret human speech and respond via synthesized voices.\r\n\r\nIn many cases users can ask their virtual assistants questions, control home automation devices and media playback, and manage other basic tasks such as email, to-do lists, and calendars - all with verbal commands.[1] In recent years, prominent virtual assistants for direct consumer use have included Apple's Siri, Amazon Alexa, Google Assistant, and Samsung's Bixby.[2] Also, companies in various industries often incorporate some kind of virtual assistant technology into their customer service or support.[3]\r\n\r\nRecently, the emergence of recent artificial intelligence based chatbots, such as ChatGPT, has brought increased capability and interest to the field of virtual assistant products and services.[4][5][6]",
+        "text3": "",
+        "url": "https:\/\/en.wikipedia.org\/wiki\/Virtual_assistant",
+        "tag": "#technology",
+        "time": 1719568806,
+        "rightFooter": ""
+    },
+    {
+        "id": "43",
+        "text": "Marketing - Wikipedia",
+        "text2": "Marketing is the act of satisfying and retaining customers.[3] It is one of the primary components of business management and commerce.[4]\r\n\r\nMarketing is typically conducted by the seller, typically a retailer or manufacturer. Products can be marketed to other businesses (B2B) or directly to consumers (B2C).[5] Sometimes tasks are contracted to dedicated marketing firms, like a media, market research, or advertising agency. Sometimes, a trade association or government agency (such as the Agricultural Marketing Service) advertises on behalf of an entire industry or locality, often a specific type of food (e.g. Got Milk?), food from a specific area, or a city or region as a tourism destination.\r\n\r\nMarket orientations are philosophies concerning the factors that should go into market planning.[6] The marketing mix, which outlines the specifics of the product and how it will be sold, including the channels that will be used to advertise the product,[7][8] is affected by the environment surrounding the product,[9] the results of marketing research and market research,[10][11] and the characteristics of the product's target market.[12] Once these factors are determined, marketers must then decide what methods of promoting the product,[5] including use of coupons and other price inducements.[13]",
+        "text3": "",
+        "url": "https:\/\/en.wikipedia.org\/wiki\/Marketing",
+        "tag": "#empty",
+        "time": 1719568736,
+        "rightFooter": ""
+    },
+    {
+        "id": "42",
+        "text": "Advertising - Wikipedia",
+        "text2": "Advertising is the practice and techniques employed to bring attention to a product or service. Advertising aims to put a product or service in the spotlight in hopes of drawing it attention from consumers. It is typically used to promote a specific good or service, but there are wide range of uses, the most common being the commercial advertisement.\r\n\r\nCommercial advertisements often seek to generate increased consumption of their products or services through \"branding\", which associates a product name or image with certain qualities in the minds of consumers. On the other hand, ads that intend to elicit an immediate sale are known as direct-response advertising. Non-commercial entities that advertise more than consumer products or services include political parties, interest groups, religious organizations and governmental agencies. Non-profit organizations may use free modes of persuasion, such as a public service announcement. Advertising may also help to reassure employees or shareholders that a company is viable or successful.\r\n\r\nIn the 19th century, soap businesses were among the first to employ large-scale advertising campaigns. Thomas J. Barratt was hired by Pears to be its brand manager\u2014the first of its kind\u2014and in addition to creating slogans and images he recruited West End stage actress and socialite Lillie Langtry to become the poster-girl for Pears, making her the first celebrity to endorse a commercial product.[1] Modern advertising originated with the techniques introduced with tobacco advertising in the 1920s, most significantly with the campaigns of Edward Bernays, considered the founder of modern, \"Madison Avenue\" advertising.[2][3]\r\n\r\nWorldwide spending on advertising in 2015 amounted to an estimated US$529.43 billion.[4] Advertising's projected distribution for 2017 was 40.4% on TV, 33.3% on digital, 9% on newspapers, 6.9% on magazines, 5.8% on outdoor and 4.3% on radio.[5] Internationally, the largest (\"Big Five\") advertising agency groups are Omnicom, WPP, Publicis, Interpublic, and Dentsu.[6]\r\n\r\nIn Latin, advertere means \"to turn towards\".[7]",
+        "text3": "",
+        "url": "https:\/\/en.wikipedia.org\/wiki\/Advertising",
+        "tag": "#empty",
+        "time": 1719568707,
+        "rightFooter": ""
+    },
+    {
+        "id": "41",
+        "text": "Wikipedia - Wikipedia",
+        "text2": "Wikipedia[c] is a free content online encyclopedia written and maintained by a community of volunteers, known as Wikipedians, through open collaboration and the wiki software MediaWiki. Wikipedia is the largest and most-read reference work in history,[3][4] and is consistently ranked among the ten most visited websites; as of May 2024, it was ranked fifth by Semrush,[5] and sixth by Similarweb.[6] Founded by Jimmy Wales and Larry Sanger on January 15, 2001, Wikipedia has been hosted since 2003 by the Wikimedia Foundation, an American nonprofit organization funded mainly by donations from readers.[7]\r\n\r\nInitially only available in English, editions of Wikipedia in more than 300 other languages have been developed. The English Wikipedia, with its 6.8 million articles, is the largest of the editions, which together comprise more than 63 million articles and attract more than 1.5 billion unique device visits and 13 million edits per month (about 5 edits per second on average) as of April 2024.[W 1] Roughly 25% of Wikipedia's traffic is from the United States, followed by Japan at 5.8%, the United Kingdom at 5.7%, Germany at 5%, Russia at 4.9%, and the remaining 54% split among other countries, according to Similarweb.[8]\r\n\r\nWikipedia has been praised for its enablement of the democratization of knowledge, extent of coverage, unique structure, and culture. It has been criticized for exhibiting systemic bias, particularly gender bias against women and geographical bias against the Global South (Eurocentrism).[9][10] While the reliability of Wikipedia was frequently criticized in the 2000s, it has improved over time, receiving greater praise from the late 2010s onward[3][11][12] while becoming an important fact-checking site.[13][14] Wikipedia has been censored by some national governments, ranging from specific pages to the entire site.[15][16] Articles on breaking news are often accessed as sources for frequently updated information about those events.[17][18]",
+        "text3": "",
+        "url": "https:\/\/en.wikipedia.org\/wiki\/Wikipedia",
+        "tag": "#technology",
+        "time": 1719568679,
+        "rightFooter": ""
+    },
+    {
+        "id": "40",
+        "text": "Software - Wikipedia",
+        "text2": "Software consists of computer programs that instruct the execution of a computer.[2]\r\n\r\nBuilding on previous innovations in mathematics and technology, software was created for the programmable digital computers that emerged in the late 1940s and was necessary to realize their usefulness. The first software was tied closely to the underlying computer hardware, but over time, the lower layers of the system have become more standardized, and software has become increasingly portable between different systems and abstracted from the underlying machine code. Operating systems manage the hardware resources and mediate between different applications that accomplish tasks for the user. Programming languages are the format in which software is written, and must be both human-readable and capable of being translated into unambiguous instructions for computer hardware. Compilers or interpreters are needed to link a program with other code that it relies on and convert the software into machine code that can be executed on the hardware. Programs are combined with each other and with external input to be capable of accomplishing a complex task.\r\n\r\nSoftware development's central task is programming and maintaining a project's source code, but the term also covers conceiving the project, evaluating its feasibility, analyzing the business requirements, software design, and release. Software quality assurance, including code review and testing, is an essential part of the process as delivering quality code lowers the cost of reliability failures, cyberattacks enabled by security vulnerabilities, and maintenance cost. Maintenance typically consumes 75 percent or more of the software's lifetime engineering budget. Source code is protected by copyright law that vests the owner with the exclusive right to copy the code. Software has become ubiquitous in everyday life in developed countries. In many cases, software augments the functionality of pre-existing technologies, but it has also enabled the creation of entirely new technologies such as the Internet, video games, social media, mobile phones, and GPS.",
+        "text3": "",
+        "url": "https:\/\/en.wikipedia.org\/wiki\/Software",
+        "tag": "#technology",
+        "time": 1719568644,
+        "rightFooter": ""
+    },
+    {
+        "id": "39",
+        "text": "Web browser - Wikipedia",
+        "text2": "A web browser is an application for accessing websites. When a user requests a web page from a particular website, the browser retrieves its files from a web server and then displays the page on the user's screen. Browsers are used on a range of devices, including desktops, laptops, tablets, and smartphones. In 2020, an estimated 4.9 billion people have used a browser.[1] The most-used browser is Google Chrome, with a 64% global market share on all devices, followed by Safari with 19%.[2]\r\n\r\nA web browser is not the same thing as a search engine, though the two are often confused.[3][4] A search engine is a website that provides links to other websites. However, to connect to a website's server and display its web pages, a user must have a web browser installed.[5] In some technical contexts, browsers are referred to as user agents.",
+        "text3": "",
+        "url": "https:\/\/en.wikipedia.org\/wiki\/Web_browser",
+        "tag": "#technology",
+        "time": 1719568625,
+        "rightFooter": ""
+    },
+    {
+        "id": "38",
+        "text": "Website - Wikipedia",
+        "text2": "A website (also written as a web site) is a collection of web pages and related content that is identified by a common domain name and published on at least one web server. Websites are typically dedicated to a particular topic or purpose, such as news, education, commerce, entertainment, or social media. Hyperlinking between web pages guides the navigation of the site, which often starts with a home page. The most-visited sites are Google, YouTube, and Facebook.\r\n\r\nAll publicly-accessible websites collectively constitute the World Wide Web. There are also private websites that can only be accessed on a private network, such as a company's internal website for its employees. Users can access websites on a range of devices, including desktops, laptops, tablets, and smartphones. The app used on these devices is called a web browser.",
+        "text3": "",
+        "url": "https:\/\/en.wikipedia.org\/wiki\/Website",
+        "tag": "#technology",
+        "time": 1719568602,
+        "rightFooter": ""
+    },
+    {
+        "id": "37",
+        "text": "YouTube - Wikipedia",
+        "text2": "YouTube is an American online video sharing platform owned by Google. Accessible worldwide,[note 1] YouTube launched on February 14, 2005, by Steve Chen, Chad Hurley, and Jawed Karim, three former employees of PayPal. Headquartered in San Bruno, California, United States, it is the second most visited website in the world, after Google Search. YouTube has more than 2.5 billion monthly users,[2] who collectively watch more than one billion hours of videos every day.[7] As of May 2019, videos were being uploaded to the platform at a rate of more than 500 hours of content per minute,[8][9] and as of 2021, there were approximately 14 billion videos in total.[9]\r\n\r\nIn October 2006, YouTube was purchased by Google for $1.65 billion (equivalent to $2.31 billion in 2023).[10] Google expanded YouTube's business model of generating revenue from advertisements alone, to offering paid content such as movies and exclusive content produced by and for YouTube. It also offers YouTube Premium, a paid subscription option for watching content without ads. YouTube incorporated Google's AdSense program, generating more revenue for both YouTube and approved content creators. In 2022, YouTube's annual advertising revenue increased to $29.2 billion, more than $9 billion higher than in 2020.[1][11]\r\n\r\nSince its purchase by Google, YouTube has expanded beyond the core website into mobile apps, network television, and the ability to link with other platforms. Video categories on YouTube include music videos, video clips, news, short and feature films, songs, documentaries, movie trailers, teasers and TV spots, live streams, vlogs, and more. Most content is generated by individuals, including collaborations between \"YouTubers\" and corporate sponsors. Established media, news, and entertainment corporations have also created and expanded their visibility to YouTube channels in order to reach greater audiences.\r\n\r\nYouTube has had unprecedented social impact, influencing popular culture, internet trends, and creating multimillionaire celebrities. Despite its growth and success, the platform is sometimes criticized for allegedly facilitating the spread of misinformation, the sharing of copyrighted content, routinely violating its users' privacy, enabling censorship, endangering child safety and wellbeing, and for its inconsistent or incorrect implementation of platform guidelines.",
+        "text3": "",
+        "url": "https:\/\/en.wikipedia.org\/wiki\/YouTube",
+        "tag": "#technology",
+        "time": 1719568579,
+        "rightFooter": ""
+    },
+    {
+        "id": "36",
+        "text": "Television - Wikipedia",
+        "text2": "Television (TV) is a telecommunication medium for transmitting moving images and sound. Additionally, the term can refer to a physical television set, rather than the medium of transmission. Television is a mass medium for advertising, entertainment, news, and sports. The medium is capable of more than \"radio broadcasting\", which refers to an audio signal sent to radio receivers.\r\n\r\nTelevision became available in crude experimental forms in the 1920s, but only after several years of further development was the new technology marketed to consumers. After World War II, an improved form of black-and-white television broadcasting became popular in the United Kingdom and the United States, and television sets became commonplace in homes, businesses, and institutions. During the 1950s, television was the primary medium for influencing public opinion.[1] In the mid-1960s, color broadcasting was introduced in the U.S. and most other developed countries.\r\n\r\nThe availability of various types of archival storage media such as Betamax and VHS tapes, LaserDiscs, high-capacity hard disk drives, CDs, DVDs, flash drives, high-definition HD DVDs and Blu-ray Discs, and cloud digital video recorders has enabled viewers to watch pre-recorded material\u2014such as movies\u2014at home on their own time schedule. For many reasons, especially the convenience of remote retrieval, the storage of television and video programming now also occurs on the cloud (such as the video-on-demand service by Netflix). At the beginning of the 2010s, digital television transmissions greatly increased in popularity. Another development was the move from standard-definition television (SDTV) (576i, with 576 interlaced lines of resolution and 480i) to high-definition television (HDTV), which provides a resolution that is substantially higher. HDTV may be transmitted in different formats: 1080p, 1080i and 720p. Since 2010, with the invention of smart television, Internet television has increased the availability of television programs and movies via the Internet through streaming video services such as Netflix, Amazon Prime Video, iPlayer and Hulu.\r\n\r\nIn 2013, 79% of the world's households owned a television set.[2] The replacement of earlier cathode-ray tube (CRT) screen displays with compact, energy-efficient, flat-panel alternative technologies such as LCDs (both fluorescent-backlit and LED), OLED displays, and plasma displays was a hardware revolution that began with computer monitors in the late 1990s. Most television sets sold in the 2000s were flat-panel, mainly LEDs. Major manufacturers announced the discontinuation of CRT, Digital Light Processing (DLP), plasma, and even fluorescent-backlit LCDs by the mid-2010s.[3][4] LEDs are being gradually replaced by OLEDs.[5] Also, major manufacturers have started increasingly producing smart TVs in the mid-2010s.[6][7][8] Smart TVs with integrated Internet and Web 2.0 functions became the dominant form of television by the late 2010s.[9]\r\n\r\nTelevision signals were initially distributed only as terrestrial television using high-powered radio-frequency television transmitters to broadcast the signal to individual television receivers. Alternatively television signals are distributed by coaxial cable or optical fiber, satellite systems and, since the 2000s via the Internet. Until the early 2000s, these were transmitted as analog signals, but a transition to digital television was expected to be completed worldwide by the late 2010s. A standard television set consists of multiple internal electronic circuits, including a tuner for receiving and decoding broadcast signals. A visual display device that lacks a tuner is correctly called a video monitor rather than a television.",
+        "text3": "",
+        "url": "https:\/\/en.wikipedia.org\/wiki\/Television",
+        "tag": "#technology",
+        "time": 1719568557,
+        "rightFooter": ""
+    },
+    {
+        "id": "35",
+        "text": "Game - Wikipedia",
+        "text2": "A game is a structured type of play, usually undertaken for entertainment or fun, and sometimes used as an educational tool.[1] Many games are also considered to be work (such as professional players of spectator sports or games) or art (such as jigsaw puzzles or games involving an artistic layout such as Mahjong, solitaire, or some video games).\r\n\r\nGames are sometimes played purely for enjoyment, sometimes for achievement or reward as well. They can be played alone, in teams, or online; by amateurs or by professionals. The players may have an audience of non-players, such as when people are entertained by watching a chess championship. On the other hand, players in a game may constitute their own audience as they take their turn to play. Often, part of the entertainment for children playing a game is deciding who is part of their audience and who is a player. A toy and a game are not the same. Toys generally allow for unrestricted play whereas games present rules for the player to follow.\r\n\r\nKey components of games are goals, rules, challenge, and interaction. Games generally involve mental or physical stimulation, and often both. Many games help develop practical skills, serve as a form of exercise, or otherwise perform an educational, simulational, or psychological role.\r\n\r\nAttested as early as 2600 BC,[2][3] games are a universal part of human experience and present in all cultures. The Royal Game of Ur, Senet, and Mancala are some of the oldest known games.[4]",
+        "text3": "",
+        "url": "https:\/\/en.wikipedia.org\/wiki\/Game",
+        "tag": "#empty",
+        "time": 1719568529,
+        "rightFooter": ""
+    },
+    {
+        "id": "34",
+        "text": "Copyright - Wikipedia",
+        "text2": "A copyright is a type of intellectual property that gives the creator of an original work, or another right holder, the exclusive and legally secured right to copy, distribute, adapt, display, and perform a creative work, usually for a limited time.[1][2][3][4][5] The creative work may be in a literary, artistic, educational, or musical form. Copyright is intended to protect the original expression of an idea in the form of a creative work, but not the idea itself.[6][7][8] A copyright is subject to limitations based on public interest considerations, such as the fair use doctrine in the United States.\r\n\r\nSome jurisdictions require \"fixing\" copyrighted works in a tangible form. It is often shared among multiple authors, each of whom holds a set of rights to use or license the work, and who are commonly referred to as rights holders.[9][10][11][12][13][better source needed] These rights normally include reproduction, control over derivative works, distribution, public performance, and moral rights such as attribution.[14]\r\n\r\nCopyrights can be granted by public law and are in that case considered \"territorial rights\". This means that copyrights granted by the law of a certain state do not extend beyond the territory of that specific jurisdiction. Copyrights of this type vary by country; many countries, and sometimes a large group of countries, have made agreements with other countries on procedures applicable when works \"cross\" national borders or national rights are inconsistent.[15]\r\n\r\nTypically, the public law duration of a copyright expires 50 to 100 years after the creator dies, depending on the jurisdiction. Some countries require certain copyright formalities[5] to establishing copyright, others recognize copyright in any completed work, without a formal registration. When the copyright of a work expires, it enters the public domain.",
+        "text3": "",
+        "url": "https:\/\/en.wikipedia.org\/wiki\/Copyright",
+        "tag": "#empty",
+        "time": 1719568487,
+        "rightFooter": ""
+    },
+    {
+        "id": "33",
+        "text": "Brain - Wikipedia",
+        "text2": "The brain is an organ that serves as the center of the nervous system in all vertebrate and most invertebrate animals. It consists of nervous tissue and is typically located in the head (cephalization), usually near organs for special senses such as vision, hearing and olfaction. Being the most specialized organ, it is responsible for receiving information from the sensory nervous system, processing those information (thought, cognition, and intelligence) and the coordination of motor control (muscle activity and endocrine system).\r\n\r\nWhile invertebrate brains arise from paired segmental ganglia (each of which is only responsible for the respective body segment) of the ventral nerve cord, vertebrate brains develop axially from the midline dorsal nerve cord as a vesicular enlargement at the rostral end of the neural tube, with centralized control over all body segments. All vertebrate brains can be embryonically divided into three parts: the forebrain (prosencephalon, subdivided into telencephalon and diencephalon), midbrain (mesencephalon) and hindbrain (rhombencephalon, subdivided into metencephalon and myelencephalon). The spinal cord, which directly interacts with somatic functions below the head, can be considered a caudal extension of the myelencephalon enclosed inside the vertebral column. Together, the brain and spinal cord constitute the central nervous system in all vertebrates.\r\n\r\nIn humans, the cerebral cortex contains approximately 14\u201316 billion neurons,[1] and the estimated number of neurons in the cerebellum is 55\u201370 billion.[2] Each neuron is connected by synapses to several thousand other neurons, typically communicating with one another via root-like protrusions called dendrites and long fiber-like extensions called axons, which are usually myelinated and carry trains of rapid micro-electric signal pulses called action potentials to target specific recipient cells in other areas of the brain or distant parts of the body. The prefrontal cortex, which controls executive functions, is particularly well developed in humans.\r\n\r\nPhysiologically, brains exert centralized control over a body's other organs. They act on the rest of the body both by generating patterns of muscle activity and by driving the secretion of chemicals called hormones. This centralized control allows rapid and coordinated responses to changes in the environment. Some basic types of responsiveness such as reflexes can be mediated by the spinal cord or peripheral ganglia, but sophisticated purposeful control of behavior based on complex sensory input requires the information integrating capabilities of a centralized brain.\r\n\r\nThe operations of individual brain cells are now understood in considerable detail but the way they cooperate in ensembles of millions is yet to be solved.[3] Recent models in modern neuroscience treat the brain as a biological computer, very different in mechanism from a digital computer, but similar in the sense that it acquires information from the surrounding world, stores it, and processes it in a variety of ways.\r\n\r\nThis article compares the properties of brains across the entire range of animal species, with the greatest attention to vertebrates. It deals with the human brain insofar as it shares the properties of other brains. The ways in which the human brain differs from other brains are covered in the human brain article. Several topics that might be covered here are instead covered there because much more can be said about them in a human context. The most important that are covered in the human brain article are brain disease and the effects of brain damage.",
+        "text3": "",
+        "url": "https:\/\/en.wikipedia.org\/wiki\/Brain",
+        "tag": "#empty",
+        "time": 1719568457,
+        "rightFooter": ""
+    },
+    {
+        "id": "32",
+        "text": "Artificial intelligence - Wikipedia",
+        "text2": "Artificial intelligence (AI), in its broadest sense, is intelligence exhibited by machines, particularly computer systems. It is a field of research in computer science that develops and studies methods and software that enable machines to perceive their environment and use learning and intelligence to take actions that maximize their chances of achieving defined goals.[1] Such machines may be called AIs.\r\n\r\nSome high-profile applications of AI include advanced web search engines (e.g., Google Search); recommendation systems (used by YouTube, Amazon, and Netflix); interacting via human speech (e.g., Google Assistant, Siri, and Alexa); autonomous vehicles (e.g., Waymo); generative and creative tools (e.g., ChatGPT, Apple Intelligence, and AI art); and superhuman play and analysis in strategy games (e.g., chess and Go).[2] However, many AI applications are not perceived as AI: \"A lot of cutting edge AI has filtered into general applications, often without being called AI because once something becomes useful enough and common enough it's not labeled AI anymore.\"[3][4]\r\n\r\nAlan Turing was the first person to conduct substantial research in the field that he called machine intelligence.[5] Artificial intelligence was founded as an academic discipline in 1956,[6] by those now considered the founding fathers of AI, John McCarthy, Marvin Minksy, Nathaniel Rochester, and Claude Shannon.[7][8] The field went through multiple cycles of optimism,[9][10] followed by periods of disappointment and loss of funding, known as AI winter.[11][12] Funding and interest vastly increased after 2012 when deep learning surpassed all previous AI techniques,[13] and after 2017 with the transformer architecture.[14] This led to the AI boom of the early 2020s, with companies, universities, and laboratories overwhelmingly based in the United States pioneering significant advances in artificial intelligence.[15]\r\n\r\nThe growing use of artificial intelligence in the 21st century is influencing a societal and economic shift towards increased automation, data-driven decision-making, and the integration of AI systems into various economic sectors and areas of life, impacting job markets, healthcare, government, industry, education, propaganda, and disinformation. This raises questions about the long-term effects, ethical implications, and risks of AI, prompting discussions about regulatory policies to ensure the safety and benefits of the technology.\r\n\r\nThe various subfields of AI research are centered around particular goals and the use of particular tools. The traditional goals of AI research include reasoning, knowledge representation, planning, learning, natural language processing, perception, and support for robotics.[a] General intelligence\u2014the ability to complete any task performable by a human on an at least equal level\u2014is among the field's long-term goals.[16]\r\n\r\nTo reach these goals, AI researchers have adapted and integrated a wide range of techniques, including search and mathematical optimization, formal logic, artificial neural networks, and methods based on statistics, operations research, and economics.[b] AI also draws upon psychology, linguistics, philosophy, neuroscience, and other fields.[17]",
+        "text3": "",
+        "url": "https:\/\/en.wikipedia.org\/wiki\/Artificial_intelligence",
+        "tag": "#technology",
+        "time": 1719568428,
+        "rightFooter": ""
+    },
+    {
+        "id": "31",
+        "text": "Idea - Wikipedia",
+        "text2": "In common usage and in philosophy, ideas are the results of thought.[1] Also in philosophy, ideas can also be mental representational images of some object. Many philosophers have considered ideas to be a fundamental ontological category of being. The capacity to create and understand the meaning of ideas is considered to be an essential and defining feature of human beings.\r\n\r\nAn idea arises in a reflexive, spontaneous manner, even without thinking or serious reflection, for example, when we talk about the idea of a person or a place. A new or an original idea can often lead to innovation.",
+        "text3": "",
+        "url": "https:\/\/en.wikipedia.org\/wiki\/Idea",
+        "tag": "#empty",
+        "time": 1719568392,
+        "rightFooter": ""
+    },
+    {
+        "id": "30",
+        "text": "Narrative - Wikipedia",
+        "text2": "A narrative, story, or tale is any account of a series of related events or experiences,[1][2] whether non-fictional (memoir, biography, news report, documentary, travelogue, etc.) or fictional (fairy tale, fable, legend, thriller, novel, etc.).[3][4][5] Narratives can be presented through a sequence of written or spoken words, through still or moving images, or through any combination of these. The word derives from the Latin verb narrare (\"to tell\"), which is derived from the adjective gnarus (\"knowing or skilled\").[6][7] The formal and literary process of constructing a narrative\u2014narration\u2014is one of the four traditional rhetorical modes of discourse, along with argumentation, description, and exposition. This is a somewhat distinct usage from narration in the narrower sense of a commentary used to convey a story. Many additional narrative techniques, particularly literary ones, are used to build and enhance any given story.\r\n\r\nThe social and cultural activity of sharing narratives is called storytelling, and its earliest form is oral storytelling.[8] During most people's childhoods, these narratives are used to guide them on proper behavior, history, formation of a communal identity, and values from their cultural standpoint, as studied explicitly in anthropology today among traditional indigenous peoples.[9]\r\n\r\nNarrative is found in all mediums of human creativity, art, and entertainment, including speech, literature, theatre, music and song, comics, journalism, film, television, animation and video, video games, radio, game-play, unstructured recreation, and performance in general, as well as some painting, sculpture, drawing, photography, and other visual arts, as long as a sequence of events is presented. Several art movements, such as modern art, refuse the narrative in favor of the abstract and conceptual.\r\n\r\nNarrative can be organized into a number of thematic or formal categories: nonfiction (such as creative nonfiction, biography, journalism, transcript poetry, and historiography); fictionalization of historical events (such as anecdote, myth, legend, and historical fiction) and fiction proper (such as literature in the form of prose and sometimes poetry, short stories, novels, narrative poems and songs, and imaginary narratives as portrayed in other textual forms, games, or live or recorded performances). Narratives may also be nested within other narratives, such as narratives told by an unreliable narrator (a character) typically found in the genre of noir fiction. An important part of many narratives is its narrative mode, the set of methods used to communicate the narrative through a written or spoken commentary (see also \"Aesthetics approach\" below).",
+        "text3": "",
+        "url": "https:\/\/en.wikipedia.org\/wiki\/Narrative",
+        "tag": "#language",
+        "time": 1719568301,
+        "rightFooter": ""
+    },
+    {
+        "id": "28",
+        "text": "Twitter - Wikipedia",
+        "text2": "X, commonly referred to by its former name Twitter, is a social networking service. It is one of the world's largest social media websites and the seventh-most visited website in the world.[3][4] Users can share short text messages, images, and videos in posts (formerly \"tweets\") and like or repost\/retweet other users' content.[5] X also includes direct messaging, video and audio calling, bookmarks, lists and communities, and Spaces, a social audio feature. Users can vote on context added by approved users using the Community Notes feature.\r\n\r\nTwitter was created in March 2006 by Jack Dorsey, Noah Glass, Biz Stone, and Evan Williams, and was launched in July of that year. Twitter grew quickly; by 2012 more than 100 million users produced 340 million tweets per day.[6] Twitter, Inc., was based in San Francisco, California, and had more than 25 offices around the world.[7] A signature characteristic of the service is that posts are required to be brief. Posts were initially limited to 140 characters, which was changed to 280 characters in 2017 and removed for paid accounts in 2023.[8] The majority of tweets are produced by a minority of users.[9][10] In 2020, it was estimated that approximately 48 million accounts (15 percent of all accounts) were not genuine people.[11]\r\n\r\nThe service is owned by the American company X Corp., which was established to succeed the prior owner Twitter, Inc. in March 2023 following the October 2022 acquisition of Twitter by Elon Musk for US$44 billion. Musk stated that his goal with the acquisition was to promote free speech on the platform. Since his acquisition, the platform has been criticized for enabling the increased spread of disinformation[12][13][14] and hate speech.[15][16][17] Linda Yaccarino succeeded Musk as CEO on June 5, 2023, with Musk remaining as the chairman and the chief technology officer.[18][19][20] In July 2023, Musk announced that Twitter would be rebranded to X and the bird logo would be retired.[21][22] Branding changes were rolled out over the following year and completed in May 2024. In December 2023, Fidelity estimated the value of the company to be down 71.5 percent from its purchase price.[23] Since Musk's takeover, data from app-tracking firms has shown that global usage of X has declined by approximately 15 percent, compared to a decline of 5 to 10 percent in some other social media sites. X has disputed that usage has dropped at all.[24][25][26]",
+        "text3": "",
+        "url": "https:\/\/en.wikipedia.org\/wiki\/Twitter",
+        "tag": "#technology",
+        "time": 1719568230,
+        "rightFooter": ""
+    },
+    {
+        "id": "27",
+        "text": "Microsoft - Wikipedia",
+        "text2": "Microsoft Corporation is an American multinational corporation and technology company headquartered in Redmond, Washington.[2] Its best-known software products are the Windows line of operating systems, the Microsoft 365 suite of productivity applications, the Azure cloud computing platform and the Edge web browser. Its flagship hardware products are the Xbox video game consoles and the Microsoft Surface lineup of touchscreen personal computers. Microsoft ranked No. 14 in the 2022 Fortune 500 rankings of the largest United States corporations by total revenue;[3] and it was the world's largest software maker by revenue in 2022 according to Forbes Global 2000. It is considered one of the Big Five American information technology companies, alongside Alphabet (parent company of Google), Amazon, Apple, and Meta (parent company of Facebook).\r\n\r\nMicrosoft was founded by Bill Gates and Paul Allen on April 4, 1975, to develop and sell BASIC interpreters for the Altair 8800. It rose to dominate the personal computer operating system market with MS-DOS in the mid-1980s, followed by Windows. The company's 1986 initial public offering (IPO) and subsequent rise in its share price created three billionaires and an estimated 12,000 millionaires among Microsoft employees. Since the 1990s, it has increasingly diversified from the operating system market and has made several corporate acquisitions, the largest being the acquisition of Activision Blizzard for $68.7 billion in October 2023,[4] followed by its acquisition of LinkedIn for $26.2 billion in December 2016,[5] and its acquisition of Skype Technologies for $8.5 billion in May 2011.[6]\r\n\r\nAs of 2015, Microsoft is market-dominant in the IBM PC compatible operating system market and the office software suite market, although it has lost the majority of the overall operating system market to Android.[7] The company also produces a wide range of other consumer and enterprise software for desktops, laptops, tabs, gadgets, and servers, including Internet search (with Bing), the digital services market (through MSN), mixed reality (HoloLens), cloud computing (Azure), and software development (Visual Studio).\r\n\r\nSteve Ballmer replaced Gates as CEO in 2000 and later envisioned a \"devices and services\" strategy.[8] This unfolded with Microsoft acquiring Danger Inc. in 2008,[9] entering the personal computer production market for the first time in June 2012 with the launch of the Microsoft Surface line of tablet computers, and later forming Microsoft Mobile through the acquisition of Nokia's devices and services division. Since Satya Nadella took over as CEO in 2014, the company has scaled back on hardware and instead focused on cloud computing, a move that helped the company's shares reach their highest value since December 1999.[10][11] Under Nadella's direction, the company has also heavily expanded its gaming business to support the Xbox brand, establishing the Microsoft Gaming division in 2022, dedicated to operating Xbox in addition to its three subsidiaries (publishers). Microsoft Gaming is the third-largest gaming company in the world by revenue as of 2024.[12]\r\n\r\nIn 2018, Microsoft became the most valuable publicly traded company in the world, a position it has repeatedly traded with Apple in the years since.[13] In April 2019, Microsoft reached a trillion-dollar market cap, becoming the third U.S. public company to be valued at over $1 trillion after Apple and Amazon, respectively. As of 2024, Microsoft has the third-highest global brand valuation.\r\n\r\nMicrosoft has been criticized for its monopolistic practices and the company's software has been criticized for problems with ease of use, robustness, and security.\r\n\r\nMicrosoft is one of only two U.S.-based companies that has a prime credit rating of AAA.[14]",
+        "text3": "",
+        "url": "https:\/\/en.wikipedia.org\/wiki\/Microsoft",
+        "tag": "#technology",
+        "time": 1719568209,
+        "rightFooter": ""
+    },
+    {
+        "id": "26",
+        "text": "Facebook - Wikipedia",
+        "text2": "Facebook is a social media and social networking service owned by the American technology conglomerate Meta. Created in 2004 by Mark Zuckerberg with four other Harvard College students and roommates Eduardo Saverin, Andrew McCollum, Dustin Moskovitz, and Chris Hughes, its name derives from the face book directories often given to American university students. Membership was initially limited to Harvard students, gradually expanding to other North American universities. Since 2006, Facebook allows everyone to register from 13 years old, except in the case of a handful of nations, where the age limit is 14 years.[6] As of December 2022, Facebook claimed almost 3 billion monthly active users.[7] As of October 2023, Facebook ranked as the third-most-visited website in the world, with 22.56% of its traffic coming from the United States.[8][9] It was the most downloaded mobile app of the 2010s.[10]\r\n\r\nFacebook can be accessed from devices with Internet connectivity, such as personal computers, tablets and smartphones. After registering, users can create a profile revealing information about themselves. They can post text, photos and multimedia which are shared with any other users who have agreed to be their friend or, with different privacy settings, publicly. Users can also communicate directly with each other with Messenger, join common-interest groups, and receive notifications on the activities of their Facebook friends and the pages they follow.\r\n\r\nThe subject of numerous controversies, Facebook has often been criticized over issues such as user privacy (as with the Cambridge Analytica data scandal), political manipulation (as with the 2016 U.S. elections) and mass surveillance.[11] Facebook has also been subject to criticism over psychological effects such as addiction and low self-esteem, and various controversies over content such as fake news, conspiracy theories, copyright infringement, and hate speech.[12] Commentators have accused Facebook of willingly facilitating the spread of such content, as well as exaggerating its number of users to appeal to advertisers.[13]",
+        "text3": "",
+        "url": "https:\/\/en.wikipedia.org\/wiki\/Facebook",
+        "tag": "#technology",
+        "time": 1719568178,
+        "rightFooter": ""
+    },
+    {
+        "id": "25",
+        "text": "Word - Wikipedia",
+        "text2": "A word is a basic element of language that carries meaning, can be used on its own, and is uninterruptible.[1] Despite the fact that language speakers often have an intuitive grasp of what a word is, there is no consensus among linguists on its definition and numerous attempts to find specific criteria of the concept remain controversial.[2] Different standards have been proposed, depending on the theoretical background and descriptive context; these do not converge on a single definition.[3]:\u200a13:618\u200a Some specific definitions of the term \"word\" are employed to convey its different meanings at different levels of description, for example based on phonological, grammatical or orthographic basis. Others suggest that the concept is simply a convention used in everyday situations.[4]:\u200a6\u200a\r\n\r\nThe concept of \"word\" is distinguished from that of a morpheme, which is the smallest unit of language that has a meaning, even if it cannot stand on its own.[1] Words are made out of at least one morpheme. Morphemes can also be joined to create other words in a process of morphological derivation.[2]:\u200a768\u200a In English and many other languages, the morphemes that make up a word generally include at least one root (such as \"rock\", \"god\", \"type\", \"writ\", \"can\", \"not\") and possibly some affixes (\"-s\", \"un-\", \"-ly\", \"-ness\"). Words with more than one root (\"[type][writ]er\", \"[cow][boy]s\", \"[tele][graph]ically\") are called compound words. In turn, words are combined to form other elements of language, such as phrases (\"a red rock\", \"put up with\"), clauses (\"I threw a rock\"), and sentences (\"I threw a rock, but missed\").\r\n\r\nIn many languages, the notion of what constitutes a \"word\" may be learned as part of learning the writing system.[5] This is the case for the English language, and for most languages that are written with alphabets derived from the ancient Latin or Greek alphabets. In English orthography, the letter sequences \"rock\", \"god\", \"write\", \"with\", \"the\", and \"not\" are considered to be single-morpheme words, whereas \"rocks\", \"ungodliness\", \"typewriter\", and \"cannot\" are words composed of two or more morphemes (\"rock\"+\"s\", \"un\"+\"god\"+\"li\"+\"ness\", \"type\"+\"writ\"+\"er\", and \"can\"+\"not\").",
+        "text3": "",
+        "url": "https:\/\/en.wikipedia.org\/wiki\/Word",
+        "tag": "#language",
+        "time": 1719568092,
+        "rightFooter": ""
+    },
+    {
+        "id": "24",
+        "text": "English language - Wikipedia",
+        "text2": "English is a West Germanic language in the Indo-European language family, whose speakers, called Anglophones, originated in early medieval England.[4][5][6] The namesake of the language is the Angles, one of the ancient Germanic peoples that migrated to the island of Great Britain.\r\n\r\nEnglish is the most spoken language in the world, primarily due to the global influences of the former British Empire (succeeded by the Commonwealth of Nations) and the United States.[7] English is the third-most spoken native language, after Mandarin Chinese and Spanish;[8] it is also the most widely learned second language in the world, with more second-language speakers than native speakers.\r\n\r\nEnglish is either the official language or one of the official languages in 59 sovereign states (such as India, Ireland, and Canada). In some other countries, it is the sole or dominant language for historical reasons without being explicitly defined by law (such as in the United States and United Kingdom).[9] It is a co-official language of the United Nations, the European Union, and many other international and regional organisations. It has also become the de facto lingua franca of diplomacy, science, technology, international trade, logistics, tourism, aviation, entertainment, and the internet.[10] English accounts for at least 70% of total speakers of the Germanic language branch, and as of 2005, it was estimated that there were over 2 billion speakers worldwide.[11]\r\n\r\nOld English emerged from a group of West Germanic dialects spoken by the Anglo-Saxons. Late Old English borrowed some grammar and core vocabulary from Old Norse, a North Germanic language.[12][13][14] Then, Middle English borrowed words extensively from French dialects, which make up about 28% of Modern English vocabulary, and from Latin, which also provides about 28%.[15] As such, although most of its total vocabulary comes from Romance languages, its grammar, phonology, and most commonly used words keep it genealogically classified under the Germanic branch. English exists on a dialect continuum with Scots and is most closely related to the Low Saxon and Frisian languages.",
+        "text3": "",
+        "url": "https:\/\/en.wikipedia.org\/wiki\/English_language",
+        "tag": "#language",
+        "time": 1719568068,
+        "rightFooter": ""
+    },
+    {
+        "id": "23",
+        "text": "Spanish language - Wikipedia",
+        "text2": "Spanish (espa\u00f1ol) or Castilian (castellano) is a Romance language of the Indo-European language family that evolved from the Vulgar Latin spoken on the Iberian Peninsula of Europe. Today, it is a global language with about 500 million native speakers, mainly in the Americas and Spain, and about 600 million when including second language speakers.[4][5] Spanish is the official language of 20 countries, as well as one of the six official languages of the United Nations.[6] Spanish is the world's second-most spoken native language after Mandarin Chinese;[5][7] the world's fourth-most spoken language overall after English, Mandarin Chinese, and Hindustani (Hindi-Urdu); and the world's most widely spoken Romance language. The country with the largest population of native speakers is Mexico.[8]\r\n\r\nSpanish is part of the Ibero-Romance language group, in which the language is also known as Castilian (castellano). The group evolved from several dialects of Vulgar Latin in Iberia after the collapse of the Western Roman Empire in the 5th century. The oldest Latin texts with traces of Spanish come from mid-northern Iberia in the 9th century,[9] and the first systematic written use of the language happened in Toledo, a prominent city of the Kingdom of Castile, in the 13th century. Spanish colonialism in the early modern period spurred on the introduction of the language to overseas locations, most notably to the Americas.[10]\r\n\r\nAs a Romance language, Spanish is a descendant of Latin. Around 75% of modern Spanish vocabulary is derived from Latin, including Latin borrowings from Ancient Greek.[11][12] Alongside English and French, it is also one of the most taught foreign languages throughout the world.[13] Spanish is well represented in the humanities and social sciences.[14] Spanish is also the third most used language on the internet by number of users after English and Chinese[15] and the second most used language by number of websites after English.[16]\r\n\r\nIt is an official language of countries on four continents[17] and is used as an official language by many international organizations, including the United Nations, European Union, Organization of American States, Union of South American Nations, Community of Latin American and Caribbean States, African Union, among others.[6]",
+        "text3": "",
+        "url": "https:\/\/en.wikipedia.org\/wiki\/Spanish_language",
+        "tag": "#language",
+        "time": 1719568039,
+        "rightFooter": ""
+    },
+    {
+        "id": "22",
+        "text": "HTML5 - Wikipedia",
+        "text2": "HTML5 (Hypertext Markup Language 5) is a markup language used for structuring and presenting hypertext documents on the World Wide Web. It was the fifth and final[4] major HTML version that is now a retired World Wide Web Consortium (W3C) recommendation. The current specification is known as the HTML Living Standard. It is maintained by the Web Hypertext Application Technology Working Group (WHATWG), a consortium of the major browser vendors (Apple, Google, Mozilla, and Microsoft).\r\n\r\nHTML5 was first released in a public-facing form on 22 January 2008,[2] with a major update and \"W3C Recommendation\" status in October 2014.[5][6] Its goals were to improve the language with support for the latest multimedia and other new features; to keep the language both easily readable by humans and consistently understood by computers and devices such as web browsers, parsers, etc., without XHTML's rigidity; and to remain backward-compatible with older software. HTML5 is intended to subsume not only HTML 4 but also XHTML1 and even the DOM Level 2 HTML itself.[7]\r\n\r\nHTML5 includes detailed processing models to encourage more interoperable implementations; it extends, improves, and rationalizes the markup available for documents and introduces markup and application programming interfaces (APIs) for complex web applications.[8] For the same reasons, HTML5 is also a candidate for cross-platform mobile applications because it includes features designed with low-powered devices in mind.\r\n\r\nMany new syntactic features are included. To natively include and handle multimedia and graphical content, the new <video>, <audio> and <canvas> elements were added; expandable sections are natively implemented through <summary>...<\/summary> and <details>...<\/details> rather than depending on CSS or JavaScript; and support for scalable vector graphics (SVG) content and MathML for mathematical formulas was also added. To enrich the semantic content of documents, new page structure elements such as <main>, <section>, <article>, <header>, <footer>, <aside>, <nav>, and <figure> are added. New attributes were introduced, some elements and attributes were removed, and others such as <a>, <cite>, and <menu> were changed, redefined, or standardized. The APIs and Document Object Model (DOM) are now fundamental parts of the HTML5 specification,[8] and HTML5 also better defines the processing for any invalid documents.[9]",
+        "text3": "",
+        "url": "https:\/\/en.wikipedia.org\/wiki\/HTML5",
+        "tag": "#coding #technology",
+        "time": 1719567977,
+        "rightFooter": ""
+    },
+    {
+        "id": "21",
+        "text": "HTML - Wikipedia",
+        "text2": "HyperText Markup Language (HTML) is the standard markup language for documents designed to be displayed in a web browser. It defines the content and structure of web content. It is often assisted by technologies such as Cascading Style Sheets (CSS) and scripting languages such as JavaScript.\r\n\r\nWeb browsers receive HTML documents from a web server or from local storage and render the documents into multimedia web pages. HTML describes the structure of a web page semantically and originally included cues for its appearance.\r\n\r\nHTML elements are the building blocks of HTML pages. With HTML constructs, images and other objects such as interactive forms may be embedded into the rendered page. HTML provides a means to create structured documents by denoting structural semantics for text such as headings, paragraphs, lists, links, quotes, and other items. HTML elements are delineated by tags, written using angle brackets. Tags such as <img> and <input> directly introduce content into the page. Other tags such as <p> and <\/p> surround and provide information about document text and may include sub-element tags. Browsers do not display the HTML tags but use them to interpret the content of the page.\r\n\r\nHTML can embed programs written in a scripting language such as JavaScript, which affects the behavior and content of web pages. The inclusion of CSS defines the look and layout of content. The World Wide Web Consortium (W3C), former maintainer of the HTML and current maintainer of the CSS standards, has encouraged the use of CSS over explicit presentational HTML since 1997.[2] A form of HTML, known as HTML5, is used to display video and audio, primarily using the <canvas> element, together with JavaScript.",
+        "text3": "",
+        "url": "https:\/\/en.wikipedia.org\/wiki\/HTML",
+        "tag": "#coding #technology",
+        "time": 1719567956,
+        "rightFooter": ""
+    },
+    {
+        "id": "20",
+        "text": "CSS - Wikipedia",
+        "text2": "Cascading Style Sheets (CSS) is a style sheet language used for specifying the presentation and styling of a document written in a markup language such as HTML or XML (including XML dialects such as SVG, MathML or XHTML).[1] CSS is a cornerstone technology of the World Wide Web, alongside HTML and JavaScript.[2]\r\n\r\nCSS is designed to enable the separation of content and presentation, including layout, colors, and fonts.[3] This separation can improve content accessibility;[further explanation needed] provide more flexibility and control in the specification of presentation characteristics; enable multiple web pages to share formatting by specifying the relevant CSS in a separate .css file, which reduces complexity and repetition in the structural content; and enable the .css file to be cached to improve the page load speed between the pages that share the file and its formatting.\r\n\r\nSeparation of formatting and content also makes it feasible to present the same markup page in different styles for different rendering methods, such as on-screen, in print, by voice (via speech-based browser or screen reader), and on Braille-based tactile devices. CSS also has rules for alternate formatting if the content is accessed on a mobile device.[4]\r\n\r\nThe name cascading comes from the specified priority scheme to determine which declaration applies if more than one declaration of a property match a particular element. This cascading priority scheme is predictable.\r\n\r\nThe CSS specifications are maintained by the World Wide Web Consortium (W3C). Internet media type (MIME type) text\/css is registered for use with CSS by RFC 2318 (March 1998). The W3C operates a free CSS validation service for CSS documents.[5]\r\n\r\nIn addition to HTML, other markup languages support the use of CSS including XHTML, plain XML, SVG, and XUL. CSS is also used in the GTK widget toolkit.",
+        "text3": "",
+        "url": "https:\/\/en.wikipedia.org\/wiki\/CSS",
+        "tag": "#coding #technology",
+        "time": 1719567928,
+        "rightFooter": ""
+    },
+    {
+        "id": "19",
+        "text": "Google Chrome - Wikipedia",
+        "text2": "Google Chrome is a web browser developed by Google. It was first released in 2008 for Microsoft Windows, built with free software components from Apple WebKit and Mozilla Firefox.[16] Versions were later released for Linux, macOS, iOS, and also for Android, where it is the default browser.[17] The browser is also the main component of ChromeOS, where it serves as the platform for web applications.\r\n\r\nMost of Chrome's source code comes from Google's free and open-source software project Chromium, but Chrome is licensed as proprietary freeware.[15] WebKit was the original rendering engine, but Google eventually forked it to create the Blink engine;[18] all Chrome variants except iOS used Blink as of 2017.[19]\r\n\r\nAs of April 2024, StatCounter estimates that Chrome has a 65% worldwide browser market share (after peaking at 72.38% in November 2018) on personal computers (PC),[20] is most used on tablets (having surpassed Safari), and is also dominant on smartphones.[21][22] With a market share of 65% across all platforms combined, Chrome is the most used web browser in the world today.[23]\r\n\r\nGoogle Chief Executive Eric Schmidt was previously involved in the \"browser wars\", a part of U.S. corporate history, and opposed the expansion of the company into such a new area. However, Google co-founders Sergey Brin and Larry Page spearheaded a software demonstration that pushed Schmidt into making Chrome a core business priority, which resulted in commercial success.[24] Because of the proliferation of Chrome, Google has expanded the \"Chrome\" brand name to other products. These include not just ChromeOS but also Chromecast, Chromebook, Chromebit, Chromebox, and Chromebase.",
+        "text3": "",
+        "url": "https:\/\/en.wikipedia.org\/wiki\/Google_Chrome",
+        "tag": "#technology",
+        "time": 1719567905,
+        "rightFooter": ""
+    },
+    {
+        "id": "18",
+        "text": "Firefox - Wikipedia",
+        "text2": "Mozilla Firefox, or simply Firefox, is a free and open-source[11] web browser developed by the Mozilla Foundation and its subsidiary, the Mozilla Corporation. It uses the Gecko rendering engine to display web pages, which implements current and anticipated web standards.[12] Firefox is available for Windows 10 or later versions, macOS, and Linux. Its unofficial ports are available for various Unix and Unix-like operating systems, including FreeBSD,[13] OpenBSD,[14] NetBSD,[15] and other platforms. It is also available for Android and iOS. However, as with all other iOS web browsers, the iOS version uses the WebKit layout engine instead of Gecko due to platform requirements. An optimized version is also available on the Amazon Fire TV as one of the two main browsers available with Amazon's Silk Browser.[16]\r\n\r\nFirefox is the spiritual successor of Netscape Navigator, as the Mozilla community was created by Netscape in 1998, before its acquisition by AOL.[17] Firefox was created in 2002 under the codename \"Phoenix\" by members of the Mozilla community who desired a standalone browser rather than the Mozilla Application Suite bundle. During its beta phase, it proved to be popular with its testers and was praised for its speed, security, and add-ons compared to Microsoft's then-dominant Internet Explorer 6. It was released on November 9, 2004,[18] and challenged Internet Explorer's dominance with 60 million downloads within nine months.[19] In November 2017, Firefox began incorporating new technology under the code name \"Quantum\" to promote parallelism and a more intuitive user interface.[20]\r\n\r\nFirefox usage share grew to a peak of 32.21% in November 2009,[21] with Firefox 3.5 overtaking Internet Explorer 7, although not all versions of Internet Explorer as a whole;[22][23] its usage then declined in competition with Google Chrome.[21] As of December 2023, according to StatCounter, it had a 6.7% usage share on traditional PCs (i.e. as a desktop browser), making it the fourth-most popular PC web browser after Google Chrome (62%), Safari (13%), and Microsoft Edge (11%).[24][25]",
+        "text3": "",
+        "url": "https:\/\/en.wikipedia.org\/wiki\/Firefox",
+        "tag": "#technology",
+        "time": 1719567878,
+        "rightFooter": ""
+    },
+    {
+        "id": "17",
+        "text": "Operating system - Wikipedia",
+        "text2": "An operating system (OS) is system software that manages computer hardware and software resources, and provides common services for computer programs.\r\n\r\nTime-sharing operating systems schedule tasks for efficient use of the system and may also include accounting software for cost allocation of processor time, mass storage, peripherals, and other resources.\r\n\r\nFor hardware functions such as input and output and memory allocation, the operating system acts as an intermediary between programs and the computer hardware,[1][2] although the application code is usually executed directly by the hardware and frequently makes system calls to an OS function or is interrupted by it. Operating systems are found on many devices that contain a computer \u2013 from cellular phones and video game consoles to web servers and supercomputers.\r\n\r\nIn the personal computer market, as of September 2023, Microsoft Windows holds a dominant market share of around 68%. macOS by Apple Inc. is in second place (20%), and the varieties of Linux, including ChromeOS, are collectively in third place (7%).[3] In the mobile sector (including smartphones and tablets), as of September 2023, Android's share is 68.92%, followed by Apple's iOS and iPadOS with 30.42%, and other operating systems with .66%.[4] Linux distributions are dominant in the server and supercomputing sectors. Other specialized classes of operating systems (special-purpose operating systems),[5][6] such as embedded and real-time systems, exist for many applications. Security-focused operating systems also exist. Some operating systems have low system requirements (e.g. light-weight Linux distribution). Others may have higher system requirements.\r\n\r\nSome operating systems require installation or may come pre-installed with purchased computers (OEM-installation), whereas others may run directly from media (i.e. live CD) or flash memory (i.e. USB stick).",
+        "text3": "",
+        "url": "https:\/\/en.wikipedia.org\/wiki\/Operating_system",
+        "tag": "#technology",
+        "time": 1719567848,
+        "rightFooter": ""
+    },
+    {
+        "id": "16",
+        "text": "Computer - Wikipedia",
+        "text2": "A computer is a machine that can be programmed to automatically carry out sequences of arithmetic or logical operations (computation). Modern digital electronic computers can perform generic sets of operations known as programs. These programs enable computers to perform a wide range of tasks. The term computer system may refer to a nominally complete computer that includes the hardware, operating system, software, and peripheral equipment needed and used for full operation; or to a group of computers that are linked and function together, such as a computer network or computer cluster.\r\n\r\nA broad range of industrial and consumer products use computers as control systems, including simple special-purpose devices like microwave ovens and remote controls, and factory devices like industrial robots. Computers are at the core of general-purpose devices such as personal computers and mobile devices such as smartphones. Computers power the Internet, which links billions of computers and users.\r\n\r\nEarly computers were meant to be used only for calculations. Simple manual instruments like the abacus have aided people in doing calculations since ancient times. Early in the Industrial Revolution, some mechanical devices were built to automate long, tedious tasks, such as guiding patterns for looms. More sophisticated electrical machines did specialized analog calculations in the early 20th century. The first digital electronic calculating machines were developed during World War II, both electromechanical and using thermionic valves. The first semiconductor transistors in the late 1940s were followed by the silicon-based MOSFET (MOS transistor) and monolithic integrated circuit chip technologies in the late 1950s, leading to the microprocessor and the microcomputer revolution in the 1970s. The speed, power, and versatility of computers have been increasing dramatically ever since then, with transistor counts increasing at a rapid pace (Moore's law noted that counts doubled every two years), leading to the Digital Revolution during the late 20th and early 21st centuries.\r\n\r\nConventionally, a modern computer consists of at least one processing element, typically a central processing unit (CPU) in the form of a microprocessor, together with some type of computer memory, typically semiconductor memory chips. The processing element carries out arithmetic and logical operations, and a sequencing and control unit can change the order of operations in response to stored information. Peripheral devices include input devices (keyboards, mice, joystick, etc.), output devices (monitor screens, printers, etc.), and input\/output devices that perform both functions (e.g., the 2000s-era touchscreen). Peripheral devices allow information to be retrieved from an external source, and they enable the results of operations to be saved and retrieved.",
+        "text3": "",
+        "url": "https:\/\/en.wikipedia.org\/wiki\/Computer",
+        "tag": "#technology",
+        "time": 1719567820,
+        "rightFooter": ""
+    },
+    {
+        "id": "15",
+        "text": "MySQL - Wikipedia",
+        "text2": "MySQL (\/\u02ccma\u026a\u02cc\u025bs\u02cckju\u02d0\u02c8\u025bl\/)[5] is an open-source relational database management system (RDBMS).[5][6] Its name is a combination of \"My\", the name of co-founder Michael Widenius's daughter My,[7] and \"SQL\", the acronym for Structured Query Language. A relational database organizes data into one or more data tables in which data may be related to each other; these relations help structure the data. SQL is a language that programmers use to create, modify and extract data from the relational database, as well as control user access to the database. In addition to relational databases and SQL, an RDBMS like MySQL works with an operating system to implement a relational database in a computer's storage system, manages users, allows for network access and facilitates testing database integrity and creation of backups.\r\n\r\nMySQL is free and open-source software under the terms of the GNU General Public License, and is also available under a variety of proprietary licenses. MySQL was owned and sponsored by the Swedish company MySQL AB, which was bought by Sun Microsystems (now Oracle Corporation).[8] In 2010, when Oracle acquired Sun, Widenius forked the open-source MySQL project to create MariaDB.[9]\r\n\r\nMySQL has stand-alone clients that allow users to interact directly with a MySQL database using SQL, but more often, MySQL is used with other programs to implement applications that need relational database capability. MySQL is a component of the LAMP web application software stack (and others), which is an acronym for Linux, Apache, MySQL, Perl\/PHP\/Python. MySQL is used by many database-driven web applications, including Drupal, Joomla, phpBB, and WordPress.[10] MySQL is also used by many popular websites, including Facebook,[11][12] Flickr,[13] MediaWiki,[14] Twitter,[15] and YouTube.[16]",
+        "text3": "",
+        "url": "https:\/\/en.wikipedia.org\/wiki\/MySQL",
+        "tag": "#coding #technology",
+        "time": 1719567788,
+        "rightFooter": ""
+    },
+    {
+        "id": "14",
+        "text": "JavaScript - Wikipedia",
+        "text2": "JavaScript (\/\u02c8d\u0292\u0251\u02d0v\u0259skr\u026apt\/), often abbreviated as JS, is a programming language and core technology of the Web, alongside HTML and CSS. 99% of websites use JavaScript on the client side for webpage behavior.[10]\r\n\r\nWeb browsers have a dedicated JavaScript engine that executes the client code. These engines are also utilized in some servers and a variety of apps. The most popular runtime system for non-browser usage is Node.js.\r\n\r\nJavaScript is a high-level, often just-in-time compiled language that conforms to the ECMAScript standard.[11] It has dynamic typing, prototype-based object-orientation, and first-class functions. It is multi-paradigm, supporting event-driven, functional, and imperative programming styles. It has application programming interfaces (APIs) for working with text, dates, regular expressions, standard data structures, and the Document Object Model (DOM).\r\n\r\nThe ECMAScript standard does not include any input\/output (I\/O), such as networking, storage, or graphics facilities. In practice, the web browser or other runtime system provides JavaScript APIs for I\/O.\r\n\r\nAlthough Java and JavaScript are similar in name, syntax, and respective standard libraries, the two languages are distinct and differ greatly in design.",
+        "text3": "",
+        "url": "https:\/\/en.wikipedia.org\/wiki\/JavaScript",
+        "tag": "#coding #technology",
+        "time": 1719567764,
+        "rightFooter": ""
+    },
+    {
+        "id": "13",
+        "text": "Go (programming language) - Wikipedia",
+        "text2": "Go is a statically typed, compiled high-level programming language designed at Google[12] by Robert Griesemer, Rob Pike, and Ken Thompson.[4] It is syntactically similar to C, but also has memory safety, garbage collection, structural typing,[7] and CSP-style concurrency.[13] It is often referred to as Golang because of its former domain name, golang.org, but its proper name is Go.[14]\r\n\r\nThere are two major implementations:\r\n\r\n    Google's self-hosting[15] \"gc\" compiler toolchain, targeting multiple operating systems and WebAssembly.[16]\r\n    gofrontend, a frontend to other compilers, with the libgo library. With GCC the combination is gccgo;[17] with LLVM the combination is gollvm.[18][a]\r\n\r\nA third-party source-to-source compiler, GopherJS,[20] compiles Go to JavaScript for front-end web development.",
+        "text3": "",
+        "url": "https:\/\/en.wikipedia.org\/wiki\/Go_(programming_language)",
+        "tag": "#coding #technology",
+        "time": 1719567729,
+        "rightFooter": ""
+    },
+    {
+        "id": "12",
+        "text": "PHP - Wikipedia",
+        "text2": "PHP is a general-purpose scripting language geared towards web development.[8] It was originally created by Danish-Canadian programmer Rasmus Lerdorf in 1993 and released in 1995.[9][10] The PHP reference implementation is now produced by the PHP Group.[11] PHP was originally an abbreviation of Personal Home Page,[12][13] but it now stands for the recursive initialism PHP: Hypertext Preprocessor.[14]\r\n\r\nPHP code is usually processed on a web server by a PHP interpreter implemented as a module, a daemon or a Common Gateway Interface (CGI) executable. On a web server, the result of the interpreted and executed PHP code\u2014which may be any type of data, such as generated HTML or binary image data\u2014would form the whole or part of an HTTP response. Various web template systems, web content management systems, and web frameworks exist that can be employed to orchestrate or facilitate the generation of that response. Additionally, PHP can be used for many programming tasks outside the web context, such as standalone graphical applications[15] and drone control.[16] PHP code can also be directly executed from the command line.\r\n\r\nThe standard PHP interpreter, powered by the Zend Engine, is free software released under the PHP License. PHP has been widely ported and can be deployed on most web servers on a variety of operating systems and platforms.[17]\r\n\r\nThe PHP language has evolved without a written formal specification or standard, with the original implementation acting as the de facto standard that other implementations aimed to follow.\r\n\r\nW3Techs reports that as of 23 May 2024 (the six months after the PHP 8.3 release), PHP is used by 76.2% of all websites whose programming language could be determined, and 55.1% thereof use PHP 7 which is outdated and known to be insecure.[18][19]",
+        "text3": "",
+        "url": "https:\/\/en.wikipedia.org\/wiki\/PHP",
+        "tag": "#coding #technology",
+        "time": 1719567698,
+        "rightFooter": ""
+    },
+    {
+        "id": "11",
+        "text": "Rust (programming language) - Wikipedia",
+        "text2": "Rust is a multi-paradigm, general-purpose programming language that emphasizes performance, type safety, and concurrency. It enforces memory safety\u2014meaning that all references point to valid memory\u2014without a garbage collector. To simultaneously enforce memory safety and prevent data races, its \"borrow checker\" tracks the object lifetime of all references in a program during compilation.\r\n\r\nRust was influenced by ideas from functional programming, including immutability, higher-order functions, and algebraic data types. It is popular for systems programming.[13][14][15]\r\n\r\nSoftware developer Graydon Hoare created Rust as a personal project while working at Mozilla Research in 2006. Mozilla officially sponsored the project in 2009. In the years following the first stable release in May 2015, Rust was adopted by companies including Amazon, Discord, Dropbox, Google (Alphabet), Meta, and Microsoft. In December 2022, it became the first language other than C and assembly to be supported in the development of the Linux kernel.\r\n\r\nRust has been noted for its rapid adoption,[16] and has been studied in programming language theory research.[17][18][19]",
+        "text3": "",
+        "url": "https:\/\/en.wikipedia.org\/wiki\/Rust_(programming_language)",
+        "tag": "#coding #technology",
+        "time": 1719567670,
+        "rightFooter": ""
+    },
+    {
+        "id": "10",
+        "text": "Computer programming - Wikipedia",
+        "text2": "Computer programming or coding is the composition of sequences of instructions, called programs, that computers can follow to perform tasks.[1][2] It involves designing and implementing algorithms, step-by-step specifications of procedures, by writing code in one or more programming languages. Programmers typically use high-level programming languages that are more easily intelligible to humans than machine code, which is directly executed by the central processing unit. Proficient programming usually requires expertise in several different subjects, including knowledge of the application domain, details of programming languages and generic code libraries, specialized algorithms, and formal logic.\r\n\r\nAuxiliary tasks accompanying and related to programming include analyzing requirements, testing, debugging (investigating and fixing problems), implementation of build systems, and management of derived artifacts, such as programs' machine code. While these are sometimes considered programming, often the term software development is used for this larger overall process \u2013 with the terms programming, implementation, and coding reserved for the writing and editing of code per se. Sometimes software development is known as software engineering, especially when it employs formal methods or follows an engineering design process.",
+        "text3": "",
+        "url": "https:\/\/en.wikipedia.org\/wiki\/Computer_programming",
+        "tag": "#technology #coding",
+        "time": 1719567614,
+        "rightFooter": ""
+    },
+    {
+        "id": "9",
+        "text": "Imagination - Wikipedia",
+        "text2": "Imagination is the production of sensations, feelings and thoughts informing oneself.[1] These experiences can be re-creations of past experiences, such as vivid memories with imagined changes, or completely invented and possibly fantastic scenes.[2] Imagination helps apply knowledge to solve problems and is fundamental to integrating experience and the learning process.[3][4][5][full citation needed][6] As a way of building theory, it is called \"disciplined imagination\".[7] A way of training imagination is by listening to storytelling (narrative),[3][8] in which the exactness of the chosen words is how it can \"evoke worlds\".[9][full citation needed]\r\n\r\nOne view of imagination links it with cognition,[10] seeing imagination as a cognitive process used in mental functioning. It is used \u2014 in the form of visual imagery \u2014 by clinicians in psychological treatment.[11] Imaginative thought may become associated with rational thought on the assumption that both activities involve cognitive processes that \"underpin thinking about possibilities\".[12]\r\n\r\nThe cognate term, \"mental imagery\" may be used in psychology to denote the process of reviving in the mind recollections of objects formerly given in sense perception. Since this use of the term conflicts with that of ordinary language, some psychologists have preferred to describe this process as \"imaging\" or \"imagery\" or to speak of it as \"reproductive\" as opposed to \"productive\" or \"constructive\" imagination. Constructive imagination is further divided into voluntary imagination driven by the lateral prefrontal cortex (LPFC) and involuntary imagination (LPFC-independent), such as REM sleep dreaming, daydreaming, hallucinations, and spontaneous insight.[13] The voluntary types of imagination include integration of modifiers[jargon], and mental rotation. Imagined images, both novel and recalled, are seen with the \"mind's eye\".\r\n\r\nImagination, however, is not considered to be exclusively a cognitive activity because it is also linked to the body and place, particularly in that it also involves setting up relationships with materials and people, precluding the sense that imagination is locked away in the head.[14]\r\n\r\nImagination can be expressed through stories and writings such as fairy tales, fantasies, science fiction.[15] Children often use such narratives and pretend play in order to exercise their imaginations. When children develop fantasy they play at two levels: first, they use role playing to act out what they have developed with their imagination, and at the second level they play again with their make-believe situation by acting as if what they have developed is an actual reality.[16]",
+        "text3": "",
+        "url": "https:\/\/en.wikipedia.org\/wiki\/Imagination",
+        "tag": "#empty",
+        "time": 1718813176,
+        "rightFooter": ""
+    },
+    {
+        "id": "8",
+        "text": "macOS - Wikipedia",
+        "text2": "macOS, originally Mac OS X, previously shortened as OS X, is an operating system developed and marketed by Apple since 2001. It is the primary operating system for Apple's Mac computers. Within the market of desktop and laptop computers, it is the second most widely used desktop OS, after Microsoft Windows and ahead of all Linux distributions, including ChromeOS.\r\n\r\nMac OS X succeeded classic Mac OS, the primary Macintosh operating system from 1984 to 2001. Its underlying architecture came from NeXT's NeXTSTEP, as a result of Apple's acquisition of NeXT, which also brought Steve Jobs back to Apple.\r\n\r\nThe first desktop version, Mac OS X 10.0, was released on March 24, 2001. All releases from Mac OS X Leopard onward (except for OS X Lion) are UNIX 03 certified.[5][6] The derivatives of macOS are Apple's other operating systems: iOS, iPadOS, watchOS, tvOS, and audioOS.\r\n\r\nA prominent part of macOS's original brand identity was the use of Roman numeral X, pronounced \"ten\", as well as code naming each release after species of big cats, and later, places within California.[7] Apple shortened the name to \"OS X\" in 2011 and then changed it to \"macOS\" in 2016 to align with the branding of Apple's other operating systems, iOS, watchOS, and tvOS.[8] After sixteen distinct versions of macOS 10, macOS Big Sur was presented as version 11 in 2020, and every subsequent version has also incremented the major version number, similarly to classic Mac OS and iOS.\r\n\r\nmacOS has supported three major processor architectures, beginning with PowerPC-based Macs in 1999. In 2006, Apple transitioned to the Intel architecture with a line of Macs using Intel Core processors. In 2020, Apple began the Apple silicon transition, using self-designed, 64-bit Arm-based Apple M series processors on the latest Macintosh computers.[9] As of 2023, the most recent release of macOS is macOS 14 Sonoma.",
+        "text3": "",
+        "url": "https:\/\/en.wikipedia.org\/wiki\/MacOS",
+        "tag": "#technology #OS",
+        "time": 1717654318,
+        "rightFooter": ""
+    },
+    {
+        "id": "7",
+        "text": "Microsoft Windows - Wikipedia",
+        "text2": "Microsoft Windows is a product line of proprietary graphical operating systems developed and marketed by Microsoft. It is grouped into families and sub-families that cater to particular sectors of the computing industry \u2013 Windows (unqualified) for a consumer or corporate workstation, Windows Server for a server and Windows IoT for an embedded system. Defunct families include Windows 9x, Windows Mobile, Windows Phone, and Windows Embedded Compact.\r\n\r\nThe first version of Windows was released on November 20, 1985, as a graphical operating system shell for MS-DOS in response to the growing interest in graphical user interfaces (GUIs).[11]\r\n\r\nWindows is the most popular desktop operating system in the world, with a 70% market share as of March 2023, according to StatCounter.[12] However, Windows is not the most used operating system when including both mobile and desktop OSes, due to Android's massive growth.[13]\r\n\r\nAs of 2024, the most recent version of Windows is Windows 11 for consumer PCs and tablets, Windows 11 Enterprise for corporations, and Windows Server 2022 for servers. Still supported are some editions of Windows 10, Windows Server 2016 and later (and exceptionally with paid support down to Windows Server 2012 and Windows Embedded POSReady 7).\r\nProduct line\r\n\r\nAs of 2024, the only active top-level family is Windows NT. The first version, Windows NT 3.1, was intended for server computing and corporate workstations. It grew into a product line of its own and now consists of four sub-families that tend to be released almost simultaneously and share the same kernel.\r\n\r\n    Windows (unqualified): For a consumer or corporate workstation or tablet. The latest version is Windows 11. Its main competitors are macOS by Apple for personal computers and iPadOS and Android for tablets (c.f. Usage share of operating systems \u00a7 Market share by category).\r\n        Of note: 'Windows' refers to both the overall product line and to this sub-family of it.\r\n\r\n    Windows Server: For a server computer. The latest version is Windows Server 2022. Unlike its client sibling, it has adopted a strong naming scheme. The main competitor of this family is Linux. (c.f. Usage share of operating systems \u00a7 Market share by category)\r\n\r\n    Windows PE: A lightweight version of its Windows sibling, meant to operate as a live operating system, used for installing Windows on bare-metal computers (especially on many computers at once), recovery, or troubleshooting purposes. The latest version is Windows PE 10.\r\n\r\n    Windows IoT (previously Windows Embedded): For IoT and embedded computers. The latest version is Windows 11 IoT Enterprise.[14] Like Windows Server, the main competitor of this family is Linux. (c.f. Usage share of operating systems \u00a7 Market share by category)\r\n\r\nThese top-level Windows families are no longer actively developed:\r\n\r\n    Windows 9x: Intended for the consumer market only. The first version of this family was Windows 95, which was followed by Windows 98. The last version of the Windows 9x family was Windows Me, which PC World called it as one of the worst products of all time, labeling it as \"Mistake Edition\" and placing it 4th in their list of Worst Tech Products in 2006.[15] All versions of this family have a monolithic kernel that uses MS-DOS as a foundation along with the kernel first used with Windows 95. Microsoft now caters to the consumer market with Windows NT starting with Windows XP.\r\n    Windows Mobile: The predecessor to Windows Phone, a mobile phone and PDA operating system. The first version was called Pocket PC 2000. The third version, Windows Mobile 2003, was the first version to adopt the Windows Mobile trademark. The last version was Windows Mobile 6.5.\r\n    Windows Phone: Sold only to smartphone manufacturers. The first version was Windows Phone 7, followed by Windows Phone 8 and Windows Phone 8.1. It was succeeded by Windows 10 Mobile, which is also discontinued.\r\n    Windows Embedded Compact: Most commonly known by its former name, Windows CE, it is a hybrid kernel operating system optimized for low power and memory systems, with OEMs able to modify the UI to suit their needs. The final version was Windows Embedded Compact 2013, and it is succeeded by Windows IoT.",
+        "text3": "",
+        "url": "https:\/\/en.wikipedia.org\/wiki\/Microsoft_Windows",
+        "tag": "#technology #OS",
+        "time": 1717654295,
+        "rightFooter": ""
+    },
+    {
+        "id": "6",
+        "text": "Linux - Wikipedia",
+        "text2": "Linux (\/\u02c8l\u026an\u028aks\/ LIN-uuks)[11] is a family of open-source Unix-like operating systems based on the Linux kernel,[12] an operating system kernel first released on September 17, 1991, by Linus Torvalds.[13][14][15] Linux is typically packaged as a Linux distribution (distro), which includes the kernel and supporting system software and libraries, many of which are provided by the GNU Project. Many Linux distributions use the word \"Linux\" in their name, but the Free Software Foundation uses and recommends the name \"GNU\/Linux\" to emphasize the use and importance of GNU software in many distributions, causing some controversy.[16][17]\r\n\r\nPopular Linux distributions[18][19][20] include Debian, Fedora Linux, Arch Linux, and Ubuntu. Commercial distributions include Red Hat Enterprise Linux and SUSE Linux Enterprise. Desktop Linux distributions include a windowing system such as X11 or Wayland and a desktop environment such as GNOME or KDE Plasma. Distributions intended for servers may not have a graphical user interface at all, or include a solution stack such as LAMP. Because Linux is freely redistributable, anyone may create a distribution for any purpose.[21]\r\n\r\nLinux was originally developed for personal computers based on the Intel x86 architecture, but has since been ported to more platforms than any other operating system.[22] Because of the dominance of Linux-based Android on smartphones, Linux, including Android, has the largest installed base of all general-purpose operating systems as of May 2022.[23][24][25] Linux is, as of March 2024, used by around 4 percent of desktop computers,[26] the Chromebook, which runs the Linux kernel-based ChromeOS, dominates the US K\u201312 education market and represents nearly 20 percent of sub-$300 notebook sales in the US.[27] Linux is the leading operating system on servers (over 96.4% of the top one million web servers' operating systems are Linux),[28] leads other big iron systems such as mainframe computers, and is used on all of the world's 500 fastest supercomputers[d] (as of November 2017, having gradually displaced all competitors).[29][30][31]\r\n\r\nLinux also runs on embedded systems, i.e., devices whose operating system is typically built into the firmware and is highly tailored to the system. This includes routers, automation controls, smart home devices, video game consoles,[32] televisions (Samsung and LG Smart TVs),[33][34][35] automobiles (Tesla, Audi, Mercedes-Benz, Hyundai, and Toyota),[36] and spacecraft (Falcon 9 rocket, Dragon crew capsule, and the Perseverance rover).[37][38]\r\n\r\nLinux is one of the most prominent examples of free and open-source software collaboration. The source code may be used, modified, and distributed commercially or non-commercially by anyone under the terms of its respective licenses, such as the GNU General Public License (GPL). The Linux kernel, for example, is licensed under the GPLv2, with an exception for system calls that allows code that calls the kernel via system calls not to be licensed under the GPL.[39][40][21]",
+        "text3": "",
+        "url": "https:\/\/en.wikipedia.org\/wiki\/Linux",
+        "tag": "#technology #OS",
+        "time": 1717654255,
+        "rightFooter": ""
+    },
+    {
+        "id": "5",
+        "text": "Tkinter - Wikipedia",
+        "text2": "Tkinter is a Python binding to the Tk GUI toolkit. It is the standard Python interface to the Tk GUI toolkit,[1] and is Python's de facto standard GUI.[2] Tkinter is included with standard Linux, Microsoft Windows and macOS installs of Python.\r\n\r\nThe name Tkinter comes from Tk interface. Tkinter was written by Steen Lumholt and Guido van Rossum,[3] then later revised by Fredrik Lundh.[4]\r\n\r\nTkinter is free software released under a Python license.[5]",
+        "text3": "",
+        "url": "https:\/\/en.wikipedia.org\/wiki\/Tkinter",
+        "tag": "#coding #python",
+        "time": 1717654218,
+        "rightFooter": ""
+    },
+    {
+        "id": "4",
+        "text": "Technology - Wikipedia",
+        "text2": "Technology is the application of conceptual knowledge for achieving practical goals, especially in a reproducible way.[1] The word technology can also mean the products resulting from such efforts,[2][3] including both tangible tools such as utensils or machines, and intangible ones such as software. Technology plays a critical role in science, engineering, and everyday life.\r\n\r\nTechnological advancements have led to significant changes in society. The earliest known technology is the stone tool, used during prehistoric times, followed by the control of fire, which contributed to the growth of the human brain and the development of language during the Ice Age. The invention of the wheel in the Bronze Age allowed greater travel and the creation of more complex machines. More recent technological inventions, including the printing press, telephone, and the Internet, have lowered barriers to communication and ushered in the knowledge economy.\r\n\r\nWhile technology contributes to economic development and improves human prosperity, it can also have negative impacts like pollution and resource depletion, and can cause social harms like technological unemployment resulting from automation. As a result, there are ongoing philosophical and political debates about the role and use of technology, the ethics of technology, and ways to mitigate its downsides.\r\nEtymology\r\n\r\nTechnology is a term dating back to the early 17th century that meant 'systematic treatment' (from Greek \u03a4\u03b5\u03c7\u03bd\u03bf\u03bb\u03bf\u03b3\u03af\u03b1, from the Greek: \u03c4\u03ad\u03c7\u03bd\u03b7, romanized: t\u00e9khn\u0113, lit.\u2009'craft, art' and -\u03bb\u03bf\u03b3\u03af\u03b1, 'study, knowledge').[4][5] It is predated in use by the Ancient Greek word t\u00e9khn\u0113, used to mean 'knowledge of how to make things', which encompassed activities like architecture.[6]\r\n\r\nStarting in the 19th century, continental Europeans started using the terms Technik (German) or technique (French) to refer to a 'way of doing', which included all technical arts, such as dancing, navigation, or printing, whether or not they required tools or instruments.[7] At the time, Technologie (German and French) referred either to the academic discipline studying the \"methods of arts and crafts\", or to the political discipline \"intended to legislate on the functions of the arts and crafts.\"[8] Since the distinction between Technik and Technologie is absent in English, both were translated as technology. The term was previously uncommon in English and mostly referred to the academic discipline, as in the Massachusetts Institute of Technology.[9]\r\n\r\nIn the 20th century, as a result of scientific progress and the Second Industrial Revolution, technology stopped being considered a distinct academic discipline and took on its current-day meaning: the systemic use of knowledge to practical ends.[10]",
+        "text3": "",
+        "url": "https:\/\/en.wikipedia.org\/wiki\/Technology",
+        "tag": "#technology",
+        "time": 1717600799,
+        "rightFooter": ""
+    },
+    {
+        "id": "3",
+        "text": "Google - Wikipedia",
+        "text2": "Google LLC (\/\u02c8\u0261u\u02d0\u0261\u0259l\/ \u24d8, GOO-gh\u0259l) is an American multinational corporation and technology company focusing on online advertising, search engine technology, cloud computing, computer software, quantum computing, e-commerce, consumer electronics, and artificial intelligence (AI).[9] It has been referred to as \"the most powerful company in the world\"[10] and is one of the world's most valuable brands due to its market dominance, data collection, and technological advantages in the field of AI.[11][12][13] Google's parent company, Alphabet Inc. is one of the five Big Tech companies, alongside Amazon, Apple, Meta, and Microsoft.\r\n\r\nGoogle was founded on September 4, 1998, by American computer scientists Larry Page and Sergey Brin while they were PhD students at Stanford University in California. Together, they own about 14% of its publicly listed shares and control 56% of its stockholder voting power through super-voting stock. The company went public via an initial public offering (IPO) in 2004. In 2015, Google was reorganized as a wholly owned subsidiary of Alphabet Inc. Google is Alphabet's largest subsidiary and is a holding company for Alphabet's internet properties and interests. Sundar Pichai was appointed CEO of Google on October 24, 2015, replacing Larry Page, who became the CEO of Alphabet. On December 3, 2019, Pichai also became the CEO of Alphabet.[14]\r\n\r\nThe company has since rapidly grown to offer a multitude of products and services beyond Google Search, many of which hold dominant market positions. These products address a wide range of use cases, including email (Gmail), navigation (Waze & Maps), cloud computing (Cloud), web navigation (Chrome), video sharing (YouTube), productivity (Workspace), operating systems (Android), cloud storage (Drive), language translation (Translate), photo storage (Photos), videotelephony (Meet), smart home (Nest), smartphones (Pixel), wearable technology (Pixel Watch & Fitbit), music streaming (YouTube Music), video on demand (YouTube TV), AI (Google Assistant & Gemini), machine learning APIs (TensorFlow), AI chips (TPU), and more. Discontinued Google products include gaming (Stadia), Glass, Google+, Reader, Play Music, Nexus, Hangouts, and Inbox by Gmail.[15][16]\r\n\r\nGoogle's other ventures outside of internet services and consumer electronics include quantum computing (Sycamore), self-driving cars (Waymo, formerly the Google Self-Driving Car Project), smart cities (Sidewalk Labs), and transformer models (Google DeepMind).[17]\r\n\r\nGoogle and YouTube are the two most-visited websites worldwide followed by Facebook and X (formerly known as Twitter). Google is also the largest search engine, mapping and navigation application, email provider, office suite, online video platform, photo and cloud storage provider, mobile operating system, web browser, machine learning framework, and AI virtual assistant provider in the world as measured by market share.[18] On the list of most valuable brands, Google is ranked second by Forbes[19] and fourth by Interbrand.[20] It has received significant criticism involving issues such as privacy concerns, tax avoidance, censorship, search neutrality, antitrust and abuse of its monopoly position.",
+        "text3": "",
+        "url": "https:\/\/en.wikipedia.org\/wiki\/Google",
+        "tag": "#technology",
+        "time": 1717600762,
+        "rightFooter": ""
+    },
+    {
+        "id": "2",
+        "text": "Python (programming language) - Wikipedia",
+        "text2": "Python is a high-level, general-purpose programming language. Its design philosophy emphasizes code readability with the use of significant indentation.[33]\r\n\r\nPython is dynamically typed and garbage-collected. It supports multiple programming paradigms, including structured (particularly procedural), object-oriented and functional programming. It is often described as a \"batteries included\" language due to its comprehensive standard library.[34][35]\r\n\r\nGuido van Rossum began working on Python in the late 1980s as a successor to the ABC programming language and first released it in 1991 as Python 0.9.0.[36] Python 2.0 was released in 2000. Python 3.0, released in 2008, was a major revision not completely backward-compatible with earlier versions. Python 2.7.18, released in 2020, was the last release of Python 2.[37]\r\n\r\nPython consistently ranks as one of the most popular programming languages, and has gained widespread use in the machine learning community.[38][39][40][41]",
+        "text3": "",
+        "url": "https:\/\/en.wikipedia.org\/wiki\/Python_(programming_language)",
+        "tag": "#coding",
+        "time": 1717600656,
+        "rightFooter": ""
+    },
+    {
+        "id": "1",
+        "text": "Wiki - Wikipedia",
+        "text2": "A wiki (\/\u02c8w\u026aki\/ \u24d8 WI-kee) is a form of online hypertext publication that is collaboratively edited and managed by its own audience directly through a web browser. A typical wiki contains multiple pages that can either be edited by the public or limited to use within an organization for maintaining its internal knowledge base.\r\n\r\nWikis are enabled by wiki software, otherwise known as wiki engines. A wiki engine, being a form of a content management system, differs from other web-based systems such as blog software or static site generators, in that the content is created without any defined owner or leader, and wikis have little inherent structure, allowing structure to emerge according to the needs of the users.[1] Wiki engines usually allow content to be written using a simplified markup language and sometimes edited with the help of a rich-text editor.[2] There are dozens of different wiki engines in use, both standalone and part of other software, such as bug tracking systems. Some wiki engines are free and open-source, whereas others are proprietary. Some permit control over different functions (levels of access); for example, editing rights may permit changing, adding, or removing material. Others may permit access without enforcing access control. Further rules may be imposed to organize content.\r\n\r\nThere are hundreds of thousands of wikis in use, both public and private, including wikis functioning as knowledge management resources, note-taking tools, community websites, and intranets. Ward Cunningham, the developer of the first wiki software, WikiWikiWeb, originally described wiki as \"the simplest online database that could possibly work\".[3] \"Wiki\" (pronounced [wiki][note 1]) is a Hawaiian word meaning \"quick\".[4][5][6]\r\n\r\nThe online encyclopedia project Wikipedia is the most popular wiki-based website, as well being one of the most popular websites on the entire internet, having been ranked consistently as such since at least 2007.[7] Wikipedia is not a single wiki but rather a collection of hundreds of wikis, with each one pertaining to a specific language. The English-language Wikipedia has the largest collection of articles, standing at 6,829,995 as of June 2024.[8]",
+        "text3": "",
+        "url": "https:\/\/en.wikipedia.org\/wiki\/Wiki",
+        "tag": "#publication",
+        "time": 1717600538,
+        "rightFooter": ""
+    }
+]

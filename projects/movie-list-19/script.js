@@ -1,7 +1,7 @@
 // Movie list (links) v.2.0.1
 // parsed IMDB WATCHLIST.csv
 
-parseList("result", "../../data2/WATCHLIST.csv");
+parseList("result", "../../data2/watchlist.csv");
 
 
 function parseList(printId, fileCsv){
@@ -32,9 +32,10 @@ item33 = item.split(`,`);
 //movieList = `<a href="${item[6]}">${item[5]} (${item[10]})<br>`;
 
 // title without quote and comma
-var title33 = item33[5];
+var title33 = item33[3];
 var url33 = item33[7];
-var year33 = item33[11];
+var year33 = item33[4].split("-")[0];
+
 
 //  if title with quote and comma
 var titleWithQuoteAndComma = item33[5].split('"');

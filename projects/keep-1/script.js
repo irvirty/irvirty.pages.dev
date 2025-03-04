@@ -1,16 +1,19 @@
-// Keep v.3.14.0
+// Keep v.3.15.0
 // The static version of my offline "keep" PHP script that saves things (links, notes, etc).
 // Inspired by Twitter, Google Keep
 // Not for large data files.
 // JSON data in JS varible, time - in UNIX format
 
 /*
-// config, copy paste in html
+
+<!--
+Config, copy paste in html before script.js.
+Fresh config in script.js
+-->
 <script>
-// fresh config in script.js
 let keepConfig = {
 "postLimit":"", // number, the number of posts per page
-"embedStatus":"", // "off", "semi" (id)
+"embedStatus":"", // "off", "semi" (when id)
 "multiEmbedStatus":"", // "on"
 "tagListStatus":"", // "off"
 "tagListLimit":"", // number
@@ -23,7 +26,9 @@ let keepConfig = {
 "rightFooterStatus":"", // on, off, right footer in data
 "usernameStatus":"", // on, off
 };
-</script>*/
+</script>
+
+*/
 
 // fix error
 if (typeof fuMHideFileNameExt != 'function'){
@@ -466,7 +471,7 @@ if (item['time'] != null){ postTime = item['time']; }
 if (item['rightFooter'] != null){ rightFooter = item['rightFooter']; }
 
 let postTextClean = postText;
-postText = (postText + ' ' + postUrl).trim();
+postText = postText.trim();
 
 
 
@@ -522,12 +527,12 @@ if (postText3 != ''){ postText3 = `
 
 ` + postText3; };
 if (display == "blog"){
-printPost += fuPrintPost(postId, postText, postText2 + postText3, postTag, postTime, subQforLight, rightFooter);
+printPost += fuPrintPost(postId, postText, postUrl + postText2 + postText3, postTag, postTime, subQforLight, rightFooter);
 } else {
-printPost += fuPrintPost(postId, '', postText + postText2 + postText3, postTag, postTime, subQforLight, rightFooter);
+printPost += fuPrintPost(postId, '', postText + ' ' + postUrl + postText2 + postText3, postTag, postTime, subQforLight, rightFooter);
 }
 } else {
-printPost += fuPrintPost(postId, '', postText, postTag, postTime, subQforLight, rightFooter);
+printPost += fuPrintPost(postId, '', postText + ' ' + postUrl, postTag, postTime, subQforLight, rightFooter);
 }
 }
 i3++;
@@ -591,14 +596,14 @@ if (postText3 != ''){ postText3 = `
 
 ` + postText3; };
 if (display == "blog"){
-printPost += fuPrintPost(postId, postText, postText2 + postText3, postTag, postTime, subQforLight, rightFooter);
+printPost += fuPrintPost(postId, postText, postUrl + postText2 + postText3, postTag, postTime, subQforLight, rightFooter);
 } else {
-printPost += fuPrintPost(postId, '', postText + postText2 + postText3, postTag, postTime, subQforLight, rightFooter);
+printPost += fuPrintPost(postId, '', postText + ' ' + postUrl + postText2 + postText3, postTag, postTime, subQforLight, rightFooter);
 }
 } else {
-printPost += fuPrintPost(postId, '', postText, postTag, postTime, subQforLight, rightFooter);
+printPost += fuPrintPost(postId, '', postText + ' ' + postUrl, postTag, postTime, subQforLight, rightFooter);
 }
-//printPost += fuPrintPost(postId, '', postText, postTag, postTime, subQforLight, rightFooter);
+//printPost += fuPrintPost(postId, '', postText + ' ' + postUrl, postTag, postTime, subQforLight, rightFooter);
 }
 i3++;
 }
@@ -641,9 +646,9 @@ if (postText3 != ''){ postText3 = `
 
 ` + postText3; };
 if (display == "blog"){
-printPost += fuPrintPost(postId, postText, postText2 + postText3, postTag, postTime, "", rightFooter);
+printPost += fuPrintPost(postId, postText, postUrl + postText2 + postText3, postTag, postTime, "", rightFooter);
 } else {
-printPost += fuPrintPost(postId, '', postText + postText2 + postText3, postTag, postTime, "", rightFooter);
+printPost += fuPrintPost(postId, '', postText + ' ' + postUrl + postText2 + postText3, postTag, postTime, "", rightFooter);
 }
 comMessagePrint = 'id: ' + postId;
 // post in title only when id
@@ -701,11 +706,11 @@ if (postText3 != ''){ postText3 = `
 
 ` + postText3; };
 if (display == "blog"){
-printPost += fuPrintPost(postId, postText, postText2 + postText3, postTag, postTime, '', rightFooter);
+printPost += fuPrintPost(postId, postText, postUrl + postText2 + postText3, postTag, postTime, '', rightFooter);
 } else {
-printPost += fuPrintPost(postId, '', postText + postText2 + postText3, postTag, postTime, '', rightFooter);
+printPost += fuPrintPost(postId, '', postText + ' ' + postUrl + postText2 + postText3, postTag, postTime, '', rightFooter);
 }
-//printPost += '<div class="">' + fuPrintPost(postId, '', postText, postTag, postTime, '', rightFooter) + '</div>';
+//printPost += '<div class="">' + fuPrintPost(postId, '', postText + ' ' + postUrl, postTag, postTime, '', rightFooter) + '</div>';
 i++;
 getP = key;
 comMessagePrint = 'id: ' + postId + ', p2: ' + getP2;
@@ -727,15 +732,15 @@ if (postText3 != ''){ postText3 = `
 
 ` + postText3; };
 if (display == "blog"){
-printPost += fuPrintPost(postId, postText, postText2 + postText3, postTag, postTime, "", rightFooter);
+printPost += fuPrintPost(postId, postText, postUrl + postText2 + postText3, postTag, postTime, "", rightFooter);
 } else {
-printPost += fuPrintPost(postId, '', postText + postText2 + postText3, postTag, postTime, "", rightFooter);
+printPost += fuPrintPost(postId, '', postText + ' ' + postUrl + postText2 + postText3, postTag, postTime, "", rightFooter);
 }
 } else {
 if (display == "blog"){
-printPost += fuPrintPost(postId, postText, postText, postTag, postTime, "", rightFooter);
+printPost += fuPrintPost(postId, postText, postText + ' ' + postUrl, postTag, postTime, "", rightFooter);
 } else {
-printPost += fuPrintPost(postId, '', postText, postTag, postTime, "", rightFooter);
+printPost += fuPrintPost(postId, '', postText + ' ' + postUrl, postTag, postTime, "", rightFooter);
 }
 }
 i++;
@@ -794,9 +799,9 @@ if (item['url'] != null){ postUrl = item['url']; }
 if (item['time'] != null){ postTime = item['time']; }
 if (item['rightFooter'] != null){ rightFooter = item['rightFooter']; }
 
-postText = (postText + ' ' + postUrl).trim();
+postText = postText.trim();
 
-qData = String(postText + ' ' + postText2 + ' ' + postText3 + ' ' + postTag).toLowerCase();
+qData = String(postText + ' ' + postUrl + ' ' + postText2 + ' ' + postText3 + ' ' + postTag).toLowerCase();
 
 
 let checkFound = 0;
@@ -833,7 +838,7 @@ window.location.href = window.location.href + '#StopRedirect';
 
 if (getP3 <= i){
 if (i3 <= postLimit - 1){
-//printPost += fuPrintPost(postId, '', postText, postTag, postTime, subQforLight, rightFooter, rightFooter);
+//printPost += fuPrintPost(postId, '', postText + ' ' + postUrl, postTag, postTime, subQforLight, rightFooter, rightFooter);
 if (display == "all"||mode == "search"){
 
 if (postText2 != ''){ postText2 = `
@@ -842,9 +847,9 @@ if (postText2 != ''){ postText2 = `
 if (postText3 != ''){ postText3 = `
 
 ` + postText3; };
-printPost += fuPrintPost(postId, '', postText + postText2 + postText3, postTag, postTime, subQforLight, rightFooter);
+printPost += fuPrintPost(postId, '', postText + ' ' + postUrl + postText2 + postText3, postTag, postTime, subQforLight, rightFooter);
 } else {
-printPost += fuPrintPost(postId, '', postText, postTag, postTime, subQforLight, rightFooter);
+printPost += fuPrintPost(postId, '', postText + ' ' + postUrl, postTag, postTime, subQforLight, rightFooter);
 }
 }
 i3++;
@@ -918,9 +923,9 @@ if (item['url'] != null){ postUrl = item['url']; }
 if (item['time'] != null){ postTime = item['time']; }
 if (item['rightFooter'] != null){ rightFooter = item['rightFooter']; }
 
-postText = (postText + ' ' + postUrl).trim();
+postText = postText.trim();
 
-let qData = String(postText + ' ' + postText2 + ' ' + postText3 + ' ' + postTag + ' ').toLowerCase();
+let qData = String(postText + ' ' + postUrl + ' ' + postText2 + ' ' + postText3 + ' ' + postTag + ' ').toLowerCase();
 
 qData = (qData + ' ').split(' ');
 
@@ -968,11 +973,11 @@ if (postText2 != ''){ postText2 = `
 if (postText3 != ''){ postText3 = `
 
 ` + postText3; };
-printPost += fuPrintPost(postId, '', postText + postText2 + postText3, postTag, postTime, subQforLight, rightFooter);
+printPost += fuPrintPost(postId, '', postText + ' ' + postUrl + postText2 + postText3, postTag, postTime, subQforLight, rightFooter);
 } else {
-printPost += fuPrintPost(postId, '', postText, postTag, postTime, subQforLight, rightFooter);
+printPost += fuPrintPost(postId, '', postText + ' ' + postUrl, postTag, postTime, subQforLight, rightFooter);
 }
-//printPost += fuPrintPost(postId, '', postText, postTag, postTime, subQforLight, rightFooter);
+//printPost += fuPrintPost(postId, '', postText + ' ' + postUrl, postTag, postTime, subQforLight, rightFooter);
 }
 i3++;
 }

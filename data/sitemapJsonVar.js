@@ -49,9 +49,9 @@ var sitemapJsonVar = [
         "time": "id"
     },
     {
-        "text": "Average number\n\nAfter entering the numbers, the result will be the average value | average number: ",
+        "text": "Average number\n\nAfter entering the numbers, the result will be the average value. Average calculator. | average number: ",
         "url": "\/projects\/average-number-40\/index.html",
-        "tag": " #Experimental #average #number #tool #JavaScript #project",
+        "tag": " #Experimental #average #number #calculator #count #tool #JavaScript #project",
         "id": "fc61833ea57d16d081bc11c60aa84b1e",
         "time": "id"
     },
@@ -189,9 +189,9 @@ var sitemapJsonVar = [
         "time": "id"
     },
     {
-        "text": "Count Symbol\n\nA very simple counter of letters or symbols in the text. Additionally, a word counter has been added. | count symbol: ",
+        "text": "Count Symbol\n\nA very simple counter of letters or symbols in the text. Additionally, a word counter has been added. Word calculator. | count symbol: ",
         "url": "\/projects\/count-symbol-39\/index.html",
-        "tag": " #symbol #counter #tool #symbol #word #symbols #words #JavaScript #project",
+        "tag": " #symbol #counter #count #calculator #tool #symbol #word #symbols #words #JavaScript #project",
         "id": "c13ebf133b3b7e9dfe7288b2cc9b457c",
         "time": "id"
     },
@@ -203,9 +203,9 @@ var sitemapJsonVar = [
         "time": "id"
     },
     {
-        "text": "Dice Game\n\nGame dice. | dice: ",
+        "text": "Dice Game\n\nGame dice. Roll a dice. Dice roller. Online dice. | dice: ",
         "url": "\/games\/dice-9\/index.html",
-        "tag": " #game #dice #HTML5 #CSS #JavaScript #project",
+        "tag": " #game #dice #HTML5 #roll #roller #CSS #JavaScript #project",
         "id": "850ca844bccc19aa09438d619db386a4",
         "time": "id"
     },
@@ -385,7 +385,7 @@ var sitemapJsonVar = [
         "time": "id"
     },
     {
-        "text": "Movie List\n\nSmall list of movies, just a link to another movie database service, at the top there is a random movie from the list. JavaScript function for parse WATCHLIST.csv from IMDB. | movie list: ",
+        "text": "Movie List\n\nSmall list of movies, just a link to another movie database service, at the top there is a random movie from the list. JavaScript function for parse watchlist.csv from The Movie Database (TMDB). | movie list: ",
         "url": "\/projects\/movie-list-19\/index.html",
         "tag": " #movie #list #collection #random #JavaScript #project",
         "id": "9f9aa90c240343f41e7ca461cc59d82e",
@@ -938,9 +938,9 @@ var sitemapJsonVar = [
         "time": "id"
     },
     {
-        "text": "Tic Tac Toe\n\nGame tic-tac-toe. | tic tac toe: ",
+        "text": "Tic Tac Toe\n\nTic tac toe gamge. Tic-tac-toe game. | tic tac toe: ",
         "url": "\/games\/tic-tac-toe-13\/index.html",
-        "tag": " #game #tic #tac #toe #HTML5 #CSS #JavaScript #project",
+        "tag": " #game #tic #tac #toe #HTML5 #tictactoe #CSS #JavaScript #project",
         "id": "a75ac875b4b178900bf07967ba4521bf",
         "time": "id"
     },
@@ -959,16 +959,16 @@ var sitemapJsonVar = [
         "time": "id"
     },
     {
-        "text": "Typing speed\n\n\u00b7 A typing speed test, typing speed game or keyboard trainer.\r\n\u00b7 You need to beat your previous WPM (words per minute).\r\n\u00b7 Modes: quotes, book, own text input. | typing speed: ",
+        "text": "Typing speed\n\n\u00b7 A typing speed test, typing speed game or keyboard trainer. Typing test.\r\n\u00b7 Modes: quotes, book, wiki, own text input. | typing speed: ",
         "url": "\/games\/typing-speed-14\/index.html",
-        "tag": " #tool #game #typing #speed #trainer #WPM #CSS #JavaScript #project",
+        "tag": " #test #tool #game #typing #speed #trainer #WPM #CSS #JavaScript #project",
         "id": "0b91b83acdf8371274a96c1cafb81efd",
         "time": "id"
     },
     {
-        "text": "Typing speed with the keyboard\n\nTyping speed with the keyboard. 10-Finger Typing Trainer. WPM. | typing speed keyborad: ",
+        "text": "Typing speed with the keyboard\n\nTyping speed with the keyboard. 10-Finger Typing Trainer. WPM. Typing test. | typing speed keyborad: ",
         "url": "\/games\/typing-speed-keyborad-70\/index.html",
-        "tag": " #typing #speed #10 #finger #trainer #WPM #CSS #JavaScript #project",
+        "tag": " #typing #speed #10 #finger #trainer #WPM #test #tool #CSS #JavaScript #project",
         "id": "baae59c58aff06893032c75688021435",
         "time": "id"
     },
@@ -1026,6 +1026,13 @@ var sitemapJsonVar = [
         "url": "\/pages\/website-directory\/index.html",
         "tag": " #website #directory #websites #links #collection #page #main",
         "id": "4d3e605194f6d6f045890bfd09bd4652",
+        "time": "id"
+    },
+    {
+        "text": "Wiki\n\nMini Wikipedia. Collection of articles. Some of the articles with their short article text and with links to the original for a more detailed review. | wiki: ",
+        "url": "\/pages\/wiki\/index.html",
+        "tag": " #wiki #Wikipedia #articles #text #short #collection #page #main",
+        "id": "75b3093f5540118ccc22804895c408e7",
         "time": "id"
     },
     {
