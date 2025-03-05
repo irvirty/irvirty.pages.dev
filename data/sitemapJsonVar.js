@@ -371,10 +371,10 @@ var sitemapJsonVar = [
         "time": "id"
     },
     {
-        "text": "Mini wiki\n\nMini Wikipedia. Collection of articles. Some of the articles with their short article text and with links to the original for a more detailed review. | mini wiki: ",
-        "url": "\/pages\/mini-wiki\/index.html",
+        "text": "Mimi wikipedia\n\nMini Wikipedia. Collection of articles. Some of the articles with their short article text and with links to the original for a more detailed review. | wiki: ",
+        "url": "\/pages\/wiki\/index.html",
         "tag": " #wiki #Wikipedia #articles #text #short #collection #page #main",
-        "id": "b454d33857568606f0adfa8c96125438",
+        "id": "75b3093f5540118ccc22804895c408e7",
         "time": "id"
     },
     {

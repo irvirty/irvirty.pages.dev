@@ -124,8 +124,6 @@ var jsonVar =
     {
         "id": 251,
         "text": "test2 text2",
-        "text2": "test2 text2",
-        "text3": "test3 text3",
         "url": "https:\/\/example.com",
         "tag": "#test2 #tag",
         "time": 1671480576,
@@ -134,8 +132,6 @@ var jsonVar =
     {
         "id": 250,
         "text": "test text",
-        "text2": "test2 text2",
-        "text3": "test3 text3",
         "url": "https:\/\/example.com",
         "tag": "#test #tag",
         "time": 1668444918,

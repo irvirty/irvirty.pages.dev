@@ -1,5 +1,5 @@
-// Typing Speed Test (WPM) or Typing Speed Game v.3.24.0
-// Note: ignore some modes. These modes work only on localhost and have a POST request.
+// Typing Speed Test (WPM) or Typing Speed Game v.3.24.1
+// Note: ignore some modes (i2). These modes work only on localhost, have a POST request, and serve to translate the text.
 
 const wmpAverageLimit = 30;
 const wordLengthLimit = 5.1;
@@ -463,7 +463,6 @@ text = letters.join("");
 
 //console.log(letters);
 var a = {
-"[":"", "]":"",
 "„":'"',
 "´":"'",
 "ˈ":"'", "ː":":",

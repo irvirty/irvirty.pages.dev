@@ -1,4 +1,4 @@
-// Search redirects v.2.8.16
+// Search redirects v.2.8.17
 // Search query + command
 
 // conf
@@ -330,7 +330,7 @@ q = q3.replace(qCom, '');
 q = q.trim();
 q = encodeURIComponent(q);
 urlList = [
-"https://www.reddit.com/search/?q=" + q + "&type=posts&sort=hot",
+"https://www.reddit.com/search/?q=" + q + "&type=posts&sort=new",
 ];
 if (q == ''){
 urlList = [
@@ -981,14 +981,16 @@ q = q3.replace(qCom, '');
 q = q.trim();
 q = encodeURIComponent(q);
 urlList = [
-"https://bsky.app/search?q=" + q,
+"https://www.reddit.com/search/?q=" + q + "&type=posts&sort=new",
 "https://www.tumblr.com/search/" + q,
+"https://bsky.app/search?q=" + q,
 //"https://www.tumblr.com/search/" + q + "?postTypes=chat%2Clink%2Cquote%2Ctext%2Cpoll%2Cask",
 ];
 if (q == ''){
 urlList = [
-"https://bsky.app/",
+"https://www.reddit.com/",
 "https://www.tumblr.com/",
+"https://bsky.app/",
 ];
 }
 random = urlList[fuMRandom(0, urlList.length - 1)];

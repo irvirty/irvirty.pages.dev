@@ -482,21 +482,23 @@ return (text).fuzzy(q);
 <!-- // nav2 -->
 </noscript>
 <!-- tags -->
-<div class="wrapper2">
+<div class="wrapper3">
 <div class="tCenter">
 
 <div class="bold padding medium">
-<a class="op brand" href="/projects/redirects-25/?q=s">Social Networks Explore (random):</a>
+<a class="op brand" href="/projects/redirects-25/?q=s" title="Social Networks Explore (random)">Social Networks Explore:</a>
 </div>
 
 <div class="padding"></div>
 
-<div class="wrapper2 balance small">
+<div class="wrapper3">
 
-<div id="printTags" class="pre"></div>
+<div id="printTags" class="balance small"></div>
 <hr>
-<div id="printMode" class="tRight"></div>
-<span id="tagListEditForm"></span>
+<div class="wrapper">
+<div class="tRight"><span class="op gray">mode:</span>  <span id="printMode"></span><div>
+<div id="tagListEditForm"></div>
+</div>
 
 </div>
 
@@ -708,13 +710,13 @@ Science Education Internet Technology Programming
 `;
 }
 
-//let arr = fuMSplit(tagList);
-let tagList2 = tagList.replaceAll(`
+let arr = fuMSplit(tagList);
+/*let tagList2 = tagList.replaceAll(`
 `, `SYMBOLFORSPLIT
 SYMBOLFORSPLIT`);
 tagList2 = tagList2.replaceAll(',', ',SYMBOLFORSPLIT');
 tagList2 = tagList2.replaceAll(' ', 'SYMBOLFORSPLIT');
-let arr = tagList2.split("SYMBOLFORSPLIT");
+let arr = tagList2.split("SYMBOLFORSPLIT");*/
 
 
 let tagListPrint = "";
@@ -732,14 +734,16 @@ case 'keywords':
 tagListPrint += `<a class="inlineBlock padding op ` + color + `" href="/projects/redirects-25/?q=` + printTagUrl + ` s">` + val + `</a>`;
 break;
 
-case 'static':
-tagListPrint += `<a class="inlineBlock padding op ` + color + `" href="/projects/google-programmable-search-49/?mode=staticnotstorage&q=` + printTagUrl +`">` + val + `</a>`;
+case 'news':
+tagListPrint += `<a class="inlineBlock padding op ` + color + `" href="/?q=` + printTagUrl +` n">` + val + `</a>`;
 break;
 
 case 'search':
-//tagListPrint += `<a class="inlineBlock padding op ` + color + `" href="/projects/redirects-25/?q=` + printTagUrl +` rse">` + val + `</a>`;
-//tagListPrint += `<a class="inlineBlock padding op ` + color + `" href="/projects/google-programmable-search-49/?q=` + printTagUrl +`">` + val + `</a>`;
 tagListPrint += `<a class="inlineBlock padding op ` + color + `" href="/?q=` + printTagUrl +` rse">` + val + `</a>`;
+break;
+
+case 'search2':
+tagListPrint += `<a class="inlineBlock padding op ` + color + `" href="/projects/google-programmable-search-49/?q=` + printTagUrl +`">` + val + `</a>`;
 break;
 
 case 'edit':
@@ -752,7 +756,7 @@ tagListPrint += `<a class="inlineBlock padding op ` + color + `" href="/projects
 }
 
 } else {
-tagListPrint += val;
+//tagListPrint += val;
 }
 });
 
@@ -768,14 +772,14 @@ tagListCloud("");
 function modeSwitch(mode, tagList){
 
 let tagModePrint = "";
-let tagsModeList = `hashtags keywords search`;
+let tagsModeList = `hashtags keywords news search search2`;
 
 let arr = fuMSplit(tagsModeList);
 let tagListPrint = `<span class="op">mode:</span>`;
 arr.forEach((val, index) => {
 if (mode == val){
 tagModePrint += `
-<a class="inlineBlock padding op active" href="#" onclick="tagListCloud('` + val +`'); return false;">` + val +`</a>
+<a class="inlineBlock padding op active2" href="#" onclick="tagListCloud('` + val +`'); return false;">` + val +`</a>
 `;
 } else {
 tagModePrint += `
