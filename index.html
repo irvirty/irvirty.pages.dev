@@ -687,10 +687,10 @@ dateArr = dateArr.slice(-500);
 
 //window.addEventListener('load', function() {});
 
-
 function tagListCloud(mode){
 
 let tagModePrint = "";
+
 if (mode == undefined||mode == ""){
 mode = localStorage.getItem("tagModeData");
 } else if (mode != "edit"){
@@ -698,6 +698,8 @@ localStorage.setItem("tagModeData", mode);
 }
 
 if (mode == null){ mode = "hashtags"; }
+
+let tagListSortConf = localStorage.getItem("tagListSortConf");
 
 let tagListColor = `red orange yellow green blue indigo violet`;
 
@@ -711,6 +713,11 @@ Science Education Internet Technology Programming
 }
 
 let arr = fuMSplit(tagList);
+
+if (tagListSortConf == "sort"){
+arr = fuMSort(arr, "", "arr");
+}
+
 /*let tagList2 = tagList.replaceAll(`
 `, `SYMBOLFORSPLIT
 SYMBOLFORSPLIT`);
@@ -762,14 +769,20 @@ tagListPrint += `<a class="inlineBlock padding op ` + color + `" href="/projects
 
 document.getElementById("printTags").innerHTML = tagListPrint;
 
-modeSwitch(mode, tagList);
+modeSwitch(mode, tagList, tagListSortConf);
 
 }
 
 tagListCloud("");
 
 
-function modeSwitch(mode, tagList){
+function tagListSortConfSet(item){
+localStorage.setItem("tagListSortConf", item);
+tagListCloud("");
+}
+
+
+function modeSwitch(mode, tagList, tagListSortConf){
 
 let tagModePrint = "";
 let tagsModeList = `hashtags keywords news search search2`;
@@ -788,6 +801,19 @@ tagModePrint += `
 }
 });
 
+
+if (tagListSortConf == "sort"){
+tagModePrint += `
+<span class="op gray">/</span>
+<a class="inlineBlock padding op gray" title="Close" href="#" onclick="tagListSortConfSet('unsort'); return false;">unsort</a>
+`;
+} else {
+tagModePrint += `
+<span class="op gray">/</span>
+<a class="inlineBlock padding op brand" href="#" onclick="tagListSortConfSet('sort'); return false;">sort</a>
+`;
+}
+
 if (mode == "edit"){
 tagModePrint += `
 <span class="op gray">/</span>
@@ -799,6 +825,7 @@ tagModePrint += `
 <a class="inlineBlock padding op brand" href="#" onclick="tagListCloud('edit'); return false;">edit</a>
 `;
 }
+
 document.getElementById("printMode").innerHTML = tagModePrint;
 
 if (mode == "edit"){

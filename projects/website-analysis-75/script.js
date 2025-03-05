@@ -1,4 +1,4 @@
-// v.1.0.0
+// v.1.1.0
 
 let print = ``;
 
@@ -19,6 +19,16 @@ if (q != null&&q != ""){
 document.getElementById("q").value = q;
 analysis(q);
 analysis2(q);
+
+localStorage.setItem("websiteAnalysisQ", q);
+document.getElementById("lastAnalyzed").innerHTML = `
+<a class="brand" href="?q=${q}">${q}</a>
+`;
+} else if(localStorage.getItem("websiteAnalysisQ") != null&&localStorage.getItem("websiteAnalysisQ") != ""){
+q = localStorage.getItem("websiteAnalysisQ");
+document.getElementById("lastAnalyzed").innerHTML = `
+<a class="brand" href="?q=${q}">${q}</a>
+`;
 }
 
 analysis3();
