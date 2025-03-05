@@ -260,13 +260,31 @@ q2 = "l";
 break;
 
 case 'q#':
-case 'qq#':
 q = q3.replace(qCom, '');
 q = q.trim();
 //q = encodeURIComponent(q);
 window.location.href = "/?q=" + q;
 window.location.href = window.location.href + '#StopRedirect'; 
 break;
+
+
+case 'q#':
+q = q3.replace(qCom, '');
+q = q.trim();
+//q = encodeURIComponent(q);
+window.location.href = "/?q=" + q;
+window.location.href = window.location.href + '#StopRedirect'; 
+break;
+
+
+case 'qs#':
+q = q3.replace(qCom, '');
+q = q.trim();
+//q = encodeURIComponent(q);
+window.location.href = "/search/?q=" + q;
+window.location.href = window.location.href + '#StopRedirect'; 
+break;
+
 
 case 'ps#':
 case 'gg#':
@@ -280,14 +298,6 @@ window.location.href = "/projects/google-programmable-search-49/index.html?q=" +
 window.location.href = window.location.href + '#StopRedirect'; 
 break;
 
-/*delme
-case 'r#':
-q = q3.replace(qCom, '');
-q = q.trim();
-//q = encodeURIComponent(q);
-//q = null;
-mode = 'random';
-break;*/
 
 case 'r#':
 case 'rr#':
