@@ -28,7 +28,7 @@ var sitemapJsonVar = [
         "time": "id"
     },
     {
-        "text": "All\n\nA place where all the main pages of the site are collected for quick access. This is a variant of the site's start menu. | all: ",
+        "text": "All\n\nThis place is where almost all pages of the site are collected on one page for quick access. It's like the start menu in the operating system but for the site. | all: ",
         "url": "\/all\/index.html",
         "tag": " #start #menu #pages #search #all #page #main",
         "id": "17f3f714a610177f12e0f64d03cd9fac",
