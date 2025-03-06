@@ -3,6 +3,16 @@ var notesJsonVar =
 
 [
     {
+        "id": "91",
+        "text": "How do I create multiline comments in Python? - Stack Overflow",
+        "text2": "'''\r\nThis is a multiline\r\ncomment.\r\n'''",
+        "text3": "",
+        "url": "https:\/\/stackoverflow.com\/questions\/7696924\/how-do-i-create-multiline-comments-in-python",
+        "tag": "#Python",
+        "time": 1741198245,
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/notes\/?id=91\">id<\/a>"
+    },
+    {
         "id": "90",
         "text": "String.prototype.split() - JavaScript | MDN",
         "text2": "===\r\nconst str = \"The quick brown fox jumps over the lazy dog.\";\r\n\r\nconst words = str.split(\" \");\r\nconsole.log(words[3]);\r\n\/\/ Expected output: \"fox\"\r\n\r\nconst chars = str.split(\"\");\r\nconsole.log(chars[8]);\r\n\/\/ Expected output: \"k\"\r\n\r\nconst strCopy = str.split();\r\nconsole.log(strCopy);\r\n\/\/ Expected output: Array [\"The quick brown fox jumps over the lazy dog.\"]",

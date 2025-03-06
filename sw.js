@@ -1,5 +1,5 @@
 
-//var myCacheVersion = "v.1.2.2025.03.05";
+//var myCacheVersion = "v.1.2.2025.03.06";
 
 
 
@@ -70,7 +70,7 @@ function swJsInstallFiles(){
 //https://stackoverflow.com/questions/66529102/uncaught-in-promise-typeerror-failed-to-execute-cache-on-addall-request
 //https://github.com/mdn/pwa-examples
 self.addEventListener('install', (e) => {
-e.waitUntil(caches.open("v.1.2.2025.03.05").then((cache) => cache.addAll(fileListArrFound)),);
+e.waitUntil(caches.open("v.1.2.2025.03.06").then((cache) => cache.addAll(fileListArrFound)),);
 });*/
 
 
@@ -510,8 +510,8 @@ var fileListArr = ["/404.html",
 "/pages/art/2024/winter-pixels-gimp-19.png",
 "/pages/art/2025/landscape-gimp-25.png",
 "/pages/art/2025/",
-"/pages/art/2025/tpl-gimp-26.png",
 "/pages/art/index.html",
+"/pages/art/tpl-gimp-0.png",
 "/pages/articles/index.html",
 "/pages/articles/",
 "/pages/chrome-extensions/badge-count-up-timer-4/auto.css",
@@ -842,49 +842,27 @@ var fileListArr = ["/404.html",
 "/pages/images/2024/ai-assistant-inkscape-62.png",
 "/pages/images/",
 "/pages/images/2024/",
-"/pages/images/2024/app-icon-64.png",
 "/pages/images/2024/art-krita-28.png",
 "/pages/images/2024/ava-woman-laptop-ava-inkscape-12.svg",
 "/pages/images/2024/ava-woman-laptop-inkscap-30.svg",
 "/pages/images/2024/barbie-time-inkscape-10.svg",
 "/pages/images/2024/bg-black-krita-39.png",
 "/pages/images/2024/bg-white-krita-38.png",
-"/pages/images/2024/binary-text-desktop-wallpaper-dark-inkscape-26.png",
-"/pages/images/2024/binary-text-desktop-wallpaper-light-inkscape-25.png",
-"/pages/images/2024/binary-text-mobile-wallpaper-dark-inkscape-23.png",
-"/pages/images/2024/binary-text-mobile-wallpaper-light-inkscape-24.png",
 "/pages/images/2024/building-krita-1.png",
 "/pages/images/2024/circle-dark-wallpaper-desktop-16.jpg",
-"/pages/images/2024/circle-light-wallpaper-desktop-15.jpg",
-"/pages/images/2024/circle-olive-wallpaper-desktop-14.jpg",
 "/pages/images/2024/css-logo-inkscape-66.svg",
 "/pages/images/2024/css-logo-inkscape-67.png",
 "/pages/images/2024/day-night-inkscap-56.svg",
 "/pages/images/2024/day-night-inkscape-45.png",
 "/pages/images/2024/editor-code-light-dark-mode-27.gif",
-"/pages/images/2024/hello-world-big-black-wallpaper-inkscape-55.png",
-"/pages/images/2024/hello-world-big-dark-wallpaper-inkscape-50.svg",
-"/pages/images/2024/hello-world-big-dark-wallpaper-inkscape-51.png",
-"/pages/images/2024/hello-world-big-light-wallpaper-inkscape-52.svg",
-"/pages/images/2024/hello-world-big-light-wallpaper-inkscape-53.png",
-"/pages/images/2024/hello-world-big-white-wallpaper-inkscape-54.png",
-"/pages/images/2024/hello-world-binary-black-wallpaper-inkscape-48.png",
-"/pages/images/2024/hello-world-binary-dark-wallpaper-inkscape-46.svg",
-"/pages/images/2024/hello-world-binary-light-wallpaper-inkscape-47.svg",
-"/pages/images/2024/hello-world-binary-text-dark-wallpaper--inkscape-42.png",
-"/pages/images/2024/hello-world-binary-text-light-wallpaper-binary-inkscape-43.png",
-"/pages/images/2024/hello-world-binary-white-wallpaper-inkscape-49.png",
 "/pages/images/2024/html-css-js-javascript-inkscape-72.svg",
 "/pages/images/2024/html-css-js-javascript-inkscape-73.png",
 "/pages/images/2024/html-logo-inkscape-68.svg",
 "/pages/images/2024/html-logo-inkscape-69.png",
+"/pages/images/2024/icon-app-64.png",
 "/pages/images/2024/js-logo-inkscape-70.svg",
 "/pages/images/2024/js-logo-inkscape-71.png",
-"/pages/images/2024/landscape-dark-blue-wallpaper-desktop-inkscape-20.jpg",
-"/pages/images/2024/landscape-dark-blue-wallpaper-mobile-inkscape-21.jpg",
 "/pages/images/2024/landscape-inkscape-2.svg",
-"/pages/images/2024/landscape-light-blue-wallpaper-desktop-inkscape-19.jpg",
-"/pages/images/2024/landscape-light-blue-wallpaper-mobile-inkscape-22.jpg",
 "/pages/images/2024/logo-circle-oval-inkscap-40.svg",
 "/pages/images/2024/logo-circle-oval-inkscape-41.png",
 "/pages/images/2024/logo-diamond-inkscape-34.png",
@@ -906,11 +884,35 @@ var fileListArr = ["/404.html",
 "/pages/images/2024/test-inkscape-57.svg",
 "/pages/images/2024/test-inkscape-58.png",
 "/pages/images/2024/transparent-background-inkscape-29.png",
-"/pages/images/2024/triangle-dark-wallpaper-desktop-17.jpg",
 "/pages/images/2024/triangle-light-wallpaper-desktop-18.jpg",
+"/pages/images/2024/wallpaper-desktop-binary-text-dark-inkscape-26.png",
+"/pages/images/2024/wallpaper-desktop-binary-text-light-inkscape-25.png",
+"/pages/images/2024/wallpaper-desktop-circle-light-15.jpg",
+"/pages/images/2024/wallpaper-desktop-circle-olive-14.jpg",
+"/pages/images/2024/wallpaper-desktop-landscape-dark-blue-inkscape-20.jpg",
+"/pages/images/2024/wallpaper-desktop-landscape-light-blue-inkscape-19.jpg",
+"/pages/images/2024/wallpaper-desktop-triangle-dark-17.jpg",
+"/pages/images/2024/wallpaper-hello-world-big-black-inkscape-55.png",
+"/pages/images/2024/wallpaper-hello-world-big-dark-inkscape-50.svg",
+"/pages/images/2024/wallpaper-hello-world-big-dark-inkscape-51.png",
+"/pages/images/2024/wallpaper-hello-world-big-light-inkscape-52.svg",
+"/pages/images/2024/wallpaper-hello-world-big-light-inkscape-53.png",
+"/pages/images/2024/wallpaper-hello-world-big-white-inkscape-54.png",
+"/pages/images/2024/wallpaper-hello-world-binary-black-inkscape-48.png",
+"/pages/images/2024/wallpaper-hello-world-binary-dark-inkscape-46.svg",
+"/pages/images/2024/wallpaper-hello-world-binary-light-inkscape-47.svg",
+"/pages/images/2024/wallpaper-hello-world-binary-text-dark-inkscape-42.png",
+"/pages/images/2024/wallpaper-hello-world-binary-text-light-inkscape-43.png",
+"/pages/images/2024/wallpaper-hello-world-binary-white-inkscape-49.png",
+"/pages/images/2024/wallpaper-mobile-binary-text-dark-inkscape-23.png",
+"/pages/images/2024/wallpaper-mobile-binary-text-light-inkscape-24.png",
+"/pages/images/2024/wallpaper-mobile-landscape-dark-blue-inkscape-21.jpg",
+"/pages/images/2024/wallpaper-mobile-landscape-light-blue-inkscape-22.jpg",
 "/pages/images/2024/web-design-trend-svg-inkscap-11.svg",
 "/pages/images/2024/website-inkscape-59.svg",
 "/pages/images/2024/website-inkscape-60.png",
+"/pages/images/2025/wallpaper-desktop-abstract-geometric-pixels-grunge-gimp-74.png",
+"/pages/images/2025/",
 "/pages/images/index.html",
 "/pages/index.html",
 "/pages/install/index.html",
@@ -1395,7 +1397,7 @@ if (res.ok) {
 // file is present at URL
 console.log('try cache.add ' + file);
 //https://web.dev/learn/pwa/caching/
-caches.open("v.1.2.2025.03.05")
+caches.open("v.1.2.2025.03.06")
 .then(cache => {
 cache.add(file); // it stores only one resource
 //  cache.addAll(["styles.css", "app.js"]); // it stores two resources
@@ -1421,7 +1423,7 @@ if (res.ok) {
 // file is present at URL
 console.log('try cache.add ' + newFile);
 //https://web.dev/learn/pwa/caching/
-caches.open("v.1.2.2025.03.05")
+caches.open("v.1.2.2025.03.06")
 .then(cache => {
 cache.add(newFile); // it stores only one resource
 //  cache.addAll(["styles.css", "app.js"]); // it stores two resources
@@ -1454,7 +1456,7 @@ console.log('404 not found ' + newFile);
 // rm old cache
 //https://developer.mozilla.org/en-US/docs/Web/API/CacheStorage/delete
 this.addEventListener("activate", (event) => {
-  const cachesToKeep = ["v.1.2.2025.03.05"];
+  const cachesToKeep = ["v.1.2.2025.03.06"];
 
   event.waitUntil(
     caches.keys().then((keyList) =>

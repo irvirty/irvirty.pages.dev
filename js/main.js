@@ -1,4 +1,4 @@
-// Main js v.6.17.5
+// Main js v.6.17.6
 // For second navigation, footer, themes, etc
 
 // Settings, config
@@ -181,9 +181,9 @@ document.querySelector(selector).insertAdjacentHTML('beforeend', text);
 conf["confMenuItems"] = [
 {"url":"/start-menu/", "title":"Start menu", "text":"∷ Start menu", "class":""},
 {"url":"/pages/", "title":"Pages", "text":"Pages", "class":""},
+{"url":"/games/", "title":"Games", "text":"Games", "class":""},
 {"url":"/projects/", "title":"Projects", "text":"Projects", "class":""},
 {"url":"/mini-projects/", "title":"Mini Projects", "text":"Mini Projects", "class":""},
-{"url":"/games/", "title":"Games", "text":"Games", "class":""},
 ];
 
 conf["confMenuItems2"] = '';
@@ -455,13 +455,9 @@ fuMInsertHtml("#footer", 'beforeend', `
 <a id="fPrivacy" class="brand inlineBlock padding" title="Cookie Settings" href="/pages/settings/#confDataCollection">Cookie: ${conf["confDataCollection"]}</a>
 <a class="brand inlineBlock padding" title="Source code (repository)" href="https://github.com/${conf["confUsername"]}/${conf["confWebsiteUrl"]}">Source Code</a>
 <a class="brand inlineBlock padding" rel="license" title="Main license" href="/pages/about.html#license">License: CC BY-SA 4.0 *</a>
-<span class="gray small padding"><!--2019--->2025</span>
-
-<!--<br>
-<a class="brand inlineBlock padding" href="https://jigsaw.w3.org/css-validator/check/referer">CSS</a>
-<a class="brand inlineBlock padding" href="https://validator.w3.org/check?uri=referer">HTML</a>
-<a class="brand inlineBlock padding" href="https://developer.mozilla.org/docs/Web/JavaScript">JS</a>
-<a class="brand inlineBlock padding" href="https://www.php.net/">PHP</a>-->
+<a class="brand inlineBlock padding" rel="license" title="Support me" href="https://buymeacoffee.com/${conf["confUsername"]}">Buy Me a Coffee</a>
+<span class="op inlineBlock padding gray"><!--2019--->2025</span>
+<br>
 <a class="brand inlineBlock padding" style="padding-right: 0;" title="Hosting Service" href="https://pages.cloudflare.com/">Hosting: Cloudflare Pages</a>
 
 </div>
