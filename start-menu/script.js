@@ -113,7 +113,7 @@ document.getElementById("pagesList").style.display = "block";
 
 let confSymbolForSplit = "SYMBOLFORSPLIT";
 let resultLimit = 30;
-let i = 0;
+let iResult = 0;
 let printPost = "";
 
 /*
@@ -177,13 +177,13 @@ window.location.href = window.location.href + '#StopRedirect';
 // end Luck search
 
 
-if (i <= resultLimit){
+if (iResult <= resultLimit){
 postUrl = fuMHideFileNameExt(postUrl);
 //printPost += fuPrintPost(postId, '', postText, postTag, postTime, rightFooter, rightFooter);
 printPost += `<div class="bgList border3List borderRadius2 padding3">${postText}<br>
 <a class="brand" href="${postUrl}">${postUrl}</a></div>`;
 }
-i++;
+iResult++;
 
 qData = '';
 qCom = "found";
@@ -194,7 +194,7 @@ qCom = "found";
 
 });
 
-if (i == 0){ qCom = "not found"; }
+if (iResult == 0){ qCom = "not found"; }
 
 
 if (qCom != "found"){
@@ -259,13 +259,13 @@ window.location.href = window.location.href + '#StopRedirect';
 // end Luck search
 
 
-if (i <= resultLimit){
+if (iResult <= resultLimit){
 //printPost += fuPrintPost(postId, '', postText, postTag, postTime, rightFooter, rightFooter);
 printPost += `<div class="bgList border3List borderRadius2 padding3">${postText}<br>
 <a class="brand" href="${postUrl}">${postUrl}</a></div>`;
 
 }
-i++;
+iResult++;
 
 qData = '';
 qCom = "found";
@@ -286,7 +286,7 @@ qCom = "found";
 if (qCom != 'found') { printPost = `<div class="bgList border3List borderRadius2 padding3">Probably not found</div>`; }
 // end s2 Search 2
 
-if (i >= 1){
+if (iResult >= 1){
 printPost += `<div class="small op gray bgList border3List borderRadius2 padding3">Result limit: ${resultLimit}</div>`;
 }
 
