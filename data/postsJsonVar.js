@@ -3,16 +3,6 @@ var postsJsonVar =
 
 [
     {
-        "id": "37",
-        "text": "I think the site should be updated once a day to avoid spam. To not be constantly at the top of the latest updates page, like the GitHub Explore page, and sorted by latest updates.",
-        "text2": "",
-        "text3": "",
-        "url": "",
-        "tag": "#update #spam",
-        "time": 1740731342,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/posts\/?id=37\">id<\/a>"
-    },
-    {
         "id": "26",
         "text": "Perhaps writing texts is an additional good practice for language learning. When you begin writing a text, then you start to think and look for words to use; this may refresh your memories of learned words, and you need to look for new words to use when writing a text, blog post, or article and to learn these new words.",
         "text2": "",
