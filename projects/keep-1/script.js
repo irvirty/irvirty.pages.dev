@@ -249,6 +249,7 @@ let qTmpNoPlus = q.replaceAll('%23', '+', ' ');
 var strArray = qTmpNoPlus.split(" ");
 var qCom = strArray[strArray.length - 1] + "#";
 var q3 = q + "#";
+
 switch (qCom) {
 
 case 'l#':

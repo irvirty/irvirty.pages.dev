@@ -34,6 +34,16 @@ break;
 qEncoded = encodeURIComponent(q);
 }
 }
+
+/*
+if (q == ""){
+window.location.href = "/search/";
+window.location.href = window.location.href + '#StopRedirect'; 
+}
+if (q2 == "l"){
+window.location.href = "/search/?q=r";
+window.location.href = window.location.href + '#StopRedirect'; 
+}*/
 // end mini redirect
 
 
