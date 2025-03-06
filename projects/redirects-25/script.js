@@ -1,4 +1,4 @@
-// Search redirects v.2.8.17
+// Search redirects v.2.8.18
 // Search query + command
 
 // conf
@@ -757,6 +757,24 @@ urlList = [
 if (q == ''){
 urlList = [
 "https://trends.google.com/trending?geo=US&hl=en-US",
+];
+}
+random = urlList[fuMRandom(0, urlList.length - 1)];
+url = random;
+sRedirectUrl = url;
+break;
+
+
+case 'fin#':
+q = q3.replace(qCom, '');
+q = q.trim();
+q = encodeURIComponent(q);
+urlList = [
+"/?q=" + q + " stock",
+];
+if (q == ''){
+urlList = [
+"https://www.google.com/finance/",
 ];
 }
 random = urlList[fuMRandom(0, urlList.length - 1)];

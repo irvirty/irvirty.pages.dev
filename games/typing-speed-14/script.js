@@ -1,4 +1,4 @@
-// Typing Speed Test (WPM) or Typing Speed Game v.3.24.1
+// Typing Speed Test (WPM) or Typing Speed Game v.3.24.2
 // Note: ignore some modes (i2). These modes work only on localhost, have a POST request, and serve to translate the text.
 
 const wmpAverageLimit = 30;
@@ -929,7 +929,7 @@ acurancyTotal =  100 - acurancyTotal.toFixed(0);
 
 //document.getElementById("stat").innerHTML = sec + ' | ' + timeAverage.toFixed(2) + ' sec. || ' + error + ' <span class="' + errorColor + '">error</span>';
 document.getElementById("stat").innerHTML = 
-'<div><span>wpm:</span> <span>' + wpm + '</span> (' + wpmRecord + ') || <span title="allowError: ' + allowError + '">error: ≈<span  class="'  + errorColor + '">' + error  +  '</span>/' + totalError +'</span> || acurancy: ≈' + acurancy + '/' + acurancyTotal + '%</div>';
+'<div><span>wpm:</span> <span>' + wpm + '</span> || <span title="allowError: ' + allowError + '">error: ≈<span  class="'  + errorColor + '">' + error  +  '</span>/' + totalError +'</span> || acurancy: ≈' + acurancy + '/' + acurancyTotal + '%</div>';
 
 document.getElementById("statTopWpm").innerHTML = wpm;
 
@@ -1084,8 +1084,11 @@ winMsg = `
 <!--<b class="${printMsgWinColor} padding2">${printMsgWin}</b>-->
 <div class="pre inlineBlock margin2List" style="border-bottom: 5px solid  color-mix(in srgb, var(--${printMsgWinColor}) 25%, transparent);"><h3><span title="word per minute" style="color: var(--c3);">WPM: <span class="orange">${wpm}</span></span> <span title="Difference with the previous">${wpmProgress}</span> ${recordMsg}</h3></div>
 <div></div>
-<span class="normal"><span title="Average words per minute based on the last ${wmpAverageLimit}">average WPM: <span class="orange">${WPMaverage}</span> ${wpmAverageProgress}</span></span><br>
-<span class="normal" title="Current accuracy, total"><span class="medium">accuracy: <span>${acurancyTotal}</span>%</span> ${acurancyProgress}</span>
+<span class="normal"><span title="Average words per minute based on the last ${wmpAverageLimit}">Average WPM: <span class="orange bold">${WPMaverage}</span> ${wpmAverageProgress}</span></span><br>
+<span class="normal" title="Current accuracy, total"><span class="medium">Accuracy: <span>${acurancyTotal}</span>%</span> ${acurancyProgress}</span>
+<div class="padding2"><hr></div>
+<span class="medium">Best WPM: <span class="orange bold">${wpmRecord}</span></span>
+
 <div class="padding2"></div>
 </div>
 </div>
