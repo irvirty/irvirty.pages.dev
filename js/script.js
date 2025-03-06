@@ -103,7 +103,7 @@ allMClassNavUp.forEach((item, index) => {
 //delme if (mNavUpCheckLevel == 2&&mNavUpCheck != "/"||String(window.location.href).indexOf("file://") != -1){}
 
 if (mNavUpCheck == "/"){
-document.getElementsByClassName("mClassNavUp")[index].href = fuMHideFileNameExt("/start-menu/");
+document.getElementsByClassName("mClassNavUp")[index].href = fuMHideFileNameExt("/all/");
 //document.getElementsByClassName("mClassNavUp")[index].text = "Archive (All)";
 }
 
@@ -113,7 +113,7 @@ document.getElementsByClassName("mClassNavUp")[index].href = fuMHideFileNameExt(
 if (mNavUpCheck == "/pages/"||mNavUpCheck == "/other-pages/"){
 document.getElementsByClassName("mClassNavUp")[index].href = fuMHideFileNameExt("../");
 }
-if (String(mNavUpCheck).indexOf("/start-menu/") != -1){
+if (String(mNavUpCheck).indexOf("/all/") != -1){
 document.getElementsByClassName("mClassNavUp")[index].href = fuMHideFileNameExt("/");
 }
 

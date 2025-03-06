@@ -28,6 +28,13 @@ var sitemapJsonVar = [
         "time": "id"
     },
     {
+        "text": "All\n\nA place where all the main pages of the site are collected for quick access. This is a variant of the site's start menu. | all: ",
+        "url": "\/all\/index.html",
+        "tag": " #start #menu #pages #search #all #page #main",
+        "id": "17f3f714a610177f12e0f64d03cd9fac",
+        "time": "id"
+    },
+    {
         "text": "Animated borders button\n\nAnimated borders button. | animated borders button link: ",
         "url": "\/mini-projects\/animated-borders-button-link-5\/index.html",
         "tag": " #animation #button #border #HTML #CSS #project",
@@ -1068,13 +1075,6 @@ var sitemapJsonVar = [
         "url": "\/projects\/transliterate-35\/index.html",
         "tag": " #Experimental #transliteration #text #tool #translit #JavaScript #project",
         "id": "7889d60dd8bd351837bffa8c72de05e9",
-        "time": "id"
-    },
-    {
-        "text": "\u2237 Start menu\n\nSite start menu: quick access to pages. | start menu: ",
-        "url": "\/start-menu\/index.html",
-        "tag": " #start #menu #pages #search #all #page #main",
-        "id": "005ff3f10812b7008c669802fe85c2e5",
         "time": "id"
     }
 ]
