@@ -516,15 +516,6 @@ var quoteJsonVar =
         "rightFooter": ""
     },
     {
-        "text": "When something is important enough, you do it even if the odds are not in your favor. Elon Musk",
-        "text2": "",
-        "text3": "",
-        "url": "https:\/\/www.brainyquote.com\/quotes\/elon_musk_567219",
-        "tag": "#quote",
-        "time": 1662644164,
-        "rightFooter": ""
-    },
-    {
         "text": "When you fail you learn from the mistakes you made and it motivates you to work even harder. Natalie Gulbis",
         "text2": "",
         "text3": "",
