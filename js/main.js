@@ -179,7 +179,7 @@ document.querySelector(selector).insertAdjacentHTML('beforeend', text);
 // for other pages where navigation is poor
 
 conf["confMenuItems"] = [
-{"url":"/all/", "title":"Start menu", "text":"All", "class":""},
+{"url":"/all/", "title":"All pages", "text":"All", "class":""},
 {"url":"/pages/", "title":"Pages", "text":"Pages", "class":""},
 {"url":"/games/", "title":"Games", "text":"Games", "class":""},
 {"url":"/projects/", "title":"Projects", "text":"Projects", "class":""},
