@@ -1685,7 +1685,7 @@ var wordJsonVar =
     {
         "text": "\u043a\u043e\u043d\u0446\u0435\u043d\u0442\u0440\u0430\u0442\u043e\u0440",
         "text2": "hub",
-        "text3": "concentrador"
+        "text3": "centro"
     },
     {
         "text": "\u043a\u043e\u043d\u0446\u0435\u0440\u0442",
