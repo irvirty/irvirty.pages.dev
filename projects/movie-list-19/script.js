@@ -47,12 +47,23 @@ title: `${title33}`,
 data: `<span class="inlineBlock padding1Px">${title33} (${year33})</span><br>`,
 data2: `
 <div class="borderList bgList padding2">
-<span class="tag">${title33} (${year33})</span>
+<div style="
+display: grid;
+grid-template-columns: 1fr 1fr;
+">
+
+<span class="inlineBlock tag tLeft">${title33} (${year33})</span>
+<span>
 <a class="tag brand" target="blank" href="https://www.themoviedb.org/search?query=${title33Go}">TMDB</a>
 <a class="tag brand" target="blank" href="/?q=${title33Go2} Trailer v">Trailer</a>
-<a class="tag brand" target="blank" href="/?q=${title33Go2} Reaction v">Raction</a>
+<a class="tag brand" target="blank" href="/?q=${title33Go2} Reaction v">Reaction</a>
 <a class="tag brand" target="blank" href="/?q=${title33Go2} Review">Review</a>
-</div>`,
+</span>
+
+
+</div>
+</div>
+`,
 });
 
 }
