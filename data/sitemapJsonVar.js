@@ -553,7 +553,7 @@ var sitemapJsonVar = [
         "time": "id"
     },
     {
-        "text": "Random Video\n\nA small collection video, shown randomly. Free public domain movies. | video: ",
+        "text": "Random Video\n\nA small collection video, shown randomly. | video: ",
         "url": "\/projects\/video-18\/index.html",
         "tag": " #video #random #collection #movie #cartoon #embed #JavaScript #project",
         "id": "cf8764f66497b8a627865ab36433767c",

@@ -110,7 +110,7 @@ document.getElementById("pagesList").style.display = "block";
 
 let confSymbolForSplit = "SYMBOLFORSPLIT";
 let resultLimit = 60;
-let iResult = 0;
+let iResult = 1;
 let printPost = "";
 
 /*
