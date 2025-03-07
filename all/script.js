@@ -12,6 +12,7 @@ function fuMHideFileNameExt(text){ return text; };
 }
 
 
+
 // mini redirect
 if (q != null&&q != ''){
 
@@ -35,6 +36,8 @@ qEncoded = encodeURIComponent(q);
 }
 }
 
+if (qCom == undefined){ qCom = ""; }
+
 /*
 if (q == ""){
 window.location.href = "/search/";
@@ -51,6 +54,7 @@ window.location.href = window.location.href + '#StopRedirect';
 
 if (q != null&&q != ""){
 document.getElementById("q").value = q;
+q = q.trim();
 startMenu("result", data, q);
 }
 
@@ -70,7 +74,9 @@ if (document.activeElement.tagName !== "INPUT"){
 document.getElementById("q").focus();
 //document.getElementById("q").value = e.keyCode;
 document.getElementById("q").value = e.key;
-startMenu("result", data, e.key);
+q = e.key;
+q = q.trim();
+startMenu("result", data, q);
 }
 }
 };
@@ -85,12 +91,14 @@ startMenu("result", data, e.key);
 
 //https://developer.mozilla.org/en-US/docs/Web/API/Element/input_event
 //input.addEventListener("input", updateValue);
-document.addEventListener("input", updateValue);
+//ocument.addEventListener("input", updateValue);
+document.getElementById("q").addEventListener("input", updateValue);
 
 function updateValue(e) {
 //log.textContent = e.target.value;
 q2 = "";
 q = e.target.value;
+q = q.trim();
 startMenu("result", data, q);
 }
 
@@ -293,8 +301,6 @@ qCom = "found";
 
 }
 
-
-
 if (qCom != 'found') { printPost = `<div class="bgList border3List borderRadius2 padding3">Probably not found</div>`; }
 // end s2 Search 2
 
@@ -302,7 +308,16 @@ if (iResult >= 1){
 printPost += `<div class="tRight small op gray bgList border3List borderRadius2 padding3">Result limit: ${resultLimit}</div>`;
 }
 
+
 document.getElementById(printId).innerHTML = printPost;
+
+if (q == null|| q == ""){
+document.getElementById(printId).innerHTML = "";
+}
+
+qCom = "";
+iResult = 0;
+printPost = "";
 
 }
 
