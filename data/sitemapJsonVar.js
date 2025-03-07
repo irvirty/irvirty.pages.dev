@@ -413,9 +413,9 @@ var sitemapJsonVar = [
         "time": "id"
     },
     {
-        "text": "Music blog\n\nA music blog or data history page for the music project. | music blog: ",
+        "text": "Music blog\n\nA music blog or data history page for the random music project. | music blog: ",
         "url": "\/projects\/music-blog-72\/index.html",
-        "tag": " #music #blog #JavaScript #project",
+        "tag": " #music #blog #random #JavaScript #project",
         "id": "cb60bb67921c1234811b04b89cd78e10",
         "time": "id"
     },

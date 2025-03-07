@@ -51,7 +51,8 @@ time = minutes + ' min ';
 time = checkTime(Math.floor(seconds))+' sec ';
 }
 
-return time + ' ago';
+//return time + ' ago';
+return time;
 //document.getElementById("time").innerHTML = '&nbsp;'+time+'&nbsp;';
 }
 

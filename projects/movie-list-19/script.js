@@ -36,16 +36,23 @@ function myFunction(item33) {
 
 // title without quote and comma
 var title33 = item33[3];
-var url33 = item33[7];
 var year33 = item33[4].split('-')[0];
 
-
-
+let title33Go = encodeURIComponent(title33);
+let title33Go2 = title33Go + encodeURIComponent(` (` + year33 + `)`);
 
 //get arr for sort
 movieList.push({
 title: `${title33}`,
-data: `<span class="inlineBlock padding1Px">${title33} (${year33})</span><br>`
+data: `<span class="inlineBlock padding1Px">${title33} (${year33})</span><br>`,
+data2: `
+<div class="borderList bgList padding2">
+<span class="tag">${title33} (${year33})</span>
+<a class="tag brand" target="blank" href="https://www.themoviedb.org/search?query=${title33Go}">TMDB</a>
+<a class="tag brand" target="blank" href="/?q=${title33Go2} Trailer v">Trailer</a>
+<a class="tag brand" target="blank" href="/?q=${title33Go2} Reaction v">Raction</a>
+<a class="tag brand" target="blank" href="/?q=${title33Go2} Review">Review</a>
+</div>`,
 });
 
 }
@@ -77,18 +84,25 @@ function myFunction2(item, key) {
 print += item['data'];
 }
 
-randomMovie = movieList[randomMovie]['data'];
-randomMovie2 = movieList[randomMovie2]['data'];
-randomMovie3 = movieList[randomMovie3]['data'];
+randomMovie = movieList[randomMovie]['data2'];
+randomMovie2 = movieList[randomMovie2]['data2'];
+randomMovie3 = movieList[randomMovie3]['data2'];
 print = `
+<div class="borderList bgList padding2">
 <h2 class="block paddingList2">Random:</h2>
+</div>
+
 ${randomMovie}
 ${randomMovie2}
-${randomMovie3}<br>
-<a class="op paddingList2 brand" href="#" onclick="fuMReload()">[ reload ]</a>
+${randomMovie3}
+<div class="borderList bgList padding2">
+<a class="submit button block op brand" href="#" onclick="fuMReload()">[ Reload ]</a>
+</div>
 
+<div class="borderList bgList padding3">
 <h2 class="op paddingList bold">List (total: ${movieList.length}):</h2>
 ${print}
+</div>
 `;
 
 
@@ -98,7 +112,7 @@ echo(printId, print);
 
 function echo(id, text){
 document.getElementById(id).innerHTML = `
-<div class="wrapper">${text}</div>
+${text}
 `;
 }
 
