@@ -206,14 +206,14 @@ color = "";
 
 
 color = "green";
-if (doc.title.length >= 61||doc.title.length <= 29){ color = "red"; }
+if (doc.title.length >= 61||doc.title.length <= 16){ color = "red"; }
 text += `
 <div class="result2">
 <div class="light3 padding2 borderRadius border">title:</div>
 <div class="light3 padding2 borderRadius border">${doc.title}</div>
 <div class="light3 padding2 borderRadius border">
 <div class="${color} bold">${doc.title.length}</div>
-Title length: 30 and 60 characters.
+Title length: min 15-30 and max 60 characters.
 </div>
 </div>
 `;

@@ -59,11 +59,9 @@ startMenu("result", data, q);
 
 
 // autofocus v.1.0.0
-let keyCount = 0;
 //https://stackoverflow.com/questions/16089421/how-do-i-detect-keypresses-in-javascript
 document.onkeypress = function (e) {
 
-if (keyCount <= 0){
 // use e.keyCode
 if (document.getElementById("q") != null){
 //https://stackoverflow.com/questions/30714871/check-if-an-input-field-has-focus-in-vanilla-javascript
@@ -72,10 +70,9 @@ if (document.activeElement.tagName !== "INPUT"){
 document.getElementById("q").focus();
 //document.getElementById("q").value = e.keyCode;
 document.getElementById("q").value = e.key;
+startMenu("result", data, e.key);
 }
 }
-}
-keyCount++;
 };
 
 

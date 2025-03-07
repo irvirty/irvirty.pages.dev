@@ -6,7 +6,7 @@
 
 
 // limit for demo result
-var lLimit = 250;
+var lLimit = 100;
 
 
 var lPrint = [];
@@ -243,7 +243,7 @@ n++;
 
 //https://stackoverflow.com/questions/1960473/get-all-unique-values-in-a-javascript-array-remove-duplicates
 let lPrintUnique = [...new Set(lPrint)];
-lNaturalSort(lPrintUnique);
+//lNaturalSort(lPrintUnique);
 
 //https://stackoverflow.com/questions/12132178/using-join-method-to-convert-array-to-string-without-commas
 document.getElementById("result").innerHTML = lPrintUnique.join(""); 
