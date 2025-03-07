@@ -1,4 +1,4 @@
-// Search redirects v.2.8.18
+// Search redirects v.2.8.19
 // Search query + command
 
 // conf
@@ -1179,14 +1179,40 @@ case 'goo#':
 q = q3.replace(qCom, '');
 q = q.trim();
 q = encodeURIComponent(q);
-url = "https://www.google.com/search?q=" + q;
-if (q == ''){ url = "https://www.google.com/"; }
+urlList = [
+"https://www.google.com/search?q=" + q,
+];
+if (q == ''){
+urlList = [
+"https://www.google.com/",
+];
+}
+random = urlList[fuMRandom(0, urlList.length - 1)];
+url = random;
+sRedirectUrl = url;
+break;
+
+
+case 'gg#':
+case 'gooo#':
+q = q3.replace(qCom, '');
+q = q.trim();
+q = encodeURIComponent(q);
+urlList = [
+"https://www.google.com/search?q="+ q + "&tbs=qdr:d",
+];
+if (q == ''){
+urlList = [
+"https://www.google.com/",
+];
+}
+random = urlList[fuMRandom(0, urlList.length - 1)];
+url = random;
 sRedirectUrl = url;
 break;
 
 
 case 'ps#':
-case 'gg#':
 case 'cs#':
 case 'cse#':
 q = q3.replace(qCom, '');
@@ -1206,13 +1232,30 @@ sRedirectUrl = url;
 break;
 
 
-case 'bi#':
 case 'bin#':
 q = q3.replace(qCom, '');
 q = q.trim();
 q = encodeURIComponent(q);
 urlList = [
 "https://www.bing.com/search?q=" + q + "&form=somesite",
+];
+if (q == ''){
+urlList = [
+"https://www.bing.com/",
+];
+}
+random = urlList[fuMRandom(0, urlList.length - 1)];
+url = random;
+sRedirectUrl = url;
+break;
+
+
+case 'binn#':
+q = q3.replace(qCom, '');
+q = q.trim();
+q = encodeURIComponent(q);
+urlList = [
+"https://www.bing.com/search?q=" + q + "&filters=ex1%3a%22ez1%22&form=somesite",
 ];
 if (q == ''){
 urlList = [

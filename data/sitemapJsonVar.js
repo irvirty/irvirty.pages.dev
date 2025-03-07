@@ -28,13 +28,6 @@ var sitemapJsonVar = [
         "time": "id"
     },
     {
-        "text": "All\n\nThis place is where almost all pages of the site are collected on one page for quick access. It's like the start menu in the operating system but for the site. | all: ",
-        "url": "\/all\/index.html",
-        "tag": " #start #menu #pages #search #all #page #main",
-        "id": "17f3f714a610177f12e0f64d03cd9fac",
-        "time": "id"
-    },
-    {
         "text": "Animated borders button\n\nAnimated borders button. | animated borders button link: ",
         "url": "\/mini-projects\/animated-borders-button-link-5\/index.html",
         "tag": " #animation #button #border #HTML #CSS #project",
