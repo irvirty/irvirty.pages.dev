@@ -109,7 +109,7 @@ document.getElementById("pagesList").style.display = "block";
 
 
 let confSymbolForSplit = "SYMBOLFORSPLIT";
-let resultLimit = 30;
+let resultLimit = 60;
 let iResult = 0;
 let printPost = "";
 
@@ -177,8 +177,23 @@ window.location.href = window.location.href + '#StopRedirect';
 if (iResult <= resultLimit){
 postUrl = fuMHideFileNameExt(postUrl);
 //printPost += fuPrintPost(postId, '', postText, postTag, postTime, rightFooter, rightFooter);
-printPost += `<div class="bgList border3List borderRadius2 padding3">${postText}<br>
-<a class="brand" href="${postUrl}">${postUrl}</a></div>`;
+printPost += `
+<div class="bgList border3List borderRadius2 padding3">
+<div style="
+display: grid;
+grid-template-columns: 1fr 20px;
+">
+
+<div>
+${postText}<br>
+<a class="brand" href="${postUrl}">${postUrl}</a>
+</div>
+
+<div class="center xSmall gray tRight">${iResult}</div>
+
+</div>
+</div>
+`;
 }
 iResult++;
 
@@ -284,7 +299,7 @@ if (qCom != 'found') { printPost = `<div class="bgList border3List borderRadius2
 // end s2 Search 2
 
 if (iResult >= 1){
-printPost += `<div class="small op gray bgList border3List borderRadius2 padding3">Result limit: ${resultLimit}</div>`;
+printPost += `<div class="tRight small op gray bgList border3List borderRadius2 padding3">Result limit: ${resultLimit}</div>`;
 }
 
 document.getElementById(printId).innerHTML = printPost;
