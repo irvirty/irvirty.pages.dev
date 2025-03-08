@@ -3,6 +3,16 @@ var notesJsonVar =
 
 [
     {
+        "id": "92",
+        "text": "css variables - Using negative CSS Custom Properties - Stack Overflow",
+        "text2": "===\r\n\/\/ Vanilla CSS\r\n.class {\r\n  margin-bottom: calc(var(--margin-md) * -1);\r\n}",
+        "text3": "",
+        "url": "https:\/\/stackoverflow.com\/questions\/49469344\/using-negative-css-custom-properties",
+        "tag": "#CSS #fix",
+        "time": 1741420751,
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/notes\/?id=92\">id<\/a>"
+    },
+    {
         "id": "91",
         "text": "How do I create multiline comments in Python? - Stack Overflow",
         "text2": "'''\r\nThis is a multiline\r\ncomment.\r\n'''",

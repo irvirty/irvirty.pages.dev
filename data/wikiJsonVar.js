@@ -3,6 +3,16 @@ var wikiJsonVar =
 
 [
     {
+        "id": "118",
+        "text": "Words per minute - Wikipedia",
+        "text2": "Words per minute, commonly abbreviated as WPM (sometimes lowercased as wpm), is a measure of words processed in a minute, often used as a measurement of the speed of typing, reading or Morse code sending and receiving.",
+        "text3": "",
+        "url": "https:\/\/en.wikipedia.org\/wiki\/Words_per_minute",
+        "tag": "#word #language",
+        "time": 1741430523,
+        "rightFooter": ""
+    },
+    {
         "id": "117",
         "text": "Do it yourself - Wikipedia",
         "text2": "\"Do it yourself\" (\"DIY\") is the method of building, modifying, or repairing things by oneself without the direct aid of professionals or certified experts. Academic research has described DIY as behaviors where \"individuals use raw and semi-raw materials and parts to produce, transform, or reconstruct material possessions, including those drawn from the natural environment (e.g., landscaping)\".[1] DIY behavior can be triggered by various motivations previously categorized as marketplace motivations (economic benefits, lack of product availability, lack of product quality, need for customization), and identity enhancement (craftsmanship, empowerment, community seeking, uniqueness).[2]",
