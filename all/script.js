@@ -281,9 +281,23 @@ window.location.href = window.location.href + '#StopRedirect';
 
 if (iResult <= resultLimit){
 //printPost += fuPrintPost(postId, '', postText, postTag, postTime, rightFooter, rightFooter);
-printPost += `<div class="bgList border3List borderRadius2 padding3">${postText}<br>
-<a class="brand" href="${postUrl}">${postUrl}</a></div>`;
+printPost += `
+<div class="bgList border3List borderRadius2 padding3">
+<div style="
+display: grid;
+grid-template-columns: 1fr 20px;
+">
 
+<div>
+${postText}<br>
+<a class="brand" href="${postUrl}">${postUrl}</a>
+</div>
+
+<div class="center xSmall gray tRight">${iResult}</div>
+
+</div>
+</div>
+`;
 }
 iResult++;
 
