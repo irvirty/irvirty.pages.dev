@@ -1,4 +1,4 @@
-// Main js v.6.17.7
+// Main js v.6.17.8
 // For second navigation, footer, themes, etc
 
 // Settings, config
@@ -454,7 +454,7 @@ fuMInsertHtml("#footer", 'beforeend', `
 <a id="fSettings" class="brand inlineBlock padding2" title="Settings" href="/pages/settings/">Settings</a>
 <a id="fPrivacy" class="brand inlineBlock padding" title="Cookie Settings" href="/pages/settings/#confDataCollection">Cookie: ${conf["confDataCollection"]}</a>
 <a class="brand inlineBlock padding" title="Source code (repository)" href="https://github.com/${conf["confUsername"]}/${conf["confWebsiteUrl"]}">Source Code</a>
-<a class="brand inlineBlock padding" href="https://buymeacoffee.com/${conf["confUsername"]}"><span class="ico middle" style="margin-bottom: var(--padding);">☕</span> Buy Me a Coffee</a>
+<!--<a class="brand inlineBlock padding" href="https://buymeacoffee.com/${conf["confUsername"]}"><span class="ico middle" style="margin-bottom: var(--padding);">☕</span> Buy Me a Coffee</a>-->
 <span class="gray">License:</span> <a class="brand inlineBlock padding" rel="license" title="Main license" href="/pages/about.html#license">CC BY-SA 4.0 *</a>
 <span class="op inlineBlock padding gray"><!--2019--->2025</span>
 <br>
