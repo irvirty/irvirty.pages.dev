@@ -1,4 +1,4 @@
-/* Main style v.20.7.0
+/* Main style v.20.4.0
 /* License: CC BY-SA 4.0 */
 /* main.css + themes */
 /* The style is mostly based on classes */
@@ -408,6 +408,7 @@ overflow-x: hidden;
 overflow-y: auto;
 scroll-padding-top: 16px;
 }
+.scroll2 { max-height: 200vh; }
 
 .break { overflow: hidden; white-space: normal; word-break: break-word; overflow-wrap: break-word; }
 .break2 { overflow: hidden; white-space: normal; word-break: break-all; }
@@ -471,8 +472,7 @@ padding-right: 0;
 .h15 { height: 15%; }
 
 
-
-/* Colors (colors from variables in the theme, r - reverse) */
+/* Colors (colors from variables in the theme) */
 :root{
 --brand: color-mix(in srgb, var(--brandColor) 70%, var(--c4));
 --brand2: color-mix(in srgb, var(--brandColor) 35%, var(--c4));
@@ -517,21 +517,11 @@ form fieldset { border: 1px solid var(--d3); }
 .c3 { color: var(--c3); }
 .c4 { color: var(--c4); }
 
-.cBg, .cLight { background: var(--c); }
-.c2Bg, .c2Light, .cLight:hover { background: var(--c2); }
-.c3Bg, .c3Light, .c2Light:hover { background: var(--c3); }
-.c4Bg, .c4Light, .c3Light:hover, .c4Light:hover { background: var(--c4); }
-
 /* cR - reverse c */
 .cR { color: var(--cR); }
 .c2R, .cR:hover { color: var(--c2R); }
 .c3R, .c2R:hover { color: var(--c3R); }
 .c4R, .c3R:hover, .c4R:hover { color: var(--c4R); }
-
-.cRBg, .cRLight { background: var(--cR); }
-.c2RBg, .c2RLight, .cRLight:hover { background: var(--c2R); }
-.c3RBg, .c3RLight, .c2RLight:hover { background: var(--c3R); }
-.c4RBg, .c4RLight, .c3RLight:hover, .c4RLight:hover { background: var(--c4R); }
 
 /* .bgColor, .lightColor (new) */
 .brand, .brand button{ color: var(--brand); }
@@ -589,7 +579,9 @@ form fieldset { border: 1px solid var(--d3); }
 .border3, .border3List { border: 1px solid var(--d3); }
 .border4, .border4List {  border: 1px dashed var(--d3);  }
 
+
 .borderList, .border2List, .border3List, .border4List  { margin-bottom:  -1px; }
+
 
 .bg { background: var(--l); }
 .bgList, .light { background: var(--l); }
@@ -621,6 +613,9 @@ form fieldset { border: 1px solid var(--d3); }
 .highlight { background: var(--l4) !important; color: var(--c4) !important; }
 .highlight:hover { background: var(--l4); color: var(--c4) !important; }
 .highlight2, .highlight2:hover { background: color-mix(in srgb, var(--orange) 50%, #fff) !important; color: #000 !important; }
+
+
+
 
 .borderBottomBrand { border-bottom: 2px solid color-mix(in srgb, var(--brand) 60%, transparent); }
 .borderBottomRed { border-bottom: 2px solid color-mix(in srgb, var(--red) 50%, transparent); }
@@ -668,9 +663,7 @@ word-break: break-all;
 }
 h1, h2, h3, h4, h5, h6, .bold, .b, b { letter-spacing: 0.25px; }test and dellme*/
 
-@media(max-width: 200px) {
-div, input, textarea, a { word-break: break-all; }
-}
+@media(max-width: 200px) { div, input, textarea, a{ word-break: break-all; } }
 
 .sup { vertical-align: super; vertical-align: top; font-weight: 600; }
 .sub { vertical-align: sub; }

@@ -1,4 +1,4 @@
-/* v.1.1.24 */
+/* v.1.1.25 */
 
 :root {
 --typingFont: 1.188em;
@@ -31,7 +31,7 @@ overflow-y: auto;
 scroll-padding-top: 1em;
 }
 
-.scroll2 {
+#lPrintTr {
 /*overflow-x: auto;
 overflow-y: hidden;
 white-space: nowrap;*/

@@ -1209,7 +1209,7 @@ var wordJsonVar =
     },
     {
         "text": "\u0437\u0430\u043f\u0430\u0445",
-        "text2": "scent",
+        "text2": "smell",
         "text3": "oler"
     },
     {
