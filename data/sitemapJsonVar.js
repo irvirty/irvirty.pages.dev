@@ -371,7 +371,7 @@ var sitemapJsonVar = [
         "time": "id"
     },
     {
-        "text": "Mimi wikipedia\n\nMini Wikipedia. Collection of articles. Some of the articles with their short article text and with links to the original for a more detailed review. | wiki: ",
+        "text": "Mini wikipedia\n\nMini Wikipedia. Collection of articles. Some of the articles with their short article text and with links to the original for a more detailed review. | wiki: ",
         "url": "\/pages\/wiki\/index.html",
         "tag": " #wiki #Wikipedia #articles #text #short #collection #page #main",
         "id": "75b3093f5540118ccc22804895c408e7",
