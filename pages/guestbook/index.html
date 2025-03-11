@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<meta charset="UTF-8">
+<title>Guestbook</title>
+
+<meta name="description" content="Guestbook page. Pages for visitors' comments. This is a static site, so a third-party service is used for comments.">
+<meta name="keywords" content="guestbook, comments, disqus, page, main,">
+
+<link rel="alternate" type="application/rss+xml" title="Website RSS" href="/rss.xml">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<meta name="color-scheme" content="light dark">
+<!--<meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">-->
+
+<link rel="icon" sizes="512x512" href="/img/logo.png" type="image/png">
+<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+
+
+<!-- main -->
+<link rel="preload" href="/js/main.js" as="script">
+
+<link rel="preload" href="/css/main.css" as="style">
+<link rel="stylesheet" href="/css/main.css" type="text/css">
+<link rel="preload" href="/css/auto.css" as="style">
+<link rel="stylesheet" type="text/css" href="/css/auto.css" id="theme">
+
+<link rel="preload" href="/css/style.css" as="style">
+<link rel="stylesheet" href="/css/style.css" type="text/css">
+
+<noscript>
+<link rel="stylesheet" type="text/css" href="/css/noscript.css">
+</noscript>
+<!-- // main -->
+
+
+<link rel="preload" href="style.css" as="style">
+<link rel="stylesheet" href="style.css" type="text/css">
+
+<link rel="preload" href="/data/microblogJsonVar.js" as="script"> 
+<link rel="preload" href="/projects/keep-1/script.js" as="script"> 
+
+</head>
+<body>
+
+
+
+<!-- Navigation HTML v.1.0.1 -->
+<header>
+<div class="wrapper3">
+<div class="margin"></div>
+
+<div id="topNav" class="topNav">
+<nav>
+
+<span class="countMenuItem"></span>
+<a class="countMenuItem inlineBlock padding" style="padding-left: 0;" href="/" title="index / nav 1"><img class="logo2 reduceLight" src="/img/logo.png" alt="logo" style="max-width: 26px;"></a> 
+
+<span id="navMenu" class="navMenu">
+<!-- links in nav -->
+<a class="countMenuItem inlineBlock padding brand itemLinkAni empty" href="/all/" title="All pages">All</a>
+<a class="countMenuItem active2 inlineBlock padding itemLinkAniActive empty" href="/pages/" title="Pages">Pages</a>
+<a class="countMenuItem inlineBlock padding brand itemLinkAni empty" href="/games/" title="Games">Games</a>
+<a class="countMenuItem inlineBlock padding brand itemLinkAni empty" href="/projects/" title="Projects">Projects</a>
+<a class="countMenuItem inlineBlock padding brand itemLinkAni empty" href="/mini-projects/" title="Mini Projects">Mini Projects</a>
+<!-- // links in nav -->
+</span>
+
+<div class="dropdownMenuContentWrapper">
+<div class="dropdownMenuContent">
+
+<a id="dropdownMenuButton" class="dropdownMenuButton inlineBlock padding mClassNavUp brand borderBottomTransparent itemLinkAni" href="#" onclick="fuMDropdownButton();return false;">☰ Menu</a>
+
+<div id="dropdownMenu" class="dropdownMenu">
+<div class="dropdownMenuColumn shadow bg2 padding2 borderRadius2">
+<!-- links for show in dropdown (duplicate) -->
+<a class="countMenuItem inlineBlock padding brand itemLinkAni empty" href="/all/" title="All pages">All</a>
+<a class="countMenuItem active2 inlineBlock padding itemLinkAniActive empty" href="/pages/" title="Pages">Pages</a>
+<a class="countMenuItem inlineBlock padding brand itemLinkAni empty" href="/games/" title="Games">Games</a>
+<a class="countMenuItem inlineBlock padding brand itemLinkAni empty" href="/projects/" title="Projects">Projects</a>
+<a class="countMenuItem inlineBlock padding brand itemLinkAni empty" href="/mini-projects/" title="Mini Projects">Mini Projects</a>
+<!-- // links for show in dropdown (duplicate) -->
+</div>
+</div>
+
+</div>
+</div>
+
+<span class="countMenuItem"></span>
+<a class="countMenuItem inlineBlock padding mClassNavUp brand borderBottomTransparent itemLinkAni" href="../" title="../ (Up)">List (up)</a>
+
+<span class="countMenuItem"></span>
+<form class="countMenuItem noscriptHide inlineBlock padding" style="padding-right: 0;" method="GET" action="/search/" role="search">
+<!--<label for="siteSearch" class="xSmall op">search:</label>-->
+<input id="siteSearch" type="search" placeholder="site search" name="q" autocomplete="off">
+</form>
+
+</nav>
+</div>
+
+</div>
+</header>
+<!-- // Navigation HTML -->
+
+<!--<hr>-->
+
+
+
+<!-- content -->
+<main class="content">
+
+<h1 class="op tCenter insertIconTitle">Guestbook</h1>
+<div class="tCenter margin4List small op">(Disqus comments)</div>
+
+
+
+
+<div class="wrapper">
+
+<div class="padding3 border bg">
+
+<div id="disqus_thread"></div>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+
+</div>
+
+</div>
+
+
+
+
+</main>
+<!-- // content -->
+
+<footer id="footer"></footer>
+
+<script src="/js/main.js"></script>
+<script src="/js/script.js"></script>
+
+
+<script src="/projects/disqus-74/script.js"></script>
+<script>
+disqusCommnet(conf["confUsername"], "on", "off");
+</script>
+
+
+
+</body>
+</html>
+

@@ -210,10 +210,10 @@ var sitemapJsonVar = [
         "time": "id"
     },
     {
-        "text": "Disqus comments\n\nDisqus comments. Comments widget for website. Comments for the web page. | disqus comments: ",
-        "url": "\/projects\/disqus-comments-74\/index.html",
+        "text": "Disqus comments\n\nDisqus comments. Comments widget for website. Comments for the web page. | disqus: ",
+        "url": "\/projects\/disqus-74\/index.html",
         "tag": " #disqus #comments #comment #widget #CSS #JavaScript #project",
-        "id": "cb44d565848dd57ee5b48bc2c6952ec5",
+        "id": "908aa4f49767b55460b3af7b53dcdcdd",
         "time": "id"
     },
     {
@@ -277,6 +277,13 @@ var sitemapJsonVar = [
         "url": "\/games\/guess-number-10\/index.html",
         "tag": " #game #guuess #number #HTML5 #WebGame #CSS #JavaScript #project",
         "id": "524f001062de526e4e3ad28ba23f2376",
+        "time": "id"
+    },
+    {
+        "text": "Guestbook\n\nGuestbook page. Pages for visitors' comments. This is a static site, so a third-party service is used for comments. | guestbook: ",
+        "url": "\/pages\/guestbook\/index.html",
+        "tag": " #guestbook #comments #disqus #page #main",
+        "id": "2c06ac852dc3b67179c67679461fed9c",
         "time": "id"
     },
     {
