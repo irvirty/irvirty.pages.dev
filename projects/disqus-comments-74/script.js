@@ -1,7 +1,7 @@
 // v.1.0.1
 
 
-function disqusCommnet(disqusShortname, titleStatus, urlStatus){
+function disqusCommnets(disqusShortname, titleStatus, urlStatus){
 var pageTitle = "";
 var pageUrl = "";
 

@@ -210,10 +210,10 @@ var sitemapJsonVar = [
         "time": "id"
     },
     {
-        "text": "Disqus comments\n\nDisqus comments. Comments widget for website. Comments for the web page. | disqus: ",
-        "url": "\/projects\/disqus-74\/index.html",
+        "text": "Disqus comments\n\nDisqus comments. Comments widget for website. Comments for the web page. | disqus comments: ",
+        "url": "\/projects\/disqus-comments-74\/index.html",
         "tag": " #disqus #comments #comment #widget #CSS #JavaScript #project",
-        "id": "908aa4f49767b55460b3af7b53dcdcdd",
+        "id": "cb44d565848dd57ee5b48bc2c6952ec5",
         "time": "id"
     },
     {
