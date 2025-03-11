@@ -69,6 +69,7 @@ var lQMode = [
 //{"name":"pages.dev", "comName":"pages", "code":"c1bb12232f9de476e"},
 //{"name":"neocities.org", "comName":"neocities", "code":"a3a8da84c5ed74909"},
 {"name":"Custom", "comName":"custom", "code":"2460fb11690ab4ead"},
+{"name":"Site", "comName":"site", "code":"b365e22a8d8494f9f"},
 ];
 
 
