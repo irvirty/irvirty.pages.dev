@@ -1,16 +1,6 @@
 /* v.2.1.0 */
 
 
-.content {
-display: flex;
-flex-direction: column;
-justify-content: center;
-align-items: safe center;
-align-self: safe center;
-box-sizing: border-box;
-/*margin: 0 var(--bodyP);*/ margin: 0 auto;
-}
-
 .profilePhoto {
 margin: 20px auto;
 }
