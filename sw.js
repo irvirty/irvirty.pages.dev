@@ -1,5 +1,5 @@
 
-//var myCacheVersion = "v.1.2.2025.03.10";
+//var myCacheVersion = "v.1.2.2025.03.11";
 
 
 
@@ -70,7 +70,7 @@ function swJsInstallFiles(){
 //https://stackoverflow.com/questions/66529102/uncaught-in-promise-typeerror-failed-to-execute-cache-on-addall-request
 //https://github.com/mdn/pwa-examples
 self.addEventListener('install', (e) => {
-e.waitUntil(caches.open("v.1.2.2025.03.10").then((cache) => cache.addAll(fileListArrFound)),);
+e.waitUntil(caches.open("v.1.2.2025.03.11").then((cache) => cache.addAll(fileListArrFound)),);
 });*/
 
 
@@ -916,8 +916,12 @@ var fileListArr = ["/404.html",
 "/pages/images/2024/website-inkscape-60.png",
 "/pages/images/2025/wallpaper-desktop-abstract-paper-gimp-inkscape-75.png",
 "/pages/images/2025/",
+"/pages/images/2025/wallpaper-desktop-rectangles-dark-inkscape-81.png",
+"/pages/images/2025/wallpaper-desktop-rectangles-light-inkscape-79.svg",
+"/pages/images/2025/wallpaper-desktop-rectangles-light-inkscape-80.png",
 "/pages/images/2025/wallpaper-desktop-shapes-inkscape-76.svg",
 "/pages/images/2025/wallpaper-desktop-shapes-inkscape-gimp-77.png",
+"/pages/images/2025/wallpaper-desktop-wall-inkscape-gimp-78.png",
 "/pages/images/index.html",
 "/pages/index.html",
 "/pages/install/index.html",
@@ -1396,7 +1400,7 @@ if (res.ok) {
 // file is present at URL
 console.log('try cache.add ' + file);
 //https://web.dev/learn/pwa/caching/
-caches.open("v.1.2.2025.03.10")
+caches.open("v.1.2.2025.03.11")
 .then(cache => {
 cache.add(file); // it stores only one resource
 //  cache.addAll(["styles.css", "app.js"]); // it stores two resources
@@ -1422,7 +1426,7 @@ if (res.ok) {
 // file is present at URL
 console.log('try cache.add ' + newFile);
 //https://web.dev/learn/pwa/caching/
-caches.open("v.1.2.2025.03.10")
+caches.open("v.1.2.2025.03.11")
 .then(cache => {
 cache.add(newFile); // it stores only one resource
 //  cache.addAll(["styles.css", "app.js"]); // it stores two resources
@@ -1455,7 +1459,7 @@ console.log('404 not found ' + newFile);
 // rm old cache
 //https://developer.mozilla.org/en-US/docs/Web/API/CacheStorage/delete
 this.addEventListener("activate", (event) => {
-  const cachesToKeep = ["v.1.2.2025.03.10"];
+  const cachesToKeep = ["v.1.2.2025.03.11"];
 
   event.waitUntil(
     caches.keys().then((keyList) =>
