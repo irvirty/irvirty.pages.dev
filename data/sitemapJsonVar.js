@@ -953,16 +953,16 @@ var sitemapJsonVar = [
     },
     {
         "text": "To Do List\n\nTo-do, todo list. It's a simple to-do list with the ability to pin tasks as daily. (Task list, tasks). | todo list: ",
-        "url": "\/projects\/todo-list-31\/index.html",
+        "url": "\/projects\/todo-list-0\/index.html",
         "tag": " #todo #task #tool #JavaScript #project",
-        "id": "25bac8c7ef282c01977ecafa4f3f789c",
+        "id": "3a2cbda581157fea34a8bd32fce8b64e",
         "time": "id"
     },
     {
         "text": "To Do list ideas\n\nThis is a simple list of ideas based on the [todo list] script. (Idea list). | todo list ideas: ",
-        "url": "\/projects\/todo-list-ideas-32\/index.html",
+        "url": "\/projects\/todo-list-ideas-00\/index.html",
         "tag": " #todo #idea #tool #JavaScript #project",
-        "id": "98ad9a9c4d9b4d0c5a9ede137fdd6f02",
+        "id": "312bd176d23bcabcb682d243ee8f30f3",
         "time": "id"
     },
     {
@@ -1033,6 +1033,13 @@ var sitemapJsonVar = [
         "url": "\/pages\/website-directory\/index.html",
         "tag": " #website #directory #websites #links #collection #page #main",
         "id": "4d3e605194f6d6f045890bfd09bd4652",
+        "time": "id"
+    },
+    {
+        "text": "Word of the day\n\nWord of the day. Random word every day. Unique for every visitor. | word of the day: ",
+        "url": "\/projects\/word-of-the-day-76\/index.html",
+        "tag": " #word #day #HTML_CSS #JavaScript #project",
+        "id": "cef9edce40e35a40710962b72270a166",
         "time": "id"
     },
     {

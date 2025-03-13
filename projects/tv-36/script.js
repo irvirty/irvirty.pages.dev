@@ -68,7 +68,7 @@ printTagList += ' ' + postTag + conf["confSymbolForSplit"];
 let qSearch = "";
 if(q2 != ''){
 //qSearch = String(q.toLowerCase()).replaceAll(/ /g, "|"); //if((qData).search(qSearch) != -1){}
-qSearch = decodeURIComponent(q2);
+qSearch = q2;
 qSearch = String(qSearch).toLowerCase();
 }
 
@@ -82,7 +82,7 @@ arrListForRandom.push(key);
 
 i++;
 total = i;
-comMessagePrint = `<b class="tCenter">${q2} ${i}</b>`;
+comMessagePrint = `${q2} ${i}`;
 /*document.getElementsByTagName('title')[0].innerHTML = `Random TV ${q2}`;
 document.getElementsByTagName('title')[0].innerHTML += ' | '+domainNameToTitle;*/
 }
@@ -98,12 +98,13 @@ getP2 = Math.floor(Math.random() * arrListForRandom.length);
 id = arrListForRandom[getP2];
 checkNotFound = ''; // clear
 }else{
-comMessagePrint = '<div class=""><h1 class="red h3 bold">not found</h1></div>';
+comMessagePrint = 'not found';
 id = getRandomInt(jsonVar.length);
 //comMessagePrint += '<span class=""> random id: '+id+'</span>';
 document.getElementById(printId).innerHTML = `
-<div class="block padding2 margin2 tCenter">${comMessagePrint}</div>
+<div class="block padding2 margin2 tCenter"><span id="msg2"></span></div>
 `;
+document.getElementById('msg2').innerText = `${comMessagePrint}`;
 checkNotFound = 'Not Found';
 }
 //var id = getRandomInt(jsonVar.length);
@@ -132,7 +133,7 @@ var tag = highlightText2(' '+jsonVar[id]['tag'], '');
 
 document.getElementById(printId).innerHTML = `
 
-<div class="block padding2 margin2 tCenter">${comMessagePrint}</div>
+<div class="block padding2 margin2 tCenter"><span id="msg2"></span></div>
 
 <div class="">
 <div class="wrapper">
@@ -160,6 +161,9 @@ document.getElementById(printId).innerHTML = `
 </div>
 
 `;
+
+document.getElementById('msg2').innerText = `${comMessagePrint}`;
+
 }
 
 var multiEmbedStatus = 'off';
@@ -631,7 +635,7 @@ document.getElementById(printId).innerHTML +=  `
 <div id="form" class="wrapperSmall">
 <form method="GET" style="margin-top: 0px;" action="?">
 <label id="search" class="op block tLeft xSmall">search and tag:</label>
-<input id="input" class="padding2 op" type="search" style="text-align: center;" name="q"  autocomplete="off" placeholder="" value="${q}">
+<input id="input" class="padding2 op" type="search" style="text-align: center;" name="q"  autocomplete="off" placeholder="">
 
 <input class="op padding2 xSmall submit" style="min-height: 1px;" type="submit">
 
@@ -643,7 +647,7 @@ document.getElementById(printId).innerHTML +=  `
 </div>
 `;
 
-
+document.getElementById('input').value = q;
 
 
 

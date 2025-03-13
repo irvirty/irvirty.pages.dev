@@ -246,6 +246,15 @@ var videoJsonVar =
         "rightFooter": ""
     },
     {
+        "text": "Beware the B.U.D.D.Y. System! | S1 E14 | Full Episode | DuckTales | \u202a@disneyxd\u202c - YouTube",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=YYO5d3HwQPg",
+        "tag": "#video #cartoon",
+        "time": 1741827369,
+        "rightFooter": ""
+    },
+    {
         "text": "Beyond the Moon (1954) | Sci-Fi Adventure | Richard Crane, Scotty Beckett, Sally Mansfield - YouTube",
         "text2": "",
         "text3": "",
@@ -2910,6 +2919,15 @@ var videoJsonVar =
         "rightFooter": ""
     },
     {
+        "text": "The Beagle Birthday Breakout! | S1 E5 | Full Episode | DuckTales | \u202a@disneyxd\u202c - YouTube",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=Q6412xeOuyo",
+        "tag": "#video #cartoon",
+        "time": 1741821618,
+        "rightFooter": ""
+    },
+    {
         "text": "The Best Lazy Day Ever | S1 E18 | Full Episode | Phineas and Ferb | @disneyxd - YouTube",
         "text2": "",
         "text3": "",
@@ -3213,6 +3231,24 @@ var videoJsonVar =
         "url": "https:\/\/www.youtube.com\/watch?v=TvkAG5EIu38",
         "tag": "#video #cartoon",
         "time": 1705242340,
+        "rightFooter": ""
+    },
+    {
+        "text": "The Impossible Summit of Mt. Neverrest! | S1 E3 | Full Episode | DuckTales | \u202a@disneyxd\u202c - YouTube",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=JuG5EMWo3l0",
+        "tag": "#video #cartoon",
+        "time": 1741821590,
+        "rightFooter": ""
+    },
+    {
+        "text": "The Infernal Internship of Mark Beaks! | S1 E7 | Full Episode | DuckTales | \u202a@disneyxd\u202c - YouTube",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=Dpp5v4lv08E",
+        "tag": "#video #cartoon",
+        "time": 1741821644,
         "rightFooter": ""
     },
     {

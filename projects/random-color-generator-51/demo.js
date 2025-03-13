@@ -1,4 +1,4 @@
-// Radndom color demo v.1.2.3
+// Radndom color demo v.1.2.4
 // gen HTML result
 
 
@@ -28,6 +28,7 @@ document.getElementById('lTextarea').value = (q);
 }
 
 } else {
+q = "";
 //https://en.wikipedia.org/wiki/Web_colors
 //q  = "transparent,white,silver,gray,black,red,maroon,yellow,olive,lime,green,aqua,teal,blue,navy,fuchsia,purple,violet,pink,navy,rebeccapurple";
 

@@ -4678,11 +4678,6 @@ var wordJsonVar =
         "text3": "escala"
     },
     {
-        "text": "\u0448\u043a\u0432\u0430\u043b",
-        "text2": "flurry",
-        "text3": "r\u00e1faga"
-    },
-    {
         "text": "\u0448\u043a\u043e\u043b\u0430",
         "text2": "school",
         "text3": "escuela"
@@ -4789,6 +4784,11 @@ var wordJsonVar =
     },
     {
         "text": "\u044e\u0440\u0438\u0441\u0442",
+        "text2": "lawyer",
+        "text3": "abogado"
+    },
+    {
+        "text": "\u044e\u0440\u0438\u0441\u0442\u043a\u0430",
         "text2": "lawyer",
         "text3": "abogado"
     },

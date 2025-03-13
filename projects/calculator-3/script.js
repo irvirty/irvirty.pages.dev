@@ -45,7 +45,7 @@ const grid = `
 <!--<input id="lCalcInput" type="text" autofocus="autofocus">-->
 <!--<textarea id="lCalcInput" type="text" autofocus="autofocus"></textarea>-->
 <div><div id="calcResultTop" class="calcResultTop" contenteditable="true"></div><span id="calcResultTopScrollTo"></span></div>
-<div id="calcResult" class="block padding2 bg border">result</div>
+<div id="calcResult" class="block padding2 bg border itemHeight2">result</div>
 </form>
 
 <div class="margin padding"></div>
@@ -199,12 +199,12 @@ let resultFu2 = "";
 resultFu.forEach((val, key) => {
 if(val == '-'&&inputText[key - 1] != 'e'){
 val = val.replaceAll("-", 'SYMBOLFORSPLIT-SYMBOLFORSPLIT');
-console.log(val);
+//console.log(val);
 }
 
 if(val == '+'&&inputText[key - 1] != 'e'){
 val = val.replaceAll("+", 'SYMBOLFORSPLIT+SYMBOLFORSPLIT');
-console.log(val);
+//console.log(val);
 }
 
 val = val.replaceAll("/", 'SYMBOLFORSPLIT/SYMBOLFORSPLIT');
@@ -262,22 +262,18 @@ result = result.join("");
 
 }
 
-if(result == ''){ result = "&nbsp;"; }
+if(result == ''){ result = " "; }
 
-result = result + `<!--
-<span class="xSmall">
-in progress
-</span>-->`;
 
 
 //if(result == ''||result == undefined||/\d/.test(result) == false){ result = 'result'; }
 if(lOption != "editable"){
-document.getElementById("calcResultTop").innerHTML = lInput[0];
+document.getElementById("calcResultTop").innerText = lInput[0];
 }
 
 //document.getElementById("calcResultTopScrollTo").scrollIntoView();
 
-document.getElementById("calcResult").innerHTML = result;
+document.getElementById("calcResult").innerText = result;
 
 
 return result;

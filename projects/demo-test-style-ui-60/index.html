@@ -147,7 +147,7 @@ HTML, CSS, project,
 
 <div class="bg padding3 border borderRadius2">
 
-<form action="login.html" method="POST">
+<form action="" method="POST">
 
 <label class="small block paddingList op" for="email">Enter your email:</label>
 <input id="email" type="email" placeholder="name@example.com" name="email">
@@ -183,7 +183,8 @@ HTML, CSS, project,
 
 <div id="result" class="small padding border2 borderRadius2"></div>
 <script>
-document.getElementById("result").innerHTML = '<div class="block op padding2 margin2">window.location: ' + decodeURIComponent(window.location) + '</div>';
+document.getElementById("result").innerHTML = '<div class="block op padding2 margin2">window.location: <span id="result2"></span></div>';
+document.getElementById("result2").innerText = decodeURIComponent(window.location);
 </script>
 <div class="margin2 padding2"></div>
 

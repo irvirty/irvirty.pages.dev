@@ -4,7 +4,9 @@ let divNumber = 1000;
 
 var url = new URL(window.location);
 var q = url.searchParams.get("q");
-if(q != null){ divNumber = q; }
+if(q != null){ divNumber = Number(q); }
+
+if (q == null||q == ""||isNaN(q)){ divNumber = 1000; }
 
 document.getElementById("resultQ").innerHTML = divNumber; 
 

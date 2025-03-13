@@ -1,0 +1,34 @@
+/* v.1.0.0 */
+/* comment */
+
+
+/* Hot link in search v.1.0.1 */
+
+.hotLinks {
+/*display: grid;
+/*grid-template-columns: repeat(auto-fill, minmax(42px, 1fr));
+/*grid-template-columns: repeat(auto-fill, minmax(52px, 1fr));
+grid-gap: 1px;*/
+/*margin: 0 auto;
+justify-content: center;
+align-items: center;*/
+
+display: flex;
+flex: 1 0 auto;
+flex-wrap: wrap;
+}
+
+.hotLinks a {
+display: inline-flex;
+width: auto;
+min-height: 30px;
+justify-content: center;
+justify-content: center;
+align-content: center;
+text-wrap: balance;
+padding: .6em;
+
+flex: 1 0 auto;
+flex-wrap: wrap;
+}
+/*.hotLinks .tag { max-width: 100%; }*/

@@ -6,7 +6,10 @@
 var  geturl = window.location;
 var url = new URL(geturl);
 var q = url.searchParams.get("q");
-if(q == null){ q = 7; }
+q = Number(q);
+console.log(q);
+if(q == null||isNaN(q)){ q = 7; }
+
 
 let letter = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMBOPQRSTUWXYZ";
 letter = [...letter];

@@ -1,5 +1,175 @@
 [
     {
+        "id": "135",
+        "text": "Browser extension - Wikipedia",
+        "text2": "A browser extension is a software module for customizing a web browser. Browsers typically allow users to install a variety of extensions, including user interface modifications, cookie management, ad blocking, and the custom scripting and styling of web pages.[1]",
+        "text3": "",
+        "url": "https:\/\/en.wikipedia.org\/wiki\/Browser_extension",
+        "tag": "#technology",
+        "time": 1741775919,
+        "rightFooter": ""
+    },
+    {
+        "id": "134",
+        "text": "Web development - Wikipedia",
+        "text2": "Web development is the work involved in developing a website for the Internet (World Wide Web) or an intranet (a private network).[1] Web development can range from developing a simple single static page of plain text to complex web applications, electronic businesses, and social network services. A more comprehensive list of tasks to which Web development commonly refers, may include Web engineering, Web design, Web content development, client liaison, client-side\/server-side scripting, Web server and network security configuration, and e-commerce development.",
+        "text3": "",
+        "url": "https:\/\/en.wikipedia.org\/wiki\/Web_development",
+        "tag": "#empty",
+        "time": 1741775396,
+        "rightFooter": ""
+    },
+    {
+        "id": "133",
+        "text": "Web design - Wikipedia",
+        "text2": "Web design encompasses many different skills and disciplines in the production and maintenance of websites. The different areas of web design include web graphic design; user interface design (UI design); authoring, including standardised code and proprietary software; user experience design (UX design); and search engine optimization. Often many individuals will work in teams covering different aspects of the design process, although some designers will cover them all.[1] The term \"web design\" is normally used to describe the design process relating to the front-end (client side) design of a website including writing markup. Web design partially overlaps web engineering in the broader scope of web development. Web designers are expected to have an awareness of usability and be up to date with web accessibility guidelines.",
+        "text3": "",
+        "url": "https:\/\/en.wikipedia.org\/wiki\/Web_design",
+        "tag": "#empty",
+        "time": 1741775372,
+        "rightFooter": ""
+    },
+    {
+        "id": "132",
+        "text": "Web page - Wikipedia",
+        "text2": "A web page (or webpage) is a document on the Web that is accessed in a web browser.[1] A website typically consists of many web pages linked together under a common domain name. The term \"web page\" is therefore a metaphor of paper pages bound together into a book.",
+        "text3": "",
+        "url": "https:\/\/en.wikipedia.org\/wiki\/Web_page",
+        "tag": "#empty",
+        "time": 1741775281,
+        "rightFooter": ""
+    },
+    {
+        "id": "131",
+        "text": "Wikipedia - Wikipedia",
+        "text2": "Wikipedia[c] is a free-content online encyclopedia written and maintained by a community of volunteers, known as Wikipedians, through open collaboration and the wiki software MediaWiki. Founded by Jimmy Wales and Larry Sanger on January 15, 2001, Wikipedia has been hosted since 2003 by the Wikimedia Foundation, an American nonprofit organization funded mainly by donations from readers.[3] Wikipedia is the largest and most-read reference work in history.[4][5]",
+        "text3": "",
+        "url": "https:\/\/en.wikipedia.org\/wiki\/Wikipedia",
+        "tag": "#technology",
+        "time": 1741775253,
+        "rightFooter": ""
+    },
+    {
+        "id": "130",
+        "text": "Social media - Wikipedia",
+        "text2": "Social media are interactive technologies that facilitate the creation, sharing and aggregation of content (such as ideas, interests, and other forms of expression) amongst virtual communities and networks.[1][2] Common features include:[2]",
+        "text3": "",
+        "url": "https:\/\/en.wikipedia.org\/wiki\/Social_media",
+        "tag": "#empty",
+        "time": 1741772581,
+        "rightFooter": ""
+    },
+    {
+        "id": "129",
+        "text": "Social network - Wikipedia",
+        "text2": "A social network is a social structure consisting of a set of social actors (such as individuals or organizations), sets of dyadic ties, and other social interactions between actors. The social network perspective provides a set of methods for analyzing the structure of whole social entities as well as a variety of theories explaining the patterns observed in these structures.[1] The study of these structures uses social network analysis to identify local and global patterns, locate influential entities, and examine network dynamics. For instance, social network analysis has been used in studying the spread of misinformation on social media platforms or analyzing the influence of key figures in social networks.",
+        "text3": "",
+        "url": "https:\/\/en.wikipedia.org\/wiki\/Social_network",
+        "tag": "#empty",
+        "time": 1741772549,
+        "rightFooter": ""
+    },
+    {
+        "id": "128",
+        "text": "Web hosting service - Wikipedia",
+        "text2": "A web hosting service is a type of Internet hosting service that hosts websites for clients, i.e. it offers the facilities required for them to create and maintain a site and makes it accessible on the World Wide Web. Companies providing web hosting services are sometimes called web hosts.",
+        "text3": "",
+        "url": "https:\/\/en.wikipedia.org\/wiki\/Web_hosting_service",
+        "tag": "#technology",
+        "time": 1741772526,
+        "rightFooter": ""
+    },
+    {
+        "id": "127",
+        "text": "Podcast - Wikipedia",
+        "text2": "A podcast is a program made available in digital format for download over the Internet.[1][2][3] Typically, a podcast is an episodic series of digital audio files that users can download to a personal device or stream to listen to at a time of their choosing. Podcasts are primarily an audio medium,[4] but some distribute in video, either as their primary content or as a supplement to audio;[5] popularised in recent years by video platform YouTube.[4]",
+        "text3": "",
+        "url": "https:\/\/en.wikipedia.org\/wiki\/Podcast",
+        "tag": "#content #media",
+        "time": 1741771534,
+        "rightFooter": ""
+    },
+    {
+        "id": "126",
+        "text": "Painting - Wikipedia",
+        "text2": "Painting is a visual art, which is characterized by the practice of applying paint, pigment, color or other medium to a solid surface (called \"matrix\"[1] or \"support\").[2] The medium is commonly applied to the base with a brush, but other implements, such as knives, sponges, and airbrushes, may be used. One who produces paintings is called a painter.",
+        "text3": "",
+        "url": "https:\/\/en.wikipedia.org\/wiki\/Painting",
+        "tag": "#art #word",
+        "time": 1741771270,
+        "rightFooter": ""
+    },
+    {
+        "id": "125",
+        "text": "HTTP 404 - Wikipedia",
+        "text2": "In computer network communications, the HTTP 404, 404 not found, 404, 404 error, page not found, or file not found error message is a hypertext transfer protocol (HTTP) standard response code, to indicate that the browser was able to communicate with a given server, but the server could not find what was requested. The error may also be used when a server does not wish to disclose whether it has the requested information.[1]",
+        "text3": "",
+        "url": "https:\/\/en.wikipedia.org\/wiki\/HTTP_404",
+        "tag": "#empty",
+        "time": 1741771226,
+        "rightFooter": ""
+    },
+    {
+        "id": "124",
+        "text": "Programming language - Wikipedia",
+        "text2": "A programming language is a system of notation for writing computer programs.[1] Programming languages are described in terms of their syntax (form) and semantics (meaning), usually defined by a formal language. Languages usually provide features such as a type system, variables, and mechanisms for error handling. An implementation of a programming language is required in order to execute programs, namely an interpreter or a compiler. An interpreter directly executes the source code, while a compiler produces an executable program.",
+        "text3": "",
+        "url": "https:\/\/en.wikipedia.org\/wiki\/Programming_language",
+        "tag": "#technology",
+        "time": 1741771179,
+        "rightFooter": ""
+    },
+    {
+        "id": "123",
+        "text": "Search engine - Wikipedia",
+        "text2": "A search engine is a software system that provides hyperlinks to web pages and other relevant information on the Web in response to a user's query. The user inputs a query within a web browser or a mobile app, and the search results are often a list of hyperlinks, accompanied by textual summaries and images. Users also have the option of limiting the search to a specific type of results, such as images, videos, or news.",
+        "text3": "",
+        "url": "https:\/\/en.wikipedia.org\/wiki\/Search_engine",
+        "tag": "",
+        "time": 1741771107,
+        "rightFooter": ""
+    },
+    {
+        "id": "122",
+        "text": "Music - Wikipedia",
+        "text2": "Music is the arrangement of sound to create some combination of form, harmony, melody, rhythm, or otherwise expressive content.[1][2][3] Music is generally agreed to be a cultural universal that is present in all human societies.[4] Definitions of music vary widely in substance and approach.[5] While scholars agree that music is defined by a small number of specific elements, there is no consensus as to what these necessary elements are.[6] Music is often characterized as a highly versatile medium for expressing human creativity.[7] Diverse activities are involved in the creation of music, and are often divided into categories of composition, improvisation, and performance.[8] Music may be performed using a wide variety of musical instruments, including the human voice. It can also be composed, sequenced, or otherwise produced to be indirectly played mechanically or electronically, such as via a music box, barrel organ, or digital audio workstation software on a computer.",
+        "text3": "",
+        "url": "https:\/\/en.wikipedia.org\/wiki\/Music",
+        "tag": "#word",
+        "time": 1741771071,
+        "rightFooter": ""
+    },
+    {
+        "id": "121",
+        "text": "Image - Wikipedia",
+        "text2": "An image is a visual representation. An image can be two-dimensional, such as a drawing, painting, or photograph, or three-dimensional, such as a carving or sculpture. Images may be displayed through other media, including a projection on a surface, activation of electronic signals, or digital displays; they can also be reproduced through mechanical means, such as photography, printmaking, or photocopying. Images can also be animated through digital or physical processes.",
+        "text3": "",
+        "url": "https:\/\/en.wikipedia.org\/wiki\/Image",
+        "tag": "#empty",
+        "time": 1741771050,
+        "rightFooter": ""
+    },
+    {
+        "id": "120",
+        "text": "Solid-state drive - Wikipedia",
+        "text2": "A solid-state drive (SSD) is a type of solid-state storage device that uses integrated circuits to store data persistently. It is sometimes called semiconductor storage device, solid-state device, or solid-state disk.[1][2]",
+        "text3": "",
+        "url": "https:\/\/en.wikipedia.org\/wiki\/Solid-state_drive",
+        "tag": "#technology",
+        "time": 1741770395,
+        "rightFooter": ""
+    },
+    {
+        "id": "119",
+        "text": "Hard disk drive - Wikipedia",
+        "text2": "A hard disk drive (HDD), hard disk, hard drive, or fixed disk[a] is an electro-mechanical data storage device that stores and retrieves digital data using magnetic storage with one or more rigid rapidly rotating platters coated with magnetic material. The platters are paired with magnetic heads, usually arranged on a moving actuator arm, which read and write data to the platter surfaces.[1] Data is accessed in a random-access manner, meaning that individual blocks of data can be stored and retrieved in any order. HDDs are a type of non-volatile storage, retaining stored data when powered off.[2][3][4] Modern HDDs are typically in the form of a small rectangular box.",
+        "text3": "",
+        "url": "https:\/\/en.wikipedia.org\/wiki\/Hard_disk_drive",
+        "tag": "#technology",
+        "time": 1741770343,
+        "rightFooter": ""
+    },
+    {
         "id": "118",
         "text": "Words per minute - Wikipedia",
         "text2": "Words per minute, commonly abbreviated as WPM (sometimes lowercased as wpm), is a measure of words processed in a minute, often used as a measurement of the speed of typing, reading or Morse code sending and receiving.",
@@ -7,16 +177,6 @@
         "url": "https:\/\/en.wikipedia.org\/wiki\/Words_per_minute",
         "tag": "#word #language",
         "time": 1741430523,
-        "rightFooter": ""
-    },
-    {
-        "id": "117",
-        "text": "Do it yourself - Wikipedia",
-        "text2": "\"Do it yourself\" (\"DIY\") is the method of building, modifying, or repairing things by oneself without the direct aid of professionals or certified experts. Academic research has described DIY as behaviors where \"individuals use raw and semi-raw materials and parts to produce, transform, or reconstruct material possessions, including those drawn from the natural environment (e.g., landscaping)\".[1] DIY behavior can be triggered by various motivations previously categorized as marketplace motivations (economic benefits, lack of product availability, lack of product quality, need for customization), and identity enhancement (craftsmanship, empowerment, community seeking, uniqueness).[2]",
-        "text3": "",
-        "url": "https:\/\/en.wikipedia.org\/wiki\/Do_it_yourself",
-        "tag": "#language",
-        "time": 1741161381,
         "rightFooter": ""
     },
     {
@@ -40,16 +200,6 @@
         "rightFooter": ""
     },
     {
-        "id": "114",
-        "text": "MP3 - Wikipedia",
-        "text2": "MP3 (formally MPEG-1 Audio Layer III or MPEG-2 Audio Layer III)[4] is a coding format for digital audio developed largely by the Fraunhofer Society in Germany under the lead of Karlheinz Brandenburg.[11][12] It was designed to greatly reduce the amount of data required to represent audio, yet still sound like a faithful reproduction of the original uncompressed audio to most listeners; for example, compared to CD-quality digital audio, MP3 compression can commonly achieve a 75\u201395% reduction in size, depending on the bit rate.[13] In popular usage, MP3 often refers to files of sound or music recordings stored in the MP3 file format (.mp3) on consumer electronic devices.",
-        "text3": "",
-        "url": "https:\/\/en.wikipedia.org\/wiki\/MP3",
-        "tag": "#file #format #audio #music",
-        "time": 1741079079,
-        "rightFooter": ""
-    },
-    {
         "id": "112",
         "text": "Illustration - Wikipedia",
         "text2": "An illustration is a decoration, interpretation, or visual explanation of a text, concept, or process,[1] designed for integration in print and digitally published media, such as posters, flyers, magazines, books, teaching materials, animations, video games and films. An illustration is typically created by an illustrator. Digital illustrations are often used to make websites and apps more user-friendly, such as the use of emojis to accompany digital type.[2] Illustration also means providing an example; either in writing or in picture form.",
@@ -67,16 +217,6 @@
         "url": "https:\/\/en.wikipedia.org\/wiki\/Drawing",
         "tag": "",
         "time": 1741078883,
-        "rightFooter": ""
-    },
-    {
-        "id": "110",
-        "text": "History - Wikipedia",
-        "text2": "History is the systematic study of the past. As an academic discipline, it analyzes and interprets evidence to construct narratives about what happened and explain why it happened, focusing primarily on the human past. Some theorists categorize history as a social science, while others see it as part of the humanities or consider it a hybrid discipline. Similar debates surround the purpose of history, for example, whether its main aim is theoretical, to uncover the truth, or practical, to learn lessons from the past. In a slightly different sense, the term history refers not to an academic field but to the past itself or to individual texts about the past.",
-        "text3": "",
-        "url": "https:\/\/en.wikipedia.org\/wiki\/History",
-        "tag": "#word",
-        "time": 1741078840,
         "rightFooter": ""
     },
     {
@@ -120,16 +260,6 @@
         "rightFooter": ""
     },
     {
-        "id": "99",
-        "text": "Thursday - Wikipedia",
-        "text2": "Thunor's day\r\n\r\nThe name is derived from Old English \u00feunresd\u00e6g and Middle English Thuresday. It was named after the Old English god Thunor.[3] Thunor and Thor are derived from the name of the Germanic god of thunder, *Thunraz, equivalent to Jupiter in the interpretatio romana.",
-        "text3": "",
-        "url": "https:\/\/en.wikipedia.org\/wiki\/Thursday",
-        "tag": "#word",
-        "time": 1740777074,
-        "rightFooter": ""
-    },
-    {
         "id": "97",
         "text": "Internet - Wikipedia",
         "text2": "The Internet (or internet)[a] is the global system of interconnected computer networks that uses the Internet protocol suite (TCP\/IP)[b] to communicate between networks and devices. It is a network of networks that consists of private, public, academic, business, and government networks of local to global scope, linked by a broad array of electronic, wireless, and optical networking technologies. The Internet carries a vast range of information resources and services, such as the interlinked hypertext documents and applications of the World Wide Web (WWW), electronic mail, internet telephony, and file sharing.",
@@ -147,26 +277,6 @@
         "url": "https:\/\/en.wikipedia.org\/wiki\/Large_language_model",
         "tag": "#AI",
         "time": 1739986417,
-        "rightFooter": ""
-    },
-    {
-        "id": "92",
-        "text": "Abbreviation - Wikipedia",
-        "text2": "An abbreviation (from Latin brevis, meaning \"short\"[1]) is a shortened form of a word or phrase, by any method including shortening, contraction, initialism (which includes acronym) or crasis. An abbreviation may be a shortened form of a word, usually ended with a trailing period. For example: etc. is the usual abbreviation for et cetera.",
-        "text3": "",
-        "url": "https:\/\/en.wikipedia.org\/wiki\/Abbreviation",
-        "tag": "#language",
-        "time": 1739823091,
-        "rightFooter": ""
-    },
-    {
-        "id": "91",
-        "text": "Acronym - Wikipedia",
-        "text2": "An acronym is a type of abbreviation consisting of a phrase whose only pronounced elements are the initial letters or initial sounds of words inside that phrase. Acronyms are often spelled with the initial letter of each word in all caps with no punctuation.",
-        "text3": "",
-        "url": "https:\/\/en.wikipedia.org\/wiki\/Acronym",
-        "tag": "#language",
-        "time": 1739822672,
         "rightFooter": ""
     },
     {
@@ -197,16 +307,6 @@
         "url": "https:\/\/en.wikipedia.org\/wiki\/Slashdot_effect",
         "tag": "#technology",
         "time": 1739167903,
-        "rightFooter": ""
-    },
-    {
-        "id": "78",
-        "text": "Inflation - Wikipedia",
-        "text2": "In economics, inflation is a general increase in the prices of goods and services in an economy. This is usually measured using a consumer price index (CPI).[3][4][5][6] When the general price level rises, each unit of currency buys fewer goods and services; consequently, inflation corresponds to a reduction in the purchasing power of money.[7][8] The opposite of CPI inflation is deflation, a decrease in the general price level of goods and services. The common measure of inflation is the inflation rate, the annualized percentage change in a general price index.[9] As prices faced by households do not all increase at the same rate, the consumer price index (CPI) is often used for this purpose.",
-        "text3": "",
-        "url": "https:\/\/en.wikipedia.org\/wiki\/Inflation",
-        "tag": "#economy",
-        "time": 1733553012,
         "rightFooter": ""
     },
     {
@@ -250,36 +350,6 @@
         "rightFooter": ""
     },
     {
-        "id": "59",
-        "text": "Science fiction - Wikipedia",
-        "text2": "Science fiction (sometimes shortened to SF or sci-fi) is a genre of speculative fiction, which typically deals with imaginative and futuristic concepts such as advanced science and technology, space exploration, time travel, parallel universes, and extraterrestrial life. It is related to fantasy, horror, and superhero fiction and contains many subgenres. Its exact definition has long been disputed among authors, critics, scholars, and readers.",
-        "text3": "",
-        "url": "https:\/\/en.wikipedia.org\/wiki\/Science_fiction",
-        "tag": "#empty",
-        "time": 1719906563,
-        "rightFooter": ""
-    },
-    {
-        "id": "58",
-        "text": "Novel - Wikipedia",
-        "text2": "A novel is an extended work of narrative fiction usually written in prose and published as a book.[1] The English word to describe such a work derives from the Italian: novella for \"new\", \"news\", or \"short story (of something new)\", itself from the Latin: novella, a singular noun use of the neuter plural of novellus, diminutive of novus, meaning \"new\".[2] According to Margaret Doody, the novel has \"a continuous and comprehensive history of about two thousand years\", with its origins in the Ancient Greek and Roman novel, Medieval Chivalric romance, and in the tradition of the Italian Renaissance novella.[3] The ancient romance form was revived by Romanticism, in the historical romances of Walter Scott and the Gothic novel.[4] Some novelists, including Nathaniel Hawthorne,[5] Herman Melville,[6] Ann Radcliffe,[7] and John Cowper Powys,[8] preferred the term \"romance\". M. H. Abrams and Walter Scott have argued that a novel is a fiction narrative that displays a realistic depiction of the state of a society, while the romance encompasses any fictitious narrative that emphasizes marvellous or uncommon incidents.[9][10][11] Works of fiction that include marvellous or uncommon incidents are also novels, including Mary Shelley's Frankenstein,[12] J. R. R. Tolkien's The Lord of the Rings,[13] and Harper Lee's To Kill a Mockingbird.[14] Such \"romances\" should not be confused with the genre fiction romance novel, which focuses on romantic love.",
-        "text3": "",
-        "url": "https:\/\/en.wikipedia.org\/wiki\/Novel",
-        "tag": "#empty",
-        "time": 1719906492,
-        "rightFooter": ""
-    },
-    {
-        "id": "47",
-        "text": "Conversation - Wikipedia",
-        "text2": "Conversation is interactive communication between two or more people. The development of conversational skills and etiquette is an important part of socialization. The development of conversational skills in a new language is a frequent focus of language teaching and learning. Conversation analysis is a branch of sociology which studies the structure and organization of human interaction, with a more specific focus on conversational interaction.",
-        "text3": "",
-        "url": "https:\/\/en.wikipedia.org\/wiki\/Conversation",
-        "tag": "#empty",
-        "time": 1719568909,
-        "rightFooter": ""
-    },
-    {
         "id": "46",
         "text": "Video - Wikipedia",
         "text2": "Video is an electronic medium for the recording, copying, playback, broadcasting, and display of moving visual media.[1] Video was first developed for mechanical television systems, which were quickly replaced by cathode-ray tube (CRT) systems, which, in turn, were replaced by flat-panel displays of several types.",
@@ -307,26 +377,6 @@
         "url": "https:\/\/en.wikipedia.org\/wiki\/Virtual_assistant",
         "tag": "#technology",
         "time": 1719568806,
-        "rightFooter": ""
-    },
-    {
-        "id": "43",
-        "text": "Marketing - Wikipedia",
-        "text2": "Marketing is the act of satisfying and retaining customers.[3] It is one of the primary components of business management and commerce.[4]",
-        "text3": "",
-        "url": "https:\/\/en.wikipedia.org\/wiki\/Marketing",
-        "tag": "#empty",
-        "time": 1719568736,
-        "rightFooter": ""
-    },
-    {
-        "id": "42",
-        "text": "Advertising - Wikipedia",
-        "text2": "Advertising is the practice and techniques employed to bring attention to a product or service. Advertising aims to put a product or service in the spotlight in hopes of drawing it attention from consumers. It is typically used to promote a specific good or service, but there are wide range of uses, the most common being the commercial advertisement.",
-        "text3": "",
-        "url": "https:\/\/en.wikipedia.org\/wiki\/Advertising",
-        "tag": "#language #word",
-        "time": 1719568707,
         "rightFooter": ""
     },
     {
@@ -417,16 +467,6 @@
         "url": "https:\/\/en.wikipedia.org\/wiki\/Idea",
         "tag": "#language #word",
         "time": 1719568392,
-        "rightFooter": ""
-    },
-    {
-        "id": "30",
-        "text": "Narrative - Wikipedia",
-        "text2": "A narrative, story, or tale is any account of a series of related events or experiences,[1][2] whether non-fictional (memoir, biography, news report, documentary, travelogue, etc.) or fictional (fairy tale, fable, legend, thriller, novel, etc.).[3][4][5] Narratives can be presented through a sequence of written or spoken words, through still or moving images, or through any combination of these. The word derives from the Latin verb narrare (\"to tell\"), which is derived from the adjective gnarus (\"knowing or skilled\").[6][7] The formal and literary process of constructing a narrative\u2014narration\u2014is one of the four traditional rhetorical modes of discourse, along with argumentation, description, and exposition. This is a somewhat distinct usage from narration in the narrower sense of a commentary used to convey a story. Many additional narrative techniques, particularly literary ones, are used to build and enhance any given story.",
-        "text3": "",
-        "url": "https:\/\/en.wikipedia.org\/wiki\/Narrative",
-        "tag": "#language",
-        "time": 1719568301,
         "rightFooter": ""
     },
     {

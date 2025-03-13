@@ -14,10 +14,10 @@ document.querySelector(".txt").value = q;
 }
 
 
-
+if (q != null&&q != ""){
 //https://dvcs.w3.org/hg/speech-api/raw-file/tip/webspeechapi
   var u = new SpeechSynthesisUtterance();
-  u.text = inputTxt.value;
+  u.text = q;
   u.lang = 'en-US';
   u.rate = 1.2;
   u.onend = function(event) {
@@ -25,3 +25,4 @@ document.querySelector(".txt").value = q;
 }
   speechSynthesis.speak(u);
 
+}

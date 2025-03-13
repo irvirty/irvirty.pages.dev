@@ -209,6 +209,7 @@ text-align: center;
 padding: 1px;
 border: 2px dashed color-mix(in srgb, var(--brand) 50%, transparent);
 opacity: 1;
+transition: transform .250s ease-in-out;
 }
 
 .logo:hover, .logo2:hover{

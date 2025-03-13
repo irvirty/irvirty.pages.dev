@@ -1,5 +1,9 @@
 // v.1.0.0
 
+var geturl = location.href;
+var url = new URL(geturl);
+var q = url.searchParams.get("q");
+
 
 function printAllColors(q){
 
@@ -255,9 +259,16 @@ document.getElementById("result").innerHTML = print;
 
 
 
+
+
+if (q != null&&q != ""){
+printAllColors(q);
+if (document.getElementById("q") != null){
+document.getElementById("q").value = q; 
+}
+} else {
 printAllColors();
-
-
+}
 
 
 //https://stackoverflow.com/questions/26946235/pure-javascript-listen-to-input-value-change

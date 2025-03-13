@@ -4,7 +4,8 @@
 var  geturl = window.location;
 var url = new URL(geturl);
 var q = url.searchParams.get("q");
-if(q == null){ q = 1000; }
+q = Number(q);
+if(q == null||isNaN(q)){ q = 1000; }
 
 let letter = "abcde fghijk lmnop qrstu vwxyz ";
 letter = [...letter];

@@ -1,5 +1,45 @@
 [
     {
+        "id": "96",
+        "text": "isNaN() - JavaScript | MDN",
+        "text2": "===\r\nfunction milliseconds(x) {\r\n  if (isNaN(x)) {\r\n    return \"Not a Number!\";\r\n  }\r\n  return x * 1000;\r\n}\r\n\r\nconsole.log(milliseconds(\"100F\"));\r\n\/\/ Expected output: \"Not a Number!\"\r\n\r\nconsole.log(milliseconds(\"0.0314E+2\"));\r\n\/\/ Expected output: 3140",
+        "text3": "",
+        "url": "https:\/\/developer.mozilla.org\/en-US\/docs\/Web\/JavaScript\/Reference\/Global_Objects\/isNaN",
+        "tag": "#JavaScript #JS",
+        "time": 1741880494,
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/notes\/?id=96\">id<\/a>"
+    },
+    {
+        "id": "95",
+        "text": "Response: text() method - Web APIs | MDN",
+        "text2": "===\r\ntext()",
+        "text3": "",
+        "url": "https:\/\/developer.mozilla.org\/en-US\/docs\/Web\/API\/Response\/text",
+        "tag": "#JavaScript #JS",
+        "time": 1741872304,
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/notes\/?id=95\">id<\/a>"
+    },
+    {
+        "id": "94",
+        "text": "Date.prototype.getDate() - JavaScript | MDN",
+        "text2": "===\r\nconst birthday = new Date(\"August 19, 1975 23:15:30\");\r\nconst date1 = birthday.getDate();\r\n\r\nconsole.log(date1);\r\n\/\/ Expected output: 19",
+        "text3": "",
+        "url": "https:\/\/developer.mozilla.org\/en-US\/docs\/Web\/JavaScript\/Reference\/Global_Objects\/Date\/getDate",
+        "tag": "#JS #code #DayOfTheMonth",
+        "time": 1741867014,
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/notes\/?id=94\">id<\/a>"
+    },
+    {
+        "id": "93",
+        "text": "Date.prototype.getDay() - JavaScript | MDN",
+        "text2": "===\r\nconst valentines = new Date(\"1995-02-14\");\r\nconst day = valentines.getDay();\r\nconst dayNames = [\"Sunday\", \"Monday\", \"Tuesday\" \/* , \u2026 *\/];\r\n\r\nconsole.log(dayNames[day]); \/\/ \"Monday\"",
+        "text3": "",
+        "url": "https:\/\/developer.mozilla.org\/en-US\/docs\/Web\/JavaScript\/Reference\/Global_Objects\/Date\/getDay",
+        "tag": "#code #coding #JavaScript #JS",
+        "time": 1741866428,
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/notes\/?id=93\">id<\/a>"
+    },
+    {
         "id": "92",
         "text": "css variables - Using negative CSS Custom Properties - Stack Overflow",
         "text2": "===\r\n\/\/ Vanilla CSS\r\n.class {\r\n  margin-bottom: calc(var(--margin-md) * -1);\r\n}",

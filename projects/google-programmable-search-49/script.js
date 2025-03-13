@@ -1,4 +1,4 @@
-// v.1.2.1
+// v.1.3.0
 
 var geturl = location.href;
 var url = new URL(geturl);
@@ -57,19 +57,19 @@ if(qGQ != ''){ qGQ = encodeURIComponent(qGQ); }
 
 
 // config
-var lQModePrint = `<a class="brand tag" href="./?q=">start</a>`;
+var lQModePrint = `<a class="brand light tag border borderRadius2 small" href="./?q=">start</a>`;
 
 var lQMode = [
-{"name":"Web", "comName":"web", "code":"74e19ee10195d4644"},
-{"name":"Latest", "comName":"latest", "code":"974cdfc30e536405d"},
-{"name":"Blogs", "comName":"blogs", "code":"653a54ad99a1442eb"},
-{"name":"Videos", "comName":"videos", "code":"66e67d2cd1ec94b3b"},
-{"name":"Static Sites", "comName":"static", "code":"4015813ba11b24317"},
-//{"name":"github.io", "comName":"github", "code":"614f3596881c64f5f"},
-//{"name":"pages.dev", "comName":"pages", "code":"c1bb12232f9de476e"},
-//{"name":"neocities.org", "comName":"neocities", "code":"a3a8da84c5ed74909"},
-{"name":"Custom", "comName":"custom", "code":"2460fb11690ab4ead"},
-{"name":"Site", "comName":"site", "code":"b365e22a8d8494f9f"},
+{"name":"Web", "title":"Web seach", "comName":"web", "code":"74e19ee10195d4644"},
+{"name":"Latest", "title":"Web search (Latest result)", "comName":"latest", "code":"974cdfc30e536405d"},
+{"name":"Blogs", "title":"Blogs", "comName":"blogs", "code":"653a54ad99a1442eb"},
+{"name":"Videos", "title":"Videos", "comName":"videos", "code":"66e67d2cd1ec94b3b"},
+{"name":"Static", "title":"Static Sites", "comName":"static", "code":"4015813ba11b24317"},
+//{"name":"github.io", "title":"", "comName":"github", "code":"614f3596881c64f5f"},
+//{"name":"pages.dev", "title":"", "comName":"pages", "code":"c1bb12232f9de476e"},
+//{"name":"neocities.org", "title":"", "comName":"neocities", "code":"a3a8da84c5ed74909"},
+{"name":"Custom", "title":"Suctom", "comName":"custom", "code":"2460fb11690ab4ead"},
+{"name":"Site", "title":"Site search", "comName":"site", "code":"b365e22a8d8494f9f"},
 ];
 
 
@@ -84,16 +84,16 @@ qGQ = e.target.value;
 qGQ = encodeURIComponent(qGQ);
 
 lQModePrint = "";
-lQModePrint = `<a class="brand tag" href="./?q=">start</a>`;
+lQModePrint = `<a class="brand light tag border borderRadius2 small" href="./?q=">start</a>`;
 
 lQMode.forEach((item, item2) => {
 if (item["comName"] == qGMode){
 lQModePrint += `
-<a class="brand active2 light3 tag border borderRadius2" href="?mode=${item["comName"]}&q=${qGQ}">${item["name"]}</a>
+<a class="brand active2 light3 tag border borderRadius2 small" title="${item["title"]}" href="?mode=${item["title"]}&q=${qGQ}">${item["name"]}</a>
 `;
 } else {
 lQModePrint += `
-<a class="brand tag light3 border borderRadius2" href="?mode=${item["comName"]}&q=${qGQ}">${item["name"]}</a>
+<a class="brand tag light3 border borderRadius2 small" title="${item["title"]}" href="?mode=${item["comName"]}&q=${qGQ}">${item["name"]}</a>
 `;
 }
 });
@@ -107,11 +107,11 @@ document.getElementById("mode").innerHTML = `${lQModePrint}`;
 lQMode.forEach((item, item2) => {
 if (item["comName"] == qGMode){
 lQModePrint += `
-<a class="brand active2 light3 tag border borderRadius2" href="?mode=${item["comName"]}&q=${qGQ}">${item["name"]}</a>
+<a class="brand active2 light3 tag border borderRadius2 small" title="${item["title"]}" href="?mode=${item["comName"]}&q=${qGQ}">${item["name"]}</a>
 `;
 } else {
 lQModePrint += `
-<a class="brand tag light2 border borderRadius2" href="?mode=${item["comName"]}&q=${qGQ}">${item["name"]}</a>
+<a class="brand tag light2 border borderRadius2 small" title="${item["title"]}" href="?mode=${item["comName"]}&q=${qGQ}">${item["name"]}</a>
 `;
 }
 });
@@ -122,7 +122,7 @@ lQMode.forEach((item, item2) => {
 if (item["comName"] == qGMode){
 
 document.getElementById("publicUrl").innerHTML = `
-<a class="tag2 borderBottomBlue brand" href="https://cse.google.com/cse?cx=${item["code"]}">Public URL</a>
+<a class="tag2 borderBottomBlue brand small" title="${item["title"]}" href="https://cse.google.com/cse?cx=${item["code"]}">Public URL</a>
 `;
 
 if (q != null&&q != ""){

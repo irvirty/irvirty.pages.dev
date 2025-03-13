@@ -69,7 +69,7 @@ printTagList += (' ' + postTag + ' ');
 let qSearch = "";
 if(q2 != ''){
 //qSearch = String(q.toLowerCase()).replaceAll(/ /g, "|"); //if((qData).search(qSearch) != -1){}
-qSearch = decodeURIComponent(q2);
+qSearch = q2;
 qSearch = String(qSearch).toLowerCase();
 }
 
@@ -83,7 +83,7 @@ arrListForRandom.push(key);
 
 i++;
 total = i;
-comMessagePrint = `<b class="tCenter">${q2} ${i}</b>`;
+comMessagePrint = `${q2} ${i}`;
 //document.getElementsByTagName('title')[0].innerHTML = `${q2} |` + domainNameToTitle;
 }
 });
@@ -93,7 +93,7 @@ getP2 = Math.floor(Math.random() * arrListForRandom.length);
 id = arrListForRandom[getP2];
 checkNotFound = '';
 }else{
-comMessagePrint = '<span class="red h3 bold">not found</span>';
+comMessagePrint = 'not found';
 //id = getRandomInt(jsonVar.length);
 //comMessagePrint += '<span class=""> random id: '+id+'</span>';
 checkNotFound = 'found';
@@ -108,9 +108,12 @@ document.getElementById("lPrint").innerHTML = `
 
 
 
+
+
 document.getElementById('msg').innerHTML = `
-<div class="block padding2 margin2 tCenter">${comMessagePrint}</div>
+<div class="block padding2 margin2 tCenter"><span id="msg2"></span></div>
 `;
+document.getElementById('msg2').innerText = `${comMessagePrint}`;
 
 if(q == "#music"){ id = getRandomInt(jsonVar.length); }
 
@@ -479,7 +482,7 @@ tagListCount = Object.keys(tagListCountLimited).sort().reduce(
 Object.values(tagListCount).forEach(function (x) {
 tagTotal = tagTotal+x;
 });
-tagAverage = tagTotal/Object.values(tagListCount).length;
+tagAverage = tagTotal / Object.values(tagListCount).length;
 
 
 
@@ -637,7 +640,7 @@ document.getElementById('taglist').innerHTML += `
 <div class="wrapper3">
 
 <div class="small padding2 op">list of tags:</div>
-`+tagList(printTagList)+`
+` + tagList(printTagList) + `
 </div>
 </div>
 `;
@@ -649,7 +652,7 @@ document.getElementById('taglist').innerHTML +=  `
 <div id="form" class="wrapperSmall">
 <form method="GET" style="margin-top: 0px;" action="?">
 <label id="search" class="op block tLeft xSmall">search and tag:</label>
-<input id="input" class="padding2 op" type="search" style="text-align: center;" name="q"  autocomplete="off" placeholder="" value="${q}">
+<input id="input" class="padding2 op" type="search" style="text-align: center;" name="q"  autocomplete="off" placeholder="">
 
 <input class="op padding2 small submit" style="min-height: 1px;" type="submit">
 
@@ -660,6 +663,8 @@ document.getElementById('taglist').innerHTML +=  `
 <span class="xSmall op block tCenter margin2 padding2">total: ${jsonVar.length}</span>
 </div>
 `;
+
+document.getElementById('input').value = q;
 
 
 

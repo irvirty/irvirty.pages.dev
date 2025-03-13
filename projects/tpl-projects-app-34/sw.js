@@ -23,9 +23,8 @@ caches.open(version).then((cache) => cache.addAll([
 '/js/main.js',
 '/js/ad.js',
 '/data/adsJsonVar.js',
-'/css/light.css',
-'/css/dark.css',
-'/css/style-main.css',
+'/css/auto.css',
+'/css/main.css',
 
 'index.html',
 'style.css',

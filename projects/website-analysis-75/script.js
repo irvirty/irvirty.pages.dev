@@ -21,14 +21,18 @@ analysis(q);
 analysis2(q);
 
 localStorage.setItem("websiteAnalysisQ", q);
+let qGo = encodeURIComponent(q);
 document.getElementById("lastAnalyzed").innerHTML = `
-<a class="brand" href="?q=${q}">${q}</a>
+<a class="brand" href="?q=${qGo}"><span id="lastAnalyzed2"></span></a>
 `;
+document.getElementById("lastAnalyzed2").innerText = q;
 } else if(localStorage.getItem("websiteAnalysisQ") != null&&localStorage.getItem("websiteAnalysisQ") != ""){
 q = localStorage.getItem("websiteAnalysisQ");
+let qGo = encodeURIComponent(q);
 document.getElementById("lastAnalyzed").innerHTML = `
-<a class="brand" href="?q=${q}">${q}</a>
+<a class="brand" href="?q=${qGo}"><span id="lastAnalyzed2"></span></a>
 `;
+document.getElementById("lastAnalyzed2").innerText = q;
 }
 
 analysis3();
@@ -77,13 +81,13 @@ let data = [
 },
 {
 "text":"Bing check indexing",
-"text2":`https://www.bing.com/search?q=site:%q2`,
+"text2":`https://www.bing.com/search?q=site:%q2&form=somesite`,
 "text3":"1.2",
 "text4":""
 },
 {
 "text":"Bing search for links",
-"text2":`https://www.bing.com/search?q=&plus;%2B%q2`,
+"text2":`https://www.bing.com/search?q=&plus;%2B%q2&form=somesite`,
 "text3":"1.2",
 "text4":""
 },
@@ -107,28 +111,42 @@ print += `
 
 `;
 
+let counterA = 1;
 //alert(encodeURIComponent('"'));
 data.forEach((val, index) => {
 
-val["text2"] = val["text2"].replace("%q2", q2);
-val["text2"] = val["text2"].replace("%q", q);
 
-print += `
+let q2Go = encodeURIComponent(q2);
+let qGo = encodeURIComponent(q);
+let goUrl = val["text2"];
+goUrl = goUrl.replace("%q2", q2Go);
+goUrl = goUrl.replace("%q", qGo);
+
+let goUrlText = val["text2"];
+goUrlText = goUrlText.replace("%q2", q2);
+goUrlText = goUrlText.replace("%q", q);
+
+
+
+document.getElementById("result2").innerHTML += `
 
 <div class="bgList border3List borderRadius2">
-<a target="blank" href="${val["text2"]}">
+<a target="blank" href="${goUrl}">
 <div class="padding2 tLeft">
-${val["text"]} - <span class="brand">${val["text2"]}</span>
+${val["text"]} - <span class="brand"><span id="text2${counterA}"></span></span>
 </div>
 </a>
 </div>
 
 `;
 
+document.getElementById("text2" + counterA).innerText = goUrlText;
+
+counterA++;
 });
 
 
-document.getElementById("result2").innerHTML = print; 
+//document.getElementById("result2").innerHTML = print; 
 print = ``;
 
 document.getElementById("result").innerHTML = `
@@ -166,7 +184,7 @@ console.log(doc);
 
 text = `Response status: ${response.status}<hr>`;
 
-text += `<div>HTMLDocument:</div><div class="padding2"></div>`;
+//text += `<div>HTMLDocument:</div><div class="padding2"></div>`;
 
 text += `
 <div class="result2">
@@ -181,7 +199,7 @@ Comment:
 color = "";
 
 
-text += `
+/*text += `
 <div class="result2">
 <div class="light3 padding2 borderRadius border">URL:</div>
 <div class="light3 padding2 borderRadius border">${doc["URL"]}</div>
@@ -190,7 +208,7 @@ text += `
 </div>
 </div>
 `;
-color = "";
+color = "";*/
 
 
 text += `

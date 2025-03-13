@@ -24,12 +24,16 @@ printColor(color, opacity);
 
 
 function printColor(color, opacity){
+
+//https://stackoverflow.com/questions/388996/regex-for-javascript-to-allow-only-alphanumeric
+//alert(color);
+color = '#' + (color.replace(/[^a-z0-9]/gi, ''));
+
 document.getElementById("block33").style.backgroundColor = `color-mix(in srgb, ${color} ${opacity}%, transparent)`;
 
 let rgb = String(hexToRgb(color.replace("#", "")));
-document.getElementById("result").innerHTML = `
+document.getElementById("result").innerText = `
 ${color}
-<br>
 rgb(${rgb})
 `;
 document.getElementById("color").value = color;
