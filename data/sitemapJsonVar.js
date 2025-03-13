@@ -953,16 +953,16 @@ var sitemapJsonVar = [
     },
     {
         "text": "To Do List\n\nTo-do, todo list. It's a simple to-do list with the ability to pin tasks as daily. (Task list, tasks). | todo list: ",
-        "url": "\/projects\/todo-list-0\/index.html",
+        "url": "\/projects\/todo-list-31\/index.html",
         "tag": " #todo #task #tool #JavaScript #project",
-        "id": "3a2cbda581157fea34a8bd32fce8b64e",
+        "id": "25bac8c7ef282c01977ecafa4f3f789c",
         "time": "id"
     },
     {
         "text": "To Do list ideas\n\nThis is a simple list of ideas based on the [todo list] script. (Idea list). | todo list ideas: ",
-        "url": "\/projects\/todo-list-ideas-00\/index.html",
+        "url": "\/projects\/todo-list-ideas-32\/index.html",
         "tag": " #todo #idea #tool #JavaScript #project",
-        "id": "312bd176d23bcabcb682d243ee8f30f3",
+        "id": "98ad9a9c4d9b4d0c5a9ede137fdd6f02",
         "time": "id"
     },
     {
