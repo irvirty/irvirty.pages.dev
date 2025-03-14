@@ -24,6 +24,8 @@ let randomWord = wordOfTheDay;
 if (q != null&&q != ''||wordOfTheDayTime != dayOfTheMonth||wordOfTheDayTime == null||wordOfTheDay == null){
 randomWord = Math.floor(Math.random() * wordJsonVar.length);
 randomWord = wordJsonVar[randomWord]["text2"];
+randomWord = randomWord.split(`
+`)[0];
 
 if (q != null&&q != ''){
 randomWord = q;
@@ -89,13 +91,15 @@ randomWordButtons += `
 <a ${randomWordButtonsCode} href="https://www.britannica.com/search?query=${randomWordGo}">Britannica</a>
 <a ${randomWordButtonsCode} href="https://www.worldhistory.org/search/?q=${randomWordGo}">World History</a>
 <a ${randomWordButtonsCode} href="https://www.thefreedictionary.com/${randomWordGo}">The Free Dictionary</a>
-<a ${randomWordButtonsCode} href="https://www.urbandictionary.com/define.php?term=${randomWordGo}">Urban Dictionary</a>
 <a ${randomWordButtonsCode} href="https://www.vocabulary.com/dictionary/${randomWordGo}">Vocabulary.com</a>
+<a ${randomWordButtonsCode} href="https://www.urbandictionary.com/define.php?term=${randomWordGo}">Urban Dictionary</a>
 <a ${randomWordButtonsCode} href="https://www.etymonline.com/search?q=${randomWordGo}">Etymonline</a>
 </div>
 
 `;
 
+
+let hashTagGo = encodeURIComponent(randomWord.replaceAll(' ', ''));
 
 randomWordButtons += `
 
@@ -104,10 +108,10 @@ randomWordButtons += `
 <div class="hotLinks">
 <a ${randomWordButtonsCode} href="https://www.google.com/search?q=${randomWordGo}">Google</a>
 <a ${randomWordButtonsCode} href="https://www.bing.com/search?q=${randomWordGo}">Bing</a>
-<a ${randomWordButtonsCode} href="/?q=${randomWord} n">News</a>
-<a ${randomWordButtonsCode} href="/?q=${randomWord} v">Video</a>
-<a ${randomWordButtonsCode} href="/?q=${randomWord} s">Social Network</a>
-<a ${randomWordButtonsCode} href="/?q=${randomWord} ht">Hashtag</a>
+<a ${randomWordButtonsCode} href="/?q=${randomWordGo} n">News</a>
+<a ${randomWordButtonsCode} href="/?q=${randomWordGo} v">Video</a>
+<a ${randomWordButtonsCode} href="/?q=${randomWordGo} s">Social Network</a>
+<a ${randomWordButtonsCode} href="/?q=${hashTagGo} ht">Hashtag</a>
 </div>
 
 `;
@@ -116,22 +120,17 @@ randomWordButtons += `
 
 <div class="padding2 margin2"></div>
 <hr>
-<div class="small paddingList">Other:</div>
-<div class="hotLinks">
-<a ${randomWordButtonsCode} href="#clear" onclick="wordOfTheDayClear();return false;"><span class="op red bold">C</span>lear and reload</a>
-</div>
-
-`;
-
-
-randomWordButtons += `
-
-<hr>
 <form action="./" method="get" class="form-example">
 <label for="name" class="small">Text: </label>
 <input type="text" name="q" id="q" required>
 <input class="submit small" type="submit">
 </form>
+
+<hr>
+<div class="small paddingList">Other:</div>
+<div class="hotLinks">
+<a ${randomWordButtonsCode} href="#clear" onclick="wordOfTheDayClear();return false;"><span class="op red bold">C</span>lear and reload</a>
+</div>
 
 `;
 
