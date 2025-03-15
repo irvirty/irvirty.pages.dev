@@ -1,5 +1,15 @@
 [
     {
+        "id": "97",
+        "text": "<input type=\"reset\"> - HTML: HyperText Markup Language | MDN",
+        "text2": "===\r\n<form>\r\n  <div class=\"controls\">\r\n    <label for=\"id\">User ID:<\/label>\r\n    <input type=\"text\" id=\"id\" name=\"id\" \/>\r\n\r\n    <input type=\"reset\" value=\"Reset\" \/>\r\n    <input type=\"submit\" value=\"Submit\" \/>\r\n  <\/div>\r\n<\/form>",
+        "text3": "",
+        "url": "https:\/\/developer.mozilla.org\/en-US\/docs\/Web\/HTML\/Element\/input\/reset",
+        "tag": "",
+        "time": 1742056896,
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/notes\/?id=97\">id<\/a>"
+    },
+    {
         "id": "96",
         "text": "isNaN() - JavaScript | MDN",
         "text2": "===\r\nfunction milliseconds(x) {\r\n  if (isNaN(x)) {\r\n    return \"Not a Number!\";\r\n  }\r\n  return x * 1000;\r\n}\r\n\r\nconsole.log(milliseconds(\"100F\"));\r\n\/\/ Expected output: \"Not a Number!\"\r\n\r\nconsole.log(milliseconds(\"0.0314E+2\"));\r\n\/\/ Expected output: 3140",

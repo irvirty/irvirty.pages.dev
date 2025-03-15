@@ -666,9 +666,9 @@ var sitemapJsonVar = [
     },
     {
         "text": "Speech synthesiser, text to speech\n\nSpeech synthesiser, text to speech. TTS. | text to speech: ",
-        "url": "\/projects\/text-to-speech\/index.html",
+        "url": "\/projects\/text-to-speech-64\/index.html",
         "tag": " #speech #tts #JavaScript #project",
-        "id": "1f9706dc2b7d26b4448831dca9a9a566",
+        "id": "4fee81e5d19d8f77600fbd4026a80305",
         "time": "id"
     },
     {
@@ -995,9 +995,9 @@ var sitemapJsonVar = [
     },
     {
         "text": "Virtual Keyboard\n\nVirtual Keyboard | virtual keyboard: ",
-        "url": "\/projects\/virtual-keyboard\/index.html",
+        "url": "\/projects\/virtual-keyboard-72\/index.html",
         "tag": " #virtual #keyboard #CSS #JavaScript #project",
-        "id": "c1bbcea888ee5d1b9264588e4f4c62df",
+        "id": "5724c681b64b444f4a83e0f628ef66bb",
         "time": "id"
     },
     {
