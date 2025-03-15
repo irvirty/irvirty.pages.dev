@@ -120,17 +120,19 @@ randomWordButtons += `
 
 <div class="padding2 margin2"></div>
 <hr>
+<div class="small paddingList">Other:</div>
+<div class="hotLinks">
+<a class="submit button brand small" href="#clear" onclick="wordOfTheDayClear();return false;"><span class="op red bold">C</span>lear and reload</a>
+</div>
+
+<hr>
 <form action="./" method="get" class="form-example">
 <label for="name" class="small">Text: </label>
 <input type="text" name="q" id="q" required>
 <input class="submit small" type="submit">
 </form>
 
-<hr>
-<div class="small paddingList">Other:</div>
-<div class="hotLinks">
-<a ${randomWordButtonsCode} href="#clear" onclick="wordOfTheDayClear();return false;"><span class="op red bold">C</span>lear and reload</a>
-</div>
+
 
 `;
 
