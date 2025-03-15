@@ -3,6 +3,16 @@ var postsJsonVar =
 
 [
     {
+        "id": "42",
+        "text": "If a code seems unnecessary and you want to delete it, be careful because that code probably was used in other places.",
+        "text2": "",
+        "text3": "",
+        "url": "",
+        "tag": "#coding #CSS",
+        "time": 1742032916,
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/posts\/?id=42\">id<\/a>"
+    },
+    {
         "id": "26",
         "text": "Perhaps writing texts is an additional good practice for language learning. When you begin writing a text, then you start to think and look for words to use; this may refresh your memories of learned words, and you need to look for new words to use when writing a text, blog post, or article and to learn these new words.",
         "text2": "",

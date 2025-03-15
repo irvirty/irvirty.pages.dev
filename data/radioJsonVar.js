@@ -30,6 +30,15 @@ var radioJsonVar =
         "rightFooter": ""
     },
     {
+        "text": "100% NL, 104.4 FM, Amsterdam, Netherlands | Free Internet Radio | TuneIn",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/tunein.com\/radio\/100-NL-1044-s76590\/",
+        "tag": "#radio #RadioMusic #top40 #PopMusic",
+        "time": 1646111109,
+        "rightFooter": ""
+    },
+    {
         "text": "100hitz Hot Hitz : Today's Hitz without rap!, US | Free Internet Radio | TuneIn",
         "text2": "",
         "text3": "",
@@ -291,6 +300,24 @@ var radioJsonVar =
         "rightFooter": ""
     },
     {
+        "text": "ANTENNE BAYERN Workout Mix | Free Internet Radio | TuneIn",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/tunein.com\/radio\/ANTENNE-BAYERN-Workout-Mix-s244473\/",
+        "tag": "#radio #RadioMusic #dance #electronic",
+        "time": 1742048128,
+        "rightFooter": ""
+    },
+    {
+        "text": "Antenne Tirol, 92.1 FM, Tyrol, Austria | Free Internet Radio | TuneIn",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/tunein.com\/radio\/Antenne-Tirol-921-s125606\/",
+        "tag": "#radio #RadioMusic #top40 #PopMusic",
+        "time": 1742046976,
+        "rightFooter": ""
+    },
+    {
         "text": "Anthems Radio",
         "text2": "https:\/\/live.flashbackcentral.co.uk\/radio\/8000\/tunein.mp3",
         "text3": "mp3",
@@ -396,6 +423,15 @@ var radioJsonVar =
         "url": "https:\/\/www.bnr.nl\/",
         "tag": "#radio #nl",
         "time": 1683395627,
+        "rightFooter": ""
+    },
+    {
+        "text": "Bo, 105.3 FM, Noordwijk-Binnen, Netherlands | Free Internet Radio | TuneIn",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/tunein.com\/radio\/Bo-1053-s81529\/",
+        "tag": "#radio #RadioMusic #top40 #PopMusic",
+        "time": 1646111713,
         "rightFooter": ""
     },
     {
@@ -705,6 +741,15 @@ var radioJsonVar =
         "rightFooter": ""
     },
     {
+        "text": "Dance & Electronic",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/tunein.com\/radio\/Radio-Romanian---Dance-s184643\/",
+        "tag": "#radio #RadioMusic #dance #electronic",
+        "time": 1647854552,
+        "rightFooter": ""
+    },
+    {
         "text": "Dark Edge Radio - Soft Alternative\/Indie Music",
         "text2": "https:\/\/stream.darkedge.ro:8002\/stream\/1\/",
         "text3": "mp3",
@@ -804,6 +849,15 @@ var radioJsonVar =
         "rightFooter": ""
     },
     {
+        "text": "EDM Nordic, Madbone365 92.0 FM, Malm\u00f6, Sweden | Free Internet Radio | TuneIn",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/tunein.com\/radio\/EDM-Nordic-920-s188741\/",
+        "tag": "#radio #RadioMusic #house",
+        "time": 1742045007,
+        "rightFooter": ""
+    },
+    {
         "text": "ElverumsRadioen, 99.3 FM, Elverum, Norway | Free Internet Radio | TuneIn",
         "text2": "",
         "text3": "",
@@ -819,6 +873,15 @@ var radioJsonVar =
         "url": "https:\/\/www.telemadrid.es\/emision-en-directo-ondamadrid\/",
         "tag": "#es #radio",
         "time": 1620120845,
+        "rightFooter": ""
+    },
+    {
+        "text": "ENERGY \u00d6STERREICH, 104.2 FM, Vienna, Austria | Free Internet Radio | TuneIn",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/tunein.com\/radio\/ENERGY-STERREICH-1042-s9211\/",
+        "tag": "#radio #RadioMusic #top40 #PopMusic",
+        "time": 1646354383,
         "rightFooter": ""
     },
     {
@@ -903,6 +966,15 @@ var radioJsonVar =
         "rightFooter": ""
     },
     {
+        "text": "FUN RADIO 95.3, 95.3 FM, Malm\u00f6, Sweden | Free Internet Radio | TuneIn",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/tunein.com\/radio\/FUN-RADIO-953-s105367\/",
+        "tag": "#radio #RadioMusic #top40 #PopMusic",
+        "time": 1742045116,
+        "rightFooter": ""
+    },
+    {
         "text": "Fuse FM | Free Internet Radio | TuneIn",
         "text2": "",
         "text3": "",
@@ -972,6 +1044,15 @@ var radioJsonVar =
         "url": "https:\/\/www.headsfm.co.nz\/",
         "tag": "#radio #RadioMusic #IndieMusic",
         "time": 1683382282,
+        "rightFooter": ""
+    },
+    {
+        "text": "Hit FM, 103.5 FM, Chalkida, Greece | Free Internet Radio | TuneIn",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/tunein.com\/radio\/Hit-FM-1035-s222241\/",
+        "tag": "#radio #RadioMusic #variety",
+        "time": 1629530949,
         "rightFooter": ""
     },
     {
@@ -1260,6 +1341,15 @@ var radioJsonVar =
         "url": "https:\/\/listen2krdp.com\/",
         "tag": "#radio #RadioMusic #jazz",
         "time": 1683377456,
+        "rightFooter": ""
+    },
+    {
+        "text": "kronehit, 105.8 FM, Vienna, Austria | Free Internet Radio | TuneIn",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/tunein.com\/radio\/kronehit-1058-s15532\/",
+        "tag": "#radio #RadioMusic #top40 #PopMusic",
+        "time": 1646355774,
         "rightFooter": ""
     },
     {
@@ -1911,6 +2001,15 @@ var radioJsonVar =
         "rightFooter": ""
     },
     {
+        "text": "Ljungbykanalen, 95.8 FM, Ljungby, Sweden | Free Internet Radio | TuneIn",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/tunein.com\/radio\/Ljungbykanalen-958-s10283\/",
+        "tag": "#radio #RadioMusic #AdultHits",
+        "time": 1657016506,
+        "rightFooter": ""
+    },
+    {
         "text": "Lofi 24\/7 | Free Internet Radio | TuneIn",
         "text2": "http:\/\/usa9.fastcast4u.com\/proxy\/jamz?mp=\/1",
         "text3": "mp3",
@@ -2046,6 +2145,15 @@ var radioJsonVar =
         "rightFooter": ""
     },
     {
+        "text": "Mix Megapol, 104.3 FM, Stockholm, Sweden | Free Internet Radio | TuneIn",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/tunein.com\/radio\/Mix-Megapol-1043-s25041\/",
+        "tag": "#radio #RadioMusic #top40 #PopMusic",
+        "time": 1645968723,
+        "rightFooter": ""
+    },
+    {
         "text": "Monocle 24 | Free Internet Radio | TuneIn",
         "text2": "",
         "text3": "",
@@ -2127,6 +2235,15 @@ var radioJsonVar =
         "rightFooter": ""
     },
     {
+        "text": "NPO 3FM, 96.8 FM, Hilversum, Netherlands | Free Internet Radio | TuneIn",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/tunein.com\/radio\/NPO-3FM-968-s6707\/",
+        "tag": "#radio #RadioMusic #top40 #PopMusic",
+        "time": 1646115864,
+        "rightFooter": ""
+    },
+    {
         "text": "NPO CAMPUS | Free Internet Radio | TuneIn",
         "text2": "",
         "text3": "",
@@ -2145,6 +2262,15 @@ var radioJsonVar =
         "rightFooter": ""
     },
     {
+        "text": "NRJ, NRJ Sweden 105.1 FM, Stockholm, Sweden | Free Internet Radio | TuneIn",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/tunein.com\/radio\/NRJ-1051-s2340\/",
+        "tag": "#radio #RadioMusic #top40 #PopMusic",
+        "time": 1742047563,
+        "rightFooter": ""
+    },
+    {
         "text": "NRK Oslo og Viken \u2013 Lokale nyheter, TV og radio",
         "text2": "http:\/\/lyd.nrk.no\/nrk_radio_p1_buskerud_mp3_h",
         "text3": "mp3",
@@ -2160,6 +2286,15 @@ var radioJsonVar =
         "url": "https:\/\/www.nrk.no\/",
         "tag": "#radio #no",
         "time": 1683395759,
+        "rightFooter": ""
+    },
+    {
+        "text": "oe24 Radio LIVE, OE24Radio, Austria | Free Internet Radio | TuneIn",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/tunein.com\/radio\/oe24-Radio-LIVE-s24934\/",
+        "tag": "#radio #RadioMusic #top40 #PopMusic",
+        "time": 1742046883,
         "rightFooter": ""
     },
     {
@@ -2223,6 +2358,33 @@ var radioJsonVar =
         "url": "https:\/\/sverigesradio.se\/p1",
         "tag": "#radio #sv",
         "time": 1683395818,
+        "rightFooter": ""
+    },
+    {
+        "text": "P24-7 Mix | Free Internet Radio | TuneIn",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/tunein.com\/radio\/P24-7-Mix-s248655\/",
+        "tag": "#radio #RadioMusic #EasyListening",
+        "time": 1646046415,
+        "rightFooter": ""
+    },
+    {
+        "text": "P24-7 Nor | Free Internet Radio | TuneIn",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/tunein.com\/radio\/P24-7-Nor-s262513\/",
+        "tag": "#radio #RadioMusic #ClassicHits",
+        "time": 1742047387,
+        "rightFooter": ""
+    },
+    {
+        "text": "P3, 99.3 FM, Stockholm, Sweden | Free Internet Radio | TuneIn",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/tunein.com\/radio\/P3-993-s25681\/",
+        "tag": "#radio #RadioMusic #top40 #PopMusic",
+        "time": 1645969380,
         "rightFooter": ""
     },
     {
@@ -2313,6 +2475,15 @@ var radioJsonVar =
         "url": "https:\/\/tunein.com\/radio\/Radio-Bardufoss-1038-s87749\/",
         "tag": "#radio #RadioMusic #AdultHits #top40 #PopMusic",
         "time": 1740844047,
+        "rightFooter": ""
+    },
+    {
+        "text": "Radio B\u00e5stad, 96.1 FM, Stockholm, Sweden | Free Internet Radio | TuneIn",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/tunein.com\/radio\/Radio-Bstad-961-s60240\/",
+        "tag": "#radio #RadioMusic #top40 #PopMusic",
+        "time": 1645970552,
         "rightFooter": ""
     },
     {
@@ -2469,6 +2640,15 @@ var radioJsonVar =
         "rightFooter": ""
     },
     {
+        "text": "Radio Metro \u00d8stfold, 105.4 FM, Oslo, Norway | Free Internet Radio | TuneIn",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/tunein.com\/radio\/Radio-Metro-\u00d8stfold-1054-s131383\/",
+        "tag": "#radio #RadioMusic #AdultHits",
+        "time": 1742047442,
+        "rightFooter": ""
+    },
+    {
         "text": "Radio Milwaukee | Homepage | Radio Milwaukee",
         "text2": "https:\/\/wyms.streamguys1.com\/live",
         "text3": "mp3",
@@ -2532,6 +2712,15 @@ var radioJsonVar =
         "rightFooter": ""
     },
     {
+        "text": "Radio Siljan, 94.1 FM, Mora, Sweden | Free Internet Radio | TuneIn",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/tunein.com\/radio\/Radio-Siljan-941-s105236\/",
+        "tag": "#radio #RadioMusic #top40 #PopMusic",
+        "time": 1742046027,
+        "rightFooter": ""
+    },
+    {
         "text": "Radio Sotra, 100.9 FM, Brakstad, Norway | Free Internet Radio | TuneIn",
         "text2": "",
         "text3": "",
@@ -2565,6 +2754,15 @@ var radioJsonVar =
         "url": "https:\/\/tunein.com\/radio\/Radio-Vaticana-Italia-1050-s1545\/",
         "tag": "#radio #religion",
         "time": 1706940169,
+        "rightFooter": ""
+    },
+    {
+        "text": "Radio Wake Up, 105.1 FM, Falkenberg, Sweden | Free Internet Radio | TuneIn",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/tunein.com\/radio\/Radio-Wake-Up-1051-s105519\/",
+        "tag": "#radio #RadioMusic #top40 #PopMusic #JPop",
+        "time": 1742046437,
         "rightFooter": ""
     },
     {
@@ -2610,6 +2808,15 @@ var radioJsonVar =
         "url": "https:\/\/www.kqed.org\/radio\/",
         "tag": "#radio #en",
         "time": 1683435391,
+        "rightFooter": ""
+    },
+    {
+        "text": "Radiocentras, 101.1 FM, Vilnius county, Lithuania | Free Internet Radio | TuneIn",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/tunein.com\/radio\/Radiocentras-1011-s15897\/",
+        "tag": "#radio #RadioMusic #PopMusic #dance #electronic",
+        "time": 1645966669,
         "rightFooter": ""
     },
     {
@@ -2847,6 +3054,15 @@ var radioJsonVar =
         "rightFooter": ""
     },
     {
+        "text": "Studio Alphen, 105.4 FM, Alphen aan den Rijn, Netherlands | Free Internet Radio | TuneIn",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/tunein.com\/radio\/Studio-Alphen-1054-s77672\/",
+        "tag": "#radio #nl",
+        "time": 1646115966,
+        "rightFooter": ""
+    },
+    {
         "text": "Sud Radio : en ligne, direct \/ podcast | actualit\u00e9s & \u00e9missions",
         "text2": "http:\/\/ice.creacast.com\/sudradio",
         "text3": "mp3",
@@ -2997,6 +3213,15 @@ var radioJsonVar =
         "url": "https:\/\/tunein.com\/radio\/TMM-2-s155539\/",
         "tag": "#radio #RadioMusic #IndieMusic",
         "time": 1740865408,
+        "rightFooter": ""
+    },
+    {
+        "text": "Top Hit Radio Belgium | Free Internet Radio | TuneIn",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/tunein.com\/radio\/Top-Hit-Radio-Belgium-s291611\/",
+        "tag": "#radio #RadioMusic #top40 #PopMusic",
+        "time": 1629530111,
         "rightFooter": ""
     },
     {
