@@ -523,16 +523,6 @@ var linksJsonVar =
         "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=177\">id<\/a>"
     },
     {
-        "id": "173",
-        "text": "Buy Me a Coffee",
-        "text2": "",
-        "text3": "",
-        "url": "https:\/\/buymeacoffee.com\/",
-        "tag": "#donate #platform",
-        "time": 1726714991,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=173\">id<\/a>"
-    },
-    {
         "id": "171",
         "text": "Home | Geany",
         "text2": "",

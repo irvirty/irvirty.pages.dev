@@ -1,4 +1,4 @@
-/* Main style v.20.7.1
+/* Main style v.20.8.0
 /* License: CC BY-SA 4.0 */
 /* main.css + themes */
 /* The style is mostly based on classes */
@@ -310,7 +310,6 @@ border: 1px solid var(--d);
 float: right;
 padding: 0px 5px;
 margin-left: 3px;
-border-radius: var(--borderRadius);
 }
 .adsHeader a { font-size: x-small; }
 .adsBody { display: block;  padding: 0px 5px; }
@@ -496,10 +495,10 @@ hr{ border: 1px solid var(--d2); border-bottom:1px solid var(--l); }
 mark { font-weight: bold;}
 
 input, input:focus, textarea, select, button, input[type="file"] { 
-border: 1px solid var(--d3); background: var(--l2); color: var(--c3); border-radius: var(--borderRadius); }
+border: 1px solid var(--d3); background: var(--l2); color: var(--c3); }
 input:hover, textarea:hover, select:hover, button:hover, input[type="file"]:hover {  background: var(--l3); }
 
-.submit {  border: 1px solid var(--d3); background: var(--d); color: var(--c2); border-radius: var(--borderRadius); }
+.submit {  border: 1px solid var(--d3); background: var(--d); color: var(--c2); }
 .submit:hover { background: var(--d2); color: var(--c3); }
 
 ::placeholder, input::-webkit-input-placeholder, .placeholder { font-size: small; color: var(--c); }
