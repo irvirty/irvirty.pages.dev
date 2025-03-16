@@ -1,4 +1,4 @@
-/* Main style v.20.9.0
+/* Main style v.20.10.0
 /* License: CC BY-SA 4.0 https://creativecommons.org/licenses/by-sa/4.0/#*/
 /* main.css + themes */
 /* The style is mostly based on classes */
@@ -385,7 +385,7 @@ filter: invert(100%);
 .reverse { transform: scale(-1, 1); }
 .b, .b a, .bold, .bold a { font-weight: bold; }
 .normal, .normal a { font-weight: normal; font-size: unset; }
-.unser, .unser a { font-size: unset; }
+.unset, .unset a { font-size: unset; }
 .medium, .medium a { font-size: medium; }
 .large, .large a { font-size: large; }
 .larger, .larger a { font-size: larger; }
