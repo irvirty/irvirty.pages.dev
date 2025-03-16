@@ -1,6 +1,10 @@
 /* v.1.18.2 */
 
-
+@font-face {
+font-family: 'Roboto';
+src: url('/fonts/Roboto-Regular.ttf')  format('truetype');
+font-display: swap;
+}
 
 /* Navigation CSS v.2.2.0 */
 
