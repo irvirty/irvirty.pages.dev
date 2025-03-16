@@ -3,6 +3,16 @@ var notesJsonVar =
 
 [
     {
+        "id": "99",
+        "text": "functions - add_theme_support( 'title_tag' ) is not showing title on index.php - WordPress Development Stack Exchange",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/wordpress.stackexchange.com\/questions\/266803\/add-theme-support-title-tag-is-not-showing-title-on-index-php",
+        "tag": "#fix",
+        "time": 1742126009,
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/notes\/?id=99\">id<\/a>"
+    },
+    {
         "id": "98",
         "text": "Use a variable within heredoc in PHP - Stack Overflow",
         "text2": "===\r\n echo <<<EX\r\n    <p>Game: {$data['game_name']}<br\/>\r\n    the owner of the game is {$data['game_owner']}\r\n    <\/p>\r\n    EX;",
