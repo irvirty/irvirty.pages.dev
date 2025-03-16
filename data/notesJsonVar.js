@@ -3,6 +3,16 @@ var notesJsonVar =
 
 [
     {
+        "id": "98",
+        "text": "Use a variable within heredoc in PHP - Stack Overflow",
+        "text2": "===\r\n echo <<<EX\r\n    <p>Game: {$data['game_name']}<br\/>\r\n    the owner of the game is {$data['game_owner']}\r\n    <\/p>\r\n    EX;",
+        "text3": "",
+        "url": "https:\/\/stackoverflow.com\/questions\/11274354\/use-a-variable-within-heredoc-in-php",
+        "tag": "#PHP #programming",
+        "time": 1742117526,
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/notes\/?id=98\">id<\/a>"
+    },
+    {
         "id": "97",
         "text": "<input type=\"reset\"> - HTML: HyperText Markup Language | MDN",
         "text2": "===\r\n<form>\r\n  <div class=\"controls\">\r\n    <label for=\"id\">User ID:<\/label>\r\n    <input type=\"text\" id=\"id\" name=\"id\" \/>\r\n\r\n    <input type=\"reset\" value=\"Reset\" \/>\r\n    <input type=\"submit\" value=\"Submit\" \/>\r\n  <\/div>\r\n<\/form>",
