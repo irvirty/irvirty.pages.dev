@@ -284,14 +284,14 @@ document.getElementsByClassName("input")[0].innerHTML = `
 <div class="wrapper">
 <br>
 <form method="get" action="index.html">
-<textarea rows="2" name="q" placeholder=" input text for task"></textarea>
+<textarea class="borderRadius" rows="2" name="q" placeholder=" input text for task"></textarea>
 
 <!--<div style="display: grid; grid-template-columns: 1fr 1fr; grid-gap: 2px;">
-<input type="submit">
+<input class="submit borderRadius" type="submit">
 <a href="./" class="submit" onclick="fuMReload();">Reload (submit)</a>
 </div>-->
 
-<a href="./"  class="submit button block">Reload (submit)</a>
+<a href="./"  class="submit button block borderRadius">Reload (submit)</a>
 
 </form>
 <div id="input2Status"></div>
