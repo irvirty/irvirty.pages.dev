@@ -1,4 +1,4 @@
-/* Main style v.20.10.0
+/* Main style v.20.11.0
 /* License: CC BY-SA 4.0 https://creativecommons.org/licenses/by-sa/4.0/#*/
 /* main.css + themes */
 /* The style is mostly based on classes */
@@ -85,7 +85,6 @@ overflow-y: scroll;
 .contentCenter,
 .postContent,
 .postContentCenter { flex: 1 0 auto; }
-.page { min-height: 100vh; }
 
 /* need wrapper */
 .contentCenter, .postContentCenter {
