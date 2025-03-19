@@ -1,25 +1,5 @@
 [
     {
-        "id": "44",
-        "text": "My WordPress theme was not accepted for the official theme store on the worpress.org site. The theme passed the initial validation, but many improvements are needed because the theme does not include many requirements.",
-        "text2": "",
-        "text3": "",
-        "url": "",
-        "tag": "#theme #Wordpress #update",
-        "time": 1742370260,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/posts\/?id=44\">id<\/a>"
-    },
-    {
-        "id": "43",
-        "text": "Page speed on localhost: 0.00312 sec.",
-        "text2": "",
-        "text3": "",
-        "url": "",
-        "tag": "#empty",
-        "time": 1742173421,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/posts\/?id=43\">id<\/a>"
-    },
-    {
         "id": "42",
         "text": "If a code seems unnecessary and you want to delete it, be careful because that code probably was used in other places.",
         "text2": "",
