@@ -1,4 +1,4 @@
-/* Main style v.20.14.0
+/* Main style v.20.14.1
 /* main.css + themes */
 /* The style is mostly based on classes */
 
@@ -405,7 +405,7 @@ scroll-padding-top: 16px;
 overflow: hidden;
 white-space: normal;
 word-break: break-word;
-overflow-wrap: break-word;\
+overflow-wrap: break-word;
 }
 .break2 {
 overflow: hidden;
