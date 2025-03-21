@@ -19,8 +19,9 @@ var countMenuItem = 2;
 if (document.getElementsByTagName("nav")[0] != null){
 
 var mNavItemsAverageWidth = conf["confMenuItemAverageWidth"];
-// Average: 66 
-var mNavItemsCount = ((countMenuItem.length  + 2) / 2);
+// Average item width: 66px
+//var mNavItemsCount = (countMenuItem.length / 2);
+var mNavItemsCount = ((countMenuItem.length + 4) / 2);
 // /2 - dublicate items (links)
 var mNavWhenDropdownWidth = (mNavItemsAverageWidth * mNavItemsCount) / 2;
 // /2 - for 2 rows links
