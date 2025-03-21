@@ -279,11 +279,13 @@ conf["confMenuItemAverageWidth"] = 120;
 
 // nav v.2.0.0 in test
 // count links
-var countMenuItem = document.querySelectorAll('.countMenuItem');
+//var countMenuItem = document.querySelectorAll('.countMenuItem');
+var countMenuItem = document.getElementById("topNav").querySelectorAll('a');
 if (document.getElementsByTagName("nav")[0] != null){
 
 var mNavItemsAverageWidth = conf["confMenuItemAverageWidth"];
 // Average: 66 
+//var mNavItemsCount = ((countMenuItem.length + 2) / 2);
 var mNavItemsCount = (countMenuItem.length / 2);
 // /2 - dublicate items (links)
 var mNavWhenDropdownWidth = (mNavItemsAverageWidth * mNavItemsCount) / 2;
