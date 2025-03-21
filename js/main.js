@@ -11,6 +11,7 @@ conf["confWebsiteUrl"] = "irvirty.pages.dev";
 // wrapper size for navigation, number in px from your CSS
 conf["confWrapperNavWidth"] = 900;
 conf["confMenuItemAverageWidth"] = 120;
+conf["confMenuItemAverageWidth"] = 80;
 
 conf["confDomainNameInTitleStatus"] = "on"; // on, off
 conf["confDomainName"] = String((location.hostname).split('.')[0]);
@@ -286,7 +287,7 @@ if (document.getElementsByTagName("nav")[0] != null){
 var mNavItemsAverageWidth = conf["confMenuItemAverageWidth"];
 // Average item width: 66px
 //var mNavItemsCount = (countMenuItem.length / 2);
-var mNavItemsCount = ((countMenuItem.length + 4) / 2);
+var mNavItemsCount = ((countMenuItem.length + 3) / 2);
 // /2 - dublicate items (links)
 var mNavWhenDropdownWidth = (mNavItemsAverageWidth * mNavItemsCount) / 2;
 // /2 - for 2 rows links
