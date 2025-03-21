@@ -275,8 +275,12 @@ conf["confMenuItemAverageWidth"] = 120;
 
 // nav v.2.0.0 in test
 // count links
+if (document.getElementById("topNav") != null){
 //var countMenuItem = document.querySelectorAll('.countMenuItem');
 var countMenuItem = document.getElementById("topNav").querySelectorAll('a');
+} else {
+var countMenuItem = 2;
+}
 if (document.getElementsByTagName("nav")[0] != null){
 
 var mNavItemsAverageWidth = conf["confMenuItemAverageWidth"];
