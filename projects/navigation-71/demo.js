@@ -8,7 +8,7 @@ let n = 0;
 
 while (n < Math.floor(Math.random() * 50)) {
 
-print += `<a class="countMenuItem borderBottomTransparent inlineBlock padding brand itemLinkAni" href="#">Nav item</a>`;
+print += `<a class="borderBottomTransparent inlineBlock padding brand itemLinkAni" href="#">Nav item</a>`;
 
 n++;
 }

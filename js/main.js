@@ -11,7 +11,6 @@ conf["confWebsiteUrl"] = "irvirty.pages.dev";
 // wrapper size for navigation, number in px from your CSS
 conf["confWrapperNavWidth"] = 900;
 conf["confMenuItemAverageWidth"] = 120;
-conf["confMenuItemAverageWidth"] = 85;
 
 conf["confDomainNameInTitleStatus"] = "on"; // on, off
 conf["confDomainName"] = String((location.hostname).split('.')[0]);
@@ -193,10 +192,10 @@ let navUrlClean = item['url'];
 navUrlClean = navUrlClean.replaceAll(".html", "");
 navUrlClean = navUrlClean.replaceAll(".php", "");
 if ((window.location.pathname).indexOf(navUrlClean) != -1){
-conf["confMenuItems2"] += `<a class="countMenuItem active2 inlineBlock padding itemLinkAniActive ${item['class']}" href="${item['url']}" title="${item['title']}">${item['text']}</a>
+conf["confMenuItems2"] += `<a class="active2 inlineBlock padding itemLinkAniActive ${item['class']}" href="${item['url']}" title="${item['title']}">${item['text']}</a>
 `;
 } else {
-conf["confMenuItems2"] += `<a class="countMenuItem inlineBlock padding brand itemLinkAni ${item['class']}" href="${item['url']}" title="${item['title']}">${item['text']}</a>
+conf["confMenuItems2"] += `<a class="inlineBlock padding brand itemLinkAni ${item['class']}" href="${item['url']}" title="${item['title']}">${item['text']}</a>
 `;
 }
 });
@@ -220,8 +219,7 @@ document.getElementById("secondNav").innerHTML = `
 <div id="topNav" class="topNav">
 <nav>
 
-<span class="countMenuItem"></span>
-<a class="countMenuItem inlineBlock padding" style="padding-left: 0;" href="/" title="index / nav 2 (main.js)"><img class="logo2 reduceLight" src="/img/logo.png" alt="logo" style="max-width: 26px;"></a> 
+<a class="inlineBlock padding" style="padding-left: 0;" href="/" title="index / nav 2 (main.js)"><img class="logo2 reduceLight" src="/img/logo.png" alt="logo" style="max-width: 26px;"></a> 
 
 <span id="navMenu" class="navMenu">
 <!-- links in nav -->
@@ -244,11 +242,9 @@ ${conf["confMenuItems2"]}
 </div>
 </div>
 
-<span class="countMenuItem"></span>
-<a class="countMenuItem inlineBlock padding mClassNavUp brand borderBottomTransparent itemLinkAni" href="../" title="../ (Up)">List (up)</a>
+<a class="inlineBlock padding mClassNavUp brand borderBottomTransparent itemLinkAni" href="../" title="../ (Up)">List (up)</a>
 
-<span class="countMenuItem"></span>
-<form class="countMenuItem noscriptHide inlineBlock padding" style="padding-right: 0;" method="GET" action="/search/" role="search">
+<form class="noscriptHide inlineBlock padding" style="padding-right: 0;" method="GET" action="/search/" role="search">
 <!--<label for="siteSearch" class="xSmall op">search:</label>-->
 <input id="siteSearch" type="search" placeholder="site search" name="q" autocomplete="off">
 </form>
