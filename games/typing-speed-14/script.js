@@ -1,4 +1,4 @@
-// Typing Speed Test (WPM) or Typing Speed Game v.3.24.2
+// Typing Speed Test (WPM) or Typing Speed Game v.3.25.0
 // Note: ignore some modes (i2). These modes work only on localhost, have a POST request, and serve to translate the text.
 
 const wmpAverageLimit = 30;
@@ -72,6 +72,9 @@ modeListPrint += `
 `;
 }
 }
+
+//https://stackoverflow.com/questions/7378228/check-if-an-element-is-present-in-an-array
+if (modeList.includes(mode) == false){ mode = 'zen'; }
 
 document.getElementById("mode").innerHTML = `
 

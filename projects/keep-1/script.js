@@ -1,4 +1,4 @@
-// Keep v.3.15.1
+// Keep v.3.16.0
 // The static version of my offline "keep" PHP script that saves things (links, notes, etc).
 // Inspired by Twitter, Google Keep
 // Not for large data files.
@@ -13,7 +13,7 @@ Fresh config in script.js
 <script>
 let keepConfig = {
 "postLimit":"", // number, the number of posts per page
-"embedStatus":"", // "off", "semi" (when id)
+"embedStatus":"", // "off", "semi" (embed for single)
 "multiEmbedStatus":"", // "on"
 "tagListStatus":"", // "off"
 "tagListLimit":"", // number
@@ -1494,7 +1494,7 @@ lPostTitle = highlightText(postTitle, targetOption, subQforLight);
 lPost = highlightText(post, targetOption, subQforLight);
 if (display == 'blog'){ lPost = `<h2>${lPostTitle}</h2>` + highlightText(post, targetOption, subQforLight); }
 
-} else if (mode == 'id'||mode == 'list'&&mode == 'idList'||mode == 'random'){
+} else if (mode == 'id'||mode == 'idList'||mode == 'random'){
 if (multiEmbedStatus == 'on'){
 lPost = highlightText(post, targetOption);
 if (display == 'blog'){ lPost = `<h2>${postTitle}</h2>` + highlightText(post, targetOption); }
@@ -1567,15 +1567,9 @@ function highlightText(text, targetOption, subQforLight){
 
 var play = "";
 
-if (embedStatus == "semi"&&mode != "id"){ embedStatus = 'off'; }
-if (embedStatus == "not list"&&mode != "list"&&mode != "search"){ embedStatus = 'on'; }
-
-/*if (embedStatus == "notist"){
-if (mode == 'id'||mode == "idList"||mode == 'random'){
-embedStatus = 'on';
+if (embedStatus == "semi"&&mode != "id"&&mode != "idList"&&mode != "random"){
+embedStatus = 'off';
 }
-}
-test delme*/
 
 //text = decodeURIComponent(text); // error sometimes
 text = clearText(text);
@@ -2096,16 +2090,9 @@ function highlightText2(text, targetOption){
 //text = decodeURIComponent(text); // error sometimes
 
 var play = "";
-
-if (embedStatus == "semi"&&mode == "id"){ embedStatus = 'on'; }
-if (embedStatus == "not list"&&mode != "list"&&mode != "search"){ embedStatus = 'on'; }
-
-/*if (embedStatus == "notist"){
-if (mode == 'id'||mode == "idList"||mode == 'random'){
-embedStatus = 'on';
+if (embedStatus == "semi"){
+if (mode == "id"||mode == "idList"||mode == "random"){ embedStatus = "on"; }
 }
-}
-test delme*/
 
 text = clearText(text);
 

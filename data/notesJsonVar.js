@@ -3,6 +3,16 @@ var notesJsonVar =
 
 [
     {
+        "id": "100",
+        "text": "String.prototype.includes() - JavaScript | MDN",
+        "text2": "===\r\n\"Blue Whale\".includes(\"blue\"); \/\/ returns false\r\n\"Blue Whale\".toLowerCase().includes(\"blue\"); \/\/ returns true",
+        "text3": "",
+        "url": "https:\/\/developer.mozilla.org\/en-US\/docs\/Web\/JavaScript\/Reference\/Global_Objects\/String\/includes",
+        "tag": "#code #coding #JS #JavaScript",
+        "time": 1742669205,
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/notes\/?id=100\">id<\/a>"
+    },
+    {
         "id": "99",
         "text": "functions - add_theme_support( 'title_tag' ) is not showing title on index.php - WordPress Development Stack Exchange",
         "text2": "",

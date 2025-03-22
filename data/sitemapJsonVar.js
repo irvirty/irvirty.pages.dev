@@ -378,7 +378,7 @@ var sitemapJsonVar = [
         "time": "id"
     },
     {
-        "text": "Mini wikipedia\n\nMini Wikipedia. Collection of articles. Some of the articles with their short article text and with links to the original for a more detailed review. | wiki: ",
+        "text": "Mini Wikipedia\n\nMini Wikipedia. Collection of articles. Some of the articles with their short article text and with links to the original for a more detailed review. | wiki: ",
         "url": "\/pages\/wiki\/index.html",
         "tag": " #wiki #Wikipedia #articles #text #short #collection #page #main",
         "id": "75b3093f5540118ccc22804895c408e7",
@@ -966,7 +966,7 @@ var sitemapJsonVar = [
         "time": "id"
     },
     {
-        "text": "Typing speed\n\n\u00b7 A typing speed test, typing speed game or keyboard trainer. Typing test.\r\n\u00b7 Modes: quotes, book, wiki, own text input. | typing speed: ",
+        "text": "Typing speed\n\nA typing speed test, typing speed game or keyboard trainer. Typing test.\r\nModes: quotes, book, wiki, own text input.\r\nWPM means Words Per Minute. | typing speed: ",
         "url": "\/games\/typing-speed-14\/index.html",
         "tag": " #test #tool #game #typing #speed #trainer #WPM #CSS #JavaScript #project",
         "id": "0b91b83acdf8371274a96c1cafb81efd",

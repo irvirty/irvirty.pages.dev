@@ -147,6 +147,7 @@
 <script src="/data/articlesJsonVar.js"></script>
 <script src="/data/notesJsonVar.js"></script>
 <script src="/data/randomwebsiteJsonVar.js"></script>
+<script src="/data/wikiJsonVar.js"></script>
 
 <script>
 
@@ -160,8 +161,8 @@ data = data.concat(confSpeedDialDataArr2);
 
 
 
-data = data.concat(sitemapJsonVar, linksJsonVar, websitedirectoryJsonVar, microblogJsonVar, articlesJsonVar, notesJsonVar, randomwebsiteJsonVar);
-//data = [...sitemapJsonVar, ...linksJsonVar, ...websitedirectoryJsonVar, ...microblogJsonVar, ...articlesJsonVar, ...notesJsonVar, ...randomwebsiteJsonVar];
+data = data.concat(sitemapJsonVar, linksJsonVar, websitedirectoryJsonVar, microblogJsonVar, articlesJsonVar, notesJsonVar, randomwebsiteJsonVar, wikiJsonVar);
+//data = [...sitemapJsonVar, ...linksJsonVar, ...websitedirectoryJsonVar, ...microblogJsonVar, ...articlesJsonVar, ...notesJsonVar, ...randomwebsiteJsonVar, ...wikiJsonVar];
 
 
 
@@ -204,7 +205,7 @@ document.getElementById("form").appendChild(input);
 
 if (q55PrintURl == null||q55PrintURl == "null"){ q55PrintURl = ""; }
 
-let lModeList = "all sitemap links websitedirectory microblog articles notes randomwebsite";
+let lModeList = "all sitemap links websitedirectory microblog articles notes randomwebsite wiki";
 let lModeListArr = fuMSplit(lModeList);
 
 // print 1
@@ -288,14 +289,12 @@ document.getElementById('q').value = "#" + q33Tag;
 
 let keepConfig = {
 "postLimit":"10", // number
-"embedStatus":"not list", // off
+"embedStatus":"semi", // off
 "multiEmbedStatus":"", // on
 "tagListStatus":"", // off
 "tagListLimit":"", // number
 "targetOption":"", // blank
 "bottomMsg":`
-
-
 
 <div class="small tRight op">
 <details>
@@ -304,6 +303,7 @@ let keepConfig = {
 "text l", l - luck: the first page from search results.
 "text r", r - a random page from the search results.</span>
 </details>
+
 `, // text
 "display":"all", // grid
 "timeStatus":"off", // off
