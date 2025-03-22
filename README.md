@@ -4,16 +4,17 @@
   
 # About
 
-Home and start page with projects such as typing speed, to-do list, games, new tab extension, tech news, microblog, icons, themes, website templates, etc
+Home and start page with projects such as typing speed, to-do list, games, new tab extension, tech news, microblog, icons, themes, website templates, etc  
+  
+---  
+  
+- ~50/2 Themes (2 - dark, light).
+- Speed ​​dial panel in the form of buttons.
+- Typing Speed with your own text (in /games/).
+- New Tab Redirect extension: any website in a new tab page (in /pages/).
+- Experimental theme for WordPress (in /pages/templates/)
   
 ---
-  
-> [!NOTE]
-> - ~50/2 Themes (2 - dark, light).
-> - Speed ​​dial panel in the form of buttons.
-> - Typing Speed with your own text (in /games/).
-> - New Tab Redirect extension: any website in a new tab page (in /pages/).
-> - Experimental theme for WordPress (in /pages/templates/)
    
 > [!IMPORTANT]
 > - You can find information about other licenses on the "about" page.  
