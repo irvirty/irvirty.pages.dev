@@ -1,4 +1,4 @@
-/* Navigation CSS v.2.2.0 */
+/* Navigation CSS v.2.2.1 */
 
 .topNav form, .topNav input[type=search] { display: inline-block; }
 .topNav form { width: 100%; max-width: 130px; vertical-align: middle; }
@@ -46,7 +46,7 @@ margin: 0 auto;
 position: absolute;
 left: 0;
 right: 0;
-z-index: 2;
+z-index: 5;
 display: none;
 }
 
@@ -59,10 +59,9 @@ fill: var(--brand) !important;
 stroke: var(--brand) !important;
 }
 
-
 .dropdownMenuColumn {
 text-align: left;
-columns: 120px auto;
+/*columns: 120px auto;*/
 z-index: 2;
 margin-top: var(--padding);
 }
@@ -71,6 +70,18 @@ margin-top: var(--padding);
 /* fix */
 .dropdownMenuContentWrapper, .dropdownMenuContent { display: inline-block;  }
 .showDropdownMenu { display: block; }
+
+.topNav nav ul, .topNav nav li {
+padding: 0;
+margin: 0;
+display: inline;
+width: auto;
+list-style-type: none;
+}
+
+.topNav nav a {
+padding: var(--padding);
+}
 /* end Navigation CSS */
 
 
