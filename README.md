@@ -1,4 +1,4 @@
-<!-- README.md v.1.9.4 -->
+<!-- README.md v.1.9.5 -->
 <!-- Carefully! The folder: "other-projects" contains PHP, Python, ... files -->  
 ![page with a light and dark theme and theme settings](/img/github-banner-settings.png)  
   
@@ -11,8 +11,9 @@ Home and start page with projects such as typing speed, to-do list, games, new t
 > [!NOTE]
 > - ~50/2 Themes (2 - dark, light).
 > - Speed ​​dial panel in the form of buttons.
-> - Typing Speed with your own text (in games).
-> - New Tab Redirect extension: any website in a new tab page (in pages).
+> - Typing Speed with your own text (in /games/).
+> - New Tab Redirect extension: any website in a new tab page (in /pages/).
+> - Experimental theme for WordPress (in /pages/templates/)
    
 > [!IMPORTANT]
 > - You can find information about other licenses on the "about" page.  
