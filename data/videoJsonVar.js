@@ -174,6 +174,15 @@ var videoJsonVar =
         "rightFooter": ""
     },
     {
+        "text": "Arnold Turns Orange! | Goes Cellular | Full Episode | The Magic School Bus - YouTube",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=T80TMeY3b-o",
+        "tag": "#video #cartoon",
+        "time": 1742655706,
+        "rightFooter": ""
+    },
+    {
         "text": "At War With The Army - Full Movie | Dean Martin, Jerry Lewis, Mike Kellin, Jimmie Dundee - YouTube",
         "text2": "",
         "text3": "",
@@ -774,6 +783,15 @@ var videoJsonVar =
         "url": "https:\/\/www.youtube.com\/watch?v=MkjMrzT6TvA",
         "tag": "#video #movie",
         "time": 1705236612,
+        "rightFooter": ""
+    },
+    {
+        "text": "Dinosaurs | The Busasaurus | Full Episode | The Magic School Bus - YouTube",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=Xn-oLJ_XtkE",
+        "tag": "#video #cartoon",
+        "time": 1742655722,
         "rightFooter": ""
     },
     {
@@ -1560,6 +1578,15 @@ var videoJsonVar =
         "rightFooter": ""
     },
     {
+        "text": "How to Build Bridges | Stable Structures | Under Construction | Full Episode | The Magic School Bus - YouTube",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=HkVq_0zBeeI",
+        "tag": "#video #cartoon",
+        "time": 1742655774,
+        "rightFooter": ""
+    },
+    {
         "text": "Humphrey Bogart Cult Comedy | Beat The Devil (1953) | Full Movie | Retrospective - YouTube",
         "text2": "",
         "text3": "",
@@ -1593,6 +1620,15 @@ var videoJsonVar =
         "url": "https:\/\/www.youtube.com\/watch?v=y4DqKupk0Dg",
         "tag": "#video #movie",
         "time": 1684801753,
+        "rightFooter": ""
+    },
+    {
+        "text": "Is the Bus Going to the Junkyard? | Car Engines | Revving Up | Full Episode | The Magic School Bus - YouTube",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=42CRPzKQlcM",
+        "tag": "#video #cartoon",
+        "time": 1742655678,
         "rightFooter": ""
     },
     {
@@ -2478,6 +2514,15 @@ var videoJsonVar =
         "rightFooter": ""
     },
     {
+        "text": "Renewable Energy | Getting Energized | Full Episode | The Magic School Bus - YouTube",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=dBgW3totsIQ",
+        "tag": "#video #cartoon",
+        "time": 1742655651,
+        "rightFooter": ""
+    },
+    {
         "text": "RIDE, RANGER, RIDE (1936) Gene Autry, Smiley Burnette & Kay Hughes | Drama, Western | B&W - YouTube",
         "text2": "",
         "text3": "",
@@ -2685,6 +2730,15 @@ var videoJsonVar =
         "rightFooter": ""
     },
     {
+        "text": "Shows and Tells | Archaeology | Full Episode | The Magic School Bus - YouTube",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=eET9BNpTmWk",
+        "tag": "#video #cartoon",
+        "time": 1742655629,
+        "rightFooter": ""
+    },
+    {
         "text": "Silent, Action | Steamboat Bill, Jr. (1928) Buster Keaton | Colorized Movie | Subtitles - YouTube",
         "text2": "",
         "text3": "",
@@ -2781,6 +2835,15 @@ var videoJsonVar =
         "url": "https:\/\/www.youtube.com\/watch?v=WhWc3b3KhnY",
         "tag": "#video #cartoon",
         "time": 1727697414,
+        "rightFooter": ""
+    },
+    {
+        "text": "Spring Is Here! | Goes to Seed | Full Episode | The Magic School Bus - YouTube",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=qhJaygnqY94",
+        "tag": "#video #cartoon",
+        "time": 1742651958,
         "rightFooter": ""
     },
     {
@@ -3069,6 +3132,15 @@ var videoJsonVar =
         "url": "https:\/\/www.youtube.com\/watch?v=zSHd1q2anm0",
         "tag": "#video #movie #crime",
         "time": 1684801922,
+        "rightFooter": ""
+    },
+    {
+        "text": "The Circulatory System | Exercise Science | Works Out | Full Episode | The Magic School Bus - YouTube",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=mCBNFuWgwU0",
+        "tag": "#video #cartoon",
+        "time": 1742655757,
         "rightFooter": ""
     },
     {
@@ -4230,6 +4302,15 @@ var videoJsonVar =
         "url": "https:\/\/www.youtube.com\/watch?v=mxjvl5uOQMo",
         "tag": "#video #movie",
         "time": 1688534406,
+        "rightFooter": ""
+    },
+    {
+        "text": "Valentines Day | How Electrical Circuits Work | Gets Charged | Full Episode | The Magic School Bus - YouTube",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=QmPqPc7cmDE",
+        "tag": "#video #cartoon",
+        "time": 1742655739,
         "rightFooter": ""
     },
     {

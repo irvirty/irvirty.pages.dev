@@ -1,4 +1,4 @@
-// Start menu v.1.0.2
+// All or Start Menu v.1.0.3
 
 
 var geturl = location.href;
@@ -285,7 +285,7 @@ printPost += `
 <div class="bgList border3List borderRadius2 padding3">
 <div style="
 display: grid;
-grid-template-columns: 1fr 20px;
+grid-template-columns: calc(100% - 20px) 20px;
 ">
 
 <div>

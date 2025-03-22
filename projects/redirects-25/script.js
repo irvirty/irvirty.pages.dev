@@ -1,4 +1,4 @@
-// Search redirects v.2.8.19
+// Search redirects v.2.8.20
 // Search query + command
 
 // conf
@@ -790,10 +790,12 @@ q = q.trim();
 q = encodeURIComponent(q);
 urlList = [
 "https://wikipedia.org/w/?search=" + q,
+"https://www.britannica.com/search?query=" + q,
 ];
 if (q == ''){
 urlList = [
 "https://en.wikipedia.org/wiki/Special:Random",
+"https://www.britannica.com/",
 ];
 }
 random = urlList[fuMRandom(0, urlList.length - 1)];
@@ -1511,6 +1513,25 @@ urlList = [
 if (q == ''){
 urlList = [
 "/search/",
+];
+}
+random = urlList[fuMRandom(0, urlList.length - 1)];
+url = random;
+sRedirectUrl = url;
+break;
+
+
+case 'def#':
+case 'mea#':
+q = q3.replace(qCom, '');
+q = q.trim();
+q = encodeURIComponent(q);
+urlList = [
+"/?q=" + q + " meaning",
+];
+if (q == ''){
+urlList = [
+"/?q=",
 ];
 }
 random = urlList[fuMRandom(0, urlList.length - 1)];
