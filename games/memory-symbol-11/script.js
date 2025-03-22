@@ -121,7 +121,10 @@ var maingeturl = window.location;
 var mainurl = new URL(maingeturl);
 var maintl = mainurl.searchParams.get("tl");
 
-if(maintl != null){ localStorage.setItem("tl", maintl); }else{
+if(maintl != null){
+maintl = Number(maintl);
+if (isNaN(maintl)){ maintl = 4; }
+localStorage.setItem("tl", maintl); } else {
 if(localStorage.getItem("tl")){ maintl = localStorage.getItem("tl"); }
 }
 if(maintl == null){ maintl = '4'; }

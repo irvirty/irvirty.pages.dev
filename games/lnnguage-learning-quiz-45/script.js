@@ -48,11 +48,17 @@ var checkNotFound = '';
 
 var url = new URL(window.location);
 var q = url.searchParams.get("q");
+//https://stackoverflow.com/questions/8299742/is-there-a-way-to-convert-html-into-normal-text-without-actually-write-it-to-a-s
+q = q.replace(/(<([^>]+)>)/g, "");
+
 var total = 0;
 var comMessagePrint = '';
 
 var lConfQuizWordRounds = url.searchParams.get("r");
 if(lConfQuizWordRounds != null){
+lConfQuizWordRounds = Number(lConfQuizWordRounds);
+if (isNaN(lConfQuizWordRounds)){ lConfQuizWordRounds = 7; }
+
 localStorage.setItem('lConfQuizWordRounds', lConfQuizWordRounds);
 quizConfRound = Number(lConfQuizWordRounds);
 }
@@ -61,8 +67,6 @@ if(lConfQuizWordRounds == null&&localStorage.getItem('lConfQuizWordRounds') != n
 
 
 if(q != null){
-q = q.replaceAll(/%/g, "%25");
-q = decodeURIComponent(q);
 q = q.trim();
 localStorage.setItem('randomQuizQWord', q);
 }
@@ -73,16 +77,12 @@ var scriptDir = '';
 
 var tag = url.searchParams.get("tag");
 if(tag != null){
-tag = tag.replaceAll(/%/g, "%25");
-tag = decodeURIComponent(tag);
 tag = tag.trim();
 }
 
 if(q == null){ q = localStorage.getItem('randomQuizQWord'); }
 if(q == null||q == '') { q = '#EnEs'; tag = q; }
 var q2 = q;
-
-
 
 document.getElementById("result").innerHTML = jsonVar; 
 
@@ -120,7 +120,7 @@ printTagList += (' ' + postTag + ' ');
 
 if(q2 != ''){
 //qSearch = String(q.toLowerCase()).replaceAll(/ /g, "|"); //if((qData).search(qSearch) != -1){}
-var qSearch = decodeURIComponent(q2);
+var qSearch = q2;
 qSearch = String(qSearch).toLowerCase();
 }
 
@@ -418,7 +418,7 @@ quizListByTagArrForPrint.push(qPrint);
 
 // end gen print question list
 
-}else{
+} else {
 comMessagePrint = '<div><h3 class="red h3 bold">not found</h3></div>';
 //id = getRandomInt(jsonVar.length);
 //comMessagePrint += '<span class=""> random id: '+id+'</span>';
@@ -872,7 +872,7 @@ document.getElementById('taglist').innerHTML +=  `
 <div id="form" class="wrapperL">
 <form method="GET" style="margin-top: 0px;" action="?">
 <label id="search" class="op block tLeft xSmall">search and tag:</label>
-<input id="input" class="padding2 op" type="search" style="text-align: center;" name="q"  autocomplete="off" placeholder="" value="${q}">
+<input id="input" class="padding2 op" type="search" style="text-align: center;" name="q"  autocomplete="off">
 
 <input class="op padding2 small submit" style="min-height: 1px;" type="submit">
 
@@ -882,9 +882,11 @@ document.getElementById('taglist').innerHTML +=  `
 <br>
 <span class="xSmall op block tCenter margin2 padding2">total: ${jsonVar.length}</span>
 </div>
+
 `;
-
-
+if (q != null&&q != ""){
+document.getElementById("input").value = q; 
+}
 
 
 
