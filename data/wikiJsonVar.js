@@ -3,6 +3,16 @@ var wikiJsonVar =
 
 [
     {
+        "id": "137",
+        "text": "File manager - Wikipedia",
+        "text2": "A file manager or file browser is a computer program that provides a user interface to manage files and folders.[1] The most common operations performed on files or groups of files include creating, opening (e.g. viewing, playing, editing or printing), renaming, copying, moving, deleting and searching for files, as well as modifying file attributes, properties and file permissions. Folders and files may be displayed in a hierarchical tree based on their directory structure.",
+        "text3": "",
+        "url": "https:\/\/en.wikipedia.org\/wiki\/File_manager",
+        "tag": "#software #app #system #technology",
+        "time": 1742726551,
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/wiki\/?id=137\">id<\/a>"
+    },
+    {
         "id": "136",
         "text": "Bookmarklet - Wikipedia",
         "text2": "A bookmarklet is a bookmark stored in a web browser that contains JavaScript commands that add new features to the browser. They are stored as the URL of a bookmark in a web browser or as a hyperlink on a web page. Bookmarklets are usually small snippets of JavaScript executed when user clicks on them. When clicked, bookmarklets can perform a wide variety of operations, such as running a search query from selected text or extracting data from a table.",
@@ -28,7 +38,7 @@ var wikiJsonVar =
         "text2": "Web development is the work involved in developing a website for the Internet (World Wide Web) or an intranet (a private network).[1] Web development can range from developing a simple single static page of plain text to complex web applications, electronic businesses, and social network services. A more comprehensive list of tasks to which Web development commonly refers, may include Web engineering, Web design, Web content development, client liaison, client-side\/server-side scripting, Web server and network security configuration, and e-commerce development.",
         "text3": "",
         "url": "https:\/\/en.wikipedia.org\/wiki\/Web_development",
-        "tag": "#empty",
+        "tag": "#technology #programming #coding",
         "time": 1741775396,
         "rightFooter": "<a class=\"brand\" href=\"\/pages\/wiki\/?id=134\">id<\/a>"
     },
@@ -118,7 +128,7 @@ var wikiJsonVar =
         "text2": "In computer network communications, the HTTP 404, 404 not found, 404, 404 error, page not found, or file not found error message is a hypertext transfer protocol (HTTP) standard response code, to indicate that the browser was able to communicate with a given server, but the server could not find what was requested. The error may also be used when a server does not wish to disclose whether it has the requested information.[1]",
         "text3": "",
         "url": "https:\/\/en.wikipedia.org\/wiki\/HTTP_404",
-        "tag": "#empty",
+        "tag": "#error #website #webpage #site #page",
         "time": 1741771226,
         "rightFooter": "<a class=\"brand\" href=\"\/pages\/wiki\/?id=125\">id<\/a>"
     },
