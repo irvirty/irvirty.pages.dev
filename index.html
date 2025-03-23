@@ -558,21 +558,21 @@ delta -= minutes * 60;
 var seconds = delta % 60;  // in theory the modulus is not required
 
 if (year > 0){
-time = year+' year ';
+time = year + ' year ';
 } else if (month > 0){
-time = month+' month ';
+time = month + ' month ';
 } else if (days > 0){
-time = days+' day ';
+time = days + ' day ';
 } else if (hours > 0){
-time = hours+' hour ';
+time = hours + ' hour ';
 } else if (minutes > 0) {
-time = minutes+' minute ';
+time = minutes + ' minute ';
 } else {
 time = checkTime(Math.floor(seconds))+' second ';
 }
 
 return time + ' ago';
-//document.getElementById("time").innerHTML = '&nbsp;'+time+'&nbsp;';
+//document.getElementById("time").innerHTML = '&nbsp;' + time + '&nbsp;';
 }
 </script>
 
@@ -828,8 +828,8 @@ if (mode == "edit"){
 document.getElementById("tagListEditForm").innerHTML = `
 <form action="" method="get" class="form-example">
 <textarea id="tagListEditData" rows="10">` + tagList + `</textarea>
-<a class="shadow block light3 button padding2 op brand borderRadius2 bold" href="#" onclick="saveTagListData(); return false;">Save</a>
-<div class="tRight"><a class="shadow light3 tRight button padding2 op red borderRadius2 bold" href="#" onclick="resetTagListData(); return false;">Reset</a></div>
+<a class="submit block button padding2 op borderRadius2" href="#" onclick="saveTagListData(); return false;">Save</a>
+<div class="tRight"><a class="submit tRight button padding2 op red borderRadius2" href="#" onclick="resetTagListData(); return false;">Reset</a></div>
   </div>
 </form>
 `;
