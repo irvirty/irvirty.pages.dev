@@ -385,31 +385,10 @@ var sitemapJsonVar = [
         "time": "id"
     },
     {
-        "text": "Movie Actor Template Title\n\nWebsite template description. | movie flat auto light dark: ",
-        "url": "\/pages\/templates\/movie-flat-auto-light-dark-11\/name.html",
-        "tag": " #website_template_keywords",
-        "id": "dfd9d1671f6f1c788ae4b74d7a4f3444",
-        "time": "id"
-    },
-    {
-        "text": "Movie ID Template Title\n\nWebsite template description. | movie flat auto light dark: ",
-        "url": "\/pages\/templates\/movie-flat-auto-light-dark-11\/movie-id.html",
-        "tag": " #website_template_keywords",
-        "id": "f3e06e1464069ffff862fcd922c76934",
-        "time": "id"
-    },
-    {
         "text": "Movie List\n\nSmall list of movies, at the top there is a random movie from the list. JavaScript function for parse watchlist.csv from The Movie Database (TMDB). | movie list: ",
         "url": "\/projects\/movie-list-19\/index.html",
         "tag": " #movie #list #collection #random #JavaScript #project",
         "id": "9f9aa90c240343f41e7ca461cc59d82e",
-        "time": "id"
-    },
-    {
-        "text": "Movie Search Template Title\n\nWebsite template description. | movie flat auto light dark: ",
-        "url": "\/pages\/templates\/movie-flat-auto-light-dark-11\/search.html",
-        "tag": " #website_template_keywords",
-        "id": "7303e466d4267ab6bb0302dd3876d85e",
         "time": "id"
     },
     {
@@ -714,209 +693,6 @@ var sitemapJsonVar = [
         "time": "id"
     },
     {
-        "text": "Template Title\n\nWebsite template description. | card page auto light dark: ",
-        "url": "\/pages\/templates\/card-page-auto-light-dark-20\/page.html",
-        "tag": " #website_template_keywords",
-        "id": "ecb3584941a697a07a6182ac75d7906c",
-        "time": "id"
-    },
-    {
-        "text": "Template Title\n\nWebsite template description. | home page flat auto many colors themes: ",
-        "url": "\/pages\/templates\/home-page-flat-auto-many-colors-themes-10\/menu.html",
-        "tag": " #website_template_keywords",
-        "id": "d0570ecaa298066d422fddc4dbab3f46",
-        "time": "id"
-    },
-    {
-        "text": "Template Title\n\nWebsite template description. | home page flat auto many colors themes: ",
-        "url": "\/pages\/templates\/home-page-flat-auto-many-colors-themes-10\/page.html",
-        "tag": " #website_template_keywords",
-        "id": "77dc31f8203ae4f39af374602541b76a",
-        "time": "id"
-    },
-    {
-        "text": "Template Title\n\nWebsite template description. | home page flat auto many colors themes: ",
-        "url": "\/pages\/templates\/home-page-flat-auto-many-colors-themes-10\/themes.html",
-        "tag": " #Website_template_keywords",
-        "id": "ad93423905df17eb073348836c7fab52",
-        "time": "id"
-    },
-    {
-        "text": "Template Title\n\nWebsite template description. | home page flat mini auto light dark flat: ",
-        "url": "\/pages\/templates\/home-page-flat-mini-auto-light-dark-flat-9\/menu.html",
-        "tag": " #website_template_keywords",
-        "id": "555489dc2c59de511265b3fa36117420",
-        "time": "id"
-    },
-    {
-        "text": "Template Title\n\nWebsite template description. | home page flat mini auto light dark flat: ",
-        "url": "\/pages\/templates\/home-page-flat-mini-auto-light-dark-flat-9\/page.html",
-        "tag": " #website_template_keywords",
-        "id": "d9c27039c566ff061651cd5f8c68a1d0",
-        "time": "id"
-    },
-    {
-        "text": "Template Title\n\nWebsite template description. | saas landing page auto light dark: ",
-        "url": "\/pages\/templates\/saas-landing-page-auto-light-dark-19\/login.html",
-        "tag": " #website_template_keywords",
-        "id": "747cf01c1ca481f642a0de3bcafe9cf0",
-        "time": "id"
-    },
-    {
-        "text": "Template: About me 21\n\nWebsite template description. | about me page auto light dark: ",
-        "url": "\/pages\/templates\/about-me-page-auto-light-dark-21\/index.html",
-        "tag": " #website_template_keywords",
-        "id": "04afc0da970653087639baac84cec561",
-        "time": "id"
-    },
-    {
-        "text": "Template: Web design services 22\n\nWebsite template description. | web design services simple auto light dark: ",
-        "url": "\/pages\/templates\/web-design-services-simple-auto-light-dark-22\/index.html",
-        "tag": " #website_template_keywords",
-        "id": "cbe1d6b9055b033919b0220a0eae15e2",
-        "time": "id"
-    },
-    {
-        "text": "Template: card page 20\n\nWebsite template description. | card page auto light dark: ",
-        "url": "\/pages\/templates\/card-page-auto-light-dark-20\/index.html",
-        "tag": " #website_template_keywords",
-        "id": "08d3d7bead93f3e06b990b72f32f980e",
-        "time": "id"
-    },
-    {
-        "text": "Template: clean one page 16\n\nWebsite template description. | clean one page mini simple auto light dark: ",
-        "url": "\/pages\/templates\/clean-one-page-mini-simple-auto-light-dark-16\/index.html",
-        "tag": " #website_template_keywords",
-        "id": "4bdc584806a5a31a7ec5187ade610e09",
-        "time": "id"
-    },
-    {
-        "text": "Template: clean simple micro\n\nWebsite template description. | clean simple micro auto light dark: ",
-        "url": "\/pages\/templates\/clean-simple-micro-auto-light-dark-24\/index.html",
-        "tag": " #website_template_keywords",
-        "id": "061998c8cbc43316f6484fb78bf39e64",
-        "time": "id"
-    },
-    {
-        "text": "Template: flower one page 17\n\nWebsite template description. | flower one page mini auto light dark flat: ",
-        "url": "\/pages\/templates\/flower-one-page-mini-auto-light-dark-flat-17\/index.html",
-        "tag": " #website_template_keywords",
-        "id": "3d38478b5a7073baeb015c74434376cf",
-        "time": "id"
-    },
-    {
-        "text": "Template: home page 10\n\nWebsite template description. | home page flat auto many colors themes: ",
-        "url": "\/pages\/templates\/home-page-flat-auto-many-colors-themes-10\/index.html",
-        "tag": " #website_template_keywords",
-        "id": "09d394b480f3e798ef0a398abe099d15",
-        "time": "id"
-    },
-    {
-        "text": "Template: home page 9\n\nWebsite template description. | home page flat mini auto light dark flat: ",
-        "url": "\/pages\/templates\/home-page-flat-mini-auto-light-dark-flat-9\/index.html",
-        "tag": " #website_template_keywords",
-        "id": "c53b0bfd0bc2de53a60df588f22c1638",
-        "time": "id"
-    },
-    {
-        "text": "Template: movie site 11\n\nWebsite template description | movie flat auto light dark: ",
-        "url": "\/pages\/templates\/movie-flat-auto-light-dark-11\/index.html",
-        "tag": " #website_template_keywords",
-        "id": "289a1bd80e963ee74fbeebdea3a2a877",
-        "time": "id"
-    },
-    {
-        "text": "Template: personal 2\n\nWebsite template description. | personal: ",
-        "url": "\/pages\/templates\/personal-2\/index.html",
-        "tag": " #website_template_keywords",
-        "id": "864b9d57073d65f1a04bd4ed7d060395",
-        "time": "id"
-    },
-    {
-        "text": "Template: personal 3\n\nWebsite template description. | personal: ",
-        "url": "\/pages\/templates\/personal-3\/index.html",
-        "tag": " #website_template_keywords",
-        "id": "28c5540666d14a3837bffd3fa3b62b81",
-        "time": "id"
-    },
-    {
-        "text": "Template: photo gallery 18\n\nWebsite template description. | photo gallery one page flat auto light dark: ",
-        "url": "\/pages\/templates\/photo-gallery-one-page-flat-auto-light-dark-18\/index.html",
-        "tag": " #website_template_keywords",
-        "id": "51ef16770992dc0c6abe7c0870b0c9a4",
-        "time": "id"
-    },
-    {
-        "text": "Template: profile card 12\n\nWebsite template description. | profile card flat mini auto light dark: ",
-        "url": "\/pages\/templates\/profile-card-flat-mini-auto-light-dark-12\/index.html",
-        "tag": " #website_template_keywords",
-        "id": "e4a2daec506c7385495ee83b5b3efcfb",
-        "time": "id"
-    },
-    {
-        "text": "Template: profile card 14\n\nWebsite template description. | profile card mini flat auto light dark: ",
-        "url": "\/pages\/templates\/profile-card-mini-flat-auto-light-dark-14\/index.html",
-        "tag": " #website_template_keywords",
-        "id": "a9f937c7dffbd209a78fc1a0616d9654",
-        "time": "id"
-    },
-    {
-        "text": "Template: saas page 19\n\nWebsite template description. | saas landing page auto light dark: ",
-        "url": "\/pages\/templates\/saas-landing-page-auto-light-dark-19\/index.html",
-        "tag": " #website_template_keywords",
-        "id": "63a2c587127b7185b18784e1f21a05dd",
-        "time": "id"
-    },
-    {
-        "text": "Template: simple 4\n\nWebsite template description. | simple: ",
-        "url": "\/pages\/templates\/simple-4\/index.html",
-        "tag": " #website_template_keywords",
-        "id": "90d77cb3c390c800615c204e0839590d",
-        "time": "id"
-    },
-    {
-        "text": "Template: simple 5\n\nWebsite template description. | simple: ",
-        "url": "\/pages\/templates\/simple-5\/index.html",
-        "tag": " #website_template_keywords",
-        "id": "38ff85ca0edca62a116cdcc2a548fdfc",
-        "time": "id"
-    },
-    {
-        "text": "Template: simple 6\n\nWebsite template description. | simple: ",
-        "url": "\/pages\/templates\/simple-6\/index.html",
-        "tag": " #website_template_keywords",
-        "id": "bf2fcf6056e6d4ea47025dcdc472a223",
-        "time": "id"
-    },
-    {
-        "text": "Template: simple 7\n\nWebsite template description. | simple: ",
-        "url": "\/pages\/templates\/simple-7\/index.html",
-        "tag": " #website_template_keywords",
-        "id": "ae338b306566abb2323dab003dca38ea",
-        "time": "id"
-    },
-    {
-        "text": "Template: simple 8\n\nWebsite template description. | simple: ",
-        "url": "\/pages\/templates\/simple-8\/index.html",
-        "tag": " #website_template_keywords",
-        "id": "e8bfe52ffb4188bd057e1201bc666ba8",
-        "time": "id"
-    },
-    {
-        "text": "Template: simple text 1\n\nWebsite template description. | simple text: ",
-        "url": "\/pages\/templates\/simple-text-1\/index.html",
-        "tag": " #website_template_keywords",
-        "id": "db1b83d2c477dc92328acf8830bc1513",
-        "time": "id"
-    },
-    {
-        "text": "Template: web design 15\n\nWebsite template description. | webdesign one page mini flat auto light dark: ",
-        "url": "\/pages\/templates\/webdesign-one-page-mini-flat-auto-light-dark-15\/index.html",
-        "tag": " #website_template_keywords",
-        "id": "4f91f3c0b2fcc81852dd44d9c9c7089b",
-        "time": "id"
-    },
-    {
         "text": "Text To Binary\n\nBinary text. Conversion of text and symbols into binary format using JavaScript. | text to binary: ",
         "url": "\/projects\/text-to-binary-52\/index.html",
         "tag": " #Experimental #text #binary #tool #conversion #converter #JavaScript #project",
@@ -1017,7 +793,7 @@ var sitemapJsonVar = [
     {
         "text": "Website Templates (Experimental)\n\nWebsite templates. HTML templates. (I create pages for practice). | templates: ",
         "url": "\/pages\/templates\/index.html",
-        "tag": " #Experimental #UI #UX #landing #webpage #website #page #site #webdesign #web #design #webdevelopment #development #template #templates #theme #Wordpress #SaaS #personal #profile #card #HomePage #cards #project #projects #list #page #main",
+        "tag": " #Experimental #UI #UX #landing #webpage #website #page #site #webdesign #web #design #webdevelopment #development #template #templates #theme #Wordpress #WP #SaaS #personal #profile #card #HomePage #cards #project #projects #list #page #main",
         "id": "de6e26997deacd0542e681e014a7def4",
         "time": "id"
     },
