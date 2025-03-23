@@ -3,6 +3,16 @@ var notesJsonVar =
 
 [
     {
+        "id": "101",
+        "text": "<aside>: The Aside element - HTML: HyperText Markup Language | MDN",
+        "text2": "The <aside> HTML element represents a portion of a document whose content is only indirectly related to the document's main content. Asides are frequently presented as sidebars or call-out boxes.",
+        "text3": "",
+        "url": "https:\/\/developer.mozilla.org\/en-US\/docs\/Web\/HTML\/Element\/aside",
+        "tag": "#HTML #tag #coding",
+        "time": 1742738099,
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/notes\/?id=101\">id<\/a>"
+    },
+    {
         "id": "100",
         "text": "String.prototype.includes() - JavaScript | MDN",
         "text2": "===\r\n\"Blue Whale\".includes(\"blue\"); \/\/ returns false\r\n\"Blue Whale\".toLowerCase().includes(\"blue\"); \/\/ returns true",
