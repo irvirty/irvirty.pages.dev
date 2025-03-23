@@ -17,11 +17,20 @@ Home and start page with projects such as typing speed, to-do list, games, new t
 ---
    
 > [!IMPORTANT]
-> - You can find information about other licenses on the "about" page.  
 > - The Google analytics ID is in the file "/js/main.js", it works if accept the cookie.  
 > - Carefully! The folder: "other-projects" contains PHP, Python, ... files.  
-
-
+  
+---
+  
+## License  
+```
+Main license: CC BY-SA 4.0.
+SimpleHomePage theme for Wordpress (/pages/templates/): GNU General Public License v2 or later
+Geany Themes: GNU General Public License
+Chrome Themes: Apache 2.0 License
+Roboto font (/fonts): Apache License, Version 2.0
+Books in /data (bookJsonVar): The Project Gutenberg License
+```
   
 ---
 
