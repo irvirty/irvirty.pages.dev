@@ -62,10 +62,10 @@ startMenu("result", data, q);
 
 
 
-// autofocus v.1.0.0
-//https://stackoverflow.com/questions/16089421/how-do-i-detect-keypresses-in-javascript
-document.onkeypress = function (e) {
+// autofocus v.2.0.0
+//https://developer.mozilla.org/en-US/docs/Web/API/KeyboardEvent/key
 
+document.addEventListener("keydown", (e) => {
 // use e.keyCode
 if (document.getElementById("q") != null){
 //https://stackoverflow.com/questions/30714871/check-if-an-input-field-has-focus-in-vanilla-javascript
@@ -73,13 +73,12 @@ if (document.activeElement.tagName !== "INPUT"){
 //https://stackoverflow.com/questions/4676321/how-do-i-make-a-field-autofocus
 document.getElementById("q").focus();
 //document.getElementById("q").value = e.keyCode;
-document.getElementById("q").value = e.key;
 q = e.key;
 q = q.trim();
 startMenu("result", data, q);
 }
 }
-};
+});
 
 
 
@@ -319,7 +318,9 @@ if (qCom != 'found') { printPost = `<div class="bgList border3List borderRadius2
 // end s2 Search 2
 
 if (iResult >= 1){
-printPost += `<div class="tRight small op gray bgList border3List borderRadius2 padding3">Result limit: ${resultLimit}</div>`;
+printPost += `
+<br>
+<div class="tRight small"><spna class="gray">Result limit: ${resultLimit}</span></div>`;
 }
 
 
