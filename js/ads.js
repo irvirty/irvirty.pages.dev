@@ -1,4 +1,4 @@
-// Ads v.1.7.3
+// Ads v.1.7.4
 // Mini banner system
 // print ads from json var list: fuAds('', 'ads2 - id where print', '');
 
@@ -55,8 +55,8 @@ var random = Math.floor(Math.random() * ads.length);
 //console.log(ads[random]['text']);
 
 // single
-adsText = ads[random]['text']; if (adsText == null) { adsText = ''; }
-adsURL = ads[random]['url']; if (adsURL == null){ adsURL = ''; }
+adsText = ads[random]['text']; if (adsText == null||adsText == "") { adsText = ''; }
+adsURL = ads[random]['url']; if (adsURL == null||adsURL == ""){ adsURL = '#'; }
 if (adsText.search("src=") != -1&&cookieStatus != 'on'){ // found
 adsText = fuMHideFileNameExt(`<a class="brand inlineBlock" href="/pages/settings/#confDataCollection">Cookie setting: ${cookieStatus}.</a>`);
 }
@@ -64,29 +64,26 @@ adsText = fuMHideFileNameExt(`<a class="brand inlineBlock" href="/pages/settings
 
 
 if (adsText.search("src=") == -1){ // not found code
-adsPrint = `<span class="ads"><div class="adsHeader"><a class="brand tag" href="${adsUrlPage}"><span class="yellow ico">✪</span><del>ads,</del> links</a></div><div class="adsBody">${adsText} <a class="brand break insertIcon" target="blank" href="${adsURL}">${adsURL}</a></div></span>`;
-
+adsPrint = `<div class="ads"><div class="adsHeader"><a class="brand tag" href="${adsUrlPage}"><span class="yellow ico">✪</span><del>ads,</del> links</a></div><div class="adsBody">${adsText} <a class="brand break insertIcon" target="blank" href="${adsURL}">${adsURL}</a></div></div>`;
 
 // print
-document.getElementById(idAds).innerHTML = `
-
+document.getElementById(idAds).innerHTML = `<aside>
 <div class="wrapper">
-
 <div class="borderRadius2 padding3 light borderList ads tLeft break">${adsPrint}</div>
 </div>
-
-`;
+</aside>`;
 
 } else {
-adsPrint = `<span class="ads"><div class="adsHeader"><a class="padding light brand tag" href="${adsUrlPage}"><span class="yellow op ico">✪ </span><del>ads,</del> links</a></div><div class="adsBody">${adsText} <a class="brand break insertIcon" target="blank" href="${adsURL}">${adsURL}</a></div></span>`;
+adsPrint = `<div class="ads"><div class="adsHeader"><a class="padding light brand tag" href="${adsUrlPage}"><span class="yellow op ico">✪ </span><del>ads,</del> links</a></div><div class="adsBody">${adsText} <a class="brand break insertIcon" target="blank" href="${adsURL}">${adsURL}</a></div></div>`;
 
 // print
 document.getElementById(idAds).innerHTML = `
 
-
+<aside>
 <div class="center">
 <div class="adsCode">${adsPrint}</div>
 </div>
+</aside>
 
 
 `;
@@ -106,17 +103,17 @@ ads.forEach((item, index) => {
 
 // multi
 // single
-adsText = ads[index]['text']; if (adsText == null) { adsText = ''; }
-adsURL = ads[index]['url']; if (adsURL == null){ adsURL = ''; }
+adsText = ads[random]['text']; if (adsText == null||adsText == "") { adsText = ''; }
+adsURL = ads[random]['url']; if (adsURL == null||adsURL == ""){ adsURL = '#'; }
 if (adsText.search("src=") != -1&&cookieStatus != 'on'){ // found
 adsText = fuMHideFileNameExt(`<a class="brand" href="/pages/settings/#confDataCollection">Cookie setting: ${cookieStatus}.</a>`);
 }
 if (adsText.search("src=") == -1){ // not found code
-adsPrint = `<span class="ads"><div class="adsHeader"><a class="brand tag" href="${adsUrlPage}"><span class="yellow op ico">✪ </span><del>ads,</del> links</a></div><div class="adsBody">${adsText} <a class="brand break insertIcon" target="blank" href="${adsURL}">${adsURL}</a></div></span>`;
+adsPrint = `<div class="ads"><div class="adsHeader"><a class="brand tag" href="${adsUrlPage}"><span class="yellow op ico">✪ </span><del>ads,</del> links</a></div><div class="adsBody">${adsText} <a class="brand break insertIcon" target="blank" href="${adsURL}">${adsURL}</a></div></div>`;
 
 adsPrint = '<div class="wrapper"><div class="borderRadius2 padding3 light borderList ads tLeft break">'+adsPrint+'</div></div>';
 } else {
-adsPrint = `<span class="ads"><div class="adsHeader"><a class="padding light brand tag" href="${adsUrlPage}"><span class="yellow op ico">✪ </span><del>ads, </del> links</a></div><div class="adsBody">${adsText} <a class="brand break insertIcon" target="blank" href="${adsURL}">${adsURL}</a></div></span>`;
+adsPrint = `<div class="ads"><div class="adsHeader"><a class="padding light brand tag" href="${adsUrlPage}"><span class="yellow op ico">✪ </span><del>ads, </del> links</a></div><div class="adsBody">${adsText} <a class="brand break insertIcon" target="blank" href="${adsURL}">${adsURL}</a></div></div>`;
 
 adsPrint = '<div class="center"><div class="adsCode">' + adsPrint + '</div></div>';
 }

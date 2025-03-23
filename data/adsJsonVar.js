@@ -111,15 +111,6 @@ var adsJsonVar =
         "rightFooter": ""
     },
     {
-        "text": "Experience the Power of Windows 11 OS, Computers, & Apps | Microsoft",
-        "text2": "",
-        "text3": "",
-        "url": "https:\/\/www.microsoft.com\/windows\/",
-        "tag": "#ads",
-        "time": 1678452084,
-        "rightFooter": ""
-    },
-    {
         "text": "Fedora",
         "text2": "",
         "text3": "",
@@ -210,12 +201,12 @@ var adsJsonVar =
         "rightFooter": ""
     },
     {
-        "text": "Google News",
+        "text": "Hello World!",
         "text2": "",
         "text3": "",
-        "url": "https:\/\/news.google.com\/",
+        "url": "",
         "tag": "#ads",
-        "time": 1678448617,
+        "time": 1742720863,
         "rightFooter": ""
     },
     {
@@ -426,30 +417,12 @@ var adsJsonVar =
         "rightFooter": ""
     },
     {
-        "text": "Twitch",
-        "text2": "",
-        "text3": "",
-        "url": "https:\/\/www.twitch.tv\/",
-        "tag": "#ads",
-        "time": 1619936251,
-        "rightFooter": ""
-    },
-    {
         "text": "Visual Studio Code - Code Editing. Redefined",
         "text2": "",
         "text3": "",
         "url": "https:\/\/code.visualstudio.com\/",
         "tag": "#ads",
         "time": 1678452054,
-        "rightFooter": ""
-    },
-    {
-        "text": "WhatsApp",
-        "text2": "",
-        "text3": "",
-        "url": "https:\/\/www.whatsapp.com\/",
-        "tag": "#ads",
-        "time": 1678451749,
         "rightFooter": ""
     },
     {
