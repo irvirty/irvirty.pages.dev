@@ -1,4 +1,4 @@
-// Settings print page v.1.2.2
+// Settings print page v.1.3.0
 // var config in main.js
 
 function printFunctionLocal(comSettings){
@@ -27,13 +27,13 @@ if (val2 == carrentValue33){
 val.confName = fuMClearText(val.confName);
 val2 = fuMClearText(val2);
 confValueVariantPrint += `
-<button class="button margin highlight bold borderRadius2 borderBottomOrange" onclick="setSeting('${val.confName}', '${val2}')">${val2}</button>
+<button class="button margin highlight bold borderRadius2 borderBottomOrange" onclick="setSeting('${val.confName}', '${val2}');return false;">${val2}</button>
 `;
 } else {
 val.confName = fuMClearText(val.confName);
 val2 = fuMClearText(val2);
 confValueVariantPrint += `
-<button class="button margin light2 borderRadius2" onclick="setSeting('${val.confName}', '${val2}')">${val2}</button>
+<button class="button margin light2 borderRadius2" onclick="setSeting('${val.confName}', '${val2}');return false;">${val2}</button>
 `;
 }
 
@@ -98,14 +98,14 @@ ${printBody}
 
 <div class="margin2 padding2"></div>
 
-<div class="block shadow button padding3 light3 bold pointer borderBottomOrange borderRadius2 brand" onclick="settingOptionReset();" title="Default value in settings">Reset settings</div>
+<div class="block shadow button padding3 light3 bold pointer borderBottomOrange borderRadius2 brand" onclick="settingOptionReset();return false;" title="Default value in settings">Reset settings</div>
 
 <div class="margin2 padding2"></div>
 
 <div class="padding block right">
-<div class="brand shadow button padding3 light3 bold pointer borderBottomRed borderRadius2" onclick="settingOptionClearData();" title="Some saved settings on other pages and settings">Clear local storage</div>
+<div class="brand shadow button padding3 light3 bold pointer borderBottomRed borderRadius2" onclick="settingOptionClearData();return false;" title="Some saved settings on other pages and settings">Clear local storage</div>
 
-<div class="brand shadow button padding3 light3 bold pointer borderBottomRed borderRadius2" onclick="settingOptionClearDataIndexdDb();" title="Clear the database (IndexdDb)">Clear IndexedDB</div>
+<div class="brand shadow button padding3 light3 bold pointer borderBottomRed borderRadius2" onclick="settingOptionClearDataIndexdDb();return false;" title="Clear the database (IndexdDb)">Clear IndexedDB</div>
 </div>
 
 

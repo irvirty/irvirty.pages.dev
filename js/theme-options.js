@@ -84,7 +84,11 @@ ${result}
 
 `;
 
+if (document.getElementById("themeOption") != null){
 document.getElementById("themeOption").innerHTML = result;
+} else {
+console.log("themeOption id null");
+}
 
 //document.getElementById("themeselect").innerHTML = theme;
 themeListOption.forEach(myFunction);
@@ -176,8 +180,11 @@ let rusultBgUrl = `
 
 
 `;
-
+if (document.getElementById("bgOption") != null){
 document.getElementById("bgOption").innerHTML = rusultBgUrl;
+} else {
+console.log("bgOption id null");
+}
 
 /*document.getElementById("idBgImg").addEventListener("input", updateValueBgUrl);
 
@@ -198,4 +205,5 @@ let  confBgImgInputPrint = localStorage.getItem("confBgImg");
 if (confBgImgInputPrint != null&&confBgImgInputPrint != undefined){
 document.getElementById("idBgImg").value = confBgImgInputPrint;
 }
+
 
