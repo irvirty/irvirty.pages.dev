@@ -625,9 +625,9 @@ var qData = ' ' + textPrint;
 if (com == 'edit'&&id == idPrint){
 /*editPrint = `<form style="margin: 10px 0;"><input id="inputTaskUp" class="padding2" type="text" name="q" autofocus="autofocus" autocomplete="off" placeholder=" task" value="${textPrint}"><input  type="hidden" name="com" value="edit"><input id="idInputE" type="hidden" name="id" value="${idPrint}"><input type="submit"></form><div id="option2"></div>`;*/
 
-editPrint = `<form><textarea id="textInputE" class="padding2" name="text" rows="3" cols="100" placeholder=" edit" autofocus="autofocus">${textPrint}</textarea><input id="idInputE" type="hidden" name="id" value="${idPrint}"><tag class="block tCenter padding2 light borderList borderRadius2 submit" style="cursor: pointer;" onclick="submitLinkEdit()">submit</tag></form>`;
+editPrint = `<form><textarea id="textInputE" class="padding2" name="text" rows="3" cols="100" placeholder=" edit" autofocus="autofocus">${textPrint}</textarea><input id="idInputE" type="hidden" name="id" value="${idPrint}"><tag class="block tCenter padding2 light borderList borderRadius2 submit" style="cursor: pointer;" onclick="submitLinkEdit();return false;">submit</tag></form>`;
 } else {
-//editPrint = `<span onclick="runDb('edit', '` + idPrint + `', '', '')">${textPrint}</span>`;
+//editPrint = `<span onclick="runDb('edit', '` + idPrint + `', '', '');return false;">${textPrint}</span>`;
 editPrint = `${textPrintHighlight}`;
 }
 
@@ -637,13 +637,13 @@ editPrint = `${textPrintHighlight}`;
 let printTmp = '';
 if (statusPrint == 'done'){
 
-printTmp = `<!--<div class="op xSmall">${idPrint}</div>--><span><input class="checkbox op" checked="checked" type="checkbox"  name="" value="undone" onclick="runDb('done', '` + idPrint + `', '', 'undone')"></span>
+printTmp = `<!--<div class="op xSmall">${idPrint}</div>--><span><input class="checkbox op" checked="checked" type="checkbox"  name="" value="undone" onclick="runDb('done', '` + idPrint + `', '', 'undone');return false;"></span>
 <div class="flexCenter"><div class="pre op block" style="text-decoration: line-through;">${editPrint}</div></div>`;
 
 } else {
 
 printTmp = `<!--<div class="op xSmall">${idPrint}</div>-->
-<span><input class="checkbox op" type="checkbox"  name="" value="done" onclick="runDb('done', '`+idPrint+`', '', 'done')"></span>
+<span><input class="checkbox op" type="checkbox"  name="" value="done" onclick="runDb('done', '`+idPrint+`', '', 'done');return false;"></span>
 <div class="flexCenter"><div class="pre block">${editPrint}</div></div>`;
 
 }
@@ -668,8 +668,8 @@ printDaily = `
 
 ${printTmp}
 <div class="block tRight tagList">
-<tag class="tag2 border borderRadius2 light3 op xSmall" style="cursor: pointer;" onclick="runDb('daily', '` + cursor.key + `', '', '', 'undaily')" title="pin">p</tag>
-<tag class="tag2 border borderRadius2 light3 op xSmall" style="cursor: pointer;" onclick="runDb('edit', '` + cursor.key + `')" title="edit">e</tag>
+<tag class="tag2 border borderRadius2 light3 op xSmall" style="cursor: pointer;" onclick="runDb('daily', '` + cursor.key + `', '', '', 'undaily');return false;" title="pin">p</tag>
+<tag class="tag2 border borderRadius2 light3 op xSmall" style="cursor: pointer;" onclick="runDb('edit', '` + cursor.key + `');return false;" title="edit">e</tag>
 </div>
 
 </div>
@@ -684,9 +684,9 @@ print = `
 
 ${printTmp}
 <div class="block tRight tagList">
-<tag class="tag2 border borderRadius2 light3 op xSmall" style="cursor: pointer;" onclick="runDb('daily', '` + cursor.key + `', '', '', 'daily')" title="pin">p</tag>
-<tag class="tag2 border borderRadius2 light3 op xSmall" style="cursor: pointer;" onclick="runDb('edit', '` + cursor.key + `')" title="edit">e</tag>
-<tag class="tag2 border borderRadius2 light3 op xSmall" style="cursor: pointer;" onclick="confirmCom('del', '` + cursor.key + `')" title="remove">x</tag>
+<tag class="tag2 border borderRadius2 light3 op xSmall" style="cursor: pointer;" onclick="runDb('daily', '` + cursor.key + `', '', '', 'daily');return false;" title="pin">p</tag>
+<tag class="tag2 border borderRadius2 light3 op xSmall" style="cursor: pointer;" onclick="runDb('edit', '` + cursor.key + `');return false;" title="edit">e</tag>
+<tag class="tag2 border borderRadius2 light3 op xSmall" style="cursor: pointer;" onclick="confirmCom('del', '` + cursor.key + `');return false;" title="remove">x</tag>
 </div>
 
 </div>
@@ -700,13 +700,13 @@ if (statusPrint != 'done'){
 
 var print33Tmp = `
 
-<tag style="cursor: pointer" onclick="scrollTo33('${idPrint}');">
+<tag style="cursor: pointer" onclick="scrollTo33('${idPrint}');return false;">
 
 <div class="taskItem borderList borderRadius2 light2 break">
 <div class="task">
 
 <!--<div class="op xSmall">${idPrint}</div>-->
-<span><input class="checkbox op" type="checkbox"  name="" value="done" onclick="runDb('done', '`+idPrint+`', '', 'done')"></span>
+<span><input class="checkbox op" type="checkbox"  name="" value="done" onclick="runDb('done', '`+idPrint+`', '', 'done');return false;"></span>
 <div class="flexCenter"><div class="pre block">${textPrint}</div></div>
 
 <div class="block tRight">
@@ -973,14 +973,14 @@ print2 = `
 <input id="inputTask" class="padding2" type="text" name="q" autocomplete="off" placeholder=" input">
 <input type="hidden" name="com" value="add">
 <div id="option"></div>
-<div class="submit tCenter small button block" style="cursor: pointer;" onclick="submitLink();">submit</div>
+<div class="submit tCenter small button block" style="cursor: pointer;" onclick="submitLink();return false;">submit</div>
 </form>
 
 <div class="block tRight padding">
 <div class="block padding2"></div>
 <!--<span class="op xSmall">commands:</span>-->
-<tag class="tag2 op border borderRadius2 light small brand" style="cursor: pointer" onclick="confirmCom('delAllDone')">remove all done (not pined)</tag>
-<tag class="tag2 op border borderRadius2 light small margin2List brand" style="cursor: pointer" onclick="confirmCom('clear')">remove all</tag>
+<tag class="tag2 op border borderRadius2 light small brand" style="cursor: pointer" onclick="confirmCom('delAllDone');return false;">remove all done (not pined)</tag>
+<tag class="tag2 op border borderRadius2 light small margin2List brand" style="cursor: pointer" onclick="confirmCom('clear');return false;">remove all</tag>
 
 
 

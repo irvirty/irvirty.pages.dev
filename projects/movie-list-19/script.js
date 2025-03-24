@@ -108,7 +108,7 @@ ${randomMovie}
 ${randomMovie2}
 ${randomMovie3}
 <div class="borderList bgList padding2">
-<a class="submit button block op brand borderRadius" href="#" onclick="fuMReload()">Reload</a>
+<a class="submit button block op brand borderRadius" href="#" onclick="fuMReload();return false;">Reload</a>
 </div>
 
 <div class="borderList bgList padding3">

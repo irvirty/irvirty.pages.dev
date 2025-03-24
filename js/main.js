@@ -55,11 +55,18 @@ const confData = [
 "confValueVariant":["18", "19", "20", "21"],
 },
 {
-"confTitle":"Background picture",
-"confDescription":"Background picture.",
+"confTitle":"Background image status",
+"confDescription":"Background image status.",
 "confName":"confBg",
 "confValueDefault":"on",
 "confValueVariant":["on", "off"],
+},
+{
+"confTitle":"Custom background image",
+"confDescription":`Custom background image. Setting: <a class="brand" href="/pages/themes/">/pages/themes/</a>`,
+"confName":"confBgImg",
+"confValueDefault":"",
+"confValueVariant":[""],
 },
 {
 "confTitle":"Icons",
@@ -443,7 +450,7 @@ fuMInsertHtml("#footer", 'beforeend', `
 </div>
 
 <div>
-<!--<a class="brand" href="#goBack" onclick="history.back()">Go Back</a>-->
+<!--<a class="brand" href="#goBack" onclick="history.back();return false;">Go Back</a>-->
 <span class="capitalize brand" title="Theme settings"><a id="fTheme" class="inlineBlock padding brand" href="/pages/themes/">Themes</a></span>
 <span id="fEmbedFileUrl"></span>
 <span id="fPinButton"></span>
@@ -551,7 +558,7 @@ document.getElementById("fTheme").text = conf["confTheme"] + ' (' + theme + ')';
 
 // fix and dynamic
 fuMThemeEmbed();
-fuMBg(conf["confThemeEmbed"]);
+fuMBg(conf["confThemeEmbed"], conf["confBgImg"]);
 
 // fix
 if (conf["confThemeEmbed"] == 'dark'){
@@ -1081,14 +1088,19 @@ return textOrArr.sort(collator.compare);
 
 // CSS
 // random bg image (background img with random position)
-function fuMBg(com, img){
-if (conf["confBg"] == 'on'||com == 'on'){
+function fuMBg(com, bgImage){
+if (conf["confBg"] == "on"){
 
+bgImage = fuMClearText(bgImage);
+
+if (bgImage == undefined||bgImage == null||bgImage == ""){
 let mBg = fuMRandomItem("index.svg line-square.svg star.svg circle.svg triangle.svg square-solid.svg binary.svg short-line.svg shape.svg line-chaotic.svg wood.png deco-paper.svg grid.png granite.png flower.png flower-2.png");
 let mBgDark = fuMRandomItem("index-d.svg line-square-d.svg star-d.svg circle-d.svg triangle-d.svg square-solid-d.svg binary-d.svg short-line-d.svg shape-d.svg line-chaotic-d.svg wood-d.png deco-paper-d.svg grid-d.png granite-d.png flower-d.png flower-2-d.png");
 //mBg = fuMRandomItem("line-horizontal.svg"); mBgDark = fuMRandomItem("line-horizontal-d.svg");
 let mRandBgPos = fuMRandom(0, 100);
 let mRandBgPos2 = fuMRandom(0, 100);
+
+
 if (conf["confThemeEmbed"] == 'light'||com == "light"){
 //document.head.insertAdjacentHTML("beforeend", `
 fuMInsertHtml("head", 'beforeend', `
@@ -1116,6 +1128,42 @@ background-attachment: fixed;
 </style>
 `);
 }
+} else {
+let reduceBgLight = "";
+if (conf["confThemeEmbed"] == 'dark'||com == "dak"){
+reduceBgLight = "filter:brightness(70%);";
+}
+//document.head.insertAdjacentHTML("beforeend", `
+fuMInsertHtml("head", 'beforeend', `
+<style>
+body::before {
+content: "";
+display: block;
+position: fixed;
+top: 0;
+left: 0;
+z-index: -1;
+overflow: hidden;
+
+width: 100%;
+height: 100%;
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+${reduceBgLight}
+}
+
+body::before {
+background-image: url("${bgImage}");
+background-attachment: fixed;
+background-repeat: no-repeat;
+background-position: center center;
+background-size: cover;
+opacity: .06;
+}
+</style>
+`);
+}
 
 }
 }
@@ -1130,7 +1178,6 @@ fuMInsertHtml("head", 'beforeend', `
 </style>
 `);
 }
-
 // CSS
 
 

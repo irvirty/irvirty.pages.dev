@@ -44,7 +44,7 @@ var print = `
 
 <div id="spinWheel" class="spinWheel spinWheelAni shadow4">
 ${spinNumber}
-<div id="spinStart" class="spinStart button submit shadow3 pointer" onclick="spinWheel('start');">Start</div>
+<div id="spinStart" class="spinStart button submit shadow3 pointer" onclick="spinWheel('start');return false;">Start</div>
 </div>
 
 `;

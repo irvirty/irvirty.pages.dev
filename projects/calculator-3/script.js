@@ -89,7 +89,7 @@ const grid = `
 
 <div class="block margin2 padding2"></div>
 
-<a class="button w100 op tag light border borderRadius2 gray" onclick="fuMReload()" href="#">reload</a>
+<a class="button w100 op tag light border borderRadius2 gray" onclick="fuMReload();return false;" href="#">reload</a>
 
 </div>
 

@@ -30,7 +30,7 @@ case 'select':
 variantArr.forEach((val, index) => {
 
 val = `
-<a class="xxLarge padding2" href="#" onclick="main('result', '${val}')">${val}</a>
+<a class="xxLarge padding2" href="#" onclick="main('result', '${val}');return false;">${val}</a>
 `;
 
 print += val;

@@ -148,7 +148,7 @@ document.getElementById(printId).innerHTML = `
 </div>
 </div>
 
-<a class="button block tCenter submit padding2 border borderRadius2 margin2" onclick="fuMReload()" href="#">random</a>
+<a class="button block tCenter submit padding2 border borderRadius2 margin2" onclick="fuMReload();return false;" href="#">random</a>
 <!-- // post -->
 
 <!--<div class="small tRight block margin2 padding2 op">total: ${jsonVar.length}</div>-->

@@ -4,7 +4,10 @@
 a { color: red; }
 a: hover { color: orange; }
 
+/**/
+.testColumn { border: 1px solid var(--red); }
 
+/**/
 .testOrange { color: orange; }
 .testRed { color: red; }
 
@@ -12,9 +15,12 @@ a: hover { color: orange; }
 /*********/
 main { text-align: center; }
 
+/* 
+*:hover { border: 1px solid var(--red); } */
 
-
-
+/***/
+#glcanvas { max-width: 100%; }
+/***/
 .effect, .effect:hover {
 background: var(--indigo);
 color: var(--rC4);
@@ -32,7 +38,7 @@ margin: 0 auto;
 width: 150px;
 height: 70px;
 margin: 0 auto;
-background-image: url("/img/other/art.png");
+background-image: url("/img/logo.png");
 background-size: contain;
 background-repeat: repeat;
 
@@ -81,11 +87,11 @@ color: var(--red);
 .tree, .nesting { padding: 5px; font-weight: bold; }
 
 /* bug */
-body { width: calc(100vw - 10vw); border: 1px solid silver } /* for bug with line */
+body { width: calc(100vw - 10vw); border: 5px solid var(--red); } /* for bug with line */
 
 /***/
 
-h1 { color: var(--violet); }
+h1 { color: var(--orange); }
 
 /*nav, header, footer, .content {
 border: 1px solid var(--gray);
@@ -156,7 +162,7 @@ zoom: 100%;
 
 html {
 /*overflow: scroll;*/
-scrollbar-width: 3px;
+scrollbar-width: 50px;
 }
 
 ::-webkit-scrollbar {

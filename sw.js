@@ -1,5 +1,5 @@
 
-//var myCacheVersion = "v.1.2.2025.03.23";
+//var myCacheVersion = "v.1.2.2025.03.24";
 
 
 
@@ -70,7 +70,7 @@ function swJsInstallFiles(){
 //https://stackoverflow.com/questions/66529102/uncaught-in-promise-typeerror-failed-to-execute-cache-on-addall-request
 //https://github.com/mdn/pwa-examples
 self.addEventListener('install', (e) => {
-e.waitUntil(caches.open("v.1.2.2025.03.23").then((cache) => cache.addAll(fileListArrFound)),);
+e.waitUntil(caches.open("v.1.2.2025.03.24").then((cache) => cache.addAll(fileListArrFound)),);
 });*/
 
 
@@ -1289,12 +1289,10 @@ var fileListArr = ["/404.html",
 "/projects/test-27/",
 "/projects/test-27/cursor-hl.psd",
 "/projects/test-27/index.html",
-"/projects/test-27/manifest.webmanifest",
 "/projects/test-27/README.md",
 "/projects/test-27/screenshot.png",
 "/projects/test-27/script.js",
 "/projects/test-27/style.css",
-"/projects/test-27/sw.js",
 "/projects/text-to-binary-52/index.html",
 "/projects/text-to-binary-52/",
 "/projects/text-to-binary-52/script.js",
@@ -1411,7 +1409,7 @@ if (res.ok) {
 // file is present at URL
 console.log('try cache.add ' + file);
 //https://web.dev/learn/pwa/caching/
-caches.open("v.1.2.2025.03.23")
+caches.open("v.1.2.2025.03.24")
 .then(cache => {
 cache.add(file); // it stores only one resource
 //  cache.addAll(["styles.css", "app.js"]); // it stores two resources
@@ -1437,7 +1435,7 @@ if (res.ok) {
 // file is present at URL
 console.log('try cache.add ' + newFile);
 //https://web.dev/learn/pwa/caching/
-caches.open("v.1.2.2025.03.23")
+caches.open("v.1.2.2025.03.24")
 .then(cache => {
 cache.add(newFile); // it stores only one resource
 //  cache.addAll(["styles.css", "app.js"]); // it stores two resources
@@ -1470,7 +1468,7 @@ console.log('404 not found ' + newFile);
 // rm old cache
 //https://developer.mozilla.org/en-US/docs/Web/API/CacheStorage/delete
 this.addEventListener("activate", (event) => {
-  const cachesToKeep = ["v.1.2.2025.03.23"];
+  const cachesToKeep = ["v.1.2.2025.03.24"];
 
   event.waitUntil(
     caches.keys().then((keyList) =>

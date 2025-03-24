@@ -327,7 +327,7 @@ if(countVariant2 <= 0&&answer2[randomKeys[key]] == 'true'){
 quizVariantTrueForPrint[0] = countVariantId;
 //answerTmp = randomKeys[key] + answer2[randomKeys[key]];
 answerTmp = randomKeys[key];
-answer = `<div id="${countVariantId}" class="quizButton button light3 border borderRadius2 click left" onclick="quizMain('quizCheckAnswer', '${answer2[randomKeys[key]]}', '${countVariantId}')">${answerTmp}</div>`;
+answer = `<div id="${countVariantId}" class="quizButton button light3 border borderRadius2 click left" onclick="quizMain('quizCheckAnswer', '${answer2[randomKeys[key]]}', '${countVariantId}');return false;">${answerTmp}</div>`;
 quizVariantRandomOrder.push(answer);
 countVariant2++;
 }
@@ -340,7 +340,7 @@ Object.keys(randomKeys).forEach((key) => {
 if(countVariant <= 4&&answer2[randomKeys[key]] != 'true'){
 //answerTmp = randomKeys[key] + answer2[randomKeys[key]];
 answerTmp = randomKeys[key];
-answer = `<div id="${countVariantId}" class="quizButton button light3 border borderRadius2 click left" onclick="quizMain('quizCheckAnswer', '${answer2[randomKeys[key]]}', '${countVariantId}', '${quizVariantTrueForPrint[0]}')">${answerTmp}</div>`;
+answer = `<div id="${countVariantId}" class="quizButton button light3 border borderRadius2 click left" onclick="quizMain('quizCheckAnswer', '${answer2[randomKeys[key]]}', '${countVariantId}', '${quizVariantTrueForPrint[0]}');return false;">${answerTmp}</div>`;
 quizVariantRandomOrder.push(answer);
 countVariant++;
 }
@@ -381,7 +381,7 @@ let qPrint = `
 <label for="round" class="xSmall">Rounds ${quizConfRound}:</label>
 <progress id="round" min="0" max="${quizConfRound}" value="${quizProgressRound[0] }">${quizProgressRound[0] }</progress>
 
-<div class="submit small op button block pointer" onclick="quizMain('next')">next</div>
+<div class="submit small op button block pointer" onclick="quizMain('next');return false;">next</div>
 
 
 
@@ -572,7 +572,7 @@ Correct: <span class="green bold">${quizResultCorrectAnswer[0]}</span>, Wrong: <
 document.getElementById('result').innerHTML = `
 <div class="padding3 light shadow borderRadius3">
 ${quizWinMsg[0]}
-<div class="submit button block pointer" onclick="fuMReload();">reload, again</div>
+<div class="submit button block pointer" onclick="fuMReload();return false;">reload, again</div>
 </div>
 `;
 }

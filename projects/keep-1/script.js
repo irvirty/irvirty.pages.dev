@@ -1,4 +1,4 @@
-// Keep v.3.16.0
+// Keep v.3.16.1
 // The static version of my offline "keep" PHP script that saves things (links, notes, etc).
 // Inspired by Twitter, Google Keep
 // Not for large data files.
@@ -1146,7 +1146,7 @@ if (mode == 'search'){
 print += `
 <div class="wrapper">
 <div class="block tRight">
-<a class="border3 borderRadius2 button light" href="#" onclick="history.back()" title="history back">back</a>
+<a class="border3 borderRadius2 button light" href="#" onclick="history.back();return false;" title="history back">back</a>
 <a class="border3 borderRadius2 button light" href="?">start</a>
 </div>
 </div>
@@ -2674,7 +2674,7 @@ nav2Print = `
 <div class="tRight">
 <!--<a class="op border3List button light" href="?id=">random</a>-->
 </div>
-<!--<a class="op border3 borderRadius2 button light" style="width: 49%;" href="#" onclick="history.back()">back</a>-->
+<!--<a class="op border3 borderRadius2 button light" style="width: 49%;" href="#" onclick="history.back();return false;">back</a>-->
 `;
 break;
 
@@ -2698,7 +2698,7 @@ nav2Print = `
 
 <div class="block right tRight zero">
 <div class="tagList">
-<a class="op border3List borderRadius2 button light" href="#" onclick="history.back()">back</a>
+<a class="op border3List borderRadius2 button light" href="#" onclick="history.back();return false;">back</a>
 <a class="op border3List borderRadius2 button light" href="?p=` + Math.floor(getP) + `">list</a>
 </div>
 </div>

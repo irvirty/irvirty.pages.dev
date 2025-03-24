@@ -82,7 +82,6 @@ ${result}
 </div>
 
 
-
 `;
 
 document.getElementById("themeOption").innerHTML = result;
@@ -113,10 +112,13 @@ document.getElementById(item).addEventListener("click", function() {
 document.getElementById("fTheme").innerHTML =  item;
 
 fuMSetTheme(item);
+fuMBg(conf["confThemeEmbed"], conf["confBgImg"]);
 light(item);
 localStorage.setItem('confTheme', item);
 
+
 document.getElementById("confTheme").innerHTML = `
+
 <div class="tLeft">
 
 <span class="small borderRadius2">device theme: <b>${conf["confDeviceTheme"]}</b></span><br>
@@ -150,5 +152,50 @@ document.getElementById("confTheme").innerHTML = `
 //https://stackoverflow.com/questions/49350534/how-to-call-js-function-on-hover-from-html
 function lMHoverSetTheme(lMThemeNameVar){
 fuMSetTheme(lMThemeNameVar);
+}
+
+
+
+
+// Bg image. Custom background image
+let rusultBgUrl = `
+
+<div class="margin2 padding2"></div>
+
+<div class="wrapper">
+<form>
+<label class="small" for="idBgImg">Custom background image. Image URL:</label>
+<input type="text" id="idBgImg" name="idBgImg" placeholder="https://example.com/example.png">
+<div class="twoColumn">
+<a href="#" class="block button submit border op borderRadius2" onclick="updateValueBgUrl();return false;">Send</a>
+<input class="block button submit border op borderRadius2" type="reset" value="Reset">
+</div>
+</form>
+
+</div>
+
+
+`;
+
+document.getElementById("bgOption").innerHTML = rusultBgUrl;
+
+/*document.getElementById("idBgImg").addEventListener("input", updateValueBgUrl);
+
+function updateValueBgUrl(e) {
+localStorage.setItem('confBgImg', e.target.value);
+fuMBg("", e.target.value);
+fuMReload();
+}*/
+
+function updateValueBgUrl() {
+let bgImage111 = document.getElementById("idBgImg").value;
+localStorage.setItem('confBgImg', bgImage111);
+fuMBg("", bgImage111);
+fuMReload();
+}
+
+let  confBgImgInputPrint = localStorage.getItem("confBgImg");
+if (confBgImgInputPrint != null&&confBgImgInputPrint != undefined){
+document.getElementById("idBgImg").value = confBgImgInputPrint;
 }
 

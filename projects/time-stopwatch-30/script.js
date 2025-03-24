@@ -32,17 +32,17 @@ comArr[0] = 'stop/refresh';
 
 if (comArr[0] != 'pause'){
 document.getElementById('panel').innerHTML = `
-<a class="padding2 margin2" onclick="fuStopwatchCom('refresh')" href="#">refresh</a>
-<a class="padding2 margin2" onclick="fuStopwatchCom('pause')" href="#">pause</a>
-<a class="padding2 margin2" onclick="fuStopwatchCom('stop')" href="#">stop</a>
-<a class="padding2 margin2" onclick="fuStopwatchCom('stop/refresh')" href="#">stop/refresh</a>
+<a class="padding2 margin2" onclick="fuStopwatchCom('refresh');return false;" href="#">refresh</a>
+<a class="padding2 margin2" onclick="fuStopwatchCom('pause');return false;" href="#">pause</a>
+<a class="padding2 margin2" onclick="fuStopwatchCom('stop');return false;" href="#">stop</a>
+<a class="padding2 margin2" onclick="fuStopwatchCom('stop/refresh');return false;" href="#">stop/refresh</a>
 `;
 }
 
 if (comArr[0] == 'pause'){
 document.getElementById('panel').innerHTML = `
-<a class="padding2 margin2" onclick="fuStopwatchCom('continue')" href="#">continue</a>
-<a class="padding2 margin2" onclick="fuStopwatchCom('refresh')" href="#">refresh</a>
+<a class="padding2 margin2" onclick="fuStopwatchCom('continue');return false;" href="#">continue</a>
+<a class="padding2 margin2" onclick="fuStopwatchCom('refresh');return false;" href="#">refresh</a>
 `;
 }
 

@@ -12,7 +12,7 @@ ${hello}
 
 
 
-
+/*
 //https://github.com/mdn/dom-examples/blob/main/webgl-examples/tutorial/sample1/webgl-demo.js
 main();
 
@@ -39,7 +39,7 @@ function main() {
 }
 
 
-
+*/
 
 
 
@@ -83,10 +83,10 @@ var checkScroll = -1;
 window.onscroll = event => {
 //onscrollend = (event) => {
 
-fuMInsertHtml('#resultTerminal', `
+/*fuMInsertHtml('#resultTerminal', `
 scrollTop: ${document.documentElement.scrollTop} = offsetTop: ${document.getElementById('divIdForAnimation').offsetTop}<br>
 clientHeight: ${document.documentElement.clientHeight}<br>
-`, '');
+`, '');*/
 
 
 // start animation div when scrolling
@@ -155,12 +155,6 @@ console.log(error);
 fuPrintTopic();
 */
 
-// insert manifest in header
-let element = document.createElement('link'); 
-element.setAttribute('rel', 'manifest'); 
-element.setAttribute('href', "manifest.webmanifest");
-element.crossOrigin = 'anonymous';
-document.querySelector('head').appendChild(element);
 
 
 

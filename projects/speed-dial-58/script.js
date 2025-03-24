@@ -50,7 +50,7 @@ if (conf["confSpeedDialStatus"] != "off"){
 // pin button and status
 
 
-let fPinButton = `<a title="Add page to speed dial" id="mPin" class="inlineBlock padding brand" href="#mPin" onclick="fuLSpeedDial('', '', '', 'add2');">Pin</a>`;
+let fPinButton = `<a title="Add page to speed dial" id="mPin" class="inlineBlock padding brand" href="#mPin" onclick="fuLSpeedDial('', '', '', 'add2');return false;">Pin</a>`;
 let confSpeedDialDataArrButton = JSON.parse(confSpeedDialDataArr);
 
 confSpeedDialDataArrButton.forEach((item, index) => {
@@ -59,7 +59,7 @@ if (index != undefined&&index != "undefined"){
 
 //if ((String(item.url)).indexOf(locationSpeedDialUrl) != -1){
 if (item.url == locationSpeedDialUrl||item.text == locationSpeedDialTitle){
-fPinButton = `<a title="Remove page from speed dial" id="mPin" class="inlineBlock padding gray" href="#mPin" onclick="fuLSpeedDial('', '', '', 'del');">Pined</a>`;
+fPinButton = `<a title="Remove page from speed dial" id="mPin" class="inlineBlock padding gray" href="#mPin" onclick="fuLSpeedDial('', '', '', 'del');return false;">Pined</a>`;
 }
 
 }
@@ -87,7 +87,7 @@ var submitForm = `
 <label class="xSmall" for="speedDialUrl">URL:</label>
 <input type="text" id="speedDialUrl" name="speedDialUrl" placeholder="https://example.com/">
 
-<a href="#speedDialAnchor" onclick="fuLSpeedDial('', '', '', 'add')"><div class="op smaller button block submit brand">Add</div></a>
+<a href="#speedDialAnchor" onclick="fuLSpeedDial('', '', '', 'add');return false;"><div class="op smaller button block submit brand">Add</div></a>
 
 <div class="padding2"></div>
 <a class="op button border light borderRadius2 smaller brand" href="/projects/speed-dial-58/index.html">Edit speed dial</a>
@@ -308,13 +308,13 @@ printSettings = `
 
 ${printSettings}
 
-<a href="#speedDialAnchor" onclick="fuLSpeedDial('', '', '', 'update')"><div class="op small  submit button shadow brand borderRadius3 w100">Update All</div></a>
+<a href="#speedDialAnchor" onclick="fuLSpeedDial('', '', '', 'update');return false;"><div class="op small  submit button shadow brand borderRadius3 w100">Update All</div></a>
 </form>
 
 <div class="block padding2 margin2"></div>
 
 <div class="tRight">
-<a href="#" onclick="fuLSpeedDial('', '', '', 'reset')"><div class="op small tag2 button bg  inputHeight red borderRadius border">Clear data (reset)</div></a>
+<a href="#" onclick="fuLSpeedDial('', '', '', 'reset');return false;"><div class="op small tag2 button bg  inputHeight red borderRadius border">Clear data (reset)</div></a>
 </div>
 
 <div class="block padding2 margin2"></div>

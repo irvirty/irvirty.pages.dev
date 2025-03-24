@@ -57,7 +57,7 @@ if(qGQ != ''){ qGQ = encodeURIComponent(qGQ); }
 
 
 // config
-var lQModePrint = `<a class="brand light tag border borderRadius2 small" href="./?q=">start</a>`;
+var lQModePrint = `<a class="brand light tag2 itemHeight border borderRadius2 small" href="./?q=">start</a>`;
 
 var lQMode = [
 {"name":"Web", "title":"Web seach", "comName":"web", "code":"74e19ee10195d4644"},
@@ -84,16 +84,16 @@ qGQ = e.target.value;
 qGQ = encodeURIComponent(qGQ);
 
 lQModePrint = "";
-lQModePrint = `<a class="brand light tag border borderRadius2 small" href="./?q=">start</a>`;
+lQModePrint = `<a class="brand light tag2 itemHeight border borderRadius2 small" href="./?q=">start</a>`;
 
 lQMode.forEach((item, item2) => {
 if (item["comName"] == qGMode){
 lQModePrint += `
-<a class="brand active2 light3 tag border borderRadius2 small" title="${item["title"]}" href="?mode=${item["title"]}&q=${qGQ}">${item["name"]}</a>
+<a class="brand active2 light3 tag2 itemHeight border borderRadius2 small" title="${item["title"]}" href="?mode=${item["title"]}&q=${qGQ}">${item["name"]}</a>
 `;
 } else {
 lQModePrint += `
-<a class="brand tag light3 border borderRadius2 small" title="${item["title"]}" href="?mode=${item["comName"]}&q=${qGQ}">${item["name"]}</a>
+<a class="brand tag2 itemHeight light3 border borderRadius2 small" title="${item["title"]}" href="?mode=${item["comName"]}&q=${qGQ}">${item["name"]}</a>
 `;
 }
 });
@@ -107,11 +107,11 @@ document.getElementById("mode").innerHTML = `${lQModePrint}`;
 lQMode.forEach((item, item2) => {
 if (item["comName"] == qGMode){
 lQModePrint += `
-<a class="brand active2 light3 tag border borderRadius2 small" title="${item["title"]}" href="?mode=${item["comName"]}&q=${qGQ}">${item["name"]}</a>
+<a class="brand active2 light3 tag2 itemHeight border borderRadius2 small" title="${item["title"]}" href="?mode=${item["comName"]}&q=${qGQ}">${item["name"]}</a>
 `;
 } else {
 lQModePrint += `
-<a class="brand tag light2 border borderRadius2 small" title="${item["title"]}" href="?mode=${item["comName"]}&q=${qGQ}">${item["name"]}</a>
+<a class="brand tag2 light2 border borderRadius2 small" title="${item["title"]}" href="?mode=${item["comName"]}&q=${qGQ}">${item["name"]}</a>
 `;
 }
 });
@@ -122,7 +122,7 @@ lQMode.forEach((item, item2) => {
 if (item["comName"] == qGMode){
 
 document.getElementById("publicUrl").innerHTML = `
-<a class="tag2 borderBottomBlue brand small" title="${item["title"]}" href="https://cse.google.com/cse?cx=${item["code"]}">Public URL</a>
+<a class="tag2 borderBottomBlue blue small" title="${item["title"]}" href="https://cse.google.com/cse?cx=${item["code"]}">Public URL</a>
 `;
 
 if (q != null&&q != ""){

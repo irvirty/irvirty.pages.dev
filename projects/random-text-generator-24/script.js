@@ -125,7 +125,7 @@ result += '<a class="button brand" href="?q='+nav[i]+'">'+nav[i]+'</a>';
 }
 
 document.getElementById("q").innerHTML = `
-<a class="button brand" href="#" onclick="reload();">reload</a> ~ :
+<a class="button brand" href="#" onclick="reload();return false;">reload</a> ~ :
 `+result; 
 
 

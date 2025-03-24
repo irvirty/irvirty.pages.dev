@@ -21,12 +21,12 @@ document.getElementById("number2").addEventListener("input", updateValue);
 (gameMode.split(',')).forEach((item) => {
 if(mode33 != item){
 printGameMode += `
-<a class="brand button op" href="#" onclick="modeSelect('${item}')">${item}</a>
+<a class="brand button op" href="#" onclick="modeSelect('${item}');return false;">${item}</a>
 `;
 }else{
 mode[0] = mode33;
 printGameMode += `
-<a class="button" href="#" onclick="modeSelect('${item}')">${item}</a>
+<a class="button" href="#" onclick="modeSelect('${item}');return false;">${item}</a>
 `;
 }
 });
@@ -94,12 +94,12 @@ var print = `
 
 <div id="number2"></div>
 <div class="buttonPlusMinus">
-<a href="#" id="prev" class="light border" onclick="submitButtonPrev()" >-</a>
-<a href="#" id="next" class="light border" onclick="submitButtonNext()" >+</a>
+<a href="#" id="prev" class="light border" onclick="submitButtonPrev();return false;" >-</a>
+<a href="#" id="next" class="light border" onclick="submitButtonNext();return false;" >+</a>
 </div>
 <div id="range2"></div>
 
-<a class="block tCenter button border light h3 op small submit" style="cursor: pointer;" onclick="start()" href="#">submit</a>
+<a class="block tCenter button border light h3 op small submit" style="cursor: pointer;" onclick="start();return false;" href="#">submit</a>
 
 </div>
 </div>

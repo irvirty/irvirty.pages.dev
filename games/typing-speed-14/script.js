@@ -42,7 +42,7 @@ if (mode == null){ mode = 'quote'; }
 
 
 
-//document.getElementById("refresh").innerHTML = `<a href="#" onclick="localRefresh('` + mode + `');">refresh</a>`;
+//document.getElementById("refresh").innerHTML = `<a href="#" onclick="localRefresh('` + mode + `');return false;">refresh</a>`;
 
 
 
@@ -81,7 +81,7 @@ document.getElementById("mode").innerHTML = `
 <!-- mode -->
 
 <!--<a class="tag op light border2 borderRadius2" href="?"">main</a>-->
-<a class="tag op light3 border2 borderRadius2" href="./?" onclick="fuMReload();">reload</a>
+<a class="tag op light3 border2 borderRadius2" href="./?" onclick="fuMReload();return false;">reload</a>
 
 ${modeListPrint}
 
@@ -291,7 +291,7 @@ document.getElementsByClassName("input")[0].innerHTML = `
 
 <!--<div style="display: grid; grid-template-columns: 1fr 1fr; grid-gap: 2px;">
 <input class="submit borderRadius" type="submit">
-<a href="./" class="submit" onclick="fuMReload();">Reload (submit)</a>
+<a href="./" class="submit" onclick="fuMReload();return false;">Reload (submit)</a>
 </div>-->
 
 <a href="./"  class="submit button block borderRadius">Reload (submit)</a>

@@ -204,7 +204,7 @@ transform: rotate(0deg);
 <span class="xSmall">Site update: <span class="brand" id="last-update"></span></span>
 </summary>
 <div class="wrapperSmall small inlineBlock padding2 pre bg shadow borderRadius2 tLeft">
-All (start menu) page: fixed duplication of the first character when start typing if the input form is without focus.
+New: custom background image.
 
 <a class="brand block tag2 small tCenter border2 light borderRadius2" href="/pages/updates/" title="Update Log">more</a></div>
 </details>
@@ -278,59 +278,21 @@ document.getElementById('urlDayNow').innerHTML = `<a class="brand tag op" href="
 
 </div>
 
-<script>
-document.head.insertAdjacentHTML("beforeend", `
-
-<style>
-
-.hotLinks {
-/*display: grid;
-/*grid-template-columns: repeat(auto-fill, minmax(42px, 1fr));
-grid-template-columns: repeat(auto-fill, minmax(52px, 1fr));
-grid-gap: 1px;*/
-/*margin: 0 auto;
-justify-content: center;
-align-items: center;*/
-
-display: flex;
-flex: 1 0 auto;
-flex-wrap: wrap;
-}
-
-.hotLinks a {
-display: inline-flex;
-width: auto;
-min-height: 30px;
-justify-content: center;
-align-content: center;
-text-wrap: balance;
-padding: .6em;
-
-flex: 1 0 auto;
-flex-wrap: wrap;
-}
-/*.hotLinks .tag { max-width: 100%; }*/
-</style>
-
-`);
-
-</script>
-
 <div  class="center noscriptHide" style="margin-top: 7px;">
 <div class="wrapper tCenter small"><!--if scrollX horizontal class rm tagList)-->
 <div id="hotLinks">
 
-<div class="tagList2 hotLinks ">
+<div class="autoColumn">
 <!--<span class="x-small op c" title="Commands:">com: </span>-->
-<!--<a class="tag light2 border3 borderRadius2 op" href="/?q=w" title="Web search random (text w)">Web</a>-->
-<a class="tag light2 border3 borderRadius2 op" href="/?q=goo" title="Google search (text goo)">Google</a>
-<a class="tag light2 border3 borderRadius2 op" href="/?q=bin" title="Bing search (text bin)">Bing</a>
-<a class="tag light2 border3 borderRadius2 op" href="/?q=o" title="Other random (text o)">Other</a>
-<a class="tag light2 border3 borderRadius2 op" href="/?q=i" title="Image search random (text i)">Images</a>
-<a class="tag light2 border3 borderRadius2 op" href="/?q=v" title="Video search random (text v)">Videos</a>
-<a class="tag light2 border3 borderRadius2 op" href="/?q=n" title="News search random (text n)">News</a>
-<!--<a class="tag light2 border3 borderRadius2 op" href="/?q=s" title="Social media search random (text s)">Social</a>
-<a class="tag light2 border3 borderRadius2 op" href="/?q=t" title="Translate random (text t)">Translate</a>-->
+<!--<a class="tag itemHeight light2 border3 borderRadius2 op" href="/?q=w" title="Web search random (text w)">Web</a>-->
+<a class="tag2 itemHeight light2 border3 borderRadius2 op" href="/?q=goo" title="Google search (text goo)">Google</a>
+<a class="tag2 itemHeight light2 border3 borderRadius2 op" href="/?q=bin" title="Bing search (text bin)">Bing</a>
+<a class="tag2 itemHeight light2 border3 borderRadius2 op" href="/?q=o" title="Other random (text o)">Other</a>
+<a class="tag2 itemHeight light2 border3 borderRadius2 op" href="/?q=i" title="Image search random (text i)">Images</a>
+<a class="tag2 itemHeight light2 border3 borderRadius2 op" href="/?q=v" title="Video search random (text v)">Videos</a>
+<a class="tag2 itemHeight light2 border3 borderRadius2 op" href="/?q=n" title="News search random (text n)">News</a>
+<!--<a class="tag2 itemHeight light2 border3 borderRadius2 op" href="/?q=s" title="Social media search random (text s)">Social</a>-->
+<a class="tag2 itemHeight light2 border3 borderRadius2 op" href="/?q=t" title="Translate random (text t)">Translate</a>
 </div>
 
 </div>
@@ -578,7 +540,7 @@ return time + ' ago';
 
 <!--<script src="/js/fuPostTime.js"></script>-->
 <script>
-document.getElementById("last-update").innerHTML = fuPostTime(1742717383);
+document.getElementById("last-update").innerHTML = fuPostTime(1742785579);
 </script>
 
 <script>
@@ -601,16 +563,16 @@ var text = encodeURIComponent(e.target.value);
 
 var a = `
 
-<div class="tagList2 hotLinks">
-<!--<a class="tag light2 border3 borderRadius2" href="/?q=` + text + ` w" title="Web search random (text w)">Web</a>-->
-<a class="tag light2 border3 borderRadius2" href="/?q=` + text + ` goo" title="Google search (text goo)">Google</a>
-<a class="tag light2 border3 borderRadius2" href="/?q=` + text + ` bin" title="Bing search (text bin)">Bing</a>
-<a class="tag light2 border3 borderRadius2" href="/?q=` + text + ` o" title="Other random (text o)">Other</a>
-<a class="tag light2 border3 borderRadius2" href="/?q=` + text + ` i" title="Image search random (text i)">Images</a>
-<a class="tag light2 border3 borderRadius2" href="/?q=` + text + ` v" title="Video search random (text v)">Videos</a>
-<a class="tag light2 border3 borderRadius2" href="/?q=` + text + ` n" title="News search random (text n)">News</a>
-<!--<a class="tag light2 border3 borderRadius2" href="/?q=` + text + ` s" title="Socail media search random (text s)">Social</a>
-<a class="tag light2 border3 borderRadius2" href="/?q=` + text + ` t" title="Translate random (text t)">Translate</a>-->
+<div class="tagList2 autoColumn">
+<!--<a class="tag2 itemHeight light2 border3 borderRadius2 op" href="/?q=` + text + ` w" title="Web search random (text w)">Web</a>-->
+<a class="tag2 itemHeight light2 border3 borderRadius2 op" href="/?q=` + text + ` goo" title="Google search (text goo)">Google</a>
+<a class="tag2 itemHeight light2 border3 borderRadius2 op" href="/?q=` + text + ` bin" title="Bing search (text bin)">Bing</a>
+<a class="tag2 itemHeight light2 border3 borderRadius2 op" href="/?q=` + text + ` o" title="Other random (text o)">Other</a>
+<a class="tag2 itemHeight light2 border3 borderRadius2 op" href="/?q=` + text + ` i" title="Image search random (text i)">Images</a>
+<a class="tag2 itemHeight light2 border3 borderRadius2 op" href="/?q=` + text + ` v" title="Video search random (text v)">Videos</a>
+<a class="tag2 itemHeight light2 border3 borderRadius2 op" href="/?q=` + text + ` n" title="News search random (text n)">News</a>
+<!--<a class="tag2 itemHeight light2 border3 borderRadius2 op" href="/?q=` + text + ` s" title="Socail media search random (text s)">Social</a>-->
+<a class="tag2 itemHeight light2 border3 borderRadius2 op" href="/?q=` + text + ` t" title="Translate random (text t)">Translate</a>
 </div>
 
 `;

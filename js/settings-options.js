@@ -14,21 +14,24 @@ confData.forEach((val, index) => {
 carrentValue33 = localStorage.getItem(val.confName);
 
 // interactive
-if(val.confName == 'confTheme'){ fuMSetTheme(carrentValue33); }
-if(val.confName == 'confDataCollection'&&carrentValue33 == 'not selected'){
-if(document.getElementById("cookiePopup") != null){
+if (val.confName == 'confTheme'){ fuMSetTheme(carrentValue33); }
+if (val.confName == 'confDataCollection'&&carrentValue33 == 'not selected'){
+if (document.getElementById("cookiePopup") != null){
 document.getElementById("cookiePopup").style.display = "block";
 }
 }
 
-
 val.confValueVariant.forEach((val2) => {
 
-if(val2 == carrentValue33){
+if (val2 == carrentValue33){
+val.confName = fuMClearText(val.confName);
+val2 = fuMClearText(val2);
 confValueVariantPrint += `
 <button class="button margin highlight bold borderRadius2 borderBottomOrange" onclick="setSeting('${val.confName}', '${val2}')">${val2}</button>
 `;
-}else{
+} else {
+val.confName = fuMClearText(val.confName);
+val2 = fuMClearText(val2);
 confValueVariantPrint += `
 <button class="button margin light2 borderRadius2" onclick="setSeting('${val.confName}', '${val2}')">${val2}</button>
 `;
@@ -37,11 +40,11 @@ confValueVariantPrint += `
 });
 
 
-if(comSettings == "reset"){
+if (comSettings == "reset"){
 setSeting(`${val.confName}`, `${val.confValueDefault}`);
 
 // enable hide ext / main.js, settings page
-/*delme if(String(location.hostname).indexOf('.pages.dev') != -1&&val.confName == 'confHideLinkExt'){
+/*delme if (String(location.hostname).indexOf('.pages.dev') != -1&&val.confName == 'confHideLinkExt'){
 setSeting(`${val.confName}`, `on`);
 }*/
 
@@ -52,6 +55,11 @@ style += `
 #${val.confName}:target,
 
 `;
+
+val.confTitle = fuMClearText(val.confTitle);
+val.confName = fuMClearText(val.confName);
+//val.confDescription = fuMClearText(val.confDescription);
+carrentValue33 = fuMClearText(carrentValue33);
 
 printBody += `
 
@@ -160,12 +168,11 @@ printFunctionLocal();
 function setSeting(confName, confValue){
 settingValue = localStorage.setItem(confName, confValue);
 
-if(confName == "confBg"||confName == "confAdsStatus"||confName == "confDataCollection"){ // interactive
+if (confName == "confBg"||confName == "confBgImg"||confName == "confAdsStatus"||confName == "confDataCollection"){ // interactive 2
 return printFunctionLocal(confValue), fuMReload();
-}else{
+} else {
 return printFunctionLocal();
 }
-
 }
 
 
@@ -173,7 +180,7 @@ return printFunctionLocal();
 
 function settingOptionReset(){
 
-if(confirm(`Are you sure? Set all options to default values.`) == true){
+if (confirm(`Are you sure? Set all options to default values.`) == true){
 printFunctionLocal("reset");
 return fuMReload();
 }
@@ -185,7 +192,7 @@ return fuMReload();
 
 function settingOptionClearData(){
 
-if(confirm(`Are you sure? All local storage data will be deleted (theme settings, etc).`) == true){
+if (confirm(`Are you sure? All local storage data will be deleted (theme settings, etc).`) == true){
 //https://developer.mozilla.org/en-US/docs/Web/API/Storage/clear
 localStorage.clear();
 return fuMReload();
@@ -198,7 +205,7 @@ return fuMReload();
 
 function settingOptionClearDataIndexdDb(){
 
-if(confirm(`Are you sure? All IndexedDB data will be deleted: ${conf["confDbList"]}`) == true){
+if (confirm(`Are you sure? All IndexedDB data will be deleted: ${conf["confDbList"]}`) == true){
 
 /*//https://stackoverflow.com/questions/46040005/delete-all-indexeddb
 window.indexedDB.databases().then((r) => {
