@@ -14,7 +14,7 @@ var sitemapJsonVar = [
         "time": "id"
     },
     {
-        "text": "About the site\n\nAbout the site, profiles, license, contacts, donate. | about: ",
+        "text": "About me\n\nAbout me, profiles, license, contacts, donate. | about: ",
         "url": "\/pages\/about\/index.html",
         "tag": " #about #contact #donate #profile #support #page #main",
         "id": "485f986de6d6e7c5720d6d940ab4b434",
