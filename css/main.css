@@ -1,4 +1,4 @@
-/* Main.css style v.20.15.1
+/* Main.css style v.20.15.2
 /* main.css + theme (auto.css) */
 /* The style is mostly based on classes */
 
@@ -689,13 +689,6 @@ display: none;
 /*https://forum.freecodecamp.org/t/before-after-box-sizing-border-box/425735#*/
 *, *::before, *::after { box-sizing: border-box; }
 
-/* mobile */
-@media(max-width: 500px){
-.tLeftMobile { text-align: left; }
-.tRightMobile { text-align: right; }
-.m, .mobile { display: block; }
-}
-
 del a { text-decoration: line-through; }
 
 /*h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
@@ -757,4 +750,9 @@ input[type="color"], form button { vertical-align: middle; min-height: var(--inp
 .reduceLight2 { filter:brightness(70%); }
 /*.reduceLight:hover, .reduceLigh2:hover { filter: brightness(90%); }*/
 
-
+/* mobile */
+@media(max-width: 500px){
+.tLeftMobile { text-align: left; }
+.tRightMobile { text-align: right; }
+.blockMobile { display: block; }
+}
