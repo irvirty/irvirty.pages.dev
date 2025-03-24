@@ -165,10 +165,14 @@ fuMSetTheme(lMThemeNameVar);
 let rusultBgUrl = `
 
 <div class="margin2 padding2"></div>
+<div class="margin2 padding2"></div>
 
 <div class="wrapper">
+
+<h2 class="op tCenter">Custom background image (experimental)</h2>
+
 <form>
-<label class="small" for="idBgImg">Custom background image. Image URL:</label>
+<label class="small" for="idBgImg">Image URL:</label>
 <input type="text" id="idBgImg" name="idBgImg" placeholder="https://example.com/example.png">
 <div class="twoColumn">
 <a href="#" class="block button submit border op borderRadius2" onclick="updateValueBgUrl();return false;">Send</a>
