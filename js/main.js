@@ -1159,7 +1159,7 @@ background-attachment: fixed;
 background-repeat: no-repeat;
 background-position: center center;
 background-size: cover;
-opacity: .06;
+opacity: .07;
 }
 </style>
 `);
