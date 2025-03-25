@@ -618,10 +618,12 @@ return tagList;
 
 
 document.getElementById('taglist').innerHTML += `
-<div class="tCenter" style="padding-top: 60px;">
-<div class="wrapper3">
+<div class="tCenter">
+<div class="wrapper3 notUnderline">
 
-<div class="small padding2 op">list of titles and tags:</div>
+<div class="margin2 padding2"></div>
+
+<div class="small padding2 op">Tag cloud:</div>
 ` + tagList(printTagList) + `
 </div>
 </div>

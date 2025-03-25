@@ -94,12 +94,12 @@ var print = `
 
 <div id="number2"></div>
 <div class="buttonPlusMinus">
-<a href="#" id="prev" class="light border" onclick="submitButtonPrev();return false;" >-</a>
-<a href="#" id="next" class="light border" onclick="submitButtonNext();return false;" >+</a>
+<a href="#" id="prev" class="light border notUnderline" onclick="submitButtonPrev();return false;" >-</a>
+<a href="#" id="next" class="light border notUnderline" onclick="submitButtonNext();return false;" >+</a>
 </div>
 <div id="range2"></div>
 
-<a class="block tCenter button border light h3 op small submit" style="cursor: pointer;" onclick="start();return false;" href="#">submit</a>
+<a class="block tCenter button border light h3 op small submit notUnderline" style="cursor: pointer;" onclick="start();return false;" href="#">Submit</a>
 
 </div>
 </div>

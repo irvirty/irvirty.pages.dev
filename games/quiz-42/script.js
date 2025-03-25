@@ -716,7 +716,7 @@ return tagList;
 
 document.getElementById('taglist').innerHTML += `
 <div class="tCenter" style="padding-top: 60px;">
-<div class="wrapper3">
+<div class="wrapper3 notUnderline">
 
 <div class="xSmall padding2 op">tags:</div>
 `+tagList(printTagList)+`

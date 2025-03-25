@@ -64,7 +64,7 @@ skip = 'yes';
 }
 if (mode == item&&skip != 'yes'){
 modeListPrint += `
-<a class="tag light4 border borderRadius2" style="color: var(--c3);" href="?mode=` + item + `">` + item + `</a>
+<a class="tag light4 border borderRadius2 borderBottomBrand" style="color: var(--c3);" href="?mode=` + item + `">` + item + `</a>
 `;
 } else if (skip != 'yes'){
 modeListPrint += `

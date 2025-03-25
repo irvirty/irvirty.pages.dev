@@ -63,8 +63,6 @@ const grid = `
 <!--<a class="button border light" href="#" onclick="clickInput('(');return false;">(</a>
 <a class="button border light" href="#" onclick="clickInput(')');return false;">)</a>-->
 
-
-
 <a class="button border light3" href="#" onclick="clickInput('7');return false;">7</a>
 <a class="button border light3" href="#" onclick="clickInput('8');return false;">8</a>
 <a class="button border light3" href="#" onclick="clickInput('9');return false;">9</a>

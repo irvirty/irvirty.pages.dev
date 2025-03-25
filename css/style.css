@@ -117,6 +117,7 @@ margin: 0 auto;
 text-wrap: balance;
 text-align: left;
 /*min-height: 50px;*/
+text-decoration: none;
 }
 
 .insertIcon svg *, .insertIconTitle svg * {

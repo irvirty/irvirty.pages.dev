@@ -49,7 +49,9 @@ var checkNotFound = '';
 var url = new URL(window.location);
 var q = url.searchParams.get("q");
 //https://stackoverflow.com/questions/8299742/is-there-a-way-to-convert-html-into-normal-text-without-actually-write-it-to-a-s
+if (q != null&&q != ""){
 q = q.replace(/(<([^>]+)>)/g, "");
+}
 
 var total = 0;
 var comMessagePrint = '';
@@ -857,10 +859,10 @@ return tagList;
 
 document.getElementById('taglist').innerHTML += `
 <div class="tCenter" style="padding-top: 60px;">
-<div class="wrapper3">
+<div class="wrapper3 notUnderline">
 
 <div class="xSmall padding2 op">tags:</div>
-`+tagList(printTagList)+`
+` + tagList(printTagList) + `
 </div>
 </div>
 `;

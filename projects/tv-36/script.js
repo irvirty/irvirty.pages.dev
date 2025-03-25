@@ -144,7 +144,7 @@ document.getElementById(printId).innerHTML = `
 <!-- post -->
 <div class="padding3" id="${jsonVar[id]['id']}">
 <span class="pre padding2List">${post} ${play} ${playSource}</span>
-<div class="">
+<div class="notUnderline">
 <span class="taglist tLeft">${tag}</span>
 <span class=""></span>
 </div>
@@ -619,11 +619,13 @@ return tagList;
 
 
 document.getElementById(printId).innerHTML += `
-<div class="tCenter" style="padding-top: 60px;">
-<div class="wrapper3">
+<div class="tCenter">
+<div class="wrapper3 notUnderline">
 
-<div class="op small padding2">list of tags:</div>
-`+tagList(printTagList)+`
+<div class="margin2 padding2"></div>
+
+<div class="op small padding2">Tag cloud:</div>
+` + tagList(printTagList) + `
 </div>
 </div>
 `;

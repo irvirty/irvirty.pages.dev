@@ -55,5 +55,5 @@ grid-template-columns: 1fr 1fr 0;
 .gridColumn { margin: 3px; }
 
 .block0, .block1 { border: 1px solid var(--cOp); }
-.block0 { background-color: var(--d2); }
-.block1 { background-color: var(--l4); }
+.block0 { background-color: var(--d4); }
+.block1 { background-color: var(--blue); }

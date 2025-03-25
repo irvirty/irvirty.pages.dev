@@ -1,4 +1,4 @@
-/* Main.css style v.20.15.2
+/* Main.css style v.21.0.0
 /* main.css + theme (auto.css) */
 /* The style is mostly based on classes */
 
@@ -51,11 +51,12 @@ font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", Helvetica,
 
 font-style: normal;
 font-size: 0.9375em; font-size: var(--fontSize);
-text-decoration: none;
 /*hyphens: auto;*/
 overflow-wrap: break-word;
 /*word-break: break-all;*/
 }
+
+nav a, a:hover { text-decoration: none; }
 
 /*@media (hover: none) {
 }*/
@@ -393,9 +394,11 @@ filter: invert(100%);
 
 .notAllow { cursor: not-allowed; }
 .pointer, .click { cursor: pointer; }
-.block { display: block; }
 
 .zero { margin: 0; padding: 0; }
+.notUnderline, .notUnderline * { text-decoration: none; }
+
+.block { display: block; }
 .none { display: none; }
 .grid { display: grid; }
 .flex { display: flex; }
@@ -406,19 +409,19 @@ filter: invert(100%);
 .tRight { text-align: right; }
 .tCenter { text-align: center; }
 .reverse { transform: scale(-1, 1); }
-.b, .b a, .bold, .bold a { font-weight: bold; }
-.normal, .normal a { font-weight: normal; font-size: unset; }
-.unset, .unset a { font-size: unset; }
-.medium, .medium a { font-size: medium; }
-.large, .large a { font-size: large; }
-.larger, .larger a { font-size: larger; }
-.xLarge, .xLarge a { font-size: x-large; }
-.xxLarge, .xxLarge a { font-size: xx-large; }
-.xxxLarge, .xxxLarge a { font-size: xxx-large; }
-.small, .small a { font-size: small; }
-.smaller, .smaller a { font-size: smaller; }
-.xSmall, .xSmall a { font-size: x-small; }
-.xxSmall, .xxSmall a { font-size: xx-small; }
+.b, .b *, .bold, .bold * { font-weight: bold; }
+.normal, .normal * { font-weight: normal; font-size: unset; }
+.unset, .unset * { font-size: unset; }
+.medium, .medium * { font-size: medium; }
+.large, .large * { font-size: large; }
+.larger, .larger * { font-size: larger; }
+.xLarge, .xLarge * { font-size: x-large; }
+.xxLarge, .xxLarge * { font-size: xx-large; }
+.xxxLarge, .xxxLarge * { font-size: xxx-large; }
+.small, .small * { font-size: small; }
+.smaller, .smaller * { font-size: smaller; }
+.xSmall, .xSmall * { font-size: x-small; }
+.xxSmall, .xxSmall * { font-size: xx-small; }
 .em { font-style: italic; }
 .oblique { font-style: oblique; }
 .clear, .br { clear: both; }

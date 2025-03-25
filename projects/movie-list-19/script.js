@@ -46,7 +46,7 @@ movieList.push({
 title: `${title33}`,
 data: `<span class="inlineBlock padding1Px">${title33} (${year33})</span><br>`,
 data2: `
-<div class="borderList bgList padding2">
+<div class="borderList bgList padding2 notUnderline">
 <div style="
 display: grid;
 grid-template-columns: 1fr 1fr;
@@ -108,7 +108,7 @@ ${randomMovie}
 ${randomMovie2}
 ${randomMovie3}
 <div class="borderList bgList padding2">
-<a class="submit button block op brand borderRadius" href="#" onclick="fuMReload();return false;">Reload</a>
+<a class="submit button block op brand borderRadius notUnderline" href="#" onclick="fuMReload();return false;">Reload</a>
 </div>
 
 <div class="borderList bgList padding3">

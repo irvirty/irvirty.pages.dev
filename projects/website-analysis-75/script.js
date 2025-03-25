@@ -111,6 +111,9 @@ print += `
 
 `;
 
+
+document.getElementById("result2").innerHTML = "";
+
 let counterA = 1;
 //alert(encodeURIComponent('"'));
 data.forEach((val, index) => {
@@ -130,7 +133,7 @@ goUrlText = goUrlText.replace("%q", q);
 
 document.getElementById("result2").innerHTML += `
 
-<div class="bgList border3List borderRadius2">
+<div class="bgList border3List borderRadius2 notUnderline">
 <a target="blank" href="${goUrl}">
 <div class="padding2 tLeft">
 ${val["text"]} - <span class="brand"><span id="text2${counterA}"></span></span>
@@ -152,7 +155,7 @@ print = ``;
 document.getElementById("result").innerHTML = `
 <div class="margin padding"></div>
 Get page:
-<div class="bgList border3List borderRadius2 padding2">Click submit to receive the analysis
+<div class="bgList border3List borderRadius2 padding2 small">Click submit to receive the analysis
 </div>
 `;
 
@@ -340,7 +343,7 @@ data2.forEach((val, index) => {
 
 print += `
 
-<div class="bgList border3List borderRadius2">
+<div class="bgList border3List borderRadius2 notUnderline">
 <a target="blank" href="${val["text2"]}">
 <div class="padding2 tLeft">
 ${val["text"]} - <span class="brand">${val["text2"]}</span>

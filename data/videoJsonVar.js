@@ -4431,15 +4431,6 @@ var videoJsonVar =
         "rightFooter": ""
     },
     {
-        "text": "Two Brothers in a Place Called Trinity | WESTERN | Full Movie in English | HD - YouTube",
-        "text2": "",
-        "text3": "",
-        "url": "https:\/\/www.youtube.com\/watch?v=Yt3G-5dMm18",
-        "tag": "#video #movie",
-        "time": 1684803086,
-        "rightFooter": ""
-    },
-    {
         "text": "Unfair Science Fair | S1 E23 | Full Episode | Phineas and Ferb | @disneyxd - YouTube",
         "text2": "",
         "text3": "",

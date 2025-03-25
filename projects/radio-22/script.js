@@ -130,8 +130,7 @@ var tag = highlightText2(' '+jsonVar[id]['tag'], '');
 document.getElementById(printId).innerHTML = `
 <div class="block padding2 margin2 tCenter"><span id="msg2"></span></div>
 
-<div class="">
-<div class="wrapper">
+<div class="wrapper notUnderline">
 
 
 <div class="light border borderRadius2">
@@ -150,7 +149,6 @@ document.getElementById(printId).innerHTML = `
 </div>
 
 
-</div>
 </div>
 `;
 
@@ -591,11 +589,13 @@ return tagList;
 
 
 document.getElementById(printId).innerHTML += `
-<div class="center tCenter" style="padding-top: 60px;">
-<div class="wrapper3">
+<div class="center tCenter">
+<div class="wrapper3 notUnderline">
 
-<div class="block op small padding2">list of tags:</div>
-`+tagList(printTagList)+`
+<div class="margin2 padding2"></div>
+
+<div class="block op small padding2">Tag cloud:</div>
+` + tagList(printTagList) + `
 </div>
 </div>
 `;

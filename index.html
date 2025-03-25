@@ -203,10 +203,10 @@ transform: rotate(0deg);
 <summary class="op wrapperSmall3  pointer">
 <span class="xSmall">Site update: <span class="brand" id="last-update"></span></span>
 </summary>
-<div class="wrapperSmall small inlineBlock padding2 pre bg shadow borderRadius2 tLeft">
-New: custom background image. (in test, experimental)
+<span class="wrapperSmall small inlineBlock padding2 pre bg shadow borderRadius2 tLeft">
+CSS Style: Now all links will be underlined. New class: .notUnderline. (in progress, in test).
 
-<a class="brand block tag2 small tCenter border2 light borderRadius2" href="/pages/updates/" title="Update Log">more</a></div>
+<a class="brand inlineBlock w100 tag2 small tCenter border2 light borderRadius2" href="/pages/updates/" title="Update Log">more</a></span>
 </details>
 
 </div>
@@ -282,7 +282,7 @@ document.getElementById('urlDayNow').innerHTML = `<a class="brand tag op" href="
 <div class="wrapper tCenter small"><!--if scrollX horizontal class rm tagList)-->
 <div id="hotLinks">
 
-<div class="autoColumn">
+<div class="autoColumn notUnderline">
 <!--<span class="x-small op c" title="Commands:">com: </span>-->
 <!--<a class="tag itemHeight light2 border3 borderRadius2 op" href="/?q=w" title="Web search random (text w)">Web</a>-->
 <a class="tag2 itemHeight light2 border3 borderRadius2 op" href="/?q=goo" title="Google search (text goo)">Google</a>
@@ -455,7 +455,7 @@ return (text).fuzzy(q);
 <div class="padding"></div>
 
 <div class="wrapper3">
-<div id="printTags" class="balance small"></div>
+<div id="printTags" class="balance small notUnderline"></div>
 </div>
 <hr>
 <div class="wrapper">
@@ -540,7 +540,7 @@ return time + ' ago';
 
 <!--<script src="/js/fuPostTime.js"></script>-->
 <script>
-document.getElementById("last-update").innerHTML = fuPostTime(1742785579);
+document.getElementById("last-update").innerHTML = fuPostTime(1742863074);
 </script>
 
 <script>
@@ -563,7 +563,7 @@ var text = encodeURIComponent(e.target.value);
 
 var a = `
 
-<div class="tagList2 autoColumn">
+<div class="autoColumn notUnderline">
 <!--<a class="tag2 itemHeight light2 border3 borderRadius2 op" href="/?q=` + text + ` w" title="Web search random (text w)">Web</a>-->
 <a class="tag2 itemHeight light2 border3 borderRadius2 op" href="/?q=` + text + ` goo" title="Google search (text goo)">Google</a>
 <a class="tag2 itemHeight light2 border3 borderRadius2 op" href="/?q=` + text + ` bin" title="Bing search (text bin)">Bing</a>

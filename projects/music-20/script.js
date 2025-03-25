@@ -195,7 +195,7 @@ document.getElementById("playURL").innerHTML =  '<a class="brand break2" href="'
 
 document.getElementById("playRandomButton").innerHTML = `
 <br />
-<div class="footerPost"><a class="button brand block submit border borderRadius2 tCenter pointer" onClick="window.location.reload();return false;" title="location.reload" href="#">random</a></div>
+<div class="footerPost"><a class="button brand block submit border borderRadius2 tCenter pointer notUnderline" onClick="window.location.reload();return false;" title="location.reload" href="#">Random</a></div>
 
 
 `;
@@ -636,10 +636,12 @@ return tagList;
 
 
 document.getElementById('taglist').innerHTML += `
-<div class="tCenter" style="padding-top: 60px;">
+<div class="tCenter notUnderline">
 <div class="wrapper3">
 
-<div class="small padding2 op">list of tags:</div>
+<div class="margin2 padding2"></div>
+
+<div class="small padding2 op">Tag cloud:</div>
 ` + tagList(printTagList) + `
 </div>
 </div>

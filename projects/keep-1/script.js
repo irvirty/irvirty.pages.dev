@@ -1430,13 +1430,13 @@ tagList = `
 <div class="center tCenter">
 <div class="wrapper2">
 
-<div class="op small padding2">list of tags:</div>
-<div class="tagList">` + tagList + `</div>
+<div class="op small padding2">Tag cloud:</div>
+<div class="tagList notUnderline">` + tagList + `</div>
 
 <div class="padding2"></div>
 
 <div class="wrapper">
-<div class="tCenter tagList small">
+<div class="tCenter tagList small notUnderline">
 ${hlClassList}
 </div>
 </div>
@@ -1519,7 +1519,7 @@ if (rightFooterStatus == 'off'){ rightFooter = ''; }
 // overwrite, only title (text) for blog
 if (display == 'blog'&&mode == 'list'){
 //lPost = `<span class="large">${lPost}</span>`; // without highlight (embed)
-lPost = `<div class="large"><a class="block firstLetterBold" href="${scriptDir}?id=${id}">${postTitle}</a></div>`; // without highlight (embed)
+lPost = `<div class="large"><a class="block firstLetterBold notUnderline" href="${scriptDir}?id=${id}">${postTitle}</a></div>`; // without highlight (embed)
 }
 
 
@@ -1530,7 +1530,7 @@ if (display == 'blog'&&mode != 'id'&&mode != 'idList'){ time = `<a class="tag br
 
 var usernameStatusPrint = "";
 if (usernameStatus == "on"){
-usernameStatusPrint = `<div class="padding2List bold capitalize"><a href="/pages/about/"><img class="ico" src="/img/logo.png" width="20" alt="logo">${username}</a></div>`
+usernameStatusPrint = `<div class="padding2List bold capitalize"><a class="notUnderline" href="/pages/about/"><img class="ico" src="/img/logo.png" width="20" alt="logo">${username}</a></div>`
 }
 
 return `
@@ -1542,7 +1542,7 @@ ${usernameStatusPrint}
 
 <div class="postContent pre padding2List">` + lPost + `</div>
 
-<div class=" ${postFooter} break2 small">
+<div class=" ${postFooter} break2 small notUnderline">
 <span class="tagList tLeft left">` + tag + `</span>
 <span class="tagList tRight right">` + rightFooter + time + `</span>
 </div>
@@ -2760,6 +2760,7 @@ justify-content: center;
 
 <div class="block padding2"></div>
 
+<nav>
 ${pringInputRange}
 
 <div class="galleryKeepNav">
@@ -2769,6 +2770,7 @@ ${pringInputRange}
 </div>
 
 ${nav2Print}
+</nav>
 
 <div class="block padding2"></div>
 

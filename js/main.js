@@ -1,4 +1,4 @@
-// Main js v.6.17.9
+// Main js v.6.18.0
 // For second navigation, footer, themes, etc
 
 // Settings, config
@@ -436,9 +436,10 @@ fuMInsertHtml("#footer", 'beforeend', `
 
 <div class="wrapper2">
 
-<div class="tRight small">
-<details class="inlineBlock op">
-<div id="fDesc" class="block pre tLeft wrapperSmall padding2 bg shadow light borderRadius2 margin2List w100" style="margin-left: 0; margin-right: 0;">${fDesc}</div>
+
+<div class="wrapperSmall right">
+<details class="op">
+<div id="fDesc" class="block pre tLeft padding2 bg shadow light borderRadius2 margin2List w100" style="margin-left: 0; margin-right: 0;">${fDesc}</div>
 <summary class="pointer paddingList marginList brand" title="Description and keywords">${fDescTitle}</summary>
 </details>
 </div>

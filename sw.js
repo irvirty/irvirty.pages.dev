@@ -1,5 +1,5 @@
 
-//var myCacheVersion = "v.1.2.2025.03.24";
+//var myCacheVersion = "v.1.2.2025.03.25";
 
 
 
@@ -70,7 +70,7 @@ function swJsInstallFiles(){
 //https://stackoverflow.com/questions/66529102/uncaught-in-promise-typeerror-failed-to-execute-cache-on-addall-request
 //https://github.com/mdn/pwa-examples
 self.addEventListener('install', (e) => {
-e.waitUntil(caches.open("v.1.2.2025.03.24").then((cache) => cache.addAll(fileListArrFound)),);
+e.waitUntil(caches.open("v.1.2.2025.03.25").then((cache) => cache.addAll(fileListArrFound)),);
 });*/
 
 
@@ -917,14 +917,15 @@ var fileListArr = ["/404.html",
 "/pages/images/2024/web-design-trend-svg-inkscap-11.svg",
 "/pages/images/2024/website-inkscape-59.svg",
 "/pages/images/2024/website-inkscape-60.png",
-"/pages/images/2025/wallpaper-desktop-abstract-paper-gimp-inkscape-75.png",
+"/pages/images/2025/wallpaper-desktop-abstract-paper-gimp-inkscape-75.jpeg",
 "/pages/images/2025/",
+"/pages/images/2025/wallpaper-desktop-numbers-js-css-gimp-85.jpeg",
 "/pages/images/2025/wallpaper-desktop-rectangles-dark-inkscape-81.png",
 "/pages/images/2025/wallpaper-desktop-rectangles-light-inkscape-79.png",
 "/pages/images/2025/wallpaper-desktop-rectangles-light-inkscape-79.svg",
 "/pages/images/2025/wallpaper-desktop-shapes-inkscape-76.svg",
 "/pages/images/2025/wallpaper-desktop-shapes-inkscape-gimp-77.png",
-"/pages/images/2025/wallpaper-desktop-wall-inkscape-gimp-78.png",
+"/pages/images/2025/wallpaper-desktop-wall-inkscape-gimp-78.jpeg",
 "/pages/images/2025/wallpaper-desktop-waves-dark-inkscape-84.png",
 "/pages/images/2025/wallpaper-desktop-waves-light-inkscape-82.svg",
 "/pages/images/2025/wallpaper-desktop-waves-light-inkscape-83.png",
@@ -1108,6 +1109,7 @@ var fileListArr = ["/404.html",
 "/pages/templates/simple-8/style.css",
 "/pages/templates/simplehomepage-simple-flat-experimental-theme-for-wordpress-auto-light-dark-23/LICENSE.md",
 "/pages/templates/simplehomepage-simple-flat-experimental-theme-for-wordpress-auto-light-dark-23/",
+"/pages/templates/simplehomepage-simple-flat-experimental-theme-for-wordpress-auto-light-dark-23/README.md",
 "/pages/templates/simplehomepage-simple-flat-experimental-theme-for-wordpress-auto-light-dark-23/screenshot.png",
 "/pages/templates/simplehomepage-simple-flat-experimental-theme-for-wordpress-auto-light-dark-23/simplehomepage.zip",
 "/pages/templates/simple-text-1/index.html",
@@ -1409,7 +1411,7 @@ if (res.ok) {
 // file is present at URL
 console.log('try cache.add ' + file);
 //https://web.dev/learn/pwa/caching/
-caches.open("v.1.2.2025.03.24")
+caches.open("v.1.2.2025.03.25")
 .then(cache => {
 cache.add(file); // it stores only one resource
 //  cache.addAll(["styles.css", "app.js"]); // it stores two resources
@@ -1435,7 +1437,7 @@ if (res.ok) {
 // file is present at URL
 console.log('try cache.add ' + newFile);
 //https://web.dev/learn/pwa/caching/
-caches.open("v.1.2.2025.03.24")
+caches.open("v.1.2.2025.03.25")
 .then(cache => {
 cache.add(newFile); // it stores only one resource
 //  cache.addAll(["styles.css", "app.js"]); // it stores two resources
@@ -1468,7 +1470,7 @@ console.log('404 not found ' + newFile);
 // rm old cache
 //https://developer.mozilla.org/en-US/docs/Web/API/CacheStorage/delete
 this.addEventListener("activate", (event) => {
-  const cachesToKeep = ["v.1.2.2025.03.24"];
+  const cachesToKeep = ["v.1.2.2025.03.25"];
 
   event.waitUntil(
     caches.keys().then((keyList) =>

@@ -75,15 +75,6 @@ var podcastJsonVar =
         "rightFooter": ""
     },
     {
-        "text": "The Ben Shapiro Show | Listen to Podcasts On Demand Free | TuneIn",
-        "text2": "",
-        "text3": "",
-        "url": "https:\/\/tunein.com\/podcasts\/News\/The-Ben-Shapiro-Show-p572195\/",
-        "tag": "#podcast #news #en",
-        "time": 1726745446,
-        "rightFooter": ""
-    },
-    {
         "text": "The Daily | Listen to Podcasts On Demand Free | TuneIn",
         "text2": "",
         "text3": "",

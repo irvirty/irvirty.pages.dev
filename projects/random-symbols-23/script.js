@@ -7,8 +7,8 @@ var  geturl = window.location;
 var url = new URL(geturl);
 var q = url.searchParams.get("q");
 q = Number(q);
-console.log(q);
-if(q == null||isNaN(q)){ q = 7; }
+
+if(q == 0||q == null||isNaN(q)){ q = 7; }
 
 
 let letter = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMBOPQRSTUWXYZ";

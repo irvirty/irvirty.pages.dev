@@ -37,6 +37,7 @@ padding: 12px;
 margin:0;
 text-wrap: balance;
 text-align: left;
+text-decoration: none;
 }
 
 /*.menu a::first-letter {

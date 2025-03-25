@@ -135,7 +135,7 @@ var tag = highlightText2(' '+jsonVar[id]['tag'], '');
 document.getElementById(printId).innerHTML = `
 <div class="block padding2 margin2 tCenter"><span id="msg2"></span></div>
 
-<div class="">
+
 <div class="wrapper">
 
 
@@ -143,12 +143,12 @@ document.getElementById(printId).innerHTML = `
 <!-- post -->
 <div class="padding3" id="${jsonVar[id]['id']}">
 <span class="pre padding2List">${post} ${play} ${playSource}</span>
-<div class="">
+<div class="notUnderline">
 <span class="taslist tLeft">${tag}</span>
 </div>
 </div>
 
-<a class="button block tCenter submit padding2 border borderRadius2 margin2" onclick="fuMReload();return false;" href="#">random</a>
+<a class="button block tCenter submit padding2 border borderRadius2 margin2 notUnderline brand" onclick="fuMReload();return false;" href="#">Random</a>
 <!-- // post -->
 
 <!--<div class="small tRight block margin2 padding2 op">total: ${jsonVar.length}</div>-->
@@ -156,7 +156,7 @@ document.getElementById(printId).innerHTML = `
 
 
 </div>
-</div>
+
 `;
 
 document.getElementById('msg2').innerText = `${comMessagePrint}`;
@@ -683,11 +683,13 @@ return tagList;
 
 
 document.getElementById(printId).innerHTML += `
-<div class="center tCenter" style="padding-top: 60px;">
-<div class="wrapper3">
+<div class="center tCenter">
+<div class="wrapper3 notUnderline">
 
-<div class="block op small padding2">list of tags:</div>
-`+tagList(printTagList)+`
+<div class="margin2 padding2"></div>
+
+<div class="block op small padding2">Tag cloud:</div>
+` + tagList(printTagList) + `
 </div>
 </div>
 `;
