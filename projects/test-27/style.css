@@ -1,9 +1,6 @@
 /* v.1.1.5 */
 
 
-a { color: red; }
-a: hover { color: orange; }
-
 /**/
 .testColumn { border: 1px solid var(--red); }
 
