@@ -1,4 +1,4 @@
-/* Main.css style v.21.0.0
+/* Main.css style v.21.1.0
 /* main.css + theme (auto.css) */
 /* The style is mostly based on classes */
 
@@ -196,24 +196,14 @@ padding-top: calc(var(--padding) / 2);
 display: flex;
 flex: 1 0 auto;
 flex-wrap: wrap;
-
-justify-content: center;
-align-content: center;
-text-wrap: balance;
 }
 
 .autoColumn * {
 display: inline-flex;
 width: auto;
-justify-content: center;
-align-content: center;
-text-wrap: balance;
-
 margin: .5px;
-
 flex: 1 0 auto;
 flex-wrap: wrap;
-
 max-width: 100%;
 }
 
