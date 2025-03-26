@@ -1,4 +1,5 @@
-// Start page v.1.1.2
+// Start page v.1.2.0
+
 
 // time v.1.4.4
 // creation date: 2023
@@ -64,16 +65,66 @@ setInterval(fuStopwatch, 1000);
 
 //document.getElementById('search').innerHTML = ``;
 
+/*
+//https://stackoverflow.com/questions/55514259/javascript-remove-focus-event-listener
+const listener = function(e) {
+wakeLock = navigator.wakeLock.request("screen");
+document.getElementById('msg').innerHTML = `<b class="medium">On.</b>`;
+console.log('focused!'); // do anything here
+} 
+
+const listener2 = function(e) {
+wakeLock = "";
+document.getElementById('msg').innerHTML = `<b class="medium">Off.</b>`;
+console.log('unfocused!'); // do anything here
+}*/
+
 var wakeLock = "";
+
+// Wake up screen
+//https://developer.mozilla.org/en-US/docs/Web/API/WakeLock
+function fuWakeLock(mode){
+
+localStorage.setItem("wakeLockStatus", mode);
+
+/*fixme automode document.addEventListener("onfocus", listener);
+document.addEventListener("onblur", listener2);*/
+
+
+
+switch (mode) {
+
+case 'off':
+
+
+
+wakeLock = "";
+document.getElementById('msg').innerHTML = `<b class="medium">Off.</b>`;
+break;
+
+case 'on':
+
 try {
 //const wakeLock = await navigator.wakeLock.request("screen");
 //const wakeLock = navigator.wakeLock.request("screen");
 wakeLock = navigator.wakeLock.request("screen");
-document.getElementById('msg').innerHTML = `* Trying to prevent sleep while the tab is active: <b>on</b>`;
+document.getElementById('msg').innerHTML = `<b class="medium">On.</b>`;
 } catch (err) {
   // the wake lock request fails - usually system related, such being low on battery
-console.log(`Trying to prevent sleep: on. ${err.name}, ${err.message}`);
-document.getElementById('msg').innerHTML = `* Trying to prevent sleep while the tab is active: <b>on</b>. ${err.name}, ${err.message}`;
+document.getElementById('msg').innerHTML = `<b class="medium">On.</b> ${err.name}, ${err.message}`;
+}
+break;
+
+case 'autoDisabled':
+
+try {
+//const wakeLock = await navigator.wakeLock.request("screen");
+//const wakeLock = navigator.wakeLock.request("screen");
+wakeLock = navigator.wakeLock.request("screen");
+document.getElementById('msg').innerHTML = `<b class="medium">On.</b>`;
+} catch (err) {
+  // the wake lock request fails - usually system related, such being low on battery
+document.getElementById('msg').innerHTML = `<b class="medium">On.</b> ${err.name}, ${err.message}`;
 }
 
 
@@ -84,16 +135,80 @@ try {
 //const wakeLock = await navigator.wakeLock.request("screen");
 //const wakeLock = navigator.wakeLock.request("screen");
 wakeLock = navigator.wakeLock.request("screen");
-document.getElementById('msg').innerHTML = `* Trying to prevent sleep while the tab is active: <b>on</b>`;
+document.getElementById('msg').innerHTML = `<b class="medium">On.</b>`;
 } catch (err) {
   // the wake lock request fails - usually system related, such being low on battery
-console.log(`Trying to prevent sleep: on. ${err.name}, ${err.message}`);
-document.getElementById('msg').innerHTML = `* Trying to prevent sleep while the tab is active: <b>on</b>. ${err.name}, ${err.message}`;
+document.getElementById('msg').innerHTML = `<b class="medium">On.</b> ${err.name}, ${err.message}`;
 }
-};
+}
 
 onblur = (event) => {
 wakeLock = "";
-console.log(`* Trying to prevent sleep while the tab is active: off.`);
-document.getElementById('msg').innerHTML = `* Trying to prevent sleep while the tab is active: <b>off</b>.`;
+document.getElementById('msg').innerHTML = `<b class="medium">Off.</b>`;
+}
+
+/*document.addEventListener("focus", listener);
+document.addEventListener("blur", listener2);*/
+
+break;
+
+default:
+
+console.log(`default mode (empty).`);
 };
+
+
+
+}
+
+
+
+
+function wakeLockStatusButtonSwitch(wakeLockStatus2){
+
+fuWakeLock(wakeLockStatus2);
+
+switch (wakeLockStatus2) {
+
+case 'off':
+document.getElementById('wakeLockButtons').innerHTML = `
+<a id="wakeLock1" class="inlineBlock padding small brand light2 borderBottomBrand" href="#" onclick="wakeLockStatusButtonSwitch('off');return false;" href="#">off</a>
+<a id="wakeLock2" class="inlineBlock padding small brand" href="#" onclick="wakeLockStatusButtonSwitch('on');return false;" href="#">on</a>
+<!--<a id="wakeLock3" class="inlineBlock padding small brand" href="#" onclick="wakeLockStatusButtonSwitch('auto');return false;" href="#">auto</a>-->
+`;
+break;
+
+case 'on':
+document.getElementById('wakeLockButtons').innerHTML = `
+<a id="wakeLock1" class="inlineBlock padding small brand" href="#" onclick="wakeLockStatusButtonSwitch('off');return false;" href="#">off</a>
+<a id="wakeLock2" class="inlineBlock padding small brand light2 borderBottomBrand" href="#" onclick="wakeLockStatusButtonSwitch('on');return false;" href="#">on</a>
+<!--<a id="wakeLock3" class="inlineBlock padding small brand" href="#" onclick="wakeLockStatusButtonSwitch('auto');return false;" href="#">auto</a>-->
+`;
+break;
+
+case 'auto':
+document.getElementById('wakeLockButtons').innerHTML = `
+<a id="wakeLock1" class="inlineBlock padding small brand" href="#" onclick="wakeLockStatusButtonSwitch('off');return false;" href="#">off</a>
+<a id="wakeLock2" class="inlineBlock padding small brand" href="#" onclick="wakeLockStatusButtonSwitch('on');return false;" href="#">on</a>
+<!--<a id="wakeLock3" class="inlineBlock padding small brand light2 borderBottomBrand" href="#" onclick="wakeLockStatusButtonSwitch('auto');return false;" href="#">auto</a>-->
+`;
+break;
+
+default:
+document.getElementById('wakeLockButtons').innerHTML = `
+<a id="wakeLock1" class="inlineBlock padding small brand" href="#" onclick="wakeLockStatusButtonSwitch('off');return false;" href="#">off</a>
+<a id="wakeLock2" class="inlineBlock padding small brand" href="#" onclick="wakeLockStatusButtonSwitch('on');return false;" href="#">on</a>
+<!--<a id="wakeLock3" class="inlineBlock padding small brand" href="#" onclick="wakeLockStatusButtonSwitch('auto');return false;" href="#">auto</a>-->
+`;
+//console.log(`default mode (empty).`);
+}
+};
+
+let wakeLockStatus = localStorage.getItem("wakeLockStatus");
+if (wakeLockStatus != null&&wakeLockStatus !== ""){
+fuWakeLock(wakeLockStatus);
+wakeLockStatusButtonSwitch(wakeLockStatus);
+} else {
+wakeLockStatusButtonSwitch('off');
+fuWakeLock('off');
+}

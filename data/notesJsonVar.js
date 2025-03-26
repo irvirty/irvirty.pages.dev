@@ -3,6 +3,16 @@ var notesJsonVar =
 
 [
     {
+        "id": "103",
+        "text": "Left Swipe\/Previous Page - Can I disable? | Firefox Support Forum | Mozilla Support",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/support.mozilla.org\/en-US\/questions\/1359934",
+        "tag": "#fix",
+        "time": 1743000202,
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/notes\/?id=103\">id<\/a>"
+    },
+    {
         "id": "102",
         "text": "<nav>: The Navigation Section element - HTML: HyperText Markup Language | MDN",
         "text2": "The <nav> HTML element represents a section of a page whose purpose is to provide navigation links, either within the current document or to other documents. Common examples of navigation sections are menus, tables of contents, and indexes.",
@@ -385,7 +395,7 @@ var notesJsonVar =
     {
         "id": "62",
         "text": "Disable snapping objects in Inkscape - Graphic Design Stack Exchange",
-        "text2": "",
+        "text2": "for enable",
         "text3": "",
         "url": "https:\/\/graphicdesign.stackexchange.com\/questions\/101697\/disable-snapping-objects-in-inkscape",
         "tag": "#fix",
