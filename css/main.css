@@ -424,6 +424,7 @@ filter: invert(100%);
 .xxSmall, .xxSmall * { font-size: xx-small; }
 .em { font-style: italic; }
 .oblique { font-style: oblique; }
+.underline { text-decoration: underline; }
 .clear, .br { clear: both; }
 .scroll {
 /*overflow-x: auto;

@@ -84,7 +84,7 @@ color: var(--red);
 .tree, .nesting { padding: 5px; font-weight: bold; }
 
 /* bug */
-body { width: calc(100vw - 10vw); border: 5px solid var(--red); } /* for bug with line */
+body {  border: 5px solid var(--red); } /* for bug with line */
 
 /***/
 

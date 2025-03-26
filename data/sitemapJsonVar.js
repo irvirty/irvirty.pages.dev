@@ -791,10 +791,17 @@ var sitemapJsonVar = [
         "time": "id"
     },
     {
-        "text": "Website Templates (Experimental)\n\nWebsite templates. HTML templates. (I create pages for practice). | templates: ",
-        "url": "\/pages\/templates\/index.html",
+        "text": "Website Mini Templates (sandbox)\n\nWebsite mini templates. My HTML and CSS sandbox. HTML templates. | website mini templates: ",
+        "url": "\/pages\/website-mini-templates\/index.html",
+        "tag": " #Experimental #sandbox #UI #UX #one #page #project #projects #list #page #main",
+        "id": "e122e7bd35d382b7c4eb5ef6f9d5e263",
+        "time": "id"
+    },
+    {
+        "text": "Website Templates (Experimental)\n\nWebsite templates. HTML templates. (I create pages for practice). | website templates: ",
+        "url": "\/pages\/website-templates\/index.html",
         "tag": " #Experimental #UI #UX #landing #webpage #website #page #site #webdesign #web #design #webdevelopment #development #template #templates #theme #Wordpress #WP #SaaS #personal #profile #card #HomePage #cards #project #projects #list #page #main",
-        "id": "de6e26997deacd0542e681e014a7def4",
+        "id": "555bdc97b33a3ee61edb309ed7b17b84",
         "time": "id"
     },
     {

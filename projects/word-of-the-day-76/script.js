@@ -129,7 +129,7 @@ randomWordButtons += `
 
 <hr>
 <form action="./" method="get" class="form-example">
-<label for="name" class="small">Text: </label>
+<label for="name" class="small">Input: </label>
 <input type="text" name="q" id="q" required>
 <input class="submit small" type="submit">
 </form>
