@@ -123,7 +123,7 @@ speedDialItemUrl = fuMClearText(speedDialItemUrl);
 
 printArr.push(`
 
-<!-- ${speedDialItemText} --> <a id="spedDialId${index}" href="${speedDialItemUrl}"><div class="insertIcon itemHeight padding light2 border borderRadius2 capitalize small">${speedDialItemText}</div></a>
+<!-- ${speedDialItemText} --> <a id="spedDialId${index}" class="insertIcon itemHeight tag2 light2 border borderRadius2 capitalize small" href="${speedDialItemUrl}">${speedDialItemText}</a>
 
 `);
 
