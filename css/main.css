@@ -202,7 +202,7 @@ align-content: center;
 text-wrap: balance;
 }
 
-.autoColumn *:not(span) {
+.autoColumn * {
 display: inline-flex;
 width: auto;
 justify-content: center;
