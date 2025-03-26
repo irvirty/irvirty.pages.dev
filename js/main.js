@@ -432,7 +432,7 @@ fuMInsertHtml("#footer", 'beforeend', `
 <div class="padding"></div>
 
 <nav>
-<div class="wrapper3 margin2List small tCenter">
+<div class="margin2List small tCenter">
 
 <div class="wrapper2">
 
