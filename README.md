@@ -1,6 +1,10 @@
-<!-- README.md v.1.9.5 -->
-<!-- Carefully! The folder: "other-projects" contains PHP, Python, ... files -->  
-![page with a light and dark theme and theme settings](/img/github-banner-settings.png)  
+<!--
+===
+Carefully! The folder: "other-projects" contains PHP, Python, ... files
+===
+-->  
+
+![banner](/img/github-banner-settings.png)  
   
 # About
 
@@ -25,17 +29,12 @@ Home and start page with projects such as typing speed, to-do list, games, new t
 ## License  
 ```
 Main license: CC BY-SA 4.0.
-SimpleHomePage theme for Wordpress (/pages/templates/): GNU General Public License v2 or later
+SimpleHomePage theme for WordPress (/pages/templates/): GNU General Public License v2 or later
 Geany Themes: GNU General Public License
 Chrome Themes: Apache 2.0 License
 Roboto font (/fonts): Apache License, Version 2.0
 Books in /data (bookJsonVar): The Project Gutenberg License
 ```
-  
----
-
-- 📁 Download: [main.zip](https://github.com/irvirty/irvirty.pages.dev/archive/refs/heads/main.zip)  
-- 🔗 URL: [irvirty.pages.dev](https://irvirty.pages.dev/)  
 
 ---
    
@@ -53,6 +52,5 @@ Books in /data (bookJsonVar): The Project Gutenberg License
 [JavaScript](https://github.com/topics/JavaScript)
 [StartPage](https://github.com/topics/startpage)
 [NewTab](https://github.com/topics/NewTab)
-
 
 
