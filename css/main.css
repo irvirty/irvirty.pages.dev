@@ -1,4 +1,4 @@
-/* Main.css style v.21.1.0
+/* Main.css style v.21.2.0
 /* main.css + theme (auto.css) */
 /* The style is mostly based on classes */
 
@@ -181,16 +181,15 @@ min-height: auto;
 .threeColumn,
 .fourColumn {
 display: grid;
-grid-template-columns: 50% 50%;
-grid-gap: 0.5px;
+grid-template-columns: calc(100% / 2) calc(100% / 2);
+grid-gap: .5px;
 align-items: self-end;
 align-items: stretch;
 flex-shrink: 0;
-padding-top: calc(var(--padding) / 2);
 }
 
-.threeColumn { grid-template-columns: 33.3% 33.3% 33.3%; }
-.fourColumn { grid-template-columns: 25% 25% 25% 25%; }
+.threeColumn { grid-template-columns: calc(100% / 3) calc(100% / 3) calc(100% / 3); }
+.fourColumn { grid-template-columns:  calc(100% / 4) calc(100% / 4) calc(100% / 4) calc(100% / 4); }
 
 .autoColumn {
 display: flex;

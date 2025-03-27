@@ -790,6 +790,24 @@ q = q.trim();
 q = encodeURIComponent(q);
 urlList = [
 "https://wikipedia.org/w/?search=" + q,
+];
+if (q == ''){
+urlList = [
+"https://en.wikipedia.org/wiki/Special:Random",
+];
+}
+random = urlList[fuMRandom(0, urlList.length - 1)];
+url = random;
+sRedirectUrl = url;
+break;
+
+
+case 'enc#':
+q = q3.replace(qCom, '');
+q = q.trim();
+q = encodeURIComponent(q);
+urlList = [
+"https://wikipedia.org/w/?search=" + q,
 "https://www.britannica.com/search?query=" + q,
 ];
 if (q == ''){
