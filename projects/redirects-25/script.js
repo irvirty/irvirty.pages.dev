@@ -1041,7 +1041,7 @@ sRedirectUrl = url;
 break;
 
 
-case 'st#':
+
 case 'ht#':
 case 'stag#':
 case 'htag#':

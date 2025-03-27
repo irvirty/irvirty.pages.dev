@@ -1509,10 +1509,10 @@ if (display == 'blog'){ lPost = `<h2>${postTitle}</h2>` + highlightText(post, ta
 
 var username = conf["confDomainName"];
 
-var postFooter = ' postFooter ';
+var postFooter = ' postFooter blockMobile ';
 var postFooterPadding = '';
 if (timeStatus == 'off'){ time = ''; }
-if (timeStatus == 'off'&&rightFooterStatus == 'off'){ postFooter = ' postFooter2 '; }
+if (timeStatus == 'off'&&rightFooterStatus == 'off'){ postFooter = ' postFooterDisabled blockMobile '; }
 
 if (rightFooterStatus == 'off'){ rightFooter = ''; }
 
@@ -1543,8 +1543,8 @@ ${usernameStatusPrint}
 <div class="postContent pre padding2List">` + lPost + `</div>
 
 <div class=" ${postFooter} break2 small notUnderline">
-<span class="tagList tLeft left">` + tag + `</span>
-<span class="tagList tRight right">` + rightFooter + time + `</span>
+<div class="tagList tLeft left">` + tag + `</div>
+<div class="tagList tRight right">` + rightFooter + time + `</div>
 </div>
 
 </div>

@@ -95,11 +95,8 @@ document.addEventListener("onblur", listener2);*/
 switch (mode) {
 
 case 'off':
-
-
-
 wakeLock = "";
-document.getElementById('msg').innerHTML = `<b class="medium">Off.</b>`;
+//document.getElementById('msg').innerHTML = `<b class="medium">Off.</b>`;
 break;
 
 case 'on':
@@ -108,7 +105,7 @@ try {
 //const wakeLock = await navigator.wakeLock.request("screen");
 //const wakeLock = navigator.wakeLock.request("screen");
 wakeLock = navigator.wakeLock.request("screen");
-document.getElementById('msg').innerHTML = `<b class="medium">On.</b>`;
+//document.getElementById('msg').innerHTML = `<b class="medium">On.</b>`;
 } catch (err) {
   // the wake lock request fails - usually system related, such being low on battery
 document.getElementById('msg').innerHTML = `<b class="medium">On.</b> ${err.name}, ${err.message}`;
@@ -157,7 +154,11 @@ default:
 console.log(`default mode (empty).`);
 };
 
-
+if (wakeLock == ""){
+document.getElementById('msg').innerHTML = `<b class="medium">Off.</b>`;
+} else {
+document.getElementById('msg').innerHTML = `<b class="medium">On.</b>`;
+}
 
 }
 
