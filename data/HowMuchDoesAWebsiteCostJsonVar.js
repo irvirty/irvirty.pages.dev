@@ -3,6 +3,24 @@ var HowMuchDoesAWebsiteCostJsonVar =
 
 [
     {
+        "text": "How Much Does a Website Cost in 2025? [+Calculator]",
+        "text2": "1000 145000",
+        "text3": "",
+        "url": "https:\/\/www.webfx.com\/web-design\/pricing\/website-costs\/",
+        "tag": "#HowMuchDoesAWebsiteCost #research",
+        "time": 1743088933,
+        "rightFooter": ""
+    },
+    {
+        "text": "How much does it cost to run a simple website? : r\/webdev",
+        "text2": "0\r\n10 15\r\n12",
+        "text3": "",
+        "url": "https:\/\/www.reddit.com\/r\/webdev\/comments\/ukb4bj\/how_much_does_it_cost_to_run_a_simple_website\/",
+        "tag": "#HowMuchDoesAWebsiteCost #research",
+        "time": 1743088748,
+        "rightFooter": ""
+    },
+    {
         "text": "How much do you charge to build a simple 5 page website (USA, Canada and other high income countries only please)? : r\/web_design",
         "text2": "2500\r\n1000\r\n2000 3000\r\n4000\r\n3000\r\n3500",
         "text3": "",

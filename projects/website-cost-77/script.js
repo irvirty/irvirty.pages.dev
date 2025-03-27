@@ -54,6 +54,10 @@ result = String(result).split('.')[0];
 //resultCountdown = Number(result) - Number(new Date().getFullYear())
 //<div class="op padding2 tCenter">Countdown</div>
 //<h2 class="tCenter">${resultCountdown} years</h2>
+
+result = numberWithCommas(result) + '$';
+
+
 var print = `
 
 <div class="bg shadow2 borderRadius3 padding2">
@@ -83,3 +87,12 @@ Notes:<br>
 if(document.getElementById("result") != null){
 document.getElementById("result").innerHTML = print; 
 }
+
+
+//https://stackoverflow.com/questions/2901102/how-to-format-a-number-with-commas-as-thousands-separators
+function numberWithCommas(x) {
+    return x.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
+}
+
+
+

@@ -181,7 +181,7 @@ min-height: auto;
 .threeColumn,
 .fourColumn {
 display: grid;
-grid-template-columns: 1fr 1fr;
+grid-template-columns: 50% 50%;
 grid-gap: 0.5px;
 align-items: self-end;
 align-items: stretch;
@@ -189,8 +189,8 @@ flex-shrink: 0;
 padding-top: calc(var(--padding) / 2);
 }
 
-.threeColumn { grid-template-columns: 1fr 1fr 1fr; }
-.fourColumn { grid-template-columns: 1fr 1fr 1fr 1r; }
+.threeColumn { grid-template-columns: 33.3% 33.3% 33.3%; }
+.fourColumn { grid-template-columns: 25% 25% 25% 25%; }
 
 .autoColumn {
 display: flex;

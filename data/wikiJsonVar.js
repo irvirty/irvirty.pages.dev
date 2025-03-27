@@ -3,6 +3,36 @@ var wikiJsonVar =
 
 [
     {
+        "id": "140",
+        "text": "Personal computer - Wikipedia",
+        "text2": "A personal computer, often referred to as a PC or simply computer, is a computer designed for individual use.[1] It is typically used for tasks such as word processing, internet browsing, email, multimedia playback, and gaming. Personal computers are intended to be operated directly by an end user, rather than by a computer expert or technician. Unlike large, costly minicomputers and mainframes, time-sharing by many people at the same time is not used with personal computers. The term home computer has also been used, primarily in the late 1970s and 1980s. The advent of personal computers and the concurrent Digital Revolution have significantly affected the lives of people.",
+        "text3": "",
+        "url": "https:\/\/en.wikipedia.org\/wiki\/Personal_computer",
+        "tag": "#technology",
+        "time": 1743088316,
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/wiki\/?id=140\">id<\/a>"
+    },
+    {
+        "id": "139",
+        "text": "Laptop - Wikipedia",
+        "text2": "A laptop computer or notebook computer, also known as a laptop or notebook, is a small, portable personal computer (PC). Laptops typically have a clamshell form factor with a flat-panel screen on the inside of the upper lid and an alphanumeric keyboard and pointing device on the inside of the lower lid.[1][2] Most of the computer's internal hardware is in the lower part, under the keyboard, although many modern laptops have a built-in webcam at the top of the screen, and some even feature a touchscreen display. In most cases, unlike tablet computers which run on mobile operating systems, laptops tend to run on desktop operating systems, which were originally developed for desktop computers.",
+        "text3": "",
+        "url": "https:\/\/en.wikipedia.org\/wiki\/Laptop",
+        "tag": "#technology",
+        "time": 1743088299,
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/wiki\/?id=139\">id<\/a>"
+    },
+    {
+        "id": "138",
+        "text": "Computer monitor - Wikipedia",
+        "text2": "A computer monitor is an output device that displays information in pictorial or textual form. A discrete monitor comprises a visual display, support electronics, power supply, housing, electrical connectors, and external user controls.",
+        "text3": "",
+        "url": "https:\/\/en.wikipedia.org\/wiki\/Computer_monitor",
+        "tag": "#technology",
+        "time": 1743088270,
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/wiki\/?id=138\">id<\/a>"
+    },
+    {
         "id": "137",
         "text": "File manager - Wikipedia",
         "text2": "A file manager or file browser is a computer program that provides a user interface to manage files and folders.[1] The most common operations performed on files or groups of files include creating, opening (e.g. viewing, playing, editing or printing), renaming, copying, moving, deleting and searching for files, as well as modifying file attributes, properties and file permissions. Folders and files may be displayed in a hierarchical tree based on their directory structure.",
