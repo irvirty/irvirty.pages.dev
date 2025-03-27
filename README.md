@@ -14,9 +14,9 @@ Home and start page with projects such as typing speed, to-do list, games, new t
   
 - ~50/2 Themes (2 - dark, light).
 - Speed ​​dial panel in the form of buttons.
-- Typing Speed with your own text (in /games/).
-- New Tab Redirect extension: any website in a new tab page (in /pages/firefox-extensions/).
-- SimpleHomePage - experimental theme for WordPress (in /pages/templates/)
+- Typing Speed with your own text.
+- New Tab Redirect extension: any website in a new tab page.
+- SimpleHomePage - experimental theme for WordPress.
   
 ---
    
@@ -28,12 +28,12 @@ Home and start page with projects such as typing speed, to-do list, games, new t
   
 ## License  
 ```
-Main license: CC BY-SA 4.0.
-SimpleHomePage theme for WordPress (/pages/templates/): GNU General Public License v2 or later
+Main license: CC BY-SA 4.0
+SimpleHomePage theme for WordPress: GNU General Public License v2 or later
 Geany Themes: GNU General Public License
 Chrome Themes: Apache 2.0 License
-Roboto font (/fonts): Apache License, Version 2.0
-Books in /data (bookJsonVar): The Project Gutenberg License
+Roboto font: Apache License, Version 2.0
+Books in /data from The Project Gutenberg: The Project Gutenberg License
 ```
 
 ---
