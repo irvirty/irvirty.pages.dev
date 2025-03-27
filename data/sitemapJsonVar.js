@@ -7,9 +7,9 @@ var sitemapJsonVar = [
         "time": "id"
     },
     {
-        "text": "AGI countdown timer\n\nAGI Countdown timer. An attempt to predict when general artificial intelligence will be created. | agi countdown: ",
+        "text": "AGI countdown timer\n\nAGI Countdown timer. An attempt to predict when general artificial intelligence will be created. Research or explore. (Human-level AI). | agi countdown: ",
         "url": "\/projects\/agi-countdown-59\/index.html",
-        "tag": " #Experimental #agi #JavaScript #project",
+        "tag": " #experimental #research #explore. #agi #ai #JavaScript #project",
         "id": "983c52c3556e8725e77dd0cbef09c65c",
         "time": "id"
     },
@@ -312,6 +312,13 @@ var sitemapJsonVar = [
         "url": "\/old-projects\/hello-world-62\/index.html",
         "tag": " #hello #world #JavaScript #project",
         "id": "1f67f64cd805e15be406d205cff35cb0",
+        "time": "id"
+    },
+    {
+        "text": "How much does a website cost?\n\nHow much does a website cost? Research or explore. | website cost: ",
+        "url": "\/projects\/website-cost-77\/index.html",
+        "tag": " #website #cost #research #explore #JavaScript #project",
+        "id": "993aecfe2784b0fee0673f54460c1f6e",
         "time": "id"
     },
     {
