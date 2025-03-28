@@ -1,4 +1,4 @@
-/* Main.css style v.22.0.0
+/* Main.css style v.22.0.2
 /* main.css + theme (auto.css) */
 /* The style is mostly based on classes */
 
@@ -214,7 +214,7 @@ margin: 1px;
 flex: 1 0 auto;
 flex-wrap: wrap;
 max-width: 100%;
-min-width: 1fr;
+min-width: auto;
 gap: 0;
 }
 
@@ -363,16 +363,16 @@ margin-left: 3px;
 
 .center {
 /* need wrapper */
-display: inlinflex;
+display: flex;
 flex-direction: column;
 justify-content: center;
 align-items: safe center;
 align-self: safe center;
 align-content: center;
 
-margin: auto;
+/*delme text margin: auto;
 left: 0;
-right: 0;
+right: 0;*/
 }
 
 .left { text-align: left; justify-content: left; margin-left: 0; }
@@ -470,6 +470,10 @@ padding: var(--padding2);
 padding-right: 0;
 }
 
+.stretch {
+align-items: stretch;
+align-self: stretch;
+}
 
 .padding { padding: var(--padding); }
 .padding2 { padding: var(--padding2); }
@@ -535,7 +539,7 @@ input:hover, textarea:hover, select:hover, button:hover, input[type="file"]:hove
 
 ::placeholder, input::-webkit-input-placeholder, .placeholder { font-size: small; color: var(--c); }
 input, progress, select { accent-color: var(--brandR); }
-[contenteditable]:focus { outline: solid var(--brand); }
+[contenteditable]:focus { outline: 100px solid var(--brand); }
 
 form fieldset { border: 1px solid var(--d3); }
 
