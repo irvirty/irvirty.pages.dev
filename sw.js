@@ -1,5 +1,5 @@
 
-//var myCacheVersion = "v.1.2.2025.03.27";
+//var myCacheVersion = "v.1.2.2025.03.29";
 
 
 
@@ -70,7 +70,7 @@ function swJsInstallFiles(){
 //https://stackoverflow.com/questions/66529102/uncaught-in-promise-typeerror-failed-to-execute-cache-on-addall-request
 //https://github.com/mdn/pwa-examples
 self.addEventListener('install', (e) => {
-e.waitUntil(caches.open("v.1.2.2025.03.27").then((cache) => cache.addAll(fileListArrFound)),);
+e.waitUntil(caches.open("v.1.2.2025.03.29").then((cache) => cache.addAll(fileListArrFound)),);
 });*/
 
 
@@ -604,19 +604,19 @@ var fileListArr = ["/404.html",
 "/pages/chrome-extensions/url-redirect-6/style.css",
 "/pages/chrome-extensions/url-redirect-6/url-redirect-6.zip",
 "/pages/chrome-extensions/url-redirect-6.crx",
-"/pages/chrome-theme/dark-theme/manifest.json",
-"/pages/chrome-theme/",
-"/pages/chrome-theme/dark-theme/",
-"/pages/chrome-theme/dark-theme.crx",
-"/pages/chrome-theme/dark-theme.png",
-"/pages/chrome-theme/index.html",
-"/pages/chrome-theme/light-theme/manifest.json",
-"/pages/chrome-theme/light-theme/",
-"/pages/chrome-theme/light-theme.crx",
-"/pages/chrome-theme/light-theme.png",
-"/pages/chrome-theme/Source.txt",
-"/pages/chrome-theme/tpl-theme/manifest.json",
-"/pages/chrome-theme/tpl-theme/",
+"/pages/chrome-themes/dark-theme/manifest.json",
+"/pages/chrome-themes/",
+"/pages/chrome-themes/dark-theme/",
+"/pages/chrome-themes/dark-theme.crx",
+"/pages/chrome-themes/dark-theme.png",
+"/pages/chrome-themes/index.html",
+"/pages/chrome-themes/light-theme/manifest.json",
+"/pages/chrome-themes/light-theme/",
+"/pages/chrome-themes/light-theme.crx",
+"/pages/chrome-themes/light-theme.png",
+"/pages/chrome-themes/Source.txt",
+"/pages/chrome-themes/tpl-theme/manifest.json",
+"/pages/chrome-themes/tpl-theme/",
 "/pages/css-art/computer-css-9/index.html",
 "/pages/css-art/",
 "/pages/css-art/computer-css-9/",
@@ -747,22 +747,22 @@ var fileListArr = ["/404.html",
 "/pages/firefox-extensions/url-redirect-6/script.js",
 "/pages/firefox-extensions/url-redirect-6/style.css",
 "/pages/firefox-extensions/url-redirect-6/url-redirect-6.zip",
-"/pages/firefox-theme/dark-flat-theme-abc.png",
-"/pages/firefox-theme/",
-"/pages/firefox-theme/dark-flat-theme-abc.zip",
-"/pages/firefox-theme/index.html",
-"/pages/firefox-theme/light-flat-theme-abc.png",
-"/pages/firefox-theme/light-flat-theme-abc.zip",
-"/pages/firefox-theme/README.md",
-"/pages/geany-theme/abc-dark.conf",
-"/pages/geany-theme/",
-"/pages/geany-theme/abc-dark.png",
-"/pages/geany-theme/abc-light.conf",
-"/pages/geany-theme/abc-light.png",
-"/pages/geany-theme/dark.css",
-"/pages/geany-theme/index.html",
-"/pages/geany-theme/light.css",
-"/pages/geany-theme/README.md",
+"/pages/firefox-themes/dark-flat-theme-abc.png",
+"/pages/firefox-themes/",
+"/pages/firefox-themes/dark-flat-theme-abc.zip",
+"/pages/firefox-themes/index.html",
+"/pages/firefox-themes/light-flat-theme-abc.png",
+"/pages/firefox-themes/light-flat-theme-abc.zip",
+"/pages/firefox-themes/README.md",
+"/pages/geany-themes/abc-dark.conf",
+"/pages/geany-themes/",
+"/pages/geany-themes/abc-dark.png",
+"/pages/geany-themes/abc-light.conf",
+"/pages/geany-themes/abc-light.png",
+"/pages/geany-themes/dark.css",
+"/pages/geany-themes/index.html",
+"/pages/geany-themes/light.css",
+"/pages/geany-themes/README.md",
 "/pages/guestbook/index.html",
 "/pages/guestbook/",
 "/pages/guestbook/style.css",
@@ -1111,6 +1111,9 @@ var fileListArr = ["/404.html",
 "/pages/website-templates/saas-landing-page-auto-light-dark-19/product.png",
 "/pages/website-templates/saas-landing-page-auto-light-dark-19/style (copy 1).css",
 "/pages/website-templates/saas-landing-page-auto-light-dark-19/style.css",
+"/pages/website-templates/services-auto-light-dark-25/index.html",
+"/pages/website-templates/services-auto-light-dark-25/",
+"/pages/website-templates/services-auto-light-dark-25/style.css",
 "/pages/website-templates/simple-4/index.html",
 "/pages/website-templates/simple-4/",
 "/pages/website-templates/simple-4/style.css",
@@ -1126,20 +1129,12 @@ var fileListArr = ["/404.html",
 "/pages/website-templates/simple-8/index.html",
 "/pages/website-templates/simple-8/",
 "/pages/website-templates/simple-8/style.css",
-"/pages/website-templates/simplehomepage-theme-for-wordpress-auto-light-dark-23/LICENSE.md",
-"/pages/website-templates/simplehomepage-theme-for-wordpress-auto-light-dark-23/",
-"/pages/website-templates/simplehomepage-theme-for-wordpress-auto-light-dark-23/README.md",
-"/pages/website-templates/simplehomepage-theme-for-wordpress-auto-light-dark-23/screenshot.png",
-"/pages/website-templates/simplehomepage-theme-for-wordpress-auto-light-dark-23/simplehomepage.zip",
 "/pages/website-templates/simple-text-1/index.html",
 "/pages/website-templates/simple-text-1/",
 "/pages/website-templates/simple-text-1/style.css",
 "/pages/website-templates/tpl-0/index.html",
 "/pages/website-templates/tpl-0/",
 "/pages/website-templates/tpl-0/style.css",
-"/pages/website-templates/web-design-and-dev-services-auto-light-dark-25/index.html",
-"/pages/website-templates/web-design-and-dev-services-auto-light-dark-25/",
-"/pages/website-templates/web-design-and-dev-services-auto-light-dark-25/style.css",
 "/pages/website-templates/web-design-one-page-mini-flat-auto-light-dark-15/circle.svg",
 "/pages/website-templates/web-design-one-page-mini-flat-auto-light-dark-15/",
 "/pages/website-templates/web-design-one-page-mini-flat-auto-light-dark-15/coffee.svg",
@@ -1150,6 +1145,13 @@ var fileListArr = ["/404.html",
 "/pages/website-templates/web-design-services-simple-auto-light-dark-22/style.css",
 "/pages/wiki/index.html",
 "/pages/wiki/",
+"/pages/wordpress-themes/index.html",
+"/pages/wordpress-themes/",
+"/pages/wordpress-themes/simplehomepage/LICENSE.md",
+"/pages/wordpress-themes/simplehomepage/",
+"/pages/wordpress-themes/simplehomepage/README.md",
+"/pages/wordpress-themes/simplehomepage/screenshot.png",
+"/pages/wordpress-themes/simplehomepage/simplehomepage.zip",
 "/projects/agi-countdown-59/data-list.html",
 "/projects/",
 "/projects/agi-countdown-59/",
@@ -1432,7 +1434,7 @@ if (res.ok) {
 // file is present at URL
 console.log('try cache.add ' + file);
 //https://web.dev/learn/pwa/caching/
-caches.open("v.1.2.2025.03.27")
+caches.open("v.1.2.2025.03.29")
 .then(cache => {
 cache.add(file); // it stores only one resource
 //  cache.addAll(["styles.css", "app.js"]); // it stores two resources
@@ -1458,7 +1460,7 @@ if (res.ok) {
 // file is present at URL
 console.log('try cache.add ' + newFile);
 //https://web.dev/learn/pwa/caching/
-caches.open("v.1.2.2025.03.27")
+caches.open("v.1.2.2025.03.29")
 .then(cache => {
 cache.add(newFile); // it stores only one resource
 //  cache.addAll(["styles.css", "app.js"]); // it stores two resources
@@ -1491,7 +1493,7 @@ console.log('404 not found ' + newFile);
 // rm old cache
 //https://developer.mozilla.org/en-US/docs/Web/API/CacheStorage/delete
 this.addEventListener("activate", (event) => {
-  const cachesToKeep = ["v.1.2.2025.03.27"];
+  const cachesToKeep = ["v.1.2.2025.03.29"];
 
   event.waitUntil(
     caches.keys().then((keyList) =>

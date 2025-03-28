@@ -1,4 +1,4 @@
-// Speed dial v.1.10.0
+// Speed dial v.1.11.0
 //https://developer.mozilla.org/en-US/docs/Web/API/Storage
 
 function fuLSpeedDial(idForPrint, text, url, com){
@@ -122,7 +122,7 @@ speedDialItemText = fuMClearText(speedDialItemText);
 speedDialItemUrl = fuMClearText(speedDialItemUrl);
 
 printArr.push(`
-<!-- ${speedDialItemText} --> <a id="spedDialId${index}" class="inlineBlock padding itemHeight center tCenter light2 border borderRadius2 capitalize small insertIcon" href="${speedDialItemUrl}">${speedDialItemText}</a>
+<!-- ${speedDialItemText} --> <a id="spedDialId${index}" class="inlineBlock padding itemHeight tCenter light2 border borderRadius2 capitalize small insertIcon" href="${speedDialItemUrl}">${speedDialItemText}</a>
 `);
 
 }

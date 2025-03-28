@@ -174,7 +174,9 @@ document.querySelector(selector).insertAdjacentHTML(option, text);
 document.querySelector(selector).insertAdjacentHTML('beforeend', text);
 //alert(option + 'test2');
 }
-} else { console.log("fuMInsertHtml: querySelector probably null"); }
+} else {
+//console.log("fuMInsertHtml: querySelector probably null");
+}
 
 }
 

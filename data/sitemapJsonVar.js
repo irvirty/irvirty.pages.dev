@@ -168,10 +168,10 @@ var sitemapJsonVar = [
         "time": "id"
     },
     {
-        "text": "Chrome theme\n\nGoogle Chrome Themes. Themes for Google Chrome browser with a light and dark colors. | chrome theme: ",
-        "url": "\/pages\/chrome-theme\/index.html",
+        "text": "Chrome themes\n\nGoogle Chrome Themes. Themes for Google Chrome browser with a light and dark colors. | chrome themes: ",
+        "url": "\/pages\/chrome-themes\/index.html",
         "tag": " #Chrome #theme #light #project #page #main",
-        "id": "2fe3f3f76ccfd1e73f9b80e0b0a2f8e8",
+        "id": "b431805ab5055951681f6e2c561c8f38",
         "time": "id"
     },
     {
@@ -238,10 +238,10 @@ var sitemapJsonVar = [
         "time": "id"
     },
     {
-        "text": "Firefox theme\n\nFirefox themes. Theme for Mozilla Firefox browser light and dark. | firefox theme: ",
-        "url": "\/pages\/firefox-theme\/index.html",
+        "text": "Firefox themes\n\nFirefox themes. Theme for Mozilla Firefox browser light and dark. | firefox themes: ",
+        "url": "\/pages\/firefox-themes\/index.html",
         "tag": " #Firefox #dark #light #theme #project #page #main",
-        "id": "860f01a3947d902091a910688b6e8dc6",
+        "id": "d61505489b92395bf4aec6accadfbaf9",
         "time": "id"
     },
     {
@@ -252,10 +252,10 @@ var sitemapJsonVar = [
         "time": "id"
     },
     {
-        "text": "Geany theme\n\nGeany themes. Theme for Geany IDE with a light and dark colors. | geany theme: ",
-        "url": "\/pages\/geany-theme\/index.html",
+        "text": "Geany themes\n\nGeany themes. Theme for Geany IDE with a light and dark colors. | geany themes: ",
+        "url": "\/pages\/geany-themes\/index.html",
         "tag": " #Geany #theme #color #flat #dark #light #project #page #main",
-        "id": "7815eda14b1c7015d3ca8ccd274917b6",
+        "id": "caddcf47d1cca1846c201cf219c3d6a5",
         "time": "id"
     },
     {
@@ -807,7 +807,7 @@ var sitemapJsonVar = [
     {
         "text": "Website Templates (Experimental)\n\nWebsite templates. HTML templates. (I create pages for practice. Sandbox). | website templates: ",
         "url": "\/pages\/website-templates\/index.html",
-        "tag": " #experimental #sandbox #UI #UX #landing #webpage #website #page #site #webdesign #web #design #webdevelopment #development #template #templates #theme #Wordpress #WP #SaaS #personal #profile #card #HomePage #cards #project #projects #list #page #main",
+        "tag": " #experimental #sandbox #UI #UX #landing #webpage #website #page #site #webdesign #web #design #webdevelopment #development #template #templates #SaaS #personal #profile #card #HomePage #cards #project #projects #list #page #main",
         "id": "555bdc97b33a3ee61edb309ed7b17b84",
         "time": "id"
     },
@@ -830,6 +830,13 @@ var sitemapJsonVar = [
         "url": "\/projects\/word-of-the-day-76\/index.html",
         "tag": " #word #day #HTML_CSS #JavaScript #project",
         "id": "cef9edce40e35a40710962b72270a166",
+        "time": "id"
+    },
+    {
+        "text": "Wordpress themes\n\nMy themes for CMS WordPress | wordpress themes: ",
+        "url": "\/pages\/wordpress-themes\/index.html",
+        "tag": " #theme #Wordpress #WP #project #page #main",
+        "id": "30974c4a6a0676de8a95ca45bf4bca67",
         "time": "id"
     },
     {

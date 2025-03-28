@@ -3,6 +3,15 @@ var videoJsonVar =
 
 [
     {
+        "text": "Episode 1 - Wayside! |FULL EPISODE| KEEP IT WEIRD! - YouTube",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=YG7u1OzpT7Q",
+        "tag": "#video #cartoon",
+        "time": 1743132967,
+        "rightFooter": ""
+    },
+    {
         "text": "In the Haunted House | Halloween Full Episode | The Magic School Bus - YouTube",
         "text2": "",
         "text3": "",

@@ -1030,11 +1030,12 @@ keepStyle = `
 display: flex;
 flex: 1 0 auto;
 flex-wrap: wrap;
-grid-gap: 0;
 
 justify-content: center;
 max-width: 100%;
 margin: 0 auto;
+
+align-items: stretch
 }
 
 .keepContent .post {
@@ -1052,7 +1053,7 @@ gap: 0;
 margin: 3px;
 }
 
-.postFooter { grid-template-columns: 1fr; }
+.postFooter { display: block; }
 
 @media(max-width: 500px) {
 .keepContent, .keepContent .post { display: block; width: 100%; }
@@ -1101,7 +1102,7 @@ border-radius: var(--borderRadius2);
 background-color: var(--l3);
 }
 
-.postFooter { grid-template-columns: 1fr; }
+.postFooter { display: block; }
 
 @media(max-width: 300px) {
 .keepContent, .keepContent .post { display: block; width: 100%; }
@@ -1509,10 +1510,10 @@ if (display == 'blog'){ lPost = `<h2>${postTitle}</h2>` + highlightText(post, ta
 
 var username = conf["confDomainName"];
 
-var postFooter = ' postFooter blockMobile ';
+var postFooter = ' twoColumn postFooter blockMobile ';
 var postFooterPadding = '';
 if (timeStatus == 'off'){ time = ''; }
-if (timeStatus == 'off'&&rightFooterStatus == 'off'){ postFooter = ' postFooterDisabled blockMobile '; }
+if (timeStatus == 'off'&&rightFooterStatus == 'off'){ postFooter = ' postFooter blockMobile '; }
 
 if (rightFooterStatus == 'off'){ rightFooter = ''; }
 

@@ -3,6 +3,16 @@ var notesJsonVar =
 
 [
     {
+        "id": "104",
+        "text": "PHP: mb_substr - Manual",
+        "text2": "===\r\necho mb_substr(\"test\", 0, 3);\r\n\/\/ tes",
+        "text3": "",
+        "url": "https:\/\/www.php.net\/manual\/en\/function.mb-substr.php",
+        "tag": "#PHP #coding #code",
+        "time": 1743119547,
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/notes\/?id=104\">id<\/a>"
+    },
+    {
         "id": "103",
         "text": "Left Swipe\/Previous Page - Can I disable? | Firefox Support Forum | Mozilla Support",
         "text2": "",
