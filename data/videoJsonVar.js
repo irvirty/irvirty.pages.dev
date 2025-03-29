@@ -3,6 +3,15 @@ var videoJsonVar =
 
 [
     {
+        "text": "Episode 26 | The Day My Butt Went Psycho | KEEP IT WEIRD - YouTube",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=PXhM6vbhIAY",
+        "tag": "#video #cartoon",
+        "time": 1743258157,
+        "rightFooter": ""
+    },
+    {
         "text": "Episode 1 - Wayside! |FULL EPISODE| KEEP IT WEIRD! - YouTube",
         "text2": "",
         "text3": "",
