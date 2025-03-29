@@ -52,13 +52,13 @@ display: grid;
 grid-template-columns: 1fr 1fr;
 ">
 
-<span class="inlineBlock tag tLeft">${title33} (${year33})</span>
-<span class="tagList left">
-<a class="tag2 brand light2 shadow borderRadius" target="blank" href="/?q=${title33Go}">Search</a>
-<a class="tag2 brand light2 shadow borderRadius" target="blank" href="https://www.themoviedb.org/search?query=${title33Go}">TMDB</a>
-<a class="tag2 brand light2 shadow borderRadius" target="blank" href="/?q=${title33Go2} Trailer v">Trailer</a>
-<a class="tag2 brand light2 shadow borderRadius" target="blank" href="/?q=${title33Go2} Reaction v">Reaction</a>
-<a class="tag2 brand light2 shadow borderRadius" target="blank" href="/?q=${title33Go2} Review">Review</a>
+<span class="inlineBlock irvTag tLeft">${title33} (${year33})</span>
+<span class="irvTagList left">
+<a class="irvTag2 brand light2 shadow borderRadius" target="blank" href="/?q=${title33Go}">Search</a>
+<a class="irvTag2 brand light2 shadow borderRadius" target="blank" href="https://www.themoviedb.org/search?query=${title33Go}">TMDB</a>
+<a class="irvTag2 brand light2 shadow borderRadius" target="blank" href="/?q=${title33Go2} Trailer v">Trailer</a>
+<a class="irvTag2 brand light2 shadow borderRadius" target="blank" href="/?q=${title33Go2} Reaction v">Reaction</a>
+<a class="irvTag2 brand light2 shadow borderRadius" target="blank" href="/?q=${title33Go2} Review">Review</a>
 </span>
 
 

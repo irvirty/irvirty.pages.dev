@@ -625,7 +625,7 @@ var qData = ' ' + textPrint;
 if (com == 'edit'&&id == idPrint){
 /*editPrint = `<form style="margin: 10px 0;"><input id="inputTaskUp" class="padding2" type="text" name="q" autofocus="autofocus" autocomplete="off" placeholder=" task" value="${textPrint}"><input  type="hidden" name="com" value="edit"><input id="idInputE" type="hidden" name="id" value="${idPrint}"><input type="submit"></form><div id="option2"></div>`;*/
 
-editPrint = `<form><textarea id="textInputE" class="padding2" name="text" rows="3" cols="100" placeholder=" edit" autofocus="autofocus">${textPrint}</textarea><input id="idInputE" type="hidden" name="id" value="${idPrint}"><tag class="block tCenter padding2 light borderList borderRadius2 submit" style="cursor: pointer;" onclick="submitLinkEdit();return false;">submit</tag></form>`;
+editPrint = `<form><textarea id="textInputE" class="padding2" name="text" rows="3" cols="100" placeholder=" edit" autofocus="autofocus">${textPrint}</textarea><input id="idInputE" type="hidden" name="id" value="${idPrint}"><a href="#" class="block tCenter padding2 light borderList borderRadius2 submit" style="cursor: pointer;" onclick="submitLinkEdit();return false;">submit</a></form>`;
 } else {
 //editPrint = `<span onclick="runDb('edit', '` + idPrint + `', '', '');return false;">${textPrint}</span>`;
 editPrint = `${textPrintHighlight}`;
@@ -667,9 +667,9 @@ printDaily = `
 <div class="task" ${doubleClickEdit}>
 
 ${printTmp}
-<div class="block tRight tagList">
-<tag class="tag2 border borderRadius2 light3 op xSmall" style="cursor: pointer;" onclick="runDb('daily', '` + cursor.key + `', '', '', 'undaily');return false;" title="pin">p</tag>
-<tag class="tag2 border borderRadius2 light3 op xSmall" style="cursor: pointer;" onclick="runDb('edit', '` + cursor.key + `');return false;" title="edit">e</tag>
+<div class="block tRight irvTagList notUnderline">
+<a href="#" class="irvTag2 border borderRadius2 light3 op xSmall" style="cursor: pointer;" onclick="runDb('daily', '` + cursor.key + `', '', '', 'undaily');return false;" title="pin">p</a>
+<a href="#" class="irvTag2 border borderRadius2 light3 op xSmall" style="cursor: pointer;" onclick="runDb('edit', '` + cursor.key + `');return false;" title="edit">e</a>
 </div>
 
 </div>
@@ -683,10 +683,10 @@ print = `
 <div class="task" ${doubleClickEdit}>
 
 ${printTmp}
-<div class="block tRight tagList">
-<tag class="tag2 border borderRadius2 light3 op xSmall" style="cursor: pointer;" onclick="runDb('daily', '` + cursor.key + `', '', '', 'daily');return false;" title="pin">p</tag>
-<tag class="tag2 border borderRadius2 light3 op xSmall" style="cursor: pointer;" onclick="runDb('edit', '` + cursor.key + `');return false;" title="edit">e</tag>
-<tag class="tag2 border borderRadius2 light3 op xSmall" style="cursor: pointer;" onclick="confirmCom('del', '` + cursor.key + `');return false;" title="remove">x</tag>
+<div class="block tRight irvTagList notUnderline">
+<a href="#" class="irvTag2 border borderRadius2 light3 op xSmall" style="cursor: pointer;" onclick="runDb('daily', '` + cursor.key + `', '', '', 'daily');return false;" title="pin">p</a>
+<a href="#" class="irvTag2 border borderRadius2 light3 op xSmall" style="cursor: pointer;" onclick="runDb('edit', '` + cursor.key + `');return false;" title="edit">e</a>
+<a href="#" class="irvTag2 border borderRadius2 light3 op xSmall" style="cursor: pointer;" onclick="confirmCom('del', '` + cursor.key + `');return false;" title="remove">x</a>
 </div>
 
 </div>
@@ -700,13 +700,13 @@ if (statusPrint != 'done'){
 
 var print33Tmp = `
 
-<tag style="cursor: pointer" onclick="scrollTo33('${idPrint}');return false;">
+<div style="cursor: pointer" onclick="scrollTo33('${idPrint}');return false;">
 
 <div class="taskItem borderList borderRadius2 light2 break">
 <div class="task">
 
 <!--<div class="op xSmall">${idPrint}</div>-->
-<span><input class="checkbox op" type="checkbox"  name="" value="done" onclick="runDb('done', '`+idPrint+`', '', 'done');return false;"></span>
+<span><input class="checkbox op" type="checkbox"  name="" value="done" onclick="runDb('done', '` + idPrint + `', '', 'done');return false;"></span>
 <div class="flexCenter"><div class="pre block">${textPrint}</div></div>
 
 <div class="block tRight">
@@ -716,7 +716,7 @@ var print33Tmp = `
 </div>
 </div>
 
-</tag>
+</div>
 
 `;
 
@@ -979,8 +979,8 @@ print2 = `
 <div class="block tRight padding">
 <div class="block padding2"></div>
 <!--<span class="op xSmall">commands:</span>-->
-<tag class="tag2 op border borderRadius2 light small brand" style="cursor: pointer" onclick="confirmCom('delAllDone');return false;">remove all done (not pined)</tag>
-<tag class="tag2 op border borderRadius2 light small margin2List brand" style="cursor: pointer" onclick="confirmCom('clear');return false;">remove all</tag>
+<a href="#" class="inlineBlock padding2 op border borderRadius2 light small brand" style="cursor: pointer" onclick="confirmCom('delAllDone');return false;">remove all done (not pined)</a>
+<a href="#" class="inlineBlock padding2 op border borderRadius2 light small margin2List brand" style="cursor: pointer" onclick="confirmCom('clear');return false;">remove all</a>
 
 
 
@@ -997,7 +997,7 @@ Check mark in the pinned or daily items is unchecked automatically every new day
 <div class="block padding2 margin2"></div>
 
 <div class="center">
-<div class="tagList">
+<div class="irvTagList">
 <div id="tagListPrintId"></div>
 </div>
 </div>
@@ -1425,14 +1425,14 @@ hlClassList += printTag2[0].toLowerCase();
 if (q == tag){
 tagList += `
 
-<a class="tag light border borderRadius2 ${hlClass} c4R" href="${scriptDir}?q=${goTag}" style="background: ${tagColor}; font-size: ${tagSize} !important;">${printTag}</a>
+<a class="irvTag light border borderRadius2 ${hlClass} c4R" href="${scriptDir}?q=${goTag}" style="background: ${tagColor}; font-size: ${tagSize} !important;">${printTag}</a>
 
 `;
 } else {
 
 tagList += `
 
-<a class="tag light border borderRadius2 ${hlClass}" href="${scriptDir}?q=${goTag}"  style="color: ${tagColor}; font-size: ${tagSize} !important;">${printTag}</a>
+<a class="irvTag light border borderRadius2 ${hlClass}" href="${scriptDir}?q=${goTag}"  style="color: ${tagColor}; font-size: ${tagSize} !important;">${printTag}</a>
 
 `;
 }
@@ -1445,7 +1445,7 @@ hlClassList2.forEach(function(item){
 let hlClass = 'hlClass'+item;
 item = item.toUpperCase();
 hlClassList += `
-<a class="tag light border borderRadius2 ${hlClass}" onmouseover="hlwClassAdd('${hlClass}')" onmouseout="hlwClassRemove('${hlClass}')" href="#id${hlClass}" id="${hlClass}">${item}</a>
+<a class="irvTag light border borderRadius2 ${hlClass}" onmouseover="hlwClassAdd('${hlClass}')" onmouseout="hlwClassRemove('${hlClass}')" href="#id${hlClass}" id="${hlClass}">${item}</a>
 `;
 });
 
@@ -1453,28 +1453,28 @@ tagList = `
 
 
 
-<div class="block op small padding2 tCenter">list of tags:</div>
+<div class="block op small padding2 tCenter">Tag cloud:</div>
 
 
 
-<div class="tagListPrintId padding2List">
+<div class="irvTagList tagListPrintId padding2List notUnderline">
 
-`+tagList+`
+` + tagList + `
 
 
 
 </div>
 
-<div class="block tCenter" styel="width: 100%;">
+<div class="block tCenter notUnderline" styel="width: 100%;">
 ${hlClassList}
 </div>
 
 <!--<span class="block padding2"></span>
 <span class="block op xSmall padding2List">system tags:</span>
-<a class="tag2 op border borderRadius2 light small" href="?q=%23tDone">#tDone</a>
-<a class="tag2 op border borderRadius2 light small" href="?q=%23tNotDone">#tNotDone</a>
-<a class="tag2 op border borderRadius2 light small" href="?q=%23tDaily">#tDaily</a>
-<a class="tag2 op border borderRadius2 light small" href="?q=%23tNotDaily">#tNotDaily</a>-->
+<a class="irvTag2 op border borderRadius2 light small" href="?q=%23tDone">#tDone</a>
+<a class="irvTag2 op border borderRadius2 light small" href="?q=%23tNotDone">#tNotDone</a>
+<a class="irvTag2 op border borderRadius2 light small" href="?q=%23tDaily">#tDaily</a>
+<a class="irvTag2 op border borderRadius2 light small" href="?q=%23tNotDaily">#tNotDaily</a>-->
 
 `;
 

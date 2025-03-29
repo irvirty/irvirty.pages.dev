@@ -3,6 +3,16 @@ var newsJsonVar =
 
 [
     {
+        "id": "25",
+        "text": "GIMP 3.0\u00a0Released - GIMP",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.gimp.org\/news\/2025\/03\/16\/gimp-3-0-released\/",
+        "tag": "#app #software",
+        "time": 1743253627,
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/news\/?id=25\">id<\/a>"
+    },
+    {
         "id": "22",
         "text": "Neocities: \"One million sites \ud83c\udf89\" \u2014 Bluesky",
         "text2": "",

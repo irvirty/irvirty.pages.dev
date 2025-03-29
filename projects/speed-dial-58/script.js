@@ -1,4 +1,4 @@
-// Speed dial v.1.11.0
+// Speed dial v.1.12.0
 //https://developer.mozilla.org/en-US/docs/Web/API/Storage
 
 function fuLSpeedDial(idForPrint, text, url, com){
@@ -122,7 +122,7 @@ speedDialItemText = fuMClearText(speedDialItemText);
 speedDialItemUrl = fuMClearText(speedDialItemUrl);
 
 printArr.push(`
-<!-- ${speedDialItemText} --> <a id="spedDialId${index}" class="inlineBlock padding itemHeight tCenter light2 border borderRadius2 capitalize small insertIcon" href="${speedDialItemUrl}">${speedDialItemText}</a>
+<!-- ${speedDialItemText} --> <a id="spedDialId${index}" class="inlineBlock irvTag2 itemHeight tCenter light2 border borderRadius2 capitalize small insertIcon" href="${speedDialItemUrl}">${speedDialItemText}</a>
 `);
 
 }
@@ -312,7 +312,7 @@ ${printSettings}
 <div class="block padding2 margin2"></div>
 
 <div class="tRight">
-<a href="#" onclick="fuLSpeedDial('', '', '', 'reset');return false;"><div class="op small tag2 button bg  inputHeight red borderRadius border">Clear data (reset)</div></a>
+<a href="#" onclick="fuLSpeedDial('', '', '', 'reset');return false;"><div class="op small irvTag2 button bg  inputHeight red borderRadius border">Clear data (reset)</div></a>
 </div>
 
 <div class="block padding2 margin2"></div>

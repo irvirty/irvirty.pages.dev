@@ -327,22 +327,22 @@ switch (keyBrStyle){
 
 case 'colored':
 keyBrStylePrint = `
-<a class="xSmall bold tag border margin1Px borderRadius" onclick="keyBrStyleSet('colored');return false;" href="#">Colored</a>
-<a class="xSmall gray tag border margin1Px borderRadius" onclick="keyBrStyleSet('mono');return false;" href="#">Mono</a>
+<a class="xSmall bold irvTag border margin1Px borderRadius" onclick="keyBrStyleSet('colored');return false;" href="#">Colored</a>
+<a class="xSmall gray irvTag border margin1Px borderRadius" onclick="keyBrStyleSet('mono');return false;" href="#">Mono</a>
 `;
 break;
 
 case 'mono':
 keyBrStylePrint = `
-<a class="xSmall gray tag border margin1Px borderRadius" onclick="keyBrStyleSet('colored');return false;" href="#">Colored</a>
-<a class="xSmall bold tag border margin1Px borderRadius" onclick="keyBrStyleSet('mono');return false;" href="#">Mono</a>
+<a class="xSmall gray irvTag border margin1Px borderRadius" onclick="keyBrStyleSet('colored');return false;" href="#">Colored</a>
+<a class="xSmall bold irvTag border margin1Px borderRadius" onclick="keyBrStyleSet('mono');return false;" href="#">Mono</a>
 `;
 break;
 
 default:
 keyBrStylePrint = `
-<a class="xSmall tag border margin1Px borderRadius" onclick="keyBrStyleSet('colored');return false;" href="#">Colored</a>
-<a class="xSmall tag border margin1Px borderRadius" onclick="keyBrStyleSet('mono');return false;" href="#">Mono</a>
+<a class="xSmall irvTag border margin1Px borderRadius" onclick="keyBrStyleSet('colored');return false;" href="#">Colored</a>
+<a class="xSmall irvTag border margin1Px borderRadius" onclick="keyBrStyleSet('mono');return false;" href="#">Mono</a>
 `;
 }
 }
@@ -356,7 +356,7 @@ ${printAllKeys}
 <br>
 <div class="tRight">
 ${keyBrStylePrint}
-<a class="xSmall gray tag border margin1Px borderRadius" onclick="keyBrVisibleSet('hide');return false;" href="#">Hide</a>
+<a class="xSmall gray irvTag border margin1Px borderRadius" onclick="keyBrVisibleSet('hide');return false;" href="#">Hide</a>
 </div>
 </div>
 
@@ -366,7 +366,7 @@ printAllKeys = `
 
 <div class="vKeyboard">
 <div class="tRight">
-<a class="xSmall gray tag border margin1Px borderRadius" onclick="keyBrVisibleSet('show');return false;" href="#">Show keyboard</a>
+<a class="xSmall gray irvTag border margin1Px borderRadius" onclick="keyBrVisibleSet('show');return false;" href="#">Show keyboard</a>
 </div>
 </div>
 

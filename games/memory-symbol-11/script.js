@@ -164,9 +164,9 @@ if(tl < symbolList.length * 2&&i <= limitMaintl){
 //https://stackoverflow.com/questions/17524673/understanding-the-modulus-operator
 if(i * i / 2 % i == 0){
 if(maintl == i){
-print += '<span><a class="tag2 light4 border op small" href="?tl='+i+'">'+i+'x'+i+'</a></span>';
+print += '<a class="inlineBlock padding light4 border op small" href="?tl='+i+'">'+i+'x'+i+'</a>';
 }else{
-print += '<span><a class="tag2 light border op small" href="?tl='+i+'">'+i+'x'+i+'</a></span>';
+print += '<a class="inlineBlock padding light border op small" href="?tl='+i+'">'+i+'x'+i+'</a>';
 }
 }
 //console.log(tl);

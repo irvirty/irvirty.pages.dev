@@ -1029,15 +1029,6 @@ var radioJsonVar =
         "rightFooter": ""
     },
     {
-        "text": "Live HOTMIX LO-FI | 242 Favorites | TuneIn",
-        "text2": "",
-        "text3": "",
-        "url": "https:\/\/tunein.com\/radio\/HOTMIX-LO-FI-s321680\/",
-        "tag": "#radio #RadioMusic #chill #code #coding #lofi",
-        "time": 1700035700,
-        "rightFooter": ""
-    },
-    {
         "text": "Live RauteMusik STUDY | 1.5K Favorites | TuneIn",
         "text2": "",
         "text3": "",

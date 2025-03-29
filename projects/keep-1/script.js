@@ -1,4 +1,4 @@
-// Keep v.3.16.1
+// Keep v.4.0.0
 // The static version of my offline "keep" PHP script that saves things (links, notes, etc).
 // Inspired by Twitter, Google Keep
 // Not for large data files.
@@ -395,9 +395,9 @@ if (tagListStatus == 'on'){
 print += `
 
 <nav class="tCenter">
-<!--<a class="small tag2" href="./" title="Index ./">index</a>-->
-<a class="small tag2 brand" href="?" title="Start">start</a>
-<a class="small tag2 brand" href="?mode=random" title="Random post">random</a>
+<!--<a class="small irvTag2" href="./" title="Index ./">index</a>-->
+<a class="small irvTag2 brand" href="?" title="Start">start</a>
+<a class="small irvTag2 brand" href="?mode=random" title="Random post">random</a>
 </nav>
 
 <div class="wrapper">
@@ -1038,7 +1038,7 @@ margin: 0 auto;
 align-items: stretch
 }
 
-.keepContent .post {
+.keepContent .irvPost {
 flex: 1 0 auto;
 justify-content: center;
 
@@ -1053,10 +1053,10 @@ gap: 0;
 margin: 3px;
 }
 
-.postFooter { display: block; }
+.irvPostFooter { display: block; }
 
 @media(max-width: 500px) {
-.keepContent, .keepContent .post { display: block; width: 100%; }
+.keepContent, .keepContent .irvPost { display: block; width: 100%; }
 }
 
 .keepContent img {
@@ -1065,7 +1065,7 @@ box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
 background-color: var(--l3);
 }
 
-.keepContent .postContent:first-letter{ font-weight: bold;  }
+.keepContent .irvPostContent:first-letter{ font-weight: bold;  }
 </style>
 
 `;
@@ -1102,13 +1102,13 @@ border-radius: var(--borderRadius2);
 background-color: var(--l3);
 }
 
-.postFooter { display: block; }
+.irvPostFooter { display: block; }
 
 @media(max-width: 300px) {
-.keepContent, .keepContent .post { display: block; width: 100%; }
+.keepContent, .keepContent .irvPost { display: block; width: 100%; }
 }
 
-.keepContent .postContent:first-letter{ font-weight: bold;  }
+.keepContent .irvPostContent:first-letter{ font-weight: bold;  }
 </style>
 
 `;
@@ -1400,14 +1400,14 @@ scriptDir = fuMHideFileNameExt(scriptDir);
 if (q == tag){
 tagList += `
 
-<a class="tag light2 border2 borderRadius2 ${hlClass} c4R" href="${scriptDir}?q=${goTag}" style="background: var(--${tagColor}); font-size: ${tagSize};">${printTag}</a>
+<a class="irvTag light2 border2 borderRadius2 ${hlClass} c4R" href="${scriptDir}?q=${goTag}" style="background: var(--${tagColor}); font-size: ${tagSize};">${printTag}</a>
 
 `;
 } else {
 
 tagList += `
 
-<a class="tag light2 border2 borderRadius2 ${hlClass} ${tagColor}" href="${scriptDir}?q=${goTag}"  style="font-size: ${tagSize};">${printTag}</a>
+<a class="irvTag light2 border2 borderRadius2 ${hlClass} ${tagColor}" href="${scriptDir}?q=${goTag}"  style="font-size: ${tagSize};">${printTag}</a>
 
 `;
 }
@@ -1421,7 +1421,7 @@ let hlClass = 'hlClass' + item;
 //item = item.toUpperCase();
 hlClassList += `
 
-<a id="${hlClass}" class="bg tag border borderRadius ${hlClass}" onmouseover="hlwClassAdd('${hlClass}')" onmouseout="hlwClassRemove('${hlClass}')" href="#id${hlClass}">${item}</a>
+<a id="${hlClass}" class="bg irvTag border borderRadius ${hlClass}" onmouseover="hlwClassAdd('${hlClass}')" onmouseout="hlwClassRemove('${hlClass}')" href="#id${hlClass}">${item}</a>
 
 `;
 });
@@ -1437,7 +1437,7 @@ tagList = `
 <div class="padding2"></div>
 
 <div class="wrapper">
-<div class="tCenter tagList small notUnderline">
+<div class="tCenter irvTagList small notUnderline">
 ${hlClassList}
 </div>
 </div>
@@ -1510,10 +1510,10 @@ if (display == 'blog'){ lPost = `<h2>${postTitle}</h2>` + highlightText(post, ta
 
 var username = conf["confDomainName"];
 
-var postFooter = ' twoColumn postFooter blockMobile ';
-var postFooterPadding = '';
+var irvPostFooter = ' twoColumn irvPostFooter blockMobile ';
+var irvPostFooterPadding = '';
 if (timeStatus == 'off'){ time = ''; }
-if (timeStatus == 'off'&&rightFooterStatus == 'off'){ postFooter = ' postFooter blockMobile '; }
+if (timeStatus == 'off'&&rightFooterStatus == 'off'){ irvPostFooter = ' irvPostFooter blockMobile '; }
 
 if (rightFooterStatus == 'off'){ rightFooter = ''; }
 
@@ -1537,15 +1537,15 @@ usernameStatusPrint = `<div class="padding2List bold capitalize"><a class="notUn
 return `
 
 <!-- post -->
-<div class="` + otherClass + ` post bgList border3List borderRadius2 padding3" id="` + id + `">
+<div class="` + otherClass + ` irvPost bgList border3List borderRadius2 padding3" id="` + id + `">
 
 ${usernameStatusPrint}
 
-<div class="postContent pre padding2List">` + lPost + `</div>
+<div class="irvPostContent pre padding2List">` + lPost + `</div>
 
-<div class=" ${postFooter} break2 small notUnderline">
-<div class="tagList tLeft left">` + tag + `</div>
-<div class="tagList tRight right">` + rightFooter + time + `</div>
+<div class=" ${irvPostFooter} break2 small notUnderline">
+<div class="irvTagList tLeft left">` + tag + `</div>
+<div class="irvTagList tRight right">` + rightFooter + time + `</div>
 </div>
 
 </div>
@@ -2698,7 +2698,7 @@ nav2Print = `
 <div class="margin2"></div>
 
 <div class="block right tRight zero">
-<div class="tagList">
+<div class="iGagList">
 <a class="op border3List borderRadius2 button light" href="#" onclick="history.back();return false;">back</a>
 <a class="op border3List borderRadius2 button light" href="?p=` + Math.floor(getP) + `">list</a>
 </div>

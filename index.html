@@ -204,7 +204,7 @@ transform: rotate(0deg);
 <span class="xSmall">Site update: <span class="brand" id="last-update"></span></span>
 </summary>
 <span class="wrapperSmall small inlineBlock padding2 pre bg shadow borderRadius2 tLeft">
-New: columns class in CSS is in progress. (edited)
+The new version of main.css. Renamed some classes because there was a class conflict with the WordPress theme. (in progress)
 
 <a class="brand inlineBlock w100 padding2 small tCenter border2 light borderRadius2" href="/pages/updates/" title="Update Log">more</a></span>
 </details>
@@ -280,20 +280,20 @@ document.getElementById('urlDayNow').innerHTML = `<a class="brand tag op" href="
 </div>
 
 <div  class="center noscriptHide" style="margin-top: 7px;">
-<div class="wrapper tCenter small"><!--if scrollX horizontal class rm tagList)-->
+<div class="wrapper tCenter small"><!--if scrollX horizontal class rm irvTagList)-->
 <div id="hotLinks">
 
 <div class="autoColumn notUnderline">
 <!--<span class="x-small op c" title="Commands:">com: </span>-->
-<!--<a class="tag itemHeight light2 border3 borderRadius2 op" href="/?q=w" title="Web search random (text w)">Web</a>-->
-<a class="tag2 itemHeight light2 border3 borderRadius2 op" href="/?q=goo" title="Google search (text goo)">Google</a>
-<a class="tag2 itemHeight light2 border3 borderRadius2 op" href="/?q=bin" title="Bing search (text bin)">Bing</a>
-<a class="tag2 itemHeight light2 border3 borderRadius2 op" href="/?q=o" title="Other random (text o)">Other</a>
-<a class="tag2 itemHeight light2 border3 borderRadius2 op" href="/?q=i" title="Image search random (text i)">Images</a>
-<a class="tag2 itemHeight light2 border3 borderRadius2 op" href="/?q=v" title="Video search random (text v)">Videos</a>
-<a class="tag2 itemHeight light2 border3 borderRadius2 op" href="/?q=n" title="News search random (text n)">News</a>
-<!--<a class="tag2 itemHeight light2 border3 borderRadius2 op" href="/?q=s" title="Social media search random (text s)">Social</a>-->
-<a class="tag2 itemHeight light2 border3 borderRadius2 op" href="/?q=t" title="Translate random (text t)">Translate</a>
+<!--<a class="irvTag2 itemHeight light2 border3 borderRadius2 op" href="/?q=w" title="Web search random (text w)">Web</a>-->
+<a class="irvTag2 itemHeight light2 border3 borderRadius2 op" href="/?q=goo" title="Google search (text goo)">Google</a>
+<a class="irvTag2 itemHeight light2 border3 borderRadius2 op" href="/?q=bin" title="Bing search (text bin)">Bing</a>
+<a class="irvTag2 itemHeight light2 border3 borderRadius2 op" href="/?q=o" title="Other random (text o)">Other</a>
+<a class="irvTag2 itemHeight light2 border3 borderRadius2 op" href="/?q=i" title="Image search random (text i)">Images</a>
+<a class="irvTag2 itemHeight light2 border3 borderRadius2 op" href="/?q=v" title="Video search random (text v)">Videos</a>
+<a class="irvTag2 itemHeight light2 border3 borderRadius2 op" href="/?q=n" title="News search random (text n)">News</a>
+<!--<a class="irvTag2 itemHeight light2 border3 borderRadius2 op" href="/?q=s" title="Social media search random (text s)">Social</a>-->
+<a class="irvTag2 itemHeight light2 border3 borderRadius2 op" href="/?q=t" title="Translate random (text t)">Translate</a>
 </div>
 
 </div>
@@ -543,7 +543,7 @@ return time + ' ago';
 
 <!--<script src="/js/fuPostTime.js"></script>-->
 <script>
-document.getElementById("last-update").innerHTML = fuPostTime(1743099749);
+document.getElementById("last-update").innerHTML = fuPostTime(1743243034);
 </script>
 
 <script>
@@ -567,15 +567,15 @@ var text = encodeURIComponent(e.target.value);
 var a = `
 
 <div class="autoColumn notUnderline">
-<!--<a class="tag2 itemHeight light2 border3 borderRadius2 op" href="/?q=` + text + ` w" title="Web search random (text w)">Web</a>-->
-<a class="tag2 itemHeight light2 border3 borderRadius2 op" href="/?q=` + text + ` goo" title="Google search (text goo)">Google</a>
-<a class="tag2 itemHeight light2 border3 borderRadius2 op" href="/?q=` + text + ` bin" title="Bing search (text bin)">Bing</a>
-<a class="tag2 itemHeight light2 border3 borderRadius2 op" href="/?q=` + text + ` o" title="Other random (text o)">Other</a>
-<a class="tag2 itemHeight light2 border3 borderRadius2 op" href="/?q=` + text + ` i" title="Image search random (text i)">Images</a>
-<a class="tag2 itemHeight light2 border3 borderRadius2 op" href="/?q=` + text + ` v" title="Video search random (text v)">Videos</a>
-<a class="tag2 itemHeight light2 border3 borderRadius2 op" href="/?q=` + text + ` n" title="News search random (text n)">News</a>
-<!--<a class="tag2 itemHeight light2 border3 borderRadius2 op" href="/?q=` + text + ` s" title="Socail media search random (text s)">Social</a>-->
-<a class="tag2 itemHeight light2 border3 borderRadius2 op" href="/?q=` + text + ` t" title="Translate random (text t)">Translate</a>
+<!--<a class="irvTag2 itemHeight light2 border3 borderRadius2 op" href="/?q=` + text + ` w" title="Web search random (text w)">Web</a>-->
+<a class="irvTag2 itemHeight light2 border3 borderRadius2 op" href="/?q=` + text + ` goo" title="Google search (text goo)">Google</a>
+<a class="irvTag2 itemHeight light2 border3 borderRadius2 op" href="/?q=` + text + ` bin" title="Bing search (text bin)">Bing</a>
+<a class="irvTag2 itemHeight light2 border3 borderRadius2 op" href="/?q=` + text + ` o" title="Other random (text o)">Other</a>
+<a class="irvTag2 itemHeight light2 border3 borderRadius2 op" href="/?q=` + text + ` i" title="Image search random (text i)">Images</a>
+<a class="irvTag2 itemHeight light2 border3 borderRadius2 op" href="/?q=` + text + ` v" title="Video search random (text v)">Videos</a>
+<a class="irvTag2 itemHeight light2 border3 borderRadius2 op" href="/?q=` + text + ` n" title="News search random (text n)">News</a>
+<!--<a class="irvTag2 itemHeight light2 border3 borderRadius2 op" href="/?q=` + text + ` s" title="Socail media search random (text s)">Social</a>-->
+<a class="irvTag2 itemHeight light2 border3 borderRadius2 op" href="/?q=` + text + ` t" title="Translate random (text t)">Translate</a>
 </div>
 
 `;

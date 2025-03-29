@@ -64,11 +64,11 @@ skip = 'yes';
 }
 if (mode == item&&skip != 'yes'){
 modeListPrint += `
-<a class="tag light4 border borderRadius2 borderBottomBrand" style="color: var(--c3);" href="?mode=` + item + `">` + item + `</a>
+<a class="irvTag light4 border borderRadius2 borderBottomBrand" style="color: var(--c3);" href="?mode=` + item + `">` + item + `</a>
 `;
 } else if (skip != 'yes'){
 modeListPrint += `
-<a class="tag op light3 border2 borderRadius2" href="?mode=` + item + `">` + item + `</a>
+<a class="irvTag op light3 border2 borderRadius2" href="?mode=` + item + `">` + item + `</a>
 `;
 }
 }
@@ -80,13 +80,13 @@ document.getElementById("mode").innerHTML = `
 
 <!-- mode -->
 
-<!--<a class="tag op light border2 borderRadius2" href="?"">main</a>-->
-<a class="tag op light3 border2 borderRadius2" href="./?" onclick="fuMReload();return false;">reload</a>
+<!--<a class="irvTag op light border2 borderRadius2" href="?"">main</a>-->
+<a class="irvTag op light3 border2 borderRadius2" href="./?" onclick="fuMReload();return false;">reload</a>
 
 ${modeListPrint}
 
 <!-- https://developer.mozilla.org/docs/Web/API/Document/getSelection -->
-<a class="tag op light3 border2 borderRadius2" id="bookmarklet" style="display: none;" title="for the panel in the browser" href="javascript:void(window.open('https://${conf["confWebsiteUrl"]}/games/typing-speed-14/?mode=input&q=' + encodeURIComponent(document.getSelection().toString())))">bookmarklet</a>
+<a class="irvTag op light3 border2 borderRadius2" id="bookmarklet" style="display: none;" title="for the panel in the browser" href="javascript:void(window.open('https://${conf["confWebsiteUrl"]}/games/typing-speed-14/?mode=input&q=' + encodeURIComponent(document.getSelection().toString())))">bookmarklet</a>
 
 `;
 
@@ -358,10 +358,10 @@ document.getElementById('text').rows = '';
 function fuLtr(lTrTask){
 if (location.hostname == 'localhost'){
 if (lTrTask == undefined){ lTrTask = task; }
-document.getElementById("mode2").innerHTML = ' <a class="tag op light3 border2 borderRadius2" href="/?q=' + encodeURIComponent(lTrTask) + ' d"> tr2</a>';
-document.getElementById("mode2").innerHTML += ' <a class="tag op light3 border2 borderRadius2" title="translate" href="/projects/redirects-25/?q=' + encodeURIComponent(lTrTask) + ' t">tr</a>';
+document.getElementById("mode2").innerHTML = ' <a class="irvTag op light3 border2 borderRadius2" href="/?q=' + encodeURIComponent(lTrTask) + ' d"> tr2</a>';
+document.getElementById("mode2").innerHTML += ' <a class="irvTag op light3 border2 borderRadius2" title="translate" href="/projects/redirects-25/?q=' + encodeURIComponent(lTrTask) + ' t">tr</a>';
 } else {
-document.getElementById("mode2").innerHTML = ' <a class="tag border2 borderRadius2" title="translate" href="/projects/redirects-25/?q=' + encodeURIComponent(lTrTask) + ' t">tr</a>';
+document.getElementById("mode2").innerHTML = ' <a class="irvTag border2 borderRadius2" title="translate" href="/projects/redirects-25/?q=' + encodeURIComponent(lTrTask) + ' t">tr</a>';
 }
 }
 

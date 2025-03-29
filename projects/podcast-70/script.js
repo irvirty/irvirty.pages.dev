@@ -144,7 +144,7 @@ document.getElementById(printId).innerHTML = `
 <div class="padding3" id="${jsonVar[id]['id']}">
 <span class="pre padding2List">${post} ${play} ${playSource}</span>
 <div class="notUnderline">
-<span class="taslist tLeft">${tag}</span>
+<span class="taglist tLeft">${tag}</span>
 </div>
 </div>
 
@@ -392,10 +392,10 @@ if (item[0] == '#'){
 
 item = item.replaceAll(/#/g, "");
 if (hrefInOut == 'out'){
-/*item = `<a rel="nofollow" href="/projects/blog-in-progress/?q=${item} tag">#${item} <span class="sup">⇗</span></a>`;*/
-item = `<a class="brand" rel="nofollow" href="${scriptDir}?q=%23${item}">#${item}</a>`;
+/*item = `<a href="/projects/blog-in-progress/?q=${item} tag">#${item} <span class="sup">⇗</span></a>`;*/
+item = `<a class="brand irvTag" href="${scriptDir}?q=%23${item}">#${item}</a>`;
 } else {
-item = `<a class="brand" rel="nofollow" href="${scriptDir}?q=%23${item}">#${item}</a>`;
+item = `<a class="brand irvTag" href="${scriptDir}?q=%23${item}">#${item}</a>`;
 }
 }
 
@@ -622,14 +622,14 @@ hlClassList += printTag2[0].toLowerCase();
 if (q == tag){
 tagList += `
 
-<a class="tag light border borderRadius2 ${hlClass} c4R" href="${scriptDir}?q=${goTag}" style="background: ${tagColor}; font-size: ${tagSize};">${printTag}</a>
+<a class="irvTag light border borderRadius2 ${hlClass} c4R" href="${scriptDir}?q=${goTag}" style="background: ${tagColor}; font-size: ${tagSize};">${printTag}</a>
 
 `;
 } else {
 
 tagList += `
 
-<a class="tag light border borderRadius2 ${hlClass}" href="${scriptDir}?q=${goTag}"  style="color: ${tagColor}; font-size: ${tagSize};">${printTag}</a>
+<a class="irvTag light border borderRadius2 ${hlClass}" href="${scriptDir}?q=${goTag}"  style="color: ${tagColor}; font-size: ${tagSize};">${printTag}</a>
 
 `;
 }
@@ -643,7 +643,7 @@ hlClassList2.forEach(function(item){
 let hlClass = 'hlClass'+item;
 item = item.toUpperCase();
 hlClassList3 += `
-<a class="tag light border borderRadius2 ${hlClass}" onmouseover="hlwClassAdd('${hlClass}')" onmouseout="hlwClassRemove('${hlClass}')" href="#id${hlClass}" id="${hlClass}">${item}</a>
+<a class="irvTag light border borderRadius2 ${hlClass}" onmouseover="hlwClassAdd('${hlClass}')" onmouseout="hlwClassRemove('${hlClass}')" href="#id${hlClass}" id="${hlClass}">${item}</a>
 `;
 });
 

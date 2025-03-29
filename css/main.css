@@ -1,4 +1,4 @@
-/* Main.css style v.22.0.2
+/* Main.css style v.23.1.0
 /* main.css + theme (auto.css) */
 /* The style is mostly based on classes */
 
@@ -76,18 +76,17 @@ height: 100%;
 }
 
 html {
-/*fixed WP delme test position: relative;*/
 overflow-y: scroll;
 /*height: -webkit-fill-available*/
 }
 
 .content,
 .contentCenter,
-.postContent,
-.postContentCenter { flex: 1 0 auto; }
+.irvPostContent,
+.irvPostContentCenter { flex: 1 0 auto; }
 
 /* need wrapper */
-.contentCenter, .postContentCenter {
+.contentCenter, .irvPostContentCenter {
 display: flex;
 flex-direction: column;
 align-items: center;
@@ -95,7 +94,7 @@ justify-content: center;
 /*height: 100vh;*/
 }
 
-header, footer, nav, .postFooter { flex-shrink: 0; } /*delme width: 100%;*/
+header, footer, nav, .irvPostFooter { flex-shrink: 0; } /*delme width: 100%;*/
 
 .h1 { font-size: 1.40em; }
 .h2 { font-size: 1.35em; }
@@ -151,16 +150,13 @@ input[type="number"]{ padding: 5px; }
 
 /* class */
 
-.post {
-/* use with .postContent (wrapper) */
-/*display: block;*/
+.irvPost {
 width: 100%;
 max-width: 100%;
 margin: 0 auto;
 overflow: auto;
 padding: var(--padding3);
 
-/* new in test */
 display: flex;
 flex-basis: auto;
 flex-basis: 100%;
@@ -168,9 +164,34 @@ flex-direction: column;
 
 height: auto;
 min-height: auto;
-/* fix test */
-/*overflow: visible;*/
 }
+
+
+.irvPostFooter a {
+display: inline-block;
+padding: var(--padding) 0;
+margin: 0 var(--padding);
+}
+.irvPostFooter a:first-child { margin-left: 0; }
+.irvPostFooter a:last-child { margin-right: 0; }
+
+.irvPostFooter {
+padding-top: calc(var(--padding) / 2);
+}
+
+.irvPostFooter .irvTagList a {
+padding-top: 0;
+}
+
+.irvTagList, .irvTagList2 {
+display: inline-flex;
+flex-wrap: wrap;
+justify-content: center;
+align-items: center;
+text-align: center;
+}
+
+.irvTagList a, .irvTagList2 a { margin: 1px; }
 
 /* pre for post */
 .pre iframe, .pre video, .pre audio { display: block;  margin: 11px auto; width: 100%; max-width: 100%; }
@@ -218,14 +239,6 @@ min-width: auto;
 gap: 0;
 }
 
-.postFooter a {
-display: inline-block;
-padding: var(--padding);
-padding-left: 0;
-margin-right: calc(var(--padding) * 2);
-}
-.postFooter a:last-child { margin-right: 0; }
-
 .logo, .logo2{
 position: relative;
 border-radius: 50%;
@@ -249,16 +262,9 @@ transition: transform 1.5s ease-in-out;
 .logo:hover, .logo2:hover{ border-color: var(--c); }
 }
 
-.tagList, .tagList2 {
-display: inline-flex;
-flex-wrap: wrap;
-justify-content: center;
-align-items: center;
-text-align: center;
-}
-
-.tagList a, .tagList2 a { margin: 1px; }
-.tag, .tag2, .button {
+.irvTag,
+.irvTag2,
+.button {
 display: inline-flex;
 justify-content: center;
 align-content: center;
@@ -273,7 +279,7 @@ white-space: normal;
 word-break: break-word;
 }
 
-.postFooter .tagList { align-self: end; display: block; }
+.irvPostFooter .irvTagList { align-self: end; display: block; }
 
 .button {
 padding: .7em 1.2em;
@@ -282,8 +288,8 @@ margin-top: 1px;
 margin-bottom: 1px;
 }
 
-.tag2 { padding: .3em .8em; }
-/*@media (any-pointer: coarse) { .tag { padding: .3em .8em; } }*/
+.irvTag2 { padding: .3em .8em; }
+/*@media (any-pointer: coarse) { .irvTag { padding: .3em .8em; } }*/
 
 /* ico2 - for img */
 .ico, .ico2 {

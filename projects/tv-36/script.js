@@ -145,7 +145,7 @@ document.getElementById(printId).innerHTML = `
 <div class="padding3" id="${jsonVar[id]['id']}">
 <span class="pre padding2List">${post} ${play} ${playSource}</span>
 <div class="notUnderline">
-<span class="taglist tLeft">${tag}</span>
+<span class="irvTaglist tLeft">${tag}</span>
 <span class=""></span>
 </div>
 </div>
@@ -562,14 +562,14 @@ hlClassList += printTag2[0].toLowerCase();
 if(q == tag){
 tagList += `
 
-<a class="tag light border borderRadius2 ${hlClass} c4R" href="${scriptDir}?q=${goTag}" style="background: ${tagColor}; font-size: ${tagSize};">${printTag}</a>
+<a class="irvTag light border borderRadius2 ${hlClass} c4R" href="${scriptDir}?q=${goTag}" style="background: ${tagColor}; font-size: ${tagSize};">${printTag}</a>
 
 `;
 }else{
 
 tagList += `
 
-<a class="tag light border borderRadius2 ${hlClass}" href="${scriptDir}?q=${goTag}"  style="color: ${tagColor}; font-size: ${tagSize};">${printTag}</a>
+<a class="irvTag light border borderRadius2 ${hlClass}" href="${scriptDir}?q=${goTag}"  style="color: ${tagColor}; font-size: ${tagSize};">${printTag}</a>
 
 `;
 }
@@ -583,19 +583,19 @@ hlClassList2.forEach(function(item){
 let hlClass = 'hlClass'+item;
 item = item.toUpperCase();
 hlClassList3 += `
-<a class="tag light border borderRadius2 ${hlClass}" onmouseover="hlwClassAdd('${hlClass}')" onmouseout="hlwClassRemove('${hlClass}')" href="#id${hlClass}" id="${hlClass}">${item}</a>
+<a class="irvTag light border borderRadius2 ${hlClass}" onmouseover="hlwClassAdd('${hlClass}')" onmouseout="hlwClassRemove('${hlClass}')" href="#id${hlClass}" id="${hlClass}">${item}</a>
 `;
 });
 
 tagList = `
 
 <div class="wrapper3">
-<div class="tagList">${tagList}</div>
+<div class="irvTagList">${tagList}</div>
 <div class="block padding2"></div>
 </div>
 
 <div class="wrapper">
-<div class="tagList padding3">${hlClassList3}</div>
+<div class="irvTagList padding3">${hlClassList3}</div>
 </div>
 
 `;
