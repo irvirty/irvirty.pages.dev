@@ -567,6 +567,13 @@ var sitemapJsonVar = [
         "time": "id"
     },
     {
+        "text": "Random word every day\n\nRandom word every day. Unique for every visitor. | random word every day: ",
+        "url": "\/projects\/random-word-every-day-76\/index.html",
+        "tag": " #word #day #HTML_CSS #JavaScript #project",
+        "id": "e0eeac1fb643c818aa118488c6f62e21",
+        "time": "id"
+    },
+    {
         "text": "Redirect to list\n\nRedirect page, not intended for viewing. | icons: ",
         "url": "\/pages\/icons\/inspiration-log.html",
         "tag": " #Redirect_to_list",
@@ -823,13 +830,6 @@ var sitemapJsonVar = [
         "url": "\/pages\/website-directory\/index.html",
         "tag": " #website #directory #websites #links #collection #page #main",
         "id": "4d3e605194f6d6f045890bfd09bd4652",
-        "time": "id"
-    },
-    {
-        "text": "Word of the day\n\nWord of the day. Random word every day. Unique for every visitor. | word of the day: ",
-        "url": "\/projects\/word-of-the-day-76\/index.html",
-        "tag": " #word #day #HTML_CSS #JavaScript #project",
-        "id": "cef9edce40e35a40710962b72270a166",
         "time": "id"
     },
     {
