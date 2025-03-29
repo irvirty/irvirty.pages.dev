@@ -6,7 +6,7 @@ src: url('/fonts/Roboto-Regular.ttf')  format('truetype');
 font-display: swap;
 }
 
-/* Navigation CSS v.2.2.0 */
+/* Navigation CSS v.3.0.0 */
 
 .topNav form, .topNav input[type=search] { display: inline-block; }
 .topNav form { width: 100%; max-width: 130px; vertical-align: middle; }
@@ -36,7 +36,7 @@ text-align: center;
 }
 
 /* fix for mobile */
-@media(max-width: 500px){
+ @media only screen and (max-width: 500px){
 .topNav nav {
 justify-content: left;
 align-items: center;
@@ -49,7 +49,8 @@ text-align: left;
 
 .dropdownMenu {
 width: calc(100% - (2 * var(--bodyPadding)));
-max-width: calc(900px - (2 * var(--bodyPadding)));
+/*delme test validator error max-width: calc(900px - (2 * var(--bodyPadding)));*/
+max-width: 900px;
 margin: 0 auto;
 position: absolute;
 left: 0;
@@ -106,7 +107,7 @@ margin: 0 auto;
 justify-content: center;
 }
 
-@media(max-width: 150px) { .menu { display: block; width: 100%; }}
+ @media only screen and (max-width: 150px) { .menu { display: block; width: 100%; }}
 
 .menu a {
 display: flex;
@@ -137,7 +138,7 @@ border-bottom: 2px dotted var(--d3);
 /* bg image in main.js */
 
 /* fix */
-@media(max-width: 500px){
+@media only screen and (max-width: 500px){
 #secondNav nav {
 text-align: left;
 }
