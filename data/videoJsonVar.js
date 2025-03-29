@@ -3,6 +3,276 @@ var videoJsonVar =
 
 [
     {
+        "text": "Snow Day | Wayside | FULL EPISODE | KEEP IT WEIRD - YouTube",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=rf83ccgHDRA",
+        "tag": "#video #cartoon",
+        "time": 1743259290,
+        "rightFooter": ""
+    },
+    {
+        "text": "Episode 13 | The Day My Butt Went Psycho | KEEP IT WEIRD - YouTube",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=Bc7MkDljAe0",
+        "tag": "#video #cartoon",
+        "time": 1743259249,
+        "rightFooter": ""
+    },
+    {
+        "text": "Episode 22 - The Day My Butt Went Psycho | FULL EPISODE | KEEP IT WEIRD! - YouTube",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=_JvWcQ1Y73A",
+        "tag": "#video #cartoon",
+        "time": 1743259224,
+        "rightFooter": ""
+    },
+    {
+        "text": "Episode 25 - The Day My Butt Went Psycho | FULL EPISODE | KEEP IT WEIRD! - YouTube",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=DFRDNXft37U",
+        "tag": "#video #cartoon",
+        "time": 1743259205,
+        "rightFooter": ""
+    },
+    {
+        "text": "Episode 13 - The Day My Butt Went Psycho | FULL EPISODE | KEEP IT WEIRD! - YouTube",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=zUuytrDXDoU",
+        "tag": "#video #cartoon",
+        "time": 1743259162,
+        "rightFooter": ""
+    },
+    {
+        "text": "Episode 12 - The Day My Butt Went Psycho | FULL EPISODE | KEEP IT WEIRD! - YouTube",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=29ZXvfNbSIM",
+        "tag": "#video #cartoon",
+        "time": 1743259142,
+        "rightFooter": ""
+    },
+    {
+        "text": "Episode 22 | The Day My Butt Went Psycho | KEEP IT WEIRD - YouTube",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=P8iV59H3J3Q",
+        "tag": "#video #cartoon",
+        "time": 1743259126,
+        "rightFooter": ""
+    },
+    {
+        "text": "Grossology: Hirsute Yourself - Ep.50 - YouTube",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=f-92bpXwYms",
+        "tag": "#video #cartoon",
+        "time": 1743259091,
+        "rightFooter": ""
+    },
+    {
+        "text": "Episode 24 | Grossology | KEEP IT WEIRD - YouTube",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=DN3ple41Ic4",
+        "tag": "#video #cartoon",
+        "time": 1743259053,
+        "rightFooter": ""
+    },
+    {
+        "text": "Episode 20 | Grossology | KEEP IT WEIRD - YouTube",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=aZNDwMkmxfM",
+        "tag": "#video #cartoon",
+        "time": 1743259006,
+        "rightFooter": ""
+    },
+    {
+        "text": "Episode 19 | Grossology | KEEP IT WEIRD - YouTube",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=zhgXjwAWTxg",
+        "tag": "#video #cartoon",
+        "time": 1743258991,
+        "rightFooter": ""
+    },
+    {
+        "text": "Episode 18 | Grossology | KEEP IT WEIRD - YouTube",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=Zo4hnQ1VU6g",
+        "tag": "#video #cartoon",
+        "time": 1743258977,
+        "rightFooter": ""
+    },
+    {
+        "text": "Episode 17 | Grossology | KEEP IT WEIRD - YouTube",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=zPZ216V4Iu8",
+        "tag": "#video #cartoon",
+        "time": 1743258959,
+        "rightFooter": ""
+    },
+    {
+        "text": "Episode 16 | Grossology | KEEP IT WEIRD - YouTube",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=fQ8fBXEE2-Q",
+        "tag": "#video #cartoon",
+        "time": 1743258945,
+        "rightFooter": ""
+    },
+    {
+        "text": "Episode 15 | Grossology | KEEP IT WEIRD - YouTube",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=d-oDjgkbcFU",
+        "tag": "#video #cartoon",
+        "time": 1743258912,
+        "rightFooter": ""
+    },
+    {
+        "text": "Episode 14 | Grossology | KEEP IT WEIRD - YouTube",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=3Eu-eVvufp8",
+        "tag": "#video #cartoon",
+        "time": 1743258883,
+        "rightFooter": ""
+    },
+    {
+        "text": "Episode 13 | Grossology | KEEP IT WEIRD - YouTube",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=VxPS4cAXq1o",
+        "tag": "#video #cartoon",
+        "time": 1743258869,
+        "rightFooter": ""
+    },
+    {
+        "text": "Episode 12 | Grossology | KEEP IT WEIRD - YouTube",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=Fdu0td-IbCA",
+        "tag": "#video #cartoon",
+        "time": 1743258853,
+        "rightFooter": ""
+    },
+    {
+        "text": "Episode 11 | Grossology | KEEP IT WEIRD - YouTube",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=9SC34FjOPzU",
+        "tag": "#video #cartoon",
+        "time": 1743258839,
+        "rightFooter": ""
+    },
+    {
+        "text": "Episode 10 | Grossology | KEEP IT WEIRD - YouTube",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=31KmmdfMIgA",
+        "tag": "#video #cartoon",
+        "time": 1743258822,
+        "rightFooter": ""
+    },
+    {
+        "text": "Episode 8 | Grossology | KEEP IT WEIRD - YouTube",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=rcsfOeXz8m0",
+        "tag": "#video #cartoon",
+        "time": 1743258793,
+        "rightFooter": ""
+    },
+    {
+        "text": "Episode 7 | Grossology | KEEP IT WEIRD - YouTube",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=hEJAM3UMG_0",
+        "tag": "#video #cartoon",
+        "time": 1743258774,
+        "rightFooter": ""
+    },
+    {
+        "text": "Episode 6 | Grossology | KEEP IT WEIRD - YouTube",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=mN-D24x7bHY",
+        "tag": "#video #cartoon",
+        "time": 1743258757,
+        "rightFooter": ""
+    },
+    {
+        "text": "Episode 5 | Grossology | KEEP IT WEIRD - YouTube",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=j454QYwRaxo",
+        "tag": "#video #cartoon",
+        "time": 1743258705,
+        "rightFooter": ""
+    },
+    {
+        "text": "Episode 4 | Grossology | KEEP IT WEIRD - YouTube",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=YWqSU99_SdA",
+        "tag": "#video #cartoon",
+        "time": 1743258689,
+        "rightFooter": ""
+    },
+    {
+        "text": "Episode 3 | Grossology | KEEP IT WEIRD - YouTube",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=V1kg--HJ_zg",
+        "tag": "#video #cartoon",
+        "time": 1743258671,
+        "rightFooter": ""
+    },
+    {
+        "text": "Episode 2 | Grossology | KEEP IT WEIRD - YouTube",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=fmkMX4RjzXc",
+        "tag": "#video #cartoon",
+        "time": 1743258654,
+        "rightFooter": ""
+    },
+    {
+        "text": "Episode 9 | Grossology | KEEP IT WEIRD - YouTube",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=VhzOItDVUIg",
+        "tag": "#video #cartoon",
+        "time": 1743258631,
+        "rightFooter": ""
+    },
+    {
+        "text": "Grossology: Club Parasites - Ep 7 - YouTube",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=L2epC0TxlxM",
+        "tag": "#video #cartoon",
+        "time": 1743258605,
+        "rightFooter": ""
+    },
+    {
+        "text": "Episode 14 - The Day My Butt Went Psycho | FULL EPISODE | KEEP IT WEIRD! - YouTube",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=t1ApNKqTdAM",
+        "tag": "#video #cartoon",
+        "time": 1743258465,
+        "rightFooter": ""
+    },
+    {
         "text": "Episode 26 | The Day My Butt Went Psycho | KEEP IT WEIRD - YouTube",
         "text2": "",
         "text3": "",

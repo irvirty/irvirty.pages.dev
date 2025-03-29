@@ -1,8 +1,9 @@
-// Ads v.1.7.4
+// Ads v.1.8.0
 // Mini banner system
 // print ads from json var list: fuAds('', 'ads2 - id where print', '');
 
 function fuAds(none, idAds, com){
+
 
 // none - Reserved variable
 // idAds - id for print
@@ -97,14 +98,13 @@ document.getElementById(idAds).innerHTML = `
 if (com == 'all'){
 
 
-var adsPrintAll = '';
+let adsPrintAll = '';
 ads.forEach((item, index) => {
-
 
 // multi
 // single
-adsText = ads[random]['text']; if (adsText == null||adsText == "") { adsText = ''; }
-adsURL = ads[random]['url']; if (adsURL == null||adsURL == ""){ adsURL = '#'; }
+adsText = ads[index]['text']; if (adsText == null) { adsText = ''; }
+adsURL = ads[index]['url']; if (adsURL == null){ adsURL = ''; }
 if (adsText.search("src=") != -1&&cookieStatus != 'on'){ // found
 adsText = fuMHideFileNameExt(`<a class="brand" href="/pages/settings/#confDataCollection">Cookie setting: ${cookieStatus}.</a>`);
 }
@@ -142,6 +142,7 @@ document.getElementById(idAds).innerHTML = '<div class="wrapper"><div class="pad
 
 
 if (com == 'off'){ document.getElementById(idAds).innerHTML = ""; }
+//if (com == ""){ alert('test'); }
 
 }
 

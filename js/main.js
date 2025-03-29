@@ -1,4 +1,4 @@
-// Main js v.6.18.0
+// Main js v.6.18.1
 // For second navigation, footer, themes, etc
 
 // Settings, config
@@ -399,16 +399,16 @@ fDescArr.forEach((tag) => {
 if ((tag.trim()) != ''&&fDescTagsLimitCounter <= fDescTagsLimit){
 tag = tag.trim();
 tag = tag.replaceAll(" ", "_");
-fDescTags += `<a class="tag brand light border2 borderRadius2" href="/search/?tag=${tag}">#${tag}</a> `;
+fDescTags += `<a class="inlineBlock padding brand light border2 borderRadius2" href="/search/?tag=${tag}">#${tag}</a> `;
 }
 fDescTagsLimitCounter++;
 });
 if (fDescTagsLimit < fDescTagsLimitCounter){
-fDescTags += `<div class="tag">...</div>`;
+fDescTags += `<div class="inlineBlock padding">...</div>`;
 }
 
 fDescTags = `
-<br><b class="block padding2List small">Tags (keywords):</b><div class="tagList small left">` + fDescTags + '</div>';
+<br><b class="block padding2List small">Tags (keywords):</b><div class="irvTagList small left">` + fDescTags + '</div>';
 }
 
 if (document.getElementsByName("description")[0] != null){
