@@ -1,4 +1,4 @@
-// Quiz v.2.0.2
+// Quiz v.2.0.3
 
 var jsonVar = quizJsonVar;
 
@@ -249,7 +249,7 @@ let qPrint = `
 <label for="round" class="xSmall">Rounds ${quizConfRound}:</label>
 <progress id="round" min="0" max="${quizConfRound}" value="${quizProgressRound[0]}">${quizProgressRound[0] }</progress>
 
-<div class="submit button block small op pointer" onclick="quizMain('next');return false;">next</div>
+<div class="submit button block small op pointer borderRadius borderRadius" onclick="quizMain('next');return false;">next</div>
 
 
 
@@ -431,7 +431,7 @@ Correct: <span class="green bold">${quizResultCorrectAnswer[0]}</span>, Wrong: <
 document.getElementById('result').innerHTML = `
 <div class="padding3 light shadow borderRadius2">
 ${quizWinMsg[0]}
-<div class="submit pointer button block" onclick="fuMReload();return false;">reload, again</div>
+<div class="submit pointer button block borderRadius" onclick="fuMReload();return false;">reload, again</div>
 </div>
 `;
 }
@@ -731,9 +731,9 @@ document.getElementById('taglist').innerHTML +=  `
 <div id="form" class="wrapperL">
 <form method="GET" style="margin-top: 0px;" action="?">
 <label id="search" class="op block tLeft xSmall">search and tag:</label>
-<input id="input" class="padding2 op" type="search" style="text-align: center;" name="q"  autocomplete="off" placeholder="" value="${q}">
+<input id="input" class="padding2 op borderRadius" type="search" style="text-align: center;" name="q"  autocomplete="off" placeholder="" value="${q}">
 
-<input class="op padding2 small submit" style="min-height: 1px;" type="submit">
+<input class="op padding2 small submit borderRadius" style="min-height: 1px;" type="submit">
 
 
 </form>
