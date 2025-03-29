@@ -1,4 +1,4 @@
-/* Main.css style v.23.1.0
+/* Main.css style v.23.1.1
 /* main.css + theme (auto.css) */
 /* The style is mostly based on classes */
 
@@ -230,7 +230,7 @@ align-items: stretch;
 
 .autoColumn * {
 display: inline-flex;
-width: auto;
+/*test delme width: auto;*/
 margin: 1px;
 flex: 1 0 auto;
 flex-wrap: wrap;

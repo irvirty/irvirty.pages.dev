@@ -1432,7 +1432,7 @@ tagList = `
 <div class="wrapper2">
 
 <div class="op small padding2">Tag cloud:</div>
-<div class="tagList notUnderline">` + tagList + `</div>
+<div class="irvTagList notUnderline">` + tagList + `</div>
 
 <div class="padding2"></div>
 
