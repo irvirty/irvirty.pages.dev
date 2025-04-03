@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   version="1.1"
+   id="svg2"
+   width="512"
+   height="512"
+   viewBox="0 0 512 512"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs6">
+    <linearGradient
+       id="linearGradient1552">
+      <stop
+         style="stop-color:#000000;stop-opacity:1;"
+         offset="0"
+         id="stop1550" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient1211">
+      <stop
+         style="stop-color:#ffffff;stop-opacity:1;"
+         offset="0"
+         id="stop1209" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient1181">
+      <stop
+         style="stop-color:#ffffff;stop-opacity:1;"
+         offset="0"
+         id="stop1179" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient1005">
+      <stop
+         style="stop-color:#eeeeec;stop-opacity:1;"
+         offset="0"
+         id="stop1003" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient999">
+      <stop
+         style="stop-color:#000000;stop-opacity:1;"
+         offset="0"
+         id="stop997" />
+    </linearGradient>
+    <linearGradient
+       xlink:href="#linearGradient999"
+       id="linearGradient1001"
+       x1="255.34015"
+       y1="435.41595"
+       x2="787.34015"
+       y2="435.41595"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(0.962406,0,0,0.96240605,-245.74088,-163.04695)" />
+    <linearGradient
+       xlink:href="#linearGradient1181"
+       id="linearGradient1183"
+       x1="126"
+       y1="256"
+       x2="386"
+       y2="256"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       xlink:href="#linearGradient1552"
+       id="linearGradient1554"
+       x1="349.3316"
+       y1="111.61956"
+       x2="394.3316"
+       y2="111.61956"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="translate(11.149954,-271.45376)" />
+    <linearGradient
+       xlink:href="#linearGradient1552"
+       id="linearGradient1608"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="translate(11.149954,-271.45376)"
+       x1="349.3316"
+       y1="111.61956"
+       x2="394.3316"
+       y2="111.61956" />
+  </defs>
+  <g
+     id="g8">
+    <rect
+       style="opacity:0.9;fill:#ffffff;fill-opacity:1;stroke:url(#linearGradient1001);stroke-width:19.2481;stroke-opacity:1"
+       id="rect849"
+       width="492.75186"
+       height="492.75189"
+       x="9.6240692"
+       y="9.624054" />
+    <g
+       id="g1620"
+       style="opacity:0.9"
+       transform="matrix(0.83891381,0,0,0.83891381,41.456241,41.238065)">
+      <circle
+         style="fill:url(#linearGradient1183);fill-opacity:1;stroke:#000000;stroke-width:20;stroke-opacity:1"
+         id="path1133"
+         cx="256"
+         cy="256"
+         r="120" />
+      <g
+         id="g1558">
+        <rect
+           style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:20;stroke-opacity:1"
+           id="rect1207"
+           width="20"
+           height="45"
+           x="374.03098"
+           y="-168.37383"
+           transform="rotate(45)" />
+        <rect
+           style="fill:url(#linearGradient1554);fill-opacity:1;stroke:none;stroke-width:20;stroke-opacity:1"
+           id="rect1468"
+           width="45"
+           height="20"
+           x="360.48157"
+           y="-169.8342"
+           transform="rotate(45)" />
+      </g>
+      <g
+         id="g1558-1"
+         transform="matrix(-1,0,0,1,511.47986,0)">
+        <rect
+           style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:20;stroke-opacity:1"
+           id="rect1207-2"
+           width="20"
+           height="45"
+           x="374.03098"
+           y="-168.37383"
+           transform="rotate(45)" />
+        <rect
+           style="fill:url(#linearGradient1608);fill-opacity:1;stroke:none;stroke-width:20;stroke-opacity:1"
+           id="rect1468-9"
+           width="45"
+           height="20"
+           x="360.48157"
+           y="-169.8342"
+           transform="rotate(45)" />
+      </g>
+    </g>
+  </g>
+</svg>

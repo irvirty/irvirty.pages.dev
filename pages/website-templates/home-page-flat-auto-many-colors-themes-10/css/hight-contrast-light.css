@@ -1,0 +1,52 @@
+
+:root{
+--bg: #F0F0F0;
+--l: #F5F5F5;
+--l2: #F7F7F7;
+--l3: #FCFCFC;
+--l4: #FFFFFF;
+--d: #333333;
+--d2: #333333;
+--d3: #000;
+--d4: #000;
+
+--c: #595959;
+--cOp: color-mix(in srgb, #595959 50%, transparent);
+--c2: #333333; 
+--c3: #1A1A1A; 
+--c4: #0D0D0D; 
+--brand: #3A5C73;
+--brand2: #273E4D;
+--red: #943328;
+--red2: #B33E30;
+--orange: #D47900;
+--orange2: #EB8600;
+--yellow: #A88100;
+--yellow2: #C29500;
+--green: #29800C;
+--green2: #31990F;
+--blue: #1C88BA;
+--blue2: #23A8E6;
+--indigo: #5B67E2;
+--indigo2: #6370F5;
+--violet: #9E377C;
+--violet2: #B03D8A;
+}
+
+html{ scrollbar-color: var(--d4) var(--l2); }
+::-webkit-scrollbar { background-color: var(--l2); }
+::-webkit-scrollbar-thumb { background-color: var(--d3); }
+
+/* fix */
+.op, .op:hover, .op2, .op2:hover { opacity: 1; }
+placaholder { color: var(--c); }
+
+.submit, input[type="submit"], form button[type="submit"] { background-color: var(--d); color: #fff; }
+.submit:hover, input[type="submit"]:hover, form button[type="submit"]:hover { background: var(--d4); color: #fff; }
+
+.shadow { border: 1px solid #000;  box-shadow: none; }
+
+
+
+
+

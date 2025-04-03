@@ -1,0 +1,858 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<meta charset="UTF-8">
+<title>Irvirty - Home page and projects</title>
+
+<meta name="description" content="Home page with projects: themes, news, typing speed, games, to-do list, images, icons, new tab redirect extension, website templates, etc.">
+<meta name="keywords" content="website, homepage, home, page, personal,
+WebDesign, web, design, project, projects, portfolio, programming, inspiration,
+Geany, Firefox, Chrome, WordPress, theme, themes, extension,
+WebDev, HTML, CSS, JavaScript,
+todo, typing, game, icons, templates, redirect,
+tech, news, technology, search, redirect, microblog, links, images, photos,
+newtab, new, tab, startpage, start, page, main,
+!ignoreme,">
+
+<link rel="alternate" type="application/rss+xml" title="Website RSS" href="/rss.xml">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<meta name="color-scheme" content="light dark">
+<!--<meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">-->
+
+<link rel="icon" sizes="512x512" href="/img/logo.png" type="image/png">
+<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+
+
+<!-- main -->
+<link rel="preload" href="/js/main.js" as="script">
+
+<link rel="preload" href="/css/main.css" as="style">
+<link rel="stylesheet" href="/css/main.css" type="text/css">
+<link rel="preload" href="/css/auto.css" as="style">
+<link rel="stylesheet" type="text/css" href="/css/auto.css" id="theme">
+
+<link rel="preload" href="/css/style.css" as="style">
+<link rel="stylesheet" href="/css/style.css" type="text/css">
+
+<noscript>
+<link rel="stylesheet" type="text/css" href="/css/noscript.css">
+</noscript>
+<!-- // main -->
+
+
+<!--<link rel="manifest" href="manifest.webmanifest">-->
+
+<style>
+#topHeader { position: relative; }
+
+.siteName {
+position: relative;
+text-transform: uppercase;
+transform: rotate(-15deg);
+
+display: inline-block;
+
+background-color: var(--bg);
+border-top: 2px dashed color-mix(in srgb, var(--brand) 50%, transparent);
+padding-top: 2px;
+top: -30px;
+
+width: 100%;
+max-width: 180px;
+}
+
+.siteName, .siteName a { color: var(--cRand2); }
+.siteName:hover, .siteName a:hover { color: var(--cRand); }
+
+.siteName::after {
+content: "Home Page";
+text-transform: none;
+
+font-size: small;
+display: inline-block;
+
+position: absolute;
+background: var(--bg);
+width: 100%;
+height: 50%;
+text-align: center;
+left: 0;
+bottom: 0;
+
+color: var(--cRand);
+}
+
+.siteNameWrapper { margin-bottom: -30px; }
+
+.headerBannerImg img,
+.headerBannerImg svg {
+display: block;
+width: auto;
+max-height: 120px;
+margin: 0 auto;
+margin-bottom: -30px;
+position: relative;
+
+z-index: -2;
+/*border-bottom: 2px dashed var(--cRand2);*/
+}
+
+.headerBannerImg svg,
+.headerBannerImg img {
+opacity: .9;
+}
+
+
+@media(max-width: 200px) {
+.siteName, .siteName::after {
+transform: rotate(0deg);
+}
+}
+
+</style>
+
+</head>
+<body>
+
+
+
+<!-- Navigation HTML v.1.0.1 -->
+<header>
+<div class="wrapper3">
+<div class="margin"></div>
+
+<div id="topNav" class="topNav">
+<nav>
+
+<a class="inlineBlock padding" style="padding-left: 0;" tabindex="0" href="/" title="index / nav 1"><img class="logo2 reduceLight" src="/img/logo.png" alt="logo" style="max-width: 26px;"></a> 
+
+<span id="navMenu" class="navMenu">
+<!-- links in nav -->
+<a class="countMenuItem inlineBlock padding brand itemLinkAni empty" tabindex="0" href="/all/" title="All pages">All</a>
+<a class="countMenuItem inlineBlock padding brand itemLinkAni empty" tabindex="0" href="/pages/" title="Pages">Pages</a>
+<a class="countMenuItem inlineBlock padding brand itemLinkAni empty" tabindex="0" href="/games/" title="Games">Games</a>
+<a class="countMenuItem inlineBlock padding brand itemLinkAni empty" tabindex="0" href="/projects/" title="Projects">Projects</a>
+<a class="countMenuItem inlineBlock padding brand itemLinkAni empty" tabindex="0" href="/mini-projects/" title="Mini Projects">Mini Projects</a>
+<!-- // links in nav -->
+</span>
+
+<div class="dropdownMenuContentWrapper">
+<div class="dropdownMenuContent">
+
+<a id="dropdownMenuButton" class="dropdownMenuButton inlineBlock padding mClassNavUp brand borderBottomTransparent itemLinkAni" tabindex="0" href="#" onclick="fuMDropdownButton();return false;">☰ Menu</a>
+
+<div id="dropdownMenu" class="dropdownMenu">
+<div class="dropdownMenuColumn shadow bg2 padding2 borderRadius2">
+<!-- links for show in dropdown (duplicate) -->
+<a class="countMenuItem inlineBlock padding brand itemLinkAni empty" tabindex="0" href="/all/" title="All pages">All</a>
+<a class="countMenuItem inlineBlock padding brand itemLinkAni empty" tabindex="0" href="/pages/" title="Pages">Pages</a>
+<a class="countMenuItem inlineBlock padding brand itemLinkAni empty" tabindex="0" href="/games/" title="Games">Games</a>
+<a class="countMenuItem inlineBlock padding brand itemLinkAni empty" tabindex="0" href="/projects/" title="Projects">Projects</a>
+<a class="countMenuItem inlineBlock padding brand itemLinkAni empty" tabindex="0" href="/mini-projects/" title="Mini Projects">Mini Projects</a>
+<!-- // links for show in dropdown (duplicate) -->
+</div>
+</div>
+
+</div>
+</div>
+
+<a class="inlineBlock padding mClassNavUp brand borderBottomTransparent itemLinkAni" tabindex="0" href="../" title="../ (Up)">List (up)</a>
+
+<form class="noscriptHide inlineBlock padding" style="padding-right: 0;" method="GET" action="/search/" role="search">
+<!--<label for="siteSearch" class="xSmall op">search:</label>-->
+<input id="siteSearch" class="borderRadius3" type="search" placeholder="site search" name="q" autocomplete="off">
+</form>
+
+</nav>
+</div>
+
+</div>
+</header>
+<!-- // Navigation HTML -->
+
+<!--<hr>-->
+
+
+
+<!-- content -->
+<main class="content">
+
+
+
+<div class="wrapper">
+
+<header id="topHeader" class="block padding1PxList tCenter" style="position: relative;">
+
+<div class="headerBannerImg reduceLight2">
+<img src="/img/header-banner.png" alt="header banner">
+</div>
+
+<a href="/img/logo.png"><img class="logo reduceLight" src="/img/logo.png" width="60" alt="logo"></a>
+
+<div class="padding2List"></div>
+
+<div class="siteNameWrapper">
+<h1 class="zero siteName"><a class="notUnderline" href="/pages/about/" title="About page">Irvirty</a></h1>
+</div>
+<div class="tRight">
+
+<details class="small" style="position: relative; z-index: 5;">
+<summary class="op wrapperSmall3  pointer">
+<span class="xSmall">Site update: <span class="brand" id="last-update"></span></span>
+</summary>
+<span class="wrapperSmall small inlineBlock padding2 pre bg shadow borderRadius2 tLeft">
+Two new projects
+- Tag Cloud (part of the Keep project) 
+- Virtual Travel (list of countries with buttons).
+
+<a class="brand inlineBlock w100 padding2 small tCenter border2 light borderRadius2" href="/pages/updates/" title="Update Log">more</a></span>
+</details>
+
+</div>
+
+<div class="listItem op wrapperSmall3 inlineBlock marginList borderRadius2 tCenter small">
+<div class="xSmall">Status: <span class="small pre"><span class="ico zero medium">🌼</span> Spring.</span></div>
+<!--<div class="xSmall"><a class="inlineBlock padding brand" style="padding-left: 0; padding-right: 0;" href="/pages/web-design-services/">Services</a>: <span class="small pre"><span class="orange">Unavailable</span></span></div>-->
+</div>
+
+<aside>
+<div id="hotLinksTop" class="scrollX tCenter small noscriptHide paddingList notUnderline">
+<span id="urlDayNow"></span>
+
+<a class="brand inlineBlock padding op small" href="/projects/redirects-25/?q=n2" title="News (random)">News</a>
+<a class="brand inlineBlock padding op small" href="/projects/redirects-25/?q=cul" title="Other news (random)">Other</a>
+<a class="brand inlineBlock padding op small" href="/projects/redirects-25/?q=spo" title="Sports news (random)">Sports</a>
+<a class="brand inlineBlock padding op small" href="/projects/redirects-25/?q=sci" title="Science news (random)">Sci</a>
+<a class="brand inlineBlock padding op small" href="/projects/redirects-25/?q=tec" title="Technology news (random)">Tech</a>
+<a class="brand inlineBlock padding op small" href="/projects/redirects-25/?q=dev" title="Development (random)">Dev</a>
+<!--<a class="brand inlineBlock padding op small" href="/projects/redirects-25/?q=rs" title="Radnom site">Rs</a>-->
+
+</div>
+</aside>
+
+<div class="padding1PxList"></div>
+
+</header>
+
+
+
+<script>
+// day link
+var monthsEn = ['', 'January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'];
+//https://en.wikipedia.org/wiki/Template:MONTHABBREV
+var monthsEnShort = ['', 'Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
+var dayEn = ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'];
+
+//https://stackoverflow.com/questions/50922593/function-getutcdate-returns-a-month
+var dateObj = new Date();
+var month = dateObj.getMonth() + 1; //months from 1-12
+var day = dateObj.getDate();
+var year = dateObj.getFullYear();
+
+//https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/getDay
+let d = dateObj.getDay();
+
+//var dayNowTitle = day +' '+ dayEn[d];
+var dayNowTitle = dayEn[d] + ', ' + monthsEnShort[month] + ' ' + day;
+
+var urlDayNow = 'https://en.wikipedia.org/wiki/' + monthsEn[month] + '_' + day + '';
+//document.getElementById('urlDayNow').innerHTML = `<a class="brand inlineBlock padding op small" href="` + urlDayNow + `" title="Wikipedia">` + dayNowTitle + `</a>`;
+document.getElementById('urlDayNow').innerHTML = `<a class="brand inlineBlock padding op small" href="https://wikipedia.org/wiki/" title="Wikipedia">` + dayNowTitle + `</a>`
+</script>
+
+
+<div id="form" class="noscriptHide">
+<form method="GET" style="margin-top: 0px;" action="/projects/redirects-25/index.html" autocomplete="off" role="search">
+
+<label id="search" class="op block tLeft xSmall padding1PxList" for="q"><span class="bold orange">✪</span> Web search (redirect, random, <a class="brand notUnderline" title="WPM - Words per minute" href="/games/typing-speed-14/">WPM: <span id="wpm" class="orange bold">0</span></a>):</label>
+<input id="q" class="borderRadius" aria-labelledby="search" type="search" name="q" autofocus="autofocus" placeholder="" autocomplete="off" spellcheck="true">
+
+<div style="display: grid; grid-template-columns: 1fr 1fr; grid-gap: 2px;">
+<input class="smaller op tCenter submit borderRadius" type="submit" value="Search">
+<!--https://stackoverflow.com/questions/4171664/html-submit-button-different-value-button-text#-->
+<button class="smaller op tCenter submit borderRadius" name="q2" value="l" type="submit">Luck</button>
+<!--<input  class="smaller op tCenter" type="submit" name="q2" value="l">-->
+</div>
+
+</form>
+
+</div>
+
+<div  class="center noscriptHide" style="margin-top: 7px;">
+<div class="wrapper tCenter small"><!--if scrollX horizontal class rm keepTagList)-->
+<div id="hotLinks">
+
+<div class="autoColumn notUnderline">
+<!--<span class="x-small op c" title="Commands:">com: </span>-->
+<!--<a class="autoColumnItem keepTag2 itemHeight light2 border3 borderRadius2 op" href="/?q=w" title="Web search random (text w)">Web</a>-->
+<a class="autoColumnItem keepTag2 itemHeight light2 border3 borderRadius2 op" href="/?q=goo" title="Google search (text goo)">Google</a>
+<a class="autoColumnItem keepTag2 itemHeight light2 border3 borderRadius2 op" href="/?q=bin" title="Bing search (text bin)">Bing</a>
+<a class="autoColumnItem keepTag2 itemHeight light2 border3 borderRadius2 op" href="/?q=o" title="Other random (text o)">Other</a>
+<a class="autoColumnItem keepTag2 itemHeight light2 border3 borderRadius2 op" href="/?q=i" title="Image search random (text i)">Images</a>
+<a class="autoColumnItem keepTag2 itemHeight light2 border3 borderRadius2 op" href="/?q=v" title="Video search random (text v)">Videos</a>
+<a class="autoColumnItem keepTag2 itemHeight light2 border3 borderRadius2 op" href="/?q=n" title="News search random (text n)">News</a>
+<a class="autoColumnItem keepTag2 itemHeight light2 border3 borderRadius2 op" href="/?q=s" title="Social media search random (text s)">Social</a>
+<a class="autoColumnItem keepTag2 itemHeight light2 border3 borderRadius2 op" href="/?q=t" title="Translate random (text t)">Translate</a>
+</div>
+
+</div>
+</div>
+</div>
+
+<!-- hint v.1.1.0 -->
+<div id="hint" title="hint"></div>
+
+<!--<script src="/data/linksJsonVar.js"></script>-->
+<script>
+/*
+let dataHint = [];
+dataHint = dataHint.concat(linksJsonVar);
+if (localStorage.getItem("confSpeedDialData")) {
+let confSpeedDialDataArr33 = JSON.parse(localStorage.getItem("confSpeedDialData"));
+dataHint = dataHint.concat(confSpeedDialDataArr33);
+}
+
+document.getElementById("q").addEventListener('input', function(e) {
+if ((this.value).trim() == ""){
+document.getElementById("hint").innerHTML = ``;
+} else {
+hint(this.value, dataHint);
+}
+});
+
+function hint(q, data){
+
+q = q.trim();
+
+
+
+if (q != ""){
+let qLower = q.toLowerCase();
+let hintResult = "";
+let hintCounter = 0;
+
+for (let i = 0; i < data.length; i++) {
+if (data[i]["tag"] == undefined){ data[i]["tag"] = ""; }
+let hintText = data[i]["text"];
+hintTextLower = hintText.toLowerCase();
+let hintUrl = data[i]["url"];
+hintUrlLower = hintUrl.toLowerCase();
+let hintUrlClean = hintUrl;
+hintUrlClean = hintUrlClean.replace("https://", '');
+hintUrlClean = hintUrlClean.replace("http://", '');
+let hintTag = data[i]["tag"];
+hintTagLower = hintTag.toLowerCase();
+if(hintTextLower.indexOf(qLower) != -1||hintUrlLower.indexOf(qLower) != -1||hintTagLower.indexOf(qLower) != -1){
+hintResult += `
+<a class="brand" href="` + hintUrl + `">` + hintUrlClean + `</a> - ` + hintText + `<br>
+`;
+hintCounter++
+}
+if (hintCounter >= 6){ break; }
+};
+
+
+// hint 2
+if (hintResult == ""){
+for (let i = 0; i < data.length; i++) {
+if (data[i]["tag"] == undefined){ data[i]["tag"] = ""; }
+let hintText = data[i]["text"];
+hintTextLower = hintText.toLowerCase();
+let hintUrl = data[i]["url"];
+hintUrlLower = hintUrl.toLowerCase();
+let hintUrlClean = hintUrl;
+hintUrlClean = hintUrlClean.replace("https://", '');
+hintUrlClean = hintUrlClean.replace("http://", '');
+let hintTag = data[i]["tag"];
+hintTagLower = hintTag.toLowerCase();
+if(fuzzySearch(hintTextLower, qLower) == true||fuzzySearch(hintUrlLower, qLower) == true||fuzzySearch(hintTagLower, qLower) == true){
+hintResult += `
+<a class="brand" href="` + hintUrl + `">` + hintUrlClean + `</a> - ` + hintText + `<br>
+`;
+hintCounter++
+}
+if (hintCounter >= 6){ break; }
+}
+}
+
+
+
+hintResult = fuMSort(hintResult, `
+`, "text");
+if (hintResult != ""&&q != ""){
+document.getElementById("hint").innerHTML = `<div class="padding3 bg2 border borderRadius2 small">` + hintResult + `</div>`;
+} else {
+document.getElementById("hint").innerHTML = ``;
+}
+
+
+}
+}
+
+//https://stackoverflow.com/questions/9206013/javascript-list-js-implement-a-fuzzy-search
+function fuzzySearch(text, q){
+String.prototype.fuzzy = function (s) {
+    var hay = this.toLowerCase(), i = 0, n = -1, l;
+    s = s.toLowerCase();
+    for (; l = s[i++] ;) if (!~(n = hay.indexOf(l, n + 1))) return false;
+    return true;
+};
+
+return (text).fuzzy(q); 
+}
+*/
+</script>
+<!--// hint -->
+
+
+<div class="margin2 padding2"></div>
+
+
+</div>
+
+
+<div class="wrapper">
+
+<span id="speedDialPrint"></span>
+</div>
+<noscript>
+<!-- nav2 -->
+<div class="margin padding"></div>
+<hr>
+<h2 class="op tCenter">Lists:</h2>
+
+<div class="xSmall op block tLeft padding1PxList margin1PxList"><span class="bold green">✪</span> Lists:</div>
+
+<div class="menu small">
+
+<a class=" button light3 border3 borderRadius2 itemHeight2" tabindex="0" href="/all/"><span class="insertIcon firstLetterBold">All</span></a>
+
+<a class=" button light3 border3 borderRadius2 itemHeight2" tabindex="0" href="/pages/"><span class="insertIcon firstLetterBold">Pages</span></a>
+
+<a class=" button light3 border3 borderRadius2 itemHeight2" tabindex="0" href="/games/"><span class="insertIcon firstLetterBold">Games</span></a>
+
+<a class=" button light3 border3 borderRadius2 itemHeight2" tabindex="0" href="/projects/"><span class="insertIcon firstLetterBold">Projects</span></a>
+
+<a class=" button light3 border3 borderRadius2 itemHeight2" tabindex="0" href="/mini-projects/"><span class="insertIcon firstLetterBold">Mini projects</span></a>
+
+<a class=" button light3 border3 borderRadius2 itemHeight2" tabindex="0" href="/old-projects/"><span class="insertIcon firstLetterBold">Old projects</span></a>
+
+<a class=" button light3 border3 borderRadius2 itemHeight2" tabindex="0" href="/other-projects-list/"><span class="insertIcon firstLetterBold">Other projects</span></a>
+
+</div>
+
+<div class="padding2"></div>
+<!-- // nav2 -->
+</noscript>
+<!-- tags -->
+<aside>
+<div class="tCenter">
+
+<div class="bold padding medium">
+<a class="op brand" href="/projects/redirects-25/?q=s" title="Social Networks Explore (random)">Social Networks Explore:</a>
+</div>
+
+<div class="padding"></div>
+
+<div class="wrapper3">
+<div id="printTags" class="balance small notUnderline"></div>
+</div>
+<hr>
+<div class="wrapper">
+<div class="tRight"><span class="op gray">mode:</span>  <span class="notUnderline" id="printMode"></span></div>
+<div id="tagListEditForm"></div>
+</div>
+
+</div>
+</aside>
+<!--// tags -->
+
+
+
+
+</main>
+<!-- // content -->
+
+<div class="wrapper3">
+<footer id="footer"></footer>
+</div>
+
+<script src="/js/main.js"></script>
+<script src="/js/script.js"></script>
+
+
+<script>
+// post time v.1.2.0, local
+//https://stackoverflow.com/questions/13903897/javascript-return-number-of-days-hours-minutes-seconds-between-two-dates
+
+// Time  post date
+function checkTime(i) {
+  if (i < 10) {i = "0" + i};  
+  return i;
+}
+
+
+function fuPostTime(p){
+const  date_future = Date.now();
+const  date_now = new Date(p * 1000);
+
+
+// get total seconds between the times
+var delta = Math.abs(date_future - date_now) / 1000;
+
+var year = Math.floor(delta / 31557600);
+delta -= year * 31557600;
+
+var month = Math.floor(delta / 2629800);
+delta -= month * 2629800;
+
+// calculate (and subtract) whole days
+var days = Math.floor(delta / 86400);
+delta -= days * 86400;
+
+// calculate (and subtract) whole hours
+var hours = Math.floor(delta / 3600) % 24;
+delta -= hours * 3600;
+
+// calculate (and subtract) whole minutes
+var minutes = Math.floor(delta / 60) % 60;
+delta -= minutes * 60;
+
+// what's left is seconds
+var seconds = delta % 60;  // in theory the modulus is not required
+
+if (year > 0){
+time = year + ' year ';
+} else if (month > 0){
+time = month + ' month ';
+} else if (days > 0){
+time = days + ' day ';
+} else if (hours > 0){
+time = hours + ' hour ';
+} else if (minutes > 0) {
+time = minutes + ' minute ';
+} else {
+time = checkTime(Math.floor(seconds))+' second ';
+}
+
+return time + ' ago';
+//document.getElementById("time").innerHTML = '&nbsp;' + time + '&nbsp;';
+}
+</script>
+
+<!--<script src="/js/fuPostTime.js"></script>-->
+<script>
+document.getElementById("last-update").innerHTML = fuPostTime(1743583014);
+</script>
+
+<script>
+// v.1.1.3
+// hot links
+
+if (document.getElementById("q") != null){ 
+var inputA = document.getElementById("q");
+inputA.addEventListener('input', updateValueIn);
+}
+
+if (document.getElementById("q2") != null){ 
+var inputB = document.getElementById("q2");
+inputB.addEventListener('input', updateValueIn);
+}
+
+
+function updateValueIn(e) {
+var text = encodeURIComponent(e.target.value);
+
+var a = `
+
+<div class="autoColumn notUnderline">
+<!--<a class="autoColumnItem keepTag2 itemHeight light2 border3 borderRadius2 op" href="/?q=` + text + ` w" title="Web search random (text w)">Web</a>-->
+<a class="autoColumnItem keepTag2 itemHeight light2 border3 borderRadius2 op" href="/?q=` + text + ` goo" title="Google search (text goo)">Google</a>
+<a class="autoColumnItem keepTag2 itemHeight light2 border3 borderRadius2 op" href="/?q=` + text + ` bin" title="Bing search (text bin)">Bing</a>
+<a class="autoColumnItem keepTag2 itemHeight light2 border3 borderRadius2 op" href="/?q=` + text + ` o" title="Other random (text o)">Other</a>
+<a class="autoColumnItem keepTag2 itemHeight light2 border3 borderRadius2 op" href="/?q=` + text + ` i" title="Image search random (text i)">Images</a>
+<a class="autoColumnItem keepTag2 itemHeight light2 border3 borderRadius2 op" href="/?q=` + text + ` v" title="Video search random (text v)">Videos</a>
+<a class="autoColumnItem keepTag2 itemHeight light2 border3 borderRadius2 op" href="/?q=` + text + ` n" title="News search random (text n)">News</a>
+<a class="autoColumnItem keepTag2 itemHeight light2 border3 borderRadius2 op" href="/?q=` + text + ` s" title="Socail media search random (text s)">Social</a>
+<a class="autoColumnItem keepTag2 itemHeight light2 border3 borderRadius2 op" href="/?q=` + text + ` t" title="Translate random (text t)">Translate</a>
+</div>
+
+`;
+
+document.getElementById("hotLinks").innerHTML = a; 
+
+}
+
+
+// hide top header if mobile
+if (conf["confDevice"] == 'mobile'){
+var getclick2 = document.getElementById('form');
+if (getclick2 != null&&document.getElementById('topHeader') != null){
+document.addEventListener('click', function(event) {
+if (getclick2.contains(event.target)) {
+document.getElementById( 'topHeader' ).style.display = 'none';
+} else {
+document.getElementById( 'topHeader' ).style.display = 'block';
+}
+});
+}
+}
+
+// hot links
+
+</script>
+
+<script>
+
+// WPM v.1.2.0
+if (document.getElementById("q") != null){ 
+var inputA2 = document.getElementById("q");
+inputA2.addEventListener('input', getWpm);
+}
+
+// new core 2
+
+let dateArr = [];
+let dateArrLast = [];
+const wordLengthLimit = 5.1;
+
+function getWpm(e){
+//if (e.target.value == ""){ dateArr = []; } //fixme
+if (dateArrLast[0] == undefined){ dateArrLast[0] =  Date.now(); }
+dateArr.push(((Date.now() - dateArrLast[0]) / 1000).toFixed(3));
+//console.table(wpmTime);
+dateArrLast[0] = Date.now();
+
+var wpm = 0;
+if (dateArr.length >= 2){
+dateArr.forEach(function(item) {
+wpm = Number(wpm) + Number(item);
+});
+
+var wpmAverageSec = wpm / dateArr.length;
+wpm =  (1 * 60 / wpmAverageSec) / wordLengthLimit;
+wpm = Math.round(wpm);
+}
+
+if (document.getElementById("wpm") != null){
+document.getElementById("wpm").innerHTML = wpm;
+}
+
+dateArr = dateArr.slice(-500);
+}
+
+</script>
+
+
+
+<script>
+
+//window.addEventListener('load', function() {});
+
+function tagListCloud(mode){
+
+let tagModePrint = "";
+
+if (mode == undefined||mode == ""){
+mode = localStorage.getItem("tagModeData");
+} else if (mode != "edit"){
+localStorage.setItem("tagModeData", mode);
+}
+
+if (mode == null){ mode = "hashtags"; }
+
+let tagListSortConf = localStorage.getItem("tagListSortConf");
+
+let tagListColor = `red orange yellow green blue indigo violet`;
+
+let tagList = localStorage.getItem("tagListData");
+if (tagList == null||tagList == undefined){
+tagList = `
+Art Photography Writing Blog Games Music Movies Books Travel
+Comics Sports Fashion Fun Nature Poetry Drawing
+Science Education Internet Technology Programming
+`;
+}
+
+let arr = fuMSplit(tagList);
+
+if (tagListSortConf == "sort"){
+arr = fuMSort(arr, "", "arr");
+}
+
+/*let tagList2 = tagList.replaceAll(`
+`, `SYMBOLFORSPLIT
+SYMBOLFORSPLIT`);
+tagList2 = tagList2.replaceAll(',', ',SYMBOLFORSPLIT');
+tagList2 = tagList2.replaceAll(' ', 'SYMBOLFORSPLIT');
+let arr = tagList2.split("SYMBOLFORSPLIT");*/
+
+
+let tagListPrint = "";
+arr.forEach((val, index) => {
+let val2 = val.trim();
+if (val2 != ""){
+val = val.trim();
+//console.log(val + "=" + index);
+let color = fuMRandomItem(tagListColor);
+let printTagUrl = val.toLowerCase();
+
+
+switch (mode) {
+case 'keywords':
+tagListPrint += `<a class="inlineBlock padding op ` + color + `" href="/projects/redirects-25/?q=` + printTagUrl + ` s">` + val + `</a>`;
+break;
+
+case 'news':
+tagListPrint += `<a class="inlineBlock padding op ` + color + `" href="/?q=` + printTagUrl +` n">` + val + `</a>`;
+break;
+
+case 'search':
+tagListPrint += `<a class="inlineBlock padding op ` + color + `" href="/?q=` + printTagUrl +` rse">` + val + `</a>`;
+break;
+
+case 'search2':
+tagListPrint += `<a class="inlineBlock padding op ` + color + `" href="/projects/google-programmable-search-49/?q=` + printTagUrl +`">` + val + `</a>`;
+break;
+
+case 'edit':
+tagListPrint += `<span class="inlineBlock padding">` + val + `</span>`;
+break;
+
+default:
+tagListPrint += `<a class="inlineBlock padding op ` + color + `" href="/projects/redirects-25/?q=` + printTagUrl + ` ht">#` + val + `</a>`;
+
+}
+
+} else {
+//tagListPrint += val;
+}
+});
+
+document.getElementById("printTags").innerHTML = tagListPrint;
+
+modeSwitch(mode, tagList, tagListSortConf);
+
+}
+
+tagListCloud("");
+
+
+function tagListSortConfSet(item){
+localStorage.setItem("tagListSortConf", item);
+tagListCloud("");
+}
+
+
+function modeSwitch(mode, tagList, tagListSortConf){
+
+let tagModePrint = "";
+let tagsModeList = `hashtags keywords news search search2`;
+
+let arr = fuMSplit(tagsModeList);
+let tagListPrint = `<span class="op">mode:</span>`;
+arr.forEach((val, index) => {
+if (mode == val){
+tagModePrint += `
+<a class="inlineBlock padding op active2" href="#" onclick="tagListCloud('` + val +`'); return false;">` + val +`</a>
+`;
+} else {
+tagModePrint += `
+<a class="inlineBlock padding op brand" href="#" onclick="tagListCloud('` + val +`'); return false;">` + val +`</a>
+`;
+}
+});
+
+
+if (tagListSortConf == "sort"){
+tagModePrint += `
+<span class="op gray">/</span>
+<a class="inlineBlock padding op gray" title="Close" href="#" onclick="tagListSortConfSet('unsort'); return false;">unsort</a>
+`;
+} else {
+tagModePrint += `
+<span class="op gray">/</span>
+<a class="inlineBlock padding op brand" href="#" onclick="tagListSortConfSet('sort'); return false;">sort</a>
+`;
+}
+
+if (mode == "edit"){
+tagModePrint += `
+<a class="inlineBlock padding op gray" title="Close" href="#" onclick="closeTagListData(''); return false;">edit</a>
+`;
+} else {
+tagModePrint += `
+<a class="inlineBlock padding op brand" href="#" onclick="tagListCloud('edit'); return false;">edit</a>
+`;
+}
+
+document.getElementById("printMode").innerHTML = tagModePrint;
+
+if (mode == "edit"){
+document.getElementById("tagListEditForm").innerHTML = `
+<form action="" method="get" class="form-example">
+<textarea id="tagListEditData" rows="10">` + tagList + `</textarea>
+<a class="submit block button padding2 op borderRadius2" href="#" onclick="saveTagListData(); return false;">Save</a>
+<div class="tRight"><a class="submit tRight button padding2 op red borderRadius2" href="#" onclick="resetTagListData(); return false;">Reset</a></div>
+  </div>
+</form>
+`;
+}
+
+}
+
+
+
+
+
+
+function saveTagListData(){
+let data = document.getElementById("tagListEditData").value;
+localStorage.setItem("tagListData", data);
+document.getElementById("tagListEditForm").innerHTML = ``;
+tagListCloud("");
+}
+
+function resetTagListData(){
+if (window.confirm("Are you sure?")) {
+localStorage.removeItem("tagListData")
+}
+document.getElementById("tagListEditForm").innerHTML = ``;
+tagListCloud("");
+}
+
+function closeTagListData(){
+document.getElementById("tagListEditForm").innerHTML = ``;
+tagListCloud("");
+}
+
+
+</script>
+
+<script>
+
+// redirect "q" to "redirect" script
+var geturl = window.location;
+var url = new URL(geturl);
+var q = url.searchParams.get("q");
+var url = new URL(geturl);
+let sUrlText = String(url);
+const myArray = sUrlText.split("q=");
+if (q != null&&myArray[0].search("cache") == -1&&url.hostname == location.hostname){
+q = encodeURIComponent(q);
+location.href = "/projects/redirects-25/?q=" + q;
+//location.href = fuMHideFileNameExt("./search.html?q=") + q;
+}
+
+</script>
+
+<!--delme<script src="/js/form.js"></script>-->
+
+
+
+</body>
+</html>
+

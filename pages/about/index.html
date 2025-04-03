@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<meta charset="UTF-8">
+<title>About me</title>
+
+<meta name="description" content="About me, profiles, license, contacts, donate.">
+<meta name="keywords" content="about, contact, donate, profile, support, page, main,">
+
+<link rel="alternate" type="application/rss+xml" title="Website RSS" href="/rss.xml">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<meta name="color-scheme" content="light dark">
+<!--<meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">-->
+
+<link rel="icon" sizes="512x512" href="/img/logo.png" type="image/png">
+<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+
+
+<!-- main -->
+<link rel="preload" href="/js/main.js" as="script">
+
+<link rel="preload" href="/css/main.css" as="style">
+<link rel="stylesheet" href="/css/main.css" type="text/css">
+<link rel="preload" href="/css/auto.css" as="style">
+<link rel="stylesheet" type="text/css" href="/css/auto.css" id="theme">
+
+<link rel="preload" href="/css/style.css" as="style">
+<link rel="stylesheet" href="/css/style.css" type="text/css">
+
+<noscript>
+<link rel="stylesheet" type="text/css" href="/css/noscript.css">
+</noscript>
+<!-- // main -->
+
+
+<style>
+
+/* in progress */
+.lMenu {
+display: flex;
+flex: 1 0 auto;
+flex-wrap: wrap;
+gap: 5px;
+}
+
+.lMenu .button {
+flex: 1 0 auto;
+width: 150px;
+justify-content: start;
+
+}
+
+/*https://stackoverflow.com/questions/11142125/css-highlight-a-div-when-the-id-is-linked-to-using-an-anchor#*/
+
+#about:target,
+#webdesign:target,
+#tools:target,
+#links:target,
+#hosting:target,
+#contact:target,
+#donate:target,
+#counter:target,
+#sites:target,
+#other:target,
+#license:target {
+
+border-bottom: 4px solid var(--orange);
+min-height: 100vh;
+min-height: 100dvh;
+display: flex;
+flex-direction: column;
+justify-content: center;
+}
+
+</style>
+</head>
+<body>
+
+
+
+<!-- Navigation HTML v.1.0.1 -->
+<header>
+<div class="wrapper3">
+<div class="margin"></div>
+
+<div id="topNav" class="topNav">
+<nav>
+
+<a class="inlineBlock padding" style="padding-left: 0;" tabindex="0" href="/" title="index / nav 1"><img class="logo2 reduceLight" src="/img/logo.png" alt="logo" style="max-width: 26px;"></a> 
+
+<span id="navMenu" class="navMenu">
+<!-- links in nav -->
+<a class="countMenuItem inlineBlock padding brand itemLinkAni empty" tabindex="0" href="/all/" title="All pages">All</a>
+<a class="countMenuItem active2 inlineBlock padding itemLinkAniActive empty" tabindex="0" href="/pages/" title="Pages">Pages</a>
+<a class="countMenuItem inlineBlock padding brand itemLinkAni empty" tabindex="0" href="/games/" title="Games">Games</a>
+<a class="countMenuItem inlineBlock padding brand itemLinkAni empty" tabindex="0" href="/projects/" title="Projects">Projects</a>
+<a class="countMenuItem inlineBlock padding brand itemLinkAni empty" tabindex="0" href="/mini-projects/" title="Mini Projects">Mini Projects</a>
+<!-- // links in nav -->
+</span>
+
+<div class="dropdownMenuContentWrapper">
+<div class="dropdownMenuContent">
+
+<a id="dropdownMenuButton" class="dropdownMenuButton inlineBlock padding mClassNavUp brand borderBottomTransparent itemLinkAni" tabindex="0" href="#" onclick="fuMDropdownButton();return false;">☰ Menu</a>
+
+<div id="dropdownMenu" class="dropdownMenu">
+<div class="dropdownMenuColumn shadow bg2 padding2 borderRadius2">
+<!-- links for show in dropdown (duplicate) -->
+<a class="countMenuItem inlineBlock padding brand itemLinkAni empty" tabindex="0" href="/all/" title="All pages">All</a>
+<a class="countMenuItem active2 inlineBlock padding itemLinkAniActive empty" tabindex="0" href="/pages/" title="Pages">Pages</a>
+<a class="countMenuItem inlineBlock padding brand itemLinkAni empty" tabindex="0" href="/games/" title="Games">Games</a>
+<a class="countMenuItem inlineBlock padding brand itemLinkAni empty" tabindex="0" href="/projects/" title="Projects">Projects</a>
+<a class="countMenuItem inlineBlock padding brand itemLinkAni empty" tabindex="0" href="/mini-projects/" title="Mini Projects">Mini Projects</a>
+<!-- // links for show in dropdown (duplicate) -->
+</div>
+</div>
+
+</div>
+</div>
+
+<a class="inlineBlock padding mClassNavUp brand borderBottomTransparent itemLinkAni" tabindex="0" href="../" title="../ (Up)">List (up)</a>
+
+<form class="noscriptHide inlineBlock padding" style="padding-right: 0;" method="GET" action="/search/" role="search">
+<!--<label for="siteSearch" class="xSmall op">search:</label>-->
+<input id="siteSearch" class="borderRadius3" type="search" placeholder="site search" name="q" autocomplete="off">
+</form>
+
+</nav>
+</div>
+
+</div>
+</header>
+<!-- // Navigation HTML -->
+
+<!--<hr>-->
+
+
+
+<!-- content -->
+<main class="content notUnderline">
+
+<!-- About. Inspired by linktr.ee, GitHub -->
+
+<div class="padding2 margin2"></div>
+
+
+
+<div class="shadow bg padding2 wrapper tCenter borderRadius2">
+
+
+
+<div id="about" class="padding3List bg border borderRadius2 marginList">
+<div class="padding2List">
+
+<div class="padding2"></div>
+
+<div><a href="/img/logo.png"><img class="reduceLight logo" src="/img/logo.png" width="60" alt="logo"></a></div>
+
+<h1 class="op inlineBlock margin3List borderBottomBrand insertIconTitle notUnderline"><a href="#about">About me</a></h1>
+<div class="padding3List op">Short info about me</div>
+
+<!-- Info -->
+<div class="listBlock firstLetterBold padding3 tLeft">
+
+<div class="listItem firstLetterBold"><span class="insertIcon">Hello!</span></div>
+<div class="listItem firstLetterBold"><span class="insertIcon">Europe. He/him.</span></div>
+<div class="listItem firstLetterBold"><span class="insertIcon">I like</span> music, movies, and technology.</div>
+<div class="listItem firstLetterBold"><span class="insertIcon">Web design and Web development is my hobby for many years.</span></div>
+<div class="listItem insertIcon firstLetterBold">I'm currently learning JavaScript and English.</div>
+<div class="listItem insertIcon firstLetterBold">Skills and tools: HTML, CSS, PHP, MySQL, JavaScript, and Inkscape.</div>
+
+<div class="listItem insertIcon firstLetterBold">Thanks for reading, have a nice day.</div>
+
+<details>
+<summary class="listItem pointer brand small">Other:</summary>
+<div class="listItem insertIcon firstLetterBold">Website: before publication, some pages and data are generated using PHP and MySQL, but most pages are static with manual editing.</div>
+<div class="listItem insertIcon firstLetterBold">Logotype: oval - inspired by Patreon new logo, before that it was a circle.</div>
+</details>
+
+</div>
+<!-- // Info -->
+
+
+</div>
+</div>
+
+
+
+<div id="links" class="bg border borderRadius2 padding3List marginList">
+<div class="padding2List">
+
+<h2 class="bold margin2"><a class="inlineBlock padding borderBottomBlue op notUnderline" href="#links">Links:</a></h2>
+<div class="padding3List op">Follow and subscribe</div>
+
+<div class="lMenu tCenter padding2 notUnderline">
+
+<a class="insertIcon button brand light2 border borderRadius2" href="https://bsky.app/profile/irvirty.bsky.social"><span class="firstLetterBold">Bluesky</span></a>
+<a class="insertIcon button brand light2 border borderRadius2 firstLetterBold" href="https://dribbble.com/irvirty"><span class="firstLetterBold">Dribbble</span></a>
+<a class="insertIcon button brand light2 border borderRadius2 firstLetterBold" href="https://www.behance.net/irvirty"><span class="firstLetterBold">Behance</span></a>
+<a class="insertIcon button brand light2 border borderRadius2" href="https://codepen.io/irvirty"><span class="firstLetterBold">Codepen</span></a>
+<a class="insertIcon button brand light2 border borderRadius2 firstLetterBold" href="https://github.com/irvirty"><span class="firstLetterBold">Github</span></a>
+
+</div>
+
+
+
+</div>
+</div>
+
+
+
+
+
+
+<div id="donate" class="padding3List bg border borderRadius2 marginList">
+<div class="padding2List">
+
+<h2 class="margin2 bold"><a class="inlineBlock padding borderBottomGreen op notUnderline" href="#donate">Donate:</a></h2>
+<div class="padding3List op">Support or appreciation</div>
+
+<div class="wrapperSmall margin2List">
+<div class="light2 border borderRadius2 tCenter padding2">
+<div class="insertIcon">Bitcoin address:</div>
+<div class="padding"></div>
+<div><a class="block" href="bitcoin:bc1qrgpjr4wn9agy3zdgs836lw60fp0r5smp53qmel"><img class="op borderRadius2 border" src="btc.png" width="120" alt="qr-bitcoin"></a></div>
+<div class="padding"></div>
+<div>bc1qrgpjr4wn9agy3zdgs836lw60fp0r5smp53qmel</div>
+<div class="padding2"></div>
+</div>
+</div>
+
+</div>
+</div>
+
+
+
+<div id="contact" class="padding3List bg border borderRadius2 marginList">
+<div class="padding2List">
+<h2 class="margin2 bold"><a class="inlineBlock padding borderBottomBrand op notUnderline" href="#contact">Contact:</a></h2>
+<div class="padding3List op">One email for everything</div>
+
+<a class="insertIcon button brand" rel="nofollow" href="mailto:wdvrx5qyp@mozmail.com" title="Send Email"><span class="firstLetterBold">wdvrx5qyp@mozmail.com</span></a><br>
+
+</div>
+</div>
+
+
+
+<div id="license" class="padding3List bg border borderRadius2 marginList">
+<div class="padding2List">
+
+<h2 class="margin2 bold"><a class="inlineBlock padding borderBottomYellow op notUnderline" href="#license">License and copyright:</a></h2>
+<div class="padding3List op">Content usage rules</div>
+
+<div class="padding2 tLeft listBlock">
+
+<div class="listItem">Main license: <a class="brand" href="https://creativecommons.org/licenses/by-sa/4.0/"><span class="firstLetterBold">CC BY-SA 4.0</span></a></div>
+
+<div class="listItem">SimpleHomePage theme for WordPress: <a class="brand" href="http://www.gnu.org/licenses/gpl-2.0.html"><span class="firstLetterBold">GNU General Public License v2 or later</span></a></div>
+
+
+<div class="listItem">Geany Themes: <a class="brand" href="https://en.wikipedia.org/wiki/GNU_General_Public_License"><span class="firstLetterBold">GNU General Public License</span></a></div>
+
+<div class="listItem">Chrome Themes: <a class="brand" href="https://www.apache.org/licenses/LICENSE-2.0"><span class="firstLetterBold">Apache 2.0 License</span></a></div>
+
+<div class="listItem">Roboto font: <a class="brand" href="https://www.apache.org/licenses/LICENSE-2.0"><span class="firstLetterBold">Apache License, Version 2.0</span></a></div>
+
+<div class="listItem">Books in /data from The Project Gutenberg: <a class="brand" href="https://gutenberg.org/policy/license.html"><span class="firstLetterBold">The Project Gutenberg License</span></a></div>
+
+<!--<h3>Copyright:</h3>
+<div class="listItem">text <a class="brand" href="#">link</a>.</div>-->
+
+</div>
+
+</div>
+</div>
+
+
+
+<div id="hosting" class="padding3List bg border borderRadius2 marginList">
+<div class="padding2List">
+<h2 class="margin2 bold"><a class="inlineBlock padding borderBottomGray op notUnderline" href="#hosting">Hosting:</a></h2>
+<div class="padding3List op">Thanks for hosting my site</div>
+
+<a class="insertIcon button brand" href="https://github.com/"><span class="firstLetterBold">GitHub</span></a>
+<a class="insertIcon button brand" href="https://pages.cloudflare.com/"><span class="firstLetterBold">Cloudflare Pages</span></a>
+
+</div>
+</div>
+
+
+
+
+
+</div>
+
+<div class="padding2 margin2"></div>
+
+
+
+
+</main>
+<!-- // content -->
+
+<div class="wrapper3">
+<footer id="footer"></footer>
+</div>
+
+<script src="/js/main.js"></script>
+<script src="/js/script.js"></script>
+
+
+
+
+</body>
+</html>
+

@@ -1,0 +1,230 @@
+/* v.2.0.0 */
+/* inspired by IMDB and other */
+
+
+
+:root{
+--moviePosterImgW: 180px;
+--moviePosterImgH: 250px;
+}
+
+
+/***************/
+.movieList {
+display: grid;
+/*grid-template-columns: repeat(auto-fill, var(--moviePosterImgW));*/
+grid-template-columns: repeat(auto-fill, minmax(var(--moviePosterImgW), 1fr));
+grid-gap: 15px;
+margin: 0 auto;
+justify-content: center;
+}
+
+
+
+.movieItem {
+width: 100%;
+max-width: var(--moviePosterImgW);
+min-height: 0px;
+margin: 0 auto;
+border-radius: 5px;
+}
+
+.moviePosterImg {
+border-top-left-radius: 5px;
+border-top-right-radius: 5px;
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+height: var(--moviePosterImgH);
+width: 100%;
+/*background-color: red;*/
+}
+
+.movieTitle {
+min-height: 60px;
+padding: 5px 7px;
+display: flex;
+align-items: center;
+justify-content: center;
+border-top: 1px solid var(--d);
+font-weight: bold;
+align-self: center;
+/*border: 1px solid red;*/
+}
+
+@media(max-width: 200px) {
+.movieList { display: block; }
+.movieItem { margin-bottom: 15px; }
+.moviePosterImg { height: 200px; }
+}
+
+/***************/
+
+.movieId{
+display: grid;
+/*grid-template-columns:  var(--moviePosterImgW) calc(100% - var(--moviePosterImgW) - 15px);*/
+grid-template-columns: var(--moviePosterImgW) calc(100% - var(--moviePosterImgW) - 15px);
+justify-content: center;
+grid-gap: 15px;
+}
+
+.movieIdVideo {
+display: flex;
+align-items: center;
+justify-content: center;
+width: 100%;
+}
+
+.movieIdForShow { display: none; }
+
+@media(max-width: 650px) {
+.movieId { grid-template-columns: 1fr; }
+.movieId .movieItem { max-width: 130px; }
+.movieId .moviePosterItem { max-width: 130px; }
+.movieId .moviePosterImg { height: 200px;}
+.movieIdForHide { display: none; }
+.movieIdForShow, .movieIdForShow .movieItem {
+display: block;
+float: left;
+margin-right: 5px;
+margin-bottom: 5px;
+}
+
+}
+
+
+/***************/
+.movieCastList {
+display: grid;
+grid-template-columns: repeat(auto-fill, 120px);
+text-align: center;
+}
+.movieCastItem {
+display: inline-block;
+align-items: center;
+justify-content: center;
+padding: 5px; 
+}
+
+.movieCastPhoto, .movieCastPhotoName {
+display: inline-block;
+background-size: cover;
+height: 75px;
+width: 75px;
+border-radius: 50%;
+margin-left: auto;
+margin-right: auto;
+border: 1px solid var(--d2);
+}
+
+.movieCastPhotoName {
+margin-left: 0;
+margin-right: 0;
+}
+
+.movieCastTitle {
+padding: 5px;
+font-weight: bold;
+text-align: center;
+}
+
+
+
+
+/***************/
+.moviePagination {
+margin-top: 30px;
+}
+
+
+
+
+
+nav form { width: 100%; max-width: 130px; vertical-align: middle; }
+@media(max-width: 200px) { nav form { margin: 0; margin-top: 5px; } }
+nav input[type=search] { padding: 5px 9px; min-height: 10px; }
+
+
+
+
+
+
+#dropdownMenuButton { cursor: pointer; background: transparent; border: none; }
+.dropdownMenuWrapper { position: relative; }
+.dropdownMenuContent {
+z-index: 2;
+box-sizing: border-box;
+width: calc(100% - (2 * var(--bodyP)));
+max-width: var(--wrapper2);
+margin: 0 auto;
+display: none;
+position: absolute;
+left: 0;
+right: 0;
+text-align: center;
+/*max-width: 500px;*/
+}
+
+.dropdownMenuContent a{
+display: inline-block;
+text-align: left;
+padding-bottom: 5px;
+}
+.dropdownMenuContentColumn {
+display: grid;
+grid-template-columns: repeat(auto-fill, minmax(130px, 1fr));
+text-align: left;
+}
+
+.dropdownMenuContentColumn br { content: ''; display: none; }
+@media(max-width: 150px){
+.dropdownMenuContentColumn {
+grid-template-columns: repeat(auto-fill, minmax(100%, 1fr));
+}
+}
+
+#dropdownMenuCSS { display: inline-block; }
+
+
+
+/* for codepen */
+/*
+:root{
+--bodyP: 5vw;
+}
+a { text-decoration:none; }
+nav { display: block; text-align: center; }
+body{
+background: radial-gradient(
+circle,
+#f7f7f7 30%,
+silver 100%
+);
+overflow-wrap: break-word;
+box-sizing: border-box;
+padding: 0 var(--bodyP);
+}
+.shadow { box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24); }
+.bg2 { background: white; }
+.padding { padding: 9px; }
+*/
+
+nav a, nav button, .logo2 { vertical-align: middle; display: inline-block; }
+
+@media (prefers-color-scheme: light) {
+body{
+background-image: url("/img/tpl/bg.svg");
+background-repeat: repeat;
+background-attachment: fixed;
+}
+}
+
+@media (prefers-color-scheme: dark) {
+body{
+background-image: url("/img/tpl/bg-dark.svg");
+background-repeat: repeat;
+background-attachment: fixed;
+}
+}
+
+

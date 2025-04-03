@@ -1,0 +1,43 @@
+/* v.2.1.0 */
+
+
+.profilePhoto {
+margin: 20px auto;
+}
+
+.profilePhoto img {
+width: 140px;
+padding: 5px;
+border-radius: 50%;
+}
+
+/*@media(max-width: 512px) { .profilePhoto { background-size: cover; } }*/
+
+.profileFooter {
+text-align: left;
+padding: 10px;
+margin-bottom: 10vh;
+border-radius: 25px;
+}
+.profileFooter span { display: inline-block; padding: 7px; }
+
+
+@media (prefers-color-scheme: light) {
+body{
+background-image: url("/img/tpl/bg.svg");
+background-repeat: repeat;
+background-attachment: fixed;
+}
+}
+
+@media (prefers-color-scheme: dark) {
+body{
+background-image: url("/img/tpl/bg-dark.svg");
+background-repeat: repeat;
+background-attachment: fixed;
+}
+}
+
+
+
+

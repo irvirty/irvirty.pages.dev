@@ -1,0 +1,39 @@
+
+:root{
+--bg: #5E2727;
+--l: #663C3C;
+--l2: #6B3F3F;
+--l3: #734343;
+--l4: #874D4D;
+--d: #572323;
+--d2: #4F1D1D;
+--d3: #401D1D;
+--d4: #1F0000;
+
+--c: #CCCCCC;
+--c2: #EDEDED; 
+--c3: #F2F2F2; 
+--c4: #FFFFFF; 
+--cR: #2B2B2B;
+--c2R: #121212;
+--c3R: #0A0A0A;
+--c4R: #000;
+--red: #FFB399;
+--red2: #FFC6B3;
+--orange: #FFD68C;
+--orange2: #FFDFA6;
+--yellow: #E6DAA1;
+--yellow2: #F2E8B6;
+--green: #9BD982;
+--green2: #A4E689;
+--blue: #91DDFF;
+--blue2: #CAEEFF;
+--indigo: #A9B0F2;
+--indigo2: #CCD0FF;
+--violet: #E2ACE6;
+--violet2: #F1CDF2;
+}
+
+html{ scrollbar-color: var(--l4) var(--d2); }
+::-webkit-scrollbar { background-color: var(--d2); }
+::-webkit-scrollbar-thumb { background-color: var(--l3); }

@@ -1,0 +1,9 @@
+<svg width="512" height="512" version="1.1" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+ <defs>
+  <clipPath id="clipPath12689">
+   <path d="m174.43 393.46v-275.01l233.77 124z" display="none" fill="#a40000" stroke="#000" stroke-width=".93405px"/>
+   <path class="powerclip" d="m28.926 28.926h454.15v454.15h-454.15zm145.5 364.54 233.77-151-233.77-124z" fill="#a40000" stroke="#000" stroke-width=".93405px"/>
+  </clipPath>
+ </defs>
+ <path x="33.926376" y="33.926376" width="444.14725" height="444.14725" d="m33.926 33.926h444.15v444.15h-444.15z" clip-path="url(#clipPath12689)"/>
+</svg>

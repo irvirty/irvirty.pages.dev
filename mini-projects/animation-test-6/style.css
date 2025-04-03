@@ -1,0 +1,45 @@
+/* v.1.0.1 */
+
+@keyframes ani { from { transform: rotate(0deg); } to { transform: rotate(-360deg); } }
+@keyframes ani2 { from { transform: rotate(0deg); } to { transform: rotate(360deg); } }
+
+.ani {
+display: grid;
+position: relative;
+width: 25vw;
+height: 25vw;
+max-width: 25vh;
+max-height: 25vh;
+justify-items: center;
+align-items: center;
+margin: 0 auto;
+
+animation: ani2 10s linear infinite;
+}
+
+.aniE {
+width: 100%;
+height: 100%;
+border: 1px solid var(--d3);
+background: var(--yellow);
+opacity: 0.15;
+border-radius: 25%;
+}
+
+.aniA, .aniB, .aniC, .aniD {
+position: absolute;
+width: 30%;
+height: 30%;
+
+border-radius:25%;
+animation: ani 5s linear infinite;
+}
+
+.aniA { background: var(--violet); top: 12%; left: 12%; }
+.aniB { background: var(--orange); top: 12%; right: 12%; }
+.aniC { background: var(--blue); bottom: 12%; left: 12%; }
+.aniD { background: var(--green); bottom: 12%; right: 12%; }
+
+
+
+

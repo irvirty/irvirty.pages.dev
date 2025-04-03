@@ -1,0 +1,25 @@
+<svg width="512" height="512" version="1.1" viewBox="0 0 135.47 135.47" xmlns="http://www.w3.org/2000/svg">
+ <defs>
+  <clipPath id="clipPath8901">
+   <path class="powerclip" d="m-5-5h87.906v38.147h-87.906zm16.866 10.795v3.1828h60.68v3.975h-60.68v3.1828h60.68v4.0396h-60.68v3.1828h66.04v-3.1828h-0.06821v-4.0396h0.06821v-3.1828h-0.06821v-3.975h0.06821v-3.1828z" fill="#ef2929"/>
+  </clipPath>
+  <clipPath id="clipath_lpe_path-effect8905-5">
+   <path class="powerclip" d="m-5-5h87.906v38.147h-87.906zm16.866 10.795v3.1828h60.68v3.975h-60.68v3.1828h60.68v4.0396h-60.68v3.1828h66.04v-3.1828h-0.06821v-4.0396h0.06821v-3.1828h-0.06821v-3.975h0.06821v-3.1828z" fill="#ef2929"/>
+  </clipPath>
+  <clipPath id="clipath_lpe_path-effect8905-5-9">
+   <path class="powerclip" d="m-5-5h87.906v38.147h-87.906zm16.866 10.795v3.1828h60.68v3.975h-60.68v3.1828h60.68v4.0396h-60.68v3.1828h66.04v-3.1828h-0.06821v-4.0396h0.06821v-3.1828h-0.06821v-3.975h0.06821v-3.1828z" fill="#ef2929"/>
+  </clipPath>
+ </defs>
+ <g transform="translate(-9.2513 -11.996)" fill="#555753">
+  <path transform="translate(25.988 65.657)" d="m0 0h77.906v28.147h-77.906z" clip-path="url(#clipath_lpe_path-effect8905-5)"/>
+  <rect x="98.603" y="65.657" width="5.2918" height="27.076"/>
+ </g>
+ <g transform="translate(-9.3584 -11.996)" fill="#2e3436">
+  <path transform="translate(41.381 93.804)" d="m0 0h77.906v28.147h-77.906z" clip-path="url(#clipath_lpe_path-effect8905-5-9)"/>
+  <rect x="114" y="93.804" width="5.2918" height="27.076"/>
+ </g>
+ <g transform="translate(-.4632 -11.996)" fill="#2e3436">
+  <path transform="translate(41.29 37.51)" d="m0 0h77.906v28.147h-77.906z" clip-path="url(#clipPath8901)"/>
+  <rect x="113.82" y="37.51" width="5.2918" height="27.076"/>
+ </g>
+</svg>

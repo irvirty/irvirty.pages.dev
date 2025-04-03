@@ -1,0 +1,18 @@
+/* v.1.1.0 */
+/* comment */
+
+
+#block33{
+border: 1px solid var(--d);
+padding: 10px 10px;
+}
+
+.colorBgImageLocal {
+background-image: url("/img/transparent.svg");
+background-repeat: repeat;
+background-size: 30px 30px;
+}
+
+input[type="color"] {
+min-width: 100%;
+}

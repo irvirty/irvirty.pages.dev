@@ -1,0 +1,17 @@
+<svg width="512" height="512" version="1.1" viewBox="0 0 135.47 135.47" xmlns="http://www.w3.org/2000/svg">
+ <rect x="6.2555" y="102.73" width="122.96" height="7.9377" stroke-width="4.3105"/>
+ <rect x="6.2555" y="24.804" width="122.96" height="7.9377" stroke-width="4.3105"/>
+ <rect x="6.2555" y="24.804" width="7.9377" height="85.862" stroke-width="3.5095"/>
+ <rect x="121.28" y="24.804" width="7.9377" height="85.862" stroke-width="3.5095"/>
+ <g stroke-width=".36173">
+  <rect x="69.303" y="43.984" width="41.743" height="4.1296"/>
+  <rect x="69.303" y="68.761" width="41.743" height="4.1296"/>
+  <rect x="69.303" y="60.189" width="41.743" height="4.1296"/>
+ </g>
+ <rect x="60.557" y="82.878" width="50.748" height="3.4975" stroke-width=".36705"/>
+ <rect x="54.23" y="89.873" width="57.075" height="3.4975" stroke-width=".38926"/>
+ <rect x="69.303" y="52.236" width="41.743" height="4.1296" stroke-width=".36173"/>
+ <rect x="21.819" y="82.878" width="43.449" height="3.4975" stroke-width=".33963"/>
+ <rect x="21.53" y="89.867" width="43.738" height="3.4975" stroke-width=".34076"/>
+ <rect x="22.567" y="44.064" width="35.125" height="29.012" stroke-width="4.8076"/>
+</svg>

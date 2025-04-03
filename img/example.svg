@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="1600"
+   height="900"
+   viewBox="0 0 423.33332 238.125"
+   version="1.1"
+   id="svg5"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs2">
+    <rect
+       x="605.86"
+       y="258.66795"
+       width="461.51181"
+       height="175.43437"
+       id="rect529" />
+  </defs>
+  <g
+     id="layer1">
+    <rect
+       style="fill:#d3d7cf;stroke-width:1.32292"
+       id="rect111"
+       width="423.33334"
+       height="238.125"
+       x="0"
+       y="0" />
+    <circle
+       style="fill:#729fcf;stroke-width:1.32292"
+       id="path331"
+       cx="89.478897"
+       cy="76.769714"
+       r="51.65097" />
+    <circle
+       style="fill:#3465a4;stroke-width:1.32292"
+       id="path333"
+       cx="334.53391"
+       cy="91.167732"
+       r="52.481411" />
+    <circle
+       style="fill:#204a87;stroke-width:1.32292"
+       id="path335"
+       cx="161.34337"
+       cy="193.75273"
+       r="27.311415" />
+    <text
+       xml:space="preserve"
+       transform="matrix(0.26458333,0,0,0.26458333,5.3226998,44.069067)"
+       id="text527"
+       style="font-size:24px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect529)"><tspan
+         x="605.85938"
+         y="302.34198"
+         id="tspan687"><tspan
+   style="font-weight:bold;font-size:48px;-inkscape-font-specification:'sans-serif Bold'"
+   id="tspan685">Example png</tspan>
+</tspan></text>
+  </g>
+</svg>

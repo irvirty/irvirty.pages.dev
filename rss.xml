@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="/css/rss.css"?>
+
+<rss version="2.0">
+<channel>
+
+<title>Irvirty RSS</title>
+<link>https://irvirty.pages.dev</link>
+<description>Short news on various topics.</description>
+
+<image class="logo">
+<url>https://irvirty.pages.dev/img/logo.png</url>
+<title>Irvirty RSS</title>
+<link>https://irvirty.pages.dev</link>
+<width>32</width>
+<height>32</height>
+</image>
+
+<item>
+<pubDate>Thu, 03 Apr 25 11:36:26 +0300</pubDate>
+<title><![CDATA[Firefox: "Tabs moved to the side. Screen space reclaimed. The new Firefox sidebar helps you focus, stay organized, and keep the stuff you actually use close by (all thanks to you 🔥) mzl.la/3FOgtFj" — Bluesky 
+ ]]></title>
+<link><![CDATA[https://bsky.app/profile/firefox.com/post/3llu6owvhfc2b]]></link>
+<description>
+<![CDATA[
+Firefox: "Tabs moved to the side. Screen space reclaimed. The new Firefox sidebar helps you focus, stay organized, and keep the stuff you actually use close by (all thanks to you 🔥) mzl.la/3FOgtFj" — Bluesky 
+https://bsky.app/profile/firefox.com/post/3llu6owvhfc2b
+]]>
+</description>
+</item>
+
+<item>
+<pubDate>Sat, 29 Mar 25 15:07:07 +0200</pubDate>
+<title><![CDATA[GIMP 3.0 Released - GIMP 
+ ]]></title>
+<link><![CDATA[https://www.gimp.org/news/2025/03/16/gimp-3-0-released/]]></link>
+<description>
+<![CDATA[
+GIMP 3.0 Released - GIMP 
+https://www.gimp.org/news/2025/03/16/gimp-3-0-released/
+]]>
+</description>
+</item>
+
+<item>
+<pubDate>Tue, 11 Feb 25 02:44:54 +0200</pubDate>
+<title><![CDATA[Neocities: "One million sites 🎉" — Bluesky 
+ ]]></title>
+<link><![CDATA[https://bsky.app/profile/neocities.org/post/3lhu7xapg3s2x]]></link>
+<description>
+<![CDATA[
+Neocities: "One million sites 🎉" — Bluesky 
+https://bsky.app/profile/neocities.org/post/3lhu7xapg3s2x
+]]>
+</description>
+</item>
+
+<item>
+<pubDate>Tue, 04 Feb 25 17:44:10 +0200</pubDate>
+<title><![CDATA[Bluesky: "30M users 1B posts 🤝 bluesky milestone achieved this week" — Bluesky 
+ ]]></title>
+<link><![CDATA[https://bsky.app/profile/bsky.app/post/3lh5iyaqqos24]]></link>
+<description>
+<![CDATA[
+Bluesky: "30M users 1B posts 🤝 bluesky milestone achieved this week" — Bluesky 
+https://bsky.app/profile/bsky.app/post/3lh5iyaqqos24
+]]>
+</description>
+</item>
+
+<item>
+<pubDate>Thu, 30 Jan 25 01:11:11 +0200</pubDate>
+<title><![CDATA[Bluesky: "this is how it feels to reach 30 MILLION users!!!" — Bluesky 
+ ]]></title>
+<link><![CDATA[https://bsky.app/profile/bsky.app/post/3lgu4lg6j2k2v]]></link>
+<description>
+<![CDATA[
+Bluesky: "this is how it feels to reach 30 MILLION users!!!" — Bluesky 
+https://bsky.app/profile/bsky.app/post/3lgu4lg6j2k2v
+]]>
+</description>
+</item>
+
+<item>
+<pubDate>Thu, 09 Jan 25 22:34:31 +0200</pubDate>
+<title><![CDATA[Firefox 134.0, See All New Features, Updates and Fixes 
+ ]]></title>
+<link><![CDATA[https://www.mozilla.org/en-US/firefox/134.0/releasenotes/]]></link>
+<description>
+<![CDATA[
+Firefox 134.0, See All New Features, Updates and Fixes 
+https://www.mozilla.org/en-US/firefox/134.0/releasenotes/
+]]>
+</description>
+</item>
+
+<item>
+<pubDate>Sun, 29 Dec 24 23:49:19 +0200</pubDate>
+<title><![CDATA[Bluesky: "Merry Christmas from us to you 🎄🎁💙 We launched Trending Topics today, and you can find it by tapping the search icon on the bottom bar of the app or the right sidebar on desktop." — Bluesky 
+ ]]></title>
+<link><![CDATA[https://bsky.app/profile/bsky.app/post/3le6bze3nus2c]]></link>
+<description>
+<![CDATA[
+Bluesky: "Merry Christmas from us to you 🎄🎁💙 We launched Trending Topics today, and you can find it by tapping the search icon on the bottom bar of the app or the right sidebar on desktop." — Bluesky 
+https://bsky.app/profile/bsky.app/post/3le6bze3nus2c
+]]>
+</description>
+</item>
+
+<item>
+<pubDate>Sun, 29 Dec 24 23:48:45 +0200</pubDate>
+<title><![CDATA[An AI system has reached human level on a test for ‘general intelligence’. Here’s what that means 
+ ]]></title>
+<link><![CDATA[https://theconversation.com/an-ai-system-has-reached-human-level-on-a-test-for-general-intelligence-heres-what-that-means-246529]]></link>
+<description>
+<![CDATA[
+An AI system has reached human level on a test for ‘general intelligence’. Here’s what that means 
+https://theconversation.com/an-ai-system-has-reached-human-level-on-a-test-for-general-intelligence-heres-what-that-means-246529
+]]>
+</description>
+</item>
+
+<item>
+<pubDate>Fri, 20 Dec 24 10:04:52 +0200</pubDate>
+<title><![CDATA[Action Intent Links | Bluesky 
+===
+(Bluesky share button) ]]></title>
+<link><![CDATA[https://docs.bsky.app/docs/advanced-guides/intent-links]]></link>
+<description>
+<![CDATA[
+Action Intent Links | Bluesky 
+===
+(Bluesky share button)https://docs.bsky.app/docs/advanced-guides/intent-links
+]]>
+</description>
+</item>
+
+<item>
+<pubDate>Fri, 20 Dec 24 09:57:16 +0200</pubDate>
+<title><![CDATA[Google — Year in Search 2024 - YouTube 
+ ]]></title>
+<link><![CDATA[https://www.youtube.com/watch?v=61JHONRXhjs]]></link>
+<description>
+<![CDATA[
+Google — Year in Search 2024 - YouTube 
+https://www.youtube.com/watch?v=61JHONRXhjs
+]]>
+</description>
+</item>
+
+
+</channel>
+</rss>

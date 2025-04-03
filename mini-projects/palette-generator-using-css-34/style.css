@@ -1,0 +1,38 @@
+/* v.1.1.0 */
+/* comment */
+
+:root {
+--myBG: RebeccaPurple;
+}
+
+.myBg { background: var(--myBG); }
+
+.myBgLight { background: color-mix(in srgb, white 20%, var(--myBG)); }
+.myBgLight2 { background: color-mix(in srgb, white 40%, var(--myBG)); }
+.myBgLight3 { background: color-mix(in srgb, white 80%, var(--myBG)); }
+
+.myBgDark { background: color-mix(in srgb, black 20%, var(--myBG)); }
+.myBgDark2 { background: color-mix(in srgb, black 40%, var(--myBG)); }
+.myBgDark3 { background: color-mix(in srgb, black 80%, var(--myBG)); }
+
+
+.lItem {
+display: block;
+flex: 1 0 auto;
+justify-content: center;
+align-items: center;
+/*align-self: stretch;*/
+
+width: auto;
+width: .5fr;
+max-width: 100%;
+min-width: auto;
+gap: 0;
+}
+
+.lFlexBlock {
+display: flex;
+flex: 1 0 auto;
+flex-wrap: wrap;
+gap: 10px;
+}
