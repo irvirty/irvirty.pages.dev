@@ -51,6 +51,8 @@ HTML, CSS, JavaScript, projects, menu, list, pages, main, !ignoreme
 <div id="topNav" class="topNav">
 <nav>
 
+<!-- /* Skip navigation: .screenReader (in main.css) + id="content" */ -->
+<a class="screenReader inlineBlock padding brand" tabindex="0" href="#content">Skip navigation</a>
 <a class="inlineBlock padding" style="padding-left: 0;" tabindex="0" href="/" title="index / nav 1"><img class="logo2 reduceLight" src="/img/logo.png" alt="logo" style="max-width: 26px;"></a> 
 
 <span id="navMenu" class="navMenu">
@@ -102,7 +104,7 @@ HTML, CSS, JavaScript, projects, menu, list, pages, main, !ignoreme
 
 
 <!-- content -->
-<main class="content">
+<main id="content" class="content">
 
 <h1 class="tCenter op padding2List"><span class="insertIconTitle">Pages</span></h1>
 

@@ -89,6 +89,8 @@ justify-content: center;
 <div id="topNav" class="topNav">
 <nav>
 
+<!-- /* Skip navigation: .screenReader (in main.css) + id="content" */ -->
+<a class="screenReader inlineBlock padding brand" tabindex="0" href="#content">Skip navigation</a>
 <a class="inlineBlock padding" style="padding-left: 0;" tabindex="0" href="/" title="index / nav 1"><img class="logo2 reduceLight" src="/img/logo.png" alt="logo" style="max-width: 26px;"></a> 
 
 <span id="navMenu" class="navMenu">
@@ -140,7 +142,7 @@ justify-content: center;
 
 
 <!-- content -->
-<main class="content notUnderline">
+<main id="content" class="content notUnderline">
 
 <!-- About. Inspired by linktr.ee, GitHub -->
 

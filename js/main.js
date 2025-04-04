@@ -229,6 +229,8 @@ document.getElementById("secondNav").innerHTML = `
 <div id="topNav" class="topNav">
 <nav>
 
+<!-- /* .screenReader in main.css */ -->
+<a class="screenReader inlineBlock padding brand" tabindex="0" href="#content">Skip navigation</a>
 <a class="inlineBlock padding" style="padding-left: 0;" tabindex="0" href="/" title="index / nav 2 (main.js)"><img class="logo2 reduceLight" src="/img/logo.png" alt="logo" style="max-width: 26px;"></a> 
 
 <span id="navMenu" class="navMenu">

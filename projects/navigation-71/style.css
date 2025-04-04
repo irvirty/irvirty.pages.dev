@@ -84,6 +84,9 @@ list-style-type: none;
 .topNav nav a {
 padding: var(--padding);
 }
+
+/* .screenReader in main.css */
+
 /* end Navigation CSS */
 
 

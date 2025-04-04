@@ -1,4 +1,4 @@
-/* Main.css style v.23.7.0
+/* Main.css style v.23.7.1
 /* main.css + theme (auto.css) */
 /* The style is mostly based on classes */
 
@@ -95,7 +95,7 @@ justify-content: center;
 /*height: 100vh;*/
 }
 
-header, footer, nav, .keepPostFooter { flex-shrink: 0; } /*delme width: 100%;*/
+header, footer, nav, .keepPostFooter { flex-shrink: 0; }
 
 .h1 { font-size: 1.40em; }
 .h2 { font-size: 1.35em; }
@@ -705,6 +705,35 @@ display: none;
 }
 
 
+/*https://make.wordpress.org/accessibility/handbook/markup/the-css-class-screen-reader-text/#*/
+/* Text meant only for screen readers. */
+.screenReader, .screen-reader-text {
+border: 0;
+clip-path: inset(50%);
+height: 1px;
+margin: -1px;
+overflow: hidden;
+padding: 0;
+position: absolute;
+width: 1px;
+word-wrap: normal !important;
+}
+
+.screenReader:focus, .screen-reader-text:focus {
+background-color: #eee;
+clip-path: none;
+color: #000;
+display: block;
+font-size: 1em;
+height: auto;
+left: 5px;
+line-height: normal;
+padding: 15px 23px 14px;
+text-decoration: none;
+top: 5px;
+width: auto;
+z-index: 100000; /* Above WP toolbar. */
+}
 
 /* Fix */
 /*https://forum.freecodecamp.org/t/before-after-box-sizing-border-box/425735#*/

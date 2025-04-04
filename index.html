@@ -127,6 +127,8 @@ transform: rotate(0deg);
 <div id="topNav" class="topNav">
 <nav>
 
+<!-- /* Skip navigation: .screenReader (in main.css) + id="content" */ -->
+<a class="screenReader inlineBlock padding brand" tabindex="0" href="#content">Skip navigation</a>
 <a class="inlineBlock padding" style="padding-left: 0;" tabindex="0" href="/" title="index / nav 1"><img class="logo2 reduceLight" src="/img/logo.png" alt="logo" style="max-width: 26px;"></a> 
 
 <span id="navMenu" class="navMenu">
@@ -178,7 +180,7 @@ transform: rotate(0deg);
 
 
 <!-- content -->
-<main class="content">
+<main id="content" class="content">
 
 
 
@@ -296,6 +298,7 @@ document.getElementById('urlDayNow').innerHTML = `<a class="brand inlineBlock pa
 <a class="autoColumnItem keepTag2 itemHeight light2 border3 borderRadius2 op" href="/?q=n" title="News search random (text n)">News</a>
 <a class="autoColumnItem keepTag2 itemHeight light2 border3 borderRadius2 op" href="/?q=s" title="Social media search random (text s)">Social</a>
 <a class="autoColumnItem keepTag2 itemHeight light2 border3 borderRadius2 op" href="/?q=t" title="Translate random (text t)">Translate</a>
+<a class="autoColumnItem keepTag2 itemHeight light2 border3 borderRadius2 op" href="/?q=qs" title="Site search (text qs)">Site</a>
 </div>
 
 </div>
@@ -578,6 +581,7 @@ var a = `
 <a class="autoColumnItem keepTag2 itemHeight light2 border3 borderRadius2 op" href="/?q=` + text + ` n" title="News search random (text n)">News</a>
 <a class="autoColumnItem keepTag2 itemHeight light2 border3 borderRadius2 op" href="/?q=` + text + ` s" title="Socail media search random (text s)">Social</a>
 <a class="autoColumnItem keepTag2 itemHeight light2 border3 borderRadius2 op" href="/?q=` + text + ` t" title="Translate random (text t)">Translate</a>
+<a class="autoColumnItem keepTag2 itemHeight light2 border3 borderRadius2 op" href="/?q=` + text + ` qs" title="Site search (text qs)">Site</a>
 </div>
 
 `;
