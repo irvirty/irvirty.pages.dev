@@ -34,6 +34,7 @@ Geany Themes: GNU General Public License
 Chrome Themes: Apache 2.0 License
 Roboto font: Apache License, Version 2.0
 Books in /data from The Project Gutenberg: The Project Gutenberg License
+.screenReader class in main.css: https://wordpress.org/ License: GPLv2 (or later)
 ```
 
 ---

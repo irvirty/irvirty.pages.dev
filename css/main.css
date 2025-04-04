@@ -708,6 +708,7 @@ display: none;
 
 /*https://make.wordpress.org/accessibility/handbook/markup/the-css-class-screen-reader-text/#*/
 /* Text meant only for screen readers. */
+/* License: GPLv2 (or later) https://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html#*/
 .screenReader, .screen-reader-text {
 border: 0;
 clip-path: inset(50%);
