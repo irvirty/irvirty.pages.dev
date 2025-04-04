@@ -136,7 +136,9 @@
 </form>
 </div>
 
-<div id="modeList" class="notUnderline"></div><hr>
+<div class="margin"></div>
+
+<div id="modeList" class="notUnderline autoColumn"></div><hr>
 
 </div>
 
@@ -218,14 +220,12 @@ lPrint = "";
 lModeListArr.forEach((val, index) => {
 //console.log(val + "=" + index);
 if (mode55 == val){
-lPrint += `<a class="op tag border light2 borderRadius2 active2 borderBottomGray" href="?q=` + q55PrintURl + `&dmode=` + val + `">`+ val + `</a> `;
+lPrint += `<a class="op autoColumnItem keepTag2 border light2 borderRadius2 active2 borderBottomBrand" href="?q=` + q55PrintURl + `&dmode=` + val + `">`+ val + `</a> `;
 } else {
-lPrint += `<a class="op tag border light2 borderRadius2" href="?q=` + q55PrintURl + `&dmode=` + val + `">`+ val + `</a> `;
+lPrint += `<a class="op autoColumnItem keepTag2 border light2 borderRadius2" href="?q=` + q55PrintURl + `&dmode=` + val + `">`+ val + `</a> `;
 }
 });
-document.getElementById("modeList").innerHTML = `
-<div class="tagList2 hotLinks">` + lPrint + `</div>
-`;
+document.getElementById("modeList").innerHTML = lPrint;
 
 
 
@@ -240,14 +240,12 @@ lPrint = "";
 lModeListArr.forEach((val, index) => {
 //console.log(val + "=" + index);
 if (mode55 == val){
-lPrint += `<a class="op tag border light2 borderRadius2 active2 borderBottomGray" href="?q=` + q55PrintURl + `&dmode=` + val + `">`+ val + `</a> `;
+lPrint += `<a class="op autoColumnItem keepTag2 border light2 borderRadius2 borderBottomBrand" href="?q=` + q55PrintURl + `&dmode=` + val + `">`+ val + `</a> `;
 } else {
-lPrint += `<a class="op tag border light2 borderRadius2" href="?q=` + q55PrintURl + `&dmode=` + val + `">`+ val + `</a> `;
+lPrint += `<a class="op autoColumnItem keepTag2 border light2 borderRadius2" href="?q=` + q55PrintURl + `&dmode=` + val + `">`+ val + `</a> `;
 }
 });
-document.getElementById("modeList").innerHTML = `
-<div class="tCenter">` + lPrint + `</div>
-`;
+document.getElementById("modeList").innerHTML = lPrint;
 
 }
 
