@@ -7367,7 +7367,7 @@
     {
         "text": "\u043d\u043e\u043a\u0430\u0443\u0442",
         "text2": "knockout",
-        "text3": "knockear"
+        "text3": "nocaut"
     },
     {
         "text": "\u043d\u043e\u043c\u0435\u0440",
@@ -8052,7 +8052,7 @@
     {
         "text": "\u043f\u0430\u0440\u043e\u043c",
         "text2": "ferry",
-        "text3": "ferry"
+        "text3": "transbordador"
     },
     {
         "text": "\u043f\u0430\u0440\u0441\u0435\u0440",
@@ -9922,7 +9922,7 @@
     {
         "text": "\u043f\u0456\u0432\u0434\u0435\u043d\u044c",
         "text2": "south",
-        "text3": "tarde"
+        "text3": "sur"
     },
     {
         "text": "\u043f\u0456\u0432\u043d\u0456\u0447",
@@ -13071,8 +13071,8 @@
     },
     {
         "text": "\u0443\u0434\u0430\u0440",
-        "text2": "hit",
-        "text3": "huelga"
+        "text2": "blow",
+        "text3": "golpe"
     },
     {
         "text": "\u0443\u0434\u0430\u0447\u0430",

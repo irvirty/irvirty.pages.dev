@@ -1968,10 +1968,10 @@ https://example.com/,
 "text3": "#Norwegian #Sámi",
 "text4": "no",
 "text5": `
-Desc
+Norway,[a] officially the Kingdom of Norway,[b] is a Nordic country located on the Scandinavian Peninsula in Northern Europe. The remote Arctic island of Jan Mayen and the archipelago of Svalbard also form part of the Kingdom of Norway.[note 5] Bouvet Island, located in the Subantarctic, is a dependency, and not a part of the Kingdom; Norway also claims the Antarctic territories of Peter I Island and Queen Maud Land. Norway has a population of 5.6 million. Its capital and largest city is Oslo.
 `,
 "text6": `
-Source
+<a class="brand" target="blank" href="https://en.wikipedia.org/wiki/Norway">Norway - Wikipedia</a>
 `,
 "text7": `
 https://www.norge.no/en,
@@ -2016,10 +2016,26 @@ https://www.pakistan.gov.pk/,
 "text3": "#Palauan #English",
 "text4": "domain",
 "text5": `
-Desc
+Palau,[a] officially the Republic of Palau,[b][8] is an island country in the Micronesia subregion of Oceania in the western Pacific Ocean. The Republic of Palau consists of approximately 340 islands and is the western part of the Caroline Islands, while the eastern and central parts make up the Federated States of Micronesia.
 `,
 "text6": `
-Source
+<a class="brand" target="blank" href="https://en.wikipedia.org/wiki/Palau">Palau - Wikipedia</a>
+`,
+"text7": `
+https://example.com/,
+`,
+},
+
+{
+"text": "Palestine",
+"text2": "🇵🇸",
+"text3": "#Arabic",
+"text4": "ps",
+"text5": `
+Palestine,[i] officially the State of Palestine,[ii][f] is a country in West Asia. Recognized by a majority of UN member states, it encompasses the Israeli-occupied West Bank, including East Jerusalem, and the Gaza Strip, collectively known as the occupied Palestinian territories, within the broader geographic and historical Palestine region. Palestine shares most of its borders with Israel, and it borders Jordan to the east and Egypt to the southwest. It has a total land area of 6,020 square kilometres (2,320 sq mi) while its population exceeds five million people. Its proclaimed capital is Jerusalem, while Ramallah serves as its administrative center. Gaza City was its largest city prior to evacuations in 2023.[3][4]
+`,
+"text6": `
+<a class="brand" target="blank" href="https://en.wikipedia.org/wiki/Palestine">Palestine - Wikipedia</a>
 `,
 "text7": `
 https://example.com/,
@@ -2035,7 +2051,7 @@ https://example.com/,
 Panama,[a] officially the Republic of Panama,[b] is a country in Latin America at the southern end of Central America, bordering South America. It is bordered by Costa Rica to the west, Colombia to the southeast, the Caribbean Sea to the north, and the Pacific Ocean to the south. Its capital and largest city is Panama City, whose metropolitan area is home to nearly half of the country's over 4 million inhabitants.[9][10] 
 `,
 "text6": `
-Panama - Wikipedia - <a class="brand" href="https://en.wikipedia.org/wiki/Panama">https://en.wikipedia.org/wiki/Panama</a>
+<a class="brand" target="blank" href="https://en.wikipedia.org/wiki/Palau">Palau - Wikipedia</a>
 `,
 "text7": `
 https://example.com/,
