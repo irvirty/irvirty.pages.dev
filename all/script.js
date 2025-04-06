@@ -1,4 +1,4 @@
-// All or Start Menu v.1.0.3
+// All or Start Menu v.1.0.4
 
 
 var geturl = location.href;
@@ -185,10 +185,10 @@ if (iResult <= resultLimit){
 postUrl = fuMHideFileNameExt(postUrl);
 //printPost += fuPrintPost(postId, '', postText, postTag, postTime, rightFooter, rightFooter);
 printPost += `
-<div class="bgList border3List borderRadius2 padding3">
+<div class="bgList border3List borderRadius2 padding3 notUnderline">
 <div style="
 display: grid;
-grid-template-columns: 1fr 20px;
+grid-template-columns: calc(100% - 20px) 20px;
 ">
 
 <div>
@@ -281,7 +281,7 @@ window.location.href = window.location.href + '#StopRedirect';
 if (iResult <= resultLimit){
 //printPost += fuPrintPost(postId, '', postText, postTag, postTime, rightFooter, rightFooter);
 printPost += `
-<div class="bgList border3List borderRadius2 padding3">
+<div class="bgList border3List borderRadius2 padding3 notUnderline">
 <div style="
 display: grid;
 grid-template-columns: calc(100% - 20px) 20px;
