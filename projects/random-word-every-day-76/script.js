@@ -108,11 +108,12 @@ randomWordButtons += `
 <hr>
 <div class="small paddingList">Search:</div>
 <div class="hotLinks">
-<a ${randomWordButtonsCode} href="https://www.google.com/search?q=${randomWordGo}">Google</a>
-<a ${randomWordButtonsCode} href="https://www.bing.com/search?q=${randomWordGo}&form=somesite">Bing</a>
+<a ${randomWordButtonsCode} href="/?q=${randomWordGo} goo">Google</a>
+<a ${randomWordButtonsCode} href="/?q=${randomWordGo} bin">Bing</a>
+<a ${randomWordButtonsCode} href="/?q=${randomWordGo} o">Other</a>
 <a ${randomWordButtonsCode} href="/?q=${randomWordGo} n">News</a>
 <a ${randomWordButtonsCode} href="/?q=${randomWordGo} v">Video</a>
-<a ${randomWordButtonsCode} href="/?q=${randomWordGo} s">Social Network</a>
+<a ${randomWordButtonsCode} href="/?q=${randomWordGo} s">Social</a>
 <a ${randomWordButtonsCode} href="/?q=${hashTagGo} ht">Hashtag</a>
 </div>
 

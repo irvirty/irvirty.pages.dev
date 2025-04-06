@@ -1,5 +1,15 @@
 [
     {
+        "id": "107",
+        "text": "Installing on Linux - Blender 4.4 Manual",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/docs.blender.org\/manual\/en\/latest\/getting_started\/installing\/linux.html",
+        "tag": "#fix",
+        "time": 1743820488,
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/notes\/?id=107\">id<\/a>"
+    },
+    {
         "id": "106",
         "text": "How do I make Firefox 47 load all my tabs on startup - Super User",
         "text2": "Always active tab when starting the browser:\r\nbrowser.sessionstore.restore_on_demand",
