@@ -579,13 +579,13 @@ hlClassList += printTag2[0].toLowerCase();
 if(q == tag){
 tagList += `
 
-<a class="iTag light border borderRadius2 ${hlClass} c4R" href="${scriptDir}?q=${goTag}" style="background: ${tagColor}; font-size: ${tagSize};">${printTag}</a>
+<a class="keepTag light border borderRadius2 ${hlClass} c4R" href="${scriptDir}?q=${goTag}" style="background: ${tagColor}; font-size: ${tagSize};">${printTag}</a>
 
 `;
 }else{
 
 tagList += `
-<a class="iTag light border borderRadius2 ${hlClass}" href="${scriptDir}?q=${goTag}"  style="color: ${tagColor}; font-size: ${tagSize};">${printTag}</a>
+<a class="keepTag light border borderRadius2 ${hlClass}" href="${scriptDir}?q=${goTag}"  style="color: ${tagColor}; font-size: ${tagSize};">${printTag}</a>
 `;
 }
 }
@@ -598,19 +598,19 @@ hlClassList2.forEach(function(item){
 let hlClass = 'hlClass'+item;
 item = item.toUpperCase();
 hlClassList3 += `
-<a class="iTag light border borderRadius2 ${hlClass}" onmouseover="hlwClassAdd('${hlClass}')" onmouseout="hlwClassRemove('${hlClass}')" href="#id${hlClass}" id="${hlClass}">${item}</a>
+<a class="keepTag light border borderRadius2 ${hlClass}" onmouseover="hlwClassAdd('${hlClass}')" onmouseout="hlwClassRemove('${hlClass}')" href="#id${hlClass}" id="${hlClass}">${item}</a>
 `;
 });
 
 tagList = `
 
 <div class="wrapper3">
-<div class="tagList">${tagList}</div>
+<div class="keeTagList">${tagList}</div>
 <div class="block padding2"></div>
 </div>
 
 <div class="wrapper">
-<div class="tagList">${hlClassList3}</div>
+<div class="keeTagList">${hlClassList3}</div>
 </div>
 
 `;
@@ -635,7 +635,7 @@ return tagList;
 
 
 
-document.getElementById('taglist').innerHTML += `
+document.getElementById('keepTaglist').innerHTML += `
 <div class="tCenter notUnderline">
 <div class="wrapper3">
 

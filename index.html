@@ -51,6 +51,7 @@ newtab, new, tab, startpage, start, page, main,
 .siteName {
 position: relative;
 text-transform: uppercase;
+font-size: 1.5em;
 transform: rotate(-15deg);
 
 display: inline-block;
@@ -70,18 +71,17 @@ max-width: 180px;
 .siteName::after {
 content: "Home Page";
 text-transform: none;
-
 font-size: small;
 display: inline-block;
 
 position: absolute;
-background: var(--bg);
+
+background-color: var(--bg);
 width: 100%;
-height: 50%;
+height: 30%;
 text-align: center;
 left: 0;
 bottom: 0;
-
 color: var(--cRand);
 }
 
@@ -98,10 +98,12 @@ position: relative;
 
 z-index: -2;
 /*border-bottom: 2px dashed var(--cRand2);*/
+
+
 }
 
 .headerBannerImg svg,
-.headerBannerImg img {
+.headerBannerImg img{
 opacity: .9;
 }
 
