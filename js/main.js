@@ -1114,7 +1114,7 @@ if (conf["confThemeEmbed"] == 'light'||com == "light"){
 fuMInsertHtml("head", 'beforeend', `
 <style>
 /*.reduceLight { filter: brightness(100%); }*/
-body, .siteName, .siteName::after {
+body, .siteName a, .siteName a::after {
 background-image: url("/img/bg/${mBg}");
 background-repeat: repeat;
 background-position: ${mRandBgPos}% ${mRandBgPos2}%;
@@ -1127,7 +1127,7 @@ background-attachment: fixed;
 fuMInsertHtml("head", 'beforeend', `
 <style>
 /*.reduceLight { filter:brightness(70%); }*/
-body, .siteName, .siteName::after {
+body, .siteName a, .siteName a::after {
 background-image: url("/img/bg/${mBgDark}");
 background-repeat: repeat;
 background-position: ${mRandBgPos}% ${mRandBgPos2}%;

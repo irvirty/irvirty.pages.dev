@@ -182,14 +182,14 @@ document.getElementById("totalVt").innerHTML = "";
 
 randomVtPrint = `
 
-<div class="margin2List">
 <div class="padding tCenter op">Random:</div>
 <div class="autoColumn blockMobile">
 ${randomVtPrint}
 </div>
-</div>
 
-<div class="center"><button class="button w50 light border op borderRadius2" onclick="fuMReload();return false;">reload</button></div>
+<div class="margin padding"></div>
+
+<div class="center"><button class="button wrapperSmall2 submit border op borderRadius2" onclick="fuMReload();return false;">reload</button></div>
 <div class="margin2"></div>
 
 `;
@@ -320,31 +320,37 @@ vTDesc = fuMClearText(vTDesc);
 
 return `
 
-<div class="vTShow autoColumntItem post border bgList notUnderline blockMobile" >
-<div class="wrapperSmall2 padding3 w100Mobile h100Mobile">
-<div class="postContent">
+
+<div class="vTShow autoColumntItem border bgList notUnderline blockMobile" >
+<div class="keepPost wrapperSmall2 padding3 w100Mobile h100Mobile">
+<div class="keepPpostContent">
 
 <h2 class="brake2"><span class="h2 ico">${vTEmoji}</span> ${vTTitle}</h2>
 
 <div class="autoColumn notUnderline tCenter small">
 <a class="autoColumnItem inline padding border light2 borderRadius2" target="blank" href="/?q=${vTQGo} q">Search</a>
-<a class="autoColumnItem inline padding border light2 borderRadius2" target="blank" href="/?q=${vTQGo} wik">Wikipedia</a>
-<a class="autoColumnItem inline padding border light2 borderRadius2" target="blank" href="https://www.britannica.com/search?query=${vTQGo} wik">Britannica</a>
-<a class="autoColumnItem inline padding border light2 borderRadius2" target="blank" href="https://www.google.com/maps/?q=${vTQGo}">Map</a>
-<a class="autoColumnItem inline padding border light2 borderRadius2" target="blank" href="/?q=Government of ${vTQGo}">Government</a>
-<a class="autoColumnItem inline padding border light2 borderRadius2" target="blank" href="/?q=${vTQGo} Television">Television</a>
-<a class="autoColumnItem inline padding border light2 borderRadius2" target="blank" href="/?q=${vTQGo} Radio">Radio</a>
 <a class="autoColumnItem inline padding border light2 borderRadius2" target="blank" href="/?q=${vTQGo} v">Video</a>
-<a class="autoColumnItem inline padding border light2 borderRadius2" target="blank" href="/?q=${vTQGo} national television">National television</a>
-<a class="autoColumnItem inline padding border light2 borderRadius2" target="blank" href="/?q=${vTQGo} national radio">National radio</a>
+<a class="autoColumnItem inline padding border light2 borderRadius2" target="blank" href="/?q=${vTQGo} wik">Wikipedia</a>
+<a class="autoColumnItem inline padding border light2 borderRadius2" target="blank" href="https://www.britannica.com/search?query=${vTQGo}">Britannica</a>
+<a class="autoColumnItem inline padding border light2 borderRadius2" target="blank" href="https://www.google.com/maps/?q=${vTQGo}">Map</a>
 
 <a class="autoColumnItem inline padding border light2 borderRadius2" target="blank" href="/?q=${vTQGo} Newspapers">Newspapers</a>
 <a class="autoColumnItem inline padding border light2 borderRadius2" target="blank" href="/?q=${vTQGo} n">In News</a>
-</div>
+
+<a class="autoColumnItem inline padding border light2 borderRadius2" target="blank" href="/?q=${vTQGo} Television">Television</a>
+<a class="autoColumnItem inline padding border light2 borderRadius2" target="blank" href="/?q=${vTQGo} Radio">Radio</a>
+
+
+<a class="autoColumnItem inline padding border light2 borderRadius2" target="blank" href="/?q=Government of ${vTQGo}">Government</a>
+<a class="autoColumnItem inline padding border light2 borderRadius2" target="blank" href="/?q=${vTQGo} national television">National television</a>
+<a class="autoColumnItem inline padding border light2 borderRadius2" target="blank" href="/?q=${vTQGo} national radio">National radio</a>
+
 
 </div>
 
-<div class="postFooter small">
+</div>
+
+<div class="keepPostFooter small">
 
 ${vTLangPrint}
 
