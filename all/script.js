@@ -1,4 +1,4 @@
-// All or Start Menu v.1.1.0
+// All or Start Menu v.1.1.1
 
 
 var geturl = location.href;
@@ -67,8 +67,7 @@ startMenu("result", data, q);
 
 document.addEventListener("keydown", (e) => {
 //alert(e.code);
-if (e.code == "Tab"||e.code == "Space"||e.code == "Enter"){
-} else {
+if (e.code != "Tab"&&e.code != "Space"&&e.code != "Enter"&&e.code != "Backspace"&&e.code != "Shift"){
 // use e.keyCode
 if (document.getElementById("q") != null){
 //https://stackoverflow.com/questions/30714871/check-if-an-input-field-has-focus-in-vanilla-javascript
