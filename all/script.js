@@ -1,4 +1,4 @@
-// All or Start Menu v.1.0.4
+// All or Start Menu v.1.1.0
 
 
 var geturl = location.href;
@@ -66,6 +66,9 @@ startMenu("result", data, q);
 //https://developer.mozilla.org/en-US/docs/Web/API/KeyboardEvent/key
 
 document.addEventListener("keydown", (e) => {
+//alert(e.code);
+if (e.code == "Tab"||e.code == "Space"||e.code == "Enter"){
+} else {
 // use e.keyCode
 if (document.getElementById("q") != null){
 //https://stackoverflow.com/questions/30714871/check-if-an-input-field-has-focus-in-vanilla-javascript
@@ -76,6 +79,7 @@ document.getElementById("q").focus();
 q = e.key;
 q = q.trim();
 startMenu("result", data, q);
+}
 }
 }
 });

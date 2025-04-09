@@ -256,8 +256,8 @@ let qPrint = `
 <div class="padding2List"></div>
 
 <div class="block padding2List tRight">
-<details class="inlineBlock">
-<summary class="op pointer xSmall">Source:</summary>
+<details>
+<summary class="op pointer xSmall brand">Source:</summary>
 <div id="fDesc" class="block pre tLeft padding2 op bg small shadow light borderRadius2 margin2List" style="margin-left: 0; margin-right: 0;">${clearPostText} <a class="brand" target="blank" href="${clearPostUrl} ">${clearPostUrl} ⇗</a></div>
 </details>
 </div>

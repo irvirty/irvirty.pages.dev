@@ -405,7 +405,7 @@ let qPrint = `
 </div>
 
 <div class="padding2"></div>
-<div class="tRight">
+<div class="tRight notUnderline">
 <span class="xSmall op">Conf rounds:</span>
 ${printRoundsFinal}
 </div>
@@ -882,7 +882,9 @@ document.getElementById('taglist').innerHTML +=  `
 </form>
 
 <br>
-<span class="xSmall op block tCenter margin2 padding2">total: ${jsonVar.length}</span>
+<div class="small op tCenter margin2 padding2">total: ${jsonVar.length}</div>
+<div class="small op margin2 padding2 tRight">There may be errors, sorry!</div>
+
 </div>
 
 `;

@@ -3,6 +3,16 @@ var microblogJsonVar =
 
 [
     {
+        "id": "274",
+        "text": "Middle-Aged Man Trading Cards Go Viral in Rural Japan Town",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.tokyoweekender.com\/entertainment\/middle-aged-man-trading-cards-go-viral-in-japan\/",
+        "tag": "#game",
+        "time": 1744101090,
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/microblog\/?id=274\">id<\/a>"
+    },
+    {
         "id": "272",
         "text": "Enshittification - Wikipedia",
         "text2": "",
