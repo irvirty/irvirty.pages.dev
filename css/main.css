@@ -1,4 +1,4 @@
-/* Main.css style v.23.8.1
+/* Main.css style v.23.8.2
 /* main.css + theme (auto.css) */
 /* The style is mostly based on classes */
 
@@ -104,7 +104,7 @@ header, footer, nav, .keepPostFooter { flex-shrink: 0; }
 .h5 { font-size: 1.11em; }
 .h6 { font-size: 1.1em; }
 
-input[type="submit"], input[type="button"], input[type="text"], input[type="search"], textarea, input[type="email"], input[type="password"], form button, input[type="reset"]{
+input[type="submit"], input[type="button"], input[type="text"]:not(#adminbar-search), input[type="search"], textarea, input[type="email"], input[type="password"], form button, input[type="reset"]{
 width: 100%;
 min-height:  var(--inputHeight);
 margin: 0px;
