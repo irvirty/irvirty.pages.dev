@@ -1,4 +1,4 @@
-// Navigation JS part v.2.0.0
+// Navigation JS part v.2.1.0
 
 if (conf === undefined){
 var conf = [];
@@ -86,6 +86,8 @@ dropdownMenu.style.display = "none";
 if (dropdownButton != null){
 dropdownButton.innerHTML = `☰ Menu`;
 }
+dropdownButton.tabIndex = 0;
+dropdownButton.focus();
 }
 
 }
@@ -117,6 +119,16 @@ dropdownButton.innerHTML = `☰ Menu`;
 }
 }
 });
+
+function fuMDropdownButtonClose(){
+dropdownMenu.style.display = "none";
+//dropdownMenu.classList.remove("showDropdownMenu");
+if (dropdownButton != null){
+dropdownButton.innerHTML = `☰ Menu`;
+dropdownButton.tabIndex = 0;
+dropdownButton.focus();
+}
+}
 
 // end Navigation JS version
 
