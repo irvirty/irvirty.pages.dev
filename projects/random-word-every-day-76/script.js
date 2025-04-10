@@ -119,6 +119,10 @@ randomWordButtons += `
 
 `;
 
+
+
+
+
 randomWordButtons += `
 
 <div class="padding2 margin2"></div>
@@ -138,6 +142,23 @@ randomWordButtons += `
 
 
 `;
+
+randomWordButtons += `
+
+<div class="margin2 padding2"></div>
+<hr>
+<div class="margin2 padding2"></div>
+<h2 class="op tCenter">Word of the day</h2>
+<div class="hotLinks">
+<a ${randomWordButtonsCode} href="/?q=Word of the day goo">Google</a>
+<a ${randomWordButtonsCode} href="/?q=Word of the day bin">Bing</a>
+<a ${randomWordButtonsCode} href="/?q=Word of the day o">Other</a>
+<a ${randomWordButtonsCode} href="/?q=Word of the day s">Social</a>
+<a ${randomWordButtonsCode} href="/?q=WordOfTheDay ht">Hashtag</a>
+</div>
+
+`;
+
 
 print2 = randomWordButtons;
 

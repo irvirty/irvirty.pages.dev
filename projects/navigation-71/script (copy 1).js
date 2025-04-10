@@ -1,4 +1,4 @@
-// Navigation JS part v.2.0.0
+// Navigation JS part v.1.4.0
 
 if (conf === undefined){
 var conf = [];
@@ -67,7 +67,7 @@ const topNav = document.getElementById("topNav");
 
 function fuMDropdownButton(){
 //https://stackoverflow.com/questions/64487640/javascript-show-hide-div-onclick
-if (dropdownMenu.style.display === "block"){
+if (dropdownMenu.style.display === "block") {
 dropdownMenu.style.display = "none";
 if (dropdownButton != null){
 dropdownButton.innerHTML = `☰ Menu`;
@@ -76,20 +76,6 @@ dropdownButton.innerHTML = `☰ Menu`;
 dropdownMenu.style.display = "block";
 if (dropdownButton != null){
 dropdownButton.innerHTML = `☶ Menu`;
-
-//https://developer.mozilla.org/en-US/docs/Web/API/Element/keydown_event
-topNav.addEventListener("keydown", fuMDropdownButtonLogKey);
-function fuMDropdownButtonLogKey(e) {
-//console.log(`${e.code}`);
-if (e.code == "Escape"){
-dropdownMenu.style.display = "none";
-if (dropdownButton != null){
-dropdownButton.innerHTML = `☰ Menu`;
-}
-}
-
-}
-
 }
 
 //https://developer.mozilla.org/en-US/docs/Web/API/DOMTokenList/toggle
@@ -104,11 +90,6 @@ window.addEventListener('click', function(e){
 dropdownMenu = document.getElementById("dropdownMenu");
 if (topNav.contains(e.target) == true){
 // Clicked in box
-//https://www.w3.org/WAI/ARIA/apg/patterns/menu-button/examples/menu-button-links/
-if (dropdownMenu.querySelectorAll("a")[0] != undefined){
-dropdownMenu.querySelectorAll("a")[0].tabIndex = 0;
-dropdownMenu.querySelectorAll("a")[0].focus();
-}
 } else {
 dropdownMenu.style.display = "none";
 //dropdownMenu.classList.remove("showDropdownMenu");
@@ -117,7 +98,6 @@ dropdownButton.innerHTML = `☰ Menu`;
 }
 }
 });
-
 // end Navigation JS version
 
 
