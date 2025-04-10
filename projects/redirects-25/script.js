@@ -1,4 +1,4 @@
-// Search redirects v.2.8.20
+// Search redirects v.2.8.21
 // Search query + command
 
 // conf
@@ -1021,12 +1021,12 @@ q = encodeURIComponent(q);
 urlList = [
 //"https://www.reddit.com/search/?q=" + q + "&type=posts&sort=new",
 "https://www.tumblr.com/search/" + q,
-"https://bsky.app/search?q=" + q,
 //"https://www.tumblr.com/search/" + q + "?postTypes=chat%2Clink%2Cquote%2Ctext%2Cpoll%2Cask",
+"https://bsky.app/search?q=" + q,
 ];
 if (q == ''){
 urlList = [
-"https://www.reddit.com/",
+//"https://www.reddit.com/",
 "https://www.tumblr.com/",
 "https://bsky.app/",
 ];
