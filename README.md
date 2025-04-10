@@ -32,9 +32,11 @@ Main license: CC BY-SA 4.0
 SimpleHomePage theme for WordPress: GNU General Public License v2 or later
 Geany Themes: GNU General Public License
 Chrome Themes: Apache 2.0 License
-Roboto font: Apache License, Version 2.0
+
+Resources and others:
+Roboto font: Copyright 2025 Google Apache License, Version 2.0
 Books in /data from The Project Gutenberg: The Project Gutenberg License
-.screenReader class in main.css: https://wordpress.org/ License: GPLv2 (or later)
+.screenReader class in main.css: Copyright 2025 WordPress License: GPLv2 (or later)
 ```
 
 ---

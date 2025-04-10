@@ -1426,11 +1426,13 @@ q = q3.replace(qCom, '');
 q = q.trim();
 q = encodeURIComponent(q);
 urlList = [
+"https://search.seznam.cz/?q=" + q,
 "https://search.marginalia.nu/search?query=" + q,
 //"https://mwmbl.org/?q=" + q,
 ];
 if (q == ''){
 urlList = [
+"https://search.seznam.cz/",
 "https://search.marginalia.nu/",
 //"https://mwmbl.org/",
 ];
