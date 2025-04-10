@@ -1,4 +1,4 @@
-/* Main.css style v.23.8.2
+/* Main.css style v.23.8.3
 /* main.css + theme (auto.css) */
 /* The style is mostly based on classes */
 
@@ -705,6 +705,7 @@ display: none;
 
 /*https://make.wordpress.org/accessibility/handbook/markup/the-css-class-screen-reader-text/#*/
 /* Text meant only for screen readers. */
+/* Copyright 2025 WordPress */
 /* License: GPLv2 (or later) https://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html#*/
 .screenReader, .screen-reader-text {
 border: 0;
