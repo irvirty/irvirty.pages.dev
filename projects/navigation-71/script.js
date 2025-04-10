@@ -1,4 +1,4 @@
-// Navigation JS part v.2.2.0
+// Navigation JS part v.2.2.1
 
 if (conf === undefined){
 var conf = [];
@@ -20,7 +20,7 @@ if (document.getElementsByTagName("nav")[0] != null){
 var mNavItemsAverageWidth = conf["confMenuItemAverageWidth"];
 // Average item width: 66px
 //var mNavItemsCount = (countMenuItem.length / 2);
-var mNavItemsCount = ((countMenuItem.length + 3) / 2);
+var mNavItemsCount = ((countMenuItem.length + 2) / 2);
 // /2 - dublicate items (links)
 var mNavWhenDropdownWidth = (mNavItemsAverageWidth * mNavItemsCount) / 2;
 // /2 - for 2 rows links
