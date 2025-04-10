@@ -1,4 +1,4 @@
-// Navigation JS part v.2.1.0
+// Navigation JS part v.2.2.0
 
 if (conf === undefined){
 var conf = [];
@@ -7,7 +7,6 @@ conf["confWrapperNavWidth"] = 900;
 conf["confMenuItemAverageWidth"] = 120;
 }
 
-// nav v.2.0.0 in test
 // count links
 //var countMenuItem = document.querySelectorAll('.countMenuItem');
 if (document.getElementById("topNav") != null){
@@ -77,6 +76,12 @@ dropdownMenu.style.display = "block";
 if (dropdownButton != null){
 dropdownButton.innerHTML = `☶ Menu`;
 
+//https://www.w3.org/WAI/ARIA/apg/patterns/menu-button/examples/menu-button-links/
+if (dropdownMenu.querySelectorAll("a")[0] != undefined){
+dropdownMenu.querySelectorAll("a")[0].tabIndex = 0;
+dropdownMenu.querySelectorAll("a")[0].focus();
+}
+
 //https://developer.mozilla.org/en-US/docs/Web/API/Element/keydown_event
 topNav.addEventListener("keydown", fuMDropdownButtonLogKey);
 function fuMDropdownButtonLogKey(e) {
@@ -106,11 +111,6 @@ window.addEventListener('click', function(e){
 dropdownMenu = document.getElementById("dropdownMenu");
 if (topNav.contains(e.target) == true){
 // Clicked in box
-//https://www.w3.org/WAI/ARIA/apg/patterns/menu-button/examples/menu-button-links/
-if (dropdownMenu.querySelectorAll("a")[0] != undefined){
-dropdownMenu.querySelectorAll("a")[0].tabIndex = 0;
-dropdownMenu.querySelectorAll("a")[0].focus();
-}
 } else {
 dropdownMenu.style.display = "none";
 //dropdownMenu.classList.remove("showDropdownMenu");
