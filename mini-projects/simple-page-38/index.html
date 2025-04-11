@@ -12,7 +12,7 @@
 * { color-scheme: light dark; } /* view-source:about:blank, fixed blink */
 html, body { margin: 0 auto; padding: 0; }
 body {
-padding: 0 var(--bodyPadding);
+padding: 0 3vw;
 display: flex;
 flex-basis: auto;
 flex-basis: 100%;
@@ -58,7 +58,8 @@ max-width: 560px;
 }
 
 /* Fix */
-* { box-sizing: border-box; }
+/*https://forum.freecodecamp.org/t/before-after-box-sizing-border-box/425735#*/
+*, *::before, *::after { box-sizing: border-box; }
 </style>
 
 </head>
