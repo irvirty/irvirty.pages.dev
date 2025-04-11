@@ -15,7 +15,7 @@ var notesJsonVar =
     {
         "id": "106",
         "text": "How do I make Firefox 47 load all my tabs on startup - Super User",
-        "text2": "Always active tab when starting the browser:\r\nbrowser.sessionstore.restore_on_demand",
+        "text2": "Always active tab when starting the browser:\r\nbrowser.sessionstore.restore_on_demand\r\n===\r\nBe careful! Tabs will start consuming resources.",
         "text3": "",
         "url": "https:\/\/superuser.com\/questions\/1086541\/how-do-i-make-firefox-47-load-all-my-tabs-on-startup",
         "tag": "#fix",

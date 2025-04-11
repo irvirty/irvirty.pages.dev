@@ -3,6 +3,26 @@ var linksJsonVar =
 
 [
     {
+        "id": "236",
+        "text": "Outlook",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/outlook.live.com\/",
+        "tag": "#mail #email #service",
+        "time": 1744396838,
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=236\">id<\/a>"
+    },
+    {
+        "id": "235",
+        "text": "Gmail",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/mail.google.com\/",
+        "tag": "#mail #email #service",
+        "time": 1744396685,
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=235\">id<\/a>"
+    },
+    {
         "id": "234",
         "text": "Solo - Free AI Website Creator",
         "text2": "",
@@ -58,7 +78,7 @@ var linksJsonVar =
         "text2": "",
         "text3": "",
         "url": "https:\/\/onedrive.live.com\/",
-        "tag": "#cloud #storage",
+        "tag": "#cloud #storage #service",
         "time": 1740799372,
         "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=229\">id<\/a>"
     },
@@ -68,7 +88,7 @@ var linksJsonVar =
         "text2": "",
         "text3": "",
         "url": "https:\/\/proton.me\/drive",
-        "tag": "#cloud #storage",
+        "tag": "#cloud #storage #service",
         "time": 1740799298,
         "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=228\">id<\/a>"
     },
@@ -388,7 +408,7 @@ var linksJsonVar =
         "text2": "",
         "text3": "",
         "url": "https:\/\/drive.google.com\/",
-        "tag": "#cloud #storage",
+        "tag": "#cloud #storage #service",
         "time": 1729849679,
         "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=194\">id<\/a>"
     },
@@ -398,7 +418,7 @@ var linksJsonVar =
         "text2": "",
         "text3": "",
         "url": "https:\/\/www.dropbox.com\/",
-        "tag": "#cloud #storage",
+        "tag": "#cloud #storage #service",
         "time": 1729849567,
         "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=193\">id<\/a>"
     },
@@ -408,7 +428,7 @@ var linksJsonVar =
         "text2": "",
         "text3": "",
         "url": "https:\/\/syncthing.net\/",
-        "tag": "#cloud #storage",
+        "tag": "#cloud #storage #service",
         "time": 1729849516,
         "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=192\">id<\/a>"
     },

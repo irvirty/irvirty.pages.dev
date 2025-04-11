@@ -101,20 +101,28 @@ var jsonVar =
 }
 </script>
 
+<!--
+Config, copy paste in html before script.js.
+Fresh config in script.js
+-->
 <script>
-// fresh config in script.js
 let keepConfig = {
-"postLimit":"", // number
-"embedStatus":"off", // off
-"multiEmbedStatus":"", // on
-"tagListStatus":"", // off
+"postLimit":"", // number, the number of posts per page
+"embedStatus":"semi", // "off", "semi" (when id)
+"multiEmbedStatus":"", // "on"
+"tagListStatus":"", // "off"
 "tagListLimit":"", // number
-"targetOption":"", // blank
-"bottomMsg":"", // text
-"display":"all", // grid (for img link), article (text - title, text2 - text)
+"targetOption":"", // "blank"
+"bottomMsg":`
+<!-- bottom text or code -->
+`, // text
+"display":"all", // gallery, art, blog (text, text2), all (text, text2, text3)
 "timeStatus":"", // off, disable post time (post id)
+"rightFooterStatus":"", // on, off, right footer in data
+"usernameStatus":"", // on, off
 };
 </script>
+
 <script src="../../projects/keep-1/script.js" onload="keep('echoKeep', agicountdownJsonVar, ' wrapper post ', './data-list.html', keepConfig)"></script>
 <!-- // keep -->
 
