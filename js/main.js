@@ -1,4 +1,4 @@
-// Main js v.6.20.0
+// Main js v.6.20.1
 // For second navigation, footer, themes, etc
 
 if (confD == undefined) { var confD = "/"; }
@@ -151,6 +151,8 @@ if (String(window.location.href).slice(0, 4) != 'http'){
 document.getElementById('theme').id = 'themeDisable';
 }
 
+//fuMInsertHtml('#topNav', 'afterend', '<h1>test</h1>'); //fixme, if save as, dublicate
+//document.querySelector('#topNav').insertAdjacentHTML('afterend', '<h1>test</h1>');
 function fuMInsertHtml(selector, option, text){
 //https://developer.mozilla.org/en-US/docs/Web/API/Element/insertAdjacentHTML
 //option: beforebegin, afterbegin, beforeend, afterend
@@ -164,7 +166,9 @@ document.head.insertAdjacentHTML(option, text);
 document.head.insertAdjacentHTML("beforeend", text);
 //alert(option + 'test2');
 }
-} else { console.log("fuMInsertHtml: document head probably null"); }
+} else {
+//console.log("fuMInsertHtml: document head probably null");
+}
 
 } else {
 
@@ -183,6 +187,7 @@ document.querySelector(selector).insertAdjacentHTML('beforeend', text);
 }
 
 }
+
 
 
 //<!-- Nav second nav.1.2.2  -->
@@ -542,7 +547,10 @@ mFooterNavLinksPrint += fuMHideFileNameExt(` <span class="gray">/</span> <a clas
 }
 });
 
-fuMInsertHtml("#footerNav", '', mFooterNavLinksPrint);
+//fuMInsertHtml("#footerNav", '', mFooterNavLinksPrint);
+if (document.getElementById("footerNav") != null){
+document.getElementById("footerNav").innerHTML = mFooterNavLinksPrint;
+}
 if(fuMComVar.indexOf('footer off') != -1){ document.getElementById("footer").innerHTML = ""; }
 // end footer
 
