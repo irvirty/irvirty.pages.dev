@@ -358,7 +358,7 @@ if(msCom == 'error'){
 msStap--;
 // if error
 arrInputHistory.pop();
-document.getElementById("alert").innerHTML = '<audio style="display:none" autoplay="false" src="/audio/error.mp3"></audio>';
+document.getElementById("alert").innerHTML = `<audio style="display:none" autoplay="false" src="${confD}audio/error.mp3"></audio>`;
 checkSound = 'exit';
 }
 
@@ -373,7 +373,7 @@ if(item == currentInputSymbol&&item == prevInputSymbol){
 arrResultFinal[index] = item;
 arrResultFinal[prevInputIndex] = item;
 drawResult(arrResultFinal, maintl, 'result2');
-document.getElementById("alert").innerHTML = '<audio style="display:none" autoplay="false" src="/audio/ok.mp3"></audio>';
+document.getElementById("alert").innerHTML = `<audio style="display:none" autoplay="false" src="${confD}audio/ok.mp3"></audio>`;
 checkSound = 'exit';
 }else{
 
@@ -400,7 +400,7 @@ document.getElementById(prevInputIndex).innerHTML =  prevInputSymbol;
 
 if(JSON.stringify(arrResultFinal) === JSON.stringify(arrTask)){
 document.getElementById("win").innerHTML = '<span class="orange">Win</span>';
-document.getElementById("alert").innerHTML = '<audio style="display:none" autoplay="false" src="/audio/win.mp3"></audio>';
+document.getElementById("alert").innerHTML = `<audio style="display:none" autoplay="false" src="${confD}audio/win.mp3"></audio>`;
 checkSound = 'exit';
 }
 
@@ -419,7 +419,7 @@ msCom = '';
 /*
 // click sound
 if(checkSound == ''){
-document.getElementById("alert").innerHTML = '<audio style="display:none" autoplay="false" src="/audio/click.mp3"></audio>';
+document.getElementById("alert").innerHTML = `<audio style="display:none" autoplay="false" src="${confD}audio/click.mp3"></audio>`;
 }
 */
 

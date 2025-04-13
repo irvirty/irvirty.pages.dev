@@ -90,7 +90,7 @@ var submitForm = `
 <a href="#speedDialAnchor" onclick="fuLSpeedDial('', '', '', 'add');return false;"><div class="op smaller button block submit brand">Add</div></a>
 
 <div class="padding2"></div>
-<a class="op button border light borderRadius2 smaller brand" href="/projects/speed-dial-58/index.html">Edit speed dial</a>
+<a class="op button border light borderRadius2 smaller brand" href="${confD}projects/speed-dial-58/index.html">Edit speed dial</a>
 
 </form>
 

@@ -3,14 +3,24 @@ var wikiJsonVar =
 
 [
     {
-        "id": "143",
-        "text": "World Wide Web - Simple English Wikipedia, the free encyclopedia",
-        "text2": "The World Wide Web (\"WWW\" or \"The Web\") is the part of the Internet that contains websites and webpages. It was invented in 1989 by Tim Berners-Lee at CERN, Geneva, Switzerland. Sir Tim Berners-Lee created a new markup language called HTML. Websites comprise of pages linked by hypertext links that are written in HTML.",
+        "id": "145",
+        "text": "Content management system - Wikipedia",
+        "text2": "A content management system (CMS) is computer software used to manage the creation and modification of digital content (content management).[1][2][3] A CMS is typically used for enterprise content management (ECM) and web content management (WCM). ECM typically supports multiple users in a collaborative environment,[4][5] by integrating document management, digital asset management, and record retention.[4] Alternatively, WCM is the collaborative authoring for websites and may include text and embed graphics, photos, video, audio, maps, and program code that display content and interact with the user.[6][7] ECM typically includes a WCM function.",
         "text3": "",
-        "url": "https:\/\/simple.wikipedia.org\/wiki\/World_Wide_Web",
+        "url": "https:\/\/en.wikipedia.org\/wiki\/Content_management_system",
+        "tag": "#web #technology",
+        "time": 1744423726,
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/wiki\/?id=145\">id<\/a>"
+    },
+    {
+        "id": "144",
+        "text": "World Wide Web - Wikipedia",
+        "text2": "The World Wide Web (WWW, W3 or simply the Web) is an information system that enables content sharing over the Internet through user-friendly ways meant to appeal to users beyond IT specialists and hobbyists.[1] It allows documents and other web resources to be accessed over the Internet according to specific rules of the Hypertext Transfer Protocol (HTTP).[2]",
+        "text3": "",
+        "url": "https:\/\/en.wikipedia.org\/wiki\/World_Wide_Web",
         "tag": "#technology #web",
-        "time": 1743637754,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/wiki\/?id=143\">id<\/a>"
+        "time": 1744408596,
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/wiki\/?id=144\">id<\/a>"
     },
     {
         "id": "142",

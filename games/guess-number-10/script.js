@@ -63,7 +63,7 @@ document.getElementById("gameResult").innerHTML = `
 <span class="green bold">${answer[0]}</span>
 </div>
 <span class="op padding2 margin2 xSmall">(mode: 0-${mode[0]})</span>
-<audio style="display:none" autoplay="false" src="/audio/win.mp3"></audio>
+<audio style="display:none" autoplay="false" src="${confD}audio/win.mp3"></audio>
 `;;
 }else{
 document.getElementById("gameResult").innerHTML = `
@@ -74,7 +74,7 @@ document.getElementById("gameResult").innerHTML = `
 <span class="red bold">${answer[0]}</span>
 </div>
 <span class="op padding2 margin2 xSmall">(mode: 0-${mode[0]})</span>
-<audio style="display:none" autoplay="false" src="/audio/error.mp3"></audio>
+<audio style="display:none" autoplay="false" src="${confD}audio/error.mp3"></audio>
 `;
 }
 

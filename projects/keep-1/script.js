@@ -25,6 +25,7 @@ let keepConfig = {
 "timeStatus":"", // off, disable post time (post id)
 "rightFooterStatus":"", // on, off, right footer in data
 "usernameStatus":"", // on, off
+"confD":"", //
 };
 </script>
 
@@ -69,6 +70,7 @@ var display = '';
 var timeStatus = '';
 var rightFooterStatus = '';
 var usernameStatus = '';
+var confD = '';
 } else {
 var postLimit = '';
 var embedStatus = '';
@@ -82,6 +84,7 @@ var display = '';
 var timeStatus = '';
 var rightFooterStatus = '';
 var usernameStatus = '';
+var confD = '';
 
 if (keepConfig['postLimit'] != undefined) { var postLimit = keepConfig['postLimit']; }
 if (keepConfig['embedStatus'] != undefined) { var embedStatus = keepConfig['embedStatus']; }
@@ -95,6 +98,7 @@ if (keepConfig['display'] != undefined) { var display = keepConfig['display']; }
 if (keepConfig['timeStatus'] != undefined) { var timeStatus = keepConfig['timeStatus']; }
 if (keepConfig['rightFooterStatus'] != undefined) { var rightFooterStatus = keepConfig['rightFooterStatus']; }
 if (keepConfig['usernameStatus'] != undefined) { var usernameStatus = keepConfig['usernameStatus']; }
+if (keepConfig['confD'] != undefined) { var confD = keepConfig['confD']; }
 }
 
 // default value
@@ -111,6 +115,7 @@ if (display == undefined||display == ''){ display = 'list'; }
 if (timeStatus == undefined||timeStatus == ''){ timeStatus = ''; }
 if (rightFooterStatus == undefined||rightFooterStatus == ''){ rightFooterStatus = 'off'; }
 if (usernameStatus == undefined||usernameStatus == ''){ usernameStatus = 'off'; }
+if (confD == undefined||confD == ''){ confD = '/'; }
 var host = '';
 
 
@@ -1530,7 +1535,7 @@ if (display == 'blog'&&mode != 'id'&&mode != 'idList'){ time = `<a class="tag br
 
 var usernameStatusPrint = "";
 if (usernameStatus == "on"){
-usernameStatusPrint = `<div class="padding2List bold capitalize"><a class="notUnderline" href="/pages/about/"><img class="ico" src="/img/logo.png" width="20" alt="logo">${username}</a></div>`
+usernameStatusPrint = `<div class="padding2List bold capitalize"><a class="notUnderline" href="${keepConfig['confD']}pages/about/"><img class="ico" src="${keepConfig['confD']}img/logo.png" width="20" alt="logo">${username}</a></div>`
 }
 
 return `
@@ -1542,7 +1547,7 @@ ${usernameStatusPrint}
 
 <div class="keepPostContent pre padding2List">` + lPost + `</div>
 
-<div class=" ${keepPostFooter} break2 small notUnderline">
+<div class=" ${keepPostFooter} clear small notUnderline">
 <div class="keepTagList tLeft left">` + tag + `</div>
 <div class="keepTagList tRight right">` + rightFooter + time + `</div>
 </div>

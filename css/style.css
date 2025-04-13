@@ -1,11 +1,5 @@
 /* v.1.18.3 */
 
-@font-face {
-font-family: 'Roboto';
-src: url('/fonts/Roboto-Regular.ttf')  format('truetype');
-font-display: swap;
-}
-
 /* Navigation CSS v.3.0.0 */
 
 .topNav form, .topNav input[type=search] { display: inline-block; }

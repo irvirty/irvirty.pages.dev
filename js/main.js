@@ -1,6 +1,8 @@
 // Main js v.6.20.0
 // For second navigation, footer, themes, etc
 
+if (confD == undefined) { var confD = "/"; }
+
 // Settings, config
 var conf = [];
 
@@ -45,7 +47,7 @@ const confData = [
 },
 {
 "confTitle":"Theme",
-"confDescription":`Choosing a theme for the site. More modes and themes: <a class="brand" href="/pages/themes/">/pages/themes/</a>`,
+"confDescription":`Choosing a theme for the site. More modes and themes: <a class="brand" href="${confD}pages/themes/">${confD}pages/themes/</a>`,
 "confName":"confTheme",
 "confValueDefault":"auto",
 "confValueVariant":["light", "dark", "auto-time", "auto", "auto-t-rand-all", "auto-rand-all"],
@@ -73,7 +75,7 @@ const confData = [
 },
 {
 "confTitle":"Custom background image",
-"confDescription":`Custom background image. Setting: <a class="brand" href="/pages/themes/">/pages/themes/</a>`,
+"confDescription":`Custom background image. Setting: <a class="brand" href="${confD}pages/themes/">${confD}pages/themes/</a>`,
 "confName":"confBgImg",
 "confValueDefault":"",
 "confValueVariant":[""],
@@ -110,7 +112,7 @@ const confData = [
 },
 {
 "confTitle":"Speed dial",
-"confDescription":`Pin, unpin a page for speed dial or your own link. <a class="brand brand" href="/projects/speed-dial-58/">/projects/speed-dial-58/</a>`,
+"confDescription":`Pin, unpin a page for speed dial or your own link. <a class="brand brand" href="${confD}projects/speed-dial-58/">${confD}projects/speed-dial-58/</a>`,
 "confName":"confSpeedDialStatus",
 "confValueDefault":"on",
 "confValueVariant":["on", "off", "random"],
@@ -122,13 +124,6 @@ const confData = [
 "confValueDefault":"off",
 "confValueVariant":["on", "off"],
 },
-/*{
-"confTitle":"Allow external fonts?",
-"confDescription":`Load external fonts (privacy: may be used for analytics). Auto - based on third-party cookies settings.`,
-"confName":"confExternalFonts",
-"confValueDefault":"auto",
-"confValueVariant":["on", "off", "auto"],
-},*/
 ];
 //console.table(confData);
 
@@ -195,11 +190,11 @@ document.querySelector(selector).insertAdjacentHTML('beforeend', text);
 // for other pages where navigation is poor
 
 conf["confMenuItems"] = [
-{"url":"/all/", "title":"All pages", "text":"All", "class":""},
-{"url":"/pages/", "title":"Pages", "text":"Pages", "class":""},
-{"url":"/games/", "title":"Games", "text":"Games", "class":""},
-{"url":"/projects/", "title":"Projects", "text":"Projects", "class":""},
-{"url":"/mini-projects/", "title":"Mini Projects", "text":"Mini Projects", "class":""},
+{"url":`${confD}all/`, "title":"All pages", "text":"All", "class":""},
+{"url":`${confD}pages/`, "title":"Pages", "text":"Pages", "class":""},
+{"url":`${confD}games/`, "title":"Games", "text":"Games", "class":""},
+{"url":`${confD}projects/`, "title":"Projects", "text":"Projects", "class":""},
+{"url":`${confD}mini-projects`, "title":"Mini Projects", "text":"Mini Projects", "class":""},
 ];
 
 conf["confMenuItems2"] = '';
@@ -238,7 +233,7 @@ document.getElementById("secondNav").innerHTML = `
 
 <!-- /* .screenReader in main.css */ -->
 <a class="screenReader inlineBlock padding brand" tabindex="0" href="#content">Skip navigation</a>
-<a class="inlineBlock padding" style="padding-left: 0;" tabindex="0" href="/" title="index / nav 2 (main.js)"><img class="logo2 reduceLight" src="/img/logo.png" alt="logo" style="max-width: 26px;"></a> 
+<a class="inlineBlock padding" style="padding-left: 0;" tabindex="0" href="/" title="index / nav 2 (main.js)"><img class="logo2 reduceLight" src="${confD}img/logo.png" alt="logo" style="max-width: 26px;"></a> 
 
 <span id="navMenu" class="navMenu">
 <!-- links in nav -->
@@ -263,7 +258,7 @@ ${conf["confMenuItems2"]}
 
 <a class="inlineBlock padding mClassNavUp brand borderBottomTransparent itemLinkAni" tabindex="0" href="../" title="../ (Up)">List (up)</a>
 
-<form class="noscriptHide inlineBlock padding" style="padding-right: 0;" method="GET" action="/search/" role="search">
+<form class="noscriptHide inlineBlock padding" style="padding-right: 0;" method="GET" action="${confD}search/" role="search">
 <!--<label for="siteSearch" class="xSmall op">search:</label>-->
 <input id="siteSearch" class="borderRadius3" type="search" placeholder="site search" name="q" autocomplete="off">
 </form>
@@ -390,7 +385,7 @@ dropdownButton.focus();
 }
 }
 
-
+if (topNav != null){
 // out area click
 //https://stackoverflow.com/questions/36695438/detect-click-outside-div-using-javascript
 window.addEventListener('click', function(e){
@@ -405,6 +400,7 @@ dropdownButton.innerHTML = `☰ Menu`;
 }
 }
 });
+}
 
 function fuMDropdownButtonClose(){
 dropdownMenu.style.display = "none";
@@ -468,7 +464,10 @@ fDescTitle = `<span class="inlineBlock xSmall">Description: <span class="xSmall"
 }
 }
 
-fuMInsertHtml("#footer", 'beforeend', `
+//fuMInsertHtml("#footer", 'beforeend', ``);
+
+if (document.getElementById("footer") != null){
+document.getElementById("footer").innerHTML = `
 
 <div class="padding2 margin2"></div>
 
@@ -498,21 +497,21 @@ fuMInsertHtml("#footer", 'beforeend', `
 
 <div>
 <!--<a class="brand" href="#goBack" onclick="history.back();return false;">Go Back</a>-->
-<span class="capitalize brand" title="Theme settings"><a id="fTheme" class="inlineBlock padding brand" href="/pages/themes/">Themes</a></span>
+<span class="capitalize brand" title="Theme settings"><a id="fTheme" class="inlineBlock padding brand" href="${confD}pages/themes/">Themes</a></span>
 <span id="fEmbedFileUrl"></span>
 <span id="fPinButton"></span>
 </div>
 
-<a class="brand inlineBlock padding" style="padding-left: 0;" title="Start menu" href="/all/">All</a>
-<a class="brand inlineBlock padding" title="About" href="/pages/about/">About</a>
-<a class="brand inlineBlock padding" title="RSS News" href="/rss.xml">RSS</a>
+<a class="brand inlineBlock padding" style="padding-left: 0;" title="Start menu" href="${confD}all/">All</a>
+<a class="brand inlineBlock padding" title="About" href="${confD}pages/about/">About</a>
+<a class="brand inlineBlock padding" title="RSS News" href="${confD}rss.xml">RSS</a>
 <a class="brand inlineBlock padding" title="Social Network" href="https://bsky.app/profile/${conf["confUsername"]}.bsky.social">Bluesky</a>
 <a class="brand inlineBlock padding" title="Another home page" href="https://${conf["confUsername"]}.neocities.org/">Other Home</a>
-<a id="fSettings" class="brand inlineBlock padding2" title="Settings" href="/pages/settings/">Settings</a>
-<a id="fPrivacy" class="brand inlineBlock padding" title="Cookie Settings" href="/pages/settings/#confDataCollection">Cookie: ${conf["confDataCollection"]}</a>
+<a id="fSettings" class="brand inlineBlock padding2" title="Settings" href="${confD}pages/settings/">Settings</a>
+<a id="fPrivacy" class="brand inlineBlock padding" title="Cookie Settings" href="${confD}pages/settings/#confDataCollection">Cookie: ${conf["confDataCollection"]}</a>
 <a class="brand inlineBlock padding" title="Source code (repository)" href="https://github.com/${conf["confUsername"]}/${conf["confWebsiteUrl"]}">Source Code</a>
 <span class="gray">License:</span>
-<a class="brand inlineBlock padding" rel="license" title="Main license" href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a><a class="brand inlineBlock padding" title="Other license" href="/pages/about/#license"><sup>*</sup></a>
+<a class="brand inlineBlock padding" rel="license" title="Main license" href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a><a class="brand inlineBlock padding" title="Other license" href="${confD}pages/about/#license"><sup>*</sup></a>
 <span class="op inlineBlock padding gray"><!--2019--->2025</span>
 <br>
 <span class="gray">Hosting:</span>
@@ -522,8 +521,8 @@ fuMInsertHtml("#footer", 'beforeend', `
 </nav>
 
 <div id="fScrollToBottom"></div>
-
-`);
+`;
+}
 
 
  let mFooterNavLinksPrint = `<a class="brand" href="/" title="Home page">home</a> `;
@@ -596,7 +595,7 @@ document.getElementsByTagName('head')[0].appendChild(meta);
 function fuMPrintTheme(theme){
 
 if (document.getElementById('theme') != null){
-document.getElementById('theme').href = '/css/' + theme + '.css';
+document.getElementById('theme').href = confD + 'css/' + theme + '.css';
 }
 
 
@@ -845,7 +844,7 @@ document.cookie = "theme=light; SameSite=None; Secure; path=/";
 
 /*themeList.forEach((element) => {
 if (mode == element){
-//document.getElementById('theme').href = '/css/'+mode+'.css';
+//document.getElementById('theme').href = confD + 'css/' + mode + '.css';
 fuMPrintTheme(conf["confRealTmpTheme"] );
 }
 })*/
@@ -1156,7 +1155,7 @@ fuMInsertHtml("head", 'beforeend', `
 <style>
 /*.reduceLight { filter: brightness(100%); }*/
 body, .siteName a, .siteName a::after {
-background-image: url("/img/bg/${mBg}");
+background-image: url("${confD}img/bg/${mBg}");
 background-repeat: repeat;
 background-position: ${mRandBgPos}% ${mRandBgPos2}%;
 background-attachment: fixed;
@@ -1169,7 +1168,7 @@ fuMInsertHtml("head", 'beforeend', `
 <style>
 /*.reduceLight { filter:brightness(70%); }*/
 body, .siteName a, .siteName a::after {
-background-image: url("/img/bg/${mBgDark}");
+background-image: url("${confD}img/bg/${mBgDark}");
 background-repeat: repeat;
 background-position: ${mRandBgPos}% ${mRandBgPos2}%;
 background-attachment: fixed;
@@ -1218,15 +1217,18 @@ opacity: .06;
 }
 // random bg image
 
-// fonts, external fonts (privacy, data analytics)
-if (conf["confDataCollection"] == 'on'&&conf["confExternalFonts"] == 'auto'||conf["confExternalFonts"] == 'on'){
+// fonts
 //document.head.insertAdjacentHTML("beforeend", `
 fuMInsertHtml("head", 'beforeend', `
 <style>
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@font-face {
+font-family: 'Roboto';
+src: url('${confD}fonts/Roboto-Regular.ttf')  format('truetype');
+font-display: swap;
+}
 </style>
 `);
-}
+
 // CSS
 
 
@@ -1465,22 +1467,22 @@ document.getElementsByTagName('head')[0].appendChild(script);
 // embed and run
 
 if (conf["confIconStatus"] != "off"){
-fuMEmbedScript("/data/iconsJsonVar.js", conf["confIdEmbedScript"]);
-fuMEmbedScript("/projects/insert-icon-17/script.js", conf["confIdEmbedScript"]);
+fuMEmbedScript(confD + "data/iconsJsonVar.js", conf["confIdEmbedScript"]);
+fuMEmbedScript(confD + "projects/insert-icon-17/script.js", conf["confIdEmbedScript"]);
 }
 
 
 if (conf["confSpeedDialStatus"] != "off"){
-fuMEmbedScript(`/projects/speed-dial-58/script.js`, conf["confIdEmbedScript"]);
+fuMEmbedScript(confD + `projects/speed-dial-58/script.js`, conf["confIdEmbedScript"]);
 }
 
 if (conf["confAdsStatus"] != "off"){
-fuMEmbedScript(`/data/adsJsonVar.js`, conf["confIdEmbedScript"]);
-fuMEmbedScript(`/js/ads.js`, conf["confIdEmbedScript"]);
+fuMEmbedScript(confD + `data/adsJsonVar.js`, conf["confIdEmbedScript"]);
+fuMEmbedScript(confD + `js/ads.js`, conf["confIdEmbedScript"]);
 }
 
 if (conf["confDataCollection"] == 'not selected'){
-fuMEmbedScript(`/js/cookie-agree-popup.js`, conf["confIdEmbedScript"]);
+fuMEmbedScript(confD + `js/cookie-agree-popup.js`, conf["confIdEmbedScript"]);
 }
 
 if (conf["confDataCollection"] == 'on'){

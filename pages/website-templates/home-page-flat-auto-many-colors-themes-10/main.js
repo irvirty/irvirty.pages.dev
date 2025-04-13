@@ -531,7 +531,7 @@ if (conf["confThemeEmbed"] == 'light'){
 fuMPrintText('style', `
 <style>
 body{
-background-image: url("/img/${mBg}");
+background-image: url("../../../img/${mBg}");
 background-repeat: repeat;
 background-position: ${mRandBgPos}% ${mRandBgPos2}%;
 background-attachment: fixed;
@@ -542,7 +542,7 @@ background-attachment: fixed;
 fuMPrintText('style', `
 <style>
 body{
-background-image: url("/img/${mBgDark}");
+background-image: url("../../../img/${mBgDark}");
 background-repeat: repeat;
 background-position: ${mRandBgPos}% ${mRandBgPos2}%;
 background-attachment: fixed;

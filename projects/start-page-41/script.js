@@ -34,14 +34,17 @@ let hoursUtc = normalize(time2.getUTCHours());
 let minutesUtc = normalize(time2.getUTCMinutes());
 let secondsUtc = normalize(time2.getUTCSeconds());
 
+if (minutes == '59'&&seconds == '59'){
+document.getElementById('audio').innerHTML += `<audio style="display:none" autoplay="false" src="${confD}audio/neutral.mp3">`;
+}
 
 /*
 // sound alert
 if (minutes == '59'&&seconds == '59'){
-document.getElementById('audio').innerHTML += '<audio style="display:none" autoplay="false" src="/audio/ok.ogg">';
+document.getElementById('audio').innerHTML += `<audio style="display:none" autoplay="false" src="${confD}audio/ok.mp3">';
 }
 if (minutes == '29'&&seconds == '59'){
-document.getElementById('audio').innerHTML += '<audio style="display:none" autoplay="false" src="/audio/click.ogg">';
+document.getElementById('audio').innerHTML += `<audio style="display:none" autoplay="false" src="${confD}audio/click.mp3">`;
 }*/
 
 document.getElementById('clock').innerHTML = hours + ':' + minutes + ':' + seconds;

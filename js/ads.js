@@ -46,7 +46,7 @@ if (typeof adsJsonVar != 'undefined') { ads = ads.concat(adsJsonVar); }
 
 
 //ads = JSON.parse(adsJson);
-let adsUrlPage = fuMHideFileNameExt("/pages/ads/");
+let adsUrlPage = fuMHideFileNameExt(`${confD}pages/ads/`);
 
 if (ads != null&&ads != ''){
 

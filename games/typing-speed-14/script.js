@@ -359,9 +359,9 @@ function fuLtr(lTrTask){
 if (location.hostname == 'localhost'){
 if (lTrTask == undefined){ lTrTask = task; }
 document.getElementById("mode2").innerHTML = ' <a class="keepTag op light3 border2 borderRadius2" href="/?q=' + encodeURIComponent(lTrTask) + ' d"> tr2</a>';
-document.getElementById("mode2").innerHTML += ' <a class="keepTag op light3 border2 borderRadius2" title="translate" href="/projects/redirects-25/?q=' + encodeURIComponent(lTrTask) + ' t">tr</a>';
+document.getElementById("mode2").innerHTML += ` <a class="keepTag op light3 border2 borderRadius2" title="translate" href="${confD}projects/redirects-25/?q=` + encodeURIComponent(lTrTask) + ` t">tr</a>`;
 } else {
-document.getElementById("mode2").innerHTML = ' <a class="keepTag border2 borderRadius2" title="translate" href="/projects/redirects-25/?q=' + encodeURIComponent(lTrTask) + ' t">tr</a>';
+document.getElementById("mode2").innerHTML = ` <a class="keepTag border2 borderRadius2" title="translate" href="${confD}projects/redirects-25/?q=` + encodeURIComponent(lTrTask) + ` t">tr</a>`;
 }
 }
 
@@ -903,7 +903,7 @@ if (lastMaxInputlength == answerArr.length){ totalError++; } // only last new er
 lastEror = 'none';
 document.getElementById("text").style.borderTop = "9px solid var(--red)";
 /*if (error <= 60){
-//document.getElementById("sound").innerHTML = '<audio style="display:none" autoplay="false" src="/audio/error.mp3"></audio>'; 
+//document.getElementById("sound").innerHTML = `<audio style="display:none" autoplay="false" src="${confD}audio/error.mp3"></audio>`; 
 }*/
 
 } else {
@@ -1053,29 +1053,29 @@ acurancyProgress = ' (<span class="op gray">' + acurancyProgress + '</span>)';
 
 
 if (printMsgWin == 'win'){
-document.getElementById("sound").innerHTML = '<audio style="display:none" autoplay="false" src="/audio/win.mp3"></audio>';
+document.getElementById("sound").innerHTML = `<audio style="display:none" autoplay="false" src="${confD}audio/win.mp3"></audio>`;
 printMsgWin = 'Win';
 }
 
 if (printMsgWin == 'tie'){
-document.getElementById("sound").innerHTML = '<audio style="display:none" autoplay="false" src="/audio/ok.mp3"></audio>';
+document.getElementById("sound").innerHTML = `<audio style="display:none" autoplay="false" src="${confD}audio/ok.mp3"></audio>`;
 printMsgWin = 'Tie';
 }
 
 if (printMsgWin == 'Good result'||printMsgWin == 'tie'){
-document.getElementById("sound").innerHTML = '<audio style="display:none" autoplay="false" src="/audio/neutral.mp3"></audio>';
+document.getElementById("sound").innerHTML = `<audio style="display:none" autoplay="false" src="${confD}audio/neutral.mp3"></audio>`;
 printMsgWin = 'Good result';
 }
 
 if (printMsgWin == 'game over'){
-document.getElementById("sound").innerHTML = '<audio style="display:none" autoplay="false" src="/audio/error.mp3"></audio>';
+document.getElementById("sound").innerHTML = `<audio style="display:none" autoplay="false" src="${confD}audio/error.mp3"></audio>`;
 printMsgWin = 'The previous result is better';
 }
 
 // disable msg
 if (printMsgWin != 'win'&&printMsgWin != 'tie'){
 printMsgWin = '';
-//document.getElementById("sound").innerHTML = '<audio style="display:none" autoplay="false" src="/audio/click.mp3"></audio>';
+//document.getElementById("sound").innerHTML = `<audio style="display:none" autoplay="false" src="${confD}audio/click.mp3"></audio>`;
 }
 
 if (wpmAverageProgress == NaN){ wpmAverageProgress = 0; }

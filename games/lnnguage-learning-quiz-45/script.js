@@ -450,7 +450,7 @@ console.table(id);*/
 if(quizVal == 'true'){
 document.getElementById(id).classList.add("quizCorrect");
 document.getElementById("alert").innerHTML = `
-<audio style="display:none" autoplay="false" src="/audio/ok.mp3"></audio>
+<audio style="display:none" autoplay="false" src="${confD}audio/ok.mp3"></audio>
 `;
 
 quizResultCorrectAnswer[0]++;
@@ -461,7 +461,7 @@ if(document.getElementById(id2) != null){
 document.getElementById(id2).classList.add("quizCorrect");
 }
 document.getElementById("alert").innerHTML = `
-<audio style="display:none" autoplay="false" src="/audio/error.mp3"></audio>
+<audio style="display:none" autoplay="false" src="${confD}audio/error.mp3"></audio>
 `;
 
 quizResultWrongAnswer[0]++;
@@ -474,7 +474,7 @@ quizProgressResult = Number((quizResultCorrectAnswer * 100) / quizConfRound).toF
 if(quizProgressResult >= Number(quizConfPercentTrue)){
 winMsgTmp = `<h1 class="tCenter orange bold">Win!</h1>
 <p class="small op>${comMessagePrint}</p>
-<audio style="display:none" autoplay="false" src="/audio/win.mp3"></audio>
+<audio style="display:none" autoplay="false" src="${confD}audio/win.mp3"></audio>
 `;
 }else{
 winMsgTmp = `<h1 class="tCenter bold">End!</h1><p class="small op>${comMessagePrint}</p>`;
@@ -527,7 +527,7 @@ if(total != 0){
 if(quizAnswerCounter[0] == 0){
 quizResultWrongAnswer[0]++;
 document.getElementById("alert").innerHTML = `
-<audio style="display:none" autoplay="false" src="/audio/error.mp3"></audio>
+<audio style="display:none" autoplay="false" src="${confD}audio/error.mp3"></audio>
 `;
 }
 
@@ -555,7 +555,7 @@ quizProgressResult = Number((quizResultCorrectAnswer * 100) / quizConfRound).toF
 if(quizProgressResult >= Number(quizConfPercentTrue)){
 winMsgTmp = `<h1 class="tCenter orange bold">Win!</h1>
 <p class="small op>${comMessagePrint}</p>
-<audio style="display:none" autoplay="false" src="/audio/win.mp3"></audio>`;
+<audio style="display:none" autoplay="false" src="${confD}audio/win.mp3"></audio>`;
 
 }else{
 winMsgTmp = `<h1 class="tCenter bold">End!</h1><p class="small op>${comMessagePrint}</p>`;

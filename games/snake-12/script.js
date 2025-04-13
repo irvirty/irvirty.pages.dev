@@ -268,7 +268,7 @@ food[0] = randomIntFromInterval(1, 100);
 //document.getElementById(currentPosition[0]).innerHTML = `<square2 class="square2" style="background-color: var(--green); border: 1px solid var(--green2);">&nbsp;</square2>`;
 document.getElementById(currentPosition[0]).classList.add("snakeGreen");
 
-document.getElementById("alert").innerHTML = '<audio style="display:none" autoplay="false" src="/audio/click.mp3"></audio>'; 
+document.getElementById("alert").innerHTML = `<audio style="display:none" autoplay="false" src="${confD}audio/click.mp3"></audio>`; 
 }
 
 
@@ -298,7 +298,7 @@ darawSnake();
 function darawSnake(){
 
 if(msg == 'End'){
-document.getElementById("alert").innerHTML = '<audio style="display:none" autoplay="false" src="/audio/click.mp3"></audio>'; 
+document.getElementById("alert").innerHTML = `<audio style="display:none" autoplay="false" src="${confD}audio/click.mp3"></audio>`; 
 // colision
 msg = `<span class="red bold">${msg}</span>`;
 }
@@ -308,7 +308,7 @@ if(snakeLenght[0] == 64){
 currentDirection[0] = 'stop';
 
 msg = `<span class="orange bold">Win</span>`;
-document.getElementById("alert").innerHTML = '<audio style="display:none" autoplay="false" src="/audio/win.mp3"></audio>';
+document.getElementById("alert").innerHTML = `<audio style="display:none" autoplay="false" src="${confD}audio/win.mp3"></audio>`;
 }
 
 

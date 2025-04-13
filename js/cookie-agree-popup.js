@@ -2,11 +2,13 @@
 // if "not selected": popup
 // icons (svg) inspired by https://www.dw.com/
 
+if(String(document.location).indexOf("file://") == -1){
+
 fuMInsertHtml('#cookiePopup', '', `
 
 <div class="wrapper">
 <div class="cookiePopup post bg2 border3 margin tCenter shadow borderRadius2">
-<div class="wrapper">
+<div class="wrapper padding3">
 
 <p class="h5 bold">Allow Cookie for third parties?</p>
 
@@ -46,7 +48,8 @@ fuMInsertHtml('#cookiePopup', '', `
 
 `);
 
-fuMInsertHtml("head", "", `
+fuMInsertHtml("head", 'beforeend', `
+
 <style>
 #cookiePopup {
 position: fixed;
@@ -75,6 +78,7 @@ max-width: 130px;
 width: var(--fontSize);
 }
 </style>
+
 `);
 
 if(conf["confDataCollection"] == 'not selected'){
@@ -93,6 +97,8 @@ if(document.getElementById('fPrivacy') != null){
 document.getElementById('fPrivacy').innerText = `Cookie: ${option}`;
 }
 }
+}
+
 }
 // end Cookie Consent Popups
 

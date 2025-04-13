@@ -32,7 +32,7 @@ bottom: 20px;
 
 @media (prefers-color-scheme: light) {
 body{
-background-image: url("/img/tpl/bg.svg");
+background-image: url("../../../img/tpl/bg.svg");
 background-repeat: repeat;
 background-attachment: fixed;
 }
@@ -40,7 +40,7 @@ background-attachment: fixed;
 
 @media (prefers-color-scheme: dark) {
 body{
-background-image: url("/img/tpl/bg-dark.svg");
+background-image: url("../../../img/tpl/bg-dark.svg");
 background-repeat: repeat;
 background-attachment: fixed;
 }

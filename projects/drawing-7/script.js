@@ -242,11 +242,36 @@ context.closePath();*/
 function img(){
 
 const canvas = document.getElementById('myPics');
-const dataURL = canvas.toDataURL();
+//const dataURL = canvas.toDataURL();
+//https://developer.mozilla.org/en-US/docs/Web/API/HTMLCanvasElement/toBlob
+/*const dataURL = canvas.toBlob(function(blob){
+return URL.createObjectURL(blob);
+//console.log(blob);
+//console.log(link.href); // this line should be here
+  },'image/png');*/
+
+
 //console.log(dataURL);
 var time = Math.floor(new Date().getTime() / 1000);
- document.getElementById("img").innerHTML = '<span><a class="text button light3 borderList broderRadius2" href="'+dataURL+'" download="'+time+'">Save</a></span>'; 
+ document.getElementById("img").innerHTML = '<span><a id="download" class="text button light3 borderList broderRadius2" href="#">Download</a></span>'; 
  //<img src="'+dataURL+'" name="Flamingo" />
+
+//https://stackoverflow.com/questions/52410396/why-does-this-toblob-method-of-downloading-a-canvas-require-two-clicks-to-wor
+var link = document.getElementById("download");
+link.onclick = function() {
+  document.querySelector("canvas").toBlob(function(blob){
+    // here the conversion has finished
+    // to trigger the download (again) we use a dummy link
+    var a = document.createElement("a");
+//a.download = "image.png";
+    a.download = time + ".png";
+    a.href = URL.createObjectURL(blob);
+    a.click();
+  },
+//'image/png',
+"image/jpeg",
+0.35,);
+};
 
 
 if (xxx.style.display === "none"||xxx.style.display === "") {

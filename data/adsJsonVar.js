@@ -417,15 +417,6 @@ var adsJsonVar =
         "rightFooter": ""
     },
     {
-        "text": "Instagram",
-        "text2": "",
-        "text3": "",
-        "url": "https:\/\/www.instagram.com\/",
-        "tag": "#ads",
-        "time": 1620617819,
-        "rightFooter": ""
-    },
-    {
         "text": "Deezer | Listen to music | Online music streaming platform",
         "text2": "",
         "text3": "",

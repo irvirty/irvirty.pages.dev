@@ -105,6 +105,7 @@ dropdownButton.focus();
 }
 
 
+if (topNav != null){
 // out area click
 //https://stackoverflow.com/questions/36695438/detect-click-outside-div-using-javascript
 window.addEventListener('click', function(e){
@@ -119,6 +120,7 @@ dropdownButton.innerHTML = `☰ Menu`;
 }
 }
 });
+}
 
 function fuMDropdownButtonClose(){
 dropdownMenu.style.display = "none";

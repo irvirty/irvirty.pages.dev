@@ -43,7 +43,7 @@ case 'result':
 
 resultWinStatus = `
 <h2 class="red">Wrong!</h2>
-<audio style="display:none" autoplay="false" src="/audio/error.mp3"></audio>
+<audio style="display:none" autoplay="false" src="${confD}audio/error.mp3"></audio>
 `;
 
 let pcVariant = variantArr[fuMRandom(0, 2)];
@@ -54,7 +54,7 @@ let pcVariant = variantArr[fuMRandom(0, 2)];
 if(pcVariant == "🪨"&&selectedVal == "📄"){
 resultWinStatus = `
 <h2 class="orange">Win!</h2>
-<audio style="display:none" autoplay="false" src="/audio/ok.mp3"></audio>
+<audio style="display:none" autoplay="false" src="${confD}audio/ok.mp3"></audio>
 `;
 
 rpsGameScoreUser++;
@@ -64,7 +64,7 @@ localStorage.setItem("rpsGameScoreUser", rpsGameScoreUser);
 if(pcVariant == "📄"&&selectedVal == "✂️"){
 resultWinStatus = `
 <h2 class="orange">Win!</h2>
-<audio style="display:none" autoplay="false" src="/audio/ok.mp3"></audio>
+<audio style="display:none" autoplay="false" src="${confD}audio/ok.mp3"></audio>
 `;
 
 rpsGameScoreUser++;
@@ -74,7 +74,7 @@ localStorage.setItem("rpsGameScoreUser", rpsGameScoreUser);
 if(pcVariant == "✂️"&&selectedVal == "🪨"){
 resultWinStatus = `
 <h2 class="orange">Win!</h2>
-<audio style="display:none" autoplay="false" src="/audio/ok.mp3"></audio>
+<audio style="display:none" autoplay="false" src="${confD}audio/ok.mp3"></audio>
 `;
 
 rpsGameScoreUser++;
@@ -84,7 +84,7 @@ localStorage.setItem("rpsGameScoreUser", rpsGameScoreUser);
 if(pcVariant == selectedVal){
 resultWinStatus = `
 <h2>Tie!</h2>
-<audio style="display:none" autoplay="false" src="/audio/neutral.mp3"></audio>
+<audio style="display:none" autoplay="false" src="${confD}audio/neutral.mp3"></audio>
 `;
 }
 

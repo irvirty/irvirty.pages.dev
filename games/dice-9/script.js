@@ -63,7 +63,7 @@ var win = '';
 // small win
 if (player2 > pc2&&endGame[0] != 'end'){
 win = '<span class="orange"><b>Player Win</b></span>';
-win += '<audio style="display:none" autoplay="false" src="/audio/ok.mp3"></audio>';
+win += `<audio style="display:none" autoplay="false" src="${confD}audio/ok.mp3"></audio>`;
 colorPlayerWin = 'green';
 colorPcWin = '';
 pointsPlayer++;
@@ -72,7 +72,7 @@ pointsPlayer++;
 
 if (player2 < pc2&&endGame[0] != 'end'){
 win = '<span class="red"><b>PC Win</b></span>';
-win += '<audio style="display:none" autoplay="false" src="/audio/error.mp3"></audio>';
+win += `<audio style="display:none" autoplay="false" src="${confD}audio/error.mp3"></audio>`;
 colorPlayerWin = '';
 colorPcWin = 'red';
 pointsPc++;
@@ -80,7 +80,7 @@ pointsPc++;
 
 if (player2 == pc2&&endGame[0] != 'end'){
 win = '<span class=""><b>Tie</b></span>';
-win += '<audio style="display:none" autoplay="false" src="/audio/neutral.mp3"></audio>';
+win += `<audio style="display:none" autoplay="false" src="${confD}audio/neutral.mp3"></audio>`;
 colorPlayerWin = 'green';
 colorPcWin = 'green';
 }
@@ -90,7 +90,7 @@ colorPcWin = 'green';
 // for end game, big win
 if (pointsPlayer > pointsPc&&pointsPlayer == pointsLimit){
 win = '<span class="orange"><b>End. Player Win</b></span>';
-win += '<audio style="display:none" autoplay="false" src="/audio/win.mp3"></audio>';
+win += `<audio style="display:none" autoplay="false" src="${confD}audio/win.mp3"></audio>`;
 colorPlayerWin = 'green';
 colorPcWin = '';
 pointsPlayer = pointsPlayer;
@@ -99,7 +99,7 @@ endGame[0] = 'end';
 
 if (pointsPlayer < pointsPc&&pointsPc == pointsLimit){
 win = '<span class="red"><b>End. PC Win</b></span>';
-win += '<audio style="display:none" autoplay="false" src="/audio/game-over.mp3"></audio>';
+win += `<audio style="display:none" autoplay="false" src="${confD}audio/game-over.mp3"></audio>`;
 colorPlayerWin = '';
 colorPcWin = 'red';
 endGame[0] = 'end';
@@ -107,7 +107,7 @@ endGame[0] = 'end';
 
 if (pointsPlayer == pointsLimit&&pointsPc == pointsLimit){
 win = '<span class=""><b>Tie</b></span>';
-win += '<audio style="display:none" autoplay="false" src="/audio/neutral.mp3"></audio>';
+win += `<audio style="display:none" autoplay="false" src="${confD}audio/neutral.mp3"></audio>`;
 colorPlayerWin = 'green';
 colorPcWin = 'green';
 endGame[0] = 'end';
@@ -120,15 +120,15 @@ document.getElementById("result").innerHTML = `
 <div class="gDice">
 
 <div class="gDicePlayer">
-<div class="gDname2 `+colorPcWin+`" style="max-height: 0px;">`+pc+`</div><br>
+<div class="gDname2 ` + colorPcWin + `" style="max-height: 0px;">` + pc + `</div><br>
 <div class="gDname op">pc</div>
-<div class="gDname op">`+pointsPc+`</div>
+<div class="gDname op">` + pointsPc + `</div>
 </div>
 
 <div class="gDicePlayer">
-<div class="gDname2 `+colorPlayerWin+`" style="max-height: 0px;">`+player+`</div><br>
+<div class="gDname2 ` + colorPlayerWin + `" style="max-height: 0px;">` + player + `</div><br>
 <div class="gDname op">player</div>
-<div class="gDname op">`+pointsPlayer+`</div>
+<div class="gDname op">` + pointsPlayer + `</div>
 </div>
 
 </div>
