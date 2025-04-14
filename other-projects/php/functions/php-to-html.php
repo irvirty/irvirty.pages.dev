@@ -61,8 +61,8 @@ $name = $array[0];
 //echo "$v=$ext<br />";
 //copy all , not php (checkme mycopy)
 mycopy("$phpSiteDirectory"."$v", "$htmlSiteDirectory"."$v" , $ext);
-
-if (count(explode("includes", $v)) <= 1&&$ext == "php"){
+//echo $v."<br>";
+if (count(explode("includes/", $v)) <= 1&&$ext == "php"){
 #echo $array[0].$v.'<br />';
 
 //https://stackoverflow.com/questions/697472/php-file-get-contents-returns-failed-to-open-stream-http-request-failed
