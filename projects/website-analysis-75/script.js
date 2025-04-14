@@ -66,8 +66,7 @@ let data = [
 "text3":"1.2",
 "text4":""
 },
-
-{
+/*{
 "text":"Google check indexing",
 "text2":`https://www.google.com/search?q=site:%q2`,
 "text3":"1.2",
@@ -78,8 +77,14 @@ let data = [
 "text2":`https://www.google.com/search?q=&quot;%q2&quot;`,
 "text3":"1.2",
 "text4":""
-},
+},*/
 {
+"text":"Google",
+"text2":`https://www.google.com/search?q=%q`,
+"text3":"1.2",
+"text4":""
+},
+/*{
 "text":"Bing check indexing",
 "text2":`https://www.bing.com/search?q=site:%q2&form=somesite`,
 "text3":"1.2",
@@ -90,7 +95,39 @@ let data = [
 "text2":`https://www.bing.com/search?q=&plus;%2B%q2&form=somesite`,
 "text3":"1.2",
 "text4":""
+},*/
+{
+"text":"Bing",
+"text2":`https://www.bing.com/search?q=%q&form=somesite`,
+"text3":"1.2",
+"text4":""
 },
+{
+"text":"Reddit",
+"text2":`https://www.reddit.com/search/?q=%q`,
+"text3":"1.2",
+"text4":""
+},
+{
+"text":"Tumblr",
+"text2":`https://www.tumblr.com/search/%q2`,
+"text3":"1.2",
+"text4":""
+},
+{
+"text":"Bluesky",
+"text2":`https://bsky.app/search?q=%q`,
+"text3":"1.2",
+"text4":""
+},
+{
+"text":"Trustpilot Reviews",
+"text2":`https://www.trustpilot.com/search?query=%q`,
+"text3":"1.2",
+"text4":""
+},
+
+
 ];
 
 //https://stackoverflow.com/questions/43996959/json-sorting-by-alphabetical-order
@@ -130,20 +167,14 @@ goUrlText = goUrlText.replace("%q2", q2);
 goUrlText = goUrlText.replace("%q", q);
 
 
-
+//${val["text"]} - <span class="brand"><span id="text2${counterA}"></span></span>
 document.getElementById("result2").innerHTML += `
 
-<div class="bgList border3List borderRadius2 notUnderline">
-<a target="blank" href="${goUrl}">
-<div class="padding2 tLeft">
-${val["text"]} - <span class="brand"><span id="text2${counterA}"></span></span>
-</div>
-</a>
-</div>
+<a target="blank" class="block bgList border3List borderRadius2 notUnderline padding2 brand" href="${goUrl}">${val["text"]}</a>
 
 `;
 
-document.getElementById("text2" + counterA).innerText = goUrlText;
+//document.getElementById("text2" + counterA).innerText = goUrlText;
 
 counterA++;
 });
@@ -153,10 +184,11 @@ counterA++;
 print = ``;
 
 document.getElementById("result").innerHTML = `
-<div class="margin padding"></div>
+<!--<div class="margin padding"></div>
 Get page:
 <div class="bgList border3List borderRadius2 padding2 small">Click submit to receive the analysis
-</div>
+</div>-->
+
 `;
 
 }
@@ -189,7 +221,7 @@ text = `Response status: ${response.status}<hr>`;
 
 //text += `<div>HTMLDocument:</div><div class="padding2"></div>`;
 
-text += `
+/*text += `
 <div class="result2">
 <div class="bg padding2 borderRadius border">Name:</div>
 <div class="bg padding2 borderRadius border">Value:</div>
@@ -199,7 +231,7 @@ Comment:
 </div>
 </div>
 `;
-color = "";
+color = "";*/
 
 
 /*text += `
@@ -214,7 +246,7 @@ color = "";
 color = "";*/
 
 
-text += `
+/*text += `
 <div class="result2">
 <div class="light3 padding2 borderRadius border">charset:</div>
 <div class="light3 padding2 borderRadius border">${doc["charset"]}</div>
@@ -223,14 +255,14 @@ text += `
 </div>
 </div>
 `;
-color = "";
+color = "";*/
 
 
 color = "green";
 if (doc.title.length >= 61||doc.title.length <= 16){ color = "red"; }
 text += `
 <div class="result2">
-<div class="light3 padding2 borderRadius border">title:</div>
+<div class="light3 padding2 borderRadius border bold">title:</div>
 <div class="light3 padding2 borderRadius border">${doc.title}</div>
 <div class="light3 padding2 borderRadius border">
 <div class="${color} bold">${doc.title.length}</div>
@@ -245,7 +277,7 @@ color = "green";
 if (doc.getElementsByName("description")[0].getAttribute("content").length >= 156||doc.getElementsByName("description")[0].getAttribute("content").length <= 29){ color = "red"; }
 text += `
 <div class="result2">
-<div class="light3 padding2 borderRadius border">title:</div>
+<div class="light3 padding2 borderRadius border bold">Description:</div>
 <div class="light3 padding2 borderRadius border">${doc.getElementsByName("description")[0].getAttribute("content")}</div>
 <div class="light3 padding2 borderRadius border">
 <div class="${color} bold">${doc.getElementsByName("description")[0].getAttribute("content").length}</div>
@@ -258,7 +290,7 @@ color = "";
 
 text += `
 <div class="result2">
-<div class="light3 padding2 borderRadius border">keywords:</div>
+<div class="light3 padding2 borderRadius border bold">keywords:</div>
 <div class="light3 padding2 borderRadius border">${doc.getElementsByName("keywords")[0].getAttribute("content")}</div>
 <div class="light3 padding2 borderRadius border">
 <div class="${color} bold"></div>
@@ -274,6 +306,7 @@ document.getElementById("result").innerHTML = `
 <div class="margin padding"></div>
 Get page:
 <div class="bgList border3List borderRadius2 padding2">${text}</div>
+<div class="margin padding"></div>
 `; 
 //console.table(text);
   } catch (error) {
@@ -282,6 +315,7 @@ document.getElementById("result").innerHTML = `
 <div class="margin padding"></div>
 Get page:
 <div class="bgList border3List borderRadius2 padding2">` + error.message + `</div>
+<div class="margin padding"></div>
 `;
 
 
@@ -324,7 +358,13 @@ let data2 = [
 },
 {
 "text":"Ecograder",
-"text2":`https://ecograder.com`,
+"text2":`https://ecograder.com/`,
+"text3":"9",
+"text4":""
+},
+{
+"text":"Trustpilot Reviews: Experience the power of customer reviews",
+"text2":`https://www.trustpilot.com/`,
 "text3":"9",
 "text4":""
 },
