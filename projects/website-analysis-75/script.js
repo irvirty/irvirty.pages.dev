@@ -381,15 +381,17 @@ Other, links:
 
 data2.forEach((val, index) => {
 
-print += `
-
-<div class="bgList border3List borderRadius2 notUnderline">
+/*<div class="bgList border3List borderRadius2 notUnderline">
 <a target="blank" href="${val["text2"]}">
 <div class="padding2 tLeft">
 ${val["text"]} - <span class="brand">${val["text2"]}</span>
 </div>
 </a>
-</div>
+</div>*/
+
+print += `
+
+<a target="blank" class="block bgList border3List borderRadius2 notUnderline padding2 brand" href="${val["text2"]}">${val["text"]}</a>
 
 `;
 
