@@ -1,196 +1,80 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<!-- //https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/Implement_a_settings_page -->
-<meta charset="UTF-8">
+// v.1.0.3
 
-<meta name="robots" content="noindex, nofollow">
 
-<title>Options</title>
 
-<meta name="description" content="
-empty description.
-">
-<meta name="keywords" content="
-empty keywords, !ignoreme
-">
+// https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/Implement_a_settings_page
 
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<link rel="stylesheet" type="text/css" href="main.css">
-<link rel="stylesheet" type="text/css" href="auto.css">
-<link rel="stylesheet" type="text/css" href="style.css">
+//store set item
+//https://news.ycombinator.com/item?id=25218240
 
 
-<link rel="preload" href="options.js" as="script"> 
 
-</head>
+function saveOptions(e) {
+e.preventDefault();
 
-<body>
+let dataUrlRedirectListArr = [];
 
 
-<div class="content">
-<div class="wrapper2">
+if(document.querySelectorAll('.classUrlFirst') != undefined){
+let getData = document.querySelectorAll('.classUrlFirst');
+getData.forEach((item, index) => {
+let urlFirst33 = document.getElementsByClassName("classUrlFirst")[index].value;
+let urlSecond33 = document.getElementsByClassName("classUrlSecond")[index].value;
+dataUrlRedirectListArr.push({'urlFirst':urlFirst33, 'urlSecond':urlSecond33});
+});
 
-<div class="block padding"></div>
-<a class="block tCenter padding brand" target="_blank" href="options.html">⚙️ Settings (in new window)</a>
+//https://stackoverflow.com/questions/23728626/localstorage-and-json-stringify-json-parse
+//browser.storage.sync.set({
+//browser.storage.local.set({
+chrome.storage.local.set({
+    dataUrlRedirectList: JSON.stringify(dataUrlRedirectListArr)
+  });
+//document.querySelector("#msg").innerHTML = 'status: '+document.querySelector("#q").value;
 
+}
 
-<form>
 
-<div class="grid">
 
-<div>Redirect from the first URL:</div>
-<div>To the second URL:</div>
 
-<!-- 5 -->
-<input class="classUrlFirst padding" type="text" autocomplete="off">
-<input class="classUrlSecond padding" type="text" autocomplete="off">
+}
 
-<input class="classUrlFirst padding" type="text" autocomplete="off">
-<input class="classUrlSecond padding" type="text" autocomplete="off">
 
-<input class="classUrlFirst padding" type="text" autocomplete="off">
-<input class="classUrlSecond padding" type="text" autocomplete="off">
 
-<input class="classUrlFirst padding" type="text" autocomplete="off">
-<input class="classUrlSecond padding" type="text" autocomplete="off">
 
-<input class="classUrlFirst padding" type="text" autocomplete="off">
-<input class="classUrlSecond padding" type="text" autocomplete="off">
 
+function restoreOptions() {
 
-<!-- 5 -->
-<!--
-<input class="classUrlFirst padding" type="text" autocomplete="off">
-<input class="classUrlSecond padding" type="text" autocomplete="off">
+function setCurrentChoice(result) {
+//document.querySelector("#q").value = result.rUrl || "https://example.com";
+//document.querySelector("#q").value = result.rUrl || "";
 
-<input class="classUrlFirst padding" type="text" autocomplete="off">
-<input class="classUrlSecond padding" type="text" autocomplete="off">
+if(result.dataUrlRedirectList){
+var getData =  JSON.parse(result.dataUrlRedirectList);
 
-<input class="classUrlFirst padding" type="text" autocomplete="off">
-<input class="classUrlSecond padding" type="text" autocomplete="off">
 
-<input class="classUrlFirst padding" type="text" autocomplete="off">
-<input class="classUrlSecond padding" type="text" autocomplete="off">
+getData.forEach((item, index) => {
+if(index != undefined&&index != "undefined"){
+document.getElementsByClassName("classUrlFirst")[index].value = getData[index].urlFirst;
+document.getElementsByClassName("classUrlSecond")[index].value =  getData[index].urlSecond;
+}
+});
 
-<input class="classUrlFirst padding" type="text" autocomplete="off">
-<input class="classUrlSecond padding" type="text" autocomplete="off">
--->
-</div>
-<div class="margin"></div>
-<input class="submit" type="submit">
-<div class="padding2"></div>
-<input class="submit button w100" type="reset">
-<div class="padding2"></div>
+}
+}
 
-<!-- more -->
+function onError(error) {
+console.log(`Error: ${error}`);
+}
 
-<!--<details>
-<summary class="tRight small" style="cursor: pointer;">Notes (in test):</summary>
-<div class="block padding2 shadow small"><span class="pre">
-You can use this "*" symbol in the first URL.
-</span></div>
-</details>-->
+//let getting = browser.storage.sync.get("dataUrlRedirectList");
+//let getting = browser.storage.local.get("dataUrlRedirectList");
+let getting = chrome.storage.local.get("dataUrlRedirectList");
+getting.then(setCurrentChoice, onError);
 
-<div class="margin"></div>
+}
 
-<details>
+document.addEventListener("DOMContentLoaded", restoreOptions);
+document.querySelector("form").addEventListener("submit", saveOptions);
 
-<summary class="padding brand" style="cursor: pointer;">↓ more input ↓ / <a class="padding brand" target="_blank" href="options.html">⚙️ Settings (in new window)</a></summary>
 
-<div class="grid">
-
-
-<!-- 5 -->
-<input class="classUrlFirst padding" type="text" autocomplete="off">
-<input class="classUrlSecond padding" type="text" autocomplete="off">
-
-<input id="anchor" class="classUrlFirst padding" type="text" autocomplete="off">
-<input class="classUrlSecond padding" type="text" autocomplete="off">
-
-<input class="classUrlFirst padding" type="text" autocomplete="off">
-<input class="classUrlSecond padding" type="text" autocomplete="off">
-
-<input class="classUrlFirst padding" type="text" autocomplete="off">
-<input class="classUrlSecond padding" type="text" autocomplete="off">
-
-<input class="classUrlFirst padding" type="text" autocomplete="off">
-<input class="classUrlSecond padding" type="text" autocomplete="off">
-
-
-<!-- 5 -->
-<input class="classUrlFirst padding" type="text" autocomplete="off">
-<input class="classUrlSecond padding" type="text" autocomplete="off">
-
-<input class="classUrlFirst padding" type="text" autocomplete="off">
-<input class="classUrlSecond padding" type="text" autocomplete="off">
-
-<input class="classUrlFirst padding" type="text" autocomplete="off">
-<input class="classUrlSecond padding" type="text" autocomplete="off">
-
-<input class="classUrlFirst padding" type="text" autocomplete="off">
-<input class="classUrlSecond padding" type="text" autocomplete="off">
-
-<input class="classUrlFirst padding" type="text" autocomplete="off">
-<input class="classUrlSecond padding" type="text" autocomplete="off">
-
-
-
-<!-- 5 -->
-<input class="classUrlFirst padding" type="text" autocomplete="off">
-<input class="classUrlSecond padding" type="text" autocomplete="off">
-
-<input class="classUrlFirst padding" type="text" autocomplete="off">
-<input class="classUrlSecond padding" type="text" autocomplete="off">
-
-<input class="classUrlFirst padding" type="text" autocomplete="off">
-<input class="classUrlSecond padding" type="text" autocomplete="off">
-
-<input class="classUrlFirst padding" type="text" autocomplete="off">
-<input class="classUrlSecond padding" type="text" autocomplete="off">
-
-<input class="classUrlFirst padding" type="text" autocomplete="off">
-<input class="classUrlSecond padding" type="text" autocomplete="off">
-
-
-<!-- 5 -->
-<input class="classUrlFirst padding" type="text" autocomplete="off">
-<input class="classUrlSecond padding" type="text" autocomplete="off">
-
-<input class="classUrlFirst padding" type="text" autocomplete="off">
-<input class="classUrlSecond padding" type="text" autocomplete="off">
-
-<input class="classUrlFirst padding" type="text" autocomplete="off">
-<input class="classUrlSecond padding" type="text" autocomplete="off">
-
-<input class="classUrlFirst padding" type="text" autocomplete="off">
-<input class="classUrlSecond padding" type="text" autocomplete="off">
-
-<input class="classUrlFirst padding" type="text" autocomplete="off">
-<input class="classUrlSecond padding" type="text" autocomplete="off">
-
-</div>
-
-<input class="submit" type="submit">
-
-</details>
-<!-- end more -->
-
-
-</form>
-
-</div>
-</div>
-
-<div class="padding2 margin2"></div>
-
-<!--
-<footer>
-
-</footer>
--->
-    <script src="options.js"></script>
-
-  </body>
-</html>

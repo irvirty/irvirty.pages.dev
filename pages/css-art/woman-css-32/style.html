@@ -1,0 +1,360 @@
+/* v.1.1.0 */
+
+:root{
+--lDrawingBg: #C6DCF3;
+--lFace: #FFD68A;
+--lHair: #7D5791;
+--lHair2: #A06FBA;
+--lGlass: #000;
+--lNose: #BE9A57;
+--lLip: #B84242;
+--lBody: #E24C4C;
+--lNeck: #F0C982;
+--lHand: #933434;
+--lLaptop: #F2F2F2;
+--lLaptop2: #323232;
+}
+
+
+.content {
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+/*height: 100vh;*/
+}
+
+
+.lDrawing {
+width: 70%;
+max-width: 400px;
+aspect-ratio: 1 / 1;
+margin: 0 auto;
+position: relative;
+background: var(--lDrawingBg);
+}
+
+
+
+
+.lHair, .lHair2, .lHair3 {
+width: 29%;
+height: 36%;
+position: absolute;
+border-radius: 42%;
+
+top: 24%;
+left: 50%;
+transform: translate(-50%, -50%);
+
+background: var(--lHair);
+}
+
+
+.lHair2 {
+width: 2%;
+height: 15%;
+z-index: 2;
+border-radius: 50%;
+transform: rotate(25deg);
+
+top: 10%;
+left: 40%;
+
+background: var(--lHair2);
+
+z-index: 5;
+}
+
+.lHair3 {
+width: 15%;
+height: 7%;
+z-index: 2;
+border-radius: 30%;
+transform: rotate(5deg);
+
+top: 12%;
+left: 39%;
+
+background: var(--lHair);
+z-index: 4;
+}
+
+
+
+
+
+
+
+.lFace {
+width: 20%;
+height: 25%;
+position: absolute;
+border-radius: 50%;
+
+top: 30%;
+left: 50%;
+transform: translate(-50%, -50%);
+z-index: 3;
+
+background: var(--lNose);
+}
+
+.lFace::before {
+content: '';
+width: 100%;
+height: 100%;
+position: absolute;
+border-radius: 45%;
+
+top: -5%;
+left: 0;
+
+background: var(--lFace);
+}
+
+
+
+
+
+
+.lGlass, .lEye {
+width: 100%;
+height: 100%;
+position: absolute;
+z-index: 5;
+}
+
+.lGlass::before, .lGlass::after, .lEye::before, .lEye::after {
+content: '';
+width: 6.5%;
+height: 4%;
+border-radius: 25%;
+
+position: absolute;
+left: 45%;
+top: 23%;
+transform: translate(-50%, -50%);
+background: var(--lGlass);
+z-index: 5;
+}
+
+.lGlass::after {
+left: 55%;
+}
+
+.lGlass::before, .lGlass::after {
+background: transparent;
+border: solid #000;
+}
+
+.lGlassLeft, .lGlassRight, .lGlassCenter {
+content: '';
+width: 1%;
+height: 3px;
+border-radius: 25%;
+
+position: absolute;
+left: 40.5%;
+top: 22%;
+transform: rotate(15deg);
+
+background: var(--lGlass);
+
+z-index: 5;
+}
+
+.lGlassRight {
+left: 58.5%;
+transform: rotate(-15deg);
+}
+
+.lGlassCenter {
+width: 3%;
+top: 22.5%;
+left: 48.5%;
+transform: rotate(0);
+}
+
+
+
+
+
+
+.lEye::before, .lEye::after {
+width: 2%;
+height: 2%;
+border-radius: 45%;
+background: #000;
+}
+
+.lEye::after {
+left: 55%;
+}
+
+
+
+
+
+.lNose, .lNose::before, .lLip {
+content: '';
+width: 4%;
+height: 3%;
+
+position: absolute;
+left: 50%;
+top: 28%;
+transform: translate(-50%, -50%);
+
+border-radius: 50%;
+
+background: var(--lNose);
+
+z-index: 5;
+}
+
+.lNose::before {
+width: 100%;
+height: 80%;
+border-radius: 40%;
+background: var(--lFace);
+}
+
+
+
+
+
+.lLip, .lLip::before {
+top: 36%;
+width: 4.7%;
+height: 2%;
+
+background: var(--lLip);
+}
+
+.lLip::before {
+content: '';
+position: absolute;
+top: -75%;
+left: 0;
+width: 100%;
+height: 100%;
+clip-path: polygon(50% 100%, 0 0, 100% 0);
+
+background: var(--lFace);
+}
+
+
+.lNeck {
+width: 10%;
+height: 8%;
+border-radius: 50%;
+
+position: absolute;
+top: 45%;
+left: 50%;
+transform: translate(-50%, -50%);
+
+z-index: 2;
+clip-path: polygon(20% 0%, 80% 0%, 100% 100%, 0% 100%);
+
+background: var(--lNeck);
+}
+
+.lNeck2 {
+width: 20%;
+height: 5%;
+border-radius: 50%;
+
+position: absolute;
+top: 46.5%;
+left: 50%;
+transform: translate(-50%, -50%);
+
+z-index: 2;
+
+background: var(--lNeck);
+}
+
+
+
+
+.lBody {
+width: 46%;
+height: 35%;
+border-radius: 30%;
+
+position: absolute;
+top: 63%;
+left: 50%;
+transform: translate(-50%, -50%);
+
+z-index: 1;
+
+background: var(--lBody);
+}
+
+
+
+
+
+
+.lHandLeft, .lHandRight {
+width: 1%;
+height: 20%;
+
+position: absolute;
+top: 65%;
+left: 52%;
+transform: translate(-50%, -50%);
+
+z-index: 1;
+
+background: var(--lHand);
+}
+
+.lHandLeft {
+left: 35%;
+}
+
+.lHandRight {
+left: 65%;
+}
+
+
+
+.lLaptop {
+width: 47%;
+height: 27%;
+position: absolute;
+top: 70%;
+border-radius: 5%;
+
+top: 60%;
+left: 33%;
+
+
+background: var(--lLaptop);
+
+z-index: 5;
+}
+
+.lLaptop2 {
+width: 40%;
+height: 7%;
+position: absolute;
+top: 75%;
+border-radius: 5%;
+
+top: 79.5%;
+left: 30%;
+
+transform: skew(40deg, 0);
+
+background: var(--lLaptop2);
+
+z-index: 4;
+}
+
+
+

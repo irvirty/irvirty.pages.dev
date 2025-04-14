@@ -1,0 +1,116 @@
+/* v.2.0.5 */
+/* need fix styel error */
+
+
+.content {
+display: flex;
+flex-direction: column;
+justify-content: center;
+box-sizing: border-box;
+margin: 0 auto;
+margin-bottom: 0;
+overflow: hidden;
+}
+
+
+.localBg {
+display: block;
+height: 100%;
+width: 100%;
+position: absolute;
+overflow: hidden;
+top: 0;
+left: 0;
+z-index: -2;
+
+background-image: url('circle.svg');
+background-size: 100%;
+background-repeat: no-repeat;
+}
+
+.localBg2 {
+display: block;
+width: 100%;
+height: 100%;
+position: absolute;
+overflow: hidden;
+left: 0;
+bottom: 0;
+z-index: -2;
+
+background-image: url('coffee.svg');
+background-size: 20%;
+background-position: bottom 5vh left 5vw;
+background-repeat: no-repeat;
+}
+
+@media (prefers-color-scheme: dark) {
+.localBg, .localBg2 { opacity: 0.5; }
+}
+
+
+
+.localName, .localDesc, .localLink {
+display: block;
+margin-bottom: 25px;
+letter-spacing: 1px;
+}
+
+.localName {
+font-size: 24px;
+}
+
+.localDesc {
+font-size: 18px;
+}
+
+.localLink a {
+display: inline-block;
+font-size: 14px;
+padding: 7px;
+padding-left: 0;
+}
+
+.localName::first-letter, .localDesc::first-letter {
+color: var(--orange);
+font-weight: 900;
+border-bottom: 3px solid var(--orange);
+}
+
+
+
+/*@media(max-width: 512px) { .profilePhoto { background-size: cover; } }*/
+
+.localProfile {
+width: 100%;
+text-align: left;
+border-bottom: 5px dotted var(--c);
+border-radius: 0 0 10% 0;
+}
+/*.localProfile span { display: inline-block; padding: 10px; }*/
+
+@media (prefers-color-scheme: light) {
+body{
+background-image: url("../../../img/tpl/bg.svg");
+background-repeat: repeat;
+background-attachment: fixed;
+}
+}
+
+@media (prefers-color-scheme: dark) {
+body{
+background-image: url("../../../img/tpl/bg-dark.svg");
+background-repeat: repeat;
+background-attachment: fixed;
+}
+}
+
+
+/* fix */
+.content { position: relative; width: 100%; max-width: 1000px; margin: 0 auto; }
+
+
+
+
+
+

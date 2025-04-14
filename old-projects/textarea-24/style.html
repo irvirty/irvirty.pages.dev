@@ -1,0 +1,37 @@
+/* 1.0.7 */
+
+textarea, input[type=submit]{ margin: 0; border-radius: 0; }
+
+html, body { height: 100%; /* fix mobile */ /* margin: 0; padding: 0;*/ /*overflow: hidden;*/ }
+
+form { height: 100%; position: relative; }
+
+
+textarea {
+height: 90vh;
+height: 100%;
+min-height: 80vh;
+padding: 3%;
+z-index: 2;
+}
+
+
+input[type=submit]{
+height: 10vh;
+min-height: 10vh;
+max-height: 10vh;
+position: absolute;
+bottom: 0;
+left: 0;
+z-index: 1;
+padding: 3%;
+}
+
+.textAnav {
+position: absolute;
+right: 10px;
+bottom: 5px;
+z-index: 2;
+}
+
+/* fixMe firefox mobile height and scroll */

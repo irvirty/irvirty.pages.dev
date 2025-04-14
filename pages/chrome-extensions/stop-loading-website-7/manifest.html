@@ -1,0 +1,42 @@
+{
+
+"manifest_version": 3,
+"name": "Stop loading website",
+"version": "1.3.1",
+"description": "Stop loading the site from the specified list of sites in the extension settings. The extension works based on how the browser's stop button works.",
+
+"icons": {
+  "512": "icon512x512.png"
+},
+
+"permissions":
+[
+"activeTab",
+"storage"
+],
+
+"content_scripts": [
+{
+"js": ["script.js"],
+"matches": ["<all_urls>", "*://*/*"],
+"run_at": "document_start",
+"all_frames": false
+}
+],
+
+"options_ui": {
+"page": "options.html"
+},
+
+
+"action": {
+"default_popup": "options.html",
+"default_icon": {
+"512": "icon512x512.png"
+}
+}
+
+
+
+
+}

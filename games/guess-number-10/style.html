@@ -1,0 +1,40 @@
+/* v.1.0.2 */
+/* comment */
+
+
+input[type="number"] { margin: 0 auto; width: 100%; }
+
+#gameResult { min-height: 100px; }
+
+/*https://stackoverflow.com/questions/30950891/how-to-display-red-borders-on-required-or-invalid-value-input-element-in-chrome*/
+input[type="number"]:invalid {
+color: var(--red);
+}
+/*
+input[type="number"]:valid {
+color: var(--green);
+}*/
+
+.buttonPlusMinus {
+display: grid;
+/*grid-template-areas: "a a a a a";*/
+/*grid-template-columns: repeat(4, 1fr);*/
+grid-template-columns: repeat(auto-fill, minmax(50%, max-content));
+/*grid-auto-columns: 1fr;*/
+grid-gap: 0;
+margin: 0 auto;
+justify-content: center;
+}
+
+@media(max-width: 150px) { .menu { display: block; width: 100%; }}
+
+.buttonPlusMinus a{
+display: flex;
+justify-content: center;
+align-content: center;
+text-transform: lowercase;
+padding: 7px 12px;
+margin:0;
+text-wrap: balance;
+text-align: center;
+}

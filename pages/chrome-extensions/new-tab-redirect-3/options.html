@@ -1,53 +1,50 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<!-- //https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/Implement_a_settings_page -->
-<meta charset="UTF-8">
-
-<meta name="robots" content="noindex, nofollow">
-
-<title>Options</title>
-
-<meta name="description" content="
-empty description.
-">
-<meta name="keywords" content="
-empty keywords, !ignoreme
-">
-
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-<link rel="stylesheet" type="text/css" href="main.css">
-<link rel="stylesheet" type="text/css" href="style.css">
-<link rel="stylesheet" type="text/css" href="auto.css">
-
-<link rel="preload" href="options.js" as="script"> 
-
-</head>
-
-<body>
+// v.1.0.3
 
 
-<main class="contentCenter">
-<div class="wrapper">
 
-<!--<div id="msg" class=" tCenter orange padding bg3 border">status</div>-->
+//https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/Implement_a_settings_page
 
-<form>
-<label for="rUrl">Website URL:</label>
-<input class="padding2" type="text" id="q" name="q" placeholder="example: https://example.com/" autocomplete="off" autofocus="autofocus">
-<input class="submit" type="submit">
-</form>
 
-</div>
-</main>
+//store local
+//https://news.ycombinator.com/item?id=25218240
 
-<footer>
-<div class="margin padding"></div>
-<div class="tCenter"><a class="block tCenter padding brand" target="_blank" href="options.html">⚙️ Settings (in new tab)</a></div>
-<div class="margin padding"></div>
-</footer>
+function saveOptions(e) {
 
-<script src="options.js"></script>
-</body>
-</html>
+//browser.storage.sync.set({
+//browser.storage.local.set({
+chrome.storage.local.set({
+
+    rUrl: document.querySelector("#q").value
+  });
+//document.querySelector("#msg").innerHTML = 'status: '+document.querySelector("#q").value;
+e.preventDefault();
+}
+
+function setCurrentChoice(result) {
+// document.querySelector("#q").value = result.rUrl || "https://example.com";
+document.querySelector("#q").value = result.rUrl || "";
+}
+
+function onError(error) {
+console.log(`Error: ${error}`);
+}
+
+function restoreOptions(){
+//let getting = browser.storage.sync.get("rUrl");
+let getting = chrome.storage.local.get("rUrl");
+getting.then(setCurrentChoice, onError);
+}
+
+//document.addEventListener("DOMContentLoaded", restoreOptions);
+//document.addEventListener("load", restoreOptions);
+//document.querySelector("form").addEventListener("submit", saveOptions);
+
+
+//document.addEventListener("DOMContentLoaded", restoreOptions);
+//document.addEventListener("load", restoreOptions);
+
+
+document.addEventListener("DOMContentLoaded", restoreOptions);
+document.querySelector("form").addEventListener("submit", saveOptions);
+
+

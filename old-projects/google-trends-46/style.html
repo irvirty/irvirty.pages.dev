@@ -1,0 +1,16 @@
+/* v.1.0.0 */
+/* comment */
+
+/*
+.lWidget { columns: 2; }
+
+@media(max-width: 600px){ .lWidget { columns: 1; } }*/
+
+.lWidget {
+display: grid;
+grid-template-columns: repeat(2, 1fr);
+gap: 10px;
+grid-auto-rows: minmax(100px, auto);
+}
+
+@media(max-width: 600px){ .lWidget { grid-template-columns: repeat(1, 1fr); } }
