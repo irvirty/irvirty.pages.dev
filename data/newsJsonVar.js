@@ -3,6 +3,16 @@ var newsJsonVar =
 
 [
     {
+        "id": "27",
+        "text": "ChatGPT just passed the Turing test. But that doesn\u2019t mean AI is now as smart as humans",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/theconversation.com\/chatgpt-just-passed-the-turing-test-but-that-doesnt-mean-ai-is-now-as-smart-as-humans-253946",
+        "tag": "#AI #AGI",
+        "time": 1744634711,
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/news\/?id=27\">id<\/a>"
+    },
+    {
         "id": "26",
         "text": "Firefox: \"Tabs moved to the side. Screen space reclaimed. The new Firefox sidebar helps you focus, stay organized, and keep the stuff you actually use close by (all thanks to you \ud83d\udd25) mzl.la\/3FOgtFj\" \u2014 Bluesky",
         "text2": "",
