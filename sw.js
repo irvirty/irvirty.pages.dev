@@ -1,5 +1,5 @@
 
-//var myCacheVersion = "v.1.2.2025.04.14";
+//var myCacheVersion = "v.1.2.2025.04.15";
 
 
 
@@ -70,7 +70,7 @@ function swJsInstallFiles(){
 //https://stackoverflow.com/questions/66529102/uncaught-in-promise-typeerror-failed-to-execute-cache-on-addall-request
 //https://github.com/mdn/pwa-examples
 self.addEventListener('install', (e) => {
-e.waitUntil(caches.open("v.1.2.2025.04.14").then((cache) => cache.addAll(fileListArrFound)),);
+e.waitUntil(caches.open("v.1.2.2025.04.15").then((cache) => cache.addAll(fileListArrFound)),);
 });*/
 
 
@@ -365,7 +365,8 @@ var fileListArr = ["/404.html",
 "/js/",
 "/js/backup.txt.js",
 "/js/cookie-agree-popup.js",
-"/js/fuPostTime.js",
+"/js/fu-post-time.js",
+"/js/fu-symbol-counter.js",
 "/js/main.js",
 "/js/script.js",
 "/js/settings-options.js",
@@ -620,6 +621,8 @@ var fileListArr = ["/404.html",
 "/pages/css-art/woman-css-32/style.css",
 "/pages/data-page/index.html",
 "/pages/data-page/",
+"/pages/data-page-other/index.html",
+"/pages/data-page-other/",
 "/pages/firefox-extensions/auto-theme-switcher-8/auto.css",
 "/pages/firefox-extensions/",
 "/pages/firefox-extensions/auto-theme-switcher-8/",
@@ -932,8 +935,6 @@ var fileListArr = ["/404.html",
 "/pages/news/",
 "/pages/notes/index.html",
 "/pages/notes/",
-"/pages/other-data-page/index.html",
-"/pages/other-data-page/",
 "/pages/photos/2024/branch-10.jpg",
 "/pages/photos/",
 "/pages/photos/2024/",
@@ -1163,10 +1164,6 @@ var fileListArr = ["/404.html",
 "/projects/color-picker-4/",
 "/projects/color-picker-4/script.js",
 "/projects/color-picker-4/style.css",
-"/projects/count-symbol-39/index.html",
-"/projects/count-symbol-39/",
-"/projects/count-symbol-39/script.js",
-"/projects/count-symbol-39/style.css",
 "/projects/demo-test-style-class-5/index.html",
 "/projects/demo-test-style-class-5/",
 "/projects/demo-test-style-class-5/script.js",
@@ -1295,6 +1292,10 @@ var fileListArr = ["/404.html",
 "/projects/start-page-41/",
 "/projects/start-page-41/script.js",
 "/projects/start-page-41/style.css",
+"/projects/symbol-counter-39/index.html",
+"/projects/symbol-counter-39/",
+"/projects/symbol-counter-39/script.js",
+"/projects/symbol-counter-39/style.css",
 "/projects/tag-cloud-79/index.html",
 "/projects/tag-cloud-79/",
 "/projects/tag-cloud-79/script.js",
@@ -1429,7 +1430,7 @@ if (res.ok) {
 // file is present at URL
 console.log('try cache.add ' + file);
 //https://web.dev/learn/pwa/caching/
-caches.open("v.1.2.2025.04.14")
+caches.open("v.1.2.2025.04.15")
 .then(cache => {
 cache.add(file); // it stores only one resource
 //  cache.addAll(["styles.css", "app.js"]); // it stores two resources
@@ -1455,7 +1456,7 @@ if (res.ok) {
 // file is present at URL
 console.log('try cache.add ' + newFile);
 //https://web.dev/learn/pwa/caching/
-caches.open("v.1.2.2025.04.14")
+caches.open("v.1.2.2025.04.15")
 .then(cache => {
 cache.add(newFile); // it stores only one resource
 //  cache.addAll(["styles.css", "app.js"]); // it stores two resources
@@ -1488,7 +1489,7 @@ console.log('404 not found ' + newFile);
 // rm old cache
 //https://developer.mozilla.org/en-US/docs/Web/API/CacheStorage/delete
 this.addEventListener("activate", (event) => {
-  const cachesToKeep = ["v.1.2.2025.04.14"];
+  const cachesToKeep = ["v.1.2.2025.04.15"];
 
   event.waitUntil(
     caches.keys().then((keyList) =>

@@ -1,4 +1,4 @@
-// v.1.0.1
+// Count symbol v.1.0.1
 
 
 var print = `

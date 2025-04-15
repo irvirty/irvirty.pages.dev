@@ -1,4 +1,4 @@
-// Start page v.1.2.0
+// Start page v.1.2.1
 
 
 // time v.1.4.4
@@ -34,9 +34,9 @@ let hoursUtc = normalize(time2.getUTCHours());
 let minutesUtc = normalize(time2.getUTCMinutes());
 let secondsUtc = normalize(time2.getUTCSeconds());
 
-if (minutes == '59'&&seconds == '59'){
+/*if (minutes == '59'&&seconds == '59'){
 document.getElementById('audio').innerHTML += `<audio style="display:none" autoplay="false" src="${confD}audio/neutral.mp3">`;
-}
+}*/
 
 /*
 // sound alert

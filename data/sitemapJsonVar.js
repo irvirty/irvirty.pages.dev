@@ -203,17 +203,17 @@ var sitemapJsonVar = [
         "time": "id"
     },
     {
-        "text": "Count Symbol\n\nA very simple counter of letters or symbols in the text. Additionally, a word counter has been added. Word calculator. | count symbol: ",
-        "url": "\/projects\/count-symbol-39\/index.html",
-        "tag": " #symbol #counter #count #calculator #tool #symbol #word #symbols #words #JavaScript #project",
-        "id": "c13ebf133b3b7e9dfe7288b2cc9b457c",
-        "time": "id"
-    },
-    {
         "text": "Data page\n\nThe data files used on the site. | data page: ",
         "url": "\/pages\/data-page\/index.html",
         "tag": " #data_file #data #file #list #page #main",
         "id": "be30635a57ec5d2193a14966ee4e380e",
+        "time": "id"
+    },
+    {
+        "text": "Data page other\n\nOther files with data. | data page other: ",
+        "url": "\/pages\/data-page-other\/index.html",
+        "tag": " #data #data_file #file #list #page #main",
+        "id": "d36b086784554b1097124d69999b1fc4",
         "time": "id"
     },
     {
@@ -452,13 +452,6 @@ var sitemapJsonVar = [
         "url": "\/old-projects\/index.html",
         "tag": " #old #menu #list #page #main",
         "id": "43780d3a2602dc63f9e4fcfa1d04428c",
-        "time": "id"
-    },
-    {
-        "text": "Other data page\n\nOther files with data. | other data page: ",
-        "url": "\/pages\/other-data-page\/index.html",
-        "tag": " #data #data_file #file #list #page #main",
-        "id": "ab297733ea13bcbc6e334fa348818c3b",
         "time": "id"
     },
     {
@@ -718,6 +711,13 @@ var sitemapJsonVar = [
         "url": "\/mini-projects\/sun-and-moon-css-31\/index.html",
         "tag": " #Sun #moon #HTML #CSS #project",
         "id": "76e8cc1ccb4529fb7d83b68e85ba0ced",
+        "time": "id"
+    },
+    {
+        "text": "Symbol counter\n\nA very simple counter of letters or symbols in the text. Additionally, a word counter has been added. Word calculator. | symbol counter: ",
+        "url": "\/projects\/symbol-counter-39\/index.html",
+        "tag": " #symbol #counter #count #calculator #tool #symbol #word #symbols #words #JavaScript #project",
+        "id": "42e297c9b17bc402ea1e5949c9fb11a5",
         "time": "id"
     },
     {
