@@ -491,7 +491,7 @@ urlList = [
 "https://www.reddit.com/r/news/",
 "https://www.reddit.com/r/worldnews/",
 "https://flipboard.com/topic/news",
-"https://wikinews.org/wiki/",
+//"https://wikinews.org/wiki/",
 ];
 }
 random = urlList[fuMRandom(0, urlList.length - 1)];

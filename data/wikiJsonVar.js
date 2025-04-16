@@ -3,6 +3,16 @@ var wikiJsonVar =
 
 [
     {
+        "id": "146",
+        "text": "Mind - Wikipedia",
+        "text2": "The mind is that which thinks, feels, perceives, imagines, remembers, and wills. It covers the totality of mental phenomena, including both conscious processes, through which an individual is aware of external and internal circumstances, and unconscious processes, which can influence an individual without intention or awareness. The mind plays a central role in most aspects of human life but its exact nature is disputed. Some characterizations focus on internal aspects, saying that the mind transforms information and is not directly accessible to outside observers. Others stress its relation to outward conduct, understanding mental phenomena as dispositions to engage in observable behavior.",
+        "text3": "",
+        "url": "https:\/\/en.wikipedia.org\/wiki\/Mind",
+        "tag": "#word",
+        "time": 1744773033,
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/wiki\/?id=146\">id<\/a>"
+    },
+    {
         "id": "145",
         "text": "Content management system - Wikipedia",
         "text2": "A content management system (CMS) is computer software used to manage the creation and modification of digital content (content management).[1][2][3] A CMS is typically used for enterprise content management (ECM) and web content management (WCM). ECM typically supports multiple users in a collaborative environment,[4][5] by integrating document management, digital asset management, and record retention.[4] Alternatively, WCM is the collaborative authoring for websites and may include text and embed graphics, photos, video, audio, maps, and program code that display content and interact with the user.[6][7] ECM typically includes a WCM function.",

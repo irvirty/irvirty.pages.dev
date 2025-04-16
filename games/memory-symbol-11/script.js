@@ -219,7 +219,7 @@ result = '';
 
 
 
-//print = `<button  class="op light button border small">history</button>`;
+//print = `<button  class="op light memButton border small">history</button>`;
 document.getElementById('inputHistory').innerHTML = print;
 result = '';
 
@@ -244,7 +244,7 @@ if(item == '*') { item = '&nbsp;'; }
 //console.log(item);
 if(item == undefined){ print += ''; } else {
 //print += '<button  id="'+index+'" class="light button border" value="">'+index+item+'</button>';
-print += `<button  id="`+index+`" class="light3 button border" onclick="main('`+index+`')">`+item+`</button>`;
+print += `<button  id="`+index+`" class="light3 memButton border" onclick="main('`+index+`')">`+item+`</button>`;
 //document.getElementById(index).innerHTML =  item;
 }
 
@@ -262,7 +262,7 @@ aaa.forEach(myFunction15);
 function myFunction15(item, index) {
 if(item == '*') { item = '&nbsp;'; }
 if(item == undefined){ print += ''; } else {
-//print += '<button class="light3 button border2">'+item+'</button>';
+//print += '<button class="light3 memButton border2">'+item+'</button>';
 document.getElementById(index).innerHTML =  item;
 }
 if(maintl <= 10){
@@ -278,7 +278,7 @@ aaa.forEach(myFunction33);
 function myFunction33(index, item) {
 //if(item == undefined){ print += ''; } else {}
 
-//print += `<button  class="op light button border2">`+symbol[index]+`</button>`;
+//print += `<button  class="op light memButton border2">`+symbol[index]+`</button>`;
 }
 }
 
