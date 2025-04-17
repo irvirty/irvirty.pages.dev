@@ -1127,7 +1127,7 @@ urlList = [
 ];
 if (q == ''){
 urlList = [
-"https://www.search.seznam.cz/",
+"https://search.seznam.cz/",
 ];
 }
 random = urlList[fuMRandom(0, urlList.length - 1)];
@@ -1426,14 +1426,14 @@ q = q3.replace(qCom, '');
 q = q.trim();
 q = encodeURIComponent(q);
 urlList = [
-"https://search.seznam.cz/?q=" + q,
 "https://search.marginalia.nu/search?query=" + q,
+"https://search.seznam.cz/?q=" + q,
 //"https://mwmbl.org/?q=" + q,
 ];
 if (q == ''){
 urlList = [
-"https://search.seznam.cz/",
 "https://search.marginalia.nu/",
+"https://search.seznam.cz/",
 //"https://mwmbl.org/",
 ];
 }
