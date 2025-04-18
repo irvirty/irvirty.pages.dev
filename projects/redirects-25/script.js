@@ -1087,11 +1087,11 @@ q = q3.replace(qCom, '');
 q = q.trim();
 q = encodeURIComponent(q);
 urlList = [
-"https://search.marginalia.nu/search?query=" + q,
+"https://marginalia-search.com/search?query=" + q,
 ];
 if (q == ''){
 urlList = [
-"https://search.marginalia.nu/",
+"https://marginalia-search.com/",
 ];
 }
 random = urlList[fuMRandom(0, urlList.length - 1)];
@@ -1109,7 +1109,7 @@ urlList = [
 ];
 if (q == ''){
 urlList = [
-"https://search.marginalia.nu/",
+"https://marginalia-search.com/",
 ];
 }
 random = urlList[fuMRandom(0, urlList.length - 1)];
@@ -1426,13 +1426,13 @@ q = q3.replace(qCom, '');
 q = q.trim();
 q = encodeURIComponent(q);
 urlList = [
-"https://search.marginalia.nu/search?query=" + q,
+"https://marginalia-search.com/search?query=" + q,
 "https://search.seznam.cz/?q=" + q,
 //"https://mwmbl.org/?q=" + q,
 ];
 if (q == ''){
 urlList = [
-"https://search.marginalia.nu/",
+"https://marginalia-search.com/",
 "https://search.seznam.cz/",
 //"https://mwmbl.org/",
 ];
@@ -1454,7 +1454,7 @@ urlList = [
 ];
 if (q == ''){
 urlList = [
-"https://search.marginalia.nu/",
+"https://marginalia-search.com/",
 //"https://mwmbl.org/",
 ];
 }

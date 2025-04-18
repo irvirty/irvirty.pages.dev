@@ -1003,6 +1003,11 @@ var wordJsonVar =
         "text3": "el fondo"
     },
     {
+        "text": "\u0434\u043e\u0431\u043b\u0435\u0441\u0442\u044c",
+        "text2": "valor",
+        "text3": "valor"
+    },
+    {
         "text": "\u0434\u043e\u0437\u0430",
         "text2": "dose",
         "text3": "dosis"
@@ -3906,11 +3911,6 @@ var wordJsonVar =
         "text": "\u0442\u0435\u0437\u043a\u0430",
         "text2": "namesake",
         "text3": "hom\u00f3nimo"
-    },
-    {
-        "text": "\u0442\u0435\u043a\u0441\u0442\u0443\u0440\u0430",
-        "text2": "texture",
-        "text3": "textura"
     },
     {
         "text": "\u0442\u0435\u043b\u0435\u0433\u0440\u0430\u043c",

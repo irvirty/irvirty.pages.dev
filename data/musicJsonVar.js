@@ -3,6 +3,26 @@ var musicJsonVar =
 
 [
     {
+        "id": "6010",
+        "text": "Jessie Murph - Blue Strips (Official Visualizer) - YouTube",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=aFpfY-EZwFo",
+        "tag": "#music",
+        "time": 1744989549,
+        "rightFooter": ""
+    },
+    {
+        "id": "6009",
+        "text": "bj\u00f6rk: arisen my senses - YouTube",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=6VrqR_GfvzE",
+        "tag": "#music",
+        "time": 1744963072,
+        "rightFooter": ""
+    },
+    {
         "id": "5856",
         "text": "Unlike Pluto - No Scrubs ft. Joanna Jones (Cover) - YouTube",
         "text2": "",
