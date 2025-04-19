@@ -978,8 +978,8 @@ print2 = `
 <div class="block tRight padding">
 <div class="block padding2"></div>
 <!--<span class="op xSmall">commands:</span>-->
-<a href="#" class="inlineBlock padding2 op border borderRadius2 light small brand" style="cursor: pointer" onclick="confirmCom('delAllDone');return false;">remove all done (not pined)</a>
-<a href="#" class="inlineBlock padding2 op border borderRadius2 light small margin2List brand" style="cursor: pointer" onclick="confirmCom('clear');return false;">remove all</a>
+<a href="#" class="inlineBlock padding2 op border borderRadius2 light small brand notUnderline" style="cursor: pointer" onclick="confirmCom('delAllDone');return false;">remove all done (not pined)</a>
+<a href="#" class="inlineBlock padding2 op border borderRadius2 light small margin2List brand notUnderline" style="cursor: pointer" onclick="confirmCom('clear');return false;">remove all</a>
 
 
 
