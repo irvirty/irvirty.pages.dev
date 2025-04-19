@@ -291,15 +291,5 @@ var randomwebsiteJsonVar =
         "tag": "#nice #cool",
         "time": 1726216598,
         "rightFooter": "<a class=\"brand\" href=\"\/projects\/random-website-69\/data-list.html?id=24\">id<\/a>"
-    },
-    {
-        "id": "14",
-        "text": "Sorry, the page you were looking for doesn't exist. (404)",
-        "text2": "",
-        "text3": "",
-        "url": "https:\/\/dribbble.com\/404",
-        "tag": "#NotFound #nice #cool",
-        "time": 1726215583,
-        "rightFooter": "<a class=\"brand\" href=\"\/projects\/random-website-69\/data-list.html?id=14\">id<\/a>"
     }
 ]

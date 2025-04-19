@@ -1,4 +1,4 @@
-// Quiz v.1.1.4
+// Quiz v.1.2.0
 
 var jsonVar = wordJsonVar;
 
@@ -329,7 +329,7 @@ if(countVariant2 <= 0&&answer2[randomKeys[key]] == 'true'){
 quizVariantTrueForPrint[0] = countVariantId;
 //answerTmp = randomKeys[key] + answer2[randomKeys[key]];
 answerTmp = randomKeys[key];
-answer = `<div id="${countVariantId}" class="quizButton button light3 border borderRadius2 click left" onclick="quizMain('quizCheckAnswer', '${answer2[randomKeys[key]]}', '${countVariantId}');return false;">${answerTmp}</div>`;
+answer = `<a id="${countVariantId}" class="quizButton button light3 border borderRadius2 click left notUnderline" href="#" onclick="quizMain('quizCheckAnswer', '${answer2[randomKeys[key]]}', '${countVariantId}');return false;">${answerTmp}</a>`;
 quizVariantRandomOrder.push(answer);
 countVariant2++;
 }
@@ -342,7 +342,7 @@ Object.keys(randomKeys).forEach((key) => {
 if(countVariant <= 4&&answer2[randomKeys[key]] != 'true'){
 //answerTmp = randomKeys[key] + answer2[randomKeys[key]];
 answerTmp = randomKeys[key];
-answer = `<div id="${countVariantId}" class="quizButton button light3 border borderRadius2 click left" onclick="quizMain('quizCheckAnswer', '${answer2[randomKeys[key]]}', '${countVariantId}', '${quizVariantTrueForPrint[0]}');return false;">${answerTmp}</div>`;
+answer = `<a id="${countVariantId}" class="quizButton button light3 border borderRadius2 click left notUnderline" href="#" onclick="quizMain('quizCheckAnswer', '${answer2[randomKeys[key]]}', '${countVariantId}', '${quizVariantTrueForPrint[0]}');return false;">${answerTmp}</a>`;
 quizVariantRandomOrder.push(answer);
 countVariant++;
 }
@@ -383,7 +383,7 @@ let qPrint = `
 <label for="round" class="xSmall">Rounds ${quizConfRound}:</label>
 <progress id="round" min="0" max="${quizConfRound}" value="${quizProgressRound[0] }">${quizProgressRound[0] }</progress>
 
-<div class="submit small op button block pointer borderRadius" onclick="quizMain('next');return false;">next</div>
+<a class="submit small op button block pointer borderRadius notUnderline" href="#" onclick="quizMain('next');return false;">next</a>
 
 
 

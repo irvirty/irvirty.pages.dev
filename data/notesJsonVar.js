@@ -3,6 +3,16 @@ var notesJsonVar =
 
 [
     {
+        "id": "109",
+        "text": "tabindex - HTML: HyperText Markup Language | MDN",
+        "text2": "<div tabindex=\"0\">Tabbable due to tabindex.<\/div>",
+        "text3": "",
+        "url": "https:\/\/developer.mozilla.org\/en-US\/docs\/Web\/HTML\/Reference\/Global_attributes\/tabindex",
+        "tag": "#HTML #code #coding",
+        "time": 1745099450,
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/notes\/?id=109\">id<\/a>"
+    },
+    {
         "id": "108",
         "text": "String.prototype.slice() - JavaScript | MDN",
         "text2": "===\r\nconst str = \"The quick brown fox jumps over the lazy dog.\";\r\n\r\nconsole.log(str.slice(31));\r\n\/\/ Expected output: \"the lazy dog.\"\r\n\r\nconsole.log(str.slice(4, 19));\r\n\/\/ Expected output: \"quick brown fox\"\r\n\r\nconsole.log(str.slice(-4));\r\n\/\/ Expected output: \"dog.\"\r\n\r\nconsole.log(str.slice(-9, -5));\r\n\/\/ Expected output: \"lazy\"",

@@ -1,4 +1,4 @@
-// Quiz v.2.0.3
+// Quiz v.2.1.0
 
 var jsonVar = quizJsonVar;
 
@@ -204,7 +204,7 @@ if(countVariant2 <= 0&&answerOption == 'true'&&answerVariant.trim() != ''){
 quizVariantTrueForPrint[0] = countVariantId;
 //answerTmp = randomKeys[key] + answer2[randomKeys[key]];
 answerTmp = answerVariant;
-answer = `<div id="${countVariantId}" class="quizButton button light3 border borderRadius2 click left" onclick="quizMain('quizCheckAnswer', '${answerOption}', '${countVariantId}');return false;">${htmlAsText(answerTmp)}</div>`;
+answer = `<a id="${countVariantId}" class="quizButton button light3 border borderRadius2 click left notUnderline" href="#" onclick="quizMain('quizCheckAnswer', '${answerOption}', '${countVariantId}');return false;">${htmlAsText(answerTmp)}</a>`;
 quizVariantRandomOrder.push(answer);
 countVariant2++;
 }
@@ -220,7 +220,7 @@ answerOption = val[1];
 if(countVariant <= 2&&answerOption != 'true'&&answerVariant.trim()){
 //answerTmp = randomKeys[key] + answer2[randomKeys[key]];
 answerTmp = answerVariant;
-answer = `<div id="${countVariantId}" class="quizButton button light3 border borderRadius2 click left" onclick="quizMain('quizCheckAnswer', '${answerOption}', '${countVariantId}', '${quizVariantTrueForPrint[0]}');return false;">${htmlAsText(answerTmp)}</div>`;
+answer = `<a id="${countVariantId}" class="quizButton button light3 border borderRadius2 click left notUnderline" href="#" onclick="quizMain('quizCheckAnswer', '${answerOption}', '${countVariantId}', '${quizVariantTrueForPrint[0]}');return false;">${htmlAsText(answerTmp)}</a>`;
 quizVariantRandomOrder.push(answer);
 countVariant++;
 }
@@ -249,7 +249,7 @@ let qPrint = `
 <label for="round" class="xSmall">Rounds ${quizConfRound}:</label>
 <progress id="round" min="0" max="${quizConfRound}" value="${quizProgressRound[0]}">${quizProgressRound[0] }</progress>
 
-<div class="submit button block small op pointer borderRadius borderRadius" onclick="quizMain('next');return false;">next</div>
+<a class="submit button block small op pointer borderRadius borderRadius notUnderline" href="#" onclick="quizMain('next');return false;">next</a>
 
 
 
