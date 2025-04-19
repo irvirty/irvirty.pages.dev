@@ -1,4 +1,4 @@
-// Typing Speed Test (WPM) or Typing Speed Game v.3.25.0
+// Typing Speed Test (WPM) or Typing Speed Game v.3.25.1
 // Note: ignore some modes (i2). These modes work only on localhost, have a POST request, and serve to translate the text.
 
 const wmpAverageLimit = 30;
@@ -51,14 +51,15 @@ if (mode == null){ mode = 'quote'; }
 
 
 
-var modeList = Array(/*"letters",*/ "1k", "words", "quote", "book", "wiki", "input", "zen", "i2");
+var modeList = Array(/*"letters",*/ "1k", "words", "quote", "book", "wiki", "input", "zen", "i2", "z2");
 var modeListPrint = '';
 modeList.forEach(FunctionModeList);
 function FunctionModeList(item, index) {
 //hide none mode in not localhost
 var skip = '';
 if (
-location.hostname != 'localhost'&&item == 'i2'
+location.hostname != 'localhost'&&item == 'i2'||
+location.hostname != 'localhost'&&item == 'z2'
 ){
 skip = 'yes';
 }
@@ -344,7 +345,7 @@ localStorage.setItem("input", inputText);
 
 
 
-if (mode == 'zen'||mode == 'f2'){
+if (mode == 'zen'||mode == 'z2'){
 document.getElementById('text').rows = '7';
 task = '';
 main('');
@@ -369,7 +370,7 @@ function typingSpeedTranslate(textForTranslate, mode) {
 
 //console.log(mode300);
 if (location.hostname == 'localhost'){
-if (mode == 'i2'){
+if (mode == 'i2'||mode == 'z2'){
 document.getElementById("lPrintTr").style.display = "block";
 
 // source code none
@@ -411,8 +412,7 @@ document.getElementById("result").style.display = "none";
 document.getElementById("result").style.display = "block";
 }
 
-if (mode != 'letters'&&mode != 'zen'&&mode != 'f2'){
-fuLtr(task);
+if (mode != 'letters'&&mode != 'zen'&&mode != 'z2'){
 } else {
 document.getElementById("mode2").innerHTML = '';
 }
@@ -700,8 +700,13 @@ if (wpmRecord == null||wpmRecord < 0||wpmRecord == undefined){ wpmRecord =  0; }
 // input value
 q = e.target.value;
 
+if (mode == "i2"){
+typingSpeedTranslate(task.join("").slice(0, q.length), mode);
+}
+if (mode == "z2"){
 typingSpeedTranslate(q, mode);
-
+}
+//console.log(task.join("").slice(0, q.length));
 
 //var answerArr = q.split ("");
 var answerArr = [...q]; // convert input string to array for check
@@ -729,7 +734,7 @@ if (scrollToVar !=  ''){ document.getElementById("scrollTo").scrollIntoView(true
 
 
 
-if (mode != 'zen'&&mode != 'f2'){
+if (mode != 'zen'&&mode != 'z2'){
 letters.forEach(myFunctionCheckAll);
 }
 
@@ -830,7 +835,7 @@ document.getElementById("scrollTo2").scrollIntoView(true);
 /* stat */
 
 
-if (letters.length >= answerArr.length||mode == 'zen'||mode == 'f2'){
+if (letters.length >= answerArr.length||mode == 'zen'||mode == 'z2'){
 
 /*test delmme old core 1
 //if (key2 == 'Backspace'||key2 == 'Delete'){ } else {}
@@ -918,7 +923,7 @@ document.getElementById("text").style.borderTop = "9px solid var(--d2)";
 
 
 let acurancyTotal = 0;
-if (/*answerArr.length == letters.length&&*/mode != 'zen'&&mode != 'f2'){
+if (/*answerArr.length == letters.length&&*/mode != 'zen'&&mode != 'z2'){
 
 acurancy = error * 100 / answerArr.length;
 acurancy =  100 - acurancy.toFixed(0);
@@ -951,7 +956,7 @@ document.getElementById("scrollTo").scrollIntoView(true);
 
 
 //if (letters.length == answerArr.length && error <= allowError&&mode != 'zen'&&task.length >= 5){
-if (task.length == answerArr.length && error <= allowError&&mode != 'zen'&&mode != 'f2'&&task.length >= 5){
+if (task.length == answerArr.length && error <= allowError&&mode != 'zen'&&mode != 'z2'&&task.length >= 5){
 
 
 

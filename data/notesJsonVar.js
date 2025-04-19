@@ -3,6 +3,16 @@ var notesJsonVar =
 
 [
     {
+        "id": "108",
+        "text": "String.prototype.slice() - JavaScript | MDN",
+        "text2": "===\r\nconst str = \"The quick brown fox jumps over the lazy dog.\";\r\n\r\nconsole.log(str.slice(31));\r\n\/\/ Expected output: \"the lazy dog.\"\r\n\r\nconsole.log(str.slice(4, 19));\r\n\/\/ Expected output: \"quick brown fox\"\r\n\r\nconsole.log(str.slice(-4));\r\n\/\/ Expected output: \"dog.\"\r\n\r\nconsole.log(str.slice(-9, -5));\r\n\/\/ Expected output: \"lazy\"",
+        "text3": "",
+        "url": "https:\/\/developer.mozilla.org\/en-US\/docs\/Web\/JavaScript\/Reference\/Global_Objects\/String\/slice",
+        "tag": "#JavaScript #JS #code",
+        "time": 1745030626,
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/notes\/?id=108\">id<\/a>"
+    },
+    {
         "id": "107",
         "text": "Installing on Linux - Blender 4.4 Manual",
         "text2": "",
