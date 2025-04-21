@@ -1,4 +1,4 @@
-// Typing Speed Test (WPM) or Typing Speed Game v.3.26.0
+// Typing Speed Test (WPM) or Typing Speed Game v.3.27.0
 // Note: ignore some modes (i2). These modes work only on localhost, have a POST request, and serve to translate the text.
 
 const wmpAverageLimit = 30;
@@ -350,7 +350,7 @@ document.getElementById('text').rows = '7';
 task = '';
 main('');
 } else {
-document.getElementById('text').rows = '';
+//document.getElementById('text').rows = '';
 }
 
 
@@ -405,16 +405,14 @@ document.getElementById("lPrintTr").style.display = "none";
 //setTimeout(function () {
 function main(task){
 
-if (mode == 'zen'){
+if (mode == 'zen'||mode == 'z2'){
 document.getElementById("result").style.display = "none";
 } else {
 document.getElementById("result").style.display = "block";
 }
 
-if (mode != 'letters'&&mode != 'zen'&&mode != 'z2'){
+if (mode != "letter"&&mode != "1k"&&mode != "words"){
 fuLtr(task);
-} else {
-//document.getElementById("mode2").innerHTML = '';
 }
 
 /*
@@ -700,11 +698,14 @@ if (wpmRecord == null||wpmRecord < 0||wpmRecord == undefined){ wpmRecord =  0; }
 // input value
 q = e.target.value;
 
+
+
 if (mode == "i2"){
 typingSpeedTranslate(task.join("").slice(0, q.length), mode);
 }
 if (mode == "z2"){
 typingSpeedTranslate(q, mode);
+fuLtr(q);
 }
 //console.log(task.join("").slice(0, q.length));
 
