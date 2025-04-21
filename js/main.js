@@ -1,4 +1,4 @@
-// Main js v.6.20.1
+// Main js v.6.20.2
 // For second navigation, footer, themes, etc
 
 if (confD == undefined) { var confD = "/"; }
@@ -107,7 +107,7 @@ const confData = [
 "confTitle":"Second Navigation",
 "confDescription":"Second navigation (JS) over the current navigation. To improve where it is bad",
 "confName":"confMenu",
-"confValueDefault":"on",
+"confValueDefault":"off",
 "confValueVariant":["on", "off", "random"],
 },
 {
@@ -199,15 +199,15 @@ conf["confMenuItems"] = [
 {"url":`${confD}pages/`, "title":"Pages", "text":"Pages", "class":""},
 {"url":`${confD}games/`, "title":"Games", "text":"Games", "class":""},
 {"url":`${confD}projects/`, "title":"Projects", "text":"Projects", "class":""},
-{"url":`${confD}mini-projects`, "title":"Mini Projects", "text":"Mini Projects", "class":""},
+{"url":`${confD}mini-projects/`, "title":"Mini Projects", "text":"Mini Projects", "class":""},
 ];
 
 conf["confMenuItems2"] = '';
 conf["confMenuItems"].forEach((item, index) => {
 
 let navUrlClean = item['url'];
-navUrlClean = navUrlClean.replaceAll(".html", "");
-navUrlClean = navUrlClean.replaceAll(".php", "");
+navUrlClean = navUrlClean.split("/");
+navUrlClean = "/" + navUrlClean[navUrlClean.length - 2];
 if ((window.location.pathname).indexOf(navUrlClean) != -1){
 conf["confMenuItems2"] += `<a class="active2 inlineBlock padding itemLinkAniActive ${item['class']}" tabindex="0" href="${item['url']}" title="${item['title']}">${item['text']}</a>
 `;
