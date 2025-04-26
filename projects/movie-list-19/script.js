@@ -1,4 +1,4 @@
-// Movie list v.3.0.1
+// Movie list v.3.1.0
 // parsed csv
 
 parseList("result", "../../data2/watchlist.csv");
@@ -47,20 +47,17 @@ title: `${title33}`,
 data: `<span class="inlineBlock padding1Px">${title33} (${year33})</span><br>`,
 data2: `
 <div class="borderList bgList padding2 notUnderline">
-<div style="
-display: grid;
-grid-template-columns: 1fr 1fr;
-">
+<div class="twoColumn blockMobile">
 
-<span class="inlineBlock keepTag tLeft">${title33} (${year33})</span>
-<span class="keepTagList left">
-<a class="keepTag2 brand light2 shadow borderRadius" target="blank" href="/?q=${title33Go}">Search</a>
-<a class="keepTag2 brand light2 shadow borderRadius" target="blank" href="https://www.themoviedb.org/search?query=${title33Go}">TMDB</a>
-<a class="keepTag2 brand light2 shadow borderRadius" target="blank" href="/?q=${title33Go2} Trailer v">Trailer</a>
-<a class="keepTag2 brand light2 shadow borderRadius" target="blank" href="/?q=${title33Go2} Reaction v">Reaction</a>
-<a class="keepTag2 brand light2 shadow borderRadius" target="blank" href="/?q=${title33Go2} Review">Review</a>
-</span>
+<div class="inlineBlock keepTag tLeft"><b>${title33} (${year33})</b></div>
 
+<div class="keepTagList left">
+<a class="keepTag2 brand light2 border borderRadius" target="blank" href="/?q=${title33Go2} q">Search</a>
+<a class="keepTag2 brand light2 border borderRadius" target="blank" href="https://www.themoviedb.org/search?query=${title33Go}">TMDB</a>
+<a class="keepTag2 brand light2 border borderRadius" target="blank" href="/?q=${title33Go2} Trailer v">Trailer</a>
+<a class="keepTag2 brand light2 border borderRadius" target="blank" href="/?q=${title33Go2} Reaction v">Reaction</a>
+<a class="keepTag2 brand light2 border borderRadius" target="blank" href="/?q=${title33Go2} Review">Review</a>
+</div>
 
 </div>
 </div>

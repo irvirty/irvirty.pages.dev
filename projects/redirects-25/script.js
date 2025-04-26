@@ -250,6 +250,25 @@ sRedirectUrl = url;
 break;
 
 
+case 'bs#':
+case 'blu#':
+q = q3.replace(qCom, '');
+q = q.trim();
+q = encodeURIComponent(q);
+urlList = [
+"https://bsky.app/search?q=" + q,
+];
+if (q == ''){
+urlList = [
+"https://bsky.app/",
+];
+}
+random = urlList[fuMRandom(0, urlList.length - 1)];
+url = random;
+sRedirectUrl = url;
+break;
+
+
 case 'sub#':
 q = q3.replace(qCom, '');
 q = q.trim();
@@ -279,25 +298,6 @@ urlList = [
 if (q == ''){
 urlList = [
 "https://x.com/",
-];
-}
-random = urlList[fuMRandom(0, urlList.length - 1)];
-url = random;
-sRedirectUrl = url;
-break;
-
-
-case 'bs#':
-case 'blu#':
-q = q3.replace(qCom, '');
-q = q.trim();
-q = encodeURIComponent(q);
-urlList = [
-"https://bsky.app/search?q=" + q,
-];
-if (q == ''){
-urlList = [
-"https://bsky.app/",
 ];
 }
 random = urlList[fuMRandom(0, urlList.length - 1)];
@@ -809,11 +809,15 @@ q = encodeURIComponent(q);
 urlList = [
 "https://wikipedia.org/w/?search=" + q,
 "https://www.britannica.com/search?query=" + q,
+"https://www.encyclopedia.com/gsearch?q=" + q,
+"https://www.thecanadianencyclopedia.ca/en/search?query=" + q,
 ];
 if (q == ''){
 urlList = [
 "https://en.wikipedia.org/wiki/Special:Random",
 "https://www.britannica.com/",
+"https://www.encyclopedia.com/",
+"https://www.thecanadianencyclopedia.ca/",
 ];
 }
 random = urlList[fuMRandom(0, urlList.length - 1)];
@@ -1023,12 +1027,14 @@ urlList = [
 "https://www.tumblr.com/search/" + q,
 //"https://www.tumblr.com/search/" + q + "?postTypes=chat%2Clink%2Cquote%2Ctext%2Cpoll%2Cask",
 "https://bsky.app/search?q=" + q,
+"https://wordpress.com/reader/search?q=" + q,
 ];
 if (q == ''){
 urlList = [
 //"https://www.reddit.com/",
 "https://www.tumblr.com/",
 "https://bsky.app/",
+"https://wordpress.com/discover",
 ];
 }
 random = urlList[fuMRandom(0, urlList.length - 1)];
@@ -1036,21 +1042,21 @@ url = random;
 sRedirectUrl = url;
 break;
 
-
+case 'sl#':
 case 'sd#':
 q = q3.replace(qCom, '');
 q = q.trim();
 q = encodeURIComponent(q);
 urlList = [
 //"https://substack.com/search/"+ q +"?searching=note",
-"https://bsky.app/search?q=" + q,
 "https://www.tumblr.com/search/" + q + "?t=1",
+"https://wordpress.com/reader/search?q=" + q + "&sort=date",
 ];
 if (q == ''){
 urlList = [
 //"https://substack.com/",,
-"https://bsky.app/",
 "https://www.tumblr.com/",
+"https://wordpress.com/discover",
 ];
 }
 random = urlList[fuMRandom(0, urlList.length - 1)];
@@ -1059,21 +1065,23 @@ sRedirectUrl = url;
 break;
 
 
-
 case 'ht#':
-case 'stag#':
 case 'htag#':
+case 'st#':
+case 'stag#':
 q = q3.replace(qCom, '');
 q = q.trim();
 q = encodeURIComponent(q);
 urlList = [
-"https://bsky.app/hashtag/" + q,
 "https://www.tumblr.com/tagged/" + q,
+"https://bsky.app/hashtag/" + q,
+"https://wordpress.com/tag/" + q,
 ];
 if (q == ''){
 urlList = [
-"https://bsky.app/",
 "https://www.tumblr.com/",
+"https://bsky.app/",
+"https://wordpress.com/discover",
 ];
 }
 random = urlList[fuMRandom(0, urlList.length - 1)];
@@ -1358,7 +1366,6 @@ urlList = [
 "https://www.google.com/search?q=" + q + "&tbs=qdr:d",
 "https://www.bing.com/search?q=" + q + "&filters=ex1%3a%22ez1%22&form=somesite",
 "https://marginalia-search.com/search?query=" + q + "&recent=recent",
-"https://bsky.app/search?q=$q",
 "https://www.tumblr.com/search/" + q + "/recent/?postTypes=text%2Clink%2Cquote%2Cpoll%2Cchat",
 ];
 if (q == ''){
@@ -1366,7 +1373,6 @@ urlList = [
 "https://www.google.com/",
 "https://www.bing.com/",
 "https://marginalia-search.com/",
-"https://bsky.app/",
 "https://www.tumblr.com/",
 ];
 }

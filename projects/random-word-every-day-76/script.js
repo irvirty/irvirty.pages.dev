@@ -90,6 +90,7 @@ randomWordButtons += `
 
 <a ${randomWordButtonsCode} href="https://wikipedia.org/w/?search=${randomWordGo}">Wikipedia</a>
 <a ${randomWordButtonsCode} href="https://www.britannica.com/search?query=${randomWordGo}">Britannica</a>
+<a ${randomWordButtonsCode} href="https://www.encyclopedia.com/gsearch?q=${randomWordGo}">Encyclopedia.com</a>
 <a ${randomWordButtonsCode} href="https://www.worldhistory.org/search/?q=${randomWordGo}">World History</a>
 
 <a ${randomWordButtonsCode} href="https://www.thefreedictionary.com/${randomWordGo}">The Free Dictionary</a>

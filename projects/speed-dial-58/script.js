@@ -1,4 +1,4 @@
-// Speed dial v.1.14.0
+// Speed dial v.1.14.1
 //https://developer.mozilla.org/en-US/docs/Web/API/Storage
 
 function fuLSpeedDial(idForPrint, text, url, com){
@@ -30,7 +30,6 @@ var confSpeedDialDataArr = [];
 confSpeedDialDataArr.push({"text":"YouTube", "url":"https://www.youtube.com/"});
 confSpeedDialDataArr.push({"text":"Reddit", "url":"https://www.reddit.com/"});
 confSpeedDialDataArr.push({"text":"Flipboard", "url":"https://flipboard.com/"});
-confSpeedDialDataArr.push({"text":"Bluesky", "url":"https://bsky.app/"});
 
 var confSpeedDialDataArr = JSON.stringify(confSpeedDialDataArr);
 

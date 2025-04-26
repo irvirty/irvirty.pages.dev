@@ -1,6 +1,12 @@
 /* v.1.1.5 */
 
 
+
+
+/**/
+.testBoldHover:hover { font-weight: bold; }
+
+
 /**/
 .testColumn { border: 1px solid var(--red); }
 

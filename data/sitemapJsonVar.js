@@ -812,13 +812,6 @@ var sitemapJsonVar = [
         "time": "id"
     },
     {
-        "text": "Virtual travel\n\nVirtual travel around the world. A page to virtually travel to other countries. | virtual travel: ",
-        "url": "\/projects\/virtual-travel-78\/index.html",
-        "tag": " #virtual #travel #world #countries #country #culture #language #HTML #CSS #JavaScript #project",
-        "id": "227d3fc1c1d94c9a20ebbd48bf18c654",
-        "time": "id"
-    },
-    {
         "text": "Weather\n\nA simple tiny card showing the current weather. | weather: ",
         "url": "\/projects\/weather-37\/index.html",
         "tag": " #weather #information #api #info #widget #CSS #JavaScript #project",

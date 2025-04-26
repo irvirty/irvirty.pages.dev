@@ -3,6 +3,46 @@ var newsJsonVar =
 
 [
     {
+        "id": "32",
+        "text": "Bluesky: \"30M users 1B posts \ud83e\udd1d bluesky milestone achieved this week\" \u2014 Bluesky",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/bsky.app\/profile\/bsky.app\/post\/3lh5iyaqqos24",
+        "tag": "#web #SocialNetwork #SocialMedia",
+        "time": 1745333300,
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/news\/?id=32\">id<\/a>"
+    },
+    {
+        "id": "31",
+        "text": "Neocities: \"One million sites \ud83c\udf89\" \u2014 Bluesky",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/bsky.app\/profile\/neocities.org\/post\/3lhu7xapg3s2x",
+        "tag": "#web #hosting",
+        "time": 1745333263,
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/news\/?id=31\">id<\/a>"
+    },
+    {
+        "id": "30",
+        "text": "It\u2019s Our Birthday, Let\u2019s Party - YouTube",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=OIuG1bBkfs0",
+        "tag": "#web",
+        "time": 1745321783,
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/news\/?id=30\">id<\/a>"
+    },
+    {
+        "id": "29",
+        "text": "How Firefox\u2019s vertical tabs came to life with a little help from our community",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/blog.mozilla.org\/en\/firefox\/vertical-tabs-and-the-firefox-community\/",
+        "tag": "#app #browser #web",
+        "time": 1745316490,
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/news\/?id=29\">id<\/a>"
+    },
+    {
         "id": "27",
         "text": "ChatGPT just passed the Turing test. But that doesn\u2019t mean AI is now as smart as humans",
         "text2": "",
@@ -11,16 +51,6 @@ var newsJsonVar =
         "tag": "#AI #AGI",
         "time": 1744634711,
         "rightFooter": "<a class=\"brand\" href=\"\/pages\/news\/?id=27\">id<\/a>"
-    },
-    {
-        "id": "26",
-        "text": "Firefox: \"Tabs moved to the side. Screen space reclaimed. The new Firefox sidebar helps you focus, stay organized, and keep the stuff you actually use close by (all thanks to you \ud83d\udd25) mzl.la\/3FOgtFj\" \u2014 Bluesky",
-        "text2": "",
-        "text3": "",
-        "url": "https:\/\/bsky.app\/profile\/firefox.com\/post\/3llu6owvhfc2b",
-        "tag": "#browser #web #app",
-        "time": 1743669386,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/news\/?id=26\">id<\/a>"
     },
     {
         "id": "25",
@@ -33,36 +63,6 @@ var newsJsonVar =
         "rightFooter": "<a class=\"brand\" href=\"\/pages\/news\/?id=25\">id<\/a>"
     },
     {
-        "id": "22",
-        "text": "Neocities: \"One million sites \ud83c\udf89\" \u2014 Bluesky",
-        "text2": "",
-        "text3": "",
-        "url": "https:\/\/bsky.app\/profile\/neocities.org\/post\/3lhu7xapg3s2x",
-        "tag": "#web",
-        "time": 1739234694,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/news\/?id=22\">id<\/a>"
-    },
-    {
-        "id": "21",
-        "text": "Bluesky: \"30M users 1B posts \ud83e\udd1d bluesky milestone achieved this week\" \u2014 Bluesky",
-        "text2": "",
-        "text3": "",
-        "url": "https:\/\/bsky.app\/profile\/bsky.app\/post\/3lh5iyaqqos24",
-        "tag": "#SocialNetwork #web",
-        "time": 1738683850,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/news\/?id=21\">id<\/a>"
-    },
-    {
-        "id": "20",
-        "text": "Bluesky: \"this is how it feels to reach 30 MILLION users!!!\" \u2014 Bluesky",
-        "text2": "",
-        "text3": "",
-        "url": "https:\/\/bsky.app\/profile\/bsky.app\/post\/3lgu4lg6j2k2v",
-        "tag": "#SocialNetwork #web",
-        "time": 1738192271,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/news\/?id=20\">id<\/a>"
-    },
-    {
         "id": "17",
         "text": "Firefox 134.0, See All New Features, Updates and Fixes",
         "text2": "",
@@ -73,16 +73,6 @@ var newsJsonVar =
         "rightFooter": "<a class=\"brand\" href=\"\/pages\/news\/?id=17\">id<\/a>"
     },
     {
-        "id": "16",
-        "text": "Bluesky: \"Merry Christmas from us to you \ud83c\udf84\ud83c\udf81\ud83d\udc99 We launched Trending Topics today, and you can find it by tapping the search icon on the bottom bar of the app or the right sidebar on desktop.\" \u2014 Bluesky",
-        "text2": "",
-        "text3": "",
-        "url": "https:\/\/bsky.app\/profile\/bsky.app\/post\/3le6bze3nus2c",
-        "tag": "#SocialNetwork #SocialMedia",
-        "time": 1735508959,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/news\/?id=16\">id<\/a>"
-    },
-    {
         "id": "15",
         "text": "An AI system has reached human level on a test for \u2018general intelligence\u2019. Here\u2019s what that means",
         "text2": "",
@@ -91,16 +81,6 @@ var newsJsonVar =
         "tag": "#AI #AGI",
         "time": 1735508925,
         "rightFooter": "<a class=\"brand\" href=\"\/pages\/news\/?id=15\">id<\/a>"
-    },
-    {
-        "id": "8",
-        "text": "Action Intent Links | Bluesky",
-        "text2": "===\r\n(Bluesky share button)",
-        "text3": "",
-        "url": "https:\/\/docs.bsky.app\/docs\/advanced-guides\/intent-links",
-        "tag": "#web #functionality #UI #UX",
-        "time": 1734681892,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/news\/?id=8\">id<\/a>"
     },
     {
         "id": "7",
@@ -123,16 +103,6 @@ var newsJsonVar =
         "rightFooter": "<a class=\"brand\" href=\"\/pages\/news\/?id=6\">id<\/a>"
     },
     {
-        "id": "5",
-        "text": "Bluesky: \"Another day, another million new people have joined Bluesky! 18M users? \ud83d\ude42\u200d\u2194\ufe0f 18M friends \ud83d\ude42\u200d\u2195\ufe0f\" \u2014 Bluesky",
-        "text2": "",
-        "text3": "",
-        "url": "https:\/\/bsky.app\/profile\/bsky.app\/post\/3lb3qyu64bs2z",
-        "tag": "#SocialMedia #SocialNetwork",
-        "time": 1731832727,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/news\/?id=5\">id<\/a>"
-    },
-    {
         "id": "4",
         "text": "Firefox 132.0, See All New Features, Updates and Fixes",
         "text2": "",
@@ -141,25 +111,5 @@ var newsJsonVar =
         "tag": "#software #app #update #browser",
         "time": 1730313353,
         "rightFooter": "<a class=\"brand\" href=\"\/pages\/news\/?id=4\">id<\/a>"
-    },
-    {
-        "id": "2",
-        "text": "Bluesky: \"congratulations everyone, we have now passed 12 million people total on bluesky!!! \ud83e\udd8b over 1.2M new people have joined bluesky in the last two days \u2014 welcome!! \ud83d\udc99\ud83d\udd7a\ud83e\udea9\" \u2014 Bluesky",
-        "text2": "",
-        "text3": "",
-        "url": "https:\/\/bsky.app\/profile\/bsky.app\/post\/3l6sjdebqbx2q",
-        "tag": "#SocialMedia #SocialNetwork",
-        "time": 1729275139,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/news\/?id=2\">id<\/a>"
-    },
-    {
-        "id": "1",
-        "text": "Bluesky: \"\ud83d\udce2\u00a0App Version 1.92.1 is rolling out now (1\/2) This release includes multiple bugfixes and UI tweaks. Thanks everyone for your feedback on the last release!\" \u2014 Bluesky",
-        "text2": "",
-        "text3": "",
-        "url": "https:\/\/bsky.app\/profile\/bsky.app\/post\/3l6dplwluhb2f",
-        "tag": "#SocialNetwork #SocialMedia #UI #UX",
-        "time": 1728966661,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/news\/?id=1\">id<\/a>"
     }
 ]

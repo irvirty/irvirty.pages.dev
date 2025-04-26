@@ -84,15 +84,6 @@ var quoteJsonVar =
         "rightFooter": ""
     },
     {
-        "text": "Be yourself. Everyone else is already taken. Oscar Wilde",
-        "text2": "",
-        "text3": "",
-        "url": "https:\/\/bsky.app\/profile\/quote.bsky.social\/post\/3jua5vb4nid2z",
-        "tag": "#quote",
-        "time": 1702102008,
-        "rightFooter": ""
-    },
-    {
         "text": "The only time a woman really succeeds in changing a man is when he is a baby. Natalie Wood",
         "text2": "",
         "text3": "",
