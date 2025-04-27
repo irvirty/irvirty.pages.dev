@@ -115,7 +115,7 @@ var podcastJsonVar =
         "text2": "",
         "text3": "",
         "url": "https:\/\/tunein.com\/podcasts\/Business--Economics-Podcasts\/Money-Rehab-with-Nicole-Lapin-p1538776\/?topicId=467952173",
-        "tag": "#podcast #business #conomics #en",
+        "tag": "#podcast #business #economics #en",
         "time": 1745722411,
         "rightFooter": ""
     },
