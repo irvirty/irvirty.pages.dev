@@ -347,7 +347,7 @@ return `
 <a class="autoColumnItem inline padding border light2 borderRadius2" target="blank" href="/?q=${vTQGo} national television">National Television</a>
 <a class="autoColumnItem inline padding border light2 borderRadius2" target="blank" href="/?q=${vTQGo} national radio">National Radio</a>
 
-<a class="autoColumnItem inline padding border light2 borderRadius2" target="blank" href="/?q=Most Visited Websites in the ${vTQGo}">Top Sites</a>-
+<a class="autoColumnItem inline padding border light2 borderRadius2" target="blank" href="/?q=Most Visited Websites in the ${vTQGo}">Top Sites</a>
 
 </div>
 
