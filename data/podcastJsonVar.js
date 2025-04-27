@@ -142,7 +142,7 @@ var podcastJsonVar =
         "text2": "",
         "text3": "",
         "url": "https:\/\/tunein.com\/podcasts\/Business--Economics-Podcasts\/Freakonomics-Radio-p272293\/",
-        "tag": "#podcast #economics #en",
+        "tag": "#podcast #business #economics #en",
         "time": 1726746233,
         "rightFooter": ""
     },
