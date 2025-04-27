@@ -798,6 +798,13 @@ var sitemapJsonVar = [
         "time": "id"
     },
     {
+        "text": "Ukrainian transliteration\n\nUkrainian transliteration. Cyrillic transliteration using JavaScript. | uk transliteration: ",
+        "url": "\/projects\/uk-transliteration-35\/index.html",
+        "tag": " #Experimental #transliteration #text #tool #translit #JavaScript #project",
+        "id": "ea88e06318cd7fc81c3fc3c0c027a660",
+        "time": "id"
+    },
+    {
         "text": "Updates\n\nUpdates or changelog. About what's new on the site. Some changes and updates to the site may not be displayed here and updates may occur without post. | updates: ",
         "url": "\/pages\/updates\/index.html",
         "tag": " #update #news #new #page #main",
@@ -809,6 +816,13 @@ var sitemapJsonVar = [
         "url": "\/projects\/virtual-keyboard-72\/index.html",
         "tag": " #virtual #keyboard #CSS #JavaScript #project",
         "id": "5724c681b64b444f4a83e0f628ef66bb",
+        "time": "id"
+    },
+    {
+        "text": "Virtual travel\n\nVirtual travel around the world. A page to virtually travel to other countries. | virtual travel: ",
+        "url": "\/projects\/virtual-travel-78\/index.html",
+        "tag": " #virtual #travel #world #countries #country #culture #language #HTML #CSS #JavaScript #project",
+        "id": "227d3fc1c1d94c9a20ebbd48bf18c654",
         "time": "id"
     },
     {
@@ -886,13 +900,6 @@ var sitemapJsonVar = [
         "url": "\/projects\/test-27\/index.html",
         "tag": " #test #page #HTML #CSS #JavaScript #project",
         "id": "86d9dee90df2fa84b95059eb006e7fa1",
-        "time": "id"
-    },
-    {
-        "text": "translit\n\nCyrillic transliteration using JavaScript. | transliterate: ",
-        "url": "\/projects\/transliterate-35\/index.html",
-        "tag": " #Experimental #transliteration #text #tool #translit #JavaScript #project",
-        "id": "7889d60dd8bd351837bffa8c72de05e9",
         "time": "id"
     }
 ]

@@ -1,4 +1,4 @@
-// Transliterate function v.1.2.0
+// Ukrainian transliteration function v.1.2.0
 
 function transliterate(text){
 count = 0;
@@ -119,13 +119,5 @@ console.log(error);
 
 
 }
-
-
-
-
-
-
-
-
 
 
