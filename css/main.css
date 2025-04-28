@@ -7,7 +7,7 @@
 
 :root{
 /* .brand - link, accent color (red, orange, yellow, green, blue, indigo, violet) */
---brandColor: color-mix(in srgb, var(--blue) 80%, var(--indigo));
+--brandColor: color-mix(in srgb, var(--blue) 80%, var(--violet));
 
 --bodyPadding: 3vw;
 --inputHeight: 45px;

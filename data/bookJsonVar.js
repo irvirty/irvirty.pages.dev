@@ -7,7 +7,7 @@ var bookJsonVar =
         "text2": "",
         "text3": "",
         "url": "https:\/\/tunein.com\/podcasts\/Audiobooks\/Moby-Dick-by-Herman-Melville-p1749826\/",
-        "tag": "#podcast #book",
+        "tag": "#podcast #book #en",
         "time": 1745733247,
         "rightFooter": ""
     },
@@ -25,7 +25,7 @@ var bookJsonVar =
         "text2": "",
         "text3": "",
         "url": "https:\/\/tunein.com\/podcasts\/Audiobooks\/The-Adventures-of-Tom-Sawyer-by-Mark-Twain-p2316832\/",
-        "tag": "#podcast #book",
+        "tag": "#podcast #book #en",
         "time": 1745733198,
         "rightFooter": ""
     },
@@ -34,7 +34,7 @@ var bookJsonVar =
         "text2": "",
         "text3": "",
         "url": "https:\/\/tunein.com\/podcasts\/Audiobooks\/Little-Women-by-Louisa-May-Alcott-p2317228\/",
-        "tag": "#podcast #book",
+        "tag": "#podcast #book #en",
         "time": 1745733184,
         "rightFooter": ""
     },
@@ -43,7 +43,7 @@ var bookJsonVar =
         "text2": "",
         "text3": "",
         "url": "https:\/\/tunein.com\/podcasts\/Audiobooks\/Frankenstein-by-Mary-Wollstonecraft-Shelley-p2316465\/",
-        "tag": "#podcast #book",
+        "tag": "#podcast #book #en",
         "time": 1745733172,
         "rightFooter": ""
     },
@@ -52,7 +52,7 @@ var bookJsonVar =
         "text2": "",
         "text3": "",
         "url": "https:\/\/tunein.com\/podcasts\/Audiobooks\/Strange-Case-of-Jekyll-and-Hyde-by-Robert-Louis-Stevenson-p2324058\/",
-        "tag": "#podcast #book",
+        "tag": "#podcast #book #en",
         "time": 1745733159,
         "rightFooter": ""
     },
@@ -61,7 +61,7 @@ var bookJsonVar =
         "text2": "",
         "text3": "",
         "url": "https:\/\/tunein.com\/podcasts\/Audiobooks\/Alices-Adventures-in-Wonderland-by-Lewis-Carroll-p2317190\/",
-        "tag": "#podcast #book",
+        "tag": "#podcast #book #en",
         "time": 1745733141,
         "rightFooter": ""
     },
@@ -70,7 +70,7 @@ var bookJsonVar =
         "text2": "",
         "text3": "",
         "url": "https:\/\/tunein.com\/podcasts\/Audiobooks\/The-Jungle-Book-by-Rudyard-Kipling-p2317437\/",
-        "tag": "#podcast #book",
+        "tag": "#podcast #book #en",
         "time": 1745733058,
         "rightFooter": ""
     },

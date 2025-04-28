@@ -7,7 +7,7 @@ var podcastJsonVar =
         "text2": "",
         "text3": "",
         "url": "https:\/\/www.youtube.com\/playlist?list=PLB9gMmtMLXxsa8C0PzHFL2tJFh7FrKrYD",
-        "tag": "#podcast #technology",
+        "tag": "#podcast #technology #en",
         "time": 1745761939,
         "rightFooter": ""
     },
@@ -16,7 +16,7 @@ var podcastJsonVar =
         "text2": "",
         "text3": "",
         "url": "https:\/\/www.youtube.com\/playlist?list=PL70yIS6vx_Y2xaKD3w2qb6Eu06jNBdNJb",
-        "tag": "#podcast #technology",
+        "tag": "#podcast #technology #en",
         "time": 1745761886,
         "rightFooter": ""
     },
@@ -25,7 +25,7 @@ var podcastJsonVar =
         "text2": "",
         "text3": "",
         "url": "https:\/\/www.youtube.com\/playlist?list=PL39u5ZEfYDEO5PaNRWyqloGY6zzJ1fjBa",
-        "tag": "#podcast #technology",
+        "tag": "#podcast #technology #en",
         "time": 1745761737,
         "rightFooter": ""
     },
@@ -34,7 +34,7 @@ var podcastJsonVar =
         "text2": "",
         "text3": "",
         "url": "https:\/\/tunein.com\/podcasts\/Audiobooks\/Moby-Dick-by-Herman-Melville-p1749826\/",
-        "tag": "#podcast #book",
+        "tag": "#podcast #book #en",
         "time": 1745733247,
         "rightFooter": ""
     },
@@ -52,7 +52,7 @@ var podcastJsonVar =
         "text2": "",
         "text3": "",
         "url": "https:\/\/tunein.com\/podcasts\/Audiobooks\/The-Adventures-of-Tom-Sawyer-by-Mark-Twain-p2316832\/",
-        "tag": "#podcast #book",
+        "tag": "#podcast #book #en",
         "time": 1745733198,
         "rightFooter": ""
     },
@@ -61,7 +61,7 @@ var podcastJsonVar =
         "text2": "",
         "text3": "",
         "url": "https:\/\/tunein.com\/podcasts\/Audiobooks\/Little-Women-by-Louisa-May-Alcott-p2317228\/",
-        "tag": "#podcast #book",
+        "tag": "#podcast #book #en",
         "time": 1745733184,
         "rightFooter": ""
     },
@@ -70,7 +70,7 @@ var podcastJsonVar =
         "text2": "",
         "text3": "",
         "url": "https:\/\/tunein.com\/podcasts\/Audiobooks\/Frankenstein-by-Mary-Wollstonecraft-Shelley-p2316465\/",
-        "tag": "#podcast #book",
+        "tag": "#podcast #book #en",
         "time": 1745733172,
         "rightFooter": ""
     },
@@ -79,7 +79,7 @@ var podcastJsonVar =
         "text2": "",
         "text3": "",
         "url": "https:\/\/tunein.com\/podcasts\/Audiobooks\/Strange-Case-of-Jekyll-and-Hyde-by-Robert-Louis-Stevenson-p2324058\/",
-        "tag": "#podcast #book",
+        "tag": "#podcast #book #en",
         "time": 1745733159,
         "rightFooter": ""
     },
@@ -88,7 +88,7 @@ var podcastJsonVar =
         "text2": "",
         "text3": "",
         "url": "https:\/\/tunein.com\/podcasts\/Audiobooks\/Alices-Adventures-in-Wonderland-by-Lewis-Carroll-p2317190\/",
-        "tag": "#podcast #book",
+        "tag": "#podcast #book #en",
         "time": 1745733141,
         "rightFooter": ""
     },
@@ -97,7 +97,7 @@ var podcastJsonVar =
         "text2": "",
         "text3": "",
         "url": "https:\/\/tunein.com\/podcasts\/Audiobooks\/The-Jungle-Book-by-Rudyard-Kipling-p2317437\/",
-        "tag": "#podcast #book",
+        "tag": "#podcast #book #en",
         "time": 1745733058,
         "rightFooter": ""
     },
@@ -106,7 +106,7 @@ var podcastJsonVar =
         "text2": "",
         "text3": "",
         "url": "https:\/\/tunein.com\/podcasts\/Comedy\/Conan-OBrien-Needs-A-Friend-p1161882\/",
-        "tag": "#podcast #en #comedy",
+        "tag": "#podcast #comedy #en",
         "time": 1745722809,
         "rightFooter": ""
     },
@@ -115,7 +115,7 @@ var podcastJsonVar =
         "text2": "",
         "text3": "",
         "url": "https:\/\/tunein.com\/podcasts\/News--Politics-Podcasts\/The-Megyn-Kelly-Show-p1369333\/",
-        "tag": "#podcast #en #news #politics",
+        "tag": "#podcast #news #politics #en",
         "time": 1745722683,
         "rightFooter": ""
     },
@@ -124,7 +124,7 @@ var podcastJsonVar =
         "text2": "",
         "text3": "",
         "url": "https:\/\/tunein.com\/podcasts\/Arts--Culture-Podcasts\/The-Mel-Robbins-Podcast-p1846570\/",
-        "tag": "#podcast #en #arts #culture",
+        "tag": "#podcast #arts #culture #en",
         "time": 1745722645,
         "rightFooter": ""
     },
@@ -232,7 +232,7 @@ var podcastJsonVar =
         "text2": "",
         "text3": "",
         "url": "https:\/\/tunein.com\/podcasts\/Markets-and-Investing\/Afford-Anything-p830976\/",
-        "tag": "#podcast #economics #en",
+        "tag": "#podcast #makrets #investing #busines #economics #en",
         "time": 1726644543,
         "rightFooter": ""
     }
