@@ -65,32 +65,6 @@ let tagCloudData = "";
 let checkSeachFound = "not found";
 
 
-/*
-jsonVar.forEach((val, index) => {
-
-tagCloudData += val["text3"] + " ";
-
-if (q != undefined&&q != ""){
-//if ((val["text"] + " " + val["text2"] + " " + val["text3"] + " " + val["text4"] + " " + val["text5"], val["text6"]).toLowerCase().indexOf(q.toLowerCase()) != -1){
-if ((val["text"] + " " + val["text3"]).toLowerCase().indexOf(q.toLowerCase()) != -1){
-
-print += getVtItem(val["text"], val["text2"], val["text3"], val["text4"], val["text5"], val["text6"], val["text7"], encodeURIComponent(val["text"]));
-
-totoalVt++;
-}
-} else {
-
-print += getVtItem(val["text"], val["text2"], val["text3"], val["text4"], val["text5"], val["text6"], val["text7"], encodeURIComponent(val["text"]));
-
-totoalVt++;
-}
-
-});
-*/
-
-
-
-
 // print
 if (q == undefined||q == ""){
 jsonVar.forEach((val, index) => {
@@ -98,7 +72,7 @@ jsonVar.forEach((val, index) => {
 tagCloudData += val["text3"] + " ";
 //tagCloudData += val["text3"] + " " + val["text4"] + " ";
 
-print += getVtItem(val["text"], val["text2"], val["text3"], val["text4"], val["text5"], val["text6"], val["text7"], encodeURIComponent(val["text"]));
+print += getVtItem(val["text"], val["text2"], val["text3"], val["text4"], val["text5"], val["text6"], val["text7"], encodeURIComponent(val["text"]), val["text8"],);
 
 totoalVt++;
 });
@@ -120,7 +94,7 @@ tagCloudData += val["text3"] + " ";
 if ((val["text"] + " " + val["text3"]).toLowerCase().indexOf(q.toLowerCase()) != -1){
 checkSeachFound = "found";
 
-print += getVtItem(val["text"], val["text2"], val["text3"], val["text4"], val["text5"], val["text6"], val["text7"], encodeURIComponent(val["text"]));
+print += getVtItem(val["text"], val["text2"], val["text3"], val["text4"], val["text5"], val["text6"], val["text7"], encodeURIComponent(val["text"]), val["text8"],);
 
 totoalVt++;
 }
@@ -144,7 +118,7 @@ if ((val["text"] + " " + val["text2"] + " " + val["text3"] + " " + val["text4"] 
 //if ((val["text"] + " " + val["text3"]).toLowerCase().indexOf(q.toLowerCase()) != -1){
 checkSeachFound = "found";
 
-print += getVtItem(val["text"], val["text2"], val["text3"], val["text4"], val["text5"], val["text6"], val["text7"], encodeURIComponent(val["text"]));
+print += getVtItem(val["text"], val["text2"], val["text3"], val["text4"], val["text5"], val["text6"], val["text7"], encodeURIComponent(val["text"]), val["text8"],);
 
 totoalVt++;
 }
@@ -166,9 +140,7 @@ let randomVt3 = getRandomInt(jsonVar.length)
 
 let randomVtPrint = "";
 
-randomVtPrint += getVtItem(jsonVar[randomVt]["text"], jsonVar[randomVt]["text2"], jsonVar[randomVt]["text3"], jsonVar[randomVt]["text4"], jsonVar[randomVt]["text5"], jsonVar[randomVt]["text6"], jsonVar[randomVt]["text7"], encodeURIComponent(jsonVar[randomVt]["text"]));
-
-//randomVtPrint += getVtItem(jsonVar[randomVt2]["text"], jsonVar[randomVt2]["text2"], jsonVar[randomVt2]["text3"], jsonVar[randomVt2]["text4"], jsonVar[randomVt2]["text5"], jsonVar[randomVt2]["text6"], jsonVar[randomVt2]["text7"], encodeURIComponent(jsonVar[randomVt2]["text"]));
+randomVtPrint += getVtItem(jsonVar[randomVt]["text"], jsonVar[randomVt]["text2"], jsonVar[randomVt]["text3"], jsonVar[randomVt]["text4"], jsonVar[randomVt]["text5"], jsonVar[randomVt]["text6"], jsonVar[randomVt]["text7"], encodeURIComponent(jsonVar[randomVt]["text"]), jsonVar[randomVt]["text8"],);
 
 
 if (q != undefined&&q != ""){
@@ -250,7 +222,9 @@ document.head.insertAdjacentHTML("beforeend", `
 
 
 
-function getVtItem(vTTitle, vTEmoji, vTLang, vTDomain, vTDesc, vTSource, vTLinks, vTQGo,){
+function getVtItem(vTTitle, vTEmoji, vTLang, vTDomain, vTDesc, vTSource, vTLinks, vTQGo, vTGTrend){
+
+if (vTGTrend == undefined){ vTGTrend = vTDomain; }
 
 let vTLangPrint = "";
 vTLang = (vTLang + " ").split(" ");
@@ -320,6 +294,8 @@ linksDomainCheckPrint = "";
 
 vTDesc = fuMClearText(vTDesc);
 
+let vTDomainGTrendGO = (vTGTrend.toUpperCase()).trim();
+
 return `
 
 
@@ -335,6 +311,9 @@ return `
 <a class="autoColumnItem inline padding border light2 borderRadius2" target="blank" href="/?q=${vTQGo} wik">Wikipedia</a>
 
 <a class="autoColumnItem inline padding border light2 borderRadius2" target="blank" href="/?q=${vTQGo} v">Video</a>
+
+<a class="autoColumnItem inline padding border light2 borderRadius2" target="blank" href="https://trends.google.com/trending?geo=${vTDomainGTrendGO}&hours=24">Google Trends</a>
+
 
 <a class="autoColumnItem inline padding border light2 borderRadius2" target="blank" href="/?q=${vTQGo} n">In News</a>
 <a class="autoColumnItem inline padding border light2 borderRadius2" target="blank" href="/?q=${vTQGo} Newspapers">Newspapers</a>

@@ -5,7 +5,6 @@
 
 var countriesJsonVar = [
 
-
 {
 "text": "Afghanistan",
 "text2": "🇦🇫",
@@ -21,6 +20,7 @@ Afghanistan,[e] officially the Islamic Emirate of Afghanistan,[f] is a landlocke
 https://example.com/,
 `,
 },
+
 {
 "text": "Albania",
 "text2": "🇦🇱",
@@ -35,7 +35,9 @@ Albania (/ælˈbeɪniə, ɔːl-/ ⓘ a(w)l-BAY-nee-ə; Albanian: Shqipëri or Sh
 "text7": `
 https://example.com/,
 `,
+"text8": `al`,
 },
+
 {
 "text": "Algeria",
 "text2": "🇩🇿",
@@ -50,7 +52,9 @@ Algeria - Wikipedia - <a class="brand" href="https://en.wikipedia.org/wiki/Alger
 "text7": `
 https://example.com/,
 `,
+"text8": `dz`,
 },
+
 {
 "text": "Andorra",
 "text2": "🇦🇩",
@@ -80,7 +84,9 @@ Angola - Wikipedia - <a class="brand" href="https://en.wikipedia.org/wiki/Angola
 "text7": `
 https://example.com/,
 `,
+"text8": `ao`,
 },
+
 {
 "text": "Antigua and Barbuda",
 "text2": "🇦🇬",
@@ -100,7 +106,7 @@ https://example.com/,
 "text": "Argentina",
 "text2": "🇦🇷",
 "text3": "#Spanish",
-"text4": "ag",
+"text4": "ar",
 "text5": `
 Argentina,[C] officially the Argentine Republic,[A][D] is a country in the southern half of South America. It covers an area of 2,780,085 km2 (1,073,397 sq mi),[B] making it the second-largest country in South America after Brazil, the fourth-largest country in the Americas, and the eighth-largest country in the world. Argentina shares the bulk of the Southern Cone with Chile to the west, and is also bordered by Bolivia and Paraguay to the north, Brazil to the northeast, Uruguay and the South Atlantic Ocean to the east, and the Drake Passage to the south. Argentina is a federal state subdivided into twenty-three provinces, and one autonomous city, which is the federal capital and largest city of the nation, Buenos Aires. The provinces and the capital have their own constitutions, but exist under a federal system. Argentina claims sovereignty over the Falkland Islands, South Georgia and the South Sandwich Islands, the Southern Patagonian Ice Field, and a part of Antarctica.
 `,
@@ -110,7 +116,9 @@ Argentina - Wikipedia - <a class="brand" href="https://en.wikipedia.org/wiki/Arg
 "text7": `
 https://example.com/,
 `,
+"text8": `ar`,
 },
+
 {
 "text": "Armenia",
 "text2": "🇦🇲",
@@ -125,7 +133,9 @@ Armenia - Wikipedia - <a class="brand" href="https://en.wikipedia.org/wiki/Armen
 "text7": `
 https://example.com/,
 `,
+"text8": `am`,
 },
+
 {
 "text": "Australia",
 "text2": "🇦🇺",
@@ -141,7 +151,9 @@ Australia - Wikipedia - <a class="brand" href="https://en.wikipedia.org/wiki/Aus
 <a class="brand" target="blank" href="https://www.dfat.gov.au/">Homepage | Australian Government Department of Foreign Affairs and Trade</a><hr>
 <a class="brand" target="blank" href="https://www.aph.gov.au/">Home – Parliament of Australia</a><hr>
 `,
+"text8": `au`,
 },
+
 {
 "text": `Austria`,
 "text2": "🇦🇹",
@@ -156,7 +168,9 @@ Austria - Wikipedia - <a class="brand" href="https://en.wikipedia.org/wiki/Austr
 "text7": `
 https://example.com/,
 `,
+"text8": `at`,
 },
+
 {
 "text": "Azerbaijan",
 "text2": "🇦🇿",
@@ -171,7 +185,9 @@ Azerbaijan - Wikipedia - <a class="brand" href="https://en.wikipedia.org/wiki/Az
 "text7": `
 https://example.com/,
 `,
+"text8": `az`,
 },
+
 {
 "text": "The Bahamas",
 "text2": "🇧🇸",
@@ -187,6 +203,7 @@ The Bahamas - Wikipedia - <a class="brand" href="https://en.wikipedia.org/wiki/T
 https://example.com/,
 `,
 },
+
 {
 "text": "Bahrain",
 "text2": "🇧🇭",
@@ -201,7 +218,9 @@ Bahrain - Wikipedia - <a class="brand" href="https://en.wikipedia.org/wiki/Bahra
 "text7": `
 https://example.com/,
 `,
+"text8": `bh`,
 },
+
 {
 "text": "Bangladesh",
 "text2": "🇧🇩",
@@ -216,7 +235,9 @@ Bangladesh - Wikipedia - <a class="brand" href="https://en.wikipedia.org/wiki/Ba
 "text7": `
 https://example.com/,
 `,
+"text8": `bd`,
 },
+
 {
 "text": "Barbados",
 "text2": "🇧🇧",
@@ -232,6 +253,7 @@ Barbados - Wikipedia - <a class="brand" href="https://en.wikipedia.org/wiki/Barb
 https://example.com/,
 `,
 },
+
 {
 "text": "Belarus",
 "text2": "🇧🇾",
@@ -246,7 +268,9 @@ Belarus - Wikipedia - <a class="brand" href="https://en.wikipedia.org/wiki/Belar
 "text7": `
 https://example.com/,
 `,
+"text8": `by`,
 },
+
 {
 "text": "Belgium",
 "text2": "🇧🇪",
@@ -261,7 +285,9 @@ Belgium - Wikipedia - <a class="brand" href="https://en.wikipedia.org/wiki/Belgi
 "text7": `
 https://example.com/,
 `,
+"text8": `be`,
 },
+
 {
 "text": "Belize",
 "text2": "🇧🇿",
@@ -277,6 +303,7 @@ Belize - Wikipedia - <a class="brand" href="https://en.wikipedia.org/wiki/Belize
 https://example.com/,
 `,
 },
+
 {
 "text": "Benin",
 "text2": "🇧🇯",
@@ -291,7 +318,9 @@ Benin - Wikipedia - <a class="brand" href="https://en.wikipedia.org/wiki/Benin">
 "text7": `
 https://example.com/,
 `,
+"text8": `bj`,
 },
+
 {
 "text": "Bhutan",
 "text2": "🇧🇹",
@@ -307,6 +336,7 @@ Bhutan - Wikipedia - <a class="brand" href="https://en.wikipedia.org/wiki/Bhutan
 https://example.com/,
 `,
 },
+
 {
 "text": "Bolivia",
 "text2": "🇧🇴",
@@ -321,7 +351,9 @@ Bolivia - Wikipedia - <a class="brand" href="https://en.wikipedia.org/wiki/Boliv
 "text7": `
 https://example.com/,
 `,
+"text8": `bo`,
 },
+
 {
 "text": "Bosnia and Herzegovina",
 "text2": "🇧🇦",
@@ -336,7 +368,9 @@ Bosnia and Herzegovina - Wikipedia - <a class="brand" href="https://en.wikipedia
 "text7": `
 https://example.com/,
 `,
+"text8": `ba`,
 },
+
 {
 "text": "Botswana",
 "text2": "🇧🇼",
@@ -352,6 +386,7 @@ Botswana - Wikipedia - <a class="brand" href="https://en.wikipedia.org/wiki/Bots
 https://example.com/,
 `,
 },
+
 {
 "text": "Brazil",
 "text2": "🇧🇷",
@@ -366,7 +401,9 @@ Brazil - Wikipedia - <a class="brand" href="https://en.wikipedia.org/wiki/Brazil
 "text7": `
 https://example.com/,
 `,
+"text8": `br`,
 },
+
 {
 "text": "Brunei",
 "text2": "🇧🇳",
@@ -382,6 +419,7 @@ Brunei - Wikipedia - <a class="brand" href="https://en.wikipedia.org/wiki/Brunei
 https://example.com/,
 `,
 },
+
 {
 "text": "Bulgaria",
 "text2": "🇧🇬",
@@ -396,7 +434,9 @@ Bulgaria - Wikipedia - <a class="brand" href="https://en.wikipedia.org/wiki/Bulg
 "text7": `
 https://example.com/,
 `,
+"text8": `bg`,
 },
+
 {
 "text": "Burkina Faso",
 "text2": "🇧🇫",
@@ -411,7 +451,9 @@ Burkina Faso - Wikipedia - <a class="brand" href="https://en.wikipedia.org/wiki/
 "text7": `
 https://example.com/,
 `,
+"text8": `bf`,
 },
+
 {
 "text": "Burundi",
 "text2": "🇧🇮",
@@ -427,6 +469,7 @@ Burundi - Wikipedia - <a class="brand" href="https://en.wikipedia.org/wiki/Burun
 https://example.com/,
 `,
 },
+
 {
 "text": "Cambodia",
 "text2": "🇰🇭",
@@ -441,12 +484,14 @@ Cambodia - Wikipedia - <a class="brand" href="https://en.wikipedia.org/wiki/Camb
 "text7": `
 https://example.com/,
 `,
+"text8": `kh`,
 },
+
 {
 "text": "Cameroon",
 "text2": "🇨🇲",
 "text3": "#English #French",
-"text4": "domain",
+"text4": "cm",
 "text5": `
 Cameroon,[a] officially the Republic of Cameroon,[b] is a country in Central Africa. It shares boundaries with Nigeria to the west and north, Chad to the northeast, the Central African Republic to the east, and Equatorial Guinea, Gabon, and the Republic of the Congo to the south. Its coastline lies on the Bight of Biafra, part of the Gulf of Guinea, and the Atlantic Ocean. Due to its strategic position at the crossroads between West Africa and Central Africa, it has been categorized as being in both camps. Cameroon's population of nearly 31 million people speak 250 native languages, in addition to the national tongues of English and French, or both. Early inhabitants of the territory included the Sao civilisation around Lake Chad and the Baka hunter-gatherers in the southeastern rainforest. Portuguese explorers reached the coast in the 15th century and named the area Rio dos Camarões (Shrimp River), which became Cameroon in English. Fulani soldiers founded the Adamawa Emirate in the north in the 19th century, and various ethnic groups of the west and northwest established powerful chiefdoms and fondoms.
 `,
@@ -456,7 +501,9 @@ Cameroon - Wikipedia - <a class="brand" href="https://en.wikipedia.org/wiki/Came
 "text7": `
 https://example.com/,
 `,
+"text8": `cm`,
 },
+
 {
 "text": "Canada",
 "text2": "🇨🇦",
@@ -471,7 +518,9 @@ Canada - Wikipedia - <a class="brand" href="https://en.wikipedia.org/wiki/Canada
 "text7": `
 https://www.canada.ca/,
 `,
+"text8": `ca`,
 },
+
 {
 "text": "Cape Verde",
 "text2": "🇨🇻",
@@ -487,6 +536,7 @@ Cape Verde - Wikipedia - <a class="brand" href="https://en.wikipedia.org/wiki/Ca
 https://example.com/,
 `,
 },
+
 {
 "text": "Central African Republic",
 "text2": "🇨🇫",
@@ -502,6 +552,7 @@ Central African Republic - Wikipedia - <a class="brand" href="https://en.wikiped
 https://example.com/,
 `,
 },
+
 {
 "text": "Chad",
 "text2": "🇹🇩",
@@ -517,6 +568,7 @@ Chad - Wikipedia - <a class="brand" href="https://en.wikipedia.org/wiki/Chad">ht
 https://example.com/,
 `,
 },
+
 {
 "text": "Chile",
 "text2": "🇨🇱",
@@ -531,7 +583,9 @@ Chile - Wikipedia - <a class="brand" href="https://en.wikipedia.org/wiki/Chile">
 "text7": `
 https://example.com/,
 `,
+"text8": `cl`,
 },
+
 {
 "text": "China",
 "text2": "🇨🇳",
@@ -547,6 +601,7 @@ China - Wikipedia - <a class="brand" href="https://en.wikipedia.org/wiki/China">
 https://example.com/,
 `,
 },
+
 {
 "text": "Colombia",
 "text2": "🇨🇴",
@@ -561,7 +616,9 @@ Colombia - Wikipedia - <a class="brand" href="https://en.wikipedia.org/wiki/Colo
 "text7": `
 https://example.com/,
 `,
+"text8": `co`,
 },
+
 {
 "text": "Comoros",
 "text2": "🇰🇲",
@@ -577,6 +634,7 @@ Comoros - Wikipedia - <a class="brand" href="https://en.wikipedia.org/wiki/Comor
 https://example.com/,
 `,
 },
+
 {
 "text": "Democratic Republic of the Congo",
 "text2": "🇨🇩",
@@ -592,6 +650,7 @@ Democratic Republic of the Congo - Wikipedia - <a class="brand" href="https://en
 https://example.com/,
 `,
 },
+
 {
 "text": "Republic of the Congo",
 "text2": "🇨🇬",
@@ -607,6 +666,7 @@ Republic of the Congo - Wikipedia - <a class="brand" href="https://en.wikipedia.
 https://example.com/,
 `,
 },
+
 {
 "text": "Costa Rica",
 "text2": "🇨🇷",
@@ -621,7 +681,9 @@ Costa Rica - Wikipedia - <a class="brand" href="https://en.wikipedia.org/wiki/Co
 "text7": `
 https://example.com/,
 `,
+"text8": `cr`,
 },
+
 {
 "text": "Croatia",
 "text2": "🇭🇷",
@@ -636,7 +698,9 @@ Croatia - Wikipedia - <a class="brand" href="https://en.wikipedia.org/wiki/Croat
 "text7": `
 https://example.com/,
 `,
+"text8": `hr`,
 },
+
 {
 "text": "Cuba",
 "text2": "🇨🇺",
@@ -651,7 +715,9 @@ Cuba - Wikipedia - <a class="brand" href="https://en.wikipedia.org/wiki/Cuba">ht
 "text7": `
 https://example.com/,
 `,
+"text8": `cu`,
 },
+
 {
 "text": "Cyprus",
 "text2": "🇨🇾",
@@ -666,7 +732,9 @@ Cyprus - Wikipedia - <a class="brand" href="https://en.wikipedia.org/wiki/Cyprus
 "text7": `
 https://example.com/,
 `,
+"text8": `cy`,
 },
+
 {
 "text": "Czech Republic",
 "text2": "🇨🇿",
@@ -681,7 +749,9 @@ Czech Republic - Wikipedia - <a class="brand" href="https://en.wikipedia.org/wik
 "text7": `
 https://example.com/,
 `,
+"text8": `cz`,
 },
+
 {
 "text": "Denmark",
 "text2": "🇩🇰",
@@ -696,7 +766,9 @@ Danish Realm - Wikipedia - <a class="brand" href="https://en.wikipedia.org/wiki/
 "text7": `
 https://example.com/,
 `,
+"text8": `dk`,
 },
+
 {
 "text": "Djibouti",
 "text2": "🇩🇯",
@@ -712,6 +784,7 @@ Djibouti - Wikipedia - <a class="brand" href="https://en.wikipedia.org/wiki/Djib
 https://example.com/,
 `,
 },
+
 {
 "text": "Dominica",
 "text2": "🇩🇲",
@@ -727,6 +800,7 @@ Dominica - Wikipedia - <a class="brand" href="https://en.wikipedia.org/wiki/Domi
 https://example.com/,
 `,
 },
+
 {
 "text": "Dominican Republic",
 "text2": "🇩🇴",
@@ -741,7 +815,9 @@ Dominican Republic - Wikipedia - <a class="brand" href="https://en.wikipedia.org
 "text7": `
 https://example.com/,
 `,
+"text8": `do`,
 },
+
 {
 "text": "Ecuador",
 "text2": "🇪🇨",
@@ -756,7 +832,9 @@ Ecuador - Wikipedia - <a class="brand" href="https://en.wikipedia.org/wiki/Ecuad
 "text7": `
 https://example.com/,
 `,
+"text8": `ec`,
 },
+
 {
 "text": "Egypt",
 "text2": "🇪🇬",
@@ -771,7 +849,9 @@ Egypt - Wikipedia - <a class="brand" href="https://en.wikipedia.org/wiki/Egypt">
 "text7": `
 https://example.com/,
 `,
+"text8": `eg`,
 },
+
 {
 "text": "El Salvador",
 "text2": "🇸🇻",
@@ -786,7 +866,9 @@ El Salvador - Wikipedia - <a class="brand" href="https://en.wikipedia.org/wiki/E
 "text7": `
 https://example.com/,
 `,
+"text8": `sv`,
 },
+
 {
 "text": "Equatorial Guinea",
 "text2": "🇬🇶",
@@ -802,6 +884,7 @@ Equatorial Guinea - Wikipedia - <a class="brand" href="https://en.wikipedia.org/
 https://example.com/,
 `,
 },
+
 {
 "text": "Eritrea",
 "text2": "🇪🇷",
@@ -817,6 +900,7 @@ Eritrea - Wikipedia - <a class="brand" href="https://en.wikipedia.org/wiki/Eritr
 https://example.com/,
 `,
 },
+
 {
 "text": "Estonia",
 "text2": "🇪🇪",
@@ -831,7 +915,9 @@ Estonia - Wikipedia - <a class="brand" href="https://en.wikipedia.org/wiki/Eston
 "text7": `
 https://example.com/,
 `,
+"text8": `ee`,
 },
+
 {
 "text": "Eswatini",
 "text2": "🇸🇿",
@@ -847,6 +933,7 @@ Eswatini - Wikipedia - <a class="brand" href="https://en.wikipedia.org/wiki/Eswa
 https://example.com/,
 `,
 },
+
 {
 "text": "Ethiopia",
 "text2": "🇪🇹",
@@ -861,7 +948,9 @@ Ethiopia - Wikipedia - <a class="brand" href="https://en.wikipedia.org/wiki/Ethi
 "text7": `
 https://example.com/,
 `,
+"text8": `et`,
 },
+
 {
 "text": "Fiji",
 "text2": "🇫🇯",
@@ -877,6 +966,7 @@ Fiji - Wikipedia - <a class="brand" href="https://en.wikipedia.org/wiki/Fiji">ht
 https://example.com/,
 `,
 },
+
 {
 "text": "Finland",
 "text2": "🇫🇮",
@@ -891,7 +981,9 @@ Finland - Wikipedia - <a class="brand" href="https://en.wikipedia.org/wiki/Finla
 "text7": `
 https://example.com/,
 `,
+"text8": `fi`,
 },
+
 {
 "text": "France",
 "text2": "🇫🇷",
@@ -906,7 +998,9 @@ France - Wikipedia - <a class="brand" href="https://en.wikipedia.org/wiki/France
 "text7": `
 https://example.com/,
 `,
+"text8": `fr`,
 },
+
 {
 "text": "Gabon",
 "text2": "🇬🇦",
@@ -922,6 +1016,7 @@ Gabon - Wikipedia - <a class="brand" href="https://en.wikipedia.org/wiki/Gabon">
 https://example.com/,
 `,
 },
+
 {
 "text": "The Gambia",
 "text2": "🇬🇲",
@@ -937,6 +1032,7 @@ The Gambia - Wikipedia - <a class="brand" href="https://en.wikipedia.org/wiki/Th
 https://example.com/,
 `,
 },
+
 {
 "text": "Georgia",
 "text2": "🇬🇪",
@@ -951,7 +1047,9 @@ Georgia (country) - Wikipedia - <a class="brand" href="https://en.wikipedia.org/
 "text7": `
 https://example.com/,
 `,
+"text8": `ge`,
 },
+
 {
 "text": "Germany",
 "text2": "🇩🇪",
@@ -966,7 +1064,9 @@ Germany - Wikipedia - <a class="brand" href="https://en.wikipedia.org/wiki/Germa
 "text7": `
 https://example.com/,
 `,
+"text8": `de`,
 },
+
 {
 "text": "Ghana",
 "text2": "🇬🇭",
@@ -981,7 +1081,9 @@ Ghana - Wikipedia - <a class="brand" href="https://en.wikipedia.org/wiki/Ghana">
 "text7": `
 https://example.com/,
 `,
+"text8": `gh`,
 },
+
 {
 "text": "Greece",
 "text2": "🇬🇷",
@@ -996,7 +1098,9 @@ Greece - Wikipedia - <a class="brand" href="https://en.wikipedia.org/wiki/Greece
 "text7": `
 https://example.com/,
 `,
+"text8": `gr`,
 },
+
 {
 "text": "Grenada",
 "text2": "🇬🇩",
@@ -1012,6 +1116,7 @@ Grenada - Wikipedia - <a class="brand" href="https://en.wikipedia.org/wiki/Grena
 https://example.com/,
 `,
 },
+
 {
 "text": "Guatemala",
 "text2": "🇬🇹",
@@ -1026,7 +1131,9 @@ Guatemala - Wikipedia - <a class="brand" href="https://en.wikipedia.org/wiki/Gua
 "text7": `
 https://example.com/,
 `,
+"text8": `gt`,
 },
+
 {
 "text": "Guinea",
 "text2": "🇬🇳",
@@ -1042,6 +1149,7 @@ Guinea - Wikipedia - <a class="brand" href="https://en.wikipedia.org/wiki/Guinea
 https://example.com/,
 `,
 },
+
 {
 "text": "Guinea-Bissau",
 "text2": "🇬🇼",
@@ -1057,6 +1165,7 @@ Guinea-Bissau - Wikipedia - <a class="brand" href="https://en.wikipedia.org/wiki
 https://example.com/,
 `,
 },
+
 {
 "text": "Guyana",
 "text2": "🇬🇾",
@@ -1072,6 +1181,7 @@ Guyana - Wikipedia - <a class="brand" href="https://en.wikipedia.org/wiki/Guyana
 https://example.com/,
 `,
 },
+
 {
 "text": "Haiti",
 "text2": "🇭🇹",
@@ -1086,7 +1196,9 @@ Haiti - Wikipedia - <a class="brand" href="https://en.wikipedia.org/wiki/Haiti">
 "text7": `
 https://example.com/,
 `,
+"text8": `ht`,
 },
+
 {
 "text": "Honduras",
 "text2": "🇭🇳",
@@ -1101,7 +1213,9 @@ Honduras - Wikipedia - <a class="brand" href="https://en.wikipedia.org/wiki/Hond
 "text7": `
 https://example.com/,
 `,
+"text8": `hn`,
 },
+
 {
 "text": "Hungary",
 "text2": "🇭🇺",
@@ -1116,7 +1230,9 @@ Hungary - Wikipedia - <a class="brand" href="https://en.wikipedia.org/wiki/Hunga
 "text7": `
 https://example.com/,
 `,
+"text8": `hu`,
 },
+
 {
 "text": "Iceland",
 "text2": "🇮🇸",
@@ -1132,6 +1248,7 @@ Iceland - Wikipedia - <a class="brand" href="https://en.wikipedia.org/wiki/Icela
 https://island.is/,
 `,
 },
+
 {
 "text": "India",
 "text2": "🇮🇳",
@@ -1146,6 +1263,7 @@ India - Wikipedia - <a class="brand" href="https://en.wikipedia.org/wiki/India">
 "text7": `
 https://www.india.gov.in/,
 `,
+"text8": `in`,
 },
 
 {
@@ -1162,6 +1280,7 @@ Indonesia - Wikipedia - <a class="brand" href="https://en.wikipedia.org/wiki/Ind
 "text7": `
 https://example.com/,
 `,
+"text8": `id`,
 },
 
 {
@@ -1178,6 +1297,7 @@ Iran - Wikipedia - <a class="brand" href="https://en.wikipedia.org/wiki/Iran">ht
 "text7": `
 https://example.com/,
 `,
+"text8": `ir`,
 },
 
 {
@@ -1194,10 +1314,11 @@ Iraq - Wikipedia - <a class="brand" href="https://en.wikipedia.org/wiki/Iraq">ht
 "text7": `
 https://example.com/,
 `,
+"text8": `iq`,
 },
 
 {
-"text": "Republic of Ireland",
+"text": "Ireland. Republic of Ireland",
 "text2": "🇮🇪",
 "text3": "#Irish #English",
 "text4": "ie",
@@ -1209,6 +1330,7 @@ Republic of Ireland - Wikipedia - <a class="brand" href="https://en.wikipedia.or
 "text7": `
 https://example.com/,
 `,
+"text8": `ie`,
 },
 
 {
@@ -1225,6 +1347,7 @@ Israel - Wikipedia - <a class="brand" href="https://en.wikipedia.org/wiki/Israel
 "text7": `
 https://example.com/,
 `,
+"text8": `il`,
 },
 
 {
@@ -1241,6 +1364,7 @@ Italy - Wikipedia - <a class="brand" href="https://en.wikipedia.org/wiki/Italy">
 "text7": `
 https://example.com/,
 `,
+"text8": `it`,
 },
 
 {
@@ -1273,6 +1397,7 @@ Jamaica - Wikipedia - <a class="brand" href="https://en.wikipedia.org/wiki/Jamai
 "text7": `
 https://example.com/,
 `,
+"text8": `jm`,
 },
 
 {
@@ -1290,8 +1415,7 @@ Japan - Wikipedia - <a class="brand" href="https://en.wikipedia.org/wiki/Japan">
 https://www.japan.go.jp/,
 https://japan.kantei.go.jp/,
 `,
-
-
+"text8": `jp`,
 },
 
 {
@@ -1308,6 +1432,7 @@ Jordan - Wikipedia - <a class="brand" href="https://en.wikipedia.org/wiki/Jordan
 "text7": `
 https://example.com/,
 `,
+"text8": `jo`,
 },
 
 {
@@ -1324,6 +1449,7 @@ Kazakhstan,[d] officially the Republic of Kazakhstan,[e] is a landlocked country
 "text7": `
 https://example.com/,
 `,
+"text8": `kz`,
 },
 
 {
@@ -1340,6 +1466,7 @@ Kenya, officially the Republic of Kenya (Swahili: Jamhuri ya Kenya), is a countr
 "text7": `
 https://example.com/,
 `,
+"text8": `ke`,
 },
 
 {
@@ -1372,6 +1499,7 @@ Kuwait, (Arabic: الكويت)[a] officially the State of Kuwait,[b] is a countr
 "text7": `
 https://example.com/,
 `,
+"text8": `kw`,
 },
 
 {
@@ -1388,6 +1516,7 @@ Kyrgyzstan,[a] officially the Kyrgyz Republic,[b][13] is a landlocked country in
 "text7": `
 https://example.com/,
 `,
+"text8": `kg`,
 },
 
 {
@@ -1420,6 +1549,7 @@ Latvia,[a] officially the Republic of Latvia,[b][14] is a country in the Baltic 
 "text7": `
 https://example.com/,
 `,
+"text8": `lv`,
 },
 
 {
@@ -1436,6 +1566,7 @@ Lebanon,[c] officially the Republic of Lebanon,[d] is a country in the Levant re
 "text7": `
 https://example.com/,
 `,
+"text8": `lb`,
 },
 
 {
@@ -1484,6 +1615,7 @@ Libya,[b] officially the State of Libya,[c] is a country in the Maghreb region o
 "text7": `
 https://example.com/,
 `,
+"text8": `ly`,
 },
 
 {
@@ -1516,6 +1648,7 @@ Lithuania,[b] officially the Republic of Lithuania,[c] is a country in the Balti
 "text7": `
 https://example.com/,
 `,
+"text8": `lt`,
 },
 
 {
@@ -1580,6 +1713,7 @@ Malaysia[d] is a country in Southeast Asia. A federal constitutional monarchy, i
 "text7": `
 https://example.com/,
 `,
+"text8": `my`,
 },
 
 {
@@ -1612,6 +1746,7 @@ Mali,[c] officially the Republic of Mali,[d] is a landlocked country in West Afr
 "text7": `
 https://example.com/,
 `,
+"text8": `ml`,
 },
 
 {
@@ -1692,6 +1827,7 @@ Mexico,[a][b] officially the United Mexican States,[c] is a country in North Ame
 "text7": `
 https://example.com/,
 `,
+"text8": `mx`,
 },
 
 {
@@ -1723,6 +1859,7 @@ Moldova,[d] officially the Republic of Moldova,[e] is a landlocked country in Ea
 "text7": `
 https://example.com/,
 `,
+"text8": `md`,
 },
 
 {
@@ -1787,6 +1924,7 @@ Morocco,[d] officially the Kingdom of Morocco,[e] is a country in the Maghreb re
 "text7": `
 https://example.com/,
 `,
+"text8": `ma`,
 },
 
 {
@@ -1803,6 +1941,7 @@ Mozambique,[d] officially the Republic of Mozambique,[e] is a country located in
 "text7": `
 https://example.com/,
 `,
+"text8": `mz`,
 },
 
 {
@@ -1819,6 +1958,7 @@ Myanmar,[f] officially the Republic of the Union of Myanmar[g] and also referred
 "text7": `
 https://example.com/,
 `,
+"text8": `mm`,
 },
 
 {
@@ -1867,6 +2007,7 @@ Nepal - Wikipedia - <a class="brand" href="https://en.wikipedia.org/wiki/Nepal">
 "text7": `
 https://example.com/,
 `,
+"text8": `np`,
 },
 
 {
@@ -1883,6 +2024,7 @@ Kingdom of the Netherlands - Wikipedia - <a class="brand" href="https://en.wikip
 "text7": `
 https://example.com/,
 `,
+"text8": `nl`,
 },
 
 {
@@ -1899,6 +2041,7 @@ New Zealand - Wikipedia - <a class="brand" href="https://en.wikipedia.org/wiki/N
 "text7": `
 https://example.com/,
 `,
+"text8": `nz`,
 },
 
 {
@@ -1915,6 +2058,7 @@ Nicaragua - Wikipedia - <a class="brand" href="https://en.wikipedia.org/wiki/Nic
 "text7": `
 https://example.com/,
 `,
+"text8": `ni`,
 },
 
 {
@@ -1947,6 +2091,7 @@ Nigeria - Wikipedia - <a class="brand" href="https://en.wikipedia.org/wiki/Niger
 "text7": `
 https://example.com/,
 `,
+"text8": `ng`,
 },
 
 {
@@ -1979,6 +2124,7 @@ North Macedonia - Wikipedia - <a class="brand" href="https://en.wikipedia.org/wi
 "text7": `
 https://example.com/,
 `,
+"text8": `mk`,
 },
 
 {
@@ -1995,6 +2141,7 @@ Norway,[a] officially the Kingdom of Norway,[b] is a Nordic country located on t
 "text7": `
 https://www.norge.no/en,
 `,
+"text8": `no`,
 },
 
 {
@@ -2011,6 +2158,7 @@ Oman - Wikipedia - <a class="brand" href="https://en.wikipedia.org/wiki/Oman">ht
 "text7": `
 https://example.com/,
 `,
+"text8": `om`,
 },
 
 {
@@ -2027,6 +2175,7 @@ Pakistan - Wikipedia - <a class="brand" href="https://en.wikipedia.org/wiki/Paki
 "text7": `
 https://www.pakistan.gov.pk/,
 `,
+"text8": `pk`,
 },
 
 {
@@ -2059,6 +2208,7 @@ Palestine,[i] officially the State of Palestine,[ii][f] is a country in West Asi
 "text7": `
 https://example.com/,
 `,
+"text8": `ps`,
 },
 
 {
@@ -2075,6 +2225,7 @@ Panama,[a] officially the Republic of Panama,[b] is a country in Latin America a
 "text7": `
 https://example.com/,
 `,
+"text8": `pa`,
 },
 
 {
@@ -2108,6 +2259,7 @@ Paraguay - Wikipedia - <a class="brand" href="https://en.wikipedia.org/wiki/Para
 https://senatur.gov.py/,
 https://www.mef.gov.py/,
 `,
+"text8": `py`,
 },
 
 {
@@ -2124,6 +2276,7 @@ Peru - Wikipedia - <a class="brand" href="https://en.wikipedia.org/wiki/Peru">ht
 "text7": `
 https://example.com/,
 `,
+"text8": `pe`,
 },
 
 {
@@ -2140,6 +2293,7 @@ Philippines - Wikipedia - <a class="brand" href="https://en.wikipedia.org/wiki/P
 "text7": `
 https://example.com/,
 `,
+"text8": `ph`,
 },
 
 {
@@ -2156,6 +2310,7 @@ Poland - Wikipedia - <a class="brand" href="https://en.wikipedia.org/wiki/Poland
 "text7": `
 https://www.gov.pl/,
 `,
+"text8": `pl`,
 },
 
 {
@@ -2175,6 +2330,7 @@ https://www.portugal.gov.pt/,
 https://www.theportugalnews.com/,
 https://portuguese-american-journal.com/,
 `,
+"text8": `pt`,
 },
 
 {
@@ -2191,6 +2347,7 @@ Qatar - Wikipedia - <a class="brand" href="https://en.wikipedia.org/wiki/Qatar">
 "text7": `
 https://example.com/,
 `,
+"text8": `qa`,
 },
 
 {
@@ -2207,6 +2364,7 @@ Romania - Wikipedia - <a class="brand" href="https://en.wikipedia.org/wiki/Roman
 "text7": `
 https://www.presidency.ro/,
 `,
+"text8": `ro`,
 },
 
 {
@@ -2223,6 +2381,7 @@ Romania - Wikipedia - <a class="brand" href="https://en.wikipedia.org/wiki/Roman
 "text7": `
 https://www.presidency.ro/,
 `,
+"text8": `ru`,
 },
 
 {
@@ -2350,6 +2509,7 @@ Saudi Arabia - Wikipedia - <a class="brand" href="https://en.wikipedia.org/wiki/
 "text7": `
 https://example.com/,
 `,
+"text8": `sa`,
 },
 
 {
@@ -2366,6 +2526,7 @@ Senegal - Wikipedia - <a class="brand" href="https://en.wikipedia.org/wiki/Seneg
 "text7": `
 https://example.com/,
 `,
+"text8": `sn`,
 },
 
 {
@@ -2382,6 +2543,7 @@ Serbia - Wikipedia - <a class="brand" href="https://en.wikipedia.org/wiki/Serbia
 "text7": `
 https://example.com/,
 `,
+"text8": `rs`,
 },
 
 {
@@ -2430,6 +2592,7 @@ Singapore - Wikipedia - <a class="brand" href="https://en.wikipedia.org/wiki/Sin
 "text7": `
 https://example.com/,
 `,
+"text8": `sg`,
 },
 
 {
@@ -2446,6 +2609,7 @@ Slovakia - Wikipedia - <a class="brand" href="https://en.wikipedia.org/wiki/Slov
 "text7": `
 https://example.com/,
 `,
+"text8": `sk`,
 },
 
 {
@@ -2462,6 +2626,7 @@ Slovenia - Wikipedia - <a class="brand" href="https://en.wikipedia.org/wiki/Slov
 "text7": `
 https://example.com/,
 `,
+"text8": `si`,
 },
 
 {
@@ -2510,6 +2675,7 @@ South Africa - Wikipedia - <a class="brand" href="https://en.wikipedia.org/wiki/
 "text7": `
 https://example.com/,
 `,
+"text8": `za`,
 },
 
 {
@@ -2526,6 +2692,7 @@ South Korea - Wikipedia - <a class="brand" href="https://en.wikipedia.org/wiki/S
 "text7": `
 https://example.com/,
 `,
+"text8": `kr`,
 },
 
 {
@@ -2559,6 +2726,7 @@ Spain - Wikipedia - <a class="brand" href="https://en.wikipedia.org/wiki/Spain">
 https://www.spain.info/,
 https://administracion.gob.es/,
 `,
+"text8": `es`,
 },
 
 {
@@ -2575,6 +2743,7 @@ Sri Lanka - Wikipedia - <a class="brand" href="https://en.wikipedia.org/wiki/Sri
 "text7": `
 https://www.gov.lk/,
 `,
+"text8": `lk`,
 },
 
 {
@@ -2623,6 +2792,7 @@ Sweden - Wikipedia - <a class="brand" href="https://en.wikipedia.org/wiki/Sweden
 "text7": `
 https://example.com/,
 `,
+"text8": `se`,
 },
 
 {
@@ -2639,6 +2809,7 @@ Switzerland - Wikipedia - <a class="brand" href="https://en.wikipedia.org/wiki/S
 "text7": `
 https://example.com/,
 `,
+"text8": `ch`,
 },
 
 {
@@ -2655,6 +2826,7 @@ Syria - Wikipedia - <a class="brand" href="https://en.wikipedia.org/wiki/Syria">
 "text7": `
 https://example.com/,
 `,
+"text8": `sy`,
 },
 
 {
@@ -2687,6 +2859,7 @@ Tanzania - Wikipedia - <a class="brand" href="https://en.wikipedia.org/wiki/Tanz
 "text7": `
 https://example.com/,
 `,
+"text8": `tz`,
 },
 
 {
@@ -2703,6 +2876,7 @@ Thailand - Wikipedia - <a class="brand" href="https://en.wikipedia.org/wiki/Thai
 "text7": `
 https://example.com/,
 `,
+"text8": `th`,
 },
 
 {
@@ -2767,6 +2941,7 @@ Trinidad and Tobago - Wikipedia - <a class="brand" href="https://en.wikipedia.or
 "text7": `
 https://example.com/,
 `,
+"text8": `tt`,
 },
 
 {
@@ -2783,6 +2958,7 @@ Tunisia,[b] officially the Republic of Tunisia,[c][19] is a country in the Maghr
 "text7": `
 https://example.com/,
 `,
+"text8": `tn`,
 },
 
 {
@@ -2799,6 +2975,7 @@ Turkey,[a] officially the Republic of Türkiye,[b] is a country mainly located i
 "text7": `
 https://example.com/,
 `,
+"text8": `tr`,
 },
 
 {
@@ -2815,6 +2992,7 @@ Turkmenistan[a] is a landlocked country in Central Asia bordered by Kazakhstan t
 "text7": `
 https://example.com/,
 `,
+"text8": `tm`,
 },
 
 {
@@ -2847,6 +3025,7 @@ Uganda,[b] officially the Republic of Uganda,[c] is a landlocked country in East
 "text7": `
 https://example.com/,
 `,
+"text8": `ug`,
 },
 
 {
@@ -2865,6 +3044,7 @@ https://www.president.gov.ua/,
 https://www.kmu.gov.ua/,
 https://www.rada.gov.ua/,
 `,
+"text8": `ua`,
 },
 
 {
@@ -2881,6 +3061,7 @@ The United Arab Emirates[b] (UAE), or simply the Emirates,[c] is a country in We
 "text7": `
 https://example.com/,
 `,
+"text8": `ae`,
 },
 
 {
@@ -2898,6 +3079,7 @@ The United Kingdom of Great Britain and Northern Ireland, commonly known as the 
 https://www.gov.uk/,
 https://www.royal.uk/,
 `,
+"text8": `gb`,
 },
 
 {
@@ -2918,6 +3100,7 @@ The United States of America (USA), commonly known as the United States (U.S.) o
 <a class="brand" target="blank" href="https://www.whitehouse.gov/">The White House</a><hr>
 <a class="brand" target="blank" href="https://www.supremecourt.gov/">Home - Supreme Court of the United States</a><hr>
 `,
+"text8": `us`,
 },
 
 {
@@ -2934,6 +3117,7 @@ Uruguay (/ˈjʊərəɡwaɪ/ ⓘ[12] YOOR-ə-gwy, Spanish: [uɾuˈɣwaj] ⓘ), of
 "text7": `
 https://example.com/,
 `,
+"text8": `uy`,
 },
 
 {
@@ -2950,6 +3134,7 @@ Uzbekistan,[a] officially the Republic of Uzbekistan,[b] is a doubly landlocked 
 "text7": `
 https://example.com/,
 `,
+"text8": `uz`,
 },
 
 {
@@ -2982,6 +3167,7 @@ Vatican City,[g] officially the Vatican City State (Italian: Stato della Città 
 "text7": `
 https://example.com/,
 `,
+"text8": `ve`,
 },
 
 {
@@ -2998,6 +3184,7 @@ Venezuela,[c] officially the Bolivarian Republic of Venezuela,[d] is a country o
 "text7": `
 https://example.com/,
 `,
+"text8": `ve`,
 },
 
 {
@@ -3014,6 +3201,7 @@ Vietnam,[e][f] officially the Socialist Republic of Vietnam,[g][h] is a country 
 "text7": `
 https://example.com/,
 `,
+"text8": `vn`,
 },
 
 {
@@ -3030,6 +3218,7 @@ Yemen,[a] officially the Republic of Yemen,[b] is a country in West Asia.[11] Lo
 "text7": `
 https://example.com/,
 `,
+"text8": `ye`,
 },
 
 {
@@ -3046,6 +3235,7 @@ Zambia,[b] officially the Republic of Zambia,[c] is a landlocked country at the 
 "text7": `
 https://example.com/,
 `,
+"text8": `zm`,
 },
 
 {
@@ -3062,6 +3252,7 @@ Zimbabwe,[c] officially the Republic of Zimbabwe, is a landlocked country in Sou
 "text7": `
 https://example.com/,
 `,
+"text8": `zw`,
 },
 
 /*
@@ -3079,6 +3270,7 @@ Source
 "text7": `
 https://example.com/,
 `,
+"text8": `xx`,
 },
 */
 

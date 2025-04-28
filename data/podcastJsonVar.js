@@ -3,6 +3,15 @@ var podcastJsonVar =
 
 [
     {
+        "text": "TED Talks Daily | Listen to Podcasts On Demand Free | TuneIn",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/tunein.com\/podcasts\/Lectures\/TED-Talks-Daily-p378321\/",
+        "tag": "#podcast #arts #culture #science #technology #en",
+        "time": 1745867484,
+        "rightFooter": ""
+    },
+    {
         "text": "Hard Fork - YouTube",
         "text2": "",
         "text3": "",
@@ -153,15 +162,6 @@ var podcastJsonVar =
         "url": "https:\/\/tunein.com\/podcasts\/Comedy\/SmartLess-p1352445\/?topicId=467053596",
         "tag": "#podcast #comedy #en",
         "time": 1745722284,
-        "rightFooter": ""
-    },
-    {
-        "text": "TED Radio Hour | Listen to Podcasts On Demand Free | TuneIn",
-        "text2": "",
-        "text3": "",
-        "url": "https:\/\/tunein.com\/podcasts\/Ideas\/The-Moth-p418021\/",
-        "tag": "#podcast #culture #technology #en",
-        "time": 1726746377,
         "rightFooter": ""
     },
     {
