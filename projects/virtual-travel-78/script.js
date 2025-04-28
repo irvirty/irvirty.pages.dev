@@ -1,4 +1,4 @@
-// v.1.1.0
+// v.1.1.2
 
 
 var print = `
@@ -331,14 +331,15 @@ return `
 
 <div class="autoColumn notUnderline tCenter small">
 <a class="autoColumnItem inline padding border light2 borderRadius2" target="blank" href="/?q=${vTQGo} q">Search</a>
-<a class="autoColumnItem inline padding border light2 borderRadius2" target="blank" href="/?q=${vTQGo} v">Video</a>
-<a class="autoColumnItem inline padding border light2 borderRadius2" target="blank" href="/?q=${vTQGo} wik">Wikipedia</a>
-<a class="autoColumnItem inline padding border light2 borderRadius2" target="blank" href="https://www.britannica.com/search?query=${vTQGo}">Britannica</a>
-<a class="autoColumnItem inline padding border light2 borderRadius2" target="blank" href="https://www.encyclopedia.com/gsearch?q=${vTQGo}">Encyclopedia.com</a>
-<a class="autoColumnItem inline padding border light2 borderRadius2" target="blank" href="https://www.google.com/maps/?q=${vTQGo}">Map</a>
 
-<a class="autoColumnItem inline padding border light2 borderRadius2" target="blank" href="/?q=${vTQGo} Newspapers">Newspapers</a>
+<a class="autoColumnItem inline padding border light2 borderRadius2" target="blank" href="/?q=${vTQGo} wik">Wikipedia</a>
+<!--delme<a class="autoColumnItem inline padding border light2 borderRadius2" target="blank" href="https://www.britannica.com/search?query=${vTQGo}">Britannica</a>
+<a class="autoColumnItem inline padding border light2 borderRadius2" target="blank" href="https://www.encyclopedia.com/gsearch?q=${vTQGo}">Encyclopedia.com</a>-->
+
+<a class="autoColumnItem inline padding border light2 borderRadius2" target="blank" href="/?q=${vTQGo} v">Video</a>
+
 <a class="autoColumnItem inline padding border light2 borderRadius2" target="blank" href="/?q=${vTQGo} n">In News</a>
+<a class="autoColumnItem inline padding border light2 borderRadius2" target="blank" href="/?q=${vTQGo} Newspapers">Newspapers</a>
 
 <a class="autoColumnItem inline padding border light2 borderRadius2" target="blank" href="/?q=${vTQGo} Television">Television</a>
 <a class="autoColumnItem inline padding border light2 borderRadius2" target="blank" href="/?q=${vTQGo} Radio">Radio</a>
@@ -348,6 +349,8 @@ return `
 <a class="autoColumnItem inline padding border light2 borderRadius2" target="blank" href="/?q=${vTQGo} national radio">National Radio</a>
 
 <a class="autoColumnItem inline padding border light2 borderRadius2" target="blank" href="/?q=Most Visited Websites in the ${vTQGo}">Top Sites</a>
+
+<a class="autoColumnItem inline padding border light2 borderRadius2" target="blank" href="https://www.google.com/maps/?q=${vTQGo}">Map</a>
 
 </div>
 
