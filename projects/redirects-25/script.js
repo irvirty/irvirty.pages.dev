@@ -809,18 +809,11 @@ q = encodeURIComponent(q);
 urlList = [
 "https://wikipedia.org/w/?search=" + q,
 //"https://www.thecanadianencyclopedia.ca/en/search?query=" + q,
-
-/*delme"https://www.britannica.com/search?query=" + q,
-"https://www.encyclopedia.com/gsearch?q=" + q,*/
 ];
 if (q == ''){
 urlList = [
 "https://en.wikipedia.org/wiki/Special:Random",
 //"https://www.thecanadianencyclopedia.ca/",
-
-/*delme
-"https://www.britannica.com/",
-"https://www.encyclopedia.com/",*/
 ];
 }
 random = urlList[fuMRandom(0, urlList.length - 1)];

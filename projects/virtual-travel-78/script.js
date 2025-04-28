@@ -333,8 +333,6 @@ return `
 <a class="autoColumnItem inline padding border light2 borderRadius2" target="blank" href="/?q=${vTQGo} q">Search</a>
 
 <a class="autoColumnItem inline padding border light2 borderRadius2" target="blank" href="/?q=${vTQGo} wik">Wikipedia</a>
-<!--delme<a class="autoColumnItem inline padding border light2 borderRadius2" target="blank" href="https://www.britannica.com/search?query=${vTQGo}">Britannica</a>
-<a class="autoColumnItem inline padding border light2 borderRadius2" target="blank" href="https://www.encyclopedia.com/gsearch?q=${vTQGo}">Encyclopedia.com</a>-->
 
 <a class="autoColumnItem inline padding border light2 borderRadius2" target="blank" href="/?q=${vTQGo} v">Video</a>
 
