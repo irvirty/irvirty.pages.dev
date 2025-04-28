@@ -77,11 +77,11 @@ $page = curl_exec($curl_handle);
 curl_close($curl_handle);
 
 if ($name == "rss"){
-$myfile = fopen("$htmlSiteDirectory"."$name.xml", "w") or die ("Unable to open file!");
+$myfile = fopen("$htmlSiteDirectory"."$name.xml", "w+") or die ("Unable to open file!");
 fwrite($myfile, $page);
 fclose($myfile);
 } else {
-$myfile = fopen("$htmlSiteDirectory"."$name.html", "w") or die ("Unable to open file!");
+$myfile = fopen("$htmlSiteDirectory"."$name.html", "w+") or die ("Unable to open file!");
 fwrite($myfile, $page);
 fclose($myfile);
 }

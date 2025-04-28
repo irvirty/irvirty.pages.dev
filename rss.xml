@@ -1,62 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet href="/css/rss.css"?>
 
-<rss version="2.0">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+
 <channel>
 
-<title>Irvirty RSS</title>
+<title>Irvirty News RSS</title>
 <link>https://irvirty.pages.dev</link>
 <description>Short news on various topics.</description>
 
-<image class="logo">
+<image>
 <url>https://irvirty.pages.dev/img/logo.png</url>
-<title>Irvirty RSS</title>
+<title>Irvirty News RSS</title>
 <link>https://irvirty.pages.dev</link>
 <width>32</width>
 <height>32</height>
 </image>
 
 <item>
-<pubDate>Thu, 03 Apr 25 11:36:26 +0300</pubDate>
-<title><![CDATA[Firefox: "Tabs moved to the side. Screen space reclaimed. The new Firefox sidebar helps you focus, stay organized, and keep the stuff you actually use close by (all thanks to you 🔥) mzl.la/3FOgtFj" — Bluesky 
- ]]></title>
-<link><![CDATA[https://bsky.app/profile/firefox.com/post/3llu6owvhfc2b]]></link>
-<description>
-<![CDATA[
-Firefox: "Tabs moved to the side. Screen space reclaimed. The new Firefox sidebar helps you focus, stay organized, and keep the stuff you actually use close by (all thanks to you 🔥) mzl.la/3FOgtFj" — Bluesky 
-https://bsky.app/profile/firefox.com/post/3llu6owvhfc2b
-]]>
-</description>
-</item>
-
-<item>
-<pubDate>Sat, 29 Mar 25 15:07:07 +0200</pubDate>
-<title><![CDATA[GIMP 3.0 Released - GIMP 
- ]]></title>
-<link><![CDATA[https://www.gimp.org/news/2025/03/16/gimp-3-0-released/]]></link>
-<description>
-<![CDATA[
-GIMP 3.0 Released - GIMP 
-https://www.gimp.org/news/2025/03/16/gimp-3-0-released/
-]]>
-</description>
-</item>
-
-<item>
-<pubDate>Tue, 11 Feb 25 02:44:54 +0200</pubDate>
-<title><![CDATA[Neocities: "One million sites 🎉" — Bluesky 
- ]]></title>
-<link><![CDATA[https://bsky.app/profile/neocities.org/post/3lhu7xapg3s2x]]></link>
-<description>
-<![CDATA[
-Neocities: "One million sites 🎉" — Bluesky 
-https://bsky.app/profile/neocities.org/post/3lhu7xapg3s2x
-]]>
-</description>
-</item>
-
-<item>
-<pubDate>Tue, 04 Feb 25 17:44:10 +0200</pubDate>
+<pubDate>Tue, 22 Apr 2025 14:48:20 +0000</pubDate>
 <title><![CDATA[Bluesky: "30M users 1B posts 🤝 bluesky milestone achieved this week" — Bluesky 
  ]]></title>
 <link><![CDATA[https://bsky.app/profile/bsky.app/post/3lh5iyaqqos24]]></link>
@@ -69,20 +31,72 @@ https://bsky.app/profile/bsky.app/post/3lh5iyaqqos24
 </item>
 
 <item>
-<pubDate>Thu, 30 Jan 25 01:11:11 +0200</pubDate>
-<title><![CDATA[Bluesky: "this is how it feels to reach 30 MILLION users!!!" — Bluesky 
+<pubDate>Tue, 22 Apr 2025 14:47:43 +0000</pubDate>
+<title><![CDATA[Neocities: "One million sites 🎉" — Bluesky 
  ]]></title>
-<link><![CDATA[https://bsky.app/profile/bsky.app/post/3lgu4lg6j2k2v]]></link>
+<link><![CDATA[https://bsky.app/profile/neocities.org/post/3lhu7xapg3s2x]]></link>
 <description>
 <![CDATA[
-Bluesky: "this is how it feels to reach 30 MILLION users!!!" — Bluesky 
-https://bsky.app/profile/bsky.app/post/3lgu4lg6j2k2v
+Neocities: "One million sites 🎉" — Bluesky 
+https://bsky.app/profile/neocities.org/post/3lhu7xapg3s2x
 ]]>
 </description>
 </item>
 
 <item>
-<pubDate>Thu, 09 Jan 25 22:34:31 +0200</pubDate>
+<pubDate>Tue, 22 Apr 2025 11:36:23 +0000</pubDate>
+<title><![CDATA[It’s Our Birthday, Let’s Party - YouTube 
+ ]]></title>
+<link><![CDATA[https://www.youtube.com/watch?v=OIuG1bBkfs0]]></link>
+<description>
+<![CDATA[
+It’s Our Birthday, Let’s Party - YouTube 
+https://www.youtube.com/watch?v=OIuG1bBkfs0
+]]>
+</description>
+</item>
+
+<item>
+<pubDate>Tue, 22 Apr 2025 10:08:10 +0000</pubDate>
+<title><![CDATA[How Firefox’s vertical tabs came to life with a little help from our community 
+ ]]></title>
+<link><![CDATA[https://blog.mozilla.org/en/firefox/vertical-tabs-and-the-firefox-community/]]></link>
+<description>
+<![CDATA[
+How Firefox’s vertical tabs came to life with a little help from our community 
+https://blog.mozilla.org/en/firefox/vertical-tabs-and-the-firefox-community/
+]]>
+</description>
+</item>
+
+<item>
+<pubDate>Mon, 14 Apr 2025 12:45:11 +0000</pubDate>
+<title><![CDATA[ChatGPT just passed the Turing test. But that doesn’t mean AI is now as smart as humans 
+ ]]></title>
+<link><![CDATA[https://theconversation.com/chatgpt-just-passed-the-turing-test-but-that-doesnt-mean-ai-is-now-as-smart-as-humans-253946]]></link>
+<description>
+<![CDATA[
+ChatGPT just passed the Turing test. But that doesn’t mean AI is now as smart as humans 
+https://theconversation.com/chatgpt-just-passed-the-turing-test-but-that-doesnt-mean-ai-is-now-as-smart-as-humans-253946
+]]>
+</description>
+</item>
+
+<item>
+<pubDate>Sat, 29 Mar 2025 13:07:07 +0000</pubDate>
+<title><![CDATA[GIMP 3.0 Released - GIMP 
+ ]]></title>
+<link><![CDATA[https://www.gimp.org/news/2025/03/16/gimp-3-0-released/]]></link>
+<description>
+<![CDATA[
+GIMP 3.0 Released - GIMP 
+https://www.gimp.org/news/2025/03/16/gimp-3-0-released/
+]]>
+</description>
+</item>
+
+<item>
+<pubDate>Thu, 09 Jan 2025 20:34:31 +0000</pubDate>
 <title><![CDATA[Firefox 134.0, See All New Features, Updates and Fixes 
  ]]></title>
 <link><![CDATA[https://www.mozilla.org/en-US/firefox/134.0/releasenotes/]]></link>
@@ -95,20 +109,7 @@ https://www.mozilla.org/en-US/firefox/134.0/releasenotes/
 </item>
 
 <item>
-<pubDate>Sun, 29 Dec 24 23:49:19 +0200</pubDate>
-<title><![CDATA[Bluesky: "Merry Christmas from us to you 🎄🎁💙 We launched Trending Topics today, and you can find it by tapping the search icon on the bottom bar of the app or the right sidebar on desktop." — Bluesky 
- ]]></title>
-<link><![CDATA[https://bsky.app/profile/bsky.app/post/3le6bze3nus2c]]></link>
-<description>
-<![CDATA[
-Bluesky: "Merry Christmas from us to you 🎄🎁💙 We launched Trending Topics today, and you can find it by tapping the search icon on the bottom bar of the app or the right sidebar on desktop." — Bluesky 
-https://bsky.app/profile/bsky.app/post/3le6bze3nus2c
-]]>
-</description>
-</item>
-
-<item>
-<pubDate>Sun, 29 Dec 24 23:48:45 +0200</pubDate>
+<pubDate>Sun, 29 Dec 2024 21:48:45 +0000</pubDate>
 <title><![CDATA[An AI system has reached human level on a test for ‘general intelligence’. Here’s what that means 
  ]]></title>
 <link><![CDATA[https://theconversation.com/an-ai-system-has-reached-human-level-on-a-test-for-general-intelligence-heres-what-that-means-246529]]></link>
@@ -121,22 +122,7 @@ https://theconversation.com/an-ai-system-has-reached-human-level-on-a-test-for-g
 </item>
 
 <item>
-<pubDate>Fri, 20 Dec 24 10:04:52 +0200</pubDate>
-<title><![CDATA[Action Intent Links | Bluesky 
-===
-(Bluesky share button) ]]></title>
-<link><![CDATA[https://docs.bsky.app/docs/advanced-guides/intent-links]]></link>
-<description>
-<![CDATA[
-Action Intent Links | Bluesky 
-===
-(Bluesky share button)https://docs.bsky.app/docs/advanced-guides/intent-links
-]]>
-</description>
-</item>
-
-<item>
-<pubDate>Fri, 20 Dec 24 09:57:16 +0200</pubDate>
+<pubDate>Fri, 20 Dec 2024 07:57:16 +0000</pubDate>
 <title><![CDATA[Google — Year in Search 2024 - YouTube 
  ]]></title>
 <link><![CDATA[https://www.youtube.com/watch?v=61JHONRXhjs]]></link>
@@ -144,6 +130,19 @@ Action Intent Links | Bluesky
 <![CDATA[
 Google — Year in Search 2024 - YouTube 
 https://www.youtube.com/watch?v=61JHONRXhjs
+]]>
+</description>
+</item>
+
+<item>
+<pubDate>Thu, 12 Dec 2024 05:25:07 +0000</pubDate>
+<title><![CDATA[Google’s Year in Search 2024: The top trending searches of the year 
+ ]]></title>
+<link><![CDATA[https://blog.google/products/search/google-year-in-search-2024/]]></link>
+<description>
+<![CDATA[
+Google’s Year in Search 2024: The top trending searches of the year 
+https://blog.google/products/search/google-year-in-search-2024/
 ]]>
 </description>
 </item>
