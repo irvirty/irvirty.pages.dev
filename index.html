@@ -226,7 +226,7 @@ The second navigation is now disabled by default.
 
 <aside>
 <div id="hotLinksTop" class="scrollX tCenter small noscriptHide paddingList notUnderline">
-<span id="urlDayNow"><a class="brand inlineBlock padding op small" href="https://wikipedia.org/wiki/" title="Wikipedia, the free encyclopedia ">Wiki</a></span>
+<span id="urlDayNow"></span>
 <a class="brand inlineBlock padding op small" href="https://wikipedia.org/wiki/" title="Wikipedia, the free encyclopedia">Wiki</a>
 <a class="brand inlineBlock padding op small" href="/projects/redirects-25/?q=n2" title="News (random)">News</a>
 <a class="brand inlineBlock padding op small" href="/projects/redirects-25/?q=cul" title="Other news (random)">Other</a>
@@ -263,8 +263,8 @@ let d = dateObj.getDay();
 var dayNowTitle = dayEn[d] + ', ' + monthsEnShort[month] + ' ' + day;
 
 var urlDayNow = 'https://en.wikipedia.org/wiki/' + monthsEn[month] + '_' + day + '';
-//document.getElementById('urlDayNow').innerHTML = `<a class="brand inlineBlock padding op small" href="` + urlDayNow + `" title="Wikipedia">` + dayNowTitle + `</a>`;
-document.getElementById('urlDayNow').innerHTML = `<a class="brand inlineBlock padding op small" href="https://wikipedia.org/wiki/" title="Wikipedia">` + dayNowTitle + `</a>`
+document.getElementById('urlDayNow').innerHTML = `<a class="brand inlineBlock padding op small" href="` + urlDayNow + `" title="Wikipedia">` + dayNowTitle + `</a>`;
+//document.getElementById('urlDayNow').innerHTML = `<a class="brand inlineBlock padding op small" href="https://wikipedia.org/wiki/" title="Wikipedia">` + dayNowTitle + `</a>`
 </script>
 
 
