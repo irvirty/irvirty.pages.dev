@@ -62,13 +62,16 @@ document.getElementById("result").innerHTML = result[0];
 //https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch
 function weather(apiWeather2){
 async function logJSONData() {
-  const response = await fetch(apiWeather2);
-  const jsonData = await response.json();
+const response = await fetch(apiWeather2);
+const jsonData = await response.json();
 
+//console.table(jsonData);
 //console.log(jsonData);
-if(logJSONData != ""){ result[0] += '<div><h2>'+jsonData['current_weather']['temperature']+'°C, '+jsonData['current_weather']['windspeed']+'Km/h </h2>'+`
+if(logJSONData != ""){ result[0] += '<div><h2>' + jsonData['current_weather']['temperature']+'°C, ' +jsonData['current_weather']['windspeed'] + 'Km/h </h2>' + `
 <b><!--${jsonData['current_weather']['weathercode']} -->${weatherCode[jsonData['current_weather']['weathercode']]}</b><div class="padding2 margin2"></div></div>
-`; printWeather(jsonData); }
+`;
+printWeather(jsonData);
+}
 }
 logJSONData();
 
