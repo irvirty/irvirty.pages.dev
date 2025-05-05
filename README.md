@@ -6,9 +6,9 @@ Carefully! The folder: "other-projects" contains PHP, Python, ... files
 
 ![banner](/img/github-banner-settings.png)  
   
-# About
+# Home and Start page with projects
   
-Home and Start page with projects: search redirection, themes, news, typing speed, games, to-do list, images, icons, new tab redirect extension, website templates, etc.
+Pages and projects: search redirection, themes, news, typing speed, games, to-do list, images, icons, new tab redirect extension, website templates, etc.
   
 ---
   
