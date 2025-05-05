@@ -1,6 +1,7 @@
 // Time v.1.0.4
 
-let titleTmp = document.title;
+//let titleTmp = document.title;
+let titleTmp = document.getElementsByTagName('title')[0].text;
 
 function fuClock(id){
 

@@ -2653,11 +2653,6 @@ var wordJsonVar =
         "text3": "pedicure"
     },
     {
-        "text": "\u043f\u0435\u0439\u0437\u0430\u0436",
-        "text2": "landscape",
-        "text3": "paisaje"
-    },
-    {
         "text": "\u043f\u0435\u043d\u0442\u0445\u0430\u0443\u0441",
         "text2": "penthouse",
         "text3": "\u00e1tico"
@@ -2866,6 +2861,11 @@ var wordJsonVar =
         "text": "\u043f\u043e\u0441\u0442\u0430\u0432\u043a\u0430",
         "text2": "delivery",
         "text3": "entrega"
+    },
+    {
+        "text": "\u043f\u043e\u0441\u0442\u0430\u043c\u0435\u043d\u0442",
+        "text2": "pedestal",
+        "text3": "pedestal"
     },
     {
         "text": "\u043f\u043e\u0441\u0442\u0430\u043d\u043e\u0432\u0430",

@@ -315,8 +315,9 @@ return `
 <a class="autoColumnItem inline padding border light2 borderRadius2" target="blank" href="https://trends.google.com/trending?geo=${vTDomainGTrendGO}&hours=24">Google Trends</a>
 
 
+<a class="autoColumnItem inline padding border light2 borderRadius2" target="blank" href="/?q=${vTQGo} s">In Social Networks</a>
 <a class="autoColumnItem inline padding border light2 borderRadius2" target="blank" href="/?q=${vTQGo} n">In News</a>
-<a class="autoColumnItem inline padding border light2 borderRadius2" target="blank" href="/?q=${vTQGo} Newspapers">Newspapers</a>
+<a class="autoColumnItem inline padding border light2 borderRadius2" target="blank" href="/?q=${vTQGo} Top Newspapers">Top Newspapers</a>
 
 <a class="autoColumnItem inline padding border light2 borderRadius2" target="blank" href="/?q=${vTQGo} Television">Television</a>
 <a class="autoColumnItem inline padding border light2 borderRadius2" target="blank" href="/?q=${vTQGo} Radio">Radio</a>

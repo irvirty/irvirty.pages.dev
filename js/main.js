@@ -251,7 +251,7 @@ ${conf["confMenuItems2"]}
 <!-- // links in nav -->
 </span>
 
-<div class="dropdownMenuContentWrapper">
+<div class="dropdownMenuContentWrapper navMenu2">
 <div class="dropdownMenuContent">
 <a id="dropdownMenuButton" class="dropdownMenuButton inlineBlock padding mClassNavUp brand borderBottomTransparent itemLinkAni" tabindex="0" href="#" onclick="fuMDropdownButton();return false;">☰ Menu</a>
 

@@ -1,4 +1,5 @@
 // Binary Colock v.1.2.4
+let titleTmp = document.getElementsByTagName('title')[0].text;
 
 function fuClock(id){
 
@@ -55,9 +56,9 @@ normalize2(Number(seconds.toString()).toString(2))
 
 document.getElementById('result').innerHTML = print;
 
-document.getElementById('result2').innerHTML = '<div class="block small padding2 margin2 block tCenter">'+hours+':'+minutes+':'+seconds+'</div></div>';
-document.getElementsByTagName('title')[0].innerHTML = print+' | ' + location.hostname;
-
+document.getElementById('result2').innerHTML = '<div class="block small padding2 margin2 block tCenter">' + hours + ':' + minutes + ':' + seconds + '</div></div>';
+//document.getElementsByTagName('title')[0].innerHTML = print + ' | Binary Clock / ' + location.hostname;
+document.getElementsByTagName('title')[0].innerHTML = print + ' - ' + titleTmp;
 
 //https://en.wikipedia.org/wiki/Binary-coded_decimal
 var bcdJsonVar = 

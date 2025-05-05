@@ -1,5 +1,5 @@
 
-//var myCacheVersion = "v.1.2.2025.05.01";
+//var myCacheVersion = "v.1.2.2025.05.05";
 
 
 
@@ -70,7 +70,7 @@ function swJsInstallFiles(){
 //https://stackoverflow.com/questions/66529102/uncaught-in-promise-typeerror-failed-to-execute-cache-on-addall-request
 //https://github.com/mdn/pwa-examples
 self.addEventListener('install', (e) => {
-e.waitUntil(caches.open("v.1.2.2025.05.01").then((cache) => cache.addAll(fileListArrFound)),);
+e.waitUntil(caches.open("v.1.2.2025.05.05").then((cache) => cache.addAll(fileListArrFound)),);
 });*/
 
 
@@ -822,6 +822,7 @@ var fileListArr = ["/404.html",
 "/pages/icons/right-arrow.svg",
 "/pages/icons/rss.svg",
 "/pages/icons/search.svg",
+"/pages/icons/service.svg",
 "/pages/icons/shuffle.svg",
 "/pages/icons/sound.svg",
 "/pages/icons/square.svg",
@@ -959,6 +960,8 @@ var fileListArr = ["/404.html",
 "/pages/photos/index.html",
 "/pages/posts/index.html",
 "/pages/posts/",
+"/pages/services/index.html",
+"/pages/services/",
 "/pages/settings/index.html",
 "/pages/settings/",
 "/pages/sitemap/index.html",
@@ -1438,7 +1441,7 @@ if (res.ok) {
 // file is present at URL
 console.log('try cache.add ' + file);
 //https://web.dev/learn/pwa/caching/
-caches.open("v.1.2.2025.05.01")
+caches.open("v.1.2.2025.05.05")
 .then(cache => {
 cache.add(file); // it stores only one resource
 //  cache.addAll(["styles.css", "app.js"]); // it stores two resources
@@ -1464,7 +1467,7 @@ if (res.ok) {
 // file is present at URL
 console.log('try cache.add ' + newFile);
 //https://web.dev/learn/pwa/caching/
-caches.open("v.1.2.2025.05.01")
+caches.open("v.1.2.2025.05.05")
 .then(cache => {
 cache.add(newFile); // it stores only one resource
 //  cache.addAll(["styles.css", "app.js"]); // it stores two resources
@@ -1497,7 +1500,7 @@ console.log('404 not found ' + newFile);
 // rm old cache
 //https://developer.mozilla.org/en-US/docs/Web/API/CacheStorage/delete
 this.addEventListener("activate", (event) => {
-  const cachesToKeep = ["v.1.2.2025.05.01"];
+  const cachesToKeep = ["v.1.2.2025.05.05"];
 
   event.waitUntil(
     caches.keys().then((keyList) =>

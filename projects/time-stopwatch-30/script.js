@@ -8,7 +8,8 @@ comArr[0] = 'start';
 
 var lStopArr = [];
 
-let titleTmp = document.title;
+//let titleTmp = document.title;
+let titleTmp = document.getElementsByTagName('title')[0].text;
 
 function fuStopwatchCom(com){
 

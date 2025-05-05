@@ -833,6 +833,13 @@ var sitemapJsonVar = [
         "time": "id"
     },
     {
+        "text": "Web design and web development services\n\nWeb design and web development services. | services: ",
+        "url": "\/pages\/services\/index.html",
+        "tag": " #services #service #webdesign #web #design #website #webpage #development #webdevelopment #page #main",
+        "id": "9b532e9594cecd0cf6967429fe104d8f",
+        "time": "id"
+    },
+    {
         "text": "Web search Redirect\n\nSearch redirect, a search with redirection to other search engines. | redirects: ",
         "url": "\/projects\/redirects-25\/index.html",
         "tag": " #redirect #web #search #URL #page #redirection #form #random #engine #JavaScript #project",

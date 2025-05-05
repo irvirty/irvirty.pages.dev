@@ -57,12 +57,12 @@ if (empty($vNew)){ $vNew = "kdsjfljdfkj"; }
 if(count(explode($vNew, $_SERVER['REQUEST_URI'])) >= 2||count(explode($navCurrentPage, $navUrl)) >= 2){
 //if (count(explode($navCurrentPage, $v)) >= 2||count(explode($navCurrentPage2, $v)) >= 2){
 $navMenu .= <<<EOF
-<a class="countMenuItem active2 inlineBlock padding itemLinkAniActive $navClass" tabindex="0" href="$navUrl" title="$navTitle">$navText</a>
+<a class="countMenuItem active2 navMenuActive inlineBlock padding $navClass" tabindex="0" href="$navUrl" title="$navTitle">$navText</a>
 
 EOF;
 } else {
 $navMenu .= <<<EOF
-<a class="countMenuItem inlineBlock padding brand itemLinkAni $navClass" tabindex="0" href="$navUrl" title="$navTitle">$navText</a>
+<a class="countMenuItem inlineBlock padding brand $navClass" tabindex="0" href="$navUrl" title="$navTitle">$navText</a>
 
 EOF;
 }
