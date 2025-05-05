@@ -129,5 +129,5 @@ document.getElementById("qText").textContent = "SpeechRecognition not detected";
 
 }
 }
-// Form input and ST
+// Form input and STT
 

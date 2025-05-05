@@ -3,6 +3,16 @@ var newsJsonVar =
 
 [
     {
+        "id": "33",
+        "text": "Microsoft to retire Skype in favor of Teams \u2013 DW \u2013 02\/28\/2025",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.dw.com\/en\/microsoft-to-retire-skype-in-favor-of-teams\/a-71786197",
+        "tag": "#web #app #software #internet",
+        "time": 1746450367,
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/news\/?id=33\">id<\/a>"
+    },
+    {
         "id": "32",
         "text": "Bluesky: \"30M users 1B posts \ud83e\udd1d bluesky milestone achieved this week\" \u2014 Bluesky",
         "text2": "",

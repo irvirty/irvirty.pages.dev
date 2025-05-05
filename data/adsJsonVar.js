@@ -3,6 +3,15 @@ var adsJsonVar =
 
 [
     {
+        "text": "Sepia Search",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/sepiasearch.org\/",
+        "tag": "#ads",
+        "time": 1746420919,
+        "rightFooter": ""
+    },
+    {
         "text": "Hello World!",
         "text2": "",
         "text3": "",
