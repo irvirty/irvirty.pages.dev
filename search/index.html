@@ -202,9 +202,12 @@ let getUrl55 = window.location;
 let url55 = new URL(getUrl55);
 let q55 = url55.searchParams.get("q");
 let q55PrintURl = encodeURIComponent(q55);
+let q55Tag = url55.searchParams.get("tag");
+let q55TagPrintURl = encodeURIComponent(q55Tag);
 let mode55 = url55.searchParams.get("dmode");
 let dataMode = mode55;
 let dMode = mode55;
+
 
 if (dataMode == null){ dataMode = "all"; mode55 = "all"; dMode = "all"; }
 
@@ -218,6 +221,7 @@ document.getElementById("form").appendChild(input);
 
 
 if (q55PrintURl == null||q55PrintURl == "null"){ q55PrintURl = ""; }
+if (q55TagPrintURl != null&&q55TagPrintURl != ""&&q55PrintURl == ""){ q55PrintURl = q55TagPrintURl; }
 
 let lModeList = "all sitemap links websitedirectory microblog articles notes randomwebsite wiki";
 let lModeListArr = fuMSplit(lModeList);
