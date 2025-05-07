@@ -3,14 +3,14 @@ var newsJsonVar =
 
 [
     {
-        "id": "33",
-        "text": "Microsoft to retire Skype in favor of Teams \u2013 DW \u2013 02\/28\/2025",
+        "id": "34",
+        "text": "Skype is shutting down today \u2014 these are the best alternatives | TechCrunch",
         "text2": "",
         "text3": "",
-        "url": "https:\/\/www.dw.com\/en\/microsoft-to-retire-skype-in-favor-of-teams\/a-71786197",
-        "tag": "#web #app #software #internet",
-        "time": 1746450367,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/news\/?id=33\">id<\/a>"
+        "url": "https:\/\/techcrunch.com\/2025\/05\/05\/skype-is-shutting-down-today-these-are-the-best-alternatives\/",
+        "tag": "#app #web #software",
+        "time": 1746646978,
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/news\/?id=34\">id<\/a>"
     },
     {
         "id": "32",

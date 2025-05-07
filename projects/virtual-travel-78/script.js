@@ -310,7 +310,7 @@ return `
 
 <a class="autoColumnItem inline padding border light2 borderRadius2" target="blank" href="/?q=${vTQGo} wik">Wikipedia</a>
 
-<a class="autoColumnItem inline padding border light2 borderRadius2" target="blank" href="/?q=${vTQGo} v">Video</a>
+<a class="autoColumnItem inline padding border light2 borderRadius2" target="blank" href="/?q=Travel to ${vTQGo} v">Video</a>
 
 <a class="autoColumnItem inline padding border light2 borderRadius2" target="blank" href="https://trends.google.com/trending?geo=${vTDomainGTrendGO}&hours=24">Google Trends</a>
 
