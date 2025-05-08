@@ -60,14 +60,10 @@ startMenu("result", data, q);
 
 
 
-
-
-// autofocus v.2.0.0
+// autofocus v.3.0.0
 //https://developer.mozilla.org/en-US/docs/Web/API/KeyboardEvent/key
-
 document.addEventListener("keydown", (e) => {
-//alert(e.code);
-if (e.code != "Escape"&&e.code != "Tab"&&e.code != "Space"&&e.code != "Enter"&&e.code != "Backspace"&&e.code != "Shift"){
+if(e.key.length == 1&&(document.getElementById("q").value).length == 0){
 // use e.keyCode
 if (document.getElementById("q") != null){
 //https://stackoverflow.com/questions/30714871/check-if-an-input-field-has-focus-in-vanilla-javascript

@@ -26,10 +26,12 @@ q = q.trim();
 travel(q, jsonVar);
 }
 
-// autofocus v.2.0.0
+
+
+// autofocus v.3.0.0
 //https://developer.mozilla.org/en-US/docs/Web/API/KeyboardEvent/key
-/* fix copy paste
 document.addEventListener("keydown", (e) => {
+if(e.key.length == 1&&(document.getElementById("q").value).length == 0){
 // use e.keyCode
 if (document.getElementById("q") != null){
 //https://stackoverflow.com/questions/30714871/check-if-an-input-field-has-focus-in-vanilla-javascript
@@ -39,10 +41,11 @@ document.getElementById("q").focus();
 //document.getElementById("q").value = e.keyCode;
 q = e.key;
 q = q.trim();
-travel(q, jsonVar);
+startMenu("result", data, q);
 }
 }
-});*/
+}
+});
 
 
 
