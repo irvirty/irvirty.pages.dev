@@ -117,7 +117,7 @@
 
 
 <div class="tCenter">
-<div class="padding2  block">ads status: </span> <span class="bold" id="adsStatus"></span> <a class="insertIcon brand" href="../../pages/settings/#confAdsStatus">settings</a> </div>
+<div class="padding2  block">ads status: <span class="bold" id="adsStatus"></span> <a class="insertIcon brand" href="../../pages/settings/#confAdsStatus">settings</a> </div>
 </div>
 
 <script>
@@ -127,7 +127,7 @@ document.getElementById("adsStatus").innerText = localStorage.getItem('confAdsSt
 }
 </script>
 
-<div id="result"></div>
+<div id="resultAdsPrint"></div>
 
 
 </main>
@@ -144,10 +144,12 @@ var confD = "../../";
 <script src="../../js/script.js"></script>
 
 
+<script src="../../data/adsJsonVar.js"></script>
 <script src="../../js/ads.js"></script>
+
 <script>
 if (typeof fuAds == 'function'){
-fuAds('', 'result', 'all');
+fuAds('', 'resultAdsPrint', 'all');
 }
 </script>
 

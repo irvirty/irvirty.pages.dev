@@ -1,12 +1,12 @@
-// Ads v.1.8.0
+// Ads v.1.8.1
 // Mini banner system
-// print ads from json var list: fuAds('', 'ads2 - id where print', '');
+// /data/adsJsonVar.js
 
-function fuAds(none, idAds, com){
+function fuAds(none, printIdAds, com){
 
 
 // none - Reserved variable
-// idAds - id for print
+// printIdAds - id for print
 
 //var adsStatus =  localStorage.getItem("confAdsStatus");
 var adsStatus = conf["confAdsStatus"];
@@ -34,7 +34,7 @@ adsStatus = 'on';
 }
 
 
-if(document.getElementById(idAds) != null){
+if(document.getElementById(printIdAds) != null){
 
 let ads = [];
 var adsPrint = '';
@@ -59,7 +59,7 @@ var random = Math.floor(Math.random() * ads.length);
 adsText = ads[random]['text']; if (adsText == null||adsText == "") { adsText = ''; }
 adsURL = ads[random]['url']; if (adsURL == null||adsURL == ""){ adsURL = '#'; }
 if (adsText.search("src=") != -1&&cookieStatus != 'on'){ // found
-adsText = fuMHideFileNameExt(`<a class="brand inlineBlock" href="/pages/settings/#confDataCollection">Cookie setting: ${cookieStatus}.</a>`);
+adsText = fuMHideFileNameExt(`<a class="brand inlineBlock" href="{confD}pages/settings/#confDataCollection">Cookie setting: ${cookieStatus}.</a>`);
 }
 
 
@@ -68,7 +68,7 @@ if (adsText.search("src=") == -1){ // not found code
 adsPrint = `<div class="ads"><div class="adsHeader"><a class="brand tag" href="${adsUrlPage}"><span class="yellow ico">✪</span><del>ads,</del> links</a></div><div class="adsBody">${adsText} <a class="brand break insertIcon" target="blank" href="${adsURL}">${adsURL}</a></div></div>`;
 
 // print
-document.getElementById(idAds).innerHTML = `<aside>
+document.getElementById(printIdAds).innerHTML = `<aside>
 <div class="wrapper">
 <div class="borderRadius2 padding3 light borderList ads tLeft break">${adsPrint}</div>
 </div>
@@ -78,7 +78,7 @@ document.getElementById(idAds).innerHTML = `<aside>
 adsPrint = `<div class="ads"><div class="adsHeader"><a class="padding light brand tag" href="${adsUrlPage}"><span class="yellow op ico">✪ </span><del>ads,</del> links</a></div><div class="adsBody">${adsText} <a class="brand break insertIcon" target="blank" href="${adsURL}">${adsURL}</a></div></div>`;
 
 // print
-document.getElementById(idAds).innerHTML = `
+document.getElementById(printIdAds).innerHTML = `
 
 <aside>
 <div class="center">
@@ -95,7 +95,7 @@ document.getElementById(idAds).innerHTML = `
 
 
 // all
-if (com == 'all'){
+if (com == "all"){
 
 
 let adsPrintAll = '';
@@ -106,7 +106,7 @@ ads.forEach((item, index) => {
 adsText = ads[index]['text']; if (adsText == null) { adsText = ''; }
 adsURL = ads[index]['url']; if (adsURL == null){ adsURL = ''; }
 if (adsText.search("src=") != -1&&cookieStatus != 'on'){ // found
-adsText = fuMHideFileNameExt(`<a class="brand" href="/pages/settings/#confDataCollection">Cookie setting: ${cookieStatus}.</a>`);
+adsText = fuMHideFileNameExt(`<a class="brand" href="{confD}pages/settings/#confDataCollection">Cookie setting: ${cookieStatus}.</a>`);
 }
 if (adsText.search("src=") == -1){ // not found code
 adsPrint = `<div class="ads"><div class="adsHeader"><a class="brand tag" href="${adsUrlPage}"><span class="yellow op ico">✪ </span><del>ads,</del> links</a></div><div class="adsBody">${adsText} <a class="brand break insertIcon" target="blank" href="${adsURL}">${adsURL}</a></div></div>`;
@@ -127,7 +127,7 @@ adsPrint = '';
 
 });
 
-document.getElementById(idAds).innerHTML = '<div class="wrapper"><div class="padding2 bg shadow borderRadius2">' + adsPrintAll + '</div>';
+document.getElementById(printIdAds).innerHTML = '<div class="wrapper"><div class="padding2 bg shadow borderRadius2">' + adsPrintAll + '</div>';
 
 }
 // all
@@ -138,10 +138,11 @@ document.getElementById(idAds).innerHTML = '<div class="wrapper"><div class="pad
 }
 
 }
+
 }
 
 
-if (com == 'off'){ document.getElementById(idAds).innerHTML = ""; }
+if (com == 'off'){ document.getElementById(printIdAds).innerHTML = ""; }
 //if (com == ""){ alert('test'); }
 
 }
