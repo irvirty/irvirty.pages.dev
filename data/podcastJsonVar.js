@@ -3,6 +3,24 @@ var podcastJsonVar =
 
 [
     {
+        "text": "Up First from NPR | Listen to Podcasts On Demand Free | TuneIn",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/tunein.com\/podcasts\/News--Politics-Podcasts\/Up-First-from-NPR-p983396\/",
+        "tag": "#podcast #news #politics #en",
+        "time": 1746832203,
+        "rightFooter": ""
+    },
+    {
+        "text": "Good Morning America | Listen to Podcasts On Demand Free | TuneIn",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/tunein.com\/podcasts\/News--Politics-Podcasts\/Good-Morning-America-p1604195\/",
+        "tag": "#podcast #news #politics #en",
+        "time": 1746832079,
+        "rightFooter": ""
+    },
+    {
         "text": "Endless Thread | Listen to Podcasts On Demand Free | TuneIn",
         "text2": "",
         "text3": "",

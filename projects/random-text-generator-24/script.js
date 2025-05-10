@@ -111,6 +111,7 @@ result = result.replaceAll(/  +/g, ' ');
 result = result.concat('.');
 
 document.getElementById("letter").innerHTML = 'Random text. ' + result; 
+document.getElementById("letter2").innerHTML = 'Random text. ' + result; 
 
 
 result = '';
@@ -125,25 +126,26 @@ result += '<a class="button brand" href="?q='+nav[i]+'">'+nav[i]+'</a>';
 }
 
 document.getElementById("q").innerHTML = `
-<a class="button brand" href="#" onclick="reload();return false;">reload</a> ~ :
+<a class="button brand" href="./">start</a>
+<a class="button brand" href="#" onclick="fuMReload();return false;">reload</a> ~ :
 `+result; 
 
 
-document.getElementById("lMsg").innerHTML = 'copy status (click for copy).';
+document.getElementById("lMsg").innerHTML = 'Click for copy';
 //https://stackoverflow.com/questions/45071353/copy-text-string-on-click
-const span = document.getElementById("lText");
-
+const span = document.getElementById("lMsg");
 span.onclick = function() {
 document.getElementById("lMsg").innerHTML = '';
-  document.execCommand("copy");
+document.execCommand("copy");
 }
 
 
 span.addEventListener("copy", function(event) {
-  event.preventDefault();
-  if (event.clipboardData) {
-    event.clipboardData.setData("text/plain", span.textContent);
-document.getElementById("lMsg").innerHTML = 'text copied';
-  console.log(event.clipboardData.getData("text"))
-  }
+event.preventDefault();
+if (event.clipboardData) {
+let span = document.getElementById("letter2");
+event.clipboardData.setData("text/plain", span.textContent);
+document.getElementById("lMsg").innerHTML = 'Text copied';
+//console.log(event.clipboardData.getData("letter2"));
+}
 });

@@ -3,6 +3,16 @@ var newsJsonVar =
 
 [
     {
+        "id": "35",
+        "text": "Duolingo launches 148 courses created with AI after sharing plans to replace contractors with AI | TechCrunch",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/techcrunch.com\/2025\/04\/30\/duolingo-launches-148-courses-created-with-ai-after-sharing-plans-to-replace-contractors-with-ai\/",
+        "tag": "#app  #software #web #language #learning",
+        "time": 1746846712,
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/news\/?id=35\">id<\/a>"
+    },
+    {
         "id": "34",
         "text": "Skype is shutting down today \u2014 these are the best alternatives | TechCrunch",
         "text2": "",
