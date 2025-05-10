@@ -3,6 +3,16 @@ var newsJsonVar =
 
 [
     {
+        "id": "36",
+        "text": "Listen to the \u2018world\u2019s first\u2019 song made by a quantum computer and AI",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/thenextweb.com\/news\/lworlds-first-song-made-by-quantum-and-ai",
+        "tag": "#AI #QuantumComputer",
+        "time": 1746854581,
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/news\/?id=36\">id<\/a>"
+    },
+    {
         "id": "35",
         "text": "Duolingo launches 148 courses created with AI after sharing plans to replace contractors with AI | TechCrunch",
         "text2": "",

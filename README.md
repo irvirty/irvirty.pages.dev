@@ -12,6 +12,7 @@ Pages and projects: search redirection, themes, news, typing speed, games, to-do
   
 ---
   
+- Responsive, light, flat design.
 - ~50/2 Themes (2 - dark, light).
 - Speed ​​dial panel in the form of buttons.
 - Typing Speed with your own text.

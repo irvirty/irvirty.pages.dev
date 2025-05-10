@@ -3,6 +3,15 @@ var tvJsonVar =
 
 [
     {
+        "text": "DuckTales Season 1 Full Episodes - YouTube",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/playlist?list=PLg6R6yXKSLYDIznq1cKGw3U8avI8SenAy",
+        "tag": "#TV #cartoon",
+        "time": 1746852543,
+        "rightFooter": ""
+    },
+    {
         "text": "Season 2 \ud83d\udcfa Full Episodes \ud83d\ude8c The Magic School Bus - YouTube",
         "text2": "",
         "text3": "",

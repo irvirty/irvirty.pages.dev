@@ -4158,11 +4158,6 @@ var wordJsonVar =
         "text3": "tubo"
     },
     {
-        "text": "\u0442\u0440\u0443\u043f",
-        "text2": "corpse",
-        "text3": "cad\u00e1ver"
-    },
-    {
         "text": "\u0442\u0443\u0430\u043b\u0435\u0442",
         "text2": "toilet",
         "text3": "ba\u00f1o"
