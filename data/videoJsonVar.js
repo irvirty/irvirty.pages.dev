@@ -3,6 +3,96 @@ var videoJsonVar =
 
 [
     {
+        "text": "Grossology: Fart Side Of The Moon - Ep.52 - YouTube",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=z1OIvojpXLM",
+        "tag": "#video #cartoon",
+        "time": 1746956062,
+        "rightFooter": ""
+    },
+    {
+        "text": "Grossology: Pucker Up - Ep.51 - YouTube",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=R1Jmdv95ui0",
+        "tag": "#video #cartoon",
+        "time": 1746956047,
+        "rightFooter": ""
+    },
+    {
+        "text": "Grossology: Pinkeye\u2019s Revenge Part 2 - Ep.49 - YouTube",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=C2oXjzoWEWI",
+        "tag": "#video #cartoon",
+        "time": 1746956020,
+        "rightFooter": ""
+    },
+    {
+        "text": "Grossology: Pinkeye\u2019s Revenge Part 1 - Ep.47 - YouTube",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=ovJhCg-H-xY",
+        "tag": "#video #cartoon",
+        "time": 1746956006,
+        "rightFooter": ""
+    },
+    {
+        "text": "Grossology: Pinkeye & The Brain - Ep.46 - YouTube",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=fyRPLY5jrZI",
+        "tag": "#video #cartoon",
+        "time": 1746955994,
+        "rightFooter": ""
+    },
+    {
+        "text": "Grossology: Night of the Living Road Kill - Ep.45 - YouTube",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=e4NmXKQ1_qY",
+        "tag": "#video #cartoon",
+        "time": 1746955982,
+        "rightFooter": ""
+    },
+    {
+        "text": "Grossology: New Recruits - Ep.44 - YouTube",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=cTOHdGcEHUI",
+        "tag": "#video #cartoon",
+        "time": 1746955968,
+        "rightFooter": ""
+    },
+    {
+        "text": "Grossology: Let Them Eat Fruitcake - Ep.43 - YouTube",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=F8JLOl2s74I",
+        "tag": "#video #cartoon",
+        "time": 1746955954,
+        "rightFooter": ""
+    },
+    {
+        "text": "Grossology: Squirm - Ep.42 - YouTube",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=5ZYYLJx52oM",
+        "tag": "#video #cartoon",
+        "time": 1746955940,
+        "rightFooter": ""
+    },
+    {
+        "text": "Grossology: Candy Isn\u2019t Dandy - Ep.40 - YouTube",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=P6KdHzZAj3E",
+        "tag": "#video #cartoon",
+        "time": 1746955910,
+        "rightFooter": ""
+    },
+    {
         "text": "The Fairly OddParents - The Secret Origin of Denzel Crocker! - Ep. 34 - YouTube",
         "text2": "",
         "text3": "",
