@@ -3,6 +3,16 @@ var agicountdownJsonVar =
 
 [
     {
+        "id": "34",
+        "text": "Do you guys really believe singularity is coming? : r\/singularity",
+        "text2": "2030 2045",
+        "text3": "",
+        "url": "https:\/\/www.reddit.com\/r\/singularity\/comments\/1kjb06d\/do_you_guys_really_believe_singularity_is_coming\/",
+        "tag": "#SocialNetwork #post",
+        "time": 1746895160,
+        "rightFooter": ""
+    },
+    {
         "id": "33",
         "text": "ChatGPT just passed the Turing test. But that doesn\u2019t mean AI is now as smart as humans",
         "text2": "2025",
@@ -18,7 +28,7 @@ var agicountdownJsonVar =
         "text2": "2026",
         "text3": "",
         "url": "https:\/\/www.reddit.com\/r\/singularity\/comments\/1igkk9r\/masayoshi_son_at_tokyo_today_just_a_year_ago_i\/",
-        "tag": "#post",
+        "tag": "#post #SocialNetwork #article",
         "time": 1738575429,
         "rightFooter": ""
     },
