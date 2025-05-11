@@ -37,7 +37,9 @@ if(q == null){ q = localStorage.getItem('randomMusicQ'); }
 if(q == null) { q = '#music'; tag = q; }
 var q2 = q;
 
-
+//let titleTmp = document.title;
+let titleTmp = document.getElementsByTagName('title')[0].text;
+document.getElementsByTagName('title')[0].innerHTML = q2 + ' - ' + titleTmp;
 
 
 var arrListForRandom = [];

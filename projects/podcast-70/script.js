@@ -43,7 +43,9 @@ if (q == null){ q = localStorage.getItem('randomPodcastQ'); }
 if (q == null) { q = '#podcast'; tag = q; }
 var q2 = q;
 
-
+//let titleTmp = document.title;
+let titleTmp = document.getElementsByTagName('title')[0].text;
+document.getElementsByTagName('title')[0].innerHTML = q2 + ' - ' + titleTmp;
 
 
 var arrListForRandom = [];

@@ -39,7 +39,9 @@ if(q == null){ q = localStorage.getItem('randomRadioQ'); }
 if(q == null) { q = '#radio'; tag = q; }
 var q2 = q;
 
-
+//let titleTmp = document.title;
+let titleTmp = document.getElementsByTagName('title')[0].text;
+document.getElementsByTagName('title')[0].innerHTML = q2 + ' - ' + titleTmp;
 
 
 var arrListForRandom = [];

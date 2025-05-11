@@ -38,6 +38,10 @@ if(q == null){ q = localStorage.getItem('randomVideoQ'); }
 if(q == null) { q = '#video'; tag = '#video'; }
 var q2 = q;
 
+//let titleTmp = document.title;
+let titleTmp = document.getElementsByTagName('title')[0].text;
+document.getElementsByTagName('title')[0].innerHTML = q2 + ' - ' + titleTmp;
+
 var arrListForRandom = [];
 var i = 0;
 

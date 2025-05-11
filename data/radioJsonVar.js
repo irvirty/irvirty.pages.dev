@@ -4845,15 +4845,6 @@ var radioJsonVar =
         "rightFooter": ""
     },
     {
-        "text": "Directo Capital Radio | Capital Radio",
-        "text2": "",
-        "text3": "",
-        "url": "https:\/\/www.capitalradio.es\/directo",
-        "tag": "#es #radio",
-        "time": 1629525685,
-        "rightFooter": ""
-    },
-    {
         "text": "Talk Radio Europe, 91.9 FM, Malaga | Free Internet Radio | TuneIn",
         "text2": "",
         "text3": "",
