@@ -1,4 +1,4 @@
-// Speed dial v.1.14.1
+// Speed dial v.1.14.2
 //https://developer.mozilla.org/en-US/docs/Web/API/Storage
 
 function fuLSpeedDial(idForPrint, text, url, com){
@@ -81,10 +81,10 @@ var submitForm = `
 
 <form id="spedDialSubmit">
 
-<label class="xSmall" for="speedDialText">Text:</label>
-<input class="bold" type="text" id="speedDialText" name="speedDialText" placeholder="Example">
+<label class="xSmall op" for="speedDialText">Text:</label>
+<input type="text" id="speedDialText" name="speedDialText" placeholder="Example">
 
-<label class="xSmall" for="speedDialUrl">URL:</label>
+<label class="xSmall op" for="speedDialUrl">URL:</label>
 <input type="text" id="speedDialUrl" name="speedDialUrl" placeholder="https://example.com/">
 
 <a href="#speedDialAnchor" onclick="fuLSpeedDial('', '', '', 'add');return false;"><div class="op smaller button block submit brand">Add</div></a>
@@ -280,13 +280,15 @@ printSettingsArr.push(`
 
 <div class="margin2List padding2 bg shadow borderRadius2">
 
-<label class="xSmall op" for="speedDialText">Text:</label>
-<input type="text" id="speedDialText" class="classSpeedDialText bold" name="speedDialText" value="${speedDialItemText}">
+<label class="xSmall op gray" for="speedDialText">Text:</label>
+<input type="text" id="speedDialText" class="classSpeedDialText borderRadius" name="speedDialText" value="${speedDialItemText}">
 
-<label class="xSmall op" for="speedDialUrl">URL:</label>
-<input type="text" id="speedDialUrl" class="classSpeedDialUrl op" name="speedDialUrl" value="${speedDialItemUrl}">
+<label class="xSmall op gray" for="speedDialUrl">URL:</label>
+<input type="text" id="speedDialUrl" class="classSpeedDialUrl op borderRadius" name="speedDialUrl" value="${speedDialItemUrl}">
 
 </div>
+
+<hr>
 
 `);
 }
@@ -306,7 +308,7 @@ printSettings = `
 
 ${printSettings}
 
-<a href="#speedDialAnchor" onclick="fuLSpeedDial('', '', '', 'update');return false;"><div class="op small  submit button shadow brand borderRadius3 w100">Update All</div></a>
+<a href="#speedDialAnchor" onclick="fuLSpeedDial('', '', '', 'update');return false;"><div class="op small  submit button shadow brand borderRadius w100 block">Update All</div></a>
 </form>
 
 <div class="block padding2 margin2"></div>
