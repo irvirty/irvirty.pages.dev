@@ -2643,11 +2643,6 @@ var wordJsonVar =
         "text3": "pedal"
     },
     {
-        "text": "\u043f\u0435\u0434\u0430\u043d\u0442",
-        "text2": "pedant",
-        "text3": "pedante"
-    },
-    {
         "text": "\u043f\u0435\u0434\u0438\u043a\u044e\u0440",
         "text2": "pedicure",
         "text3": "pedicure"
