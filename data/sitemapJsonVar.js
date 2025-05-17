@@ -392,9 +392,9 @@ var sitemapJsonVar = [
         "time": "id"
     },
     {
-        "text": "Microblog\n\nMicroblog: reposts, likes, technology news, and other. | microblog: ",
+        "text": "Microblog\n\nMicroblog: reposts, likes, and other. | microblog: ",
         "url": "\/pages\/microblog\/index.html",
-        "tag": " #reposts #likes #post #microblog #blog #page #main",
+        "tag": " #reposts #likes #microblog #page #main",
         "id": "9fd746c7a23f7988f6b4b7f33c7e1716",
         "time": "id"
     },
