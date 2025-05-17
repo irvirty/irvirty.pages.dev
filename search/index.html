@@ -152,11 +152,12 @@
 <script src="../data/sitemapJsonVar.js"></script>
 <script src="../data/linksJsonVar.js"></script>
 <script src="../data/websitedirectoryJsonVar.js"></script>
+<script src="../data/newsJsonVar.js"></script>
 <script src="../data/microblogJsonVar.js"></script>
 <script src="../data/articlesJsonVar.js"></script>
 <script src="../data/notesJsonVar.js"></script>
-<script src="../data/randomwebsiteJsonVar.js"></script>
 <script src="../data/wikiJsonVar.js"></script>
+<script src="../data/randomwebsiteJsonVar.js"></script>
 
 <script>
 
@@ -170,8 +171,8 @@ data = data.concat(confSpeedDialDataArr2);
 
 
 
-data = data.concat(sitemapJsonVar, linksJsonVar, websitedirectoryJsonVar, microblogJsonVar, articlesJsonVar, notesJsonVar, randomwebsiteJsonVar, wikiJsonVar);
-//data = [...sitemapJsonVar, ...linksJsonVar, ...websitedirectoryJsonVar, ...microblogJsonVar, ...articlesJsonVar, ...notesJsonVar, ...randomwebsiteJsonVar, ...wikiJsonVar];
+data = data.concat(sitemapJsonVar, linksJsonVar, websitedirectoryJsonVar, newsJsonVar, microblogJsonVar, articlesJsonVar, notesJsonVar, wikiJsonVar, randomwebsiteJsonVar);
+//data = [...sitemapJsonVar, ...linksJsonVar, ...websitedirectoryJsonVar, newsJsonVar, ...microblogJsonVar, ...articlesJsonVar, ...notesJsonVar, ...wikiJsonVar, ...randomwebsiteJsonVar];
 
 
 
@@ -223,7 +224,7 @@ document.getElementById("form").appendChild(input);
 if (q55PrintURl == null||q55PrintURl == "null"){ q55PrintURl = ""; }
 if (q55TagPrintURl != null&&q55TagPrintURl != ""&&q55PrintURl == ""){ q55PrintURl = q55TagPrintURl; }
 
-let lModeList = "all sitemap links websitedirectory microblog articles notes randomwebsite wiki";
+let lModeList = "all sitemap links websitedirectory news microblog articles notes wiki randomwebsite";
 let lModeListArr = fuMSplit(lModeList);
 
 // print 1
