@@ -130,7 +130,7 @@ randomWordButtons += `
 <hr>
 <div class="small paddingList">Other:</div>
 <div class="hotLinks">
-<a class="submit button brand small" href="#clear" onclick="wordOfTheDayClear();return false;"><span class="op red bold">C</span>lear and reload</a>
+<a class="submit button small" href="#clear" onclick="wordOfTheDayClear();return false;"><span class="op red bold">C</span>lear and reload</a>
 </div>
 
 <hr>

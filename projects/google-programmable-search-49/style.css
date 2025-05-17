@@ -1,21 +1,4 @@
 /* Google programmable search CSS v.1.0.1 */
-/* comment */
-
-.gsc-control-cse {
-box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
-}
-
-.gsc-search-button, .gsc-selected-option-container.gsc-inline-block {
-min-width: 80px;
-}
-
-.gsc-control-cse,
-.gsc-input-box {
-border-radius: 9px;
-}
-
-.gsc-search-button button { border-radius: 9px; min-height: 54px; }
-#gsc-iw-id1.gsc-input-box { max-height: min-height: 54px;padding: 0; }
 
 /*a.gs-title:link { color: #1155CC !important; }*/
 a.gs-title:hover, a.gs-title:hover b { color: #337DFF !important; }
@@ -122,8 +105,8 @@ min-width: 60%;
 
 
 .gsc-control-cse {
-background-color: var(--l) !important;
-border: 1px solid var(--d) !important;
+background-color: var(--l2) !important;
+box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
 }
 
 .gsc-orderby-label,
@@ -152,9 +135,10 @@ color: var(--c3) !important;
 }
 
 .gsc-webResult.gsc-result  {
-border: 1px solid var(--d3) !important;
-background: var(--l2) !important;
-padding: var(--padding) !important;
+border: .5px solid var(--d2) !important;
+background: var(--l3) !important;
+padding: var(--padding2) !important;
+border-radius: var(--borderRadius2);
 }
 
 .gs-fileFormat {

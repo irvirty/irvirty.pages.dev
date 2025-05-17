@@ -758,7 +758,7 @@ var linksJsonVar =
         "text2": "",
         "text3": "",
         "url": "https:\/\/artsandculture.google.com\/",
-        "tag": "#art",
+        "tag": "#art #culture",
         "time": 1729661864,
         "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=187\">id<\/a>"
     },

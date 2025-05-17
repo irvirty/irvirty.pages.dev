@@ -3,6 +3,26 @@ var randomwebsiteJsonVar =
 
 [
     {
+        "id": "116",
+        "text": "The OFFICIAL Eiffel Tower website: tickets, news, info...",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.toureiffel.paris\/en",
+        "tag": "#culture",
+        "time": 1747413029,
+        "rightFooter": "<a class=\"brand\" href=\"\/projects\/random-website-69\/data-list.html?id=116\">id<\/a>"
+    },
+    {
+        "id": "115",
+        "text": "Site officiel du mus\u00e9e du Louvre",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.louvre.fr\/",
+        "tag": "#culture",
+        "time": 1747370071,
+        "rightFooter": "<a class=\"brand\" href=\"\/projects\/random-website-69\/data-list.html?id=115\">id<\/a>"
+    },
+    {
         "id": "114",
         "text": "Our World in Data",
         "text2": "",
