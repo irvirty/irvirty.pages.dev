@@ -202,9 +202,9 @@ var confD = "../";
 let getUrl55 = window.location;
 let url55 = new URL(getUrl55);
 let q55 = url55.searchParams.get("q");
-let q55PrintURl = encodeURIComponent(q55);
+let q55PrintUrl = encodeURIComponent(q55);
 let q55Tag = url55.searchParams.get("tag");
-let q55TagPrintURl = encodeURIComponent(q55Tag);
+let q55TagPrintUrl = encodeURIComponent(q55Tag);
 let mode55 = url55.searchParams.get("dmode");
 let dataMode = mode55;
 let dMode = mode55;
@@ -221,8 +221,8 @@ input.setAttribute("value", dataMode);
 document.getElementById("form").appendChild(input);
 
 
-if (q55PrintURl == null||q55PrintURl == "null"){ q55PrintURl = ""; }
-if (q55TagPrintURl != null&&q55TagPrintURl != ""&&q55PrintURl == ""){ q55PrintURl = q55TagPrintURl; }
+if (q55PrintUrl == null||q55PrintUrl == "null"){ q55PrintUrl = ""; }
+if (q55TagPrintUrl != null&&q55TagPrintUrl != ""&&q55PrintUrl == ""){ q55PrintURl = q55TagPrintUrl; }
 
 let lModeList = "all sitemap links websitedirectory news microblog articles notes wiki randomwebsite";
 let lModeListArr = fuMSplit(lModeList);
@@ -232,9 +232,9 @@ lPrint = "";
 lModeListArr.forEach((val, index) => {
 //console.log(val + "=" + index);
 if (mode55 == val){
-lPrint += `<a class="op autoColumnItem keepTag2 border light2 borderRadius2 active2 borderBottomBrand" href="?q=` + q55PrintURl + `&dmode=` + val + `">`+ val + `</a> `;
+lPrint += `<a class="op autoColumnItem keepTag2 border light2 borderRadius2 active2 borderBottomBrand" href="?q=` + q55PrintUrl + `&dmode=` + val + `">`+ val + `</a> `;
 } else {
-lPrint += `<a class="op autoColumnItem keepTag2 border light2 borderRadius2" href="?q=` + q55PrintURl + `&dmode=` + val + `">`+ val + `</a> `;
+lPrint += `<a class="op autoColumnItem keepTag2 border light2 borderRadius2" href="?q=` + q55PrintUrl + `&dmode=` + val + `">`+ val + `</a> `;
 }
 });
 document.getElementById("modeList").innerHTML = lPrint;
@@ -246,6 +246,7 @@ function updateValue(e) {
 //log.textContent = e.target.value;
 q55PrintURl = e.target.value;
 q55PrintURl = encodeURIComponent(q55PrintURl);
+
 
 // print 2
 lPrint = "";
