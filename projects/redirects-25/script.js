@@ -1239,6 +1239,7 @@ break;
 case 'ps#':
 case 'cs#':
 case 'cse#':
+case 'gps#':
 q = q3.replace(qCom, '');
 q = q.trim();
 q = encodeURIComponent(q);
