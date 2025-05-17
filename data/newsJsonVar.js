@@ -3,16 +3,6 @@ var newsJsonVar =
 
 [
     {
-        "id": "37",
-        "text": "Microsoft shuts off Bing Search APIs and recommends switching to AI | The Verge",
-        "text2": "",
-        "text3": "",
-        "url": "https:\/\/www.theverge.com\/news\/667517\/microsoft-bing-search-api-end-of-support-ai-replacement",
-        "tag": "#web #search #engine #platform",
-        "time": 1747481346,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/news\/?id=37\">id<\/a>"
-    },
-    {
         "id": "36",
         "text": "Listen to the \u2018world\u2019s first\u2019 song made by a quantum computer and AI",
         "text2": "",
