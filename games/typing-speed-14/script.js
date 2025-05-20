@@ -156,7 +156,7 @@ var script2 = document.createElement('script');
 script2.type='text/javascript';
 //script2.async = true;
 script2.charset = 'utf-8';
-script2.src = confD + 'data/bookJsonVar.js';
+script2.src = confD + 'data/BookDataJsonVar.js';
 document.getElementsByTagName('head')[0].appendChild(script2);
 
 //script2.onload = (event) => {}
@@ -166,7 +166,7 @@ window.addEventListener('load', function() {
 var book = '';
 var bookLength = 500;
 
-book = bookJsonVar;
+book = BookDataJsonVar;
 
 if (book != null){
 const random = Math.floor(Math.random() * book.length);
