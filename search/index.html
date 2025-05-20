@@ -222,7 +222,7 @@ document.getElementById("form").appendChild(input);
 
 
 if (q55PrintUrl == null||q55PrintUrl == "null"){ q55PrintUrl = ""; }
-if (q55TagPrintUrl != null&&q55TagPrintUrl != ""&&q55PrintUrl == ""){ q55PrintURl = q55TagPrintUrl; }
+if (q55TagPrintUrl != null&&q55TagPrintUrl != ""&&q55PrintUrl == ""){ q55PrintUrl = '%23' + q55TagPrintUrl; }
 
 let lModeList = "all sitemap links websitedirectory news microblog articles notes wiki randomwebsite";
 let lModeListArr = fuMSplit(lModeList);

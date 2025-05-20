@@ -3,6 +3,24 @@ var radioJsonVar =
 
 [
     {
+        "text": "Bible Radio Book | Free Internet Radio | TuneIn",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/tunein.com\/radio\/Bible-Radio-Book-s262447\/",
+        "tag": "#radio #religion #spirituality",
+        "time": 1747491107,
+        "rightFooter": ""
+    },
+    {
+        "text": "AudioBookRadio | Free Internet Radio | TuneIn",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/tunein.com\/radio\/AudioBookRadio-s78136\/",
+        "tag": "#radio #storytelling #books #literature #poetry",
+        "time": 1747491043,
+        "rightFooter": ""
+    },
+    {
         "text": "CamoesRadio.com | Free Internet Radio | TuneIn",
         "text2": "",
         "text3": "",
@@ -5049,15 +5067,6 @@ var radioJsonVar =
         "url": "https:\/\/tunein.com\/radio\/esRadioElche-1037-s159380\/",
         "tag": "#es #radio",
         "time": 1620121076,
-        "rightFooter": ""
-    },
-    {
-        "text": "Emisi\u00f3n en Directo - Onda Madrid",
-        "text2": "",
-        "text3": "",
-        "url": "https:\/\/www.telemadrid.es\/emision-en-directo-ondamadrid\/",
-        "tag": "#es #radio",
-        "time": 1620120845,
         "rightFooter": ""
     },
     {

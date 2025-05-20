@@ -3,6 +3,15 @@ var tvJsonVar =
 
 [
     {
+        "text": "NBC News - YouTube",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/@NBCNews",
+        "tag": "#tv #news #en",
+        "time": 1747490505,
+        "rightFooter": ""
+    },
+    {
         "text": "The Fairly OddParents | Season 3 - YouTube",
         "text2": "",
         "text3": "",

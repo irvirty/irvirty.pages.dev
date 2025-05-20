@@ -1,4 +1,4 @@
-// Keep v.4.0.2
+// Keep v.4.1.0
 // The static version of my offline "keep" PHP script that saves things (links, notes, etc).
 // Inspired by Twitter, Google Keep
 // Not for large data files.
@@ -2017,6 +2017,7 @@ item = `<a class="brand insertIcon" href="${item}">${item}</a>`;
 //add hashtag
 if (item[0] == '#'){
 item222 = item.replaceAll(/#/g, "");
+item222[0] = "%23";
 item222 = `<a class="brand op" href="${scriptDir}?tag=${item222}">#${item222}</a>`;
 }
 
@@ -2524,13 +2525,14 @@ item = `<a class="brand insertIcon" href="${item}">${item}</a>`;
 }
 
 
-// add hashtag
-if (item[0] == "#"){
-item = item.replaceAll(/#/g, "");
-item = `<a class="brand op" href="${scriptDir}?tag=${item}">#${item}</a>`;
+//add hashtag
+if (item[0] == '#'){
+item222 = item.replaceAll(/#/g, "");
+item222[0] = "%23";
+item = `<a class="brand op" href="${scriptDir}?tag=${item222}">#${item222}</a>`;
 }
 
-if (item[0] == "@"){
+if (item[0] == '@'){
 item = `<a class="brand op" href="${scriptDir}?q=${item}">${item}</a>`;
 }
 
