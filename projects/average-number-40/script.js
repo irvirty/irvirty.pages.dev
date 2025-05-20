@@ -1,4 +1,4 @@
-// Average number v.1.2.1
+// Average number v.1.2.2
 // Inspired by a post on X.com when I wanted to know an average number.
 
 
@@ -37,7 +37,7 @@ var counter = 0;
 var qDataProcessPrint = '';
 var qResult = 0; 
 
-var delimiter = [",", "+", " ", "\r\n", "\r", "\n"];
+var delimiter = ["+", " ", "\r\n", "\r", "\n"];
 delimiter.forEach( (value) => {
 //document.getElementById("printDelimiter").innerHTML = ` , + | space, line break ( ) [ ]`; 
 });
@@ -45,6 +45,7 @@ delimiter.forEach( (value) => {
 //q = encodeURIComponent(e.target.value);
 
 // prepare for split 1
+q = q.replaceAll(",", "");
 q = q.replaceAll(" ", "|");
 delimiter.forEach((value) => {
 q = q.replaceAll(value, "|");
