@@ -862,6 +862,7 @@ case 'u#':
 q = q3.replace(qCom, '');
 q = q.trim();
 //q = encodeURIComponent(q);
+q = encodeURI(q);
 //q = q.replaceAll('%2F', '/');
 urlList = [
 "http://" + q,
