@@ -2856,15 +2856,6 @@ var radioJsonVar =
         "rightFooter": ""
     },
     {
-        "text": "VOA - Voice of America English News",
-        "text2": "http:\/\/voa-28.akacast.akamaistream.net\/7\/54\/322040\/v1\/ibb.akacast.akamaistream.net\/voa-28",
-        "text3": "mp3",
-        "url": "https:\/\/www.voanews.com\/",
-        "tag": "#radio #en",
-        "time": 1683435083,
-        "rightFooter": ""
-    },
-    {
         "text": "ABC Pacific",
         "text2": "http:\/\/live-radio01.mediahubaustralia.com\/RAEW\/mp3\/",
         "text3": "mp3",
