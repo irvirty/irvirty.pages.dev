@@ -513,7 +513,6 @@ urlList = [
 "https://flipboard.com/topic/technology",
 "https://flipboard.com/topic/computerscience",
 "https://slashdot.org/",
-//"https://getpocket.com/explore/technology",
 //"https://alternativeto.net/news/all/",
 ];
 }
