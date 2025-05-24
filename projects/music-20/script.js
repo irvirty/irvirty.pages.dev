@@ -1,4 +1,4 @@
-// Music list (random, embed) v.1.3.2
+// Music list (random, embed) v.1.3.3
 // data inspiration: radio, music recomendation.
 
 var jsonVar = musicJsonVar;
@@ -650,7 +650,7 @@ document.getElementById('keepTaglist').innerHTML += `
 `;
 
 
-document.getElementById('taglist').innerHTML +=  `
+document.getElementById('keepTaglist').innerHTML +=  `
 <br>
 
 <div id="form" class="wrapperSmall">
