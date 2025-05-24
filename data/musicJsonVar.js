@@ -3,6 +3,36 @@ var musicJsonVar =
 
 [
     {
+        "id": "6247",
+        "text": "Come To Me \u00b7 Bj\u00f6rk",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=7bdYlVMqSE0",
+        "tag": "#music",
+        "time": 1748047931,
+        "rightFooter": ""
+    },
+    {
+        "id": "6246",
+        "text": "Bj\u00f6rk - Big Time Sensuality (The Fluke Minimix) (Original 4K Music Video) - YouTube",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=IgmFmxnKTFc",
+        "tag": "#music",
+        "time": 1748045774,
+        "rightFooter": ""
+    },
+    {
+        "id": "6245",
+        "text": "I Got You, Man \u00b7 The Sweet Vandals \u00b7 Mayka Edjole \u00b7 Jesus Trujillo \u00b7 Santi Martin \u00b7 Javier Gomez \u00b7 Jose Angel Herranz",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=vk--3QAwhFI",
+        "tag": "#music",
+        "time": 1748045222,
+        "rightFooter": ""
+    },
+    {
         "id": "6038",
         "text": "Make The Girl Dance - Baby Baby Baby (Official Video) - YouTube",
         "text2": "",
@@ -9873,16 +9903,6 @@ var musicJsonVar =
         "rightFooter": ""
     },
     {
-        "id": "3693",
-        "text": "Violently Happy \u00b7 Bj\u00f6rk",
-        "text2": "",
-        "text3": "",
-        "url": "https:\/\/www.youtube.com\/watch?v=rEXpPLYXF00",
-        "tag": "#music",
-        "time": 1662619467,
-        "rightFooter": ""
-    },
-    {
         "id": "3691",
         "text": "bj\u00f6rk : mutual core - YouTube",
         "text2": "",
@@ -9910,16 +9930,6 @@ var musicJsonVar =
         "url": "https:\/\/www.youtube.com\/watch?v=Qv5ZU06JDN4",
         "tag": "#music",
         "time": 1662619162,
-        "rightFooter": ""
-    },
-    {
-        "id": "3688",
-        "text": "Big Time Sensuality (The Fluke Minimix) \u00b7 Bj\u00f6rk",
-        "text2": "",
-        "text3": "",
-        "url": "https:\/\/www.youtube.com\/watch?v=PSMc1gfi-TY",
-        "tag": "#music",
-        "time": 1662619147,
         "rightFooter": ""
     },
     {
@@ -18023,16 +18033,6 @@ var musicJsonVar =
         "rightFooter": ""
     },
     {
-        "id": "2245",
-        "text": "I Got You, Man \u00b7 The Sweet Vandals \u00b7 K Jesus Trujillo \u00b7 Mayka Edjo \u00b7 Jos\u00e9 Angel Herranz \u00b7 Santi Martin \u00b7 Javier Gomez \u00b7 T Jesus Trujillo",
-        "text2": "",
-        "text3": "",
-        "url": "https:\/\/www.youtube.com\/watch?v=hAi-TqlJUyo",
-        "tag": "#music",
-        "time": 1638232106,
-        "rightFooter": ""
-    },
-    {
         "id": "2243",
         "text": "I Follow Rivers - The Lost Sessions Vol 1. by Lykke Li",
         "text2": "",
@@ -25270,16 +25270,6 @@ var musicJsonVar =
         "url": "https:\/\/www.youtube.com\/watch?v=V-58I81gySE",
         "tag": "#music",
         "time": 1620859495,
-        "rightFooter": ""
-    },
-    {
-        "id": "770",
-        "text": "Come To Me \u00b7 Bj\u00f6rk",
-        "text2": "",
-        "text3": "",
-        "url": "https:\/\/www.youtube.com\/watch?v=C1ueuTiYm4A",
-        "tag": "#music",
-        "time": 1620859476,
         "rightFooter": ""
     },
     {

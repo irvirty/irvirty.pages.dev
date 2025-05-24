@@ -273,7 +273,7 @@ var sitemapJsonVar = [
         "time": "id"
     },
     {
-        "text": "Google Programmable Search\n\nGoogle programmable search engine. Google custom search engine and search widget. | google programmable search: ",
+        "text": "Google Programmable Search\n\nGoogle programmable search engine. Google custom search engine and search widget. Google search. | google programmable search: ",
         "url": "\/projects\/google-programmable-search-49\/index.html",
         "tag": " #widget #search #engine #tool #HTML #Google #embed #JavaScript #project",
         "id": "2b575a4c74a2cfc05b4467752b43dcaa",
@@ -427,9 +427,9 @@ var sitemapJsonVar = [
         "time": "id"
     },
     {
-        "text": "News\n\nShort news reports on various topics. | news: ",
+        "text": "News\n\nShort news on various topics. Web, technology, innovation, etc. | news: ",
         "url": "\/pages\/news\/index.html",
-        "tag": " #news #page #main",
+        "tag": " #news #web #tech #technology #innovation #page #main",
         "id": "000c7145a1fd0b968040b2690c3f7847",
         "time": "id"
     },

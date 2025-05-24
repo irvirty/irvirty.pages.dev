@@ -33,11 +33,19 @@ max-width: 100% !important;
 }
 
 
+.gsc-control-cse {
+border: 1px solid transparent !important;
+}
 
 
 
+.gsc-tabsArea {
+border-bottom: 1px solid var(--d2) !important;
+}
 
+/*.gsc-control-cse .gsc-option-menu {
 
+}*/
 
 /*
 .searchButtons {
@@ -168,4 +176,29 @@ color: var(--c3) !important;
 fill: var(--blue) !important;
 }
 
+
+
+.gsc-tabHeader.gsc-tabhActive {
+color: var(--blue) !important;
+}
+
+.gsc-tabHeader.gsc-tabhInactive {
+color: var(--c3) !important;
+}
+
+.gs-spelling {
+color: var(--c3) !important;
+}
+
+.gs-spelling a {
+color: var(--blue) !important;
+}
+
+/*.gcsc-branding-clickable {
+background-color: var(--l2) !important;
+}*/
+
+.gcsc-more-maybe-branding-root {
+margin-top: var(--margin2) !important;
+}
 
