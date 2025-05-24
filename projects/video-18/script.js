@@ -297,7 +297,7 @@ player.on('play', function(data){
 });
 
 player.on('ended', function(data) {
-reload();
+fuMRealod();
 });
 
 }

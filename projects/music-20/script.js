@@ -1,4 +1,4 @@
-// Music list (random, embed) v.1.3.3
+// Music list (random, embed) v.1.3.4
 // data inspiration: radio, music recomendation.
 
 var jsonVar = musicJsonVar;
@@ -347,7 +347,7 @@ onload = (event) => {
       widget.bind(SC.Widget.Events.FINISH, function() {
 // Simulate an HTTP redirect:
 
-reload(); 
+fuMReload(); 
 
       });
     });
