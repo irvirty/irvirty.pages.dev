@@ -1,4 +1,4 @@
-// Typing Speed Test (WPM) or Typing Speed Game v.3.27.0
+// Typing Speed Test (WPM) or Typing Speed Game v.3.27.1
 // Note: ignore some modes (i2). These modes work only on localhost, have a POST request, and serve to translate the text.
 
 const wmpAverageLimit = 30;
@@ -48,21 +48,20 @@ if (mode == null){ mode = 'quote'; }
 
 
 
-
-
-
-var modeList = Array(/*"letters",*/ "1k", "words", "quote", "book", "wiki", "input", "zen", "i2", "z2");
+var modeList = Array(/*"letters",*/ "1k", "words", "quote", "book", "wiki", "input", "zen", "b2", "i2", "z2");
 var modeListPrint = '';
 modeList.forEach(FunctionModeList);
 function FunctionModeList(item, index) {
 //hide none mode in not localhost
 var skip = '';
 if (
+location.hostname != 'localhost'&&item == 'b2'||
 location.hostname != 'localhost'&&item == 'i2'||
 location.hostname != 'localhost'&&item == 'z2'
 ){
 skip = 'yes';
 }
+
 if (mode == item&&skip != 'yes'){
 modeListPrint += `
 <a class="keepTag light4 border borderRadius2 borderBottomBrand" style="color: var(--c3);" href="?mode=` + item + `">` + item + `</a>
@@ -149,7 +148,7 @@ main(task);
 
 
 
-if (mode == 'book'){
+if (mode == 'book'||mode == "b2"){
 
 //https://stackoverflow.com/questions/16230886/trying-to-fire-the-onload-event-on-script-tag
 var script2 = document.createElement('script');
@@ -195,7 +194,6 @@ task[task.length - 1] = '';
 task = task.join(" ");
 
 main(task);
-
 
 })
 
@@ -368,8 +366,8 @@ document.getElementById("mode2").innerHTML = ` <a class="keepTag border2 borderR
 function typingSpeedTranslate(textForTranslate, mode) {
 
 //console.log(mode300);
-if (location.hostname == 'localhost'){
-if (mode == 'i2'||mode == 'z2'){
+if (location.hostname == "localhost"){
+if (mode == "b2"||mode == "i2"||mode == "z2"){
 document.getElementById("lPrintTr").style.display = "block";
 
 // source code none
@@ -700,7 +698,7 @@ q = e.target.value;
 
 
 
-if (mode == "i2"){
+if (mode == "b2"||mode == "i2"){
 typingSpeedTranslate(task.join("").slice(0, q.length), mode);
 }
 if (mode == "z2"){

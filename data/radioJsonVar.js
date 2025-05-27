@@ -138,6 +138,15 @@ var radioJsonVar =
         "rightFooter": ""
     },
     {
+        "text": "Radio Caima FM, 97.1 FM, Porto, Portugal | Free Internet Radio | TuneIn",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/tunein.com\/radio\/Radio-Caima-FM-971-s48711\/",
+        "tag": "#radio #RadioMusic #90s",
+        "time": 1745731475,
+        "rightFooter": ""
+    },
+    {
         "text": "Radio Antena Livre, 89.7 FM, Abrantes, Portugal | Free Internet Radio | TuneIn",
         "text2": "",
         "text3": "",
@@ -1080,15 +1089,6 @@ var radioJsonVar =
         "url": "https:\/\/tunein.com\/radio\/KBRW-680-s31846\/",
         "tag": "#radio #en",
         "time": 1745626079,
-        "rightFooter": ""
-    },
-    {
-        "text": "VOA French\/Swahili DRC | Free Internet Radio | TuneIn",
-        "text2": "",
-        "text3": "",
-        "url": "https:\/\/tunein.com\/radio\/VOA-French\/Swahili-DRC-s259969\/",
-        "tag": "#radio #fr",
-        "time": 1745385482,
         "rightFooter": ""
     },
     {
@@ -3054,15 +3054,6 @@ var radioJsonVar =
         "rightFooter": ""
     },
     {
-        "text": "90.9 The Bridge",
-        "text2": "https:\/\/live.wostreaming.net\/direct\/publictv19-ktbgfmaac-imc1",
-        "text3": "mp3",
-        "url": "https:\/\/bridge909.org\/",
-        "tag": "#radio #RadioMusic #AlternativeRock",
-        "time": 1683395368,
-        "rightFooter": ""
-    },
-    {
         "text": "The SoCal Sound | Southern California Radio",
         "text2": "https:\/\/stream4.885fm.org\/1",
         "text3": "mp3",
@@ -3600,15 +3591,6 @@ var radioJsonVar =
         "url": "https:\/\/www.xsmanchester.co.uk\/",
         "tag": "#radio #RadioMusic #IndieRock",
         "time": 1683358754,
-        "rightFooter": ""
-    },
-    {
-        "text": "Your Connection To Jazz, Blues and NPR News | KNKX Public Radio",
-        "text2": "https:\/\/prod-18-232-88-129.wostreaming.net\/ppm-knkxfmaac256-ibc1",
-        "text3": "mp3",
-        "url": "https:\/\/www.knkx.org\/",
-        "tag": "#radio #RadioMusic #jazz",
-        "time": 1683358554,
         "rightFooter": ""
     },
     {
