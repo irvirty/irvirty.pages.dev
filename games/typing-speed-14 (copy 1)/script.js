@@ -1,5 +1,5 @@
-// Typing Speed Test (WPM) or Typing Speed Game v.4.0.0
-// zen mode inspired by https://monkeytype.com/
+// Typing Speed Test (WPM) or Typing Speed Game v.3.27.1
+// Note: ignore some modes (i2). These modes work only on localhost, have a POST request, and serve to translate the text.
 
 const wmpAverageLimit = 30;
 const wordLengthLimit = 5.1;
@@ -48,18 +48,25 @@ if (mode == null){ mode = 'quote'; }
 
 
 
-var modeList = Array(/*"letters",*/ "1k", "words", "quote", "book", "wiki", "input", "zen");
+var modeList = Array(/*"letters",*/ "1k", "words", "quote", "book", "wiki", "input", "zen", "b2", "i2", "z2");
 var modeListPrint = '';
 modeList.forEach(FunctionModeList);
 function FunctionModeList(item, index) {
 //hide none mode in not localhost
 var skip = '';
+if (
+location.hostname != 'localhost'&&item == 'b2'||
+location.hostname != 'localhost'&&item == 'i2'||
+location.hostname != 'localhost'&&item == 'z2'
+){
+skip = 'yes';
+}
 
-if (mode == item){
+if (mode == item&&skip != 'yes'){
 modeListPrint += `
 <a class="keepTag light4 border borderRadius2 borderBottomBrand" style="color: var(--c3);" href="?mode=` + item + `">` + item + `</a>
 `;
-} else{
+} else if (skip != 'yes'){
 modeListPrint += `
 <a class="keepTag op light3 border2 borderRadius2" href="?mode=` + item + `">` + item + `</a>
 `;
@@ -141,7 +148,7 @@ main(task);
 
 
 
-if (mode == 'book'){
+if (mode == 'book'||mode == "b2"){
 
 //https://stackoverflow.com/questions/16230886/trying-to-fire-the-onload-event-on-script-tag
 var script2 = document.createElement('script');
@@ -271,7 +278,7 @@ task = "           abcdefghijklmnopqrstuvwxyz";
 main(task);
 }
 
-if (mode == 'input'){
+if (mode == 'input'||mode == 'i2'){
 var tg = '';
 document.getElementById("bookmarklet").style.display = "inline-block";
 
@@ -336,7 +343,7 @@ localStorage.setItem("input", inputText);
 
 
 
-if (mode == 'zen'){
+if (mode == 'zen'||mode == 'z2'){
 document.getElementById('text').rows = '7';
 task = '';
 main('');
@@ -349,9 +356,42 @@ main('');
 function fuLtr(lTrTask){
 if (location.hostname == 'localhost'){
 if (lTrTask == undefined){ lTrTask = task; }
+document.getElementById("mode2").innerHTML = ' <a class="keepTag op light3 border2 borderRadius2" href="/?q=' + encodeURIComponent(lTrTask) + ' d"> tr2</a>';
 document.getElementById("mode2").innerHTML += ` <a class="keepTag op light3 border2 borderRadius2" title="translate" href="${confD}projects/redirects-25/?q=` + encodeURIComponent(lTrTask) + ` t">tr</a>`;
 } else {
 document.getElementById("mode2").innerHTML = ` <a class="keepTag border2 borderRadius2" title="translate" href="${confD}projects/redirects-25/?q=` + encodeURIComponent(lTrTask) + ` t">tr</a>`;
+}
+}
+
+function typingSpeedTranslate(textForTranslate, mode) {
+
+//console.log(mode300);
+if (location.hostname == "localhost"){
+if (mode == "b2"||mode == "i2"||mode == "z2"){
+document.getElementById("lPrintTr").style.display = "block";
+
+// source code none
+let text = textForTranslate;
+//let text = (textForTranslate);
+let http = new XMLHttpRequest();
+let url2 = '/?q=dic';
+let params = 'text=' + encodeURIComponent(text);
+//alert(params);
+http.open('POST', url2, true);
+//Send the proper header information along with the request
+http.setRequestHeader('Content-type', 'application/x-www-form-urlencoded');
+http.onreadystatechange = function() { //Call a function when the state changes.
+if (http.readyState == 4 && http.status == 200) {
+// alert(http.responseText);
+document.getElementById("lPrintTr").innerHTML = http.responseText;
+}
+
+}
+http.send(params);
+} else {
+document.getElementById("lPrintTr").innerHTML = '';
+document.getElementById("lPrintTr").style.display = "none";
+}
 }
 }
 
@@ -363,7 +403,7 @@ document.getElementById("lPrintTr").style.display = "none";
 //setTimeout(function () {
 function main(task){
 
-if (mode == 'zen'){
+if (mode == 'zen'||mode == 'z2'){
 document.getElementById("result").style.display = "none";
 } else {
 document.getElementById("result").style.display = "block";
@@ -655,6 +695,16 @@ if (wpmRecord == null||wpmRecord < 0||wpmRecord == undefined){ wpmRecord =  0; }
 
 // input value
 q = e.target.value;
+
+
+
+if (mode == "b2"||mode == "i2"){
+typingSpeedTranslate(task.join("").slice(0, q.length), mode);
+}
+if (mode == "z2"){
+typingSpeedTranslate(q, mode);
+fuLtr(q);
+}
 //console.log(task.join("").slice(0, q.length));
 
 //var answerArr = q.split ("");
@@ -683,7 +733,7 @@ if (scrollToVar !=  ''){ document.getElementById("scrollTo").scrollIntoView(true
 
 
 
-if (mode != 'zen'){
+if (mode != 'zen'&&mode != 'z2'){
 letters.forEach(myFunctionCheckAll);
 }
 
@@ -784,7 +834,7 @@ document.getElementById("scrollTo2").scrollIntoView(true);
 /* stat */
 
 
-if (letters.length >= answerArr.length||mode == 'zen'){
+if (letters.length >= answerArr.length||mode == 'zen'||mode == 'z2'){
 
 /*test delmme old core 1
 //if (key2 == 'Backspace'||key2 == 'Delete'){ } else {}
@@ -872,7 +922,7 @@ document.getElementById("text").style.borderTop = "9px solid var(--d2)";
 
 
 let acurancyTotal = 0;
-if (/*answerArr.length == letters.length&&*/mode != 'zen'){
+if (/*answerArr.length == letters.length&&*/mode != 'zen'&&mode != 'z2'){
 
 acurancy = error * 100 / answerArr.length;
 acurancy =  100 - acurancy.toFixed(0);
@@ -905,7 +955,7 @@ document.getElementById("scrollTo").scrollIntoView(true);
 
 
 //if (letters.length == answerArr.length && error <= allowError&&mode != 'zen'&&task.length >= 5){
-if (task.length == answerArr.length && error <= allowError&&mode != 'zen'&&task.length >= 5){
+if (task.length == answerArr.length && error <= allowError&&mode != 'zen'&&mode != 'z2'&&task.length >= 5){
 
 
 

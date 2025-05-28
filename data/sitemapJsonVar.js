@@ -777,6 +777,13 @@ var sitemapJsonVar = [
         "time": "id"
     },
     {
+        "text": "Typing speed\n\nA typing speed test, typing speed game or keyboard trainer. Typing test.\r\nModes: quotes, book, wiki, own text input.\r\nWPM means Words Per Minute. | typing speed  (copy ): ",
+        "url": "\/games\/typing-speed-14 (copy 1)\/index.html",
+        "tag": " #test #tool #game #typing #speed #trainer #WPM #CSS #JavaScript #project",
+        "id": "d9a68b69b9c156fd898f2ee0d164def1",
+        "time": "id"
+    },
+    {
         "text": "Typing speed\n\nA typing speed test, typing speed game or keyboard trainer. Typing test.\r\nModes: quotes, book, wiki, own text input.\r\nWPM means Words Per Minute. | typing speed: ",
         "url": "\/games\/typing-speed-14\/index.html",
         "tag": " #test #tool #game #typing #speed #trainer #WPM #CSS #JavaScript #project",
