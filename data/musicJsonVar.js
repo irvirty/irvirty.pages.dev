@@ -19433,16 +19433,6 @@ var musicJsonVar =
         "rightFooter": ""
     },
     {
-        "id": "1983",
-        "text": "birds fly talk first \u00b7 numnum",
-        "text2": "",
-        "text3": "",
-        "url": "https:\/\/www.youtube.com\/watch?v=J6gHQbhMP0o",
-        "tag": "#music",
-        "time": 1632190237,
-        "rightFooter": ""
-    },
-    {
         "id": "1982",
         "text": "Courtney Barnett - Before You Gotta Go (Visualiser) - YouTube",
         "text2": "",
