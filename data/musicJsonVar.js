@@ -3,6 +3,26 @@ var musicJsonVar =
 
 [
     {
+        "id": "6273",
+        "text": "Psych\u00e9 Rock \u00b7 Pierre Henry",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=Vb32bdQJBxM",
+        "tag": "#music",
+        "time": 1748540090,
+        "rightFooter": ""
+    },
+    {
+        "id": "6272",
+        "text": "Special (2018 Remaster) \u00b7 Garbage",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=MprddUlXOCk",
+        "tag": "#music",
+        "time": 1748520153,
+        "rightFooter": ""
+    },
+    {
         "id": "6270",
         "text": "You Look so Fine (2018 Remaster) \u00b7 Garbage",
         "text2": "",
@@ -18063,16 +18083,6 @@ var musicJsonVar =
         "rightFooter": ""
     },
     {
-        "id": "2311",
-        "text": "Garbage - Special - YouTube",
-        "text2": "",
-        "text3": "",
-        "url": "https:\/\/www.youtube.com\/watch?v=raRGnueg8Lo",
-        "tag": "#music",
-        "time": 1641165073,
-        "rightFooter": ""
-    },
-    {
         "id": "2310",
         "text": "Garbage - Queer - YouTube",
         "text2": "",
@@ -24510,16 +24520,6 @@ var musicJsonVar =
         "url": "https:\/\/www.youtube.com\/watch?v=3SwwljI-8JY",
         "tag": "#music",
         "time": 1620866644,
-        "rightFooter": ""
-    },
-    {
-        "id": "860",
-        "text": "Psyche Rock \u00b7 Pierre Henry",
-        "text2": "",
-        "text3": "",
-        "url": "https:\/\/www.youtube.com\/watch?v=3tZsxRPRzqg",
-        "tag": "#music",
-        "time": 1620866575,
         "rightFooter": ""
     },
     {
