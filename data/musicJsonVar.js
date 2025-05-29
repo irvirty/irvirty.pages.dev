@@ -3,6 +3,46 @@ var musicJsonVar =
 
 [
     {
+        "id": "6270",
+        "text": "You Look so Fine (2018 Remaster) \u00b7 Garbage",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=M8G77bR20tI",
+        "tag": "#music",
+        "time": 1748447870,
+        "rightFooter": ""
+    },
+    {
+        "id": "6269",
+        "text": "SOFI TUKKER, Mari Merenda & Sophia Ardessore - \"Veneno (butter version)\" - Official Lyric Video - YouTube",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=EgB05dPHPNc",
+        "tag": "#music",
+        "time": 1748445821,
+        "rightFooter": ""
+    },
+    {
+        "id": "6268",
+        "text": "SOFI TUKKER & Liniker - \"Intensity\" - Official Lyric Video - YouTube",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=ajgMCXPCUSU",
+        "tag": "#music",
+        "time": 1748445721,
+        "rightFooter": ""
+    },
+    {
+        "id": "6267",
+        "text": "SOFI TUKKER & Seu Jorge - \"Bread (butter version)\" - Official Lyric Video - YouTube",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=SCGP4OTGBvE",
+        "tag": "#music",
+        "time": 1748445652,
+        "rightFooter": ""
+    },
+    {
         "id": "6265",
         "text": "Laura Veirs - Rocks of Time (Album version ) - YouTube",
         "text2": "",
@@ -13233,16 +13273,6 @@ var musicJsonVar =
         "rightFooter": ""
     },
     {
-        "id": "3048",
-        "text": "Eminem - White America (Official Music Video) - YouTube",
-        "text2": "",
-        "text3": "",
-        "url": "https:\/\/www.youtube.com\/watch?v=RZIzD0ZfTFg",
-        "tag": "#music",
-        "time": 1647445770,
-        "rightFooter": ""
-    },
-    {
         "id": "3047",
         "text": "Eminem - My Name Is (Dirty Version) (Official Music Video) - YouTube",
         "text2": "",
@@ -18070,16 +18100,6 @@ var musicJsonVar =
         "url": "https:\/\/www.youtube.com\/watch?v=4OdTBCgqRt4",
         "tag": "#music",
         "time": 1641164975,
-        "rightFooter": ""
-    },
-    {
-        "id": "2307",
-        "text": "Garbage - You Look So Fine - YouTube",
-        "text2": "",
-        "text3": "",
-        "url": "https:\/\/www.youtube.com\/watch?v=NyAK7qPeHY0",
-        "tag": "#music",
-        "time": 1641164925,
         "rightFooter": ""
     },
     {
@@ -23350,16 +23370,6 @@ var musicJsonVar =
         "url": "https:\/\/www.youtube.com\/watch?v=mN7LW0Y00kE",
         "tag": "#music",
         "time": 1620891707,
-        "rightFooter": ""
-    },
-    {
-        "id": "689",
-        "text": "Dis Moi Combien Tu Planes ? by Mista Hope",
-        "text2": "",
-        "text3": "",
-        "url": "https:\/\/soundcloud.com\/mista-hope\/dis-moi-combien-tu-planes",
-        "tag": "#music",
-        "time": 1620891643,
         "rightFooter": ""
     },
     {
