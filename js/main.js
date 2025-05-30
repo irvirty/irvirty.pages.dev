@@ -529,6 +529,8 @@ document.getElementById("footer").innerHTML = `
 
 <a class="brand inlineBlock padding" style="padding-left: 0;" title="Start menu" href="${confD}all/">All</a>
 <a class="brand inlineBlock padding" title="About" href="${confD}pages/about/">About</a>
+<a class="brand inlineBlock padding" style="padding-left: 0;" title="Bluesky" href="https://bsky.app/">Bluesky</a>
+<a class="brand inlineBlock padding" title="About" href="${confD}pages/about/">About</a>
 <a class="brand inlineBlock padding" title="RSS News" href="${confD}rss.xml">RSS</a>
 <a class="brand inlineBlock padding" title="Another home page" href="https://${conf["confUsername"]}.neocities.org/#2">Other Home</a>
 <a id="fSettings" class="brand inlineBlock padding2" title="Settings" href="${confD}pages/settings/">Settings</a>
