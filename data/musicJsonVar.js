@@ -19253,16 +19253,6 @@ var musicJsonVar =
         "rightFooter": ""
     },
     {
-        "id": "2008",
-        "text": "Teddi Gold - BOOM BOOM (audio) - YouTube",
-        "text2": "",
-        "text3": "",
-        "url": "https:\/\/www.youtube.com\/watch?v=IpJ9OfGf7YU",
-        "tag": "#music",
-        "time": 1632300322,
-        "rightFooter": ""
-    },
-    {
         "id": "2007",
         "text": "UPSAHL - 12345SEX (Lyric Video) - YouTube",
         "text2": "",
