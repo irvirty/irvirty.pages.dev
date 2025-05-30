@@ -3,6 +3,16 @@ var musicJsonVar =
 
 [
     {
+        "id": "6281",
+        "text": "\u0417\u0435\u043c\u0444\u0438\u0440\u0430 \u043e\u0442 \u041b\u0443\u043a\u0438 \u2014 DRAMATIQUE - YouTube",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=9-erCXpjhqs",
+        "tag": "#music",
+        "time": 1748611121,
+        "rightFooter": ""
+    },
+    {
         "id": "6280",
         "text": "\u0417\u0435\u043c\u0444\u0438\u0440\u0430 \u2014 \u041d\u0435 \u0441\u0442\u0440\u0435\u043b\u044f\u0439\u0442\u0435 (LIVE @ London 03.11.2022) - YouTube",
         "text2": "",
