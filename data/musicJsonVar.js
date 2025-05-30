@@ -3,6 +3,16 @@ var musicJsonVar =
 
 [
     {
+        "id": "6274",
+        "text": "Sweet Dreams (Are Made Of This) - YouTube",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=pJTSHWwidjY",
+        "tag": "#music",
+        "time": 1748587392,
+        "rightFooter": ""
+    },
+    {
         "id": "6273",
         "text": "Psych\u00e9 Rock \u00b7 Pierre Henry",
         "text2": "",
@@ -11720,16 +11730,6 @@ var musicJsonVar =
         "url": "https:\/\/www.youtube.com\/watch?v=M61QqP_FtWY",
         "tag": "#music",
         "time": 1652677207,
-        "rightFooter": ""
-    },
-    {
-        "id": "3416",
-        "text": "Emily Browning - Sweet Dreams - YouTube",
-        "text2": "",
-        "text3": "",
-        "url": "https:\/\/www.youtube.com\/watch?v=cxdwEOpGknk",
-        "tag": "#music",
-        "time": 1652533732,
         "rightFooter": ""
     },
     {

@@ -536,7 +536,7 @@ document.getElementById("footer").innerHTML = `
 <a class="brand inlineBlock padding" title="Source code (repository)" href="https://github.com/${conf["confUsername"]}/${conf["confWebsiteUrl"]}">Source Code</a>
 <span class="op inlineBlock padding gray"><!--2019--->2025</span>
 <span class="gray">License:</span>
-<a class="brand inlineBlock padding" rel="license" title="Main license" href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA</a><a class="brand inlineBlock padding" title="Other license" href="${confD}pages/about/#license"><sup>*</sup></a>
+<a class="brand inlineBlock padding" rel="license" title="Main license" href="https://creativecommons.org/public-domain/cc0/">CC0</a><a class="brand inlineBlock padding" title="Other license" href="${confD}pages/about/#license"><sup>*</sup></a>
 <br>
 <span class="gray">Hosting:</span>
 <a class="brand inlineBlock padding" style="padding-right: 0;" title="Hosting Service" href="https://pages.cloudflare.com/">Cloudflare Pages</a>
