@@ -3,6 +3,36 @@ var musicJsonVar =
 
 [
     {
+        "id": "6318",
+        "text": "Billie Eilish - BIRDS OF A FEATHER (Official Music Video) - YouTube",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=V9PVRfjEBTI",
+        "tag": "#music",
+        "time": 1748668987,
+        "rightFooter": ""
+    },
+    {
+        "id": "6317",
+        "text": "UPSAHL - Snowglobe (Visualizer) - YouTube",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=Z2YWKSzvfgs",
+        "tag": "#music",
+        "time": 1748668878,
+        "rightFooter": ""
+    },
+    {
+        "id": "6316",
+        "text": "one of the best songs ever hands down - YouTube",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=sjU_ScoQAyo",
+        "tag": "#music",
+        "time": 1748668723,
+        "rightFooter": ""
+    },
+    {
         "id": "6293",
         "text": "\u0417\u0435\u043c\u0444\u0438\u0440\u0430 \u2014 \u0418\u0442\u043e\u0433\u0438 (LIVE @ \u041c\u043e\u0441\u043a\u0432\u0430 14.12.2013) - YouTube",
         "text2": "",
@@ -960,16 +990,6 @@ var musicJsonVar =
         "url": "https:\/\/www.youtube.com\/watch?v=oM7NQQ0Lfu4",
         "tag": "#music",
         "time": 1728124508,
-        "rightFooter": ""
-    },
-    {
-        "id": "5716",
-        "text": "Jimmy Kimmel and Carrie Underwood Duet \"Before You Freak\" - YouTube",
-        "text2": "",
-        "text3": "",
-        "url": "https:\/\/www.youtube.com\/watch?v=nnEEv2IUO9M",
-        "tag": "#music",
-        "time": 1728124384,
         "rightFooter": ""
     },
     {
