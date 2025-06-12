@@ -1,4 +1,4 @@
-// Typing Speed Test (WPM) or Typing Speed Game v.4.0.0
+// Typing Speed Test (WPM) or Typing Speed Game v.4.0.1
 // zen mode inspired by https://monkeytype.com/
 
 const wmpAverageLimit = 30;
@@ -1115,7 +1115,7 @@ document.getElementById("text").style.borderTop = "9px solid var(--d2)";
 document.getElementsByClassName("msg2")[0].innerHTML = `
 <div id="hideMeComment">
 <div class="padding2"></div>
-<div class="op xSmall padding2 tRight pre">* 1 word - ${wordLengthLimit} symbol | average WPM - last ${wmpAverageLimit} | allowed error for result: ${allowError}</div>
+<div class="op xSmall padding2 tRight pre">* 1 word - ${wordLengthLimit} symbol | average WPM based on the last ${wmpAverageLimit} | allowed error for result: ${allowError}</div>
 </div>
 `;
 //for your own text use the URL or query: ?q=your text
