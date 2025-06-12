@@ -709,20 +709,25 @@ let printTagUrl = val.toLowerCase();
 
 
 switch (mode) {
-case 'keywords':
+
+case 'Keywords':
 tagListPrint += `<a class="inlineBlock padding op ` + color + `" href="/projects/redirects-25/?q=` + printTagUrl + ` s">` + val + `</a>`;
 break;
 
-case 'news':
+case 'News':
 tagListPrint += `<a class="inlineBlock padding op ` + color + `" href="/?q=` + printTagUrl +` n">` + val + `</a>`;
 break;
 
-case 'search':
+case 'Search':
 tagListPrint += `<a class="inlineBlock padding op ` + color + `" href="/?q=` + printTagUrl +` rse">` + val + `</a>`;
 break;
 
-case 'search2':
+case 'Search2':
 tagListPrint += `<a class="inlineBlock padding op ` + color + `" href="/projects/google-programmable-search-49/?q=` + printTagUrl +`">` + val + `</a>`;
+break;
+
+case 'SearchOther':
+tagListPrint += `<a class="inlineBlock padding op ` + color + `" href="/projects/redirects-25/?q=` + printTagUrl + ` o">` + val + `</a>`;
 break;
 
 case 'edit':
@@ -757,7 +762,7 @@ tagListCloud("");
 function modeSwitch(mode, tagList, tagListSortConf){
 
 let tagModePrint = "";
-let tagsModeList = `hashtags keywords news search search2`;
+let tagsModeList = `Hashtags Keywords News Search Search2 SearchOther`;
 
 let arr = fuMSplit(tagsModeList);
 let tagListPrint = `<span class="op">mode:</span>`;
