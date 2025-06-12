@@ -1057,6 +1057,8 @@ ${recordMsg}
 <span class="medium">Best WPM: <span class="orange bold">${wpmRecord}</span></span>
 
 <div class="padding2"></div>
+<a class="keepTag op light3 border2 borderRadius2" href="./?" onclick="fuMReload();return false;">reload</a>
+
 </div>
 </div>
 </div>
