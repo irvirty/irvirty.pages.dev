@@ -1442,7 +1442,7 @@ sRedirectUrl = url;
 break;
 
 
-case 'o#':
+case "o#":
 q = q3.replace(qCom, '');
 q = q.trim();
 q = encodeURIComponent(q);
