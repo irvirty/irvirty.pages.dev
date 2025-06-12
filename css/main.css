@@ -1,8 +1,9 @@
-/* Main.css style v.23.8.5
+/* Main.css style v.23.8.6
 /* main.css + theme (auto.css) */
 /* The style is mostly based on classes */
 
 /* Main */
+@charset "UTF-8";
 * { color-scheme: light dark; } /* view-source:about:blank, fixed blink */
 
 :root{
