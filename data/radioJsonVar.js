@@ -2588,7 +2588,7 @@ var radioJsonVar =
     {
         "text": "bigFM \u2013 Deutschlands biggste Beats | bigFM",
         "text2": "https:\/\/stream.bigfm.de\/deutschland\/aac-128",
-        "text3": "",
+        "text3": "mp3",
         "url": "https:\/\/www.bigfm.de\/",
         "tag": "#radio #RadioMusic #jazz #lofi #chill #code #coding",
         "time": 1700013447,

@@ -1,0 +1,87 @@
+/* v.1.0.0 */
+
+:root {
+--flowerPetalSize: 11%;
+}
+
+
+.flower {
+width: 100%;
+max-width: 360px;
+aspect-ratio: 1 / 1;
+margin: 0 auto;
+position: relative;
+}
+
+.flowerPetal,
+.flowerCenter {
+display: block;
+position: absolute;
+width: var(--flowerPetalSize);
+height: var(--flowerPetalSize);
+border-radius: 50%;
+}
+
+.flowerCenter {
+top: calc(25% - (var(--flowerPetalSize) / 2));
+left: calc(50% - (var(--flowerPetalSize) / 2 ));
+background: var(--red);
+}
+
+.flowerPetal1 {
+top: calc(25% - (var(--flowerPetalSize) / 2) - var(--flowerPetalSize));
+left: calc(50% - (var(--flowerPetalSize) / 2 ) - var(--flowerPetalSize));
+background: var(--orange);
+}
+
+.flowerPetal2 {
+top: calc(25% - (var(--flowerPetalSize) / 2) + var(--flowerPetalSize));
+left: calc(50% - (var(--flowerPetalSize) / 2 ) - var(--flowerPetalSize));
+background: var(--orange);
+}
+
+.flowerPetal3 {
+top: calc(25% - (var(--flowerPetalSize) / 2) + var(--flowerPetalSize));
+left: calc(50% - (var(--flowerPetalSize) / 2 ) + var(--flowerPetalSize));
+background: var(--orange);
+}
+
+.flowerPetal4 {
+top: calc(25% - (var(--flowerPetalSize) / 2) - var(--flowerPetalSize));
+left: calc(50% - (var(--flowerPetalSize) / 2 ) + var(--flowerPetalSize));
+background: var(--orange);
+}
+
+.flowerStem,
+.flowerStem2,
+.flowerStem3 {
+top: calc(23% + ((var(--flowerPetalSize) * 2)));
+left: calc(50% - (var(--flowerPetalSize) / 2 ));
+background: var(--green);
+
+height: calc(var(--flowerPetalSize) * 3);
+}
+
+.flowerStem2 {
+top: calc(38% + ((var(--flowerPetalSize) * 2)));
+left: calc(56% - (var(--flowerPetalSize) / 2 ));
+
+transform: rotate(45deg);
+
+height: calc(var(--flowerPetalSize) * 3);
+}
+
+.flowerStem3 {
+top: calc(38% + ((var(--flowerPetalSize) * 2)));
+left: calc(44% - (var(--flowerPetalSize) / 2 ));
+
+transform: rotate(-45deg);
+
+height: calc(var(--flowerPetalSize) * 3);
+}
+
+
+
+
+
+
