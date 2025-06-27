@@ -3,6 +3,16 @@ var linksJsonVar =
 
 [
     {
+        "id": "268",
+        "text": "Analytics | Home",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/analytics.google.com\/",
+        "tag": "#analytics #Google #counter",
+        "time": 1750755079,
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=268\">id<\/a>"
+    },
+    {
         "id": "267",
         "text": "Sublime Text - Text Editing, Done Right",
         "text2": "",
