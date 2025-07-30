@@ -399,3 +399,20 @@ text-decoration: wavy var(--blue);
 }
 
 }*/
+
+
+
+/*https://developer.mozilla.org/en-US/docs/Web/CSS/if#syntax*/
+.testIf {
+
+background-color: if(
+media(prefers-color-scheme: dark): black;
+);
+
+background-color: if(
+media(prefers-color-scheme: light): white;
+);
+
+}
+
+
