@@ -119,6 +119,13 @@ var sitemapJsonVar = [
         "time": "id"
     },
     {
+        "text": "CSS City\n\nCSS art description. | city: ",
+        "url": "\/pages\/css-art\/city-34\/index.html",
+        "tag": " #CSSArt #HTML #CSS #project",
+        "id": "c2ff05995a0edfcffec40abf3ac5e045",
+        "time": "id"
+    },
+    {
         "text": "CSS Computer (PC)\n\nCSS art description. | computer css: ",
         "url": "\/pages\/css-art\/computer-css-9\/index.html",
         "tag": " #CSSArt #HTML #CSS #project",
@@ -907,6 +914,13 @@ var sitemapJsonVar = [
         "url": "\/projects\/test-27\/index.html",
         "tag": " #test #page #HTML #CSS #JavaScript #project",
         "id": "86d9dee90df2fa84b95059eb006e7fa1",
+        "time": "id"
+    },
+    {
+        "text": "tpl for CSS\n\nCSS art description. | tpl: ",
+        "url": "\/pages\/css-art\/tpl-0\/index.html",
+        "tag": " #CSSArt #HTML #CSS #project",
+        "id": "791c36a3699ad9308feff7a1ef7a5f93",
         "time": "id"
     }
 ]

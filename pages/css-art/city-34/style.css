@@ -1,0 +1,40 @@
+/* v.1.0.0 */
+
+:root {
+--flowerPetalSize: 11%;
+}
+
+
+.city {
+width: 100%;
+max-width: 360px;
+aspect-ratio: 1 / 1;
+margin: 0 auto;
+position: relative;
+
+background-color: snow;
+}
+
+.house {
+display: block;
+position: absolute;
+width: 25%;
+height: 25%;
+
+bottom: 5%;
+left: 5%;
+background: var(--red);
+}
+
+.roof {
+width: 35%;
+height: 20%;
+background-color: blue;
+clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+
+display: block;
+position: absolute;
+bottom: 30%;
+left: 1%;
+}
+
