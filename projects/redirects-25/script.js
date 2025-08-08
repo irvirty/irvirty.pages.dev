@@ -1,4 +1,4 @@
-// Search redirects v.2.8.24
+// Search redirects v.2.8.25
 // Search query + command
 
 // conf
@@ -1293,6 +1293,61 @@ sRedirectUrl = url;
 break;
 
 
+case 'moj#':
+case 'mo#':
+q = q3.replace(qCom, '');
+q = q.trim();
+q = encodeURIComponent(q);
+urlList = [
+"https://www.mojeek.com/search?q=" + q,
+];
+if (q == ''){
+urlList = [
+"https://www.mojeek.com/",
+];
+}
+random = urlList[fuMRandom(0, urlList.length - 1)];
+url = random;
+sRedirectUrl = url;
+break;
+
+
+case 'x#':
+q = q3.replace(qCom, '');
+q = q.trim();
+q = encodeURIComponent(q);
+urlList = [
+"https://x.com/search?q=" + q,
+];
+if (q == ''){
+urlList = [
+"https://x.com/",
+];
+}
+random = urlList[fuMRandom(0, urlList.length - 1)];
+url = random;
+sRedirectUrl = url;
+break;
+
+
+case 'xx#':
+q = q3.replace(qCom, '');
+q = q.trim();
+q = encodeURIComponent(q);
+urlList = [
+"https://x.com/search?q=" + q + "&f=live",
+];
+if (q == ''){
+urlList = [
+"https://x.com/",
+];
+}
+random = urlList[fuMRandom(0, urlList.length - 1)];
+url = random;
+sRedirectUrl = url;
+break;
+
+
 case 'qq#':
 case 'ql#':
 case 'qd#':
@@ -1378,6 +1433,7 @@ url = random;
 sRedirectUrl = url;
 break;
 
+
 case 'nn#':
 q = q3.replace(qCom, '');
 q = q.trim();
@@ -1450,12 +1506,16 @@ urlList = [
 "https://marginalia-search.com/search?query=" + q,
 "https://search.seznam.cz/?q=" + q,
 //"https://mwmbl.org/?q=" + q,
+"https://www.mojeek.com/search?q=" + q,
+"https://duckduckgo.com/" + q,
 ];
 if (q == ''){
 urlList = [
 "https://marginalia-search.com/",
 "https://search.seznam.cz/",
 //"https://mwmbl.org/",
+"https://www.mojeek.com/",
+"https://duckduckgo.com/",
 ];
 }
 random = urlList[fuMRandom(0, urlList.length - 1)];
