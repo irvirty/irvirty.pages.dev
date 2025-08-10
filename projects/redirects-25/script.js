@@ -408,7 +408,7 @@ var deepLq = q.replaceAll(/\//g, "-");
 q = encodeURIComponent(q);
 urlList = [
 "https://translate.google.com/?sl=auto&tl=auto&text=" + q + "&op=translate",
-"https://www.deepl.com/translator#auto/auto/" + q,
+//"https://www.deepl.com/translator#auto/auto/" + q,
 "https://www.bing.com/translator/?text=" + q + "&from=auto&to=auto",
 ];
 if (conf["confDevice"] != 'mobile'){
@@ -417,7 +417,7 @@ urlList.push("https://translate.google.com/?sl=auto&text=" + q + "&op=translate"
 if (q == ''){
 urlList = [
 "https://translate.google.com/",
-"https://www.deepl.com/translator",
+//"https://www.deepl.com/translator",
 "https://www.bing.com/translator/",
 ];
 }
@@ -436,7 +436,7 @@ var deepLq = q.replaceAll(/\//g, "-"); // fixed
 q = encodeURIComponent(q);
 urlList = [
 "https://translate.google.com/?sl=auto&tl=en&text=" + q + "&op=translate",
-"https://www.deepl.com/translator#auto/en/" + q,
+//"https://www.deepl.com/translator#auto/en/" + q,
 "https://www.bing.com/translator/?text=" + q + "&from=auto&to=en",
 ];
 random = urlList[fuMRandom(0, urlList.length - 1)];
