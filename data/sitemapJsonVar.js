@@ -581,7 +581,7 @@ var sitemapJsonVar = [
         "time": "id"
     },
     {
-        "text": "Random word every day\n\nRandom word every day. Unique for every visitor. | random word every day: ",
+        "text": "Random word every day\n\nRandom word every day. Unique for every visitor. Word of the day. | random word every day: ",
         "url": "\/projects\/random-word-every-day-76\/index.html",
         "tag": " #word #day #HTML_CSS #JavaScript #project",
         "id": "e0eeac1fb643c818aa118488c6f62e21",

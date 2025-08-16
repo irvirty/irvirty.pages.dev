@@ -934,13 +934,33 @@ sRedirectUrl = url;
 break;
 
 
-case 'v#':
+case "v#":
 q = q3.replace(qCom, '');
 q = q.trim();
 q = encodeURIComponent(q);
 urlList = [
 "https://www.google.com/search?q=" + q + "&newwindow=1&tbm=vid",
 "https://www.bing.com/videos/search?q=" + q + "&form=somesite",
+];
+if (q == ''){
+urlList = [
+"https://www.google.com/videohp",
+"https://www.bing.com/videos/",
+];
+}
+random = urlList[fuMRandom(0, urlList.length - 1)];
+url = random;
+sRedirectUrl = url;
+break;
+
+
+case "vv#":
+q = q3.replace(qCom, '');
+q = q.trim();
+q = encodeURIComponent(q);
+urlList = [
+"https://www.google.com/search?q=" + q + "&newwindow=1&tbm=vid&tbs=dur:l",
+"https://www.bing.com/videos/search?q=" + q + "&qft=+filterui:duration-long+filterui:videoage-lt43200&form=somesite",
 ];
 if (q == ''){
 urlList = [
