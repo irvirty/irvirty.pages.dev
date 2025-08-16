@@ -1034,16 +1034,16 @@ sRedirectUrl = url;
 break;
 
 
-case 's#':
+case "s#":
 q = q3.replace(qCom, '');
 q = q.trim();
 q = encodeURIComponent(q);
 urlList = [
 //"https://www.reddit.com/search/?q=" + q + "&type=posts&sort=new",
-"https://www.tumblr.com/search/" + q,
+//"https://www.tumblr.com/search/" + q,
 //"https://www.tumblr.com/search/" + q + "?postTypes=chat%2Clink%2Cquote%2Ctext%2Cpoll%2Cask",
 "https://bsky.app/search?q=" + q,
-"https://wordpress.com/reader/search?q=" + q,
+//"https://wordpress.com/reader/search?q=" + q,
 ];
 if (q == ''){
 urlList = [
