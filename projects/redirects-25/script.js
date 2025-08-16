@@ -877,6 +877,26 @@ sRedirectUrl = url;
 break;
 
 
+case 'tv#':
+q = q3.replace(qCom, '');
+q = q.trim();
+//q = encodeURIComponent(q);
+q = encodeURI(q);
+//q = q.replaceAll('%2F', '/');
+urlList = [
+"https://www.twitch.tv/directory/all/tags/" + q,
+];
+if (q == ''){
+urlList = [
+"https://www.twitch.tv/",
+];
+}
+random = urlList[fuMRandom(0, urlList.length - 1)];
+url = random;
+sRedirectUrl = url;
+break;
+
+
 case 'y#':
 case '.#':
 q = q3.replace(qCom, '');

@@ -5043,15 +5043,6 @@ var radioJsonVar =
         "rightFooter": ""
     },
     {
-        "text": "VOA English | Free Internet Radio | TuneIn",
-        "text2": "",
-        "text3": "",
-        "url": "https:\/\/tunein.com\/radio\/VOA-English-s25696\/",
-        "tag": "#radio #en",
-        "time": 1620118919,
-        "rightFooter": ""
-    },
-    {
         "text": "World Service - Listen Live - BBC Sounds",
         "text2": "https:\/\/stream.live.vc.bbcmedia.co.uk\/bbc_world_service",
         "text3": "mp3",
