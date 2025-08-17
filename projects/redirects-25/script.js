@@ -1570,8 +1570,8 @@ urlList = [
 "https://marginalia-search.com/search?query=" + q,
 "https://search.seznam.cz/?q=" + q,
 //"https://mwmbl.org/?q=" + q,
-"https://www.mojeek.com/search?q=" + q,
-"https://duckduckgo.com/" + q,
+//"https://www.mojeek.com/search?q=" + q,
+//"https://duckduckgo.com/" + q,
 ];
 if (q == ''){
 urlList = [
