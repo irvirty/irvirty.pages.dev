@@ -877,26 +877,6 @@ sRedirectUrl = url;
 break;
 
 
-case 'tv#':
-q = q3.replace(qCom, '');
-q = q.trim();
-//q = encodeURIComponent(q);
-q = encodeURI(q);
-//q = q.replaceAll('%2F', '/');
-urlList = [
-"https://www.twitch.tv/directory/all/tags/" + q,
-];
-if (q == ''){
-urlList = [
-"https://www.twitch.tv/",
-];
-}
-random = urlList[fuMRandom(0, urlList.length - 1)];
-url = random;
-sRedirectUrl = url;
-break;
-
-
 case 'y#':
 case '.#':
 q = q3.replace(qCom, '');
@@ -1018,6 +998,41 @@ sRedirectUrl = url;
 break;
 
 
+case "vim#":
+q = q3.replace(qCom, '');
+q = q.trim();
+q = encodeURIComponent(q);
+urlList = [
+"https://vimeo.com/search?q=" + q,
+];
+if (q == ''){
+urlList = [
+"https://vimeo.com/",
+];
+}
+random = urlList[fuMRandom(0, urlList.length - 1)];
+url = random;
+sRedirectUrl = url;
+break;
+
+case "vim#":
+q = q3.replace(qCom, '');
+q = q.trim();
+q = encodeURIComponent(q);
+urlList = [
+"https://vimeo.com/search?type=clip&q=" + q + "&sort=duration_desc",
+];
+if (q == ''){
+urlList = [
+"https://vimeo.com/",
+];
+}
+random = urlList[fuMRandom(0, urlList.length - 1)];
+url = random;
+sRedirectUrl = url;
+break;
+
+
 case 'liv#':
 q = q3.replace(qCom, '');
 q = q.trim();
@@ -1028,6 +1043,26 @@ urlList = [
 if (q == ''){
 urlList = [
 "https://www.youtube.com/channel/UC4R8DWoMoI7CAwX8_LjQHig/livetab",
+];
+}
+random = urlList[fuMRandom(0, urlList.length - 1)];
+url = random;
+sRedirectUrl = url;
+break;
+
+
+case 'tv#':
+q = q3.replace(qCom, '');
+q = q.trim();
+//q = encodeURIComponent(q);
+q = encodeURI(q);
+//q = q.replaceAll('%2F', '/');
+urlList = [
+"https://www.twitch.tv/directory/all/tags/" + q,
+];
+if (q == ''){
+urlList = [
+"https://www.twitch.tv/",
 ];
 }
 random = urlList[fuMRandom(0, urlList.length - 1)];
