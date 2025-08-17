@@ -1,4 +1,4 @@
-// Search redirects v.2.8.25
+// Search redirects v.2.8.26
 // Search query + command
 
 // conf
@@ -974,17 +974,41 @@ sRedirectUrl = url;
 break;
 
 
-case 'vo#':
+case "vo#":
 q = q3.replace(qCom, '');
 q = q.trim();
 q = encodeURIComponent(q);
 urlList = [
-"https://www.dailymotion.com/search/" + q + "/videos",
+//"https://vimeo.com/search?q=" + q,
+//"https://www.dailymotion.com/search/" + q + "/videos",
 "https://sepiasearch.org/search?search=" + q + "&resultType=videos",
 ];
 if (q == ''){
 urlList = [
-"https://www.dailymotion.com/",
+//"https://vimeo.com/",
+//"https://www.dailymotion.com/",
+"https://joinpeertube.org/",
+];
+}
+random = urlList[fuMRandom(0, urlList.length - 1)];
+url = random;
+sRedirectUrl = url;
+break;
+
+
+case "voo#":
+q = q3.replace(qCom, '');
+q = q.trim();
+q = encodeURIComponent(q);
+urlList = [
+//"https://vimeo.com/search?q=" + q,
+//"https://www.dailymotion.com/search/" + q + "/videos",
+"https://sepiasearch.org/search?search=" + q + "&resultType=videos&durationRange=long",
+];
+if (q == ''){
+urlList = [
+//"https://vimeo.com/",
+//"https://www.dailymotion.com/",
 "https://joinpeertube.org/",
 ];
 }
