@@ -1,4 +1,4 @@
-// Keep v.4.1.1
+// Keep v.4.1.2
 // The static version of my offline "keep" PHP script that saves things (links, notes, etc).
 // Inspired by Twitter, Google Keep
 // Not for large data files.
@@ -1175,7 +1175,7 @@ print += `
 <div style="display: grid; grid-template-columns: 1fr 1fr; grid-gap: 2px;">
 <input  class="smaller op tCenter submit borderRadius" type="submit" value="Search" title="Search">
 <!--https://stackoverflow.com/questions/4171664/html-submit-button-different-value-button-text#-->
-<button class="smaller op tCenter submit borderRadius" name="q2" value="l" type="submit" title="First search result">Luck</button>
+<button class="smaller op tCenter submit borderRadius" name="q2" value="l" type="submit" title="First search result">I'm Feeling Lucky</button>
 <!--<input  class="smaller op tCenter" type="submit" name="q2" value="l">-->
 </div>
 
