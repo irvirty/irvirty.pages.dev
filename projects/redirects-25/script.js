@@ -1015,7 +1015,7 @@ url = random;
 sRedirectUrl = url;
 break;
 
-case "vim#":
+case "vimm#":
 q = q3.replace(qCom, '');
 q = q.trim();
 q = encodeURIComponent(q);
