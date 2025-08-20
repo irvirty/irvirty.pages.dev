@@ -3,6 +3,16 @@ var newsJsonVar =
 
 [
     {
+        "id": "38",
+        "text": "Introducing GPT-5 | OpenAI",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/openai.com\/index\/introducing-gpt-5\/",
+        "tag": "#AI",
+        "time": 1755677889,
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/news\/?id=38\">id<\/a>"
+    },
+    {
         "id": "36",
         "text": "Listen to the \u2018world\u2019s first\u2019 song made by a quantum computer and AI",
         "text2": "",

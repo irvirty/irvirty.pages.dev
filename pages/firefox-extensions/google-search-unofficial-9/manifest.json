@@ -1,8 +1,8 @@
 {
   "manifest_version": 3,
   "name": "Google Search (unofficial)",
-  "version": "1.3.0",
-  "description": "URL https://google.com/?q={searchTerms} as Search engine. (unofficial)",
+  "version": "1.4.1",
+  "description": "URL www.google.com/search?q={searchTerms} as Search engine. (unofficial)",
   
 "icons": {
   "512": "icon512x512.png"
@@ -12,8 +12,8 @@
   "chrome_settings_overrides": {
   "search_provider": {
     "name": "Localhost (https)",
-    "search_url": "https://google.com/?q={searchTerms}",
-    "keyword": "@g",
+    "search_url": "https://www.google.com/search?q={searchTerms}",
+    "keyword": "@ggg",
     "favicon_url": "icon512x512.png"
   }
 },
