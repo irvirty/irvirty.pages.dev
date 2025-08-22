@@ -1,0 +1,27 @@
+{
+  "manifest_version": 3,
+  "name": "Irvirty Search",
+  "version": "1.5.1",
+  "description": "URL irvirty.pages.dev/?q={searchTerms} as Search engine.",
+  
+"icons": {
+  "512": "icon512x512.png"
+},
+
+
+  "chrome_settings_overrides": {
+  "search_provider": {
+    "name": "Irvirty Search",
+    "search_url": "https://irvirty.pages.dev/?q=?q={searchTerms}",
+    "keyword": "@irvirty",
+    "favicon_url": "icon512x512.png"
+  }
+},
+
+"browser_specific_settings": {
+  "gecko": {
+"id": "irvirty-search@example.com"
+  }
+}
+
+}

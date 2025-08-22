@@ -1051,14 +1051,14 @@ sRedirectUrl = url;
 break;
 
 
-case 'tv#':
+case "tv#":
 q = q3.replace(qCom, '');
 q = q.trim();
 //q = encodeURIComponent(q);
 q = encodeURI(q);
 //q = q.replaceAll('%2F', '/');
 urlList = [
-"https://www.twitch.tv/directory/all/tags/" + q,
+"https://www.twitch.tv/directory/all/tags/" + q + "?sort=VIEWER_COUNT",
 ];
 if (q == ''){
 urlList = [

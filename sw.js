@@ -1,5 +1,5 @@
 
-//var myCacheVersion = "v.1.2.2025.08.20";
+//var myCacheVersion = "v.1.2.2025.08.22";
 
 
 
@@ -70,7 +70,7 @@ function swJsInstallFiles(){
 //https://stackoverflow.com/questions/66529102/uncaught-in-promise-typeerror-failed-to-execute-cache-on-addall-request
 //https://github.com/mdn/pwa-examples
 self.addEventListener('install', (e) => {
-e.waitUntil(caches.open("v.1.2.2025.08.20").then((cache) => cache.addAll(fileListArrFound)),);
+e.waitUntil(caches.open("v.1.2.2025.08.22").then((cache) => cache.addAll(fileListArrFound)),);
 });*/
 
 
@@ -650,6 +650,7 @@ var fileListArr = ["/404.html",
 "/pages/firefox-extensions/google-search-unofficial-9/icon512x512.png",
 "/pages/firefox-extensions/google-search-unofficial-9/icon512x512.svg",
 "/pages/firefox-extensions/google-search-unofficial-9/manifest.json",
+"/pages/firefox-extensions/google-search-unofficial-9/screenshot.png",
 "/pages/firefox-extensions/hotkey-url-5/hotkey-url-5.zip",
 "/pages/firefox-extensions/hotkey-url-5/",
 "/pages/firefox-extensions/hotkey-url-5/icon512x512.png",
@@ -664,6 +665,11 @@ var fileListArr = ["/404.html",
 "/pages/firefox-extensions/hotkey-url-5/style.css",
 "/pages/firefox-extensions/hotkey-url-5/worker.js",
 "/pages/firefox-extensions/index.html",
+"/pages/firefox-extensions/irvirty-search-10/icon512x512.png",
+"/pages/firefox-extensions/irvirty-search-10/",
+"/pages/firefox-extensions/irvirty-search-10/icon512x512.svg",
+"/pages/firefox-extensions/irvirty-search-10/irvirty-search-10.zip",
+"/pages/firefox-extensions/irvirty-search-10/manifest.json",
 "/pages/firefox-extensions/new-tab-redirect-3/auto.css",
 "/pages/firefox-extensions/new-tab-redirect-3/",
 "/pages/firefox-extensions/new-tab-redirect-3/icon512x512.png",
@@ -1454,7 +1460,7 @@ if (res.ok) {
 // file is present at URL
 console.log('try cache.add ' + file);
 //https://web.dev/learn/pwa/caching/
-caches.open("v.1.2.2025.08.20")
+caches.open("v.1.2.2025.08.22")
 .then(cache => {
 cache.add(file); // it stores only one resource
 //  cache.addAll(["styles.css", "app.js"]); // it stores two resources
@@ -1480,7 +1486,7 @@ if (res.ok) {
 // file is present at URL
 console.log('try cache.add ' + newFile);
 //https://web.dev/learn/pwa/caching/
-caches.open("v.1.2.2025.08.20")
+caches.open("v.1.2.2025.08.22")
 .then(cache => {
 cache.add(newFile); // it stores only one resource
 //  cache.addAll(["styles.css", "app.js"]); // it stores two resources
@@ -1513,7 +1519,7 @@ console.log('404 not found ' + newFile);
 // rm old cache
 //https://developer.mozilla.org/en-US/docs/Web/API/CacheStorage/delete
 this.addEventListener("activate", (event) => {
-  const cachesToKeep = ["v.1.2.2025.08.20"];
+  const cachesToKeep = ["v.1.2.2025.08.22"];
 
   event.waitUntil(
     caches.keys().then((keyList) =>
