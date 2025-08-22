@@ -1,4 +1,4 @@
-// Search redirects v.2.8.26
+// Search redirects v.2.8.27
 // Search query + command
 
 // conf
@@ -1403,6 +1403,42 @@ urlList = [
 if (q == ''){
 urlList = [
 "https://www.mojeek.com/",
+];
+}
+random = urlList[fuMRandom(0, urlList.length - 1)];
+url = random;
+sRedirectUrl = url;
+break;
+
+
+case "qwa#":
+q = q3.replace(qCom, '');
+q = q.trim();
+q = encodeURIComponent(q);
+urlList = [
+"https://www.qwant.com/?q=" + q,
+];
+if (q == ''){
+urlList = [
+"https://www.qwant.com/",
+];
+}
+random = urlList[fuMRandom(0, urlList.length - 1)];
+url = random;
+sRedirectUrl = url;
+break;
+
+
+case "duc#":
+q = q3.replace(qCom, '');
+q = q.trim();
+q = encodeURIComponent(q);
+urlList = [
+"https://duckduckgo.com/?q=" + q,
+];
+if (q == ''){
+urlList = [
+"https://duckduckgo.com/",
 ];
 }
 random = urlList[fuMRandom(0, urlList.length - 1)];
