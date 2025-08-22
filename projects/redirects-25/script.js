@@ -1,4 +1,4 @@
-// Search redirects v.2.8.27
+// Search redirects v.2.8.28
 // Search query + command
 
 // conf
@@ -1417,6 +1417,24 @@ q = q.trim();
 q = encodeURIComponent(q);
 urlList = [
 "https://www.qwant.com/?q=" + q,
+];
+if (q == ''){
+urlList = [
+"https://www.qwant.com/",
+];
+}
+random = urlList[fuMRandom(0, urlList.length - 1)];
+url = random;
+sRedirectUrl = url;
+break;
+
+
+case "qwaa#":
+q = q3.replace(qCom, '');
+q = q.trim();
+q = encodeURIComponent(q);
+urlList = [
+"https://www.qwant.com/?q=" + q + "&freshness=day",
 ];
 if (q == ''){
 urlList = [
