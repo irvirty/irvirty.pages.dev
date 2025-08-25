@@ -268,7 +268,7 @@ var radioJsonVar =
         "text2": "",
         "text3": "",
         "url": "https:\/\/tunein.com\/radio\/ITALOPOWER-s144810\/",
-        "tag": "#radio #RadioMusic #DiscoMusic #ItalianMusic #dance #eletronic",
+        "tag": "#radio #RadioMusic #DiscoMusic #dance #eletronic",
         "time": 1745728573,
         "rightFooter": ""
     },
