@@ -1,4 +1,4 @@
-// Keep v.4.1.2
+// Keep v.4.2.0
 // The static version of my offline "keep" PHP script that saves things (links, notes, etc).
 // Inspired by Twitter, Google Keep
 // Not for large data files.
@@ -1702,7 +1702,7 @@ break;
 case "www.reddit.com":
 if (item.split('/').length >= 9){
 play = item.replaceAll('reddit.com/r/', "redditmedia.com/r/");
-embed = `<blockquote class="reddit-embed-bq" style="height:auto" data-embed-theme="${confThemeEmbed}"><a href="$play"><no value=""></no></a></blockquote><!--<script async="" src="https://embed.reddit.com/widgets.js" charset="UTF-8"></script>-->`;
+embed = `<blockquote class="reddit-embed-bq" style="height:auto" data-embed-theme="${confThemeEmbed}"><a href="${play}"><no value=""></no></a></blockquote><!--<script async="" src="https://embed.reddit.com/widgets.js" charset="UTF-8"></script>-->`;
 embedServiceList += 'reddit';
 }
 break;
@@ -1740,7 +1740,7 @@ case "giphy.com":
 if (item.indexOf(`gifs`) != -1){
 play = item.split('-');
 play = play[play.length - 1];
-embed = `<iframe src="https://giphy.com/embed/${play}" width="480" height="360" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/$play">via GIPHY</a></p>`;
+embed = `<iframe src="https://giphy.com/embed/${play}" width="480" height="360" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/${item}">via GIPHY</a></p>`;
 embedServiceList += 'giphy';
 }
 break;
@@ -2224,7 +2224,7 @@ break;
 case "www.reddit.com":
 if (item.split('/').length >= 9){
 play = item.replaceAll('reddit.com/r/', "redditmedia.com/r/");
-embed = `<blockquote class="reddit-embed-bq" style="height:auto" data-embed-theme="${confThemeEmbed}"><a href="$play"><no value=""></no></a></blockquote><!--<script async="" src="https://embed.reddit.com/widgets.js" charset="UTF-8"></script>-->`;
+embed = `<blockquote class="reddit-embed-bq" style="height:auto" data-embed-theme="${confThemeEmbed}"><a href="${play}"><no value=""></no></a></blockquote><!--<script async="" src="https://embed.reddit.com/widgets.js" charset="UTF-8"></script>-->`;
 embedServiceList += 'reddit';
 }
 break;
@@ -2266,7 +2266,7 @@ case "giphy.com":
 if (item.indexOf(`gifs`) != -1){
 play = item.split('-');
 play = play[play.length - 1];
-embed = `<iframe src="https://giphy.com/embed/${play}" width="480" height="360" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/$play">via GIPHY</a></p>`;
+embed = `<iframe src="https://giphy.com/embed/${play}" width="480" height="360" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/${item}">via GIPHY</a></p>`;
 embedServiceList += 'giphy';
 }
 break;
@@ -2875,8 +2875,6 @@ script2.charset = 'utf-8';
 script2.src = 'https://embed.reddit.com/widgets.js';
 document.getElementsByTagName('head')[0].appendChild(script2);
 }
-
-
 
 }
 
