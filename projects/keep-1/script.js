@@ -1,4 +1,4 @@
-// Keep v.4.2.0
+// Keep v.4.2.1
 // The static version of my offline "keep" PHP script that saves things (links, notes, etc).
 // Inspired by Twitter, Google Keep
 // Not for large data files.
@@ -1493,6 +1493,7 @@ time = `<a class="brand op" href="${scriptDir}?id=${id}"><time itemprop="datePub
 var lPost = '';
 var lPostTitle = '';
 
+/*
 // selected orange word when search
 if (q != null&&mode == 'search'){
 lPostTitle = highlightText(postTitle, targetOption, subQforLight);
@@ -1511,6 +1512,43 @@ if (display == 'blog'){ lPost = `<h2>${postTitle}</h2>` + highlightText2(post, t
 lPost = highlightText(post, targetOption, subQforLight); 
 if (display == 'blog'){ lPost = `<h2>${postTitle}</h2>` + highlightText(post, targetOption, subQforLight); }
 }
+*/
+
+switch (mode) {
+case "search":
+// selected orange word when search
+if (q != null){
+lPostTitle = highlightText(postTitle, targetOption, subQforLight);
+lPost = highlightText(post, targetOption, subQforLight);
+if (display == 'blog'){ lPost = `<h2>${lPostTitle}</h2>` + highlightText(post, targetOption, subQforLight); }
+}
+break;
+
+case "id":
+case "idList":
+case "random":
+if (multiEmbedStatus == 'on'){
+lPost = highlightText(post, targetOption);
+if (display == 'blog'){ lPost = `<h2>${postTitle}</h2>` + highlightText(post, targetOption); }
+} else {
+lPost = highlightText2(post, targetOption); // autoplay embed
+if (display == 'blog'){ lPost = `<h2>${postTitle}</h2>` + highlightText2(post, targetOption); }
+}
+break;
+
+case "list":
+lPost = highlightText(post, targetOption, subQforLight); 
+if (display == 'blog'){
+//lPost = `<span class="large">${lPost}</span>`; // without highlight (embed)
+lPost = `<div class="large"><a class="block firstLetterBold" href="${scriptDir}?id=${id}">${postTitle}</a></div>`; // without highlight (embed)
+}
+break;
+
+default:
+lPost = highlightText(post, targetOption, subQforLight); 
+if (display == 'blog'){ lPost = `<h2>${postTitle}</h2>` + highlightText(post, targetOption, subQforLight); }
+}
+
 
 var username = conf["confDomainName"];
 
@@ -1522,12 +1560,10 @@ if (timeStatus == 'off'&&rightFooterStatus == 'off'){ keepPostFooter = ' keepPos
 if (rightFooterStatus == 'off'){ rightFooter = ''; }
 
 // overwrite, only title (text) for blog
-if (display == 'blog'&&mode == 'list'){
+/*if (display == 'blog'&&mode == 'list'){
 //lPost = `<span class="large">${lPost}</span>`; // without highlight (embed)
 lPost = `<div class="large"><a class="block firstLetterBold notUnderline" href="${scriptDir}?id=${id}">${postTitle}</a></div>`; // without highlight (embed)
-}
-
-
+}//delme*/
 /*
 //
 if (display == 'blog'&&mode != 'id'&&mode != 'idList'){ time = `<a class="tag brand light border4 op borderRadius2"  href="${scriptDir}?id=${id}">read</a>` + time; } // with highlight*/

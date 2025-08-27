@@ -1,4 +1,4 @@
-// Search redirects v.2.8.28
+// Search redirects v.2.8.29
 // Search query + command
 
 // conf
@@ -1033,6 +1033,24 @@ sRedirectUrl = url;
 break;
 
 
+case "pee#":
+q = q3.replace(qCom, '');
+q = q.trim();
+q = encodeURIComponent(q);
+urlList = [
+"https://sepiasearch.org/search?search=" + q + "&resultType=videos",
+];
+if (q == ''){
+urlList = [
+"https://sepiasearch.org/",
+];
+}
+random = urlList[fuMRandom(0, urlList.length - 1)];
+url = random;
+sRedirectUrl = url;
+break;
+
+
 case 'liv#':
 q = q3.replace(qCom, '');
 q = q.trim();
@@ -1051,7 +1069,7 @@ sRedirectUrl = url;
 break;
 
 
-case "tv#":
+/*case "tv#":
 q = q3.replace(qCom, '');
 q = q.trim();
 //q = encodeURIComponent(q);
@@ -1063,6 +1081,26 @@ urlList = [
 if (q == ''){
 urlList = [
 "https://www.twitch.tv/",
+];
+}
+random = urlList[fuMRandom(0, urlList.length - 1)];
+url = random;
+sRedirectUrl = url;
+break;*/
+
+
+case "tv#":
+q = q3.replace(qCom, '');
+q = q.trim();
+//q = encodeURIComponent(q);
+q = encodeURI(q);
+//q = q.replaceAll('%2F', '/');
+urlList = [
+"https://kick.com/search?query=" + q,
+];
+if (q == ''){
+urlList = [
+"https://kick.com/",
 ];
 }
 random = urlList[fuMRandom(0, urlList.length - 1)];

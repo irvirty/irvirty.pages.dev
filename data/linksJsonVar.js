@@ -3,6 +3,16 @@ var linksJsonVar =
 
 [
     {
+        "id": "269",
+        "text": "Blog | WebKit",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/webkit.org\/blog\/",
+        "tag": "#WebDevelopment #CSS #blog",
+        "time": 1756222498,
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=269\">id<\/a>"
+    },
+    {
         "id": "268",
         "text": "Analytics | Home",
         "text2": "",
