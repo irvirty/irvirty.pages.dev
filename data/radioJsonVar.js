@@ -133,7 +133,7 @@ var radioJsonVar =
         "text2": "",
         "text3": "",
         "url": "https:\/\/tunein.com\/radio\/R\u00e1dio-Clube-De-Gr\u00e2ndola-913-s82205\/",
-        "tag": "#radio #RadioMusic #PortugueseMusic",
+        "tag": "#radio #RadioMusic",
         "time": 1745731559,
         "rightFooter": ""
     },
