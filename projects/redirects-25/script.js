@@ -1356,6 +1356,7 @@ break;
 
 case 'gg#':
 case 'gooo#':
+case 'gd#':
 q = q3.replace(qCom, '');
 q = q.trim();
 q = encodeURIComponent(q);
