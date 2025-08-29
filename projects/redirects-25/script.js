@@ -150,6 +150,24 @@ sRedirectUrl = url;
 break;
 
 
+case 'tts#':
+q = q3.replace(qCom, '');
+q = q.trim();
+q = encodeURIComponent(q.trim());
+urlList = [
+"/projects/text-to-speech-64/?q=" + q,
+];
+if (q == ''){
+urlList = [
+"/projects/text-to-speech-64/",
+];
+}
+random = urlList[fuMRandom(0, urlList.length - 1)];
+url = random;
+sRedirectUrl = url;
+break;
+
+
 case 'r#':
 q = q3.replace(qCom, '');
 q = q.trim();
