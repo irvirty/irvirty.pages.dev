@@ -1182,9 +1182,9 @@ urlList = [
 if (q == ''){
 urlList = [
 //"https://www.reddit.com/",
-"https://www.tumblr.com/",
+//"https://www.tumblr.com/",
 "https://bsky.app/",
-"https://wordpress.com/discover",
+//"https://wordpress.com/discover",
 ];
 }
 random = urlList[fuMRandom(0, urlList.length - 1)];
