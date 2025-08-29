@@ -330,7 +330,7 @@ q = q3.replace(qCom, '');
 q = q.trim();
 q = encodeURIComponent(q);
 urlList = [
-"https://nostter.app/search?q=" + q,
+"https://nostter.app/search?q=" + q + "&proxy=on",
 ];
 if (q == ''){
 urlList = [
