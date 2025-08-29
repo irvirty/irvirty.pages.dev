@@ -488,10 +488,9 @@ urlList = [
 ];
 if (q == ''){
 urlList = [
-"https://www.reddit.com/r/news/",
 "https://www.reddit.com/r/worldnews/",
-"https://flipboard.com/topic/news",
-//"https://wikinews.org/wiki/",
+"https://flipboard.com/topic/world",
+"https://en.wikinews.org/",
 ];
 }
 random = urlList[fuMRandom(0, urlList.length - 1)];

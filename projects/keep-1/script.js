@@ -119,6 +119,11 @@ if (confD == undefined||confD == ''){ confD = '/'; }
 var host = '';
 
 
+
+
+
+
+
 // Example of data in the file, fresh example in script.js
 if (jsonVar == undefined||jsonVar == ''){
 
