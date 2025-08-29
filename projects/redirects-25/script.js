@@ -496,6 +496,7 @@ sRedirectUrl = url;
 break;
 
 
+case 'nn#':
 case 'n2#':
 q = q3.replace(qCom, '');
 q = q.trim();
@@ -1215,6 +1216,7 @@ sRedirectUrl = url;
 break;
 
 
+case 'tag#':
 case 'ht#':
 case 'htag#':
 case 'st#':
@@ -1223,15 +1225,15 @@ q = q3.replace(qCom, '');
 q = q.trim();
 q = encodeURIComponent(q);
 urlList = [
-"https://www.tumblr.com/tagged/" + q,
+//"https://www.tumblr.com/tagged/" + q,
 "https://bsky.app/hashtag/" + q,
-"https://wordpress.com/tag/" + q,
+//"https://wordpress.com/tag/" + q,
 ];
 if (q == ''){
 urlList = [
-"https://www.tumblr.com/",
+//"https://www.tumblr.com/",
 "https://bsky.app/",
-"https://wordpress.com/discover",
+//"https://wordpress.com/discover",
 ];
 }
 random = urlList[fuMRandom(0, urlList.length - 1)];
@@ -1643,7 +1645,7 @@ sRedirectUrl = url;
 break;
 
 
-case 'nn#':
+case 'ai#':
 q = q3.replace(qCom, '');
 q = q.trim();
 q = encodeURIComponent(q);
