@@ -1,4 +1,4 @@
-// Search redirects v.2.8.29
+// Search redirects v.2.8.30
 // Search query + command
 
 // conf
@@ -317,6 +317,24 @@ urlList = [
 if (q == ''){
 urlList = [
 "https://www.threads.net/",
+];
+}
+random = urlList[fuMRandom(0, urlList.length - 1)];
+url = random;
+sRedirectUrl = url;
+break;
+
+
+case 'nos#':
+q = q3.replace(qCom, '');
+q = q.trim();
+q = encodeURIComponent(q);
+urlList = [
+"https://nostter.app/search?q=" + q,
+];
+if (q == ''){
+urlList = [
+"https://nostter.app/",
 ];
 }
 random = urlList[fuMRandom(0, urlList.length - 1)];
