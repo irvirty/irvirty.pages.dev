@@ -1505,6 +1505,24 @@ sRedirectUrl = url;
 break;
 
 
+case "eco#":
+q = q3.replace(qCom, '');
+q = q.trim();
+q = encodeURIComponent(q);
+urlList = [
+"https://www.ecosia.org/search?q=" + q,
+];
+if (q == ''){
+urlList = [
+"https://www.ecosia.org/",
+];
+}
+random = urlList[fuMRandom(0, urlList.length - 1)];
+url = random;
+sRedirectUrl = url;
+break;
+
+
 case "duc#":
 q = q3.replace(qCom, '');
 q = q.trim();
