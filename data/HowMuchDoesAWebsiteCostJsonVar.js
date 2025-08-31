@@ -3,6 +3,15 @@ var HowMuchDoesAWebsiteCostJsonVar =
 
 [
     {
+        "text": "Our Branding Pricing & Services | Branding Brothers",
+        "text2": "2000",
+        "text3": "",
+        "url": "https:\/\/www.brandingbrothers.de\/pricing",
+        "tag": "#HowMuchDoesAWebsiteCost",
+        "time": 1756658449,
+        "rightFooter": ""
+    },
+    {
         "text": "How Much Does a Website Cost in 2025? [+Calculator]",
         "text2": "1000 145000",
         "text3": "",
