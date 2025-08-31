@@ -1197,7 +1197,7 @@ url = random;
 sRedirectUrl = url;
 break;
 
-
+case "peel#":
 case "peee#":
 case "sepp#":
 q = q3.replace(qCom, '');

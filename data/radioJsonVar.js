@@ -5070,15 +5070,6 @@ var radioJsonVar =
         "rightFooter": ""
     },
     {
-        "text": "WNYC-FM, 93.9 FM, New York, US | Free Internet Radio | TuneIn",
-        "text2": "",
-        "text3": "",
-        "url": "https:\/\/tunein.com\/radio\/WNYC-FM-939-s21606\/",
-        "tag": "#en #radio",
-        "time": 1620118501,
-        "rightFooter": ""
-    },
-    {
         "text": "KQED-FM, 88.5 FM, San Francisco, US | Free Internet Radio | TuneIn",
         "text2": "",
         "text3": "",
