@@ -1913,7 +1913,7 @@ q = q.trim();
 q = encodeURIComponent(q);
 urlList = [
 "https://www.google.com/search?q=" + q + "&udm=50",
-"https://chatgpt.com/?q=" + q,
+"https://chatgpt.com/?q=" + q + "&temporary-chat=true",
 //"https://chat.mistral.ai/chat/?q=" + q,
 ];
 if (q == ''){
@@ -1933,13 +1933,31 @@ sRedirectUrl = url;
 break;
 
 
+case 'gai#':
+q = q3.replace(qCom, '');
+q = q.trim();
+q = encodeURIComponent(q);
+urlList = [
+"https://www.google.com/search?q=" + q + "&udm=50",
+];
+if (q == ''){
+urlList = [
+"https://www.google.com/",
+];
+}
+random = urlList[fuMRandom(0, urlList.length - 1)];
+url = random;
+sRedirectUrl = url;
+break;
+
+
 case 'gpt#':
 case 'oai#':
 q = q3.replace(qCom, '');
 q = q.trim();
 q = encodeURIComponent(q);
 urlList = [
-"https://chatgpt.com/?q=" + q,
+"https://chatgpt.com/?q=" + q + "&temporary-chat=true",
 ];
 if (q == ''){
 urlList = [
