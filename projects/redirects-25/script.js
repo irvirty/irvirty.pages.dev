@@ -1912,11 +1912,13 @@ q = q3.replace(qCom, '');
 q = q.trim();
 q = encodeURIComponent(q);
 urlList = [
+"https://www.google.com/search?q=" + q + "&udm=50",
 "https://chatgpt.com/?q=" + q,
 //"https://chat.mistral.ai/chat/?q=" + q,
 ];
 if (q == ''){
 urlList = [
+"https://www.google.com/",
 "https://chatgpt.com/",
 //"https://chat.mistral.ai/",
 
