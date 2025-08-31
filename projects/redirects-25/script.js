@@ -1502,6 +1502,7 @@ sRedirectUrl = url;
 break;
 
 
+case 'google#':
 case 'g#':
 case 'goo#':
 q = q3.replace(qCom, '');
@@ -1562,6 +1563,7 @@ sRedirectUrl = url;
 break;
 
 
+case 'bing#':
 case 'bin#':
 q = q3.replace(qCom, '');
 q = q.trim();
@@ -1617,6 +1619,7 @@ sRedirectUrl = url;
 break;
 
 
+case "qwant#":
 case "qwa#":
 q = q3.replace(qCom, '');
 q = q.trim();
@@ -1690,6 +1693,7 @@ sRedirectUrl = url;
 break;
 
 
+case "ecosia#":
 case "eco#":
 q = q3.replace(qCom, '');
 q = q.trim();
@@ -1708,12 +1712,67 @@ sRedirectUrl = url;
 break;
 
 
+case "duckduckgo#":
 case "duc#":
 q = q3.replace(qCom, '');
 q = q.trim();
 q = encodeURIComponent(q);
 urlList = [
 "https://duckduckgo.com/?q=" + q,
+];
+if (q == ''){
+urlList = [
+"https://duckduckgo.com/",
+];
+}
+random = urlList[fuMRandom(0, urlList.length - 1)];
+url = random;
+sRedirectUrl = url;
+break;
+
+
+case "ducd#":
+q = q3.replace(qCom, '');
+q = q.trim();
+q = encodeURIComponent(q);
+urlList = [
+"https://duckduckgo.com/?q=" + q + "&df=d",
+];
+if (q == ''){
+urlList = [
+"https://duckduckgo.com/",
+];
+}
+random = urlList[fuMRandom(0, urlList.length - 1)];
+url = random;
+sRedirectUrl = url;
+break;
+
+
+case "ducw#":
+q = q3.replace(qCom, '');
+q = q.trim();
+q = encodeURIComponent(q);
+urlList = [
+"https://duckduckgo.com/?q=" + q + "&df=w",
+];
+if (q == ''){
+urlList = [
+"https://duckduckgo.com/",
+];
+}
+random = urlList[fuMRandom(0, urlList.length - 1)];
+url = random;
+sRedirectUrl = url;
+break;
+
+
+case "ducm#":
+q = q3.replace(qCom, '');
+q = q.trim();
+q = encodeURIComponent(q);
+urlList = [
+"https://duckduckgo.com/?q=" + q + "&df=m",
 ];
 if (q == ''){
 urlList = [
