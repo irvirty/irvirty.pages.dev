@@ -1,4 +1,4 @@
-// Search redirects v.2.8.30
+// Search redirects v.2.8.31
 // Search query + command
 
 // conf
@@ -217,7 +217,26 @@ q = q3.replace(qCom, '');
 q = q.trim();
 q = encodeURIComponent(q);
 urlList = [
- "https://wordpress.com/read/search?q=" + q,
+"https://wordpress.com/read/search?q=" + q,
+];
+if (q == ''){
+urlList = [
+"https://wordpress.com/read",
+];
+}
+random = urlList[fuMRandom(0, urlList.length - 1)];
+url = random;
+sRedirectUrl = url;
+break;
+
+
+case 'worr#':
+case 'wpp#':
+q = q3.replace(qCom, '');
+q = q.trim();
+q = encodeURIComponent(q);
+urlList = [
+"https://wordpress.com/reader/search?q=" + q + "&sort=date",
 ];
 if (q == ''){
 urlList = [
@@ -1597,11 +1616,48 @@ break;
 
 
 case "qwaa#":
+case "qwad#":
 q = q3.replace(qCom, '');
 q = q.trim();
 q = encodeURIComponent(q);
 urlList = [
 "https://www.qwant.com/?q=" + q + "&freshness=day",
+];
+if (q == ''){
+urlList = [
+"https://www.qwant.com/",
+];
+}
+random = urlList[fuMRandom(0, urlList.length - 1)];
+url = random;
+sRedirectUrl = url;
+break;
+
+
+case "qwaw#":
+q = q3.replace(qCom, '');
+q = q.trim();
+q = encodeURIComponent(q);
+urlList = [
+"https://www.qwant.com/?q=" + q + "&freshness=week",
+];
+if (q == ''){
+urlList = [
+"https://www.qwant.com/",
+];
+}
+random = urlList[fuMRandom(0, urlList.length - 1)];
+url = random;
+sRedirectUrl = url;
+break;
+
+
+case "qwam#":
+q = q3.replace(qCom, '');
+q = q.trim();
+q = encodeURIComponent(q);
+urlList = [
+"https://www.qwant.com/?q=" + q + "&freshness=month",
 ];
 if (q == ''){
 urlList = [
