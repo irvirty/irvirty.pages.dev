@@ -951,6 +951,60 @@ sRedirectUrl = url;
 break;
 
 
+case 'yd#':
+q = q3.replace(qCom, '');
+q = q.trim();
+q = encodeURIComponent(q);
+urlList = [
+"https://www.youtube.com/results?search_query="+ q +"&sp=EgYIAhABGAI%253D",
+];
+if (q == ''){
+urlList = [
+"https://www.youtube.com/",
+];
+}
+random = urlList[fuMRandom(0, urlList.length - 1)];
+url = random;
+sRedirectUrl = url;
+break;
+
+
+case 'yw#':
+q = q3.replace(qCom, '');
+q = q.trim();
+q = encodeURIComponent(q);
+urlList = [
+"https://www.youtube.com/results?search_query=" + q + "&sp=EgYIAxABGAI%253D",
+];
+if (q == ''){
+urlList = [
+"https://www.youtube.com/",
+];
+}
+random = urlList[fuMRandom(0, urlList.length - 1)];
+url = random;
+sRedirectUrl = url;
+break;
+
+
+case 'ym#':
+q = q3.replace(qCom, '');
+q = q.trim();
+q = encodeURIComponent(q);
+urlList = [
+"https://www.youtube.com/results?search_query=" + q + "&sp=EgYIBBABGAI%253D",
+];
+if (q == ''){
+urlList = [
+"https://www.youtube.com/",
+];
+}
+random = urlList[fuMRandom(0, urlList.length - 1)];
+url = random;
+sRedirectUrl = url;
+break;
+
+
 case 'ch#':
 q = q3.replace(qCom, '');
 q = q.trim();

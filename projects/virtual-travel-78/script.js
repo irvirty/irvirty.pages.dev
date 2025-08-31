@@ -309,29 +309,29 @@ return `
 <h2 class="brake2"><span class="h2 ico">${vTEmoji}</span> ${vTTitle}</h2>
 
 <div class="autoColumn notUnderline tCenter small">
-<a class="autoColumnItem inline padding border light2 borderRadius2" target="blank" href="/?q=${vTQGo} q">Search</a>
+<a class="autoColumnItem inline padding border light3 borderRadius2" target="blank" href="/?q=${vTQGo} q">Search</a>
 
-<a class="autoColumnItem inline padding border light2 borderRadius2" target="blank" href="/?q=${vTQGo} wik">Wikipedia</a>
+<a class="autoColumnItem inline padding border light3 borderRadius2" target="blank" href="/?q=${vTQGo} wik">Wikipedia</a>
 
-<a class="autoColumnItem inline padding border light2 borderRadius2" target="blank" href="/?q=Travel to ${vTQGo} v">Video</a>
+<a class="autoColumnItem inline padding border light3 borderRadius2" target="blank" href="/?q=Travel to ${vTQGo} v">Video</a>
 
-<a class="autoColumnItem inline padding border light2 borderRadius2" target="blank" href="https://trends.google.com/trending?geo=${vTDomainGTrendGO}&hours=24">Google Trends</a>
+<a class="autoColumnItem inline padding border light3 borderRadius2" target="blank" href="https://trends.google.com/trending?geo=${vTDomainGTrendGO}&hours=24">Google Trends</a>
 
 
-<a class="autoColumnItem inline padding border light2 borderRadius2" target="blank" href="/?q=${vTQGo} s">In Social Networks</a>
-<a class="autoColumnItem inline padding border light2 borderRadius2" target="blank" href="/?q=${vTQGo} n">In News</a>
-<a class="autoColumnItem inline padding border light2 borderRadius2" target="blank" href="/?q=${vTQGo} Top Newspapers">Top Newspapers</a>
+<a class="autoColumnItem inline padding border light3 borderRadius2" target="blank" href="/?q=${vTQGo} s">In Social Networks</a>
+<a class="autoColumnItem inline padding border light3 borderRadius2" target="blank" href="/?q=${vTQGo} n">In News</a>
+<a class="autoColumnItem inline padding border light3 borderRadius2" target="blank" href="/?q=${vTQGo} Top Newspapers">Top Newspapers</a>
 
-<a class="autoColumnItem inline padding border light2 borderRadius2" target="blank" href="/?q=${vTQGo} Television">Television</a>
-<a class="autoColumnItem inline padding border light2 borderRadius2" target="blank" href="/?q=${vTQGo} Radio">Radio</a>
+<a class="autoColumnItem inline padding border light3 borderRadius2" target="blank" href="/?q=${vTQGo} Television">Television</a>
+<a class="autoColumnItem inline padding border light3 borderRadius2" target="blank" href="/?q=${vTQGo} Radio">Radio</a>
 
-<a class="autoColumnItem inline padding border light2 borderRadius2" target="blank" href="/?q=Government of ${vTQGo}">Government</a>
-<a class="autoColumnItem inline padding border light2 borderRadius2" target="blank" href="/?q=${vTQGo} national television">National Television</a>
-<a class="autoColumnItem inline padding border light2 borderRadius2" target="blank" href="/?q=${vTQGo} national radio">National Radio</a>
+<a class="autoColumnItem inline padding border light3 borderRadius2" target="blank" href="/?q=Government of ${vTQGo}">Government</a>
+<a class="autoColumnItem inline padding border light3 borderRadius2" target="blank" href="/?q=${vTQGo} national television">National Television</a>
+<a class="autoColumnItem inline padding border light3 borderRadius2" target="blank" href="/?q=${vTQGo} national radio">National Radio</a>
 
-<a class="autoColumnItem inline padding border light2 borderRadius2" target="blank" href="/?q=Most Visited Websites in the ${vTQGo}">Top Sites</a>
+<a class="autoColumnItem inline padding border light3 borderRadius2" target="blank" href="/?q=Most Visited Websites in the ${vTQGo}">Top Sites</a>
 
-<a class="autoColumnItem inline padding border light2 borderRadius2" target="blank" href="https://www.google.com/maps/?q=${vTQGo}">Map</a>
+<a class="autoColumnItem inline padding border light3 borderRadius2" target="blank" href="https://www.google.com/maps/?q=${vTQGo}">Map</a>
 
 </div>
 
