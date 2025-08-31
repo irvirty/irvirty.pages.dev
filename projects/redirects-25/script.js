@@ -1242,7 +1242,7 @@ q = q.trim();
 q = encodeURI(q);
 //q = q.replaceAll('%2F', '/');
 urlList = [
-"https://kick.com/search?query=" + q,
+"https://kick.com/search/livestreams?query=" + q,
 ];
 if (q == ''){
 urlList = [
