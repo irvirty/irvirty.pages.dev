@@ -1127,7 +1127,7 @@ q = q3.replace(qCom, '');
 q = q.trim();
 q = encodeURIComponent(q);
 urlList = [
-//"https://vimeo.com/search?q=" + q,
+//"https://vimeo.com/search?q=" + q + "&sort=duration_desc",
 //"https://www.dailymotion.com/search/" + q + "/videos",
 "https://sepiasearch.org/search?search=" + q + "&resultType=videos&durationRange=long",
 ];
@@ -1180,11 +1180,31 @@ break;
 
 
 case "pee#":
+case "sep#":
 q = q3.replace(qCom, '');
 q = q.trim();
 q = encodeURIComponent(q);
 urlList = [
 "https://sepiasearch.org/search?search=" + q + "&resultType=videos",
+];
+if (q == ''){
+urlList = [
+"https://sepiasearch.org/",
+];
+}
+random = urlList[fuMRandom(0, urlList.length - 1)];
+url = random;
+sRedirectUrl = url;
+break;
+
+
+case "peee#":
+case "sepp#":
+q = q3.replace(qCom, '');
+q = q.trim();
+q = encodeURIComponent(q);
+urlList = [
+"https://sepiasearch.org/search?search=" + q + "&resultType=videos&sort=-createdAt&durationRange=long",
 ];
 if (q == ''){
 urlList = [
