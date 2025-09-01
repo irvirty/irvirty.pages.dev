@@ -61,10 +61,12 @@ var lQModePrint = `<a class="brand light autoColumnItem keepTag2 itemHeight bord
 
 var lQMode = [
 {"name":"Web", "title":"Web seach", "comName":"web", "code":"74e19ee10195d4644"},
-{"name":"Latest", "title":"Web search (Latest result)", "comName":"latest", "code":"974cdfc30e536405d"},
+{"name":"Web Latest", "title":"Web search (Latest result)", "comName":"WebLatest", "code":"974cdfc30e536405d"},
 {"name":"Blogs", "title":"Blogs", "comName":"blogs", "code":"653a54ad99a1442eb"},
+{"name":"Blogs Latest", "title":"Blogs Latest", "comName":"BlogsLatest", "code":"b1da190ad1c7048ca"},
 {"name":"Videos", "title":"Videos", "comName":"videos", "code":"66e67d2cd1ec94b3b"},
 {"name":"Static", "title":"Static Sites", "comName":"static", "code":"4015813ba11b24317"},
+{"name":"Static Latest", "title":"Static Sites (latest)", "comName":"StaticLatest", "code":"529e053d95bd24f6c"},
 //{"name":"github.io", "title":"", "comName":"github", "code":"614f3596881c64f5f"},
 //{"name":"pages.dev", "title":"", "comName":"pages", "code":"c1bb12232f9de476e"},
 //{"name":"neocities.org", "title":"", "comName":"neocities", "code":"a3a8da84c5ed74909"},
