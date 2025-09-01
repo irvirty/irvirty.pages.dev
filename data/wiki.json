@@ -1,15 +1,5 @@
 [
     {
-        "id": "148",
-        "text": "Linux - Wikipedia",
-        "text2": "Linux (\/\u02c8l\u026an\u028aks\/ LIN-uuks[16]) is a family of open source Unix-like operating systems based on the Linux kernel,[17] an operating system kernel first released on September 17, 1991, by Linus Torvalds.[18][19][20] Linux is typically packaged as a Linux distribution (distro), which includes the kernel and supporting system software and libraries\u2014most of which are provided by third parties\u2014to create a complete operating system, designed as a clone of Unix and released under the copyleft GPL license.[21]",
-        "text3": "",
-        "url": "https:\/\/en.wikipedia.org\/wiki\/Linux",
-        "tag": "#system #software #OS",
-        "time": 1756472903,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/wiki\/?id=148\">id<\/a>"
-    },
-    {
         "id": "147",
         "text": "HTTP cookie - Wikipedia",
         "text2": "HTTP cookie (also called web cookie, Internet cookie, browser cookie, or simply cookie) is a small block of data created by a web server while a user is browsing a website and placed on the user's computer or other device by the user's web browser. Cookies are placed on the device used to access a website, and more than one cookie may be placed on a user's device during a session.",
