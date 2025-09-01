@@ -1390,6 +1390,7 @@ sRedirectUrl = url;
 break;
 
 
+case 'marginalia#':
 case 'mar#':
 q = q3.replace(qCom, '');
 q = q.trim();
@@ -1409,6 +1410,7 @@ break;
 
 
 case 'marr#':
+case 'marl#':
 q = q3.replace(qCom, '');
 q = q.trim();
 q = encodeURIComponent(q);
@@ -1555,6 +1557,49 @@ urlList = [
 if (q == ''){
 urlList = [
 "/projects/google-programmable-search-49/index.html",
+];
+}
+random = urlList[fuMRandom(0, urlList.length - 1)];
+url = random;
+sRedirectUrl = url;
+break;
+
+
+case 'scholar#':
+case 'sch#':
+case 'edu#':
+q = q3.replace(qCom, '');
+q = q.trim();
+q = encodeURIComponent(q);
+urlList = [
+"https://scholar.google.com/scholar?q=" + q
+];
+if (q == ''){
+urlList = [
+"https://scholar.google.com/",
+];
+}
+random = urlList[fuMRandom(0, urlList.length - 1)];
+url = random;
+sRedirectUrl = url;
+break;
+
+
+case 'scholarr#':
+case 'scholarl#':
+case 'schh#':
+case 'schl#':
+case 'eduu#':
+case 'edul#':
+q = q3.replace(qCom, '');
+q = q.trim();
+q = encodeURIComponent(q);
+urlList = [
+"https://scholar.google.com/scholar?q=" + q + "&scisbd=1"
+];
+if (q == ''){
+urlList = [
+"https://scholar.google.com/",
 ];
 }
 random = urlList[fuMRandom(0, urlList.length - 1)];
@@ -1850,6 +1895,25 @@ urlList = [
 if (q == ''){
 urlList = [
 "https://search.yahoo.com/",
+];
+}
+random = urlList[fuMRandom(0, urlList.length - 1)];
+url = random;
+sRedirectUrl = url;
+break;
+
+
+case "startpage#":
+case "sta":
+q = q3.replace(qCom, '');
+q = q.trim();
+q = encodeURIComponent(q);
+urlList = [
+"https://www.startpage.com/sp/search?q=" + q,
+];
+if (q == ''){
+urlList = [
+"https://www.startpage.com/",
 ];
 }
 random = urlList[fuMRandom(0, urlList.length - 1)];
