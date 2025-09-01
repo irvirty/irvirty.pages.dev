@@ -4,7 +4,7 @@ var postsJsonVar =
 [
     {
         "id": "47",
-        "text": "Google became bad in 2015: RankBrain was introduced in 2015. So adding \"-AI\" to the search or using the \"web\" tab won't change much.",
+        "text": "Google became bad in 2015: \"RankBrain was introduced in 2015\". So adding \"-AI\" to the search or using the \"web\" tab won't change much.",
         "text2": "",
         "text3": "",
         "url": "",
