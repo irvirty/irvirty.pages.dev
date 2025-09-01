@@ -1785,6 +1785,79 @@ sRedirectUrl = url;
 break;
 
 
+case "yahoo#":
+case "yah#":
+q = q3.replace(qCom, '');
+q = q.trim();
+q = encodeURIComponent(q);
+urlList = [
+"https://search.yahoo.com/search/?p=" + q,
+];
+if (q == ''){
+urlList = [
+"https://search.yahoo.com/",
+];
+}
+random = urlList[fuMRandom(0, urlList.length - 1)];
+url = random;
+sRedirectUrl = url;
+break;
+
+
+case "yahd#":
+q = q3.replace(qCom, '');
+q = q.trim();
+q = encodeURIComponent(q);
+urlList = [
+"https://search.yahoo.com/search/?p=" + q + "&btf=d",
+];
+if (q == ''){
+urlList = [
+"https://search.yahoo.com/",
+];
+}
+random = urlList[fuMRandom(0, urlList.length - 1)];
+url = random;
+sRedirectUrl = url;
+break;
+
+
+case "yahw#":
+q = q3.replace(qCom, '');
+q = q.trim();
+q = encodeURIComponent(q);
+urlList = [
+"https://search.yahoo.com/search/?p=" + q + "&btf=w",
+];
+if (q == ''){
+urlList = [
+"https://search.yahoo.com/",
+];
+}
+random = urlList[fuMRandom(0, urlList.length - 1)];
+url = random;
+sRedirectUrl = url;
+break;
+
+
+case "yahm#":
+q = q3.replace(qCom, '');
+q = q.trim();
+q = encodeURIComponent(q);
+urlList = [
+"https://search.yahoo.com/search/?p=" + q + "&btf=m",
+];
+if (q == ''){
+urlList = [
+"https://search.yahoo.com/",
+];
+}
+random = urlList[fuMRandom(0, urlList.length - 1)];
+url = random;
+sRedirectUrl = url;
+break;
+
+
 case 'x#':
 q = q3.replace(qCom, '');
 q = q.trim();
