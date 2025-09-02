@@ -988,6 +988,25 @@ sRedirectUrl = url;
 break;
 
 
+//hour
+case 'yh#':
+q = q3.replace(qCom, '');
+q = q.trim();
+q = encodeURIComponent(q);
+urlList = [
+"https://www.youtube.com/results?search_query=" + q + "&sp=EggIARABGAJYAw%253D%253D",
+];
+if (q == ''){
+urlList = [
+"https://www.youtube.com/",
+];
+}
+random = urlList[fuMRandom(0, urlList.length - 1)];
+url = random;
+sRedirectUrl = url;
+break;
+
+
 case 'yd#':
 q = q3.replace(qCom, '');
 q = q.trim();
