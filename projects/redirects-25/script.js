@@ -343,7 +343,6 @@ break;
 
 
 case 'x#':
-case 'twi#':
 q = q3.replace(qCom, '');
 q = q.trim();
 q = encodeURIComponent(q);
