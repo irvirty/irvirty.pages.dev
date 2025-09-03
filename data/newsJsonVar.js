@@ -3,6 +3,16 @@ var newsJsonVar =
 
 [
     {
+        "id": "42",
+        "text": "A judge ruled Google won't have to sell Chrome or Android but must allow competitors access to its search data. The company can still pay partners like Apple or Mozilla for default placements of its products, but exclusivity is banned buff.ly\/Fz5ZFm5",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/bsky.app\/profile\/alternativeto.net\/post\/3lxvaz2mr3f2t",
+        "tag": "#web #search #Google",
+        "time": 1756878618,
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/news\/?id=42\">id<\/a>"
+    },
+    {
         "id": "41",
         "text": "Google's AI Mode expands globally, adds new agentic features | TechCrunch",
         "text2": "",
