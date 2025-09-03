@@ -1444,6 +1444,61 @@ sRedirectUrl = url;
 break;
 
 
+case 'aud#':
+case 'pod#':
+q = q3.replace(qCom, '');
+q = q.trim();
+q = encodeURIComponent(q);
+urlList = [
+"https://www.listennotes.com/search/?q=" + q + "&sort_by_date=1&scope=episode&offset=0&language=Any%20language&len_min=15&len_max=0",
+];
+if (q == ''){
+urlList = [
+"https://www.listennotes.com/hot-podcasts/",
+];
+}
+random = urlList[fuMRandom(0, urlList.length - 1)];
+url = random;
+sRedirectUrl = url;
+break;
+
+case "sc#":
+case "sou#":
+q = q3.replace(qCom, '');
+q = q.trim();
+q = encodeURIComponent(q);
+urlList = [
+"https://soundcloud.com/search/sounds?q=" + q,
+];
+if (q == ''){
+urlList = [
+"https://soundcloud.com/",
+];
+}
+random = urlList[fuMRandom(0, urlList.length - 1)];
+url = random;
+sRedirectUrl = url;
+break;
+
+
+case "souu#":
+q = q3.replace(qCom, '');
+q = q.trim();
+q = encodeURIComponent(q);
+urlList = [
+"https://soundcloud.com/search/sounds?q=" + q + "&filter.created_at=last_day",
+];
+if (q == ''){
+urlList = [
+"https://soundcloud.com/",
+];
+}
+random = urlList[fuMRandom(0, urlList.length - 1)];
+url = random;
+sRedirectUrl = url;
+break;
+
+
 case 'marginalia#':
 case 'mar#':
 q = q3.replace(qCom, '');
