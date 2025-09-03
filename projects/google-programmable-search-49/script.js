@@ -126,7 +126,7 @@ lQMode.forEach((item, item2) => {
 if (item["comName"] == qGMode){
 
 document.getElementById("publicUrl").innerHTML = `
-<a class="inline padding borderBottomBlue blue small notUnderline" title="${item["title"]}" href="https://cse.google.com/cse?cx=${item["code"]}">Public URL</a>
+<a class="inline padding blue small" title="${item["title"]}" href="https://cse.google.com/cse?cx=${item["code"]}">Public URL</a>
 `;
 
 if (q != null&&q != ""){

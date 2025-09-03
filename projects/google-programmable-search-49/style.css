@@ -1,4 +1,4 @@
-/* Google programmable search CSS v.1.0.1 */
+/* Google programmable search CSS v.1.2.0 */
 
 /*a.gs-title:link { color: #1155CC !important; }*/
 a.gs-title:hover, a.gs-title:hover b { color: #337DFF !important; }
@@ -158,8 +158,20 @@ color: var(--c) !important;
 max-width: 100% !important;
 }
 
-.gsc-cursor-page {
+/*https://stackoverflow.com/questions/12892726/how-to-style-css-role#*/
+.gsc-cursor-page[role=link],
+.gsc-cursor-current-page {
 color: var(--c3) !important;
+padding: var(--padding2);
+border: 1px solid var(--d);
+background-color: var(--l3);
+border-radius: var(--borderRadius2);
+margin: 1px !important;
+display: inline-block !important;
+}
+
+.gsc-cursor-page[role=link]:hover {
+background-color: var(--l4);
 }
 
 .gsc-cursor-current-page {

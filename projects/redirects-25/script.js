@@ -873,6 +873,24 @@ sRedirectUrl = url;
 break;
 
 
+case 'med#':
+q = q3.replace(qCom, '');
+q = q.trim();
+q = encodeURIComponent(q);
+urlList = [
+"https://commons.wikimedia.org/w/index.php?search=" + q + "&title=Special%3AMediaSearch&type=image",
+];
+if (q == ''){
+urlList = [
+"https://commons.wikimedia.org/",
+];
+}
+random = urlList[fuMRandom(0, urlList.length - 1)];
+url = random;
+sRedirectUrl = url;
+break;
+
+
 case 'enc#':
 q = q3.replace(qCom, '');
 q = q.trim();
