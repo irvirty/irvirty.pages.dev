@@ -1560,6 +1560,24 @@ sRedirectUrl = url;
 break;
 
 
+case 'gh#':
+q = q3.replace(qCom, '');
+q = q.trim();
+q = encodeURIComponent(q);
+urlList = [
+"https://www.google.com/search?q=" + q + "&tbs=qdr:h",
+];
+if (q == ''){
+urlList = [
+"https://www.google.com/",
+];
+}
+random = urlList[fuMRandom(0, urlList.length - 1)];
+url = random;
+sRedirectUrl = url;
+break;
+
+
 case 'gg#':
 case 'gooo#':
 case 'gd#':
