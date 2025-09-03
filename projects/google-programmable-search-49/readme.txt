@@ -2,9 +2,8 @@ On Google site config engine: Look and Feel => All Look and Feel => Full width
 
 ====
 
-custom search:
+Custom search:
 en.wikipedia.org/*
-*.lemmy.world/*
 *.blogspot.com/*
 *.wordpress.com/*
 *.github.io/*
@@ -15,18 +14,23 @@ en.wikipedia.org/*
 *.bsky.app/*
 *.tumblr.com/*
 
-video:
+Video:
 *.youtube.com/*
 *.vimeo.com/*
 *.dailymotion.com/*
 
-blog:
+Blog:
 *.blogspot.com/*
 *.wordpress.com/*
 *.dreamwidth.org/*
 
-static:
+Static:
 *.pages.dev/*
 *.github.io/*
 *.neocities.org/*
 *.nekoweb.org/*
+
+Social Network:
+*.bsky.app/*
+*.reddit.com/*
+*.tumblr.com/*
