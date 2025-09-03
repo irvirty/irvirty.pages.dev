@@ -1272,7 +1272,8 @@ sRedirectUrl = url;
 break;
 
 
-/*case "tv#":
+case "twitch#":
+case "twi#":
 q = q3.replace(qCom, '');
 q = q.trim();
 //q = encodeURIComponent(q);
@@ -1289,15 +1290,14 @@ urlList = [
 random = urlList[fuMRandom(0, urlList.length - 1)];
 url = random;
 sRedirectUrl = url;
-break;*/
+break;
 
 
 case "tv#":
+case "kick#":
 q = q3.replace(qCom, '');
 q = q.trim();
-//q = encodeURIComponent(q);
-q = encodeURI(q);
-//q = q.replaceAll('%2F', '/');
+q = encodeURIComponent(q);
 urlList = [
 "https://kick.com/search/livestreams?query=" + q,
 ];
