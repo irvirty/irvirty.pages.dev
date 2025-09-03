@@ -132,7 +132,9 @@ var jsonVar =
 [
     {
         "id": 251,
-        "text": "test2 text2",
+        "text": "test text",
+        "text2": "test text",
+        "text3": "test text",
         "url": "https:\/\/example.com",
         "tag": "#test2 #tag",
         "time": 1671480576,
@@ -141,6 +143,8 @@ var jsonVar =
     {
         "id": 250,
         "text": "test text",
+        "text2": "test text",
+        "text3": "test text",
         "url": "https:\/\/example.com",
         "tag": "#test #tag",
         "time": 1668444918,
@@ -151,7 +155,7 @@ var jsonVar =
 // end file jsonVar.js
 
 }
-
+// new text2, text3 (
 
 
 // fix main.js
