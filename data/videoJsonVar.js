@@ -102,15 +102,6 @@ var videoJsonVar =
         "rightFooter": ""
     },
     {
-        "text": "'Working My Way Back To You' PLUS New Commentary by ALF! | FULL Episode: S2 Ep1 | ALF on ALF - YouTube",
-        "text2": "",
-        "text3": "",
-        "url": "https:\/\/www.youtube.com\/watch?v=ZwVJA5wgzSA",
-        "tag": "#video #series",
-        "time": 1756875553,
-        "rightFooter": ""
-    },
-    {
         "text": "'Some Enchanted Evening' PLUS New Commentary by ALF! | FULL Episode: S2 Ep6 | ALF on ALF - YouTube",
         "text2": "",
         "text3": "",
