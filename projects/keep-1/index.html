@@ -8,7 +8,7 @@
 Static version of the offline 'keep' script that saves things. Not for large data.
 ">
 <meta name="keywords" content="
-content, microblog,
+content display system, microblog,
 CSS, JavaScript, project,
 ">
 
@@ -37,7 +37,7 @@ CSS, JavaScript, project,
 <link rel="preload" href="style.css" as="style">
 <link rel="stylesheet" href="style.css" type="text/css">
 
-<!--<link rel="preload" href="../../data/microblogJsonVar.js" as="script">-->
+<!--<link rel="preload" href="../../data/keepJsonVar.js" as="script">-->
 
 
 </head>
@@ -70,15 +70,14 @@ var confD = "../../";
 <script src="../../js/main.js"></script>
 
 <!-- Keep -->
-<!--<script src="/data/microblogJsonVar.js"></script>-->
+<script src="/data/keepJsonVar.js"></script>
 
 <script>
 
-// Example of data in the file, fresh example in script.js
-if (microblogJsonVar == undefined||microblogJsonVar == ''){
 
-// file microblogJsonVar.js for embed
-var microblogJsonVar = 
+if (keepJsonVar == undefined||keepJsonVar == ''){
+// Example of data in the file, fresh example in script.js
+var keepJsonVar = 
 
 [
     {
@@ -99,7 +98,7 @@ var microblogJsonVar =
 
     }
 ];
-// end file microblogJsonVar.js
+//
 
 }
 </script>
@@ -127,11 +126,11 @@ let keepConfig = {
 };
 </script>
 
-<script src="../../projects/keep-1/script.js" onload="keep('printKeep', microblogJsonVar, 'wrapper', './', keepConfig)"></script>
+<script src="../../projects/keep-1/script.js" onload="keep('printKeep', keepJsonVar, 'wrapper', './', keepConfig)"></script>
 
 <!--<script src="/projects/keep-1/script.js"></script>
 <script>
-keep('printKeep', microblogJsonVar, 'wrapper', './', keepConfig)
+keep('printKeep', keepJsonVar, 'wrapper', './', keepConfig)
 </script>-->
 
 <!-- // keep -->
