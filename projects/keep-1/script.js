@@ -15,7 +15,7 @@ let keepConfig = {
 "postLimit":"", // number, the number of posts per page
 "embedStatus":"", // "off", "semi" (embed for single)
 "multiEmbedStatus":"", // "on"
-"tagListStatus":"", // "off"
+"tagListStatus":"", // "off", "all"
 "tagListLimit":"", // number
 "targetOption":"", // "blank"
 "bottomMsg":`
@@ -90,7 +90,6 @@ if (keepConfig['postLimit'] != undefined) { var postLimit = keepConfig['postLimi
 if (keepConfig['embedStatus'] != undefined) { var embedStatus = keepConfig['embedStatus']; }
 if (keepConfig['tagListStatus'] != undefined){ var tagListStatus = keepConfig['tagListStatus']; }
 if (keepConfig['multiEmbedStatus'] != undefined){ var multiEmbedStatus = keepConfig['multiEmbedStatus']; }
-if (keepConfig['tagListStatus'] != undefined) { var tagListStatus = keepConfig['tagListStatus']; }
 if (keepConfig['tagListLimit'] != undefined) { var tagListLimit = keepConfig['tagListLimit']; }
 if (keepConfig['targetOption'] != undefined) { var targetOption = keepConfig['targetOption']; }
 if (keepConfig['bottomMsg'] != undefined){ var bottomMsg = keepConfig['bottomMsg']; }
@@ -400,7 +399,7 @@ var i3 = 0;
 
 var lFoundQUrlList = [];
 
-if (tagListStatus == 'on'){
+if (tagListStatus != 'off'){
 
 print += `
 
@@ -768,7 +767,11 @@ i++;
 
 
 // collect all tag
+if (tagListStatus == "all"){
+printTagList += postText + confSymbolForSplit + postText2 + confSymbolForSplit + postText3 + confSymbolForSplit + postTag + confSymbolForSplit;
+} else {
 printTagList += postTag + confSymbolForSplit;
+}
 
 });
 
