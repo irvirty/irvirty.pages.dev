@@ -79,7 +79,7 @@ document.getElementById("mode").innerHTML = `
 ${modeListPrint}
 
 <!-- https://developer.mozilla.org/docs/Web/API/Document/getSelection -->
-<a class="keepTag op light3 border2 borderRadius2" id="bookmarklet" style="display: none;" title="for the panel in the browser" href="javascript:void(window.open('https://${conf["confWebsiteUrl"]}/games/typing-speed-14/?mode=input&q=' + encodeURIComponent(document.getSelection().toString())))">bookmarklet</a>
+<a class="keepTag op light3 border2 borderRadius2" id="bookmarklet" style="display: none;" title="for the panel in the browser, select the text and click" href="javascript:void(window.open('https://${conf["confWebsiteUrl"]}/games/typing-speed-14/?mode=input&q=' + encodeURIComponent(document.getSelection().toString())))">bookmarklet</a>
 
 `;
 
