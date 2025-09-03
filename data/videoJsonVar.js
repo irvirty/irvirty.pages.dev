@@ -3,6 +3,177 @@ var videoJsonVar =
 
 [
     {
+        "text": "\"Phantom Pilot\" | ALF: The Animated Series | FULL Episode: S1 Ep1 - YouTube",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=UnYkcx2rMkQ",
+        "tag": "#video #series #cartoon",
+        "time": 1756875800,
+        "rightFooter": ""
+    },
+    {
+        "text": "\u201cStrangers in the Night\u201d | ALF | FULL Episode: S1 Ep2 - YouTube",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=IXFFh4m4QGM",
+        "tag": "#video #series",
+        "time": 1756875756,
+        "rightFooter": ""
+    },
+    {
+        "text": "\u201cSomewhere Over the Rerun\u201d | ALF | FULL Episode: S2 Ep2 - YouTube",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=P71tSQYyJeI",
+        "tag": "#video #series",
+        "time": 1756875737,
+        "rightFooter": ""
+    },
+    {
+        "text": "\u201cStairway to Heaven\u201d | ALF | FULL Episode: S3 Ep2 - YouTube",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=zB0zgMS58lo",
+        "tag": "#video #series",
+        "time": 1756875720,
+        "rightFooter": ""
+    },
+    {
+        "text": "\u201cLies\u201d | ALF | FULL Episode: S4 Ep2 - YouTube",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=vZf8wPWFNvo",
+        "tag": "#video #series",
+        "time": 1756875704,
+        "rightFooter": ""
+    },
+    {
+        "text": "\"I've Got A New Attitude\" | ALF | FULL Episode: S1 Ep15 - YouTube",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=Idcr8S8_E6E",
+        "tag": "#video #series",
+        "time": 1756875682,
+        "rightFooter": ""
+    },
+    {
+        "text": "\"Night Train\" | ALF | FULL Episode: S2 Ep9 - YouTube",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=4iD2ul_DE98",
+        "tag": "#video #series",
+        "time": 1756875667,
+        "rightFooter": ""
+    },
+    {
+        "text": "Something's Wrong with Me | ALF | FULL Episode: S2 Ep8 - YouTube",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=Yy9rqY23Mg0",
+        "tag": "#video #series",
+        "time": 1756875652,
+        "rightFooter": ""
+    },
+    {
+        "text": "Shake, Rattle & Roll | ALF | FULL Episode: S3 Ep25 - YouTube",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=T1byxzUqiKY",
+        "tag": "#video #series",
+        "time": 1756875635,
+        "rightFooter": ""
+    },
+    {
+        "text": "Pilot Ep. PLUS New Commentary by ALF! | FULL Episode: S1 Ep1 | ALF on ALF - YouTube",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=C25mnALFAOs",
+        "tag": "#video #series",
+        "time": 1756875610,
+        "rightFooter": ""
+    },
+    {
+        "text": "'La Cucaracha' PLUS New Commentary by ALF! | FULL Episode: S1 Ep25 | ALF on ALF - YouTube",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=MfzIzki8e5k",
+        "tag": "#video #series",
+        "time": 1756875580,
+        "rightFooter": ""
+    },
+    {
+        "text": "'Working My Way Back To You' PLUS New Commentary by ALF! | FULL Episode: S2 Ep1 | ALF on ALF - YouTube",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=ZwVJA5wgzSA",
+        "tag": "#video #series",
+        "time": 1756875553,
+        "rightFooter": ""
+    },
+    {
+        "text": "'Some Enchanted Evening' PLUS New Commentary by ALF! | FULL Episode: S2 Ep6 | ALF on ALF - YouTube",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=KHTrzFydc1E",
+        "tag": "#video #series",
+        "time": 1756875536,
+        "rightFooter": ""
+    },
+    {
+        "text": "\"Superstition\" | ALF | FULL Episode: S3 Ep19 - YouTube",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=Lu8Fl_xghpg",
+        "tag": "#video #series",
+        "time": 1756875516,
+        "rightFooter": ""
+    },
+    {
+        "text": "ALF Tries to Reunite w\/ His Long-Lost Cousin | ALF | FULL Episode: S3 Ep11 - YouTube",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=oVfDuZvxxsg",
+        "tag": "#video #series",
+        "time": 1756875499,
+        "rightFooter": ""
+    },
+    {
+        "text": "\"Fever\" | ALF | FULL Episode: S4 Ep12 - YouTube",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=n_jvGLvpWJU",
+        "tag": "#video #series",
+        "time": 1756875482,
+        "rightFooter": ""
+    },
+    {
+        "text": "\"Wedding Bell Blues\" | ALF | FULL Episode: S2 Ep4 - YouTube",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=nljAMpL76_g",
+        "tag": "#video #series",
+        "time": 1756875461,
+        "rightFooter": ""
+    },
+    {
+        "text": "ALF Becomes a Cat Person! | ALF | FULL Episode: S4 Ep9 - YouTube",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=nh4AXFK4_60",
+        "tag": "#video #series",
+        "time": 1756875443,
+        "rightFooter": ""
+    },
+    {
+        "text": "ALF: Stand Up Comic Extraordinaire | ALF | FULL Episode: S4 Ep14 - YouTube",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=Q_eeiC-ovYA",
+        "tag": "#video #series",
+        "time": 1756875417,
+        "rightFooter": ""
+    },
+    {
         "text": "Jimmy Steps Out \/ Pot o' Gold (1941) directed by George Marshall | Colorized Movie | Subtitled - YouTube",
         "text2": "",
         "text3": "",
