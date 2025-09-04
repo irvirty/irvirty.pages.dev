@@ -9,7 +9,7 @@ var quoteJsonVar =
         "url": "https:\/\/www.reddit.com\/r\/quotes\/comments\/1j438ml\/your_time_is_limited_so_dont_waste_it_living\/",
         "tag": "#quote",
         "time": 1741197159,
-        "rightFooter": ""
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/data\/?id=5864\"  title=\"id=5864 (permanent link)\" >id<\/a>"
     },
     {
         "text": "She asks me to kill the spider.\r\nInstead, I get the most\r\npeaceful weapons I can find.\r\n\r\nI take a cup and a napkin.\r\nI catch the spider, put it outside\r\nand allow it to walk away.\r\n\r\nIf I am ever caught in the wrong place\r\nat the wrong time, just being alive\r\nand not bothering anyone,\r\n\r\nI hope I am greeted\r\nwith the same kind\r\nof mercy.\r\n\r\nRudy Francisco",
@@ -18,7 +18,7 @@ var quoteJsonVar =
         "url": "https:\/\/www.goodreads.com\/quotes\/9070330-she-asks-me-to-kill-the-spider-instead-i-get",
         "tag": "#quote",
         "time": 1736501693,
-        "rightFooter": ""
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/data\/?id=5774\"  title=\"id=5774 (permanent link)\" >id<\/a>"
     },
     {
         "text": "Believe you can and you're halfway there. Theodore Roosevelt",
@@ -27,7 +27,7 @@ var quoteJsonVar =
         "url": "https:\/\/www.brainyquote.com\/quotes\/theodore_roosevelt_380703",
         "tag": "#quote",
         "time": 1725608955,
-        "rightFooter": ""
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/data\/?id=5666\"  title=\"id=5666 (permanent link)\" >id<\/a>"
     },
     {
         "text": "Plans are only good intentions unless they immediately degenerate into hard work. Peter Drucker",
@@ -36,7 +36,7 @@ var quoteJsonVar =
         "url": "https:\/\/www.brainyquote.com\/quotes\/peter_drucker_131070",
         "tag": "#quote",
         "time": 1724806904,
-        "rightFooter": ""
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/data\/?id=5621\"  title=\"id=5621 (permanent link)\" >id<\/a>"
     },
     {
         "text": "One is loved because one is loved. No reason is needed for loving. Paulo Coelho",
@@ -45,7 +45,7 @@ var quoteJsonVar =
         "url": "https:\/\/www.brainyquote.com\/quotes\/paulo_coelho_381733",
         "tag": "#quote",
         "time": 1710758677,
-        "rightFooter": ""
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/data\/?id=5530\"  title=\"id=5530 (permanent link)\" >id<\/a>"
     },
     {
         "text": "Going to church doesn\u2019t make you a Christian any more than going to a garage makes you an automobile. Billy Sunday",
@@ -54,7 +54,7 @@ var quoteJsonVar =
         "url": "https:\/\/www.goodreads.com\/quotes\/27312-going-to-church-doesn-t-make-you-a-christian-any-more",
         "tag": "#quote",
         "time": 1710263131,
-        "rightFooter": ""
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/data\/?id=5521\"  title=\"id=5521 (permanent link)\" >id<\/a>"
     },
     {
         "text": "Here's to the crazy ones. The misfits. The rebels. The troublemakers. The round pegs in the square holes. The ones who see things differently. They're not fond of rules. And they have no respect for the status quo. You can quote them, disagree with them, glorify or vilify them. About the only thing you can't do is ignore them. Because they change things. They push the human race forward. And while some may see them as the crazy ones, we see genius. Because the people who are crazy enough to think they can change the world, are the ones who do. Steve Jobs",
@@ -63,7 +63,7 @@ var quoteJsonVar =
         "url": "https:\/\/www.goodreads.com\/quotes\/924-here-s-to-the-crazy-ones-the-misfits-the-rebels-the",
         "tag": "#quote",
         "time": 1710262720,
-        "rightFooter": ""
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/data\/?id=5520\"  title=\"id=5520 (permanent link)\" >id<\/a>"
     },
     {
         "text": "Give a man a fish and you feed him for a day; teach a man to fish and you feed him for a lifetime.",
@@ -72,7 +72,7 @@ var quoteJsonVar =
         "url": "https:\/\/www.yourdictionary.com\/articles\/examples-aphorisms",
         "tag": "#quote",
         "time": 1710262285,
-        "rightFooter": ""
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/data\/?id=5518\"  title=\"id=5518 (permanent link)\" >id<\/a>"
     },
     {
         "text": "A flower blooming in the desert proves to the world that adversity, no matter how great, can be overcome. Matshona Dhliwayo",
@@ -81,7 +81,7 @@ var quoteJsonVar =
         "url": "https:\/\/www.goodreads.com\/quotes\/8287399-a-flower-blooming-in-the-desert-proves-to-the-world",
         "tag": "#quote",
         "time": 1703736728,
-        "rightFooter": ""
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/data\/?id=5274\"  title=\"id=5274 (permanent link)\" >id<\/a>"
     },
     {
         "text": "The only time a woman really succeeds in changing a man is when he is a baby. Natalie Wood",
@@ -90,7 +90,7 @@ var quoteJsonVar =
         "url": "https:\/\/www.brainyquote.com\/quotes\/natalie_wood_106759",
         "tag": "#quote",
         "time": 1695575911,
-        "rightFooter": ""
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/data\/?id=5067\"  title=\"id=5067 (permanent link)\" >id<\/a>"
     },
     {
         "text": "The artist is nothing without the gift, but the gift is nothing without work. Emile Zola",
@@ -99,7 +99,7 @@ var quoteJsonVar =
         "url": "https:\/\/www.brainyquote.com\/quotes\/emile_zola_100603",
         "tag": "#quote",
         "time": 1695575687,
-        "rightFooter": ""
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/data\/?id=5066\"  title=\"id=5066 (permanent link)\" >id<\/a>"
     },
     {
         "text": "Design is not just what it looks like and feels like. Design is how it works. Steve Jobs",
@@ -108,7 +108,7 @@ var quoteJsonVar =
         "url": "",
         "tag": "#quote",
         "time": 1691631615,
-        "rightFooter": ""
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/data\/?id=4688\"  title=\"id=4688 (permanent link)\" >id<\/a>"
     },
     {
         "text": "You can't use up creativity. The more you use, the more you have. Maya Angelou",
@@ -117,7 +117,7 @@ var quoteJsonVar =
         "url": "",
         "tag": "#quote",
         "time": 1691630879,
-        "rightFooter": ""
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/data\/?id=4687\"  title=\"id=4687 (permanent link)\" >id<\/a>"
     },
     {
         "text": "Have no fear of perfection - you\u2019ll never reach it. Salvador Dali",
@@ -126,7 +126,7 @@ var quoteJsonVar =
         "url": "https:\/\/blog.hubspot.com\/marketing\/design-quotes",
         "tag": "#quote",
         "time": 1691630558,
-        "rightFooter": ""
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/data\/?id=4686\"  title=\"id=4686 (permanent link)\" >id<\/a>"
     },
     {
         "text": "The secret to getting ahead is getting started. The secret to getting started is breaking your complex, overwhelming tasks into small manageable tasks, and then starting on the first one. Mark Twain",
@@ -135,7 +135,7 @@ var quoteJsonVar =
         "url": "",
         "tag": "#quote",
         "time": 1689179653,
-        "rightFooter": ""
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/data\/?id=4550\"  title=\"id=4550 (permanent link)\" >id<\/a>"
     },
     {
         "text": "In my high school senior year I was voted : least likely to invent his own programming language. Guido van Rossum",
@@ -144,7 +144,7 @@ var quoteJsonVar =
         "url": "https:\/\/twitter.com\/gvanrossum",
         "tag": "#quote",
         "time": 1682329171,
-        "rightFooter": ""
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/data\/?id=3982\"  title=\"id=3982 (permanent link)\" >id<\/a>"
     },
     {
         "text": "Be yourself, everyone else is already taken. Oscar Wilde",
@@ -153,7 +153,7 @@ var quoteJsonVar =
         "url": "https:\/\/www.goodreads.com\/quotes\/19884-be-yourself-everyone-else-is-already-taken",
         "tag": "#quote",
         "time": 1678506459,
-        "rightFooter": ""
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/data\/?id=3861\"  title=\"id=3861 (permanent link)\" >id<\/a>"
     },
     {
         "text": "If life were predictable it would cease to be life and be without flavor. Eleanor Roosevelt",
@@ -162,7 +162,7 @@ var quoteJsonVar =
         "url": "",
         "tag": "#quote",
         "time": 1678453680,
-        "rightFooter": ""
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/data\/?id=3811\"  title=\"id=3811 (permanent link)\" >id<\/a>"
     },
     {
         "text": "Everyone wants to ride with you in the limo, but what you want is someone who will take the bus with you when the limo breaks down. Oprah Winfrey",
@@ -171,7 +171,7 @@ var quoteJsonVar =
         "url": "",
         "tag": "#quote",
         "time": 1678453660,
-        "rightFooter": ""
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/data\/?id=3810\"  title=\"id=3810 (permanent link)\" >id<\/a>"
     },
     {
         "text": "Don't bother just to be better than your contemporaries or predecessors. Try to be better than yourself. William Faulkner",
@@ -180,7 +180,7 @@ var quoteJsonVar =
         "url": "",
         "tag": "#quote",
         "time": 1678453647,
-        "rightFooter": ""
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/data\/?id=3809\"  title=\"id=3809 (permanent link)\" >id<\/a>"
     },
     {
         "text": "Strive not to be a success, but rather to be of value. Albert Einstein",
@@ -189,7 +189,7 @@ var quoteJsonVar =
         "url": "",
         "tag": "#quote",
         "time": 1678453631,
-        "rightFooter": ""
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/data\/?id=3808\"  title=\"id=3808 (permanent link)\" >id<\/a>"
     },
     {
         "text": "We can\u2019t become what we need to be by remaining what we are. Oprah Winfrey",
@@ -198,7 +198,7 @@ var quoteJsonVar =
         "url": "",
         "tag": "#quote",
         "time": 1678453618,
-        "rightFooter": ""
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/data\/?id=3807\"  title=\"id=3807 (permanent link)\" >id<\/a>"
     },
     {
         "text": "People who are crazy enough to think they can change the world are the ones who do. Rob Siltanen",
@@ -207,7 +207,7 @@ var quoteJsonVar =
         "url": "",
         "tag": "#quote",
         "time": 1678453605,
-        "rightFooter": ""
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/data\/?id=3806\"  title=\"id=3806 (permanent link)\" >id<\/a>"
     },
     {
         "text": "The greatest enemy of knowledge is not ignorance, it is the illusion of knowledge. Stephen Hawking",
@@ -216,7 +216,7 @@ var quoteJsonVar =
         "url": "",
         "tag": "#quote",
         "time": 1678453581,
-        "rightFooter": ""
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/data\/?id=3805\"  title=\"id=3805 (permanent link)\" >id<\/a>"
     },
     {
         "text": "One, remember to look up at the stars and not down at your feet. Two, never give up work. Work gives you meaning and purpose and life is empty without it. Three, if you are lucky enough to find love, remember it is there and don't throw it away. Stephen Hawking",
@@ -225,7 +225,7 @@ var quoteJsonVar =
         "url": "",
         "tag": "#quote",
         "time": 1678453564,
-        "rightFooter": ""
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/data\/?id=3804\"  title=\"id=3804 (permanent link)\" >id<\/a>"
     },
     {
         "text": "The past, like the future, is indefinite and exists only as a spectrum of possibilities. Stephen Hawking",
@@ -234,7 +234,7 @@ var quoteJsonVar =
         "url": "",
         "tag": "#quote",
         "time": 1678453528,
-        "rightFooter": ""
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/data\/?id=3803\"  title=\"id=3803 (permanent link)\" >id<\/a>"
     },
     {
         "text": "I don't think the human race will survive the next thousand years, unless we spread into space. There are too many accidents that can befall life on a single planet. But I'm an optimist. We will reach out to the stars. Stephen Hawking",
@@ -243,7 +243,7 @@ var quoteJsonVar =
         "url": "",
         "tag": "#quote",
         "time": 1678453493,
-        "rightFooter": ""
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/data\/?id=3802\"  title=\"id=3802 (permanent link)\" >id<\/a>"
     },
     {
         "text": "If life were predictable it would cease to be life and be without flavor. Eleanor Roosevelt",
@@ -252,7 +252,7 @@ var quoteJsonVar =
         "url": "",
         "tag": "#quote",
         "time": 1662646252,
-        "rightFooter": ""
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/data\/?id=3724\"  title=\"id=3724 (permanent link)\" >id<\/a>"
     },
     {
         "text": "Many of life's failures are people who did not realize how close they were to success when they gave up. Thomas A. Edison",
@@ -261,7 +261,7 @@ var quoteJsonVar =
         "url": "",
         "tag": "#quote",
         "time": 1662646181,
-        "rightFooter": ""
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/data\/?id=3723\"  title=\"id=3723 (permanent link)\" >id<\/a>"
     },
     {
         "text": "Whoever is happy will make others happy too. Anne Frank",
@@ -270,7 +270,7 @@ var quoteJsonVar =
         "url": "",
         "tag": "#quote",
         "time": 1662646000,
-        "rightFooter": ""
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/data\/?id=3721\"  title=\"id=3721 (permanent link)\" >id<\/a>"
     },
     {
         "text": "It is during our darkest moments that we must focus to see the light. Aristotle",
@@ -279,7 +279,7 @@ var quoteJsonVar =
         "url": "",
         "tag": "#quote",
         "time": 1662645965,
-        "rightFooter": ""
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/data\/?id=3720\"  title=\"id=3720 (permanent link)\" >id<\/a>"
     },
     {
         "text": "The best and most beautiful things in the world cannot be seen or even touched \u2014 they must be felt with the heart. Helen Keller",
@@ -288,7 +288,7 @@ var quoteJsonVar =
         "url": "",
         "tag": "#quote",
         "time": 1662645935,
-        "rightFooter": ""
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/data\/?id=3719\"  title=\"id=3719 (permanent link)\" >id<\/a>"
     },
     {
         "text": "Tell me and I forget. Teach me and I remember. Involve me and I learn. Benjamin Franklin",
@@ -297,7 +297,7 @@ var quoteJsonVar =
         "url": "",
         "tag": "#quote",
         "time": 1662645901,
-        "rightFooter": ""
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/data\/?id=3718\"  title=\"id=3718 (permanent link)\" >id<\/a>"
     },
     {
         "text": "The future belongs to those who believe in the beauty of their dreams. Eleanor Roosevelt",
@@ -306,7 +306,7 @@ var quoteJsonVar =
         "url": "",
         "tag": "#quote",
         "time": 1662645871,
-        "rightFooter": ""
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/data\/?id=3717\"  title=\"id=3717 (permanent link)\" >id<\/a>"
     },
     {
         "text": "Don't judge each day by the harvest you reap but by the seeds that you plant. Robert Louis Stevenson",
@@ -315,7 +315,7 @@ var quoteJsonVar =
         "url": "",
         "tag": "#quote",
         "time": 1662645842,
-        "rightFooter": ""
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/data\/?id=3716\"  title=\"id=3716 (permanent link)\" >id<\/a>"
     },
     {
         "text": "Always remember that you are absolutely unique. Just like everyone else. Margaret Mead",
@@ -324,7 +324,7 @@ var quoteJsonVar =
         "url": "",
         "tag": "#quote",
         "time": 1662645624,
-        "rightFooter": ""
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/data\/?id=3715\"  title=\"id=3715 (permanent link)\" >id<\/a>"
     },
     {
         "text": "If you set your goals ridiculously high and it's a failure, you will fail above everyone else's success. James Cameron",
@@ -333,7 +333,7 @@ var quoteJsonVar =
         "url": "",
         "tag": "#quote",
         "time": 1662645526,
-        "rightFooter": ""
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/data\/?id=3714\"  title=\"id=3714 (permanent link)\" >id<\/a>"
     },
     {
         "text": "If you look at what you have in life, you'll always have more. If you look at what you don't have in life, you'll never have enough. Oprah Winfrey",
@@ -342,7 +342,7 @@ var quoteJsonVar =
         "url": "",
         "tag": "#quote",
         "time": 1662645477,
-        "rightFooter": ""
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/data\/?id=3713\"  title=\"id=3713 (permanent link)\" >id<\/a>"
     },
     {
         "text": "If life were predictable it would cease to be life, and be without flavor. Eleanor Roosevelt",
@@ -351,7 +351,7 @@ var quoteJsonVar =
         "url": "",
         "tag": "#quote",
         "time": 1662645439,
-        "rightFooter": ""
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/data\/?id=3712\"  title=\"id=3712 (permanent link)\" >id<\/a>"
     },
     {
         "text": "Your time is limited, so don't waste it living someone else's life. Don't be trapped by dogma \u2013 which is living with the results of other people's thinking. Steve Jobs",
@@ -360,7 +360,7 @@ var quoteJsonVar =
         "url": "",
         "tag": "#quote",
         "time": 1662645407,
-        "rightFooter": ""
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/data\/?id=3711\"  title=\"id=3711 (permanent link)\" >id<\/a>"
     },
     {
         "text": "The way to get started is to quit talking and begin doing. Walt Disney",
@@ -369,7 +369,7 @@ var quoteJsonVar =
         "url": "",
         "tag": "#quote",
         "time": 1662645356,
-        "rightFooter": ""
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/data\/?id=3710\"  title=\"id=3710 (permanent link)\" >id<\/a>"
     },
     {
         "text": "The greatest glory in living lies not in never falling, but in rising every time we fall. Nelson Mandela",
@@ -378,7 +378,7 @@ var quoteJsonVar =
         "url": "",
         "tag": "#quote",
         "time": 1662645297,
-        "rightFooter": ""
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/data\/?id=3709\"  title=\"id=3709 (permanent link)\" >id<\/a>"
     },
     {
         "text": "Don\u2019t worry about failure, worry about the chances you miss when you don\u2019t even try. Jack Canfield",
@@ -387,7 +387,7 @@ var quoteJsonVar =
         "url": "",
         "tag": "#quote",
         "time": 1662645064,
-        "rightFooter": ""
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/data\/?id=3708\"  title=\"id=3708 (permanent link)\" >id<\/a>"
     },
     {
         "text": "Our greatest weakness lies in giving up. The most certain way to succeed is always to try just one more time. Thomas A. Edison",
@@ -396,7 +396,7 @@ var quoteJsonVar =
         "url": "https:\/\/www.brainyquote.com\/quotes\/thomas_a_edison_149049",
         "tag": "#quote",
         "time": 1662644219,
-        "rightFooter": ""
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/data\/?id=3707\"  title=\"id=3707 (permanent link)\" >id<\/a>"
     },
     {
         "text": "If you can dream it, you can do it. Walt Disney",
@@ -405,7 +405,7 @@ var quoteJsonVar =
         "url": "",
         "tag": "#quote",
         "time": 1662644041,
-        "rightFooter": ""
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/data\/?id=3705\"  title=\"id=3705 (permanent link)\" >id<\/a>"
     },
     {
         "text": "Our greatest weakness lies in giving up. The most certain way to succeed is always to try just one more time. Thomas A. Edison",
@@ -414,7 +414,7 @@ var quoteJsonVar =
         "url": "",
         "tag": "#quote",
         "time": 1662643863,
-        "rightFooter": ""
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/data\/?id=3704\"  title=\"id=3704 (permanent link)\" >id<\/a>"
     },
     {
         "text": "When you fail you learn from the mistakes you made and it motivates you to work even harder. Natalie Gulbis",
@@ -423,7 +423,7 @@ var quoteJsonVar =
         "url": "",
         "tag": "#quote",
         "time": 1662643676,
-        "rightFooter": ""
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/data\/?id=3702\"  title=\"id=3702 (permanent link)\" >id<\/a>"
     },
     {
         "text": "Our doubts are traitors and make us lose the good we oft might win by fearing to attempt. William Shakespeare",
@@ -432,7 +432,7 @@ var quoteJsonVar =
         "url": "",
         "tag": "#quote",
         "time": 1662643415,
-        "rightFooter": ""
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/data\/?id=3701\"  title=\"id=3701 (permanent link)\" >id<\/a>"
     },
     {
         "text": "We know what we are, but know not what we may be. William Shakespeare",
@@ -441,7 +441,7 @@ var quoteJsonVar =
         "url": "",
         "tag": "#quote",
         "time": 1662643198,
-        "rightFooter": ""
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/data\/?id=3700\"  title=\"id=3700 (permanent link)\" >id<\/a>"
     },
     {
         "text": "Be not afraid of greatness. Some are born great, some achieve greatness, and others have greatness thrust upon them. William Shakespeare",
@@ -450,7 +450,7 @@ var quoteJsonVar =
         "url": "",
         "tag": "#quote",
         "time": 1662643141,
-        "rightFooter": ""
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/data\/?id=3699\"  title=\"id=3699 (permanent link)\" >id<\/a>"
     },
     {
         "text": "Educating the mind without educating the heart is no education at all. Aristotle",
@@ -459,7 +459,7 @@ var quoteJsonVar =
         "url": "",
         "tag": "#quote",
         "time": 1660462027,
-        "rightFooter": ""
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/data\/?id=3667\"  title=\"id=3667 (permanent link)\" >id<\/a>"
     },
     {
         "text": "The hard part about writing a novel is finishing it. Ernest Hemingway",
@@ -468,7 +468,7 @@ var quoteJsonVar =
         "url": "",
         "tag": "#quote",
         "time": 1656941419,
-        "rightFooter": ""
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/data\/?id=3511\"  title=\"id=3511 (permanent link)\" >id<\/a>"
     },
     {
         "text": "If education is always to be conceived along the same antiquated lines of a mere transmission of knowledge, there is little to be hoped from it in the bettering of man's future. Maria Montessori",
@@ -477,7 +477,7 @@ var quoteJsonVar =
         "url": "",
         "tag": "#quote",
         "time": 1656941163,
-        "rightFooter": ""
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/data\/?id=3510\"  title=\"id=3510 (permanent link)\" >id<\/a>"
     },
     {
         "text": "Those who dare to fail miserably can achieve greatly. John F. Kennedy",
@@ -486,7 +486,7 @@ var quoteJsonVar =
         "url": "",
         "tag": "#quote",
         "time": 1656922409,
-        "rightFooter": ""
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/data\/?id=3509\"  title=\"id=3509 (permanent link)\" >id<\/a>"
     },
     {
         "text": "The heart and soul of a company is creativity and innovation. Robert Iger",
@@ -495,7 +495,7 @@ var quoteJsonVar =
         "url": "",
         "tag": "#quote",
         "time": 1656922283,
-        "rightFooter": ""
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/data\/?id=3508\"  title=\"id=3508 (permanent link)\" >id<\/a>"
     },
     {
         "text": "An expert is a man who has made all the mistakes which can be made, in a narrow field. Niels Bohr",
@@ -504,7 +504,7 @@ var quoteJsonVar =
         "url": "",
         "tag": "#quote",
         "time": 1656922100,
-        "rightFooter": ""
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/data\/?id=3507\"  title=\"id=3507 (permanent link)\" >id<\/a>"
     },
     {
         "text": "Don't compare your life to others. There's no comparison between the sun and the moon. They both shine when it's their time. Unknown",
@@ -513,7 +513,7 @@ var quoteJsonVar =
         "url": "",
         "tag": "#quote",
         "time": 1627790846,
-        "rightFooter": ""
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/data\/?id=1513\"  title=\"id=1513 (permanent link)\" >id<\/a>"
     },
     {
         "text": "If you want extraordinary results, you must put in extraordinary efforts. Cory Booker",
@@ -522,7 +522,7 @@ var quoteJsonVar =
         "url": "",
         "tag": "#quote",
         "time": 1621139984,
-        "rightFooter": ""
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/data\/?id=1159\"  title=\"id=1159 (permanent link)\" >id<\/a>"
     },
     {
         "text": "My body is my journal, and my tattoos are my story. Johnny Depp",
@@ -531,7 +531,7 @@ var quoteJsonVar =
         "url": "",
         "tag": "#quote",
         "time": 1621139884,
-        "rightFooter": ""
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/data\/?id=1158\"  title=\"id=1158 (permanent link)\" >id<\/a>"
     },
     {
         "text": "Dogs laugh, but they laugh with their tails. Max Eastman",
@@ -540,7 +540,7 @@ var quoteJsonVar =
         "url": "",
         "tag": "#quote",
         "time": 1620711904,
-        "rightFooter": ""
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/data\/?id=611\"  title=\"id=611 (permanent link)\" >id<\/a>"
     },
     {
         "text": "Its just human nature. People forget past and only care about their present and don't think what will happen in future... Taimoor Madni",
@@ -549,6 +549,6 @@ var quoteJsonVar =
         "url": "",
         "tag": "#quote",
         "time": 1620357442,
-        "rightFooter": ""
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/data\/?id=339\"  title=\"id=339 (permanent link)\" >id<\/a>"
     }
 ]

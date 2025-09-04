@@ -9,7 +9,7 @@ var BookDataJsonVar =
         "url": "https:\/\/www.gutenberg.org\/cache\/epub\/514\/pg514-images.html",
         "tag": "#BookData",
         "time": 1721312417,
-        "rightFooter": ""
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/data\/?id=5618\"  title=\"id=5618 (permanent link)\" >id<\/a>"
     },
     {
         "text": "The Project Gutenberg eBook of Adventures of Huckleberry Finn, By Mark Twain",
@@ -18,7 +18,7 @@ var BookDataJsonVar =
         "url": "https:\/\/www.gutenberg.org\/cache\/epub\/76\/pg76-images.html",
         "tag": "#BookData",
         "time": 1720619110,
-        "rightFooter": ""
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/data\/?id=5617\"  title=\"id=5617 (permanent link)\" >id<\/a>"
     },
     {
         "text": "The Project Gutenberg eBook of Moby Dick; Or the Whale, by Herman Melville",
@@ -27,6 +27,6 @@ var BookDataJsonVar =
         "url": "https:\/\/www.gutenberg.org\/cache\/epub\/2701\/pg2701-images.html",
         "tag": "#BookData",
         "time": 1719557950,
-        "rightFooter": ""
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/data\/?id=5600\"  title=\"id=5600 (permanent link)\" >id<\/a>"
     }
 ]

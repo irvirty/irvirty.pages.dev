@@ -10,7 +10,7 @@ var linksJsonVar =
         "url": "https:\/\/vimeo.com\/",
         "tag": "#video #platform",
         "time": 1756888959,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=271\">id<\/a>"
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=271\"  title=\"id=271 (permanent link)\" >id<\/a>"
     },
     {
         "id": "270",
@@ -20,7 +20,7 @@ var linksJsonVar =
         "url": "https:\/\/joinpeertube.org\/",
         "tag": "#video #platform",
         "time": 1756818701,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=270\">id<\/a>"
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=270\"  title=\"id=270 (permanent link)\" >id<\/a>"
     },
     {
         "id": "269",
@@ -30,7 +30,7 @@ var linksJsonVar =
         "url": "https:\/\/webkit.org\/blog\/",
         "tag": "#WebDevelopment #CSS #blog",
         "time": 1756222498,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=269\">id<\/a>"
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=269\"  title=\"id=269 (permanent link)\" >id<\/a>"
     },
     {
         "id": "268",
@@ -40,7 +40,7 @@ var linksJsonVar =
         "url": "https:\/\/analytics.google.com\/",
         "tag": "#analytics #Google #counter",
         "time": 1750755079,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=268\">id<\/a>"
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=268\"  title=\"id=268 (permanent link)\" >id<\/a>"
     },
     {
         "id": "267",
@@ -50,7 +50,7 @@ var linksJsonVar =
         "url": "https:\/\/www.sublimetext.com\/",
         "tag": "#app #software #IDE #programming #text",
         "time": 1747835809,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=267\">id<\/a>"
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=267\"  title=\"id=267 (permanent link)\" >id<\/a>"
     },
     {
         "id": "266",
@@ -60,7 +60,7 @@ var linksJsonVar =
         "url": "https:\/\/techcrunch.com\/",
         "tag": "#news #technology",
         "time": 1746974544,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=266\">id<\/a>"
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=266\"  title=\"id=266 (permanent link)\" >id<\/a>"
     },
     {
         "id": "265",
@@ -70,7 +70,7 @@ var linksJsonVar =
         "url": "https:\/\/www.vim.org\/",
         "tag": "#app #software #IDE #programming #text",
         "time": 1746955337,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=265\">id<\/a>"
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=265\"  title=\"id=265 (permanent link)\" >id<\/a>"
     },
     {
         "id": "264",
@@ -80,7 +80,7 @@ var linksJsonVar =
         "url": "https:\/\/notepad-plus-plus.org\/",
         "tag": "#app #software #IDE #programming #text",
         "time": 1746955306,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=264\">id<\/a>"
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=264\"  title=\"id=264 (permanent link)\" >id<\/a>"
     },
     {
         "id": "263",
@@ -90,7 +90,7 @@ var linksJsonVar =
         "url": "https:\/\/www.adobe.com\/products\/premiere.html",
         "tag": "#app #software #video",
         "time": 1746955251,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=263\">id<\/a>"
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=263\"  title=\"id=263 (permanent link)\" >id<\/a>"
     },
     {
         "id": "262",
@@ -100,7 +100,7 @@ var linksJsonVar =
         "url": "https:\/\/inkscape.org\/",
         "tag": "#app #software #image #picture #graphic #illustration",
         "time": 1746955164,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=262\">id<\/a>"
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=262\"  title=\"id=262 (permanent link)\" >id<\/a>"
     },
     {
         "id": "261",
@@ -110,7 +110,7 @@ var linksJsonVar =
         "url": "https:\/\/www.adobe.com\/products\/photoshop.html",
         "tag": "#app #software #image #picture #graphic",
         "time": 1746955121,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=261\">id<\/a>"
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=261\"  title=\"id=261 (permanent link)\" >id<\/a>"
     },
     {
         "id": "260",
@@ -120,7 +120,7 @@ var linksJsonVar =
         "url": "https:\/\/m365.cloud.microsoft\/",
         "tag": "#app #web #cloud #documents #office #software",
         "time": 1746954993,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=260\">id<\/a>"
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=260\"  title=\"id=260 (permanent link)\" >id<\/a>"
     },
     {
         "id": "259",
@@ -130,7 +130,7 @@ var linksJsonVar =
         "url": "https:\/\/cohere.com\/",
         "tag": "#AI #assistant #chatbot",
         "time": 1746936462,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=259\">id<\/a>"
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=259\"  title=\"id=259 (permanent link)\" >id<\/a>"
     },
     {
         "id": "258",
@@ -140,7 +140,7 @@ var linksJsonVar =
         "url": "https:\/\/ubuntu.com\/desktop",
         "tag": "#app #software #platform #OS #OperationSystem #system",
         "time": 1746936208,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=258\">id<\/a>"
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=258\"  title=\"id=258 (permanent link)\" >id<\/a>"
     },
     {
         "id": "257",
@@ -150,7 +150,7 @@ var linksJsonVar =
         "url": "https:\/\/www.microsoft.com\/windows\/",
         "tag": "#app #software #platform #OS #OperationSystem #system",
         "time": 1746936168,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=257\">id<\/a>"
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=257\"  title=\"id=257 (permanent link)\" >id<\/a>"
     },
     {
         "id": "256",
@@ -160,7 +160,7 @@ var linksJsonVar =
         "url": "https:\/\/search.seznam.cz\/",
         "tag": "#search #platform",
         "time": 1746935927,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=256\">id<\/a>"
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=256\"  title=\"id=256 (permanent link)\" >id<\/a>"
     },
     {
         "id": "255",
@@ -170,7 +170,7 @@ var linksJsonVar =
         "url": "https:\/\/marginalia-search.com\/",
         "tag": "#search #engine #tool #platfom",
         "time": 1746935900,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=255\">id<\/a>"
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=255\"  title=\"id=255 (permanent link)\" >id<\/a>"
     },
     {
         "id": "254",
@@ -180,7 +180,7 @@ var linksJsonVar =
         "url": "https:\/\/discord.com\/",
         "tag": "#app #communication #software",
         "time": 1746933742,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=254\">id<\/a>"
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=254\"  title=\"id=254 (permanent link)\" >id<\/a>"
     },
     {
         "id": "253",
@@ -190,7 +190,7 @@ var linksJsonVar =
         "url": "https:\/\/slack.com\/",
         "tag": "#app #communication #software",
         "time": 1746933721,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=253\">id<\/a>"
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=253\"  title=\"id=253 (permanent link)\" >id<\/a>"
     },
     {
         "id": "252",
@@ -200,7 +200,7 @@ var linksJsonVar =
         "url": "https:\/\/www.zoom.com\/",
         "tag": "#app #communication #software",
         "time": 1746933701,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=252\">id<\/a>"
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=252\"  title=\"id=252 (permanent link)\" >id<\/a>"
     },
     {
         "id": "251",
@@ -210,7 +210,7 @@ var linksJsonVar =
         "url": "https:\/\/www.microsoft.com\/microsoft-teams\/",
         "tag": "#app #communication #software",
         "time": 1746933685,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=251\">id<\/a>"
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=251\"  title=\"id=251 (permanent link)\" >id<\/a>"
     },
     {
         "id": "250",
@@ -220,7 +220,7 @@ var linksJsonVar =
         "url": "https:\/\/meet.google.com\/",
         "tag": "#app #communication #software",
         "time": 1746933642,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=250\">id<\/a>"
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=250\"  title=\"id=250 (permanent link)\" >id<\/a>"
     },
     {
         "id": "249",
@@ -230,7 +230,7 @@ var linksJsonVar =
         "url": "https:\/\/matrix.org\/",
         "tag": "#app #communication #software",
         "time": 1746933607,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=249\">id<\/a>"
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=249\"  title=\"id=249 (permanent link)\" >id<\/a>"
     },
     {
         "id": "248",
@@ -240,7 +240,7 @@ var linksJsonVar =
         "url": "https:\/\/wire.com\/",
         "tag": "#app #communication #software",
         "time": 1746933574,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=248\">id<\/a>"
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=248\"  title=\"id=248 (permanent link)\" >id<\/a>"
     },
     {
         "id": "247",
@@ -250,7 +250,7 @@ var linksJsonVar =
         "url": "https:\/\/signal.org\/",
         "tag": "#app #communication #software",
         "time": 1746933552,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=247\">id<\/a>"
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=247\"  title=\"id=247 (permanent link)\" >id<\/a>"
     },
     {
         "id": "246",
@@ -260,7 +260,7 @@ var linksJsonVar =
         "url": "https:\/\/www.viber.com\/",
         "tag": "#app #communication #communication",
         "time": 1746933532,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=246\">id<\/a>"
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=246\"  title=\"id=246 (permanent link)\" >id<\/a>"
     },
     {
         "id": "245",
@@ -270,7 +270,7 @@ var linksJsonVar =
         "url": "https:\/\/www.whatsapp.com\/",
         "tag": "#app #communication #software",
         "time": 1746933500,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=245\">id<\/a>"
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=245\"  title=\"id=245 (permanent link)\" >id<\/a>"
     },
     {
         "id": "244",
@@ -280,7 +280,7 @@ var linksJsonVar =
         "url": "https:\/\/sepiasearch.org\/",
         "tag": "#video #search #engine #tool #platform",
         "time": 1746420897,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=244\">id<\/a>"
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=244\"  title=\"id=244 (permanent link)\" >id<\/a>"
     },
     {
         "id": "242",
@@ -290,7 +290,7 @@ var linksJsonVar =
         "url": "https:\/\/bsky.app\/",
         "tag": "#SocialMedia #SocialNetwork #platform",
         "time": 1745316408,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=242\">id<\/a>"
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=242\"  title=\"id=242 (permanent link)\" >id<\/a>"
     },
     {
         "id": "241",
@@ -300,7 +300,7 @@ var linksJsonVar =
         "url": "https:\/\/www.libreoffice.org\/",
         "tag": "#app #software #documents #office",
         "time": 1744866352,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=241\">id<\/a>"
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=241\"  title=\"id=241 (permanent link)\" >id<\/a>"
     },
     {
         "id": "240",
@@ -310,7 +310,7 @@ var linksJsonVar =
         "url": "https:\/\/docs.google.com\/document\/u\/0\/",
         "tag": "#app #web #cloud #documents #office #software",
         "time": 1744866160,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=240\">id<\/a>"
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=240\"  title=\"id=240 (permanent link)\" >id<\/a>"
     },
     {
         "id": "239",
@@ -320,7 +320,7 @@ var linksJsonVar =
         "url": "https:\/\/www.microsoft.com\/en-us\/microsoft-365\/free-office-online-for-the-web",
         "tag": "#app #web #cloud #documents #office",
         "time": 1744866077,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=239\">id<\/a>"
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=239\"  title=\"id=239 (permanent link)\" >id<\/a>"
     },
     {
         "id": "238",
@@ -330,7 +330,7 @@ var linksJsonVar =
         "url": "https:\/\/proton.me\/pass",
         "tag": "#app #cloud #password #extension",
         "time": 1744866010,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=238\">id<\/a>"
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=238\"  title=\"id=238 (permanent link)\" >id<\/a>"
     },
     {
         "id": "237",
@@ -340,7 +340,7 @@ var linksJsonVar =
         "url": "https:\/\/bitwarden.com\/",
         "tag": "#app #cloud #password #extension",
         "time": 1744865966,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=237\">id<\/a>"
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=237\"  title=\"id=237 (permanent link)\" >id<\/a>"
     },
     {
         "id": "236",
@@ -350,7 +350,7 @@ var linksJsonVar =
         "url": "https:\/\/outlook.live.com\/",
         "tag": "#mail #email #service",
         "time": 1744396838,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=236\">id<\/a>"
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=236\"  title=\"id=236 (permanent link)\" >id<\/a>"
     },
     {
         "id": "235",
@@ -360,7 +360,7 @@ var linksJsonVar =
         "url": "https:\/\/mail.google.com\/",
         "tag": "#mail #email #service",
         "time": 1744396685,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=235\">id<\/a>"
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=235\"  title=\"id=235 (permanent link)\" >id<\/a>"
     },
     {
         "id": "234",
@@ -370,7 +370,7 @@ var linksJsonVar =
         "url": "https:\/\/soloist.ai\/",
         "tag": "#WebsiteBuilder #MiniHosting #tools #WebDesign",
         "time": 1743710068,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=234\">id<\/a>"
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=234\"  title=\"id=234 (permanent link)\" >id<\/a>"
     },
     {
         "id": "233",
@@ -380,7 +380,7 @@ var linksJsonVar =
         "url": "https:\/\/languagetool.org\/",
         "tag": "#tools #text #grammar #language",
         "time": 1742514920,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=233\">id<\/a>"
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=233\"  title=\"id=233 (permanent link)\" >id<\/a>"
     },
     {
         "id": "232",
@@ -390,7 +390,7 @@ var linksJsonVar =
         "url": "https:\/\/www.gutenberg.org\/",
         "tag": "",
         "time": 1740966804,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=232\">id<\/a>"
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=232\"  title=\"id=232 (permanent link)\" >id<\/a>"
     },
     {
         "id": "231",
@@ -400,7 +400,7 @@ var linksJsonVar =
         "url": "https:\/\/tunein.com\/podcasts\/",
         "tag": "#podcast",
         "time": 1740923284,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=231\">id<\/a>"
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=231\"  title=\"id=231 (permanent link)\" >id<\/a>"
     },
     {
         "id": "230",
@@ -410,7 +410,7 @@ var linksJsonVar =
         "url": "https:\/\/tunein.com\/audiobooks\/",
         "tag": "#audio #book",
         "time": 1740923122,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=230\">id<\/a>"
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=230\"  title=\"id=230 (permanent link)\" >id<\/a>"
     },
     {
         "id": "229",
@@ -420,7 +420,7 @@ var linksJsonVar =
         "url": "https:\/\/onedrive.live.com\/",
         "tag": "#cloud #storage #service",
         "time": 1740799372,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=229\">id<\/a>"
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=229\"  title=\"id=229 (permanent link)\" >id<\/a>"
     },
     {
         "id": "228",
@@ -430,7 +430,7 @@ var linksJsonVar =
         "url": "https:\/\/proton.me\/drive",
         "tag": "#cloud #storage #service",
         "time": 1740799298,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=228\">id<\/a>"
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=228\"  title=\"id=228 (permanent link)\" >id<\/a>"
     },
     {
         "id": "227",
@@ -440,7 +440,7 @@ var linksJsonVar =
         "url": "https:\/\/www.last.fm\/",
         "tag": "#music #platform #audioscrobbler #audio #scrobbler",
         "time": 1740786657,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=227\">id<\/a>"
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=227\"  title=\"id=227 (permanent link)\" >id<\/a>"
     },
     {
         "id": "226",
@@ -450,7 +450,7 @@ var linksJsonVar =
         "url": "https:\/\/www.iheart.com\/podcast\/",
         "tag": "#platform #podcast",
         "time": 1740786122,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=226\">id<\/a>"
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=226\"  title=\"id=226 (permanent link)\" >id<\/a>"
     },
     {
         "id": "225",
@@ -460,7 +460,7 @@ var linksJsonVar =
         "url": "https:\/\/developer.apple.com\/design\/",
         "tag": "#development #design",
         "time": 1740014616,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=225\">id<\/a>"
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=225\"  title=\"id=225 (permanent link)\" >id<\/a>"
     },
     {
         "id": "224",
@@ -470,7 +470,7 @@ var linksJsonVar =
         "url": "https:\/\/www.glyphrstudio.com\/",
         "tag": "#development #font #fonts",
         "time": 1739666510,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=224\">id<\/a>"
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=224\"  title=\"id=224 (permanent link)\" >id<\/a>"
     },
     {
         "id": "223",
@@ -480,7 +480,7 @@ var linksJsonVar =
         "url": "https:\/\/proton.me\/mail",
         "tag": "#mail #email #service",
         "time": 1739370455,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=223\">id<\/a>"
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=223\"  title=\"id=223 (permanent link)\" >id<\/a>"
     },
     {
         "id": "222",
@@ -490,7 +490,7 @@ var linksJsonVar =
         "url": "https:\/\/en.wikipedia.org\/wiki\/Main_Page",
         "tag": "#encyclopedia #docs #info #information #articles",
         "time": 1738027714,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=222\">id<\/a>"
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=222\"  title=\"id=222 (permanent link)\" >id<\/a>"
     },
     {
         "id": "221",
@@ -500,7 +500,7 @@ var linksJsonVar =
         "url": "https:\/\/www.google.com\/chrome\/",
         "tag": "#software #app #browser #web #internet",
         "time": 1738027401,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=221\">id<\/a>"
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=221\"  title=\"id=221 (permanent link)\" >id<\/a>"
     },
     {
         "id": "220",
@@ -510,7 +510,7 @@ var linksJsonVar =
         "url": "https:\/\/www.mozilla.org\/en-US\/firefox\/new\/",
         "tag": "#software #app #browser #web #internet",
         "time": 1738027199,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=220\">id<\/a>"
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=220\"  title=\"id=220 (permanent link)\" >id<\/a>"
     },
     {
         "id": "219",
@@ -520,7 +520,7 @@ var linksJsonVar =
         "url": "https:\/\/www.dw.com\/en\/top-stories\/s-9097",
         "tag": "#news",
         "time": 1736821919,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=219\">id<\/a>"
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=219\"  title=\"id=219 (permanent link)\" >id<\/a>"
     },
     {
         "id": "218",
@@ -530,7 +530,7 @@ var linksJsonVar =
         "url": "https:\/\/freesound.org\/",
         "tag": "#sound #free",
         "time": 1736646184,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=218\">id<\/a>"
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=218\"  title=\"id=218 (permanent link)\" >id<\/a>"
     },
     {
         "id": "217",
@@ -540,7 +540,7 @@ var linksJsonVar =
         "url": "https:\/\/monkeytype.com\/",
         "tag": "#test #WPM #typing #game",
         "time": 1735548140,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=217\">id<\/a>"
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=217\"  title=\"id=217 (permanent link)\" >id<\/a>"
     },
     {
         "id": "216",
@@ -550,7 +550,7 @@ var linksJsonVar =
         "url": "https:\/\/explore.marginalia.nu\/view",
         "tag": "#random #catalog #site #website",
         "time": 1735172097,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=216\">id<\/a>"
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=216\"  title=\"id=216 (permanent link)\" >id<\/a>"
     },
     {
         "id": "215",
@@ -560,7 +560,7 @@ var linksJsonVar =
         "url": "https:\/\/feedly.com\/",
         "tag": "#news #RSS #SocialMedia",
         "time": 1734395651,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=215\">id<\/a>"
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=215\"  title=\"id=215 (permanent link)\" >id<\/a>"
     },
     {
         "id": "214",
@@ -570,7 +570,7 @@ var linksJsonVar =
         "url": "https:\/\/ubuntu.com\/download",
         "tag": "#software #system",
         "time": 1733661524,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=214\">id<\/a>"
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=214\"  title=\"id=214 (permanent link)\" >id<\/a>"
     },
     {
         "id": "213",
@@ -580,7 +580,7 @@ var linksJsonVar =
         "url": "https:\/\/www.runescape.com\/community",
         "tag": "#game #MMORPG",
         "time": 1733559520,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=213\">id<\/a>"
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=213\"  title=\"id=213 (permanent link)\" >id<\/a>"
     },
     {
         "id": "212",
@@ -590,7 +590,7 @@ var linksJsonVar =
         "url": "https:\/\/www.pinterest.com\/",
         "tag": "#photo #image #SocialNetwork",
         "time": 1732759031,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=212\">id<\/a>"
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=212\"  title=\"id=212 (permanent link)\" >id<\/a>"
     },
     {
         "id": "211",
@@ -600,7 +600,7 @@ var linksJsonVar =
         "url": "https:\/\/neocities.org\/browse?sort_by=random&tag=",
         "tag": "#sites #catalog #explore #random",
         "time": 1732755710,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=211\">id<\/a>"
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=211\"  title=\"id=211 (permanent link)\" >id<\/a>"
     },
     {
         "id": "210",
@@ -610,7 +610,7 @@ var linksJsonVar =
         "url": "https:\/\/search.marginalia.nu\/explore\/random",
         "tag": "#sites #catalog #explore #random",
         "time": 1732755649,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=210\">id<\/a>"
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=210\"  title=\"id=210 (permanent link)\" >id<\/a>"
     },
     {
         "id": "209",
@@ -620,7 +620,7 @@ var linksJsonVar =
         "url": "https:\/\/www.accuradio.com\/",
         "tag": "#music #radio",
         "time": 1732755480,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=209\">id<\/a>"
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=209\"  title=\"id=209 (permanent link)\" >id<\/a>"
     },
     {
         "id": "208",
@@ -630,7 +630,7 @@ var linksJsonVar =
         "url": "https:\/\/tunein.com\/",
         "tag": "#radio #online #live",
         "time": 1732755435,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=208\">id<\/a>"
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=208\"  title=\"id=208 (permanent link)\" >id<\/a>"
     },
     {
         "id": "207",
@@ -640,7 +640,7 @@ var linksJsonVar =
         "url": "https:\/\/trends.google.com\/trends\/",
         "tag": "#trend #search #top #tool #SEO",
         "time": 1732755378,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=207\">id<\/a>"
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=207\"  title=\"id=207 (permanent link)\" >id<\/a>"
     },
     {
         "id": "206",
@@ -650,7 +650,7 @@ var linksJsonVar =
         "url": "https:\/\/www.bing.com\/",
         "tag": "#search #engine #tool #platfom",
         "time": 1732753930,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=206\">id<\/a>"
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=206\"  title=\"id=206 (permanent link)\" >id<\/a>"
     },
     {
         "id": "205",
@@ -660,7 +660,7 @@ var linksJsonVar =
         "url": "https:\/\/theconversation.com\/us",
         "tag": "#news",
         "time": 1732753862,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=205\">id<\/a>"
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=205\"  title=\"id=205 (permanent link)\" >id<\/a>"
     },
     {
         "id": "204",
@@ -670,7 +670,7 @@ var linksJsonVar =
         "url": "https:\/\/www.google.com\/",
         "tag": "#search #engine #tool #platfom",
         "time": 1732752614,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=204\">id<\/a>"
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=204\"  title=\"id=204 (permanent link)\" >id<\/a>"
     },
     {
         "id": "203",
@@ -680,7 +680,7 @@ var linksJsonVar =
         "url": "https:\/\/flipboard.com\/",
         "tag": "#news #platfrom",
         "time": 1732752320,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=203\">id<\/a>"
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=203\"  title=\"id=203 (permanent link)\" >id<\/a>"
     },
     {
         "id": "202",
@@ -690,7 +690,7 @@ var linksJsonVar =
         "url": "https:\/\/medibangpaint.com\/en\/",
         "tag": "#app #software #paint #drawing",
         "time": 1730161929,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=202\">id<\/a>"
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=202\"  title=\"id=202 (permanent link)\" >id<\/a>"
     },
     {
         "id": "200",
@@ -700,7 +700,7 @@ var linksJsonVar =
         "url": "https:\/\/ecograder.com\/",
         "tag": "#WebDesign #tool",
         "time": 1729992346,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=200\">id<\/a>"
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=200\"  title=\"id=200 (permanent link)\" >id<\/a>"
     },
     {
         "id": "199",
@@ -710,7 +710,7 @@ var linksJsonVar =
         "url": "https:\/\/www.shotcut.org\/",
         "tag": "#app #software #video #tool",
         "time": 1729849977,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=199\">id<\/a>"
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=199\"  title=\"id=199 (permanent link)\" >id<\/a>"
     },
     {
         "id": "197",
@@ -720,7 +720,7 @@ var linksJsonVar =
         "url": "https:\/\/fedoraproject.org\/",
         "tag": "#app #software #platform #OS #OperationSystem #system",
         "time": 1729849856,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=197\">id<\/a>"
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=197\"  title=\"id=197 (permanent link)\" >id<\/a>"
     },
     {
         "id": "196",
@@ -730,7 +730,7 @@ var linksJsonVar =
         "url": "https:\/\/www.linuxmint.com\/",
         "tag": "#app #software #platform #OS #OperationSystem #system",
         "time": 1729849767,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=196\">id<\/a>"
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=196\"  title=\"id=196 (permanent link)\" >id<\/a>"
     },
     {
         "id": "195",
@@ -740,7 +740,7 @@ var linksJsonVar =
         "url": "https:\/\/archlinux.org\/",
         "tag": "#app #software #platform #OS #OperationSystem #system",
         "time": 1729849747,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=195\">id<\/a>"
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=195\"  title=\"id=195 (permanent link)\" >id<\/a>"
     },
     {
         "id": "194",
@@ -750,7 +750,7 @@ var linksJsonVar =
         "url": "https:\/\/drive.google.com\/",
         "tag": "#cloud #storage #service",
         "time": 1729849679,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=194\">id<\/a>"
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=194\"  title=\"id=194 (permanent link)\" >id<\/a>"
     },
     {
         "id": "193",
@@ -760,7 +760,7 @@ var linksJsonVar =
         "url": "https:\/\/www.dropbox.com\/",
         "tag": "#cloud #storage #service",
         "time": 1729849567,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=193\">id<\/a>"
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=193\"  title=\"id=193 (permanent link)\" >id<\/a>"
     },
     {
         "id": "192",
@@ -770,7 +770,7 @@ var linksJsonVar =
         "url": "https:\/\/syncthing.net\/",
         "tag": "#cloud #storage #service",
         "time": 1729849516,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=192\">id<\/a>"
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=192\"  title=\"id=192 (permanent link)\" >id<\/a>"
     },
     {
         "id": "191",
@@ -780,7 +780,7 @@ var linksJsonVar =
         "url": "https:\/\/www.microsoft.com\/en-us\/software-download\/windows11",
         "tag": "#app #software #OS #system",
         "time": 1729849451,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=191\">id<\/a>"
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=191\"  title=\"id=191 (permanent link)\" >id<\/a>"
     },
     {
         "id": "190",
@@ -790,7 +790,7 @@ var linksJsonVar =
         "url": "https:\/\/ubuntu.com\/",
         "tag": "#app #software #OS #system",
         "time": 1729849396,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=190\">id<\/a>"
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=190\"  title=\"id=190 (permanent link)\" >id<\/a>"
     },
     {
         "id": "189",
@@ -800,7 +800,7 @@ var linksJsonVar =
         "url": "https:\/\/www.apachefriends.org\/",
         "tag": "#tool #programming #PHP #MySQL #WebDevelopment #app #software #server",
         "time": 1729849282,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=189\">id<\/a>"
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=189\"  title=\"id=189 (permanent link)\" >id<\/a>"
     },
     {
         "id": "187",
@@ -810,7 +810,7 @@ var linksJsonVar =
         "url": "https:\/\/artsandculture.google.com\/",
         "tag": "#art #culture",
         "time": 1729661864,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=187\">id<\/a>"
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=187\"  title=\"id=187 (permanent link)\" >id<\/a>"
     },
     {
         "id": "186",
@@ -820,7 +820,7 @@ var linksJsonVar =
         "url": "https:\/\/www.blender.org\/",
         "tag": "#tool #video #app #software",
         "time": 1729559353,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=186\">id<\/a>"
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=186\"  title=\"id=186 (permanent link)\" >id<\/a>"
     },
     {
         "id": "185",
@@ -830,7 +830,7 @@ var linksJsonVar =
         "url": "https:\/\/www.nngroup.com\/",
         "tag": "#WebDesign #UX",
         "time": 1729558785,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=185\">id<\/a>"
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=185\"  title=\"id=185 (permanent link)\" >id<\/a>"
     },
     {
         "id": "184",
@@ -840,7 +840,7 @@ var linksJsonVar =
         "url": "https:\/\/tinypng.com\/",
         "tag": "#tool #WebDesign",
         "time": 1729556658,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=184\">id<\/a>"
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=184\"  title=\"id=184 (permanent link)\" >id<\/a>"
     },
     {
         "id": "183",
@@ -850,7 +850,7 @@ var linksJsonVar =
         "url": "https:\/\/bento.me\/en\/home",
         "tag": "#MicroHosting #profile",
         "time": 1729553282,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=183\">id<\/a>"
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=183\"  title=\"id=183 (permanent link)\" >id<\/a>"
     },
     {
         "id": "182",
@@ -860,7 +860,7 @@ var linksJsonVar =
         "url": "https:\/\/www.dreamwidth.org\/",
         "tag": "#blog #platform",
         "time": 1729550892,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=182\">id<\/a>"
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=182\"  title=\"id=182 (permanent link)\" >id<\/a>"
     },
     {
         "id": "181",
@@ -870,7 +870,7 @@ var linksJsonVar =
         "url": "https:\/\/mwmbl.org\/",
         "tag": "#search #engine #tool #platfom",
         "time": 1729483496,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=181\">id<\/a>"
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=181\"  title=\"id=181 (permanent link)\" >id<\/a>"
     },
     {
         "id": "180",
@@ -880,7 +880,7 @@ var linksJsonVar =
         "url": "https:\/\/www.videolan.org\/vlc\/",
         "tag": "#app #software #video",
         "time": 1729148406,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=180\">id<\/a>"
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=180\"  title=\"id=180 (permanent link)\" >id<\/a>"
     },
     {
         "id": "179",
@@ -890,7 +890,7 @@ var linksJsonVar =
         "url": "https:\/\/search.marginalia.nu\/",
         "tag": "#platform #search #engine #SearchEngine",
         "time": 1729079325,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=179\">id<\/a>"
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=179\"  title=\"id=179 (permanent link)\" >id<\/a>"
     },
     {
         "id": "177",
@@ -900,7 +900,7 @@ var linksJsonVar =
         "url": "https:\/\/itch.io\/",
         "tag": "#catalog #game #platform #inspiration",
         "time": 1728172595,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=177\">id<\/a>"
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=177\"  title=\"id=177 (permanent link)\" >id<\/a>"
     },
     {
         "id": "171",
@@ -910,7 +910,7 @@ var linksJsonVar =
         "url": "https:\/\/www.geany.org\/",
         "tag": "#app #software #IDE #programming #text",
         "time": 1726220743,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=171\">id<\/a>"
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=171\"  title=\"id=171 (permanent link)\" >id<\/a>"
     },
     {
         "id": "170",
@@ -920,7 +920,7 @@ var linksJsonVar =
         "url": "https:\/\/code.visualstudio.com\/",
         "tag": "#app #software #IDE #programming #text",
         "time": 1726220716,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=170\">id<\/a>"
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=170\"  title=\"id=170 (permanent link)\" >id<\/a>"
     },
     {
         "id": "169",
@@ -930,7 +930,7 @@ var linksJsonVar =
         "url": "https:\/\/www.gimp.org\/",
         "tag": "#app #software #image #picture #graphic",
         "time": 1726218359,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=169\">id<\/a>"
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=169\"  title=\"id=169 (permanent link)\" >id<\/a>"
     },
     {
         "id": "166",
@@ -940,7 +940,7 @@ var linksJsonVar =
         "url": "https:\/\/app.grammarly.com\/",
         "tag": "#grammar #language",
         "time": 1725087627,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=166\">id<\/a>"
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=166\"  title=\"id=166 (permanent link)\" >id<\/a>"
     },
     {
         "id": "165",
@@ -950,7 +950,7 @@ var linksJsonVar =
         "url": "https:\/\/www.nytimes.com\/games\/wordle\/index.html",
         "tag": "#game",
         "time": 1725085671,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=165\">id<\/a>"
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=165\"  title=\"id=165 (permanent link)\" >id<\/a>"
     },
     {
         "id": "159",
@@ -960,7 +960,7 @@ var linksJsonVar =
         "url": "https:\/\/www.designsystems.com\/",
         "tag": "#blog",
         "time": 1720614903,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=159\">id<\/a>"
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=159\"  title=\"id=159 (permanent link)\" >id<\/a>"
     },
     {
         "id": "156",
@@ -970,7 +970,7 @@ var linksJsonVar =
         "url": "https:\/\/www.theregister.com\/",
         "tag": "#technology #news",
         "time": 1719910727,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=156\">id<\/a>"
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=156\"  title=\"id=156 (permanent link)\" >id<\/a>"
     },
     {
         "id": "155",
@@ -980,7 +980,7 @@ var linksJsonVar =
         "url": "https:\/\/www.sitepoint.com\/blog\/",
         "tag": "#WebDevelopment #programming #blog",
         "time": 1719789910,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=155\">id<\/a>"
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=155\"  title=\"id=155 (permanent link)\" >id<\/a>"
     },
     {
         "id": "150",
@@ -990,7 +990,7 @@ var linksJsonVar =
         "url": "https:\/\/developers.google.com\/",
         "tag": "#WebDevelopment #blog",
         "time": 1719682680,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=150\">id<\/a>"
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=150\"  title=\"id=150 (permanent link)\" >id<\/a>"
     },
     {
         "id": "149",
@@ -1000,7 +1000,7 @@ var linksJsonVar =
         "url": "https:\/\/librivox.org\/",
         "tag": "#book #audio",
         "time": 1719493811,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=149\">id<\/a>"
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=149\"  title=\"id=149 (permanent link)\" >id<\/a>"
     },
     {
         "id": "147",
@@ -1010,7 +1010,7 @@ var linksJsonVar =
         "url": "https:\/\/www.nytimes.com\/games\/strands",
         "tag": "#game",
         "time": 1716161292,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=147\">id<\/a>"
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=147\"  title=\"id=147 (permanent link)\" >id<\/a>"
     },
     {
         "id": "146",
@@ -1020,7 +1020,7 @@ var linksJsonVar =
         "url": "https:\/\/www.merriam-webster.com\/games\/quordle\/#\/",
         "tag": "#game",
         "time": 1716161123,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=146\">id<\/a>"
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=146\"  title=\"id=146 (permanent link)\" >id<\/a>"
     },
     {
         "id": "145",
@@ -1030,7 +1030,7 @@ var linksJsonVar =
         "url": "https:\/\/www.themoviedb.org\/",
         "tag": "#movie #MovieDatabase",
         "time": 1715224653,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=145\">id<\/a>"
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=145\"  title=\"id=145 (permanent link)\" >id<\/a>"
     },
     {
         "id": "139",
@@ -1040,7 +1040,7 @@ var linksJsonVar =
         "url": "https:\/\/albiononline.com\/home",
         "tag": "#game #MMORPG",
         "time": 1714731766,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=139\">id<\/a>"
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=139\"  title=\"id=139 (permanent link)\" >id<\/a>"
     },
     {
         "id": "138",
@@ -1050,7 +1050,7 @@ var linksJsonVar =
         "url": "https:\/\/www.nytimes.com\/games\/connections",
         "tag": "#game",
         "time": 1714540281,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=138\">id<\/a>"
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=138\"  title=\"id=138 (permanent link)\" >id<\/a>"
     },
     {
         "id": "137",
@@ -1060,7 +1060,7 @@ var linksJsonVar =
         "url": "https:\/\/www.listennotes.com\/",
         "tag": "#search #podcast #audio #engine #tool #platform",
         "time": 1713763757,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=137\">id<\/a>"
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=137\"  title=\"id=137 (permanent link)\" >id<\/a>"
     },
     {
         "id": "136",
@@ -1070,7 +1070,7 @@ var linksJsonVar =
         "url": "https:\/\/tastedive.com\/",
         "tag": "#recommendation #alternative #music #movie #TV #shows #book #game #podcast",
         "time": 1713762770,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=136\">id<\/a>"
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=136\"  title=\"id=136 (permanent link)\" >id<\/a>"
     },
     {
         "id": "133",
@@ -1080,7 +1080,7 @@ var linksJsonVar =
         "url": "https:\/\/www.drupal.org\/",
         "tag": "#CMS",
         "time": 1711924171,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=133\">id<\/a>"
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=133\"  title=\"id=133 (permanent link)\" >id<\/a>"
     },
     {
         "id": "132",
@@ -1090,7 +1090,7 @@ var linksJsonVar =
         "url": "https:\/\/daringfireball.net\/projects\/markdown\/",
         "tag": "#markdown #tools",
         "time": 1711840978,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=132\">id<\/a>"
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=132\"  title=\"id=132 (permanent link)\" >id<\/a>"
     },
     {
         "id": "131",
@@ -1100,7 +1100,7 @@ var linksJsonVar =
         "url": "https:\/\/www.wattpad.com\/",
         "tag": "#book #store #SocialNetwork #platform",
         "time": 1711522063,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=131\">id<\/a>"
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=131\"  title=\"id=131 (permanent link)\" >id<\/a>"
     },
     {
         "id": "130",
@@ -1110,7 +1110,7 @@ var linksJsonVar =
         "url": "https:\/\/docs.github.com\/en\/get-started\/writing-on-github\/getting-started-with-writing-and-formatting-on-github\/basic-writing-and-formatting-syntax",
         "tag": "#markdown #tool",
         "time": 1711406847,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=130\">id<\/a>"
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=130\"  title=\"id=130 (permanent link)\" >id<\/a>"
     },
     {
         "id": "128",
@@ -1120,7 +1120,7 @@ var linksJsonVar =
         "url": "https:\/\/www.perplexity.ai\/",
         "tag": "#AI #assistant #chatbot",
         "time": 1711187007,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=128\">id<\/a>"
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=128\"  title=\"id=128 (permanent link)\" >id<\/a>"
     },
     {
         "id": "127",
@@ -1130,7 +1130,7 @@ var linksJsonVar =
         "url": "https:\/\/developer.chrome.com\/",
         "tag": "#WebDevelopment #blog #docs",
         "time": 1710896751,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=127\">id<\/a>"
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=127\"  title=\"id=127 (permanent link)\" >id<\/a>"
     },
     {
         "id": "126",
@@ -1140,7 +1140,7 @@ var linksJsonVar =
         "url": "https:\/\/www.deviantart.com\/",
         "tag": "#image #photo #platform #SocialNetwork",
         "time": 1710773049,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=126\">id<\/a>"
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=126\"  title=\"id=126 (permanent link)\" >id<\/a>"
     },
     {
         "id": "125",
@@ -1150,7 +1150,7 @@ var linksJsonVar =
         "url": "https:\/\/imgur.com\/",
         "tag": "#image #photo #platform #SocialNetwork",
         "time": 1710699221,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=125\">id<\/a>"
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=125\"  title=\"id=125 (permanent link)\" >id<\/a>"
     },
     {
         "id": "124",
@@ -1160,7 +1160,7 @@ var linksJsonVar =
         "url": "https:\/\/www.joomla.org\/",
         "tag": "#CMS",
         "time": 1710611436,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=124\">id<\/a>"
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=124\"  title=\"id=124 (permanent link)\" >id<\/a>"
     },
     {
         "id": "123",
@@ -1170,7 +1170,7 @@ var linksJsonVar =
         "url": "https:\/\/wordpress.org\/",
         "tag": "#CMS",
         "time": 1710611405,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=123\">id<\/a>"
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=123\"  title=\"id=123 (permanent link)\" >id<\/a>"
     },
     {
         "id": "122",
@@ -1180,7 +1180,7 @@ var linksJsonVar =
         "url": "https:\/\/www.dokuwiki.org\/dokuwiki",
         "tag": "#CMS",
         "time": 1710611347,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=122\">id<\/a>"
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=122\"  title=\"id=122 (permanent link)\" >id<\/a>"
     },
     {
         "id": "120",
@@ -1190,7 +1190,7 @@ var linksJsonVar =
         "url": "https:\/\/play.google.com\/store\/games",
         "tag": "#platform #inspiration #product #catalog #app",
         "time": 1710472058,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=120\">id<\/a>"
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=120\"  title=\"id=120 (permanent link)\" >id<\/a>"
     },
     {
         "id": "119",
@@ -1200,7 +1200,7 @@ var linksJsonVar =
         "url": "https:\/\/chromewebstore.google.com\/",
         "tag": "#extension #platform #inspiration #product #catalog #app",
         "time": 1710472022,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=119\">id<\/a>"
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=119\"  title=\"id=119 (permanent link)\" >id<\/a>"
     },
     {
         "id": "118",
@@ -1210,7 +1210,7 @@ var linksJsonVar =
         "url": "https:\/\/addons.mozilla.org\/en-US\/firefox\/",
         "tag": "#extension #platform #inspiration #product #catalog #app",
         "time": 1710471980,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=118\">id<\/a>"
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=118\"  title=\"id=118 (permanent link)\" >id<\/a>"
     },
     {
         "id": "117",
@@ -1220,7 +1220,7 @@ var linksJsonVar =
         "url": "https:\/\/www.producthunt.com\/",
         "tag": "#WebDevelopment #dev #platform #inspiration #product #catalog #app #software",
         "time": 1710471777,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=117\">id<\/a>"
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=117\"  title=\"id=117 (permanent link)\" >id<\/a>"
     },
     {
         "id": "116",
@@ -1230,7 +1230,7 @@ var linksJsonVar =
         "url": "https:\/\/chat.mistral.ai\/chat",
         "tag": "#AI #assistant #chatbot",
         "time": 1710426340,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=116\">id<\/a>"
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=116\"  title=\"id=116 (permanent link)\" >id<\/a>"
     },
     {
         "id": "115",
@@ -1240,7 +1240,7 @@ var linksJsonVar =
         "url": "https:\/\/huggingface.co\/chat\/",
         "tag": "#AI #assistant #chatbot",
         "time": 1710425641,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=115\">id<\/a>"
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=115\"  title=\"id=115 (permanent link)\" >id<\/a>"
     },
     {
         "id": "114",
@@ -1250,7 +1250,7 @@ var linksJsonVar =
         "url": "https:\/\/chat.openai.com\/",
         "tag": "#AI #assistant #chatbot",
         "time": 1710418765,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=114\">id<\/a>"
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=114\"  title=\"id=114 (permanent link)\" >id<\/a>"
     },
     {
         "id": "113",
@@ -1260,7 +1260,7 @@ var linksJsonVar =
         "url": "https:\/\/gemini.google.com\/app",
         "tag": "#AI #assistant #chatbot",
         "time": 1710418283,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=113\">id<\/a>"
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=113\"  title=\"id=113 (permanent link)\" >id<\/a>"
     },
     {
         "id": "112",
@@ -1270,7 +1270,7 @@ var linksJsonVar =
         "url": "https:\/\/copilot.microsoft.com\/",
         "tag": "#AI #assistant #chatbot",
         "time": 1710418263,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=112\">id<\/a>"
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=112\"  title=\"id=112 (permanent link)\" >id<\/a>"
     },
     {
         "id": "111",
@@ -1280,7 +1280,7 @@ var linksJsonVar =
         "url": "https:\/\/alternativeto.net\/",
         "tag": "#app #software #store #platform #inspiration #product #catalog #app",
         "time": 1710407726,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=111\">id<\/a>"
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=111\"  title=\"id=111 (permanent link)\" >id<\/a>"
     },
     {
         "id": "109",
@@ -1290,7 +1290,7 @@ var linksJsonVar =
         "url": "https:\/\/developer.mozilla.org\/en-US\/docs\/Web\/JavaScript",
         "tag": "#code #programming #JavaScript #JS",
         "time": 1708218947,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=109\">id<\/a>"
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=109\"  title=\"id=109 (permanent link)\" >id<\/a>"
     },
     {
         "id": "108",
@@ -1300,7 +1300,7 @@ var linksJsonVar =
         "url": "https:\/\/www.python.org\/",
         "tag": "#code #programming",
         "time": 1708218901,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=108\">id<\/a>"
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=108\"  title=\"id=108 (permanent link)\" >id<\/a>"
     },
     {
         "id": "107",
@@ -1310,7 +1310,7 @@ var linksJsonVar =
         "url": "https:\/\/www.php.net\/",
         "tag": "#PHP #code #programming",
         "time": 1708218873,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=107\">id<\/a>"
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=107\"  title=\"id=107 (permanent link)\" >id<\/a>"
     },
     {
         "id": "106",
@@ -1320,7 +1320,7 @@ var linksJsonVar =
         "url": "https:\/\/choosealicense.com\/",
         "tag": "#tools",
         "time": 1708075639,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=106\">id<\/a>"
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=106\"  title=\"id=106 (permanent link)\" >id<\/a>"
     },
     {
         "id": "99",
@@ -1330,7 +1330,7 @@ var linksJsonVar =
         "url": "https:\/\/www.deezer.com\/us\/",
         "tag": "#music #platform",
         "time": 1707015128,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=99\">id<\/a>"
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=99\"  title=\"id=99 (permanent link)\" >id<\/a>"
     },
     {
         "id": "95",
@@ -1340,7 +1340,7 @@ var linksJsonVar =
         "url": "https:\/\/maskable.app\/editor",
         "tag": "#tools #icon",
         "time": 1706985368,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=95\">id<\/a>"
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=95\"  title=\"id=95 (permanent link)\" >id<\/a>"
     },
     {
         "id": "91",
@@ -1350,7 +1350,7 @@ var linksJsonVar =
         "url": "https:\/\/www.favicon.cc\/",
         "tag": "#tools #image #icon",
         "time": 1706620636,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=91\">id<\/a>"
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=91\"  title=\"id=91 (permanent link)\" >id<\/a>"
     },
     {
         "id": "88",
@@ -1360,7 +1360,7 @@ var linksJsonVar =
         "url": "https:\/\/search.google.com\/search-console\/about",
         "tag": "#tools",
         "time": 1706535988,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=88\">id<\/a>"
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=88\"  title=\"id=88 (permanent link)\" >id<\/a>"
     },
     {
         "id": "86",
@@ -1370,7 +1370,7 @@ var linksJsonVar =
         "url": "https:\/\/www.bing.com\/webmasters",
         "tag": "#tools #web",
         "time": 1706520469,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=86\">id<\/a>"
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=86\"  title=\"id=86 (permanent link)\" >id<\/a>"
     },
     {
         "id": "84",
@@ -1380,7 +1380,7 @@ var linksJsonVar =
         "url": "https:\/\/web.dev\/",
         "tag": "#docs #WebDevelopment #dev",
         "time": 1706322685,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=84\">id<\/a>"
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=84\"  title=\"id=84 (permanent link)\" >id<\/a>"
     },
     {
         "id": "82",
@@ -1390,7 +1390,7 @@ var linksJsonVar =
         "url": "https:\/\/layers.to\/",
         "tag": "#inspiration #WebDesign #GraphicDesign #UI #UX",
         "time": 1706268722,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=82\">id<\/a>"
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=82\"  title=\"id=82 (permanent link)\" >id<\/a>"
     },
     {
         "id": "81",
@@ -1400,7 +1400,7 @@ var linksJsonVar =
         "url": "https:\/\/github.com\/collections\/learn-to-code",
         "tag": "#resources #collection",
         "time": 1706264290,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=81\">id<\/a>"
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=81\"  title=\"id=81 (permanent link)\" >id<\/a>"
     },
     {
         "id": "80",
@@ -1410,7 +1410,7 @@ var linksJsonVar =
         "url": "https:\/\/developer.mozilla.org\/en-US\/",
         "tag": "#WebDevelopment #docs #dev #HTML #CSS #JavaScript",
         "time": 1706253858,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=80\">id<\/a>"
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=80\"  title=\"id=80 (permanent link)\" >id<\/a>"
     },
     {
         "id": "77",
@@ -1420,7 +1420,7 @@ var linksJsonVar =
         "url": "https:\/\/experiments.withgoogle.com\/",
         "tag": "#website #dev #nice #cool #WebDevelopment #JavaScript #demo #best",
         "time": 1706161944,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=77\">id<\/a>"
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=77\"  title=\"id=77 (permanent link)\" >id<\/a>"
     },
     {
         "id": "76",
@@ -1430,7 +1430,7 @@ var linksJsonVar =
         "url": "https:\/\/www.bing.com\/translator",
         "tag": "#translator #translate #tools",
         "time": 1706158299,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=76\">id<\/a>"
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=76\"  title=\"id=76 (permanent link)\" >id<\/a>"
     },
     {
         "id": "75",
@@ -1440,7 +1440,7 @@ var linksJsonVar =
         "url": "https:\/\/translate.google.com\/",
         "tag": "#translator #translate #tools",
         "time": 1706158282,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=75\">id<\/a>"
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=75\"  title=\"id=75 (permanent link)\" >id<\/a>"
     },
     {
         "id": "74",
@@ -1450,7 +1450,7 @@ var linksJsonVar =
         "url": "https:\/\/www.deepl.com\/translator",
         "tag": "#translator #translate #tools",
         "time": 1706158256,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=74\">id<\/a>"
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=74\"  title=\"id=74 (permanent link)\" >id<\/a>"
     },
     {
         "id": "73",
@@ -1460,7 +1460,7 @@ var linksJsonVar =
         "url": "https:\/\/search.muz.li\/",
         "tag": "#inspiration #WebDesign #GraphicDesign #UI #UX",
         "time": 1706150883,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=73\">id<\/a>"
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=73\"  title=\"id=73 (permanent link)\" >id<\/a>"
     },
     {
         "id": "72",
@@ -1470,7 +1470,7 @@ var linksJsonVar =
         "url": "https:\/\/medium.muz.li\/",
         "tag": "#WebDesign #magazine",
         "time": 1706150786,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=72\">id<\/a>"
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=72\"  title=\"id=72 (permanent link)\" >id<\/a>"
     },
     {
         "id": "65",
@@ -1480,7 +1480,7 @@ var linksJsonVar =
         "url": "https:\/\/www.grammarly.com\/",
         "tag": "#tools #text #grammar #language",
         "time": 1706029246,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=65\">id<\/a>"
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=65\"  title=\"id=65 (permanent link)\" >id<\/a>"
     },
     {
         "id": "64",
@@ -1490,7 +1490,7 @@ var linksJsonVar =
         "url": "https:\/\/www.duolingo.com\/",
         "tag": "#learning #learn #english #language",
         "time": 1706029201,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=64\">id<\/a>"
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=64\"  title=\"id=64 (permanent link)\" >id<\/a>"
     },
     {
         "id": "63",
@@ -1500,7 +1500,7 @@ var linksJsonVar =
         "url": "https:\/\/music.youtube.com\/",
         "tag": "#music #platform",
         "time": 1706026625,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=63\">id<\/a>"
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=63\"  title=\"id=63 (permanent link)\" >id<\/a>"
     },
     {
         "id": "62",
@@ -1510,7 +1510,7 @@ var linksJsonVar =
         "url": "https:\/\/www.mixcloud.com\/",
         "tag": "#music #platform",
         "time": 1706026361,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=62\">id<\/a>"
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=62\"  title=\"id=62 (permanent link)\" >id<\/a>"
     },
     {
         "id": "61",
@@ -1520,7 +1520,7 @@ var linksJsonVar =
         "url": "https:\/\/open.spotify.com\/",
         "tag": "#music #podcast #platform",
         "time": 1706021707,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=61\">id<\/a>"
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=61\"  title=\"id=61 (permanent link)\" >id<\/a>"
     },
     {
         "id": "60",
@@ -1530,7 +1530,7 @@ var linksJsonVar =
         "url": "https:\/\/spotify.design\/",
         "tag": "#other #CheckMe",
         "time": 1706021533,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=60\">id<\/a>"
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=60\"  title=\"id=60 (permanent link)\" >id<\/a>"
     },
     {
         "id": "58",
@@ -1540,7 +1540,7 @@ var linksJsonVar =
         "url": "https:\/\/alistapart.com\/",
         "tag": "#CSS #blog #magazine #WebDesign #WebDevelopment",
         "time": 1706020810,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=58\">id<\/a>"
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=58\"  title=\"id=58 (permanent link)\" >id<\/a>"
     },
     {
         "id": "56",
@@ -1550,7 +1550,7 @@ var linksJsonVar =
         "url": "https:\/\/sites.google.com\/new",
         "tag": "#MiniHosting #WebsiteBuilder",
         "time": 1705999487,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=56\">id<\/a>"
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=56\"  title=\"id=56 (permanent link)\" >id<\/a>"
     },
     {
         "id": "55",
@@ -1560,7 +1560,7 @@ var linksJsonVar =
         "url": "https:\/\/wix.com",
         "tag": "#MiniHosting #WebsiteBuilder",
         "time": 1705998418,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=55\">id<\/a>"
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=55\"  title=\"id=55 (permanent link)\" >id<\/a>"
     },
     {
         "id": "52",
@@ -1570,7 +1570,7 @@ var linksJsonVar =
         "url": "https:\/\/neocities.org\/tutorials",
         "tag": "#resources #collection",
         "time": 1705964528,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=52\">id<\/a>"
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=52\"  title=\"id=52 (permanent link)\" >id<\/a>"
     },
     {
         "id": "51",
@@ -1580,7 +1580,7 @@ var linksJsonVar =
         "url": "https:\/\/about.me\/",
         "tag": "#MicroHosting #profile",
         "time": 1705963728,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=51\">id<\/a>"
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=51\"  title=\"id=51 (permanent link)\" >id<\/a>"
     },
     {
         "id": "50",
@@ -1590,7 +1590,7 @@ var linksJsonVar =
         "url": "https:\/\/beacons.ai\/",
         "tag": "#MicroHosting #profile",
         "time": 1705924400,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=50\">id<\/a>"
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=50\"  title=\"id=50 (permanent link)\" >id<\/a>"
     },
     {
         "id": "49",
@@ -1600,7 +1600,7 @@ var linksJsonVar =
         "url": "https:\/\/linktr.ee\/",
         "tag": "#MicroHosting #profile",
         "time": 1705922994,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=49\">id<\/a>"
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=49\"  title=\"id=49 (permanent link)\" >id<\/a>"
     },
     {
         "id": "48",
@@ -1610,7 +1610,7 @@ var linksJsonVar =
         "url": "https:\/\/limey.io\/",
         "tag": "#MicroHosting #profile",
         "time": 1705922926,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=48\">id<\/a>"
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=48\"  title=\"id=48 (permanent link)\" >id<\/a>"
     },
     {
         "id": "46",
@@ -1620,7 +1620,7 @@ var linksJsonVar =
         "url": "https:\/\/webflow.com\/",
         "tag": "#WebsiteBuilder #MiniHosting #tools #WebDesign",
         "time": 1705916440,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=46\">id<\/a>"
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=46\"  title=\"id=46 (permanent link)\" >id<\/a>"
     },
     {
         "id": "44",
@@ -1630,7 +1630,7 @@ var linksJsonVar =
         "url": "https:\/\/www.framer.com\/",
         "tag": "#WebsiteBuilder #MiniHosting #tools #WebDesign",
         "time": 1705913251,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=44\">id<\/a>"
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=44\"  title=\"id=44 (permanent link)\" >id<\/a>"
     },
     {
         "id": "43",
@@ -1640,7 +1640,7 @@ var linksJsonVar =
         "url": "https:\/\/css-tricks.com\/",
         "tag": "#CSS #code",
         "time": 1705882831,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=43\">id<\/a>"
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=43\"  title=\"id=43 (permanent link)\" >id<\/a>"
     },
     {
         "id": "40",
@@ -1650,7 +1650,7 @@ var linksJsonVar =
         "url": "https:\/\/www.behance.net\/",
         "tag": "#inspiration #WebDesign #GraphicDesign #UI #UX",
         "time": 1705802782,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=40\">id<\/a>"
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=40\"  title=\"id=40 (permanent link)\" >id<\/a>"
     },
     {
         "id": "38",
@@ -1660,7 +1660,7 @@ var linksJsonVar =
         "url": "https:\/\/quillbot.com\/grammar-check",
         "tag": "#tools #text #grammar #language",
         "time": 1705764337,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=38\">id<\/a>"
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=38\"  title=\"id=38 (permanent link)\" >id<\/a>"
     },
     {
         "id": "37",
@@ -1670,7 +1670,7 @@ var linksJsonVar =
         "url": "https:\/\/www.cambridgeenglish.org\/learning-english",
         "tag": "#learning #learn #english #language",
         "time": 1705764206,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=37\">id<\/a>"
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=37\"  title=\"id=37 (permanent link)\" >id<\/a>"
     },
     {
         "id": "36",
@@ -1680,7 +1680,7 @@ var linksJsonVar =
         "url": "https:\/\/www.oxfordonlineenglish.com\/free-english-lessons",
         "tag": "#learning #learn #english #language",
         "time": 1705764185,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=36\">id<\/a>"
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=36\"  title=\"id=36 (permanent link)\" >id<\/a>"
     },
     {
         "id": "35",
@@ -1690,7 +1690,7 @@ var linksJsonVar =
         "url": "https:\/\/www.bbc.co.uk\/learningenglish\/",
         "tag": "#learning #learn #english #language",
         "time": 1705764162,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=35\">id<\/a>"
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=35\"  title=\"id=35 (permanent link)\" >id<\/a>"
     },
     {
         "id": "34",
@@ -1700,7 +1700,7 @@ var linksJsonVar =
         "url": "https:\/\/codepen.io\/",
         "tag": "#WebDevelopment #code #challenge #inspiration #HTML #CSS #JavaScript #demo",
         "time": 1705763974,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=34\">id<\/a>"
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=34\"  title=\"id=34 (permanent link)\" >id<\/a>"
     },
     {
         "id": "33",
@@ -1710,7 +1710,7 @@ var linksJsonVar =
         "url": "https:\/\/pages.github.com\/",
         "tag": "#hosting",
         "time": 1705763888,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=33\">id<\/a>"
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=33\"  title=\"id=33 (permanent link)\" >id<\/a>"
     },
     {
         "id": "32",
@@ -1720,7 +1720,7 @@ var linksJsonVar =
         "url": "https:\/\/pages.cloudflare.com\/",
         "tag": "#hosting",
         "time": 1705763850,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=32\">id<\/a>"
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=32\"  title=\"id=32 (permanent link)\" >id<\/a>"
     },
     {
         "id": "31",
@@ -1730,7 +1730,7 @@ var linksJsonVar =
         "url": "https:\/\/neocities.org\/",
         "tag": "#hosting",
         "time": 1705763789,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=31\">id<\/a>"
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=31\"  title=\"id=31 (permanent link)\" >id<\/a>"
     },
     {
         "id": "29",
@@ -1740,7 +1740,7 @@ var linksJsonVar =
         "url": "https:\/\/design.google\/",
         "tag": "#WebDesign #WebDevelopment #blog",
         "time": 1705753750,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=29\">id<\/a>"
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=29\"  title=\"id=29 (permanent link)\" >id<\/a>"
     },
     {
         "id": "27",
@@ -1750,7 +1750,7 @@ var linksJsonVar =
         "url": "https:\/\/open-ui.org\/",
         "tag": "#WebDevelopment #dev #WebDesign #UI",
         "time": 1705747430,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=27\">id<\/a>"
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=27\"  title=\"id=27 (permanent link)\" >id<\/a>"
     },
     {
         "id": "24",
@@ -1760,7 +1760,7 @@ var linksJsonVar =
         "url": "https:\/\/www.youtube.com\/",
         "tag": "#video #platform",
         "time": 1705746909,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=24\">id<\/a>"
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=24\"  title=\"id=24 (permanent link)\" >id<\/a>"
     },
     {
         "id": "23",
@@ -1770,7 +1770,7 @@ var linksJsonVar =
         "url": "https:\/\/www.youtube.com\/channel\/UC4R8DWoMoI7CAwX8_LjQHig",
         "tag": "#live",
         "time": 1705746876,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=23\">id<\/a>"
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=23\"  title=\"id=23 (permanent link)\" >id<\/a>"
     },
     {
         "id": "22",
@@ -1780,7 +1780,7 @@ var linksJsonVar =
         "url": "https:\/\/hashnode.com\/",
         "tag": "#SocialNetwork #platform #dev #WebDevelopment #coding #programming",
         "time": 1705746801,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=22\">id<\/a>"
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=22\"  title=\"id=22 (permanent link)\" >id<\/a>"
     },
     {
         "id": "21",
@@ -1790,7 +1790,7 @@ var linksJsonVar =
         "url": "https:\/\/www.smashingmagazine.com\/",
         "tag": "#WebDesign #blog #magazine",
         "time": 1705746716,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=21\">id<\/a>"
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=21\"  title=\"id=21 (permanent link)\" >id<\/a>"
     },
     {
         "id": "20",
@@ -1800,7 +1800,7 @@ var linksJsonVar =
         "url": "https:\/\/dev.to\/",
         "tag": "#SocialNetwork #WebDevelopment #platform #dev #coding #programming",
         "time": 1705746648,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=20\">id<\/a>"
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=20\"  title=\"id=20 (permanent link)\" >id<\/a>"
     },
     {
         "id": "18",
@@ -1810,7 +1810,7 @@ var linksJsonVar =
         "url": "https:\/\/www.awwwards.com\/",
         "tag": "#WebDesign #inspiration #catalog",
         "time": 1705746487,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=18\">id<\/a>"
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=18\"  title=\"id=18 (permanent link)\" >id<\/a>"
     },
     {
         "id": "13",
@@ -1820,7 +1820,7 @@ var linksJsonVar =
         "url": "https:\/\/soundcloud.com\/discover",
         "tag": "#music #platform",
         "time": 1705744215,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=13\">id<\/a>"
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=13\"  title=\"id=13 (permanent link)\" >id<\/a>"
     },
     {
         "id": "11",
@@ -1830,7 +1830,7 @@ var linksJsonVar =
         "url": "https:\/\/www.reddit.com\/",
         "tag": "#SocialMedia #SocialNetwork #platform",
         "time": 1705742099,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=11\">id<\/a>"
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=11\"  title=\"id=11 (permanent link)\" >id<\/a>"
     },
     {
         "id": "10",
@@ -1840,7 +1840,7 @@ var linksJsonVar =
         "url": "https:\/\/www.dailymotion.com\/us",
         "tag": "#video #platform",
         "time": 1705741340,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=10\">id<\/a>"
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=10\"  title=\"id=10 (permanent link)\" >id<\/a>"
     },
     {
         "id": "9",
@@ -1850,7 +1850,7 @@ var linksJsonVar =
         "url": "https:\/\/www.tumblr.com\/",
         "tag": "#SocialMedia #SocialNetwork #platform",
         "time": 1705741055,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=9\">id<\/a>"
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=9\"  title=\"id=9 (permanent link)\" >id<\/a>"
     },
     {
         "id": "6",
@@ -1860,7 +1860,7 @@ var linksJsonVar =
         "url": "https:\/\/neocities.org\/browse",
         "tag": "#catalog #inspiration",
         "time": 1705740048,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=6\">id<\/a>"
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=6\"  title=\"id=6 (permanent link)\" >id<\/a>"
     },
     {
         "id": "5",
@@ -1870,7 +1870,7 @@ var linksJsonVar =
         "url": "https:\/\/webflow.com\/made-in-webflow",
         "tag": "#catalog #inspiration",
         "time": 1705740024,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=5\">id<\/a>"
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=5\"  title=\"id=5 (permanent link)\" >id<\/a>"
     },
     {
         "id": "4",
@@ -1880,6 +1880,6 @@ var linksJsonVar =
         "url": "https:\/\/www.patreon.com\/",
         "tag": "#donate #platform",
         "time": 1705739978,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=4\">id<\/a>"
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=4\"  title=\"id=4 (permanent link)\" >id<\/a>"
     }
 ]

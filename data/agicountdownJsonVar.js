@@ -10,7 +10,7 @@ var agicountdownJsonVar =
         "url": "https:\/\/www.reddit.com\/r\/singularity\/comments\/1hqiwxc\/singularity_predictions_2025\/",
         "tag": "#post #SocialNetwork",
         "time": 1747931811,
-        "rightFooter": ""
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/agicountdown\/?id=35\"  title=\"id=35 (permanent link)\" >id<\/a>"
     },
     {
         "id": "34",
@@ -20,7 +20,7 @@ var agicountdownJsonVar =
         "url": "https:\/\/www.reddit.com\/r\/singularity\/comments\/1kjb06d\/do_you_guys_really_believe_singularity_is_coming\/",
         "tag": "#SocialNetwork #post",
         "time": 1746895160,
-        "rightFooter": ""
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/agicountdown\/?id=34\"  title=\"id=34 (permanent link)\" >id<\/a>"
     },
     {
         "id": "33",
@@ -30,7 +30,7 @@ var agicountdownJsonVar =
         "url": "https:\/\/theconversation.com\/chatgpt-just-passed-the-turing-test-but-that-doesnt-mean-ai-is-now-as-smart-as-humans-253946",
         "tag": "#test #article #science",
         "time": 1744159465,
-        "rightFooter": ""
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/agicountdown\/?id=33\"  title=\"id=33 (permanent link)\" >id<\/a>"
     },
     {
         "id": "30",
@@ -40,7 +40,7 @@ var agicountdownJsonVar =
         "url": "https:\/\/www.reddit.com\/r\/singularity\/comments\/1hiptq9\/holy_shit\/",
         "tag": "#test #SocialNetwork #single",
         "time": 1734722603,
-        "rightFooter": ""
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/agicountdown\/?id=30\"  title=\"id=30 (permanent link)\" >id<\/a>"
     },
     {
         "id": "29",
@@ -50,7 +50,7 @@ var agicountdownJsonVar =
         "url": "https:\/\/www.reddit.com\/r\/singularity\/comments\/183cxbf\/predictions_of_when_will_we_have_agi_are_lowering\/",
         "tag": "#post #SocialNetwork",
         "time": 1724619671,
-        "rightFooter": ""
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/agicountdown\/?id=29\"  title=\"id=29 (permanent link)\" >id<\/a>"
     },
     {
         "id": "21",
@@ -60,7 +60,7 @@ var agicountdownJsonVar =
         "url": "https:\/\/ourworldindata.org\/ai-timelines",
         "tag": "#article #statistics #poll",
         "time": 1715319017,
-        "rightFooter": ""
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/agicountdown\/?id=21\"  title=\"id=21 (permanent link)\" >id<\/a>"
     },
     {
         "id": "19",
@@ -70,7 +70,7 @@ var agicountdownJsonVar =
         "url": "https:\/\/readwrite.com\/ai-what-is-artificial-general-intelligence-agi\/",
         "tag": "#news #article",
         "time": 1712420275,
-        "rightFooter": ""
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/agicountdown\/?id=19\"  title=\"id=19 (permanent link)\" >id<\/a>"
     },
     {
         "id": "16",
@@ -80,7 +80,7 @@ var agicountdownJsonVar =
         "url": "https:\/\/www.perplexity.ai\/",
         "tag": "#AI",
         "time": 1711197082,
-        "rightFooter": ""
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/agicountdown\/?id=16\"  title=\"id=16 (permanent link)\" >id<\/a>"
     },
     {
         "id": "15",
@@ -90,7 +90,7 @@ var agicountdownJsonVar =
         "url": "https:\/\/en.wikipedia.org\/wiki\/The_Singularity_Is_Near",
         "tag": "#single #article",
         "time": 1711196656,
-        "rightFooter": ""
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/agicountdown\/?id=15\"  title=\"id=15 (permanent link)\" >id<\/a>"
     },
     {
         "id": "14",
@@ -100,7 +100,7 @@ var agicountdownJsonVar =
         "url": "https:\/\/www.reddit.com\/r\/singularity\/comments\/18vawje\/singularity_predictions_2024\/",
         "tag": "#single #SocialNetwork",
         "time": 1710876129,
-        "rightFooter": ""
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/agicountdown\/?id=14\"  title=\"id=14 (permanent link)\" >id<\/a>"
     },
     {
         "id": "13",
@@ -110,7 +110,7 @@ var agicountdownJsonVar =
         "url": "https:\/\/www.reddit.com\/r\/singularity\/comments\/zzy3rs\/singularity_predictions_2023\/",
         "tag": "#single #SocialNetwork",
         "time": 1710874887,
-        "rightFooter": ""
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/agicountdown\/?id=13\"  title=\"id=13 (permanent link)\" >id<\/a>"
     },
     {
         "id": "12",
@@ -120,7 +120,7 @@ var agicountdownJsonVar =
         "url": "https:\/\/www.reddit.com\/r\/singularity\/comments\/rsyikh\/singularity_predictions_2022\/",
         "tag": "#single #SocialNetwork",
         "time": 1710872507,
-        "rightFooter": ""
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/agicountdown\/?id=12\"  title=\"id=12 (permanent link)\" >id<\/a>"
     },
     {
         "id": "9",
@@ -130,7 +130,7 @@ var agicountdownJsonVar =
         "url": "https:\/\/terminator.fandom.com\/wiki\/Skynet",
         "tag": "#single #movie",
         "time": 1710870735,
-        "rightFooter": ""
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/agicountdown\/?id=9\"  title=\"id=9 (permanent link)\" >id<\/a>"
     },
     {
         "id": "8",
@@ -140,7 +140,7 @@ var agicountdownJsonVar =
         "url": "https:\/\/matrix.fandom.com\/wiki\/Artificial_Intelligence",
         "tag": "#single #movie",
         "time": 1710870338,
-        "rightFooter": ""
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/agicountdown\/?id=8\"  title=\"id=8 (permanent link)\" >id<\/a>"
     },
     {
         "id": "5",
@@ -150,7 +150,7 @@ var agicountdownJsonVar =
         "url": "https:\/\/www.metaculus.com\/questions\/5121\/date-of-artificial-general-intelligence\/",
         "tag": "#group #poll #statistics",
         "time": 1710637463,
-        "rightFooter": ""
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/agicountdown\/?id=5\"  title=\"id=5 (permanent link)\" >id<\/a>"
     },
     {
         "id": "4",
@@ -160,7 +160,7 @@ var agicountdownJsonVar =
         "url": "https:\/\/chat.openai.com\/",
         "tag": "#AI",
         "time": 1710603380,
-        "rightFooter": ""
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/agicountdown\/?id=4\"  title=\"id=4 (permanent link)\" >id<\/a>"
     },
     {
         "id": "3",
@@ -170,7 +170,7 @@ var agicountdownJsonVar =
         "url": "https:\/\/copilot.microsoft.com\/",
         "tag": "#AI",
         "time": 1710602261,
-        "rightFooter": ""
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/agicountdown\/?id=3\"  title=\"id=3 (permanent link)\" >id<\/a>"
     },
     {
         "id": "2",
@@ -180,7 +180,7 @@ var agicountdownJsonVar =
         "url": "https:\/\/gemini.google.com\/",
         "tag": "#AI",
         "time": 1710601924,
-        "rightFooter": ""
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/agicountdown\/?id=2\"  title=\"id=2 (permanent link)\" >id<\/a>"
     },
     {
         "id": "1",
@@ -190,6 +190,6 @@ var agicountdownJsonVar =
         "url": "https:\/\/www.metaculus.com\/questions\/3479\/date-weakly-general-ai-is-publicly-known\/",
         "tag": "#group #poll #statistics",
         "time": 1710588690,
-        "rightFooter": ""
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/agicountdown\/?id=1\"  title=\"id=1 (permanent link)\" >id<\/a>"
     }
 ]

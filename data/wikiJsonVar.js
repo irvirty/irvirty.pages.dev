@@ -10,7 +10,7 @@ var wikiJsonVar =
         "url": "https:\/\/en.wikipedia.org\/wiki\/HTTP_cookie",
         "tag": "#web #technology",
         "time": 1746882066,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/wiki\/?id=147\">id<\/a>"
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/wiki\/?id=147\"  title=\"id=147 (permanent link)\" >id<\/a>"
     },
     {
         "id": "146",
@@ -20,7 +20,7 @@ var wikiJsonVar =
         "url": "https:\/\/en.wikipedia.org\/wiki\/Mind",
         "tag": "#word",
         "time": 1744773033,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/wiki\/?id=146\">id<\/a>"
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/wiki\/?id=146\"  title=\"id=146 (permanent link)\" >id<\/a>"
     },
     {
         "id": "145",
@@ -30,7 +30,7 @@ var wikiJsonVar =
         "url": "https:\/\/en.wikipedia.org\/wiki\/Content_management_system",
         "tag": "#web #technology",
         "time": 1744423726,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/wiki\/?id=145\">id<\/a>"
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/wiki\/?id=145\"  title=\"id=145 (permanent link)\" >id<\/a>"
     },
     {
         "id": "144",
@@ -40,7 +40,7 @@ var wikiJsonVar =
         "url": "https:\/\/en.wikipedia.org\/wiki\/World_Wide_Web",
         "tag": "#technology #web",
         "time": 1744408596,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/wiki\/?id=144\">id<\/a>"
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/wiki\/?id=144\"  title=\"id=144 (permanent link)\" >id<\/a>"
     },
     {
         "id": "142",
@@ -50,7 +50,7 @@ var wikiJsonVar =
         "url": "https:\/\/en.wikipedia.org\/wiki\/URL",
         "tag": "#web #technology",
         "time": 1743637664,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/wiki\/?id=142\">id<\/a>"
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/wiki\/?id=142\"  title=\"id=142 (permanent link)\" >id<\/a>"
     },
     {
         "id": "141",
@@ -60,7 +60,7 @@ var wikiJsonVar =
         "url": "https:\/\/en.wikipedia.org\/wiki\/World",
         "tag": "#word",
         "time": 1743097875,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/wiki\/?id=141\">id<\/a>"
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/wiki\/?id=141\"  title=\"id=141 (permanent link)\" >id<\/a>"
     },
     {
         "id": "140",
@@ -70,7 +70,7 @@ var wikiJsonVar =
         "url": "https:\/\/en.wikipedia.org\/wiki\/Personal_computer",
         "tag": "#technology",
         "time": 1743088316,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/wiki\/?id=140\">id<\/a>"
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/wiki\/?id=140\"  title=\"id=140 (permanent link)\" >id<\/a>"
     },
     {
         "id": "139",
@@ -80,7 +80,7 @@ var wikiJsonVar =
         "url": "https:\/\/en.wikipedia.org\/wiki\/Laptop",
         "tag": "#technology",
         "time": 1743088299,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/wiki\/?id=139\">id<\/a>"
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/wiki\/?id=139\"  title=\"id=139 (permanent link)\" >id<\/a>"
     },
     {
         "id": "138",
@@ -90,7 +90,7 @@ var wikiJsonVar =
         "url": "https:\/\/en.wikipedia.org\/wiki\/Computer_monitor",
         "tag": "#technology",
         "time": 1743088270,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/wiki\/?id=138\">id<\/a>"
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/wiki\/?id=138\"  title=\"id=138 (permanent link)\" >id<\/a>"
     },
     {
         "id": "137",
@@ -100,7 +100,7 @@ var wikiJsonVar =
         "url": "https:\/\/en.wikipedia.org\/wiki\/File_manager",
         "tag": "#software #app #system #technology",
         "time": 1742726551,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/wiki\/?id=137\">id<\/a>"
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/wiki\/?id=137\"  title=\"id=137 (permanent link)\" >id<\/a>"
     },
     {
         "id": "136",
@@ -110,7 +110,7 @@ var wikiJsonVar =
         "url": "https:\/\/en.wikipedia.org\/wiki\/Bookmarklet",
         "tag": "#technology #web #internet #browser #website #webpage",
         "time": 1742669290,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/wiki\/?id=136\">id<\/a>"
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/wiki\/?id=136\"  title=\"id=136 (permanent link)\" >id<\/a>"
     },
     {
         "id": "135",
@@ -120,7 +120,7 @@ var wikiJsonVar =
         "url": "https:\/\/en.wikipedia.org\/wiki\/Browser_extension",
         "tag": "#technology",
         "time": 1741775919,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/wiki\/?id=135\">id<\/a>"
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/wiki\/?id=135\"  title=\"id=135 (permanent link)\" >id<\/a>"
     },
     {
         "id": "134",
@@ -130,7 +130,7 @@ var wikiJsonVar =
         "url": "https:\/\/en.wikipedia.org\/wiki\/Web_development",
         "tag": "#technology #programming #coding",
         "time": 1741775396,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/wiki\/?id=134\">id<\/a>"
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/wiki\/?id=134\"  title=\"id=134 (permanent link)\" >id<\/a>"
     },
     {
         "id": "133",
@@ -140,7 +140,7 @@ var wikiJsonVar =
         "url": "https:\/\/en.wikipedia.org\/wiki\/Web_design",
         "tag": "#empty",
         "time": 1741775372,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/wiki\/?id=133\">id<\/a>"
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/wiki\/?id=133\"  title=\"id=133 (permanent link)\" >id<\/a>"
     },
     {
         "id": "132",
@@ -150,7 +150,7 @@ var wikiJsonVar =
         "url": "https:\/\/en.wikipedia.org\/wiki\/Web_page",
         "tag": "#empty",
         "time": 1741775281,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/wiki\/?id=132\">id<\/a>"
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/wiki\/?id=132\"  title=\"id=132 (permanent link)\" >id<\/a>"
     },
     {
         "id": "131",
@@ -160,7 +160,7 @@ var wikiJsonVar =
         "url": "https:\/\/en.wikipedia.org\/wiki\/Wikipedia",
         "tag": "#technology",
         "time": 1741775253,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/wiki\/?id=131\">id<\/a>"
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/wiki\/?id=131\"  title=\"id=131 (permanent link)\" >id<\/a>"
     },
     {
         "id": "130",
@@ -170,7 +170,7 @@ var wikiJsonVar =
         "url": "https:\/\/en.wikipedia.org\/wiki\/Social_media",
         "tag": "#empty",
         "time": 1741772581,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/wiki\/?id=130\">id<\/a>"
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/wiki\/?id=130\"  title=\"id=130 (permanent link)\" >id<\/a>"
     },
     {
         "id": "129",
@@ -180,7 +180,7 @@ var wikiJsonVar =
         "url": "https:\/\/en.wikipedia.org\/wiki\/Social_network",
         "tag": "#empty",
         "time": 1741772549,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/wiki\/?id=129\">id<\/a>"
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/wiki\/?id=129\"  title=\"id=129 (permanent link)\" >id<\/a>"
     },
     {
         "id": "128",
@@ -190,7 +190,7 @@ var wikiJsonVar =
         "url": "https:\/\/en.wikipedia.org\/wiki\/Web_hosting_service",
         "tag": "#technology",
         "time": 1741772526,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/wiki\/?id=128\">id<\/a>"
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/wiki\/?id=128\"  title=\"id=128 (permanent link)\" >id<\/a>"
     },
     {
         "id": "127",
@@ -200,7 +200,7 @@ var wikiJsonVar =
         "url": "https:\/\/en.wikipedia.org\/wiki\/Podcast",
         "tag": "#content #media",
         "time": 1741771534,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/wiki\/?id=127\">id<\/a>"
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/wiki\/?id=127\"  title=\"id=127 (permanent link)\" >id<\/a>"
     },
     {
         "id": "126",
@@ -210,7 +210,7 @@ var wikiJsonVar =
         "url": "https:\/\/en.wikipedia.org\/wiki\/Painting",
         "tag": "#art #word",
         "time": 1741771270,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/wiki\/?id=126\">id<\/a>"
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/wiki\/?id=126\"  title=\"id=126 (permanent link)\" >id<\/a>"
     },
     {
         "id": "125",
@@ -220,7 +220,7 @@ var wikiJsonVar =
         "url": "https:\/\/en.wikipedia.org\/wiki\/HTTP_404",
         "tag": "#error #website #webpage #site #page",
         "time": 1741771226,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/wiki\/?id=125\">id<\/a>"
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/wiki\/?id=125\"  title=\"id=125 (permanent link)\" >id<\/a>"
     },
     {
         "id": "124",
@@ -230,7 +230,7 @@ var wikiJsonVar =
         "url": "https:\/\/en.wikipedia.org\/wiki\/Programming_language",
         "tag": "#technology",
         "time": 1741771179,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/wiki\/?id=124\">id<\/a>"
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/wiki\/?id=124\"  title=\"id=124 (permanent link)\" >id<\/a>"
     },
     {
         "id": "123",
@@ -240,7 +240,7 @@ var wikiJsonVar =
         "url": "https:\/\/en.wikipedia.org\/wiki\/Search_engine",
         "tag": "",
         "time": 1741771107,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/wiki\/?id=123\">id<\/a>"
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/wiki\/?id=123\"  title=\"id=123 (permanent link)\" >id<\/a>"
     },
     {
         "id": "122",
@@ -250,7 +250,7 @@ var wikiJsonVar =
         "url": "https:\/\/en.wikipedia.org\/wiki\/Music",
         "tag": "#word",
         "time": 1741771071,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/wiki\/?id=122\">id<\/a>"
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/wiki\/?id=122\"  title=\"id=122 (permanent link)\" >id<\/a>"
     },
     {
         "id": "121",
@@ -260,7 +260,7 @@ var wikiJsonVar =
         "url": "https:\/\/en.wikipedia.org\/wiki\/Image",
         "tag": "#empty",
         "time": 1741771050,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/wiki\/?id=121\">id<\/a>"
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/wiki\/?id=121\"  title=\"id=121 (permanent link)\" >id<\/a>"
     },
     {
         "id": "120",
@@ -270,7 +270,7 @@ var wikiJsonVar =
         "url": "https:\/\/en.wikipedia.org\/wiki\/Solid-state_drive",
         "tag": "#technology",
         "time": 1741770395,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/wiki\/?id=120\">id<\/a>"
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/wiki\/?id=120\"  title=\"id=120 (permanent link)\" >id<\/a>"
     },
     {
         "id": "119",
@@ -280,7 +280,7 @@ var wikiJsonVar =
         "url": "https:\/\/en.wikipedia.org\/wiki\/Hard_disk_drive",
         "tag": "#technology",
         "time": 1741770343,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/wiki\/?id=119\">id<\/a>"
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/wiki\/?id=119\"  title=\"id=119 (permanent link)\" >id<\/a>"
     },
     {
         "id": "118",
@@ -290,7 +290,7 @@ var wikiJsonVar =
         "url": "https:\/\/en.wikipedia.org\/wiki\/Words_per_minute",
         "tag": "#word #language",
         "time": 1741430523,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/wiki\/?id=118\">id<\/a>"
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/wiki\/?id=118\"  title=\"id=118 (permanent link)\" >id<\/a>"
     },
     {
         "id": "116",
@@ -300,7 +300,7 @@ var wikiJsonVar =
         "url": "https:\/\/en.wikipedia.org\/wiki\/Smartphone",
         "tag": "#technology",
         "time": 1741079240,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/wiki\/?id=116\">id<\/a>"
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/wiki\/?id=116\"  title=\"id=116 (permanent link)\" >id<\/a>"
     },
     {
         "id": "115",
@@ -310,7 +310,7 @@ var wikiJsonVar =
         "url": "https:\/\/en.wikipedia.org\/wiki\/Film",
         "tag": "#art",
         "time": 1741079144,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/wiki\/?id=115\">id<\/a>"
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/wiki\/?id=115\"  title=\"id=115 (permanent link)\" >id<\/a>"
     },
     {
         "id": "112",
@@ -320,7 +320,7 @@ var wikiJsonVar =
         "url": "https:\/\/en.wikipedia.org\/wiki\/Illustration",
         "tag": "#art #word",
         "time": 1741078946,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/wiki\/?id=112\">id<\/a>"
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/wiki\/?id=112\"  title=\"id=112 (permanent link)\" >id<\/a>"
     },
     {
         "id": "111",
@@ -330,7 +330,7 @@ var wikiJsonVar =
         "url": "https:\/\/en.wikipedia.org\/wiki\/Drawing",
         "tag": "",
         "time": 1741078883,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/wiki\/?id=111\">id<\/a>"
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/wiki\/?id=111\"  title=\"id=111 (permanent link)\" >id<\/a>"
     },
     {
         "id": "107",
@@ -340,7 +340,7 @@ var wikiJsonVar =
         "url": "https:\/\/en.wikipedia.org\/wiki\/Creative_work",
         "tag": "#content",
         "time": 1741078575,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/wiki\/?id=107\">id<\/a>"
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/wiki\/?id=107\"  title=\"id=107 (permanent link)\" >id<\/a>"
     },
     {
         "id": "106",
@@ -350,7 +350,7 @@ var wikiJsonVar =
         "url": "https:\/\/en.wikipedia.org\/wiki\/Free_content",
         "tag": "#empty",
         "time": 1741078545,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/wiki\/?id=106\">id<\/a>"
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/wiki\/?id=106\"  title=\"id=106 (permanent link)\" >id<\/a>"
     },
     {
         "id": "101",
@@ -360,7 +360,7 @@ var wikiJsonVar =
         "url": "https:\/\/en.wikipedia.org\/wiki\/Art",
         "tag": "#word",
         "time": 1740875362,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/wiki\/?id=101\">id<\/a>"
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/wiki\/?id=101\"  title=\"id=101 (permanent link)\" >id<\/a>"
     },
     {
         "id": "100",
@@ -370,7 +370,7 @@ var wikiJsonVar =
         "url": "https:\/\/en.wikipedia.org\/wiki\/Dot-com_bubble",
         "tag": "#technology",
         "time": 1740855948,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/wiki\/?id=100\">id<\/a>"
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/wiki\/?id=100\"  title=\"id=100 (permanent link)\" >id<\/a>"
     },
     {
         "id": "97",
@@ -380,7 +380,7 @@ var wikiJsonVar =
         "url": "https:\/\/en.wikipedia.org\/wiki\/Internet",
         "tag": "#technology",
         "time": 1740182684,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/wiki\/?id=97\">id<\/a>"
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/wiki\/?id=97\"  title=\"id=97 (permanent link)\" >id<\/a>"
     },
     {
         "id": "96",
@@ -390,7 +390,7 @@ var wikiJsonVar =
         "url": "https:\/\/en.wikipedia.org\/wiki\/Large_language_model",
         "tag": "#AI",
         "time": 1739986417,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/wiki\/?id=96\">id<\/a>"
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/wiki\/?id=96\"  title=\"id=96 (permanent link)\" >id<\/a>"
     },
     {
         "id": "89",
@@ -400,7 +400,7 @@ var wikiJsonVar =
         "url": "https:\/\/en.wikipedia.org\/wiki\/LOL",
         "tag": "#language #slang",
         "time": 1739822490,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/wiki\/?id=89\">id<\/a>"
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/wiki\/?id=89\"  title=\"id=89 (permanent link)\" >id<\/a>"
     },
     {
         "id": "87",
@@ -410,7 +410,7 @@ var wikiJsonVar =
         "url": "https:\/\/en.wikipedia.org\/wiki\/Consciousness",
         "tag": "#empty",
         "time": 1739469407,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/wiki\/?id=87\">id<\/a>"
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/wiki\/?id=87\"  title=\"id=87 (permanent link)\" >id<\/a>"
     },
     {
         "id": "85",
@@ -420,7 +420,7 @@ var wikiJsonVar =
         "url": "https:\/\/en.wikipedia.org\/wiki\/Slashdot_effect",
         "tag": "#technology",
         "time": 1739167903,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/wiki\/?id=85\">id<\/a>"
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/wiki\/?id=85\"  title=\"id=85 (permanent link)\" >id<\/a>"
     },
     {
         "id": "76",
@@ -430,7 +430,7 @@ var wikiJsonVar =
         "url": "https:\/\/en.wikipedia.org\/wiki\/Rubber_duck_debugging",
         "tag": "#technology #coding",
         "time": 1731916727,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/wiki\/?id=76\">id<\/a>"
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/wiki\/?id=76\"  title=\"id=76 (permanent link)\" >id<\/a>"
     },
     {
         "id": "69",
@@ -440,7 +440,7 @@ var wikiJsonVar =
         "url": "https:\/\/en.wikipedia.org\/wiki\/Computer_keyboard",
         "tag": "",
         "time": 1723968351,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/wiki\/?id=69\">id<\/a>"
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/wiki\/?id=69\"  title=\"id=69 (permanent link)\" >id<\/a>"
     },
     {
         "id": "65",
@@ -450,7 +450,7 @@ var wikiJsonVar =
         "url": "https:\/\/en.wikipedia.org\/wiki\/Computer_science",
         "tag": "#technology",
         "time": 1721301972,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/wiki\/?id=65\">id<\/a>"
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/wiki\/?id=65\"  title=\"id=65 (permanent link)\" >id<\/a>"
     },
     {
         "id": "64",
@@ -460,7 +460,7 @@ var wikiJsonVar =
         "url": "https:\/\/en.wikipedia.org\/wiki\/Processor_(computing)",
         "tag": "#technology",
         "time": 1721301908,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/wiki\/?id=64\">id<\/a>"
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/wiki\/?id=64\"  title=\"id=64 (permanent link)\" >id<\/a>"
     },
     {
         "id": "46",
@@ -470,7 +470,7 @@ var wikiJsonVar =
         "url": "https:\/\/en.wikipedia.org\/wiki\/Video",
         "tag": "#technology",
         "time": 1719568863,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/wiki\/?id=46\">id<\/a>"
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/wiki\/?id=46\"  title=\"id=46 (permanent link)\" >id<\/a>"
     },
     {
         "id": "45",
@@ -480,7 +480,7 @@ var wikiJsonVar =
         "url": "https:\/\/en.wikipedia.org\/wiki\/Book",
         "tag": "#empty",
         "time": 1719568844,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/wiki\/?id=45\">id<\/a>"
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/wiki\/?id=45\"  title=\"id=45 (permanent link)\" >id<\/a>"
     },
     {
         "id": "44",
@@ -490,7 +490,7 @@ var wikiJsonVar =
         "url": "https:\/\/en.wikipedia.org\/wiki\/Virtual_assistant",
         "tag": "#technology",
         "time": 1719568806,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/wiki\/?id=44\">id<\/a>"
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/wiki\/?id=44\"  title=\"id=44 (permanent link)\" >id<\/a>"
     },
     {
         "id": "40",
@@ -500,7 +500,7 @@ var wikiJsonVar =
         "url": "https:\/\/en.wikipedia.org\/wiki\/Software",
         "tag": "#technology",
         "time": 1719568644,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/wiki\/?id=40\">id<\/a>"
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/wiki\/?id=40\"  title=\"id=40 (permanent link)\" >id<\/a>"
     },
     {
         "id": "39",
@@ -510,7 +510,7 @@ var wikiJsonVar =
         "url": "https:\/\/en.wikipedia.org\/wiki\/Web_browser",
         "tag": "#technology",
         "time": 1719568625,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/wiki\/?id=39\">id<\/a>"
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/wiki\/?id=39\"  title=\"id=39 (permanent link)\" >id<\/a>"
     },
     {
         "id": "38",
@@ -520,7 +520,7 @@ var wikiJsonVar =
         "url": "https:\/\/en.wikipedia.org\/wiki\/Website",
         "tag": "#technology",
         "time": 1719568602,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/wiki\/?id=38\">id<\/a>"
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/wiki\/?id=38\"  title=\"id=38 (permanent link)\" >id<\/a>"
     },
     {
         "id": "36",
@@ -530,7 +530,7 @@ var wikiJsonVar =
         "url": "https:\/\/en.wikipedia.org\/wiki\/Television",
         "tag": "#technology",
         "time": 1719568557,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/wiki\/?id=36\">id<\/a>"
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/wiki\/?id=36\"  title=\"id=36 (permanent link)\" >id<\/a>"
     },
     {
         "id": "35",
@@ -540,7 +540,7 @@ var wikiJsonVar =
         "url": "https:\/\/en.wikipedia.org\/wiki\/Game",
         "tag": "#empty",
         "time": 1719568529,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/wiki\/?id=35\">id<\/a>"
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/wiki\/?id=35\"  title=\"id=35 (permanent link)\" >id<\/a>"
     },
     {
         "id": "34",
@@ -550,7 +550,7 @@ var wikiJsonVar =
         "url": "https:\/\/en.wikipedia.org\/wiki\/Copyright",
         "tag": "#empty",
         "time": 1719568487,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/wiki\/?id=34\">id<\/a>"
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/wiki\/?id=34\"  title=\"id=34 (permanent link)\" >id<\/a>"
     },
     {
         "id": "33",
@@ -560,7 +560,7 @@ var wikiJsonVar =
         "url": "https:\/\/en.wikipedia.org\/wiki\/Brain",
         "tag": "#empty",
         "time": 1719568457,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/wiki\/?id=33\">id<\/a>"
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/wiki\/?id=33\"  title=\"id=33 (permanent link)\" >id<\/a>"
     },
     {
         "id": "32",
@@ -570,7 +570,7 @@ var wikiJsonVar =
         "url": "https:\/\/en.wikipedia.org\/wiki\/Artificial_intelligence",
         "tag": "#technology",
         "time": 1719568428,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/wiki\/?id=32\">id<\/a>"
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/wiki\/?id=32\"  title=\"id=32 (permanent link)\" >id<\/a>"
     },
     {
         "id": "31",
@@ -580,7 +580,7 @@ var wikiJsonVar =
         "url": "https:\/\/en.wikipedia.org\/wiki\/Idea",
         "tag": "#language #word",
         "time": 1719568392,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/wiki\/?id=31\">id<\/a>"
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/wiki\/?id=31\"  title=\"id=31 (permanent link)\" >id<\/a>"
     },
     {
         "id": "25",
@@ -590,7 +590,7 @@ var wikiJsonVar =
         "url": "https:\/\/en.wikipedia.org\/wiki\/Word",
         "tag": "#language",
         "time": 1719568092,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/wiki\/?id=25\">id<\/a>"
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/wiki\/?id=25\"  title=\"id=25 (permanent link)\" >id<\/a>"
     },
     {
         "id": "17",
@@ -600,7 +600,7 @@ var wikiJsonVar =
         "url": "https:\/\/en.wikipedia.org\/wiki\/Operating_system",
         "tag": "#technology",
         "time": 1719567848,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/wiki\/?id=17\">id<\/a>"
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/wiki\/?id=17\"  title=\"id=17 (permanent link)\" >id<\/a>"
     },
     {
         "id": "16",
@@ -610,7 +610,7 @@ var wikiJsonVar =
         "url": "https:\/\/en.wikipedia.org\/wiki\/Computer",
         "tag": "#technology",
         "time": 1719567820,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/wiki\/?id=16\">id<\/a>"
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/wiki\/?id=16\"  title=\"id=16 (permanent link)\" >id<\/a>"
     },
     {
         "id": "10",
@@ -620,7 +620,7 @@ var wikiJsonVar =
         "url": "https:\/\/en.wikipedia.org\/wiki\/Computer_programming",
         "tag": "#technology #coding",
         "time": 1719567614,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/wiki\/?id=10\">id<\/a>"
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/wiki\/?id=10\"  title=\"id=10 (permanent link)\" >id<\/a>"
     },
     {
         "id": "9",
@@ -630,7 +630,7 @@ var wikiJsonVar =
         "url": "https:\/\/en.wikipedia.org\/wiki\/Imagination",
         "tag": "#language #word",
         "time": 1718813176,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/wiki\/?id=9\">id<\/a>"
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/wiki\/?id=9\"  title=\"id=9 (permanent link)\" >id<\/a>"
     },
     {
         "id": "4",
@@ -640,6 +640,6 @@ var wikiJsonVar =
         "url": "https:\/\/en.wikipedia.org\/wiki\/Technology",
         "tag": "#technology",
         "time": 1717600799,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/wiki\/?id=4\">id<\/a>"
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/wiki\/?id=4\"  title=\"id=4 (permanent link)\" >id<\/a>"
     }
 ]

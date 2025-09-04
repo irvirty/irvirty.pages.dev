@@ -410,7 +410,7 @@ print += `
 <nav class="tCenter">
 <!--<a class="small keepTag2" href="./" title="Index ./">index</a>-->
 <a class="small keepTag2 brand" href="?" title="Start">start</a>
-<a class="small keepTag2 brand" href="?mode=random" title="Random post">random</a>
+<a class="small keepTag2 brand" href="?mode=random&dmode=${dMode}" title="Random post">random</a>
 </nav>
 
 <div class="wrapper">
@@ -1500,7 +1500,7 @@ return time;
 }
 
 var datePublished = timeConverter(time);
-time = `<a class="brand op" href="${scriptDir}?id=${id}"><time itemprop="datePublished" datetime="` + datePublished+`">` + fuPostTime(time) + `</time></a>`;
+time = `<a class="brand op" href="${scriptDir}?id=${id}" title="id=${id} (permanent link)"><time itemprop="datePublished" datetime="` + datePublished + `">` + fuPostTime(time) + `</time></a>`;
 
 var lPost = '';
 var lPostTitle = '';
@@ -2725,7 +2725,7 @@ navOption3 = `<input id="navOptionQ" type="hidden" name="q" value="">`;
 navOption2 = 'q=' + encodeURIComponent(q) + "&";
 nav2Print = `
 <div class="tRight">
-<!--<a class="op border3List button light" href="?id=">random</a>-->
+<!--<a class="op border3List button light" href="?id=&dmode=${dMode}">random</a>-->
 </div>
 <!--<a class="op border3 borderRadius2 button light" style="width: 49%;" href="#" onclick="history.back();return false;">back</a>-->
 `;

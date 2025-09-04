@@ -10,7 +10,7 @@ var postsJsonVar =
         "url": "",
         "tag": "#coding #CSS",
         "time": 1742032916,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/posts\/?id=42\">id<\/a>"
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/posts\/?id=42\"  title=\"id=42 (permanent link)\" >id<\/a>"
     },
     {
         "id": "26",
@@ -20,7 +20,7 @@ var postsJsonVar =
         "url": "",
         "tag": "#language #learning",
         "time": 1730412483,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/posts\/?id=26\">id<\/a>"
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/posts\/?id=26\"  title=\"id=26 (permanent link)\" >id<\/a>"
     },
     {
         "id": "25",
@@ -30,7 +30,7 @@ var postsJsonVar =
         "url": "",
         "tag": "#SVG #JavaScript #click #navigation #button #dropdown #post",
         "time": 1729037377,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/posts\/?id=25\">id<\/a>"
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/posts\/?id=25\"  title=\"id=25 (permanent link)\" >id<\/a>"
     },
     {
         "id": "24",
@@ -40,7 +40,7 @@ var postsJsonVar =
         "url": "",
         "tag": "#SEO #post",
         "time": 1728892091,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/posts\/?id=24\">id<\/a>"
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/posts\/?id=24\"  title=\"id=24 (permanent link)\" >id<\/a>"
     },
     {
         "id": "23",
@@ -50,7 +50,7 @@ var postsJsonVar =
         "url": "",
         "tag": "#news #WebDesign #post",
         "time": 1728889224,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/posts\/?id=23\">id<\/a>"
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/posts\/?id=23\"  title=\"id=23 (permanent link)\" >id<\/a>"
     },
     {
         "id": "22",
@@ -60,7 +60,7 @@ var postsJsonVar =
         "url": "",
         "tag": "#website #hosting #post",
         "time": 1728858803,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/posts\/?id=22\">id<\/a>"
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/posts\/?id=22\"  title=\"id=22 (permanent link)\" >id<\/a>"
     },
     {
         "id": "21",
@@ -70,7 +70,7 @@ var postsJsonVar =
         "url": "",
         "tag": "#coding #post",
         "time": 1728777453,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/posts\/?id=21\">id<\/a>"
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/posts\/?id=21\"  title=\"id=21 (permanent link)\" >id<\/a>"
     },
     {
         "id": "20",
@@ -80,7 +80,7 @@ var postsJsonVar =
         "url": "",
         "tag": "#WebDesign #minimalism #post",
         "time": 1728771991,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/posts\/?id=20\">id<\/a>"
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/posts\/?id=20\"  title=\"id=20 (permanent link)\" >id<\/a>"
     },
     {
         "id": "17",
@@ -90,7 +90,7 @@ var postsJsonVar =
         "url": "",
         "tag": "#extension #post #update",
         "time": 1728701258,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/posts\/?id=17\">id<\/a>"
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/posts\/?id=17\"  title=\"id=17 (permanent link)\" >id<\/a>"
     },
     {
         "id": "16",
@@ -100,7 +100,7 @@ var postsJsonVar =
         "url": "",
         "tag": "#writing #blog #microblog",
         "time": 1728651423,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/posts\/?id=16\">id<\/a>"
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/posts\/?id=16\"  title=\"id=16 (permanent link)\" >id<\/a>"
     },
     {
         "id": "15",
@@ -110,7 +110,7 @@ var postsJsonVar =
         "url": "",
         "tag": "#writing #article",
         "time": 1728494906,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/posts\/?id=15\">id<\/a>"
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/posts\/?id=15\"  title=\"id=15 (permanent link)\" >id<\/a>"
     },
     {
         "id": "14",
@@ -120,7 +120,7 @@ var postsJsonVar =
         "url": "",
         "tag": "#WebDesign #website",
         "time": 1728375497,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/posts\/?id=14\">id<\/a>"
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/posts\/?id=14\"  title=\"id=14 (permanent link)\" >id<\/a>"
     },
     {
         "id": "13",
@@ -130,7 +130,7 @@ var postsJsonVar =
         "url": "",
         "tag": "#note",
         "time": 1728271611,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/posts\/?id=13\">id<\/a>"
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/posts\/?id=13\"  title=\"id=13 (permanent link)\" >id<\/a>"
     },
     {
         "id": "12",
@@ -140,7 +140,7 @@ var postsJsonVar =
         "url": "",
         "tag": "#UI",
         "time": 1728271524,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/posts\/?id=12\">id<\/a>"
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/posts\/?id=12\"  title=\"id=12 (permanent link)\" >id<\/a>"
     },
     {
         "id": "11",
@@ -150,7 +150,7 @@ var postsJsonVar =
         "url": "",
         "tag": "#WebDesign",
         "time": 1728257625,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/posts\/?id=11\">id<\/a>"
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/posts\/?id=11\"  title=\"id=11 (permanent link)\" >id<\/a>"
     },
     {
         "id": "10",
@@ -160,7 +160,7 @@ var postsJsonVar =
         "url": "",
         "tag": "#coding",
         "time": 1728227777,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/posts\/?id=10\">id<\/a>"
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/posts\/?id=10\"  title=\"id=10 (permanent link)\" >id<\/a>"
     },
     {
         "id": "9",
@@ -170,7 +170,7 @@ var postsJsonVar =
         "url": "",
         "tag": "#coding #programming",
         "time": 1728223973,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/posts\/?id=9\">id<\/a>"
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/posts\/?id=9\"  title=\"id=9 (permanent link)\" >id<\/a>"
     },
     {
         "id": "7",
@@ -180,7 +180,7 @@ var postsJsonVar =
         "url": "",
         "tag": "#update",
         "time": 1728166938,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/posts\/?id=7\">id<\/a>"
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/posts\/?id=7\"  title=\"id=7 (permanent link)\" >id<\/a>"
     },
     {
         "id": "4",
@@ -190,7 +190,7 @@ var postsJsonVar =
         "url": "",
         "tag": "#note",
         "time": 1728163964,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/posts\/?id=4\">id<\/a>"
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/posts\/?id=4\"  title=\"id=4 (permanent link)\" >id<\/a>"
     },
     {
         "id": "3",
@@ -200,7 +200,7 @@ var postsJsonVar =
         "url": "",
         "tag": "#empty",
         "time": 1728163946,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/posts\/?id=3\">id<\/a>"
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/posts\/?id=3\"  title=\"id=3 (permanent link)\" >id<\/a>"
     },
     {
         "id": "2",
@@ -210,7 +210,7 @@ var postsJsonVar =
         "url": "",
         "tag": "#empty",
         "time": 1728163931,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/posts\/?id=2\">id<\/a>"
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/posts\/?id=2\"  title=\"id=2 (permanent link)\" >id<\/a>"
     },
     {
         "id": "1",
@@ -220,6 +220,6 @@ var postsJsonVar =
         "url": "",
         "tag": "#test #tag",
         "time": 1728160210,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/posts\/?id=1\">id<\/a>"
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/posts\/?id=1\"  title=\"id=1 (permanent link)\" >id<\/a>"
     }
 ]

@@ -10,7 +10,7 @@ var articlesJsonVar =
         "url": "",
         "tag": "#WebDevelopment #website #WebDesign",
         "time": 1730075757,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/articles\/?id=19\">id<\/a>"
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/articles\/?id=19\"  title=\"id=19 (permanent link)\" >id<\/a>"
     },
     {
         "id": "18",
@@ -20,7 +20,7 @@ var articlesJsonVar =
         "url": "",
         "tag": "#WebDesign",
         "time": 1729994594,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/articles\/?id=18\">id<\/a>"
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/articles\/?id=18\"  title=\"id=18 (permanent link)\" >id<\/a>"
     },
     {
         "id": "16",
@@ -30,7 +30,7 @@ var articlesJsonVar =
         "url": "",
         "tag": "#WebDesign #CSS #WebDev #WebDevelopment",
         "time": 1729129773,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/articles\/?id=16\">id<\/a>"
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/articles\/?id=16\"  title=\"id=16 (permanent link)\" >id<\/a>"
     },
     {
         "id": "15",
@@ -40,7 +40,7 @@ var articlesJsonVar =
         "url": "",
         "tag": "#WebDesign #WebDevelopment #notes",
         "time": 1721525283,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/articles\/?id=15\">id<\/a>"
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/articles\/?id=15\"  title=\"id=15 (permanent link)\" >id<\/a>"
     },
     {
         "id": "12",
@@ -50,7 +50,7 @@ var articlesJsonVar =
         "url": "",
         "tag": "#WebDesign #WebDevelopment #resources #links",
         "time": 1712410445,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/articles\/?id=12\">id<\/a>"
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/articles\/?id=12\"  title=\"id=12 (permanent link)\" >id<\/a>"
     },
     {
         "id": "9",
@@ -60,7 +60,7 @@ var articlesJsonVar =
         "url": "",
         "tag": "#SEO #WebDesign",
         "time": 1711321237,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/articles\/?id=9\">id<\/a>"
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/articles\/?id=9\"  title=\"id=9 (permanent link)\" >id<\/a>"
     },
     {
         "id": "7",
@@ -70,7 +70,7 @@ var articlesJsonVar =
         "url": "",
         "tag": "#theme #auto #automatic #dark #light #mode",
         "time": 1710664085,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/articles\/?id=7\">id<\/a>"
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/articles\/?id=7\"  title=\"id=7 (permanent link)\" >id<\/a>"
     },
     {
         "id": "5",
@@ -80,7 +80,7 @@ var articlesJsonVar =
         "url": "",
         "tag": "#CSS #responsive #UI #UX #website #WebDesign #note",
         "time": 1706230527,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/articles\/?id=5\">id<\/a>"
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/articles\/?id=5\"  title=\"id=5 (permanent link)\" >id<\/a>"
     },
     {
         "id": "3",
@@ -90,7 +90,7 @@ var articlesJsonVar =
         "url": "",
         "tag": "#HTML",
         "time": 1704534741,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/articles\/?id=3\">id<\/a>"
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/articles\/?id=3\"  title=\"id=3 (permanent link)\" >id<\/a>"
     },
     {
         "id": "1",
@@ -100,6 +100,6 @@ var articlesJsonVar =
         "url": "",
         "tag": "#start #end",
         "time": 1704235006,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/articles\/?id=1\">id<\/a>"
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/articles\/?id=1\"  title=\"id=1 (permanent link)\" >id<\/a>"
     }
 ]
