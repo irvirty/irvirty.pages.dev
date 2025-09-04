@@ -527,7 +527,7 @@ document.getElementById("footer").innerHTML = `
 <span id="fPinButton"></span>
 </div>
 
-<a class="brand inlineBlock padding" style="padding-left: 0;" title="Start menu" href="${confD}all/">All</a>
+<!--<a class="brand inlineBlock padding" style="padding-left: 0;" title="Start menu" href="${confD}all/">All</a>-->
 <a class="brand inlineBlock padding" title="About" href="${confD}pages/about/">About</a>
 <a class="brand inlineBlock padding" title="Bluesky" href="https://bsky.app/profile/${conf["confUsername"]}.pages.dev">Bluesky</a>
 <a class="brand inlineBlock padding" title="News" href="${confD}pages/news/">News</a>
