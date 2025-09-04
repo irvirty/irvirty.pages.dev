@@ -3,6 +3,16 @@ var linksJsonVar =
 
 [
     {
+        "id": "272",
+        "text": "Mojeek",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.mojeek.com\/",
+        "tag": "#platform #search #engine #SearchEngine",
+        "time": 1756981930,
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=272\"  title=\"id=272 (permanent link)\" >id<\/a>"
+    },
+    {
         "id": "271",
         "text": "Vimeo AI-Powered Video Platform",
         "text2": "",
