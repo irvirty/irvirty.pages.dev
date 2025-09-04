@@ -221,20 +221,30 @@ input.setAttribute("value", dataMode);
 document.getElementById("form").appendChild(input);
 
 
-if (q55PrintUrl == null||q55PrintUrl == "null"){ q55PrintUrl = ""; }
-if (q55TagPrintUrl != null&&q55TagPrintUrl != ""&&q55PrintUrl == ""){ q55PrintUrl = '%23' + q55TagPrintUrl; }
+if (q55PrintUrl == null||q55PrintUrl == "null"||q55PrintUrl == ""){
+q55PrintUrl = "";
+} else {
+q55PrintUrl = "q=" + q55PrintUrl;
+}
+
+if (q55TagPrintUrl == null||q55TagPrintUrl == "null"||q55TagPrintUrl == ""){
+//q55PrintUrl = "";
+} else {
+q55PrintUrl = "q=" + q55TagPrintUrl;
+}
 
 let lModeList = "all sitemap links websitedirectory news microblog articles notes wiki randomwebsite";
 let lModeListArr = fuMSplit(lModeList);
+
 
 // print 1
 lPrint = "";
 lModeListArr.forEach((val, index) => {
 //console.log(val + "=" + index);
 if (mode55 == val){
-lPrint += `<a class="op autoColumnItem keepTag2 border light2 borderRadius2 active2 borderBottomBrand" href="?q=` + q55PrintUrl + `&dmode=` + val + `">`+ val + `</a> `;
+lPrint += `<a class="op autoColumnItem keepTag2 border light2 borderRadius2 active2 borderBottomBrand" href="?` + q55PrintUrl + `&dmode=` + val + `">`+ val + `</a> `;
 } else {
-lPrint += `<a class="op autoColumnItem keepTag2 border light2 borderRadius2" href="?q=` + q55PrintUrl + `&dmode=` + val + `">`+ val + `</a> `;
+lPrint += `<a class="op autoColumnItem keepTag2 border light2 borderRadius2" href="?` + q55PrintUrl + `&dmode=` + val + `">`+ val + `</a> `;
 }
 });
 document.getElementById("modeList").innerHTML = lPrint;
@@ -245,7 +255,7 @@ function updateValue(e) {
 
 //log.textContent = e.target.value;
 q55PrintURl = e.target.value;
-q55PrintURl = encodeURIComponent(q55PrintURl);
+q55PrintURl = "q=" + encodeURIComponent(q55PrintURl);
 
 
 // print 2
@@ -253,9 +263,9 @@ lPrint = "";
 lModeListArr.forEach((val, index) => {
 //console.log(val + "=" + index);
 if (mode55 == val){
-lPrint += `<a class="op autoColumnItem keepTag2 border light2 borderRadius2 borderBottomBrand" href="?q=` + q55PrintURl + `&dmode=` + val + `">`+ val + `</a> `;
+lPrint += `<a class="op autoColumnItem keepTag2 border light2 borderRadius2 borderBottomBrand" href="?` + q55PrintURl + `&dmode=` + val + `">`+ val + `</a> `;
 } else {
-lPrint += `<a class="op autoColumnItem keepTag2 border light2 borderRadius2" href="?q=` + q55PrintURl + `&dmode=` + val + `">`+ val + `</a> `;
+lPrint += `<a class="op autoColumnItem keepTag2 border light2 borderRadius2" href="?` + q55PrintURl + `&dmode=` + val + `">`+ val + `</a> `;
 }
 });
 document.getElementById("modeList").innerHTML = lPrint;

@@ -1416,14 +1416,14 @@ scriptDir = fuMHideFileNameExt(scriptDir);
 if (q == tag){
 tagList += `
 
-<a class="keepTag light2 border2 borderRadius2 ${hlClass} c4R" href="${scriptDir}?q=${goTag}" style="background: var(--${tagColor}); font-size: ${tagSize};">${printTag}</a>
+<a class="keepTag light2 border2 borderRadius2 ${hlClass} c4R" href="${scriptDir}?q=${goTag}&dmode=${dMode}" style="background: var(--${tagColor}); font-size: ${tagSize};">${printTag}</a>
 
 `;
 } else {
 
 tagList += `
 
-<a class="keepTag light2 border2 borderRadius2 ${hlClass} ${tagColor}" href="${scriptDir}?q=${goTag}"  style="font-size: ${tagSize};">${printTag}</a>
+<a class="keepTag light2 border2 borderRadius2 ${hlClass} ${tagColor}" href="${scriptDir}?q=${goTag}&dmode=${dMode}"  style="font-size: ${tagSize};">${printTag}</a>
 
 `;
 }
