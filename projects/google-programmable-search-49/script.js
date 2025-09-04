@@ -61,12 +61,12 @@ var lQModePrint = `<a class="brand light autoColumnItem keepTag2 itemHeight bord
 
 var lQMode = [
 {"name":"Web", "title":"Web seach", "comName":"web", "code":"74e19ee10195d4644"},
-{"name":"Web Latest", "title":"Web search (Latest result)", "comName":"WebLatest", "code":"974cdfc30e536405d"},
+{"name":"Web (latest)", "title":"Web search (Latest result)", "comName":"WebLatest", "code":"974cdfc30e536405d"},
 {"name":"Blogs", "title":"Blogs", "comName":"blogs", "code":"653a54ad99a1442eb"},
-{"name":"Blogs Latest", "title":"Blogs Latest", "comName":"BlogsLatest", "code":"b1da190ad1c7048ca"},
+{"name":"Blogs (latest)", "title":"Blogs Latest", "comName":"BlogsLatest", "code":"b1da190ad1c7048ca"},
 {"name":"Videos", "title":"Videos", "comName":"videos", "code":"66e67d2cd1ec94b3b"},
-{"name":"Static", "title":"Static Sites", "comName":"static", "code":"4015813ba11b24317"},
-{"name":"Static Latest", "title":"Static Sites (latest)", "comName":"StaticLatest", "code":"529e053d95bd24f6c"},
+{"name":"Static Sites", "title":"Static Sites", "comName":"StaticSites", "code":"4015813ba11b24317"},
+{"name":"Static Site (latest)", "title":"Static Sites (latest)", "comName":"StaticSitesLatest", "code":"529e053d95bd24f6c"},
 {"name":"Social Network", "title":"Social Network", "comName":"SocialNetwork", "code":"44b86024eb60e444d"},
 {"name":"Social Network (latest)", "title":"Social Network (latest)", "comName":"SocialNetworkLatest", "code":"a58dee4156d4f4889"},
 //{"name":"github.io", "title":"", "comName":"github", "code":"614f3596881c64f5f"},
