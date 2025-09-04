@@ -10,7 +10,7 @@ var websitedirectoryJsonVar =
         "url": "https:\/\/alternativeto.net\/",
         "tag": "#platform #app #software",
         "time": 1738879524,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/websitedirectory\/?id=15\"  title=\"id=15 (permanent link)\" >id<\/a>"
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/website-directory\/?id=15\"  title=\"id=15 (permanent link)\" >id<\/a>"
     },
     {
         "id": "14",
@@ -20,7 +20,7 @@ var websitedirectoryJsonVar =
         "url": "https:\/\/play.typeracer.com\/",
         "tag": "#game #typing #test #speed",
         "time": 1738838086,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/websitedirectory\/?id=14\"  title=\"id=14 (permanent link)\" >id<\/a>"
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/website-directory\/?id=14\"  title=\"id=14 (permanent link)\" >id<\/a>"
     },
     {
         "id": "13",
@@ -30,7 +30,7 @@ var websitedirectoryJsonVar =
         "url": "https:\/\/monkeytype.com\/",
         "tag": "#game #typing #speed #test",
         "time": 1738837791,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/websitedirectory\/?id=13\"  title=\"id=13 (permanent link)\" >id<\/a>"
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/website-directory\/?id=13\"  title=\"id=13 (permanent link)\" >id<\/a>"
     },
     {
         "id": "12",
@@ -40,7 +40,7 @@ var websitedirectoryJsonVar =
         "url": "https:\/\/www.microsoft.com\/software-download\/",
         "tag": "#OS #software #system",
         "time": 1738834342,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/websitedirectory\/?id=12\"  title=\"id=12 (permanent link)\" >id<\/a>"
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/website-directory\/?id=12\"  title=\"id=12 (permanent link)\" >id<\/a>"
     },
     {
         "id": "11",
@@ -50,7 +50,7 @@ var websitedirectoryJsonVar =
         "url": "https:\/\/ubuntu.com\/download\/desktop",
         "tag": "#OS #software #system",
         "time": 1738834187,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/websitedirectory\/?id=11\"  title=\"id=11 (permanent link)\" >id<\/a>"
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/website-directory\/?id=11\"  title=\"id=11 (permanent link)\" >id<\/a>"
     },
     {
         "id": "8",
@@ -60,7 +60,7 @@ var websitedirectoryJsonVar =
         "url": "https:\/\/www.youtube.com\/",
         "tag": "#video #platform",
         "time": 1738816143,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/websitedirectory\/?id=8\"  title=\"id=8 (permanent link)\" >id<\/a>"
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/website-directory\/?id=8\"  title=\"id=8 (permanent link)\" >id<\/a>"
     },
     {
         "id": "7",
@@ -70,7 +70,7 @@ var websitedirectoryJsonVar =
         "url": "https:\/\/www.dailymotion.com\/",
         "tag": "#video #platform",
         "time": 1738815812,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/websitedirectory\/?id=7\"  title=\"id=7 (permanent link)\" >id<\/a>"
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/website-directory\/?id=7\"  title=\"id=7 (permanent link)\" >id<\/a>"
     },
     {
         "id": "5",
@@ -80,7 +80,7 @@ var websitedirectoryJsonVar =
         "url": "https:\/\/about.gitlab.com\/",
         "tag": "#code #coding #programming #empty",
         "time": 1738815637,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/websitedirectory\/?id=5\"  title=\"id=5 (permanent link)\" >id<\/a>"
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/website-directory\/?id=5\"  title=\"id=5 (permanent link)\" >id<\/a>"
     },
     {
         "id": "4",
@@ -90,7 +90,7 @@ var websitedirectoryJsonVar =
         "url": "https:\/\/github.com\/",
         "tag": "#code #coding #programming #empty",
         "time": 1738814401,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/websitedirectory\/?id=4\"  title=\"id=4 (permanent link)\" >id<\/a>"
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/website-directory\/?id=4\"  title=\"id=4 (permanent link)\" >id<\/a>"
     },
     {
         "id": "3",
@@ -100,7 +100,7 @@ var websitedirectoryJsonVar =
         "url": "https:\/\/marginalia-search.com\/",
         "tag": "#catalog #directory #search #SearchEngine",
         "time": 1738814186,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/websitedirectory\/?id=3\"  title=\"id=3 (permanent link)\" >id<\/a>"
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/website-directory\/?id=3\"  title=\"id=3 (permanent link)\" >id<\/a>"
     },
     {
         "id": "2",
@@ -110,7 +110,7 @@ var websitedirectoryJsonVar =
         "url": "https:\/\/www.bing.com\/",
         "tag": "#catalog #directory #search #SearchEngine",
         "time": 1738813787,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/websitedirectory\/?id=2\"  title=\"id=2 (permanent link)\" >id<\/a>"
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/website-directory\/?id=2\"  title=\"id=2 (permanent link)\" >id<\/a>"
     },
     {
         "id": "1",
@@ -120,6 +120,6 @@ var websitedirectoryJsonVar =
         "url": "https:\/\/www.google.com\/",
         "tag": "#search #SearchEngine #directory #catalog",
         "time": 1738813707,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/websitedirectory\/?id=1\"  title=\"id=1 (permanent link)\" >id<\/a>"
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/website-directory\/?id=1\"  title=\"id=1 (permanent link)\" >id<\/a>"
     }
 ]

@@ -971,11 +971,12 @@ var subQforLight = subQ.join(confSymbolForSplit);
 
 if (checkDublicateId[0] != postId){ // fixed dublicate post when search and found
 
+// fixme for s3
 // Luck
 if (q2 == 'l'){
 //if (postUrl == ''&&postId != ''){ window.location.href = scriptDir + '?id=' + postId; }
 if (postUrl != ''&&String('' + window.location + '').indexOf("#StopRedirect") == -1){
-comMessagePrint = `Luck search, redirect to URL: `+ sTimeRedir[2] / 1000 + ` sec.`;
+comMessagePrint = `Luck search, redirect to URL: ` + sTimeRedir[2] / 1000+` sec.`;
 window.location.href = '/projects/redirects-25/?rUrl=' + postUrl;
 //window.location.href = postUrl;
 window.location.href = window.location.href + '#StopRedirect'; 

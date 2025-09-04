@@ -10,7 +10,7 @@ var randomwebsiteJsonVar =
         "url": "https:\/\/www.toureiffel.paris\/en",
         "tag": "#culture",
         "time": 1747413029,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/randomwebsite\/?id=116\"  title=\"id=116 (permanent link)\" >id<\/a>"
+        "rightFooter": "<a class=\"brand\" href=\"\/projects\/random-website-69\/data-list.html?id=116\"  title=\"id=116 (permanent link)\" >id<\/a>"
     },
     {
         "id": "115",
@@ -20,7 +20,7 @@ var randomwebsiteJsonVar =
         "url": "https:\/\/www.louvre.fr\/",
         "tag": "#culture",
         "time": 1747370071,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/randomwebsite\/?id=115\"  title=\"id=115 (permanent link)\" >id<\/a>"
+        "rightFooter": "<a class=\"brand\" href=\"\/projects\/random-website-69\/data-list.html?id=115\"  title=\"id=115 (permanent link)\" >id<\/a>"
     },
     {
         "id": "114",
@@ -30,7 +30,7 @@ var randomwebsiteJsonVar =
         "url": "https:\/\/ourworldindata.org\/",
         "tag": "#data",
         "time": 1746648660,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/randomwebsite\/?id=114\"  title=\"id=114 (permanent link)\" >id<\/a>"
+        "rightFooter": "<a class=\"brand\" href=\"\/projects\/random-website-69\/data-list.html?id=114\"  title=\"id=114 (permanent link)\" >id<\/a>"
     },
     {
         "id": "113",
@@ -40,7 +40,7 @@ var randomwebsiteJsonVar =
         "url": "https:\/\/www.southparkstudios.com\/",
         "tag": "#cartoon #video",
         "time": 1741489622,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/randomwebsite\/?id=113\"  title=\"id=113 (permanent link)\" >id<\/a>"
+        "rightFooter": "<a class=\"brand\" href=\"\/projects\/random-website-69\/data-list.html?id=113\"  title=\"id=113 (permanent link)\" >id<\/a>"
     },
     {
         "id": "112",
@@ -50,7 +50,7 @@ var randomwebsiteJsonVar =
         "url": "https:\/\/blog.mozilla.org\/en\/",
         "tag": "#blog #app #software",
         "time": 1740837995,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/randomwebsite\/?id=112\"  title=\"id=112 (permanent link)\" >id<\/a>"
+        "rightFooter": "<a class=\"brand\" href=\"\/projects\/random-website-69\/data-list.html?id=112\"  title=\"id=112 (permanent link)\" >id<\/a>"
     },
     {
         "id": "111",
@@ -60,7 +60,7 @@ var randomwebsiteJsonVar =
         "url": "https:\/\/en.wikipedia.org\/wiki\/Category:Internet_memes_by_year_of_introduction",
         "tag": "",
         "time": 1739273651,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/randomwebsite\/?id=111\"  title=\"id=111 (permanent link)\" >id<\/a>"
+        "rightFooter": "<a class=\"brand\" href=\"\/projects\/random-website-69\/data-list.html?id=111\"  title=\"id=111 (permanent link)\" >id<\/a>"
     },
     {
         "id": "110",
@@ -70,7 +70,7 @@ var randomwebsiteJsonVar =
         "url": "https:\/\/blog.cloudflare.com\/",
         "tag": "#blog #technology",
         "time": 1738895030,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/randomwebsite\/?id=110\"  title=\"id=110 (permanent link)\" >id<\/a>"
+        "rightFooter": "<a class=\"brand\" href=\"\/projects\/random-website-69\/data-list.html?id=110\"  title=\"id=110 (permanent link)\" >id<\/a>"
     },
     {
         "id": "109",
@@ -80,7 +80,7 @@ var randomwebsiteJsonVar =
         "url": "https:\/\/doodles.google\/search\/",
         "tag": "#doodle #game",
         "time": 1734773656,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/randomwebsite\/?id=109\"  title=\"id=109 (permanent link)\" >id<\/a>"
+        "rightFooter": "<a class=\"brand\" href=\"\/projects\/random-website-69\/data-list.html?id=109\"  title=\"id=109 (permanent link)\" >id<\/a>"
     },
     {
         "id": "108",
@@ -90,7 +90,7 @@ var randomwebsiteJsonVar =
         "url": "https:\/\/en.wikipedia.org\/wiki\/List_of_most-visited_art_museums",
         "tag": "#art #gallery #photo #image",
         "time": 1732759559,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/randomwebsite\/?id=108\"  title=\"id=108 (permanent link)\" >id<\/a>"
+        "rightFooter": "<a class=\"brand\" href=\"\/projects\/random-website-69\/data-list.html?id=108\"  title=\"id=108 (permanent link)\" >id<\/a>"
     },
     {
         "id": "105",
@@ -100,7 +100,7 @@ var randomwebsiteJsonVar =
         "url": "https:\/\/future.mozilla.org\/",
         "tag": "#projects #platform",
         "time": 1730538952,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/randomwebsite\/?id=105\"  title=\"id=105 (permanent link)\" >id<\/a>"
+        "rightFooter": "<a class=\"brand\" href=\"\/projects\/random-website-69\/data-list.html?id=105\"  title=\"id=105 (permanent link)\" >id<\/a>"
     },
     {
         "id": "104",
@@ -110,7 +110,7 @@ var randomwebsiteJsonVar =
         "url": "https:\/\/developers.google.com\/search\/blog",
         "tag": "#WebDevelopment #WebDesign #blog",
         "time": 1730494710,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/randomwebsite\/?id=104\"  title=\"id=104 (permanent link)\" >id<\/a>"
+        "rightFooter": "<a class=\"brand\" href=\"\/projects\/random-website-69\/data-list.html?id=104\"  title=\"id=104 (permanent link)\" >id<\/a>"
     },
     {
         "id": "103",
@@ -120,7 +120,7 @@ var randomwebsiteJsonVar =
         "url": "https:\/\/web.dev\/blog",
         "tag": "#WebDesign #WebDevelopment #blog",
         "time": 1730329802,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/randomwebsite\/?id=103\"  title=\"id=103 (permanent link)\" >id<\/a>"
+        "rightFooter": "<a class=\"brand\" href=\"\/projects\/random-website-69\/data-list.html?id=103\"  title=\"id=103 (permanent link)\" >id<\/a>"
     },
     {
         "id": "102",
@@ -130,7 +130,7 @@ var randomwebsiteJsonVar =
         "url": "https:\/\/m3.material.io\/blog",
         "tag": "#WebDesign #WebDevelopment #blog",
         "time": 1730329760,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/randomwebsite\/?id=102\"  title=\"id=102 (permanent link)\" >id<\/a>"
+        "rightFooter": "<a class=\"brand\" href=\"\/projects\/random-website-69\/data-list.html?id=102\"  title=\"id=102 (permanent link)\" >id<\/a>"
     },
     {
         "id": "101",
@@ -140,7 +140,7 @@ var randomwebsiteJsonVar =
         "url": "https:\/\/developer.chrome.com\/blog",
         "tag": "#WebDesign #WebDevelopment #blog",
         "time": 1730329721,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/randomwebsite\/?id=101\"  title=\"id=101 (permanent link)\" >id<\/a>"
+        "rightFooter": "<a class=\"brand\" href=\"\/projects\/random-website-69\/data-list.html?id=101\"  title=\"id=101 (permanent link)\" >id<\/a>"
     },
     {
         "id": "100",
@@ -150,7 +150,7 @@ var randomwebsiteJsonVar =
         "url": "https:\/\/developer.mozilla.org\/en-US\/blog\/",
         "tag": "#WebDesign #WebDevelopment #blog",
         "time": 1730329678,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/randomwebsite\/?id=100\"  title=\"id=100 (permanent link)\" >id<\/a>"
+        "rightFooter": "<a class=\"brand\" href=\"\/projects\/random-website-69\/data-list.html?id=100\"  title=\"id=100 (permanent link)\" >id<\/a>"
     },
     {
         "id": "99",
@@ -160,7 +160,7 @@ var randomwebsiteJsonVar =
         "url": "https:\/\/www.w3.org\/blog\/",
         "tag": "#WebDevelopment #WebDesign #blog",
         "time": 1730329611,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/randomwebsite\/?id=99\"  title=\"id=99 (permanent link)\" >id<\/a>"
+        "rightFooter": "<a class=\"brand\" href=\"\/projects\/random-website-69\/data-list.html?id=99\"  title=\"id=99 (permanent link)\" >id<\/a>"
     },
     {
         "id": "98",
@@ -170,7 +170,7 @@ var randomwebsiteJsonVar =
         "url": "https:\/\/wordpress.com\/go\/author\/wpcontentteam\/",
         "tag": "#WebDesign #WebDevelopment #blog",
         "time": 1730077132,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/randomwebsite\/?id=98\"  title=\"id=98 (permanent link)\" >id<\/a>"
+        "rightFooter": "<a class=\"brand\" href=\"\/projects\/random-website-69\/data-list.html?id=98\"  title=\"id=98 (permanent link)\" >id<\/a>"
     },
     {
         "id": "97",
@@ -180,7 +180,7 @@ var randomwebsiteJsonVar =
         "url": "https:\/\/www.hostinger.com\/tutorials\/",
         "tag": "#WebDevelopment #WebDesign #blog #tutorials",
         "time": 1730075964,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/randomwebsite\/?id=97\"  title=\"id=97 (permanent link)\" >id<\/a>"
+        "rightFooter": "<a class=\"brand\" href=\"\/projects\/random-website-69\/data-list.html?id=97\"  title=\"id=97 (permanent link)\" >id<\/a>"
     },
     {
         "id": "96",
@@ -190,7 +190,7 @@ var randomwebsiteJsonVar =
         "url": "https:\/\/www.wix.com\/blog",
         "tag": "#WebDesign #blog",
         "time": 1730074069,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/randomwebsite\/?id=96\"  title=\"id=96 (permanent link)\" >id<\/a>"
+        "rightFooter": "<a class=\"brand\" href=\"\/projects\/random-website-69\/data-list.html?id=96\"  title=\"id=96 (permanent link)\" >id<\/a>"
     },
     {
         "id": "83",
@@ -200,7 +200,7 @@ var randomwebsiteJsonVar =
         "url": "https:\/\/theuselessweb.com\/",
         "tag": "#random #website",
         "time": 1729550768,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/randomwebsite\/?id=83\"  title=\"id=83 (permanent link)\" >id<\/a>"
+        "rightFooter": "<a class=\"brand\" href=\"\/projects\/random-website-69\/data-list.html?id=83\"  title=\"id=83 (permanent link)\" >id<\/a>"
     },
     {
         "id": "75",
@@ -210,7 +210,7 @@ var randomwebsiteJsonVar =
         "url": "https:\/\/moderncss.dev\/",
         "tag": "#CSS",
         "time": 1729082203,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/randomwebsite\/?id=75\"  title=\"id=75 (permanent link)\" >id<\/a>"
+        "rightFooter": "<a class=\"brand\" href=\"\/projects\/random-website-69\/data-list.html?id=75\"  title=\"id=75 (permanent link)\" >id<\/a>"
     },
     {
         "id": "69",
@@ -220,7 +220,7 @@ var randomwebsiteJsonVar =
         "url": "https:\/\/csszengarden.com\/",
         "tag": "#CSS #WebDesign",
         "time": 1728779050,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/randomwebsite\/?id=69\"  title=\"id=69 (permanent link)\" >id<\/a>"
+        "rightFooter": "<a class=\"brand\" href=\"\/projects\/random-website-69\/data-list.html?id=69\"  title=\"id=69 (permanent link)\" >id<\/a>"
     },
     {
         "id": "63",
@@ -230,7 +230,7 @@ var randomwebsiteJsonVar =
         "url": "https:\/\/1mb.club\/",
         "tag": "#catalog",
         "time": 1728008086,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/randomwebsite\/?id=63\"  title=\"id=63 (permanent link)\" >id<\/a>"
+        "rightFooter": "<a class=\"brand\" href=\"\/projects\/random-website-69\/data-list.html?id=63\"  title=\"id=63 (permanent link)\" >id<\/a>"
     },
     {
         "id": "62",
@@ -240,7 +240,7 @@ var randomwebsiteJsonVar =
         "url": "https:\/\/darktheme.club\/",
         "tag": "#catalog",
         "time": 1727876263,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/randomwebsite\/?id=62\"  title=\"id=62 (permanent link)\" >id<\/a>"
+        "rightFooter": "<a class=\"brand\" href=\"\/projects\/random-website-69\/data-list.html?id=62\"  title=\"id=62 (permanent link)\" >id<\/a>"
     },
     {
         "id": "58",
@@ -250,7 +250,7 @@ var randomwebsiteJsonVar =
         "url": "https:\/\/www.loc.gov\/collections\/",
         "tag": "#library #collections #platform",
         "time": 1727533117,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/randomwebsite\/?id=58\"  title=\"id=58 (permanent link)\" >id<\/a>"
+        "rightFooter": "<a class=\"brand\" href=\"\/projects\/random-website-69\/data-list.html?id=58\"  title=\"id=58 (permanent link)\" >id<\/a>"
     },
     {
         "id": "55",
@@ -260,7 +260,7 @@ var randomwebsiteJsonVar =
         "url": "https:\/\/doodles.google\/",
         "tag": "#day #games",
         "time": 1727298598,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/randomwebsite\/?id=55\"  title=\"id=55 (permanent link)\" >id<\/a>"
+        "rightFooter": "<a class=\"brand\" href=\"\/projects\/random-website-69\/data-list.html?id=55\"  title=\"id=55 (permanent link)\" >id<\/a>"
     },
     {
         "id": "54",
@@ -270,7 +270,7 @@ var randomwebsiteJsonVar =
         "url": "https:\/\/whats.new\/shortcuts\/",
         "tag": "#shotcuts #projects #command #create",
         "time": 1727282751,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/randomwebsite\/?id=54\"  title=\"id=54 (permanent link)\" >id<\/a>"
+        "rightFooter": "<a class=\"brand\" href=\"\/projects\/random-website-69\/data-list.html?id=54\"  title=\"id=54 (permanent link)\" >id<\/a>"
     },
     {
         "id": "46",
@@ -280,7 +280,7 @@ var randomwebsiteJsonVar =
         "url": "https:\/\/slashdot.org\/",
         "tag": "#news #technology",
         "time": 1726846017,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/randomwebsite\/?id=46\"  title=\"id=46 (permanent link)\" >id<\/a>"
+        "rightFooter": "<a class=\"brand\" href=\"\/projects\/random-website-69\/data-list.html?id=46\"  title=\"id=46 (permanent link)\" >id<\/a>"
     },
     {
         "id": "45",
@@ -290,7 +290,7 @@ var randomwebsiteJsonVar =
         "url": "https:\/\/js13kgames.com\/",
         "tag": "#games #cool",
         "time": 1726798859,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/randomwebsite\/?id=45\"  title=\"id=45 (permanent link)\" >id<\/a>"
+        "rightFooter": "<a class=\"brand\" href=\"\/projects\/random-website-69\/data-list.html?id=45\"  title=\"id=45 (permanent link)\" >id<\/a>"
     },
     {
         "id": "34",
@@ -300,7 +300,7 @@ var randomwebsiteJsonVar =
         "url": "https:\/\/paint.toys\/",
         "tag": "#drawing #paint",
         "time": 1726386049,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/randomwebsite\/?id=34\"  title=\"id=34 (permanent link)\" >id<\/a>"
+        "rightFooter": "<a class=\"brand\" href=\"\/projects\/random-website-69\/data-list.html?id=34\"  title=\"id=34 (permanent link)\" >id<\/a>"
     },
     {
         "id": "29",
@@ -310,7 +310,7 @@ var randomwebsiteJsonVar =
         "url": "https:\/\/stackoverflow.blog\/",
         "tag": "#development #blog",
         "time": 1726220799,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/randomwebsite\/?id=29\"  title=\"id=29 (permanent link)\" >id<\/a>"
+        "rightFooter": "<a class=\"brand\" href=\"\/projects\/random-website-69\/data-list.html?id=29\"  title=\"id=29 (permanent link)\" >id<\/a>"
     },
     {
         "id": "24",
@@ -320,6 +320,6 @@ var randomwebsiteJsonVar =
         "url": "https:\/\/experiments.withgoogle.com\/experiments",
         "tag": "#nice #cool",
         "time": 1726216598,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/randomwebsite\/?id=24\"  title=\"id=24 (permanent link)\" >id<\/a>"
+        "rightFooter": "<a class=\"brand\" href=\"\/projects\/random-website-69\/data-list.html?id=24\"  title=\"id=24 (permanent link)\" >id<\/a>"
     }
 ]

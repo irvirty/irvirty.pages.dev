@@ -10,6 +10,6 @@ var guestbookJsonVar =
         "url": "",
         "tag": "",
         "time": 1756894049,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/guestbook\/?id=1\"  title=\"id=1 (permanent link)\" >id<\/a>"
+        "rightFooter": ""
     }
 ]

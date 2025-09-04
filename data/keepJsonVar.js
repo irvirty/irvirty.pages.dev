@@ -10,7 +10,7 @@ var keepJsonVar =
         "url": "https:\/\/soundcloud.com\/soundcloud\/sets\/tracks-of-the-week",
         "tag": "#test #music",
         "time": 1756898061,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/keep\/?id=5\"  title=\"id=5 (permanent link)\" >id<\/a>"
+        "rightFooter": ""
     },
     {
         "id": "4",
@@ -20,7 +20,7 @@ var keepJsonVar =
         "url": "https:\/\/example.com\/",
         "tag": "#test #URL",
         "time": 1756897896,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/keep\/?id=4\"  title=\"id=4 (permanent link)\" >id<\/a>"
+        "rightFooter": ""
     },
     {
         "id": "3",
@@ -30,7 +30,7 @@ var keepJsonVar =
         "url": "",
         "tag": "#test #text",
         "time": 1756897840,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/keep\/?id=3\"  title=\"id=3 (permanent link)\" >id<\/a>"
+        "rightFooter": ""
     },
     {
         "id": "2",
@@ -40,7 +40,7 @@ var keepJsonVar =
         "url": "https:\/\/www.youtube.com\/watch?v=jNQXAC9IVRw",
         "tag": "#ForTest #first #YouTube #SocialNetwork",
         "time": 1756897256,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/keep\/?id=2\"  title=\"id=2 (permanent link)\" >id<\/a>"
+        "rightFooter": ""
     },
     {
         "id": "1",
@@ -50,6 +50,6 @@ var keepJsonVar =
         "url": "https:\/\/x.com\/jack\/status\/20",
         "tag": "#ForTest #first #SocialNetwork #Twitter",
         "time": 1756897204,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/keep\/?id=1\"  title=\"id=1 (permanent link)\" >id<\/a>"
+        "rightFooter": ""
     }
 ]

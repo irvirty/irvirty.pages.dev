@@ -9,7 +9,7 @@ var adsJsonVar =
         "url": "https:\/\/sepiasearch.org\/",
         "tag": "#ads",
         "time": 1746420919,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/data\/?id=6222\"  title=\"id=6222 (permanent link)\" >id<\/a>"
+        "rightFooter": ""
     },
     {
         "text": "Hello World!",
@@ -18,7 +18,7 @@ var adsJsonVar =
         "url": "",
         "tag": "#ads",
         "time": 1742720863,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/data\/?id=5931\"  title=\"id=5931 (permanent link)\" >id<\/a>"
+        "rightFooter": ""
     },
     {
         "text": "Home - Google Drive",
@@ -27,7 +27,7 @@ var adsJsonVar =
         "url": "https:\/\/drive.google.com\/",
         "tag": "#ads #cloud #storage",
         "time": 1729849659,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/data\/?id=5732\"  title=\"id=5732 (permanent link)\" >id<\/a>"
+        "rightFooter": ""
     },
     {
         "text": "Dropbox",
@@ -36,7 +36,7 @@ var adsJsonVar =
         "url": "https:\/\/www.dropbox.com\/",
         "tag": "#ads #cloud #storage",
         "time": 1729849604,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/data\/?id=5731\"  title=\"id=5731 (permanent link)\" >id<\/a>"
+        "rightFooter": ""
     },
     {
         "text": "Industry-leading vector graphics software | Adobe Illustrator",
@@ -45,7 +45,7 @@ var adsJsonVar =
         "url": "https:\/\/www.adobe.com\/products\/illustrator.html",
         "tag": "#ads",
         "time": 1689348601,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/data\/?id=4569\"  title=\"id=4569 (permanent link)\" >id<\/a>"
+        "rightFooter": ""
     },
     {
         "text": "Albion Online | The Fantasy Sandbox MMORPG",
@@ -54,7 +54,7 @@ var adsJsonVar =
         "url": "https:\/\/albiononline.com\/",
         "tag": "#ads",
         "time": 1683053930,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/data\/?id=3991\"  title=\"id=3991 (permanent link)\" >id<\/a>"
+        "rightFooter": ""
     },
     {
         "text": "WordPress.com: Build a Site, Sell Your Stuff, Start a Blog & More",
@@ -63,7 +63,7 @@ var adsJsonVar =
         "url": "https:\/\/wordpress.com\/",
         "tag": "#ads",
         "time": 1678452406,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/data\/?id=3801\"  title=\"id=3801 (permanent link)\" >id<\/a>"
+        "rightFooter": ""
     },
     {
         "text": "Tumblr",
@@ -72,7 +72,7 @@ var adsJsonVar =
         "url": "https:\/\/www.tumblr.com\/",
         "tag": "#ads",
         "time": 1678452377,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/data\/?id=3800\"  title=\"id=3800 (permanent link)\" >id<\/a>"
+        "rightFooter": ""
     },
     {
         "text": "Feedly \u2013 Keep up with the topics and trends you care about",
@@ -81,7 +81,7 @@ var adsJsonVar =
         "url": "https:\/\/feedly.com\/",
         "tag": "#ads",
         "time": 1678452369,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/data\/?id=3799\"  title=\"id=3799 (permanent link)\" >id<\/a>"
+        "rightFooter": ""
     },
     {
         "text": "Google",
@@ -90,7 +90,7 @@ var adsJsonVar =
         "url": "https:\/\/www.google.com\/",
         "tag": "#ads",
         "time": 1678452233,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/data\/?id=3798\"  title=\"id=3798 (permanent link)\" >id<\/a>"
+        "rightFooter": ""
     },
     {
         "text": "Download Ubuntu Desktop | Download | Ubuntu",
@@ -99,7 +99,7 @@ var adsJsonVar =
         "url": "https:\/\/ubuntu.com\/download\/desktop",
         "tag": "#ads",
         "time": 1678452095,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/data\/?id=3794\"  title=\"id=3794 (permanent link)\" >id<\/a>"
+        "rightFooter": ""
     },
     {
         "text": "Home | Geany",
@@ -108,7 +108,7 @@ var adsJsonVar =
         "url": "https:\/\/www.geany.org\/",
         "tag": "#ads",
         "time": 1678452065,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/data\/?id=3792\"  title=\"id=3792 (permanent link)\" >id<\/a>"
+        "rightFooter": ""
     },
     {
         "text": "Visual Studio Code - Code Editing. Redefined",
@@ -117,7 +117,7 @@ var adsJsonVar =
         "url": "https:\/\/code.visualstudio.com\/",
         "tag": "#ads",
         "time": 1678452054,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/data\/?id=3791\"  title=\"id=3791 (permanent link)\" >id<\/a>"
+        "rightFooter": ""
     },
     {
         "text": "Official Adobe Photoshop - Photo & design software",
@@ -126,7 +126,7 @@ var adsJsonVar =
         "url": "https:\/\/www.adobe.com\/products\/photoshop.html",
         "tag": "#ads",
         "time": 1678452042,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/data\/?id=3790\"  title=\"id=3790 (permanent link)\" >id<\/a>"
+        "rightFooter": ""
     },
     {
         "text": "Download Firefox for Desktop, Mobile, or Enterprise \u2014 Mozilla",
@@ -135,7 +135,7 @@ var adsJsonVar =
         "url": "https:\/\/www.mozilla.org\/firefox\/browsers\/",
         "tag": "#ads",
         "time": 1678451964,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/data\/?id=3788\"  title=\"id=3788 (permanent link)\" >id<\/a>"
+        "rightFooter": ""
     },
     {
         "text": "Google Chrome - Download the Fast, Secure Browser from Google",
@@ -144,7 +144,7 @@ var adsJsonVar =
         "url": "https:\/\/www.google.com\/chrome\/",
         "tag": "#ads",
         "time": 1678451897,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/data\/?id=3786\"  title=\"id=3786 (permanent link)\" >id<\/a>"
+        "rightFooter": ""
     },
     {
         "text": "Open Broadcaster Software | OBS",
@@ -153,7 +153,7 @@ var adsJsonVar =
         "url": "https:\/\/obsproject.com\/",
         "tag": "#ads",
         "time": 1678451790,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/data\/?id=3785\"  title=\"id=3785 (permanent link)\" >id<\/a>"
+        "rightFooter": ""
     },
     {
         "text": "MediBang Paint - the free digital painting and manga creation software",
@@ -162,7 +162,7 @@ var adsJsonVar =
         "url": "https:\/\/medibangpaint.com\/",
         "tag": "#ads",
         "time": 1678451777,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/data\/?id=3784\"  title=\"id=3784 (permanent link)\" >id<\/a>"
+        "rightFooter": ""
     },
     {
         "text": "Signal >> Home",
@@ -171,7 +171,7 @@ var adsJsonVar =
         "url": "https:\/\/signal.org\/",
         "tag": "#ads",
         "time": 1678451738,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/data\/?id=3781\"  title=\"id=3781 (permanent link)\" >id<\/a>"
+        "rightFooter": ""
     },
     {
         "text": "Home | Viber",
@@ -180,7 +180,7 @@ var adsJsonVar =
         "url": "https:\/\/www.viber.com\/en\/",
         "tag": "#ads",
         "time": 1678451725,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/data\/?id=3780\"  title=\"id=3780 (permanent link)\" >id<\/a>"
+        "rightFooter": ""
     },
     {
         "text": "Home - Linux Mint",
@@ -189,7 +189,7 @@ var adsJsonVar =
         "url": "https:\/\/linuxmint.com\/",
         "tag": "#ads",
         "time": 1678451691,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/data\/?id=3777\"  title=\"id=3777 (permanent link)\" >id<\/a>"
+        "rightFooter": ""
     },
     {
         "text": "The FreeBSD Project",
@@ -198,7 +198,7 @@ var adsJsonVar =
         "url": "https:\/\/www.freebsd.org\/",
         "tag": "#ads",
         "time": 1678451677,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/data\/?id=3776\"  title=\"id=3776 (permanent link)\" >id<\/a>"
+        "rightFooter": ""
     },
     {
         "text": "Fedora",
@@ -207,7 +207,7 @@ var adsJsonVar =
         "url": "https:\/\/getfedora.org\/",
         "tag": "#ads",
         "time": 1678451551,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/data\/?id=3773\"  title=\"id=3773 (permanent link)\" >id<\/a>"
+        "rightFooter": ""
     },
     {
         "text": "Flipboard: Your Social Magazine",
@@ -216,7 +216,7 @@ var adsJsonVar =
         "url": "https:\/\/flipboard.com\/",
         "tag": "#ads",
         "time": 1678451529,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/data\/?id=3771\"  title=\"id=3771 (permanent link)\" >id<\/a>"
+        "rightFooter": ""
     },
     {
         "text": "blender.org - Home of the Blender project - Free and Open 3D Creation Software",
@@ -225,7 +225,7 @@ var adsJsonVar =
         "url": "https:\/\/www.blender.org\/",
         "tag": "#ads",
         "time": 1678451409,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/data\/?id=3767\"  title=\"id=3767 (permanent link)\" >id<\/a>"
+        "rightFooter": ""
     },
     {
         "text": "Blogger.com - Create a unique and beautiful blog easily.",
@@ -234,7 +234,7 @@ var adsJsonVar =
         "url": "https:\/\/www.blogger.com\/about\/",
         "tag": "#ads",
         "time": 1678451379,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/data\/?id=3766\"  title=\"id=3766 (permanent link)\" >id<\/a>"
+        "rightFooter": ""
     },
     {
         "text": "Freesound",
@@ -243,7 +243,7 @@ var adsJsonVar =
         "url": "https:\/\/freesound.org\/",
         "tag": "#ads",
         "time": 1678451366,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/data\/?id=3765\"  title=\"id=3765 (permanent link)\" >id<\/a>"
+        "rightFooter": ""
     },
     {
         "text": "World of Warcraft",
@@ -252,7 +252,7 @@ var adsJsonVar =
         "url": "https:\/\/worldofwarcraft.blizzard.com\/",
         "tag": "#ads",
         "time": 1678448789,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/data\/?id=3762\"  title=\"id=3762 (permanent link)\" >id<\/a>"
+        "rightFooter": ""
     },
     {
         "text": "Home | LibreOffice - Free Office Suite - Based on OpenOffice - Compatible with Microsoft",
@@ -261,7 +261,7 @@ var adsJsonVar =
         "url": "https:\/\/www.libreoffice.org\/",
         "tag": "#ads",
         "time": 1678448761,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/data\/?id=3760\"  title=\"id=3760 (permanent link)\" >id<\/a>"
+        "rightFooter": ""
     },
     {
         "text": "Microsoft 365",
@@ -270,7 +270,7 @@ var adsJsonVar =
         "url": "https:\/\/www.office.com\/",
         "tag": "#ads",
         "time": 1678448736,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/data\/?id=3759\"  title=\"id=3759 (permanent link)\" >id<\/a>"
+        "rightFooter": ""
     },
     {
         "text": "Google Docs",
@@ -279,7 +279,7 @@ var adsJsonVar =
         "url": "https:\/\/docs.google.com\/",
         "tag": "#ads",
         "time": 1678448708,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/data\/?id=3758\"  title=\"id=3758 (permanent link)\" >id<\/a>"
+        "rightFooter": ""
     },
     {
         "text": "Discover the top streamed music and songs online on Soundcloud",
@@ -288,7 +288,7 @@ var adsJsonVar =
         "url": "https:\/\/soundcloud.com\/",
         "tag": "#ads",
         "time": 1678448672,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/data\/?id=3756\"  title=\"id=3756 (permanent link)\" >id<\/a>"
+        "rightFooter": ""
     },
     {
         "text": "Dailymotion - the home for videos that matter",
@@ -297,7 +297,7 @@ var adsJsonVar =
         "url": "https:\/\/www.dailymotion.com\/",
         "tag": "#ads",
         "time": 1678448633,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/data\/?id=3755\"  title=\"id=3755 (permanent link)\" >id<\/a>"
+        "rightFooter": ""
     },
     {
         "text": "Dropbox.com",
@@ -306,7 +306,7 @@ var adsJsonVar =
         "url": "https:\/\/www.dropbox.com\/",
         "tag": "#ads",
         "time": 1678448552,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/data\/?id=3751\"  title=\"id=3751 (permanent link)\" >id<\/a>"
+        "rightFooter": ""
     },
     {
         "text": "Personal Cloud Storage & File Sharing Platform - Google",
@@ -315,7 +315,7 @@ var adsJsonVar =
         "url": "https:\/\/www.google.com\/drive\/",
         "tag": "#ads",
         "time": 1678448540,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/data\/?id=3750\"  title=\"id=3750 (permanent link)\" >id<\/a>"
+        "rightFooter": ""
     },
     {
         "text": "OneDrive",
@@ -324,7 +324,7 @@ var adsJsonVar =
         "url": "https:\/\/onedrive.live.com\/",
         "tag": "#ads",
         "time": 1678448516,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/data\/?id=3749\"  title=\"id=3749 (permanent link)\" >id<\/a>"
+        "rightFooter": ""
     },
     {
         "text": "Shotcut - Home",
@@ -333,7 +333,7 @@ var adsJsonVar =
         "url": "https:\/\/shotcut.org\/",
         "tag": "#ads",
         "time": 1678448503,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/data\/?id=3748\"  title=\"id=3748 (permanent link)\" >id<\/a>"
+        "rightFooter": ""
     },
     {
         "text": "Professional video editing software | Adobe Premiere Pro",
@@ -342,7 +342,7 @@ var adsJsonVar =
         "url": "https:\/\/www.adobe.com\/products\/premiere.html",
         "tag": "#ads",
         "time": 1678448492,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/data\/?id=3747\"  title=\"id=3747 (permanent link)\" >id<\/a>"
+        "rightFooter": ""
     },
     {
         "text": "Imgur: The magic of the Internet",
@@ -351,7 +351,7 @@ var adsJsonVar =
         "url": "https:\/\/imgur.com\/",
         "tag": "#ads",
         "time": 1678448478,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/data\/?id=3746\"  title=\"id=3746 (permanent link)\" >id<\/a>"
+        "rightFooter": ""
     },
     {
         "text": "DeviantArt - The Largest Online Art Gallery and Community",
@@ -360,7 +360,7 @@ var adsJsonVar =
         "url": "https:\/\/www.deviantart.com\/",
         "tag": "#ads",
         "time": 1678448467,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/data\/?id=3745\"  title=\"id=3745 (permanent link)\" >id<\/a>"
+        "rightFooter": ""
     },
     {
         "text": "GIPHY - Be Animated",
@@ -369,7 +369,7 @@ var adsJsonVar =
         "url": "https:\/\/giphy.com\/",
         "tag": "#ads",
         "time": 1678448453,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/data\/?id=3744\"  title=\"id=3744 (permanent link)\" >id<\/a>"
+        "rightFooter": ""
     },
     {
         "text": "Flameshot | Open Source Screenshot Software",
@@ -378,7 +378,7 @@ var adsJsonVar =
         "url": "https:\/\/flameshot.org\/",
         "tag": "#ads",
         "time": 1678448430,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/data\/?id=3742\"  title=\"id=3742 (permanent link)\" >id<\/a>"
+        "rightFooter": ""
     },
     {
         "text": "Syncthing",
@@ -387,7 +387,7 @@ var adsJsonVar =
         "url": "https:\/\/syncthing.net\/",
         "tag": "#ads",
         "time": 1678448393,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/data\/?id=3741\"  title=\"id=3741 (permanent link)\" >id<\/a>"
+        "rightFooter": ""
     },
     {
         "text": "Bing",
@@ -396,7 +396,7 @@ var adsJsonVar =
         "url": "https:\/\/www.bing.com\/",
         "tag": "#ads",
         "time": 1631686791,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/data\/?id=1907\"  title=\"id=1907 (permanent link)\" >id<\/a>"
+        "rightFooter": ""
     },
     {
         "text": "Slashdot: News for nerds, stuff that matters",
@@ -405,7 +405,7 @@ var adsJsonVar =
         "url": "https:\/\/slashdot.org\/",
         "tag": "#ads",
         "time": 1630976007,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/data\/?id=1783\"  title=\"id=1783 (permanent link)\" >id<\/a>"
+        "rightFooter": ""
     },
     {
         "text": "Official download of VLC media player, the best Open Source player - VideoLAN",
@@ -414,7 +414,7 @@ var adsJsonVar =
         "url": "https:\/\/www.videolan.org\/vlc\/",
         "tag": "#ads",
         "time": 1629430579,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/data\/?id=1653\"  title=\"id=1653 (permanent link)\" >id<\/a>"
+        "rightFooter": ""
     },
     {
         "text": "GIMP - GNU Image Manipulation Program",
@@ -423,7 +423,7 @@ var adsJsonVar =
         "url": "https:\/\/www.gimp.org\/",
         "tag": "#ads",
         "time": 1621202631,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/data\/?id=1176\"  title=\"id=1176 (permanent link)\" >id<\/a>"
+        "rightFooter": ""
     },
     {
         "text": "Deezer | Listen to music | Online music streaming platform",
@@ -432,7 +432,7 @@ var adsJsonVar =
         "url": "https:\/\/www.deezer.com\/",
         "tag": "#ads",
         "time": 1620341142,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/data\/?id=326\"  title=\"id=326 (permanent link)\" >id<\/a>"
+        "rightFooter": ""
     },
     {
         "text": "YouTube Music",
@@ -441,7 +441,7 @@ var adsJsonVar =
         "url": "https:\/\/music.youtube.com\/",
         "tag": "#ads",
         "time": 1620341041,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/data\/?id=319\"  title=\"id=319 (permanent link)\" >id<\/a>"
+        "rightFooter": ""
     },
     {
         "text": "YouTube",
@@ -450,7 +450,7 @@ var adsJsonVar =
         "url": "https:\/\/www.youtube.com\/",
         "tag": "#ads",
         "time": 1620269647,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/data\/?id=313\"  title=\"id=313 (permanent link)\" >id<\/a>"
+        "rightFooter": ""
     },
     {
         "text": "Mixcloud - This is Audio Culture | Mixcloud",
@@ -459,6 +459,6 @@ var adsJsonVar =
         "url": "https:\/\/www.mixcloud.com\/",
         "tag": "#ads",
         "time": 1619916679,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/data\/?id=20\"  title=\"id=20 (permanent link)\" >id<\/a>"
+        "rightFooter": ""
     }
 ]

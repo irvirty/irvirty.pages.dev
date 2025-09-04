@@ -9,7 +9,7 @@ var HowMuchDoesAWebsiteCostJsonVar =
         "url": "https:\/\/www.brandingbrothers.de\/pricing",
         "tag": "#HowMuchDoesAWebsiteCost",
         "time": 1756658449,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/data2\/?id=8\"  title=\"id=8 (permanent link)\" >id<\/a>"
+        "rightFooter": ""
     },
     {
         "text": "How Much Does a Website Cost in 2025? [+Calculator]",
@@ -18,7 +18,7 @@ var HowMuchDoesAWebsiteCostJsonVar =
         "url": "https:\/\/www.webfx.com\/web-design\/pricing\/website-costs\/",
         "tag": "#HowMuchDoesAWebsiteCost #research",
         "time": 1743088933,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/data2\/?id=6\"  title=\"id=6 (permanent link)\" >id<\/a>"
+        "rightFooter": ""
     },
     {
         "text": "How much does it cost to run a simple website? : r\/webdev",
@@ -27,7 +27,7 @@ var HowMuchDoesAWebsiteCostJsonVar =
         "url": "https:\/\/www.reddit.com\/r\/webdev\/comments\/ukb4bj\/how_much_does_it_cost_to_run_a_simple_website\/",
         "tag": "#HowMuchDoesAWebsiteCost #research",
         "time": 1743088748,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/data2\/?id=5\"  title=\"id=5 (permanent link)\" >id<\/a>"
+        "rightFooter": ""
     },
     {
         "text": "How much do you charge to build a simple 5 page website (USA, Canada and other high income countries only please)? : r\/web_design",
@@ -36,7 +36,7 @@ var HowMuchDoesAWebsiteCostJsonVar =
         "url": "https:\/\/www.reddit.com\/r\/web_design\/comments\/1265xzh\/how_much_do_you_charge_to_build_a_simple_5_page\/",
         "tag": "#HowMuchDoesAWebsiteCost #research",
         "time": 1743074384,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/data2\/?id=4\"  title=\"id=4 (permanent link)\" >id<\/a>"
+        "rightFooter": ""
     },
     {
         "text": "How much did it cost you to get a website made? And what does the site do? : r\/Entrepreneur",
@@ -45,7 +45,7 @@ var HowMuchDoesAWebsiteCostJsonVar =
         "url": "https:\/\/www.reddit.com\/r\/Entrepreneur\/comments\/u4hn2f\/how_much_did_it_cost_you_to_get_a_website_made\/",
         "tag": "#HowMuchDoesAWebsiteCost",
         "time": 1743068760,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/data2\/?id=3\"  title=\"id=3 (permanent link)\" >id<\/a>"
+        "rightFooter": ""
     },
     {
         "text": "How much does a website cost in 2025? - GoDaddy Blog",
@@ -54,7 +54,7 @@ var HowMuchDoesAWebsiteCostJsonVar =
         "url": "https:\/\/www.godaddy.com\/resources\/skills\/how-much-does-a-website-cost",
         "tag": "#HowMuchDoesAWebsiteCost",
         "time": 1743068054,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/data2\/?id=2\"  title=\"id=2 (permanent link)\" >id<\/a>"
+        "rightFooter": ""
     },
     {
         "text": "How Much Does a Website Cost? (2025 Guide) \u2013 Forbes Advisor",
@@ -63,6 +63,6 @@ var HowMuchDoesAWebsiteCostJsonVar =
         "url": "https:\/\/www.forbes.com\/advisor\/business\/software\/how-much-does-a-website-cost\/",
         "tag": "#HowMuchDoesAWebsiteCost #research",
         "time": 1743067825,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/data2\/?id=1\"  title=\"id=1 (permanent link)\" >id<\/a>"
+        "rightFooter": ""
     }
 ]
