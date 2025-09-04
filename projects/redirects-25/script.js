@@ -537,11 +537,13 @@ q = encodeURIComponent(q);
 urlList = [
 "https://www.google.com/search?q=" + q + "&tbm=nws",
 "https://www.bing.com/news/search?q=" + q + "&form=somesite",
+//"https://www.mojeek.com/search?q=" + q + "&fmt=news",
 ];
 if (q == ''){
 urlList = [
 "https://news.google.com/",
 "https://www.bing.com/news",
+//"https://www.mojeek.com/news"
 ];
 }
 random = urlList[fuMRandom(0, urlList.length - 1)];
@@ -586,6 +588,7 @@ urlList = [
 "https://flipboard.com/topic/computerscience",
 "https://slashdot.org/",
 //"https://alternativeto.net/news/all/",
+//https://www.mojeek.com/news?top=technology
 ];
 }
 random = urlList[fuMRandom(0, urlList.length - 1)];
