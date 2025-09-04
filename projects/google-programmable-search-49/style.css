@@ -214,3 +214,54 @@ background-color: var(--l2) !important;
 margin-top: var(--margin2) !important;
 }
 
+.gsc-selected-option-container {
+  background-color: var(--l) !important;
+  background-image: linear-gradient(top, var(--l), var(--2)) !important;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 2px;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+  color: var(--c2) !important;
+  cursor: default;
+  font-size: 11px;
+  font-weight: bold;
+  height: 27px;
+  line-height: 27px;
+  max-width: 90%;
+  min-width: 54px;
+  outline: 0;
+  padding: 0 28px 0 6px;
+  position: relative;
+  text-align: center;
+}
+
+.gsc-control-cse .gsc-option-menu {
+  background: var(--l) !important;
+  border: 1px solid var(--d) !important;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  cursor: default;
+  font-size: 13px;
+  margin: 0;
+  max-height: 360px;
+  outline: none;
+  padding: 6px 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: 7;
+}
+
+.gsc-option-menu-item {
+  color: var(--c) !important;
+  cursor: pointer;
+  list-style: none;
+  margin: 0;
+  padding: 0 30px 0 30px;
+  white-space: nowrap;
+}
+
+.gsc-option-menu-item-highlighted {
+  background-color: var(--l3) !important;
+  border-color: var(--d3) !important;
+  border-width: 1px 0;
+  color: var(--c4) !important;
+}
