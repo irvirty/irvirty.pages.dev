@@ -1460,13 +1460,14 @@ urlList = [
 ];
 if (q == ''){
 urlList = [
-"https://www.listennotes.com/hot-podcasts/",
+"https://www.listennotes.com/",
 ];
 }
 random = urlList[fuMRandom(0, urlList.length - 1)];
 url = random;
 sRedirectUrl = url;
 break;
+
 
 case "sc#":
 case "sou#":
