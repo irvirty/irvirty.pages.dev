@@ -1,4 +1,4 @@
-// Search redirects v.2.8.31
+// Search redirects v.2.8.32
 // Search query + command
 
 // conf
@@ -50,7 +50,7 @@ sUrlText = myArray[0];
 
 if (q == ''&&q != 'null'){ q = ''; }
 if (q2 == "l"){ q = q + " l"; }
-if (q == ""){ q = "q"; }
+//if (q == ""){ q = "q"; }
 
 if (rUrlGet == null&&q != 'null'&&q != null&&q != ''&&sUrlText.indexOf("cache") == -1){
 
