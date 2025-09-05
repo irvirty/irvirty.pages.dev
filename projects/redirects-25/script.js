@@ -1235,7 +1235,8 @@ url = random;
 sRedirectUrl = url;
 break;
 
-
+case "peertube#":
+case "peer#":
 case "pee#":
 case "sep#":
 q = q3.replace(qCom, '');
@@ -1247,6 +1248,7 @@ urlList = [
 if (q == ''){
 urlList = [
 "https://sepiasearch.org/",
+//"https://joinpeertube.org/",
 ];
 }
 random = urlList[fuMRandom(0, urlList.length - 1)];
@@ -1266,6 +1268,7 @@ urlList = [
 if (q == ''){
 urlList = [
 "https://sepiasearch.org/",
+//"https://joinpeertube.org/",
 ];
 }
 random = urlList[fuMRandom(0, urlList.length - 1)];
