@@ -57,7 +57,7 @@ if(qGQ != ''){ qGQ = encodeURIComponent(qGQ); }
 
 
 // config
-var lQModePrint = `<a class="brand light autoColumnItem keepTag2 itemHeight border borderRadius2 small" href="./?q=">start</a>`;
+var lQModePrint = `<a class="autoColumnItem keepTag2 itemHeight border borderRadius2 small" href="./?q=">start</a>`;
 
 var lQMode = [
 {"name":"Web", "title":"Web seach", "comName":"web", "code":"74e19ee10195d4644"},
@@ -91,16 +91,16 @@ qGQ = e.target.value;
 qGQ = encodeURIComponent(qGQ);
 
 lQModePrint = "";
-lQModePrint = `<a class="brand light autoColumnItem keepTag2 itemHeight border borderRadius2 small" href="./?q=">start</a>`;
+lQModePrint = `<a class="light autoColumnItem keepTag2 itemHeight border borderRadius2 small" href="./?q=">start</a>`;
 
 lQMode.forEach((item, item2) => {
 if (item["comName"] == qGMode){
 lQModePrint += `
-<a class="brand active2 light3 autoColumnItem keepTag2 itemHeight border borderRadius2 small borderBottomBrand" title="${item["title"]}" href="?mode=${item["title"]}&q=${qGQ}">${item["name"]}</a>
+<a class="active2 light3 autoColumnItem keepTag2 itemHeight border borderRadius2 small borderBottomBrand" title="${item["title"]}" href="?mode=${item["title"]}&q=${qGQ}">${item["name"]}</a>
 `;
 } else {
 lQModePrint += `
-<a class="brand autoColumnItem keepTag2 itemHeight light2 border borderRadius2 small" title="${item["title"]}" href="?mode=${item["comName"]}&q=${qGQ}">${item["name"]}</a>
+<a class="autoColumnItem keepTag2 itemHeight light2 border borderRadius2 small" title="${item["title"]}" href="?mode=${item["comName"]}&q=${qGQ}">${item["name"]}</a>
 `;
 }
 });
@@ -114,11 +114,11 @@ document.getElementById("mode").innerHTML = `${lQModePrint}`;
 lQMode.forEach((item, item2) => {
 if (item["comName"] == qGMode){
 lQModePrint += `
-<a class="brand active2 light3 autoColumnItem keepTag2 itemHeight border borderRadius2 small borderBottomBrand" title="${item["title"]}" href="?mode=${item["comName"]}&q=${qGQ}">${item["name"]}</a>
+<a class="active2 light3 autoColumnItem keepTag2 itemHeight border borderRadius2 small borderBottomBrand" title="${item["title"]}" href="?mode=${item["comName"]}&q=${qGQ}">${item["name"]}</a>
 `;
 } else {
 lQModePrint += `
-<a class="brand autoColumnItem keepTag2 light2 itemHeight border borderRadius2 small" title="${item["title"]}" href="?mode=${item["comName"]}&q=${qGQ}">${item["name"]}</a>
+<a class="autoColumnItem keepTag2 light2 itemHeight border borderRadius2 small" title="${item["title"]}" href="?mode=${item["comName"]}&q=${qGQ}">${item["name"]}</a>
 `;
 }
 });
