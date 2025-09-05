@@ -37,9 +37,9 @@ Social Network:
 *.wordpress.com/*
 *.dreamwidth.org/*
 
-Music
+Audio
 *.deezer.com/us/*
-music.youtube.com/*
 *.mixcloud.com/*
 *.open.spotify.com/*
 *.soundcloud.com/*
+*.iheart.com/podcast/*
