@@ -30,15 +30,6 @@ var adsJsonVar =
         "rightFooter": ""
     },
     {
-        "text": "Dropbox",
-        "text2": "",
-        "text3": "",
-        "url": "https:\/\/www.dropbox.com\/",
-        "tag": "#ads #cloud #storage",
-        "time": 1729849604,
-        "rightFooter": ""
-    },
-    {
         "text": "Industry-leading vector graphics software | Adobe Illustrator",
         "text2": "",
         "text3": "",
@@ -297,15 +288,6 @@ var adsJsonVar =
         "url": "https:\/\/www.dailymotion.com\/",
         "tag": "#ads",
         "time": 1678448633,
-        "rightFooter": ""
-    },
-    {
-        "text": "Dropbox.com",
-        "text2": "",
-        "text3": "",
-        "url": "https:\/\/www.dropbox.com\/",
-        "tag": "#ads",
-        "time": 1678448552,
         "rightFooter": ""
     },
     {

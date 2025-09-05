@@ -34,3 +34,12 @@ Social Network:
 *.bsky.app/*
 *.reddit.com/*
 *.tumblr.com/*
+*.wordpress.com/*
+*.dreamwidth.org/*
+
+Music
+*.deezer.com/us/*
+music.youtube.com/*
+*.mixcloud.com/*
+*.open.spotify.com/*
+*.soundcloud.com/*

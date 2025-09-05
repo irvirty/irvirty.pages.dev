@@ -3,6 +3,16 @@ var musicJsonVar =
 
 [
     {
+        "id": "6420",
+        "text": "American Pie \u00b7 Madonna",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=J8nVGIGFPEA",
+        "tag": "#music",
+        "time": 1757049693,
+        "rightFooter": ""
+    },
+    {
         "id": "6329",
         "text": "South Arcade - unaware (Official Video) - YouTube",
         "text2": "",
