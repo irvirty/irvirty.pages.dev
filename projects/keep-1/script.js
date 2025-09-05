@@ -2370,12 +2370,12 @@ embed = `<iframe style="border-radius:12px" src="https://open.spotify.com/embed/
 
 if (play[play.length - 2] == 'episode') {
 play2 = play[play.length - 1];
-embed = `<iframe style="border-radius:12px" src="https://open.spotify.com/embed/episode/${play2}" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>`;
+embed = `<iframe style="border-radius:12px" src="https://open.spotify.com/embed/episode/${play2}" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>`;
 }
 
 if (play[play.length - 2] == 'show') {
 play2 = play[play.length - 1];
-embed = `<iframe style="border-radius:12px" src="https://open.spotify.com/embed/show/${play2}" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>`;
+embed = `<iframe style="border-radius:12px" src="https://open.spotify.com/embed/show/${play2}" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>`;
 }
 
 embedServiceList += 'spotify';
