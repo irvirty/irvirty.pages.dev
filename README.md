@@ -18,7 +18,7 @@ Search redirection, themes, news, typing speed, games, to-do list, images, icons
 - Typing Speed with your own text (in games).
 - New Tab Redirect extension: any website in a new tab page. (in pages)
 - SimpleHomePage - experimental theme for WordPress. (in pages)
-- Note: in website templates (pages) you will find a simplified version of the website (in pages)
+- Navigation or menu project (in projects)
   
 ---
    
