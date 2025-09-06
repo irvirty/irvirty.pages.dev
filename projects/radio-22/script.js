@@ -25,7 +25,13 @@ var q = url.searchParams.get("q");
 if(q != null&&q != ""){
 q = q.trim();
 localStorage.setItem('randomRadioQ', q);
+
+//let titleTmp = document.title;
+let titleTmp = document.getElementsByTagName('title')[0].text;
+document.getElementsByTagName('title')[0].innerHTML = q + ' - ' + titleTmp;
+
 }
+
 
 
 var tag = url.searchParams.get("tag");
@@ -39,9 +45,7 @@ if(q == null){ q = localStorage.getItem('randomRadioQ'); }
 if(q == null) { q = '#radio'; tag = q; }
 var q2 = q;
 
-//let titleTmp = document.title;
-let titleTmp = document.getElementsByTagName('title')[0].text;
-document.getElementsByTagName('title')[0].innerHTML = q2 + ' - ' + titleTmp;
+
 
 
 var arrListForRandom = [];

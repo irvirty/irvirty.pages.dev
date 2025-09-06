@@ -25,6 +25,10 @@ var q = url.searchParams.get("q");
 if(q != null&&q != ""){
 q = q.trim();
 localStorage.setItem('randomMusicQ', q);
+
+//let titleTmp = document.title;
+let titleTmp = document.getElementsByTagName('title')[0].text;
+document.getElementsByTagName('title')[0].innerHTML = q + ' - ' + titleTmp;
 }
 
 
@@ -37,9 +41,6 @@ if(q == null){ q = localStorage.getItem('randomMusicQ'); }
 if(q == null) { q = '#music'; tag = q; }
 var q2 = q;
 
-//let titleTmp = document.title;
-let titleTmp = document.getElementsByTagName('title')[0].text;
-document.getElementsByTagName('title')[0].innerHTML = q2 + ' - ' + titleTmp;
 
 
 var arrListForRandom = [];

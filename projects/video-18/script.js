@@ -26,6 +26,10 @@ var q = url.searchParams.get("q");
 if(q != null&&q != ""){
 q = q.trim();
 localStorage.setItem('randomVideoQ', q);
+
+//let titleTmp = document.title;
+let titleTmp = document.getElementsByTagName('title')[0].text;
+document.getElementsByTagName('title')[0].innerHTML = q + ' - ' + titleTmp;
 }
 
 
@@ -38,9 +42,7 @@ if(q == null){ q = localStorage.getItem('randomVideoQ'); }
 if(q == null) { q = '#video'; tag = '#video'; }
 var q2 = q;
 
-//let titleTmp = document.title;
-let titleTmp = document.getElementsByTagName('title')[0].text;
-document.getElementsByTagName('title')[0].innerHTML = q2 + ' - ' + titleTmp;
+
 
 var arrListForRandom = [];
 var i = 0;
