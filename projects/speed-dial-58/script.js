@@ -27,10 +27,9 @@ var confSpeedDialDataArr = localStorage.getItem("confSpeedDialData");
 } else {
 var confSpeedDialDataArr = [];
 
-confSpeedDialDataArr.push({"text":"YouTube", "url":"https://www.youtube.com/"});
-confSpeedDialDataArr.push({"text":"Reddit", "url":"https://www.reddit.com/"});
-confSpeedDialDataArr.push({"text":"Flipboard", "url":"https://flipboard.com/"});
-confSpeedDialDataArr.push({"text":"Bluesky", "url":"https://bsky.app/"});
+confSpeedDialDataArr.push({"text":"Link example", "url":"https://example.com/"});
+confSpeedDialDataArr.push({"text":"Link example", "url":"https://example.com/"});
+confSpeedDialDataArr.push({"text":"Link example", "url":"https://example.com/"});
 
 var confSpeedDialDataArr = JSON.stringify(confSpeedDialDataArr);
 
