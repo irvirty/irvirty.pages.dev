@@ -268,7 +268,7 @@ ${conf["confMenuItems2"]}
 
 <a class="inlineBlock padding mClassNavUp brand borderBottomTransparent itemLinkAni" tabindex="0" href="../" title="../ (Up)">List (up)</a>
 
-<form class="noscriptHide inlineBlock padding" style="padding-right: 0;" method="GET" action="${confD}search/" role="search">
+<form class="noscriptHide inlineBlock padding" style="padding-right: 0;" method="GET" action="${confD}site-search/" role="search">
 <!--<label for="siteSearch" class="xSmall op">search:</label>-->
 <input id="siteSearch" class="borderRadius3" type="search" placeholder="site search" name="q" autocomplete="off">
 </form>
@@ -464,7 +464,7 @@ fDescArr.forEach((tag) => {
 if ((tag.trim()) != ''&&fDescTagsLimitCounter <= fDescTagsLimit){
 tag = tag.trim();
 tag = tag.replaceAll(" ", "_");
-fDescTags += `<a class="inlineBlock padding brand light border2 borderRadius2" href="/search/?tag=${tag}">#${tag}</a> `;
+fDescTags += `<a class="inlineBlock padding brand light border2 borderRadius2" href="/site-search/?tag=${tag}">#${tag}</a> `;
 }
 fDescTagsLimitCounter++;
 });

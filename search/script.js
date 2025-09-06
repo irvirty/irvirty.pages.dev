@@ -2583,24 +2583,14 @@ a.forEach((item, index) => {
 b  += item+ ', ';
  });
 
-/*if (document.getElementById('printComList') != null){
-document.getElementById('printComList').innerHTML = `
-
-
-<details>
-<summary class="op" style="text-align: right; color: var(--c); cursor: pointer; font-size: small;"> ?</summary>
-
-<div class="bg padding2 border2 light op pre small">Redirects commands list: b
+if (document.getElementById('printComList') != null){
+document.getElementById('printComList').innerHTML = '<div class="bg padding2 border2 light op pre small">Redirects commands list: ' + b + `
 
 Example redirects (random): "Google n" - news about Google.
 
 goo - Google, bin - Bing, n - news, i - images, v - videos, s - social media, l - luck (first search result).
-</div>
-
-</details>
-
-`;
-}*/
+</div>`;
+}
 
 
 if (document.getElementById('input') != null&&q != null&&q != 'null'){

@@ -588,6 +588,13 @@ var sitemapJsonVar = [
         "time": "id"
     },
     {
+        "text": "Redirect\n\nSearch redirect, a search with redirection to other search engines. | redirects: ",
+        "url": "\/projects\/redirects-25\/index.html",
+        "tag": " #redirect #web #search #URL #page #redirection #form #random #engine #JavaScript #project",
+        "id": "280eb18049f8b5aa6ae73412cbb71eb4",
+        "time": "id"
+    },
+    {
         "text": "Redirect to list\n\nRedirect page, not intended for viewing. | icons: ",
         "url": "\/pages\/icons\/inspiration-log.html",
         "tag": " #Redirect_to_list",
@@ -623,6 +630,13 @@ var sitemapJsonVar = [
         "time": "id"
     },
     {
+        "text": "Search Redirect\n\nSearch Redirect. Google or Bing search (randomly, redirect, possible changes in the future) | search: ",
+        "url": "\/search\/index.html",
+        "tag": " #redirect #web #search #URL #page #redirection #form #random #engine #JavaScript #project",
+        "id": "8c81733a022c63f034be7fa6f62af3ad",
+        "time": "id"
+    },
+    {
         "text": "Settings\n\nPage with settings: cookies, ads, clear data, etc. | settings: ",
         "url": "\/pages\/settings\/index.html",
         "tag": " #setting #page #main",
@@ -644,10 +658,10 @@ var sitemapJsonVar = [
         "time": "id"
     },
     {
-        "text": "Site Search\n\nSite search, main pages and more. | search: ",
-        "url": "\/search\/index.html",
+        "text": "Site Search\n\nSite search, main pages and more. | site search: ",
+        "url": "\/site-search\/index.html",
         "tag": " #site #search #page #main",
-        "id": "8c81733a022c63f034be7fa6f62af3ad",
+        "id": "bb5b7a0a124114e96fe0e0e51fa08b9c",
         "time": "id"
     },
     {
@@ -844,13 +858,6 @@ var sitemapJsonVar = [
         "url": "\/pages\/services\/index.html",
         "tag": " #services #service #webdesign #web #design #website #webpage #development #webdevelopment #page #main",
         "id": "9b532e9594cecd0cf6967429fe104d8f",
-        "time": "id"
-    },
-    {
-        "text": "Web search Redirect\n\nSearch redirect, a search with redirection to other search engines. | redirects: ",
-        "url": "\/projects\/redirects-25\/index.html",
-        "tag": " #redirect #web #search #URL #page #redirection #form #random #engine #JavaScript #project",
-        "id": "280eb18049f8b5aa6ae73412cbb71eb4",
         "time": "id"
     },
     {
