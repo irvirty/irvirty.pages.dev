@@ -15,9 +15,10 @@ Search redirection, themes, news, typing speed, games, to-do list, images, icons
 - Responsive, light, flat design.
 - ~50/2 Themes (2 - dark, light).
 - Speed ​​dial panel in the form of buttons.
-- Typing Speed with your own text.
+- Typing Speed with your own text (games).
 - New Tab Redirect extension: any website in a new tab page.
 - SimpleHomePage - experimental theme for WordPress.
+- Note: in website templates (pages) you will find a simplified version of the website (template)
   
 ---
    

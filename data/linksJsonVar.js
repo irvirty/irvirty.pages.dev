@@ -198,7 +198,7 @@ var linksJsonVar =
         "text2": "",
         "text3": "",
         "url": "https:\/\/discord.com\/",
-        "tag": "#app #communication #software",
+        "tag": "#app #messenger #communication #software",
         "time": 1746933742,
         "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=254\"  title=\"id=254 (permanent link)\" >id<\/a>"
     },
@@ -208,7 +208,7 @@ var linksJsonVar =
         "text2": "",
         "text3": "",
         "url": "https:\/\/slack.com\/",
-        "tag": "#app #communication #software",
+        "tag": "#app #messenger #communication #software",
         "time": 1746933721,
         "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=253\"  title=\"id=253 (permanent link)\" >id<\/a>"
     },
@@ -218,7 +218,7 @@ var linksJsonVar =
         "text2": "",
         "text3": "",
         "url": "https:\/\/www.zoom.com\/",
-        "tag": "#app #communication #software",
+        "tag": "#app #messenger #communication #software",
         "time": 1746933701,
         "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=252\"  title=\"id=252 (permanent link)\" >id<\/a>"
     },
@@ -228,7 +228,7 @@ var linksJsonVar =
         "text2": "",
         "text3": "",
         "url": "https:\/\/www.microsoft.com\/microsoft-teams\/",
-        "tag": "#app #communication #software",
+        "tag": "#app #messenger #communication #software",
         "time": 1746933685,
         "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=251\"  title=\"id=251 (permanent link)\" >id<\/a>"
     },
@@ -238,7 +238,7 @@ var linksJsonVar =
         "text2": "",
         "text3": "",
         "url": "https:\/\/meet.google.com\/",
-        "tag": "#app #communication #software",
+        "tag": "#app #messenger #communication #software",
         "time": 1746933642,
         "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=250\"  title=\"id=250 (permanent link)\" >id<\/a>"
     },
@@ -248,7 +248,7 @@ var linksJsonVar =
         "text2": "",
         "text3": "",
         "url": "https:\/\/matrix.org\/",
-        "tag": "#app #communication #software",
+        "tag": "#app #messenger #communication #software",
         "time": 1746933607,
         "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=249\"  title=\"id=249 (permanent link)\" >id<\/a>"
     },
@@ -258,7 +258,7 @@ var linksJsonVar =
         "text2": "",
         "text3": "",
         "url": "https:\/\/wire.com\/",
-        "tag": "#app #communication #software",
+        "tag": "#app #messenger #communication #software",
         "time": 1746933574,
         "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=248\"  title=\"id=248 (permanent link)\" >id<\/a>"
     },
@@ -268,7 +268,7 @@ var linksJsonVar =
         "text2": "",
         "text3": "",
         "url": "https:\/\/signal.org\/",
-        "tag": "#app #communication #software",
+        "tag": "#app #messenger #communication #software",
         "time": 1746933552,
         "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=247\"  title=\"id=247 (permanent link)\" >id<\/a>"
     },
@@ -278,7 +278,7 @@ var linksJsonVar =
         "text2": "",
         "text3": "",
         "url": "https:\/\/www.viber.com\/",
-        "tag": "#app #communication #communication",
+        "tag": "#app #messenger #communication #communication",
         "time": 1746933532,
         "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=246\"  title=\"id=246 (permanent link)\" >id<\/a>"
     },
@@ -288,7 +288,7 @@ var linksJsonVar =
         "text2": "",
         "text3": "",
         "url": "https:\/\/www.whatsapp.com\/",
-        "tag": "#app #communication #software",
+        "tag": "#app #messenger #communication #software",
         "time": 1746933500,
         "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=245\"  title=\"id=245 (permanent link)\" >id<\/a>"
     },
