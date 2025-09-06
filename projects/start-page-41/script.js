@@ -82,3 +82,30 @@ document.getElementById( 'topHeader' ).style.display = 'block';
 });
 }
 }
+
+
+
+// day link
+var monthsEn = ['', 'January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'];
+//https://en.wikipedia.org/wiki/Template:MONTHABBREV
+var monthsEnShort = ['', 'Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
+var dayEn = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
+var dayEnShort = ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'];
+//https://stackoverflow.com/questions/50922593/function-getutcdate-returns-a-month
+var dateObj = new Date();
+var month = dateObj.getMonth() + 1; //months from 1-12
+var day = dateObj.getDate();
+var year = dateObj.getFullYear();
+
+//https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/getDay
+let d = dateObj.getDay();
+
+//var dayNowTitle = day +' '+ dayEn[d];
+var dayNowTitle = dayEn[d] + ', ' + monthsEn[month] + ' ' + day;
+
+var urlDayNow = 'https://en.wikipedia.org/wiki/' + monthsEn[month] + '_' + day + '';
+if (document.getElementById('urlDayNow') != null){
+document.getElementById('urlDayNow').innerHTML = dayNowTitle;
+//document.getElementById('urlDayNow').innerHTML = `<a class="brand inlineBlock padding op small" href="` + urlDayNow + `" title="Wikipedia">` + dayNowTitle + `</a>`;
+//document.getElementById('urlDayNow').innerHTML = `<a class="brand inlineBlock padding op small" href="https://wikipedia.org/wiki/" title="Wikipedia">` + dayNowTitle + `</a>`;
+}
