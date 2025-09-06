@@ -114,7 +114,7 @@ var sitemapJsonVar = [
     {
         "text": "CSS Art\n\nCSS Art - a fun way to practice CSS. | css art: ",
         "url": "\/pages\/css-art\/index.html",
-        "tag": " #CSS #HTML #art #projects #list #page #main",
+        "tag": " #CSS #HTML #art #project #page #main",
         "id": "03731ea3e0a9be15ccf2e60a034acbe5",
         "time": "id"
     },
@@ -170,14 +170,14 @@ var sitemapJsonVar = [
     {
         "text": "Calculator\n\nOnline calculator. | calculator: ",
         "url": "\/projects\/calculator-3\/index.html",
-        "tag": " #projects #> #calculator #.",
+        "tag": " #Experimental #\u0441alculator #calc #tool #JavaScript #project",
         "id": "edd89fc42456d08a51cee4c12872d538",
         "time": "id"
     },
     {
         "text": "Chrome extensions\n\nChrome browser extension: new tab redirct (own new tab page). Chrome addon. | chrome extensions: ",
         "url": "\/pages\/chrome-extensions\/index.html",
-        "tag": " #startpage #newtabpage #hotkeys #new #tab #NewTab #chrome #extension #addon #list #projects #page #main",
+        "tag": " #startpage #newtabpage #hotkeys #new #tab #NewTab #chrome #extension #addon #list #project #page #main",
         "id": "5356a6c910aef9d7e55460bb4e43799a",
         "time": "id"
     },
@@ -254,7 +254,7 @@ var sitemapJsonVar = [
     {
         "text": "Firefox extensions\n\nAn extension for the Mozilla Firefox browser. Extension: new tab redirct (own new tab page), localhost as search engine, etc. Firefox addon. | firefox extensions: ",
         "url": "\/pages\/firefox-extensions\/index.html",
-        "tag": " #startpage #newtabpage #Firefox #hotkeys #new #tab #NewTab #firefox #extension #extensions #addon #projects #project #list #page #main",
+        "tag": " #startpage #newtabpage #Firefox #hotkeys #new #tab #NewTab #firefox #extension #extensions #addon #project #page #main #page #main",
         "id": "b512751404c82bc56284e93243416212",
         "time": "id"
     },
@@ -420,6 +420,13 @@ var sitemapJsonVar = [
         "time": "id"
     },
     {
+        "text": "Mini projects\n\nMini projects only using HTML, and CSS.\nProjects like: project ideas, button, flex grid, hide show on resize. Projects without JavaScript. | mini projects: ",
+        "url": "\/mini-projects\/index.html",
+        "tag": " #HTML #CSS #noscript #projects #menu #list #pages #main",
+        "id": "f3db3035277214dd7fb639903cd258fe",
+        "time": "id"
+    },
+    {
         "text": "Movie List\n\nSmall list of movies, at the top there is a random movie from the list. JavaScript function for parse watchlist.csv from The Movie Database (TMDB). | movie list: ",
         "url": "\/projects\/movie-list-19\/index.html",
         "tag": " #movie #list #collection #random #JavaScript #project",
@@ -483,6 +490,13 @@ var sitemapJsonVar = [
         "time": "id"
     },
     {
+        "text": "Pages\n\nFirefox extensions and themes, icons, a links collection, articles, website templates, and others. | pages: ",
+        "url": "\/pages\/index.html",
+        "tag": " #Geany #Firefox #Chrome #Art #icons #Blog #Bookmark #template #website #theme #extension #HTML #CSS #JavaScript #projects #menu #list #pages #main",
+        "id": "30d3aca3ddbd02ee548c917dcf5666bc",
+        "time": "id"
+    },
+    {
         "text": "Palette generator using CSS\n\nPalette generator using CSS. Using 1 color we generate a palette of colors. You only need to specify 1 color and the rest is CSS magic. | palette generator using css: ",
         "url": "\/mini-projects\/palette-generator-using-css-34\/index.html",
         "tag": " #pallete #generator #HTML #CSS #project",
@@ -508,6 +522,13 @@ var sitemapJsonVar = [
         "url": "\/mini-projects\/project-ideas-37\/index.html",
         "tag": " #project #ideas #inspiration #HTML #project",
         "id": "18324f5f1a7838794ef92875e068afcf",
+        "time": "id"
+    },
+    {
+        "text": "Projects\n\nProjects based on HTML, CSS and JavaScript. \nProjects like: to-do list, timer, sorting items and more | projects: ",
+        "url": "\/projects\/index.html",
+        "tag": " #HTML #CSS #JavaScript #projects #menu #list #pages #main",
+        "id": "2641529d236ed4619d28ac7f42078020",
         "time": "id"
     },
     {
@@ -863,14 +884,14 @@ var sitemapJsonVar = [
     {
         "text": "Website Mini Templates (sandbox)\n\nWebsite mini templates. My HTML and CSS sandbox. HTML templates. | website mini templates: ",
         "url": "\/pages\/website-mini-templates\/index.html",
-        "tag": " #Experimental #sandbox #UI #UX #one #page #project #projects #list #page #main",
+        "tag": " #Experimental #sandbox #UI #UX #one #page #project #list #page #main",
         "id": "e122e7bd35d382b7c4eb5ef6f9d5e263",
         "time": "id"
     },
     {
         "text": "Website Templates (Experimental)\n\nWebsite templates. HTML templates. (I create pages for practice. Sandbox). | website templates: ",
         "url": "\/pages\/website-templates\/index.html",
-        "tag": " #experimental #sandbox #UI #UX #landing #webpage #website #page #site #webdesign #web #design #webdevelopment #development #template #templates #SaaS #personal #profile #card #HomePage #cards #project #projects #list #page #main",
+        "tag": " #experimental #sandbox #UI #UX #landing #webpage #website #page #site #webdesign #web #design #webdevelopment #development #template #templates #SaaS #personal #profile #card #HomePage #cards #project #list #page #main",
         "id": "555bdc97b33a3ee61edb309ed7b17b84",
         "time": "id"
     },
