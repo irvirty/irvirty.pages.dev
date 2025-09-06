@@ -2393,11 +2393,11 @@ q = q3.replace(qCom, '');
 q = q.trim();
 q = encodeURIComponent(q);
 urlList = [
-"/search/?q=" + q,
+"/site-search/?q=" + q,
 ];
 if (q == ''){
 urlList = [
-"/search/",
+"/site-search/",
 ];
 }
 random = urlList[fuMRandom(0, urlList.length - 1)];

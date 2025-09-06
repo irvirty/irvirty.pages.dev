@@ -364,6 +364,13 @@ var sitemapJsonVar = [
         "time": "id"
     },
     {
+        "text": "Irvirty Search Redirect\n\nSearch Redirect. Google or Bing search (randomly, redirect, possible changes in the future). | search: ",
+        "url": "\/search\/index.html",
+        "tag": " #redirect #web #search #URL #page #redirection #form #random #engine #page #main",
+        "id": "8c81733a022c63f034be7fa6f62af3ad",
+        "time": "id"
+    },
+    {
         "text": "Keep\n\nStatic version of the offline 'keep' script that saves things. Not for large data. | keep: ",
         "url": "\/projects\/keep-1\/index.html",
         "tag": " #content_display_system #microblog #CSS #JavaScript #project",
@@ -627,13 +634,6 @@ var sitemapJsonVar = [
         "url": "\/games\/rock-paper-scissors-67\/index.html",
         "tag": " #rock #paper #scissors #game #CSS #JavaScript #project",
         "id": "4589d268743fb29372103f27c2446f0e",
-        "time": "id"
-    },
-    {
-        "text": "Search Redirect\n\nSearch Redirect. Google or Bing search (randomly, redirect, possible changes in the future). | search: ",
-        "url": "\/search\/index.html",
-        "tag": " #redirect #web #search #URL #page #redirection #form #random #engine #page #main",
-        "id": "8c81733a022c63f034be7fa6f62af3ad",
         "time": "id"
     },
     {

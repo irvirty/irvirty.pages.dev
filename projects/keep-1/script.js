@@ -440,7 +440,10 @@ q2 = fuMClearText(q2);*/
 
 
 if (q.length > 260){ lDots = " ... "; }
-let printTitle = q.slice(0, 260) + lDots + ' - ' + document.getElementsByTagName('title')[0].innerHTML;
+let dash = "";
+if (q != ""){ dash = " - "; }
+if (q.length > 260){ lDots = " ... "; }
+let printTitle = q.slice(0, 260) + lDots + dash + document.getElementsByTagName('title')[0].innerHTML;
 document.getElementsByTagName('title')[0].innerHTML = printTitle;
 
 //embedStatus = 'off';
