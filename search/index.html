@@ -1,23 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+
 <meta charset="UTF-8">
 <title>Search Redirect</title>
 
-<meta name="description" content="
-Search Redirect. Google or Bing search (randomly, redirect, possible changes in the future)
-">
-<meta name="keywords" content="
-redirect, web, search, URL, page,
+<meta name="description" content="Search Redirect. Google or Bing search (randomly, redirect, possible changes in the future).">
+<meta name="keywords" content="redirect, web, search, URL, page,
 redirection,
 form,
-random, engine,
-JavaScript, project,
-">
+random, engine, page, main,">
+
+<link rel="alternate" type="application/rss+xml" title="Website News RSS" href="/rss.xml">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<link rel="icon" sizes="512x512" href="../img/logo.png" type="image/png">
-<link rel="shortcut icon" href="../favicon.ico" type="image/x-icon">
+
+<meta name="color-scheme" content="light dark">
+<!--<meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">-->
+
+<link rel="icon" sizes="512x512" href="..//img/logo.png" type="image/png">
+<link rel="shortcut icon" href="..//favicon.ico" type="image/x-icon">
+
 
 <!-- main -->
 <link rel="preload" href="../js/main.js" as="script">
@@ -35,29 +38,85 @@ JavaScript, project,
 </noscript>
 <!-- // main -->
 
-<link rel="preload" href="script.js" as="script"> 
+<link rel="preload" href="../js/script.js" as="script">
 
-<link rel="preload" href="style.css" as="style">
-<link rel="stylesheet" href="style.css" type="text/css">
+
 
 </head>
 <body>
 
-<div id="secondNav">
-<header class="tCenter">
-<div class="margin2"></div>
+
+
+<!-- Navigation HTML v.1.0.1 -->
+<header>
+<div class="wrapper3">
+<div class="margin"></div>
+
+<div id="topNav" class="topNav">
 <nav>
-<a class="inlineBlock padding brand" style="padding-left: 0;" href="/">index</a>
-<a class="inlineBlock padding brand" style="padding-right: 0;" href="../">list</a>
-</nav>
-</header>
+
+<!-- /* Skip navigation: .screenReader (in main.css) + id="content" */ -->
+<a class="screenReader inlineBlock padding brand" tabindex="0" href="#content">Skip navigation</a>
+<a class="inlineBlock padding" style="padding-left: 0;" tabindex="0" href="../" title="index / nav 1"><img class="logo2 reduceLight" src="..//img/logo.png" alt="logo" style="max-width: 26px;"></a> 
+
+<span id="navMenu" class="navMenu">
+<!-- links in nav -->
+<a class="countMenuItem inlineBlock padding brand empty" tabindex="0" href="../all/" title="All pages">All</a>
+<a class="countMenuItem inlineBlock padding brand empty" tabindex="0" href="../pages/" title="Pages">Pages</a>
+<a class="countMenuItem inlineBlock padding brand empty" tabindex="0" href="../games/" title="Games">Games</a>
+<a class="countMenuItem inlineBlock padding brand empty" tabindex="0" href="../projects/" title="Projects">Projects</a>
+<a class="countMenuItem inlineBlock padding brand empty" tabindex="0" href="../mini-projects/" title="Mini Projects">Mini Projects</a>
+<!-- // links in nav -->
+</span>
+
+<div class="dropdownMenuContentWrapper navMenu2">
+<div class="dropdownMenuContent">
+
+<a id="dropdownMenuButton" class="dropdownMenuButton inlineBlock padding mClassNavUp brand borderBottomTransparent" tabindex="0" href="#" onclick="fuMDropdownButton();return false;">☰ Menu</a>
+
+<div id="dropdownMenu" class="dropdownMenu">
+<div class="dropdownMenuColumn shadow bg2 padding2 borderRadius2">
+<!-- links for show in dropdown (duplicate) -->
+<a class="countMenuItem inlineBlock padding brand empty" tabindex="0" href="../all/" title="All pages">All</a>
+<a class="countMenuItem inlineBlock padding brand empty" tabindex="0" href="../pages/" title="Pages">Pages</a>
+<a class="countMenuItem inlineBlock padding brand empty" tabindex="0" href="../games/" title="Games">Games</a>
+<a class="countMenuItem inlineBlock padding brand empty" tabindex="0" href="../projects/" title="Projects">Projects</a>
+<a class="countMenuItem inlineBlock padding brand empty" tabindex="0" href="../mini-projects/" title="Mini Projects">Mini Projects</a>
+<!-- // links for show in dropdown (duplicate) -->
+<hr>
+<a class="noscriptHide block w100 tCenter padding brand small" href="#" onclick="fuMDropdownButtonClose();return false;" title="Close menu">close</a>
 </div>
+</div>
+
+</div>
+</div>
+
+<a class="inlineBlock padding mClassNavUp brand borderBottomTransparent" tabindex="0" href="../" title="../ (Up)">List (up)</a>
+
+<form class="noscriptHide inlineBlock padding" style="padding-right: 0;" method="GET" action="../site-search/" role="search">
+<!--<label for="siteSearch" class="xSmall op">search:</label>-->
+<input id="siteSearch" class="borderRadius3" type="search" placeholder="site search" name="q" autocomplete="off">
+</form>
+
+</nav>
+</div>
+
+</div>
+</header>
+<!-- // Navigation HTML -->
+
+<!--<hr>-->
+
+
 
 
 <!-- content -->
-
-<h1 class="tCenter op padding2 h3 insertIconTitle">Search Redirect</h1>
+<div class="tCenter">
+<a href="../img/logo.png"><img class="logo reduceLight" src="../img/logo.png" width="60" height="60" alt="logo"></a>
+</div>
+<h1 class="tCenter op padding2Bottom h3 insertIconTitle">Search Redirect</h1>
 <nav class="tCenter"><a class="ilineBlock small brand padding" href="./">Start</a></nav>
+<div class="margin padding"></div>
 
 <div id="content"></div>
 <main id="searchPage" class="contentCenter">
@@ -66,8 +125,10 @@ JavaScript, project,
 
 <div class="wrapper">
 <div id="result">
+	
 
-<form id="form" method="GET" class="block" action="./index.html" style="margin:0 auto;" role="search">
+<div class="noscriptHide">
+<form id="form" method="GET" class="block" action="./" style="margin:0 auto;" role="search">
 
 <label id="search" class="op block tLeft xSmall padding1PxList" for="q"><span class="bold orange">✪</span> Search (redirect, random):</label>
 <input id="q" class="borderRadius" aria-labelledby="search" type="search" name="q" autofocus="autofocus" placeholder="" autocomplete="off" spellcheck="true">
@@ -80,40 +141,187 @@ JavaScript, project,
 </div>
 
 </form>
+</div>
+
+
+
+
+<div  class="center noscriptHide" style="margin-top: 7px;">
+<div class="wrapper tCenter small"><!--if scrollX horizontal class rm keepTagList)-->
+<div id="hotLinks">
+
+<div class="autoColumn notUnderline">
+<!--<span class="x-small op c" title="Commands:">com: </span>-->
+<!--<a class="autoColumnItem keepTag2 itemHeight3 light2 border3 borderRadius2 op" href="/?q=w" title="Web search random (text w)">Web</a>-->
+<a class="autoColumnItem keepTag2 itemHeight light2 border3 borderRadius2 op" href="/?q=goo" title="Google search (text goo)">Google</a>
+<a class="autoColumnItem keepTag2 itemHeight light2 border3 borderRadius2 op" href="/?q=bin" title="Bing search (text bin)">Bing</a>
+<a class="autoColumnItem keepTag2 itemHeight light2 border3 borderRadius2 op" href="/?q=mar" title="Marginalia search (text mar)">Marginalia</a>
+<a class="autoColumnItem keepTag2 itemHeight light2 border3 borderRadius2 op" href="/?q=sez" title="Seznam search (text sez)">Seznam</a>
+<!--<a class="autoColumnItem keepTag2 itemHeight light2 border3 borderRadius2 op" href="/?q=moj" title="Mojeek search (text moj)">Mojeek</a>-->
+<!--<a class="autoColumnItem keepTag2 itemHeight light2 border3 borderRadius2 op" href="/?q=o" title="Other random (text o)">Other</a>-->
+<a class="autoColumnItem keepTag2 itemHeight light2 border3 borderRadius2 op" href="/?q=i" title="Image search random (text i)">Images</a>
+<a class="autoColumnItem keepTag2 itemHeight light2 border3 borderRadius2 op" href="/?q=v" title="Video search random (text v)">Videos</a>
+<a class="autoColumnItem keepTag2 itemHeight light2 border3 borderRadius2 op" href="/?q=pee" title="PeerTube search (text pee)">PeerTube</a>
+<a class="autoColumnItem keepTag2 itemHeight light2 border3 borderRadius2 op" href="/?q=pod" title="Podcast search (text pod)">Podcast</a>
+<a class="autoColumnItem keepTag2 itemHeight light2 border3 borderRadius2 op" href="/?q=n" title="News search random (text n)">News</a>
+<a class="autoColumnItem keepTag2 itemHeight light2 border3 borderRadius2 op" href="/?q=s" title="Social media search random (text s)">Social</a>
+<a class="autoColumnItem keepTag2 itemHeight light2 border3 borderRadius2 op" href="/?q=t" title="Translate random (text t)">Translate</a>
+<a class="autoColumnItem keepTag2 itemHeight light2 border3 borderRadius2 op" href="/?q=ps" title="Google Programmable Search (text ps)">Google Programmable Search</a>
+<a class="autoColumnItem keepTag2 itemHeight light2 border3 borderRadius2 op" href="/?q=qs" title="Site search (text qs)">Site</a>
+</div>
+
+</div>
+</div>
+</div>
+
 
 
 <div class="padding2 margin2"></div>
 
+
+
+</div>
+</div>
+
+<div class="margin padding"></div>
+
 <div class="wrapper">
-<span id="speedDialPrint"></span>
+<div id="speedDialPrint"></div>
 </div>
 
-
-</div>
-</div>
-
+<!--
 <div class="wrapper">
 <div class="padding2 margin2"></div>
 
 <div id="printComList"></div>
 
 </div>
+-->
 
 
 </main>
 <!-- // content -->
 
 
+<div class="wrapper3">
 <footer id="footer"></footer>
+</div>
 
 <script>
 var confD = "../";
 </script>
 <script src="../js/main.js"></script>
+<script src="../js/script.js"></script>
+
+
+<script>
+// v.1.1.3
+// hot links
+
+if (document.getElementById("q") != null){ 
+var inputA = document.getElementById("q");
+inputA.addEventListener('input', updateValueIn);
+}
+
+if (document.getElementById("q2") != null){ 
+var inputB = document.getElementById("q2");
+inputB.addEventListener('input', updateValueIn);
+}
+
+
+function updateValueIn(e) {
+var text = encodeURIComponent(e.target.value);
+
+var a = `
+
+<div class="autoColumn notUnderline">
+<!--<a class="autoColumnItem keepTag2 itemHeight light2 border3 borderRadius2 op" href="/?q=` + text + ` w" title="Web search random (text w)">Web</a>-->
+<a class="autoColumnItem keepTag2 itemHeight light2 border3 borderRadius2 op" href="/?q=` + text + ` goo" title="Google search (text goo)">Google</a>
+<a class="autoColumnItem keepTag2 itemHeight light2 border3 borderRadius2 op" href="/?q=` + text + ` bin" title="Bing search (text bin)">Bing</a>
+<a class="autoColumnItem keepTag2 itemHeight light2 border3 borderRadius2 op" href="/?q=` + text + ` mar" title="Marginalia search (text mar)">Marginalia</a>
+<a class="autoColumnItem keepTag2 itemHeight light2 border3 borderRadius2 op" href="/?q=` + text + ` sez" title="Seznam search (text sez)">Seznam</a>
+<!--<a class="autoColumnItem keepTag2 itemHeight light2 border3 borderRadius2 op" href="/?q=` + text + ` moj" title="Mojeek search (text moj)">Mojeek</a>-->
+<!--<a class="autoColumnItem keepTag2 itemHeight light2 border3 borderRadius2 op" href="/?q=` + text + ` o" title="Other random (text o)">Other</a>-->
+<a class="autoColumnItem keepTag2 itemHeight light2 border3 borderRadius2 op" href="/?q=` + text + ` i" title="Image search random (text i)">Images</a>
+<a class="autoColumnItem keepTag2 itemHeight light2 border3 borderRadius2 op" href="/?q=` + text + ` v" title="Video search random (text v)">Videos</a>
+<a class="autoColumnItem keepTag2 itemHeight light2 border3 borderRadius2 op" href="/?q=` + text + ` pee" title="PeerTube search (text pee)">PeerTube</a>
+<a class="autoColumnItem keepTag2 itemHeight light2 border3 borderRadius2 op" href="/?q=` + text + ` pod" title="Podcast search (text pod)">Podcast</a>
+<a class="autoColumnItem keepTag2 itemHeight light2 border3 borderRadius2 op" href="/?q=` + text + ` n" title="News search random (text n)">News</a>
+<a class="autoColumnItem keepTag2 itemHeight light2 border3 borderRadius2 op" href="/?q=` + text + ` s" title="Socail media search random (text s)">Social</a>
+<a class="autoColumnItem keepTag2 itemHeight light2 border3 borderRadius2 op" href="/?q=` + text + ` t" title="Translate random (text t)">Translate</a>
+<a class="autoColumnItem keepTag2 itemHeight light2 border3 borderRadius2 op" href="/?q=` + text + ` ps" title="Google Programmable Search (text ps)">Google Programmable Search</a>
+<a class="autoColumnItem keepTag2 itemHeight light2 border3 borderRadius2 op" href="/?q=` + text + ` qs" title="Site search (text qs)">Site</a>
+</div>
+
+`;
+
+document.getElementById("hotLinks").innerHTML = a; 
+
+}
+
+
+// hide top header if mobile
+if (conf["confDevice"] == 'mobile'){
+var getclick2 = document.getElementById('form');
+if (getclick2 != null&&document.getElementById('topHeader') != null){
+document.addEventListener('click', function(event) {
+if (getclick2.contains(event.target)) {
+document.getElementById( 'topHeader' ).style.display = 'none';
+} else {
+document.getElementById( 'topHeader' ).style.display = 'block';
+}
+});
+}
+}
+
+// hot links
+
+</script>
+
+<script>
+
+// WPM v.1.2.0
+if (document.getElementById("q") != null){ 
+var inputA2 = document.getElementById("q");
+inputA2.addEventListener('input', getWpm);
+}
+
+// new core 2
+
+let dateArr = [];
+let dateArrLast = [];
+const wordLengthLimit = 5.1;
+
+function getWpm(e){
+//if (e.target.value == ""){ dateArr = []; } //fixme
+if (dateArrLast[0] == undefined){ dateArrLast[0] =  Date.now(); }
+dateArr.push(((Date.now() - dateArrLast[0]) / 1000).toFixed(3));
+//console.table(wpmTime);
+dateArrLast[0] = Date.now();
+
+var wpm = 0;
+if (dateArr.length >= 2){
+dateArr.forEach(function(item) {
+wpm = Number(wpm) + Number(item);
+});
+
+var wpmAverageSec = wpm / dateArr.length;
+wpm =  (1 * 60 / wpmAverageSec) / wordLengthLimit;
+wpm = Math.round(wpm);
+}
+
+if (document.getElementById("wpm") != null){
+document.getElementById("wpm").innerHTML = wpm;
+}
+
+dateArr = dateArr.slice(-500);
+}
+
+</script>
 
 <script src="../projects/redirects-25/script.js"></script>
 
+
 </body>
 </html>
-
 

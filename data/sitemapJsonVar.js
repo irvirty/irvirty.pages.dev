@@ -28,7 +28,7 @@ var sitemapJsonVar = [
         "time": "id"
     },
     {
-        "text": "All\n\nThis place is where almost all pages of the site are collected on one page for quick access. It's like the start menu in the operating system but for the site. | all: ",
+        "text": "All (start menu)\n\nThis place is where almost all pages of the site are collected on one page for quick access. It's like the start menu in the operating system but for the site. | all: ",
         "url": "\/all\/index.html",
         "tag": " #projects #projects #list #start #menu #pages #search #all #page #main",
         "id": "17f3f714a610177f12e0f64d03cd9fac",
@@ -630,9 +630,9 @@ var sitemapJsonVar = [
         "time": "id"
     },
     {
-        "text": "Search Redirect\n\nSearch Redirect. Google or Bing search (randomly, redirect, possible changes in the future) | search: ",
+        "text": "Search Redirect\n\nSearch Redirect. Google or Bing search (randomly, redirect, possible changes in the future). | search: ",
         "url": "\/search\/index.html",
-        "tag": " #redirect #web #search #URL #page #redirection #form #random #engine #JavaScript #project",
+        "tag": " #redirect #web #search #URL #page #redirection #form #random #engine #page #main",
         "id": "8c81733a022c63f034be7fa6f62af3ad",
         "time": "id"
     },

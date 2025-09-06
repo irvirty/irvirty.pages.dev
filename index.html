@@ -261,7 +261,7 @@ document.getElementById('urlDayNow').innerHTML = `<a class="brand inlineBlock pa
 
 
 <div id="form" class="noscriptHide">
-<form method="GET" style="margin-top: 0px;" action="./projects/redirects-25/index.html" autocomplete="off" role="search">
+<form method="GET" style="margin-top: 0px;" action="./search/" autocomplete="off" role="search">
 
 <label id="search" class="op block tLeft xSmall padding1PxList" for="q"><span class="bold orange">✪</span> Web search (redirect, random, <a class="brand notUnderline" title="WPM - Words per minute" href="/games/typing-speed-14/">WPM: <span id="wpm" class="orange bold">0</span></a>):</label>
 <input id="q" class="borderRadius" aria-labelledby="search" type="search" name="q" autofocus="autofocus" placeholder="" autocomplete="off" spellcheck="true">
@@ -305,110 +305,7 @@ document.getElementById('urlDayNow').innerHTML = `<a class="brand inlineBlock pa
 </div>
 </div>
 
-<!-- hint v.1.1.0 -->
-<div id="hint" title="hint"></div>
 
-<!--<script src="/data/linksJsonVar.js"></script>-->
-<script>
-/*
-let dataHint = [];
-dataHint = dataHint.concat(linksJsonVar);
-if (localStorage.getItem("confSpeedDialData")) {
-let confSpeedDialDataArr33 = JSON.parse(localStorage.getItem("confSpeedDialData"));
-dataHint = dataHint.concat(confSpeedDialDataArr33);
-}
-
-document.getElementById("q").addEventListener('input', function(e) {
-if ((this.value).trim() == ""){
-document.getElementById("hint").innerHTML = ``;
-} else {
-hint(this.value, dataHint);
-}
-});
-
-function hint(q, data){
-
-q = q.trim();
-
-
-
-if (q != ""){
-let qLower = q.toLowerCase();
-let hintResult = "";
-let hintCounter = 0;
-
-for (let i = 0; i < data.length; i++) {
-if (data[i]["tag"] == undefined){ data[i]["tag"] = ""; }
-let hintText = data[i]["text"];
-hintTextLower = hintText.toLowerCase();
-let hintUrl = data[i]["url"];
-hintUrlLower = hintUrl.toLowerCase();
-let hintUrlClean = hintUrl;
-hintUrlClean = hintUrlClean.replace("https://", '');
-hintUrlClean = hintUrlClean.replace("http://", '');
-let hintTag = data[i]["tag"];
-hintTagLower = hintTag.toLowerCase();
-if(hintTextLower.indexOf(qLower) != -1||hintUrlLower.indexOf(qLower) != -1||hintTagLower.indexOf(qLower) != -1){
-hintResult += `
-<a class="brand" href="` + hintUrl + `">` + hintUrlClean + `</a> - ` + hintText + `<br>
-`;
-hintCounter++
-}
-if (hintCounter >= 6){ break; }
-};
-
-
-// hint 2
-if (hintResult == ""){
-for (let i = 0; i < data.length; i++) {
-if (data[i]["tag"] == undefined){ data[i]["tag"] = ""; }
-let hintText = data[i]["text"];
-hintTextLower = hintText.toLowerCase();
-let hintUrl = data[i]["url"];
-hintUrlLower = hintUrl.toLowerCase();
-let hintUrlClean = hintUrl;
-hintUrlClean = hintUrlClean.replace("https://", '');
-hintUrlClean = hintUrlClean.replace("http://", '');
-let hintTag = data[i]["tag"];
-hintTagLower = hintTag.toLowerCase();
-if(fuzzySearch(hintTextLower, qLower) == true||fuzzySearch(hintUrlLower, qLower) == true||fuzzySearch(hintTagLower, qLower) == true){
-hintResult += `
-<a class="brand" href="` + hintUrl + `">` + hintUrlClean + `</a> - ` + hintText + `<br>
-`;
-hintCounter++
-}
-if (hintCounter >= 6){ break; }
-}
-}
-
-
-
-hintResult = fuMSort(hintResult, `
-`, "text");
-if (hintResult != ""&&q != ""){
-document.getElementById("hint").innerHTML = `<div class="padding3 bg2 border borderRadius2 small">` + hintResult + `</div>`;
-} else {
-document.getElementById("hint").innerHTML = ``;
-}
-
-
-}
-}
-
-//https://stackoverflow.com/questions/9206013/javascript-list-js-implement-a-fuzzy-search
-function fuzzySearch(text, q){
-String.prototype.fuzzy = function (s) {
-    var hay = this.toLowerCase(), i = 0, n = -1, l;
-    s = s.toLowerCase();
-    for (; l = s[i++] ;) if (!~(n = hay.indexOf(l, n + 1))) return false;
-    return true;
-};
-
-return (text).fuzzy(q); 
-}
-*/
-</script>
-<!--// hint -->
 
 
 <div class="margin2 padding2"></div>
@@ -419,7 +316,7 @@ return (text).fuzzy(q);
 
 <div class="wrapper">
 
-<span id="speedDialPrint"></span>
+<div id="speedDialPrint"></div>
 </div>
 <noscript>
 <!-- nav2 -->
@@ -939,8 +836,6 @@ document.adoptedStyleSheets = [...document.adoptedStyleSheets, extraSheet];
 </script>
 
 
-
 </body>
 </html>
 
-<!-- The first page was created in 2019 -->
