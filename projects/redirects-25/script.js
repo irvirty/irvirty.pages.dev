@@ -479,11 +479,13 @@ var deepLq = q.replaceAll(/\//g, "-");
 //deepLq = deepLq.replaceAll(/%20/g,'+');
 q = encodeURIComponent(q);
 urlList = [
-"https://translate.google.com/?sl=auto&tl=auto&text=" + q + "&op=translate",
+//"https://translate.google.com/?sl=auto&tl=auto&text=" + q + "&op=translate",
 //"https://www.deepl.com/translator#auto/auto/" + q,
 "https://www.bing.com/translator/?text=" + q + "&from=auto&to=auto",
 ];
-if (conf["confDevice"] != 'mobile'){
+if (conf["confDevice"] == 'mobile'){
+//delme urlList.push("https://www.google.com/search?q=translate:" + q);
+} else {
 urlList.push("https://translate.google.com/?sl=auto&text=" + q + "&op=translate");
 }
 if (q == ''){
@@ -2612,7 +2614,19 @@ document.getElementById('input').value = q;
 
 runRedirect(rUrlGet);
 
-
+// hide top header if mobile
+if (conf["confDevice"] == 'mobile'){
+var getclick2 = document.getElementById('form');
+if (getclick2 != null&&document.getElementById('topHeader') != null){
+document.addEventListener('click', function(event) {
+if (getclick2.contains(event.target)) {
+document.getElementById( 'topHeader' ).style.display = 'none';
+} else {
+document.getElementById( 'topHeader' ).style.display = 'block';
+}
+});
+}
+}
 
 
 /*
