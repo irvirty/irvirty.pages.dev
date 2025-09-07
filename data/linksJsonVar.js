@@ -3,6 +3,16 @@ var linksJsonVar =
 
 [
     {
+        "id": "275",
+        "text": "Privacy Badger",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/privacybadger.org\/",
+        "tag": "#extension #addon #privacy",
+        "time": 1757225666,
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=275\"  title=\"id=275 (permanent link)\" >id<\/a>"
+    },
+    {
         "id": "274",
         "text": "Privacy Badger \u2013 Get this Extension for \ud83e\udd8a Firefox (en-US)",
         "text2": "",

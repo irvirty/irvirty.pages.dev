@@ -3,6 +3,16 @@ var wikiJsonVar =
 
 [
     {
+        "id": "149",
+        "text": "Doomscrolling or doomsurfing is the act of spending an excessive amount of time reading large quantities of user-generated content or news, particularly negative news, on the web and social media.[1][2] The concept was coined around 2020, particularly in the context of the COVID-19 pandemic.",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/en.wikipedia.org\/wiki\/Doomscrolling",
+        "tag": "#internet #web #SocialNetwork #news",
+        "time": 1757225445,
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/wiki\/?id=149\"  title=\"id=149 (permanent link)\" >id<\/a>"
+    },
+    {
         "id": "147",
         "text": "HTTP cookie - Wikipedia",
         "text2": "HTTP cookie (also called web cookie, Internet cookie, browser cookie, or simply cookie) is a small block of data created by a web server while a user is browsing a website and placed on the user's computer or other device by the user's web browser. Cookies are placed on the device used to access a website, and more than one cookie may be placed on a user's device during a session.",
