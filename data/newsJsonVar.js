@@ -93,16 +93,6 @@ var newsJsonVar =
         "rightFooter": "<a class=\"brand\" href=\"\/pages\/news\/?id=30\"  title=\"id=30 (permanent link)\" >id<\/a>"
     },
     {
-        "id": "29",
-        "text": "How Firefox\u2019s vertical tabs came to life with a little help from our community",
-        "text2": "",
-        "text3": "",
-        "url": "https:\/\/blog.mozilla.org\/en\/firefox\/vertical-tabs-and-the-firefox-community\/",
-        "tag": "#app #browser #web",
-        "time": 1745316490,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/news\/?id=29\"  title=\"id=29 (permanent link)\" >id<\/a>"
-    },
-    {
         "id": "27",
         "text": "ChatGPT just passed the Turing test. But that doesn\u2019t mean AI is now as smart as humans",
         "text2": "",
