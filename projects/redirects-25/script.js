@@ -479,15 +479,10 @@ var deepLq = q.replaceAll(/\//g, "-");
 //deepLq = deepLq.replaceAll(/%20/g,'+');
 q = encodeURIComponent(q);
 urlList = [
-//"https://translate.google.com/?sl=auto&tl=auto&text=" + q + "&op=translate",
+"https://translate.google.com/?sl=auto&tl=auto&text=" + q + "&op=translate",
 //"https://www.deepl.com/translator#auto/auto/" + q,
 "https://www.bing.com/translator/?text=" + q + "&from=auto&to=auto",
 ];
-if (conf["confDevice"] == 'mobile'){
-//delme urlList.push("https://www.google.com/search?q=translate:" + q);
-} else {
-urlList.push("https://translate.google.com/?sl=auto&text=" + q + "&op=translate");
-}
 if (q == ''){
 urlList = [
 "https://translate.google.com/",
