@@ -3,14 +3,14 @@ var wikiJsonVar =
 
 [
     {
-        "id": "149",
-        "text": "Doomscrolling or doomsurfing is the act of spending an excessive amount of time reading large quantities of user-generated content or news, particularly negative news, on the web and social media.[1][2] The concept was coined around 2020, particularly in the context of the COVID-19 pandemic.",
-        "text2": "",
+        "id": "150",
+        "text": "Doomscrolling - Wikipedia",
+        "text2": "Doomscrolling or doomsurfing is the act of spending an excessive amount of time reading large quantities of user-generated content or news, particularly negative news, on the web and social media.[1][2] The concept was coined around 2020, particularly in the context of the COVID-19 pandemic.",
         "text3": "",
         "url": "https:\/\/en.wikipedia.org\/wiki\/Doomscrolling",
         "tag": "#internet #web #SocialNetwork #news",
-        "time": 1757225445,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/wiki\/?id=149\"  title=\"id=149 (permanent link)\" >id<\/a>"
+        "time": 1757226558,
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/wiki\/?id=150\"  title=\"id=150 (permanent link)\" >id<\/a>"
     },
     {
         "id": "147",
