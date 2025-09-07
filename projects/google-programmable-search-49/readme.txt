@@ -43,3 +43,13 @@ Audio
 *.open.spotify.com/*
 *.soundcloud.com/*
 *.iheart.com/podcast/*
+
+News
+*.bbc.com/*
+*.theguardian.com/*
+*.nbcnews.com/*
+*.npr.org/*
+*.apnews.com/*
+*.afp.com/*
+
+

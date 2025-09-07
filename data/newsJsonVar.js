@@ -3,6 +3,16 @@ var newsJsonVar =
 
 [
     {
+        "id": "43",
+        "text": "Google hit with $3.5 billion fine from European Union in ad-tech antitrust case | AP News",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/apnews.com\/article\/google-european-union-antitrust-digital-ca4a31c3f7cf7d33ea9c4748bc3ac459",
+        "tag": "#Google",
+        "time": 1757217252,
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/news\/?id=43\"  title=\"id=43 (permanent link)\" >id<\/a>"
+    },
+    {
         "id": "42",
         "text": "A judge ruled Google won't have to sell Chrome or Android but must allow competitors access to its search data. The company can still pay partners like Apple or Mozilla for default placements of its products, but exclusivity is banned buff.ly\/Fz5ZFm5",
         "text2": "",

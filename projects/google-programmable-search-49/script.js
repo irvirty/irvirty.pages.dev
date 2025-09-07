@@ -62,6 +62,7 @@ var lQModePrint = `<a class="autoColumnItem keepTag2 itemHeight border borderRad
 var lQMode = [
 {"name":"Web", "title":"Web seach", "comName":"web", "code":"74e19ee10195d4644"},
 {"name":"Web (latest)", "title":"Web search (Latest result)", "comName":"WebLatest", "code":"974cdfc30e536405d"},
+{"name":"News (latest)", "title":"News (Latest result)", "comName":"news", "code":"f087797b0e6a14432"},
 {"name":"Blogs", "title":"Blogs", "comName":"blogs", "code":"653a54ad99a1442eb"},
 {"name":"Blogs (latest)", "title":"Blogs Latest", "comName":"BlogsLatest", "code":"b1da190ad1c7048ca"},
 //{"name":"Images", "title":"Images", "comName":"images", "code":"e788e3b75e98b43ca"},
