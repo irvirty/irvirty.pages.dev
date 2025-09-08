@@ -47,7 +47,7 @@ margin: 0 auto;
 position: absolute;
 left: 0;
 right: 0;
-z-index: 5;
+z-index: 999;
 display: none;
 }
 
