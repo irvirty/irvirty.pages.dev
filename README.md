@@ -27,7 +27,7 @@ Search redirection, themes, news, typing speed, games, to-do list, images, icons
   
 ---
   
-## License  
+## License:  
 ```
 Main license: CC BY-SA 4.0
 SimpleHomePage theme for WordPress: GNU General Public License v2 or later
@@ -38,15 +38,20 @@ Resources and others:
 Roboto font: Copyright 2025 Google Apache License, Version 2.0
 Books in /data from The Project Gutenberg: The Project Gutenberg License
 .screenReader class in main.css: Copyright 2025 WordPress License: GPLv2 (or later)
+
 ```
+---  
+
+## Download:  [main.zip](https://github.com/irvirty/irvirty.pages.dev/archive/refs/heads/main.zip)
 
 ---
    
-#### 🏷️ GitHub Explore, topics:  
+#### GitHub Explore, topics:  
 [Website](https://github.com/topics/website?s=updated),
 [Personal Website](https://github.com/topics/personal-website?s=updated),
 [Homepage](https://github.com/topics/homepage?s=updated),
 [Startpage](https://github.com/topics/startpage?s=updated),
+[Search-Redirect](https://github.com/topics/search-redirect?s=updated),
 [Portfolio](https://github.com/topics/portfolio?s=updated),
 [Projects](https://github.com/topics/projects?s=updated),
 [Web Development](https://github.com/topics/web-development?s=updated),
