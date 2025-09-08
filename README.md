@@ -59,6 +59,6 @@ Books in /data from The Project Gutenberg: The Project Gutenberg License
 [Cloudflare Pages](https://github.com/topics/cloudflare-pages?s=updated),
 [HTML](https://github.com/topics/HTML?s=updated),
 [CSS](https://github.com/topics/CSS?s=updated),
-[JavaScript](https://github.com/topics/JavaScript?s=updated),
+[JavaScript](https://github.com/topics/javascript?s=updated),
 
 
