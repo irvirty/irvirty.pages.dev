@@ -1614,15 +1614,6 @@ var radioJsonVar =
         "rightFooter": ""
     },
     {
-        "text": "Radio Wake Up, 105.1 FM, Falkenberg, Sweden | Free Internet Radio | TuneIn",
-        "text2": "",
-        "text3": "",
-        "url": "https:\/\/tunein.com\/radio\/Radio-Wake-Up-1051-s105519\/",
-        "tag": "#radio #RadioMusic #top40 #PopMusic #JPop",
-        "time": 1742046437,
-        "rightFooter": ""
-    },
-    {
         "text": "Radio Siljan, 94.1 FM, Mora, Sweden | Free Internet Radio | TuneIn",
         "text2": "",
         "text3": "",
