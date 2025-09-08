@@ -50,7 +50,7 @@ Books in /data from The Project Gutenberg: The Project Gutenberg License
 [Portfolio](https://github.com/topics/portfolio?s=updated),
 [Projects](https://github.com/topics/projects?s=updated),
 [Web Development](https://github.com/topics/web-development?s=updated),
-[WebDesign](https://github.com/topics/WebDesign?s=updated),
+[WebDesign](https://github.com/topics/webdesign?s=updated),
 [Cloudflare Pages](https://github.com/topics/cloudflare-pages?s=updated),
 [HTML](https://github.com/topics/HTML?s=updated),
 [CSS](https://github.com/topics/CSS?s=updated),
