@@ -3,6 +3,15 @@ var tvJsonVar =
 
 [
     {
+        "text": "TWiT Tech Podcast Network - YouTube",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/@twit",
+        "tag": "#tv #tech #technology",
+        "time": 1757344599,
+        "rightFooter": ""
+    },
+    {
         "text": "NBC News - YouTube",
         "text2": "",
         "text3": "",
