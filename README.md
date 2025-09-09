@@ -38,11 +38,7 @@ Resources and others:
 Roboto font: Copyright 2025 Google Apache License, Version 2.0
 Books in /data from The Project Gutenberg: The Project Gutenberg License
 .screenReader class in main.css: Copyright 2025 WordPress License: GPLv2 (or later)
-
 ```
----  
-
-## Download:  [main.zip](https://github.com/irvirty/irvirty.pages.dev/archive/refs/heads/main.zip)
 
 ---
    

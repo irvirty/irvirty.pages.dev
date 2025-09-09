@@ -538,7 +538,7 @@ var podcastJsonVar =
         "text2": "",
         "text3": "",
         "url": "https:\/\/tunein.com\/podcasts\/\u0421\u0443\u0441\u043f\u0456\u043b\u044c\u043d\u0435-\u041a\u0430\u0437\u043a\u0438-p2497117\/",
-        "tag": "#podcast #ua",
+        "tag": "#podcast #ua #uk",
         "time": 1757410873,
         "rightFooter": ""
     },
