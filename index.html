@@ -205,7 +205,7 @@ opacity: .9;
 <span class="xSmall">Site update: <span class="brand" id="last-update"></span></span>
 </summary>
 <div class="wrapperSmall small inlineBlock padding2 pre bg shadow borderRadius2 tLeft">
-I removed links that cause &quot;mindless scrolling&quot; (links above the form and the hashtag cloud on the main page)
+Brought back the tag cloud on the main page (more convenient).
 
 <a class="brand inlineBlock w100 padding2 small tCenter border2 light borderRadius2" href="./pages/updates/" title="Update Log">more</a>
 </div>
@@ -349,6 +349,33 @@ document.getElementById('urlDayNow').innerHTML = `<a class="brand inlineBlock pa
 <div class="padding2"></div>
 <!-- // nav2 -->
 </noscript>
+<div class="padding2 margin2"></div>
+
+<!-- tag cloud -->
+<aside>
+<div class="tCenter">
+
+<div class="bold padding medium">
+<a class="op brand notUnderline" href="/projects/redirects-25/?q=s" title="Social Networks Explore (random)">Social Network and Web Explore:</a>
+</div>
+
+<div class="padding"></div>
+
+<div class="wrapper3">
+<div id="printTags" class="balance small notUnderline"></div>
+</div>
+<hr>
+<div class="wrapper">
+<div class="balance"><span class="op gray">mode:</span>  <span class="notUnderline" id="printMode"></span></div>
+<div id="tagListEditForm"></div>
+</div>
+
+</div>
+</aside>
+<!--// tag cloud -->
+
+
+
 </main>
 <!-- // content -->
 
@@ -424,7 +451,7 @@ return time + ' ago';
 
 <!--<script src="/js/fuPostTime.js"></script>-->
 <script>
-document.getElementById("last-update").innerHTML = fuPostTime(1757225945);
+document.getElementById("last-update").innerHTML = fuPostTime(1757380841);
 </script>
 
 <script>
@@ -528,6 +555,196 @@ document.getElementById("wpm").innerHTML = wpm;
 
 dateArr = dateArr.slice(-500);
 }
+
+</script>
+
+
+
+<script>
+
+//window.addEventListener('load', function() {});
+
+function tagListCloud(mode){
+
+let tagModePrint = "";
+
+if (mode == undefined||mode == ""){
+mode = localStorage.getItem("tagModeData");
+} else if (mode != "edit"){
+localStorage.setItem("tagModeData", mode);
+}
+
+if (mode == null){ mode = "Hashtags"; }
+
+let tagListSortConf = localStorage.getItem("tagListSortConf");
+
+let tagListColor = `red orange yellow green blue indigo violet`;
+
+let tagList = localStorage.getItem("tagListData");
+if (tagList == null||tagList == undefined){
+tagList = `
+Link Link Link
+Link Link
+`;
+}
+
+let arr = fuMSplit(tagList);
+
+if (tagListSortConf == "sort"){
+arr = fuMSort(arr, "", "arr");
+}
+
+/*let tagList2 = tagList.replaceAll(`
+`, `SYMBOLFORSPLIT
+SYMBOLFORSPLIT`);
+tagList2 = tagList2.replaceAll(',', ',SYMBOLFORSPLIT');
+tagList2 = tagList2.replaceAll(' ', 'SYMBOLFORSPLIT');
+let arr = tagList2.split("SYMBOLFORSPLIT");*/
+
+
+let tagListPrint = "";
+arr.forEach((val, index) => {
+let val2 = val.trim();
+if (val2 != ""){
+val = val.trim();
+//console.log(val + "=" + index);
+let color = fuMRandomItem(tagListColor);
+let printTagUrl = val.toLowerCase();
+
+
+switch (mode) {
+
+case 'Keywords':
+tagListPrint += `<a class="inlineBlock padding op ` + color + `" href="/projects/redirects-25/?q=` + printTagUrl + ` s">` + val + `</a>`;
+break;
+
+case 'News':
+tagListPrint += `<a class="inlineBlock padding op ` + color + `" href="/?q=` + printTagUrl +` n">` + val + `</a>`;
+break;
+
+case 'Search':
+tagListPrint += `<a class="inlineBlock padding op ` + color + `" href="/?q=` + printTagUrl +` rse">` + val + `</a>`;
+break;
+
+case 'GoogleProgrammableSearch':
+tagListPrint += `<a class="inlineBlock padding op ` + color + `" href="/projects/google-programmable-search-49/?q=` + printTagUrl +`">` + val + `</a>`;
+break;
+
+case 'SearchOther':
+tagListPrint += `<a class="inlineBlock padding op ` + color + `" href="/projects/redirects-25/?q=` + printTagUrl + ` o">` + val + `</a>`;
+break;
+
+case 'edit':
+tagListPrint += `<span class="inlineBlock padding">` + val + `</span>`;
+break;
+
+default:
+tagListPrint += `<a class="inlineBlock padding op ` + color + `" href="/projects/redirects-25/?q=` + printTagUrl + ` ht">#` + val + `</a>`;
+
+}
+
+} else {
+//tagListPrint += val;
+}
+});
+
+document.getElementById("printTags").innerHTML = tagListPrint;
+
+modeSwitch(mode, tagList, tagListSortConf);
+
+}
+
+tagListCloud("");
+
+
+function tagListSortConfSet(item){
+localStorage.setItem("tagListSortConf", item);
+tagListCloud("");
+}
+
+
+function modeSwitch(mode, tagList, tagListSortConf){
+
+let tagModePrint = "";
+let tagsModeList = `Hashtags Keywords News Search SearchOther GoogleProgrammableSearch`;
+
+let arr = fuMSplit(tagsModeList);
+let tagListPrint = `<span class="op">mode:</span>`;
+arr.forEach((val, index) => {
+if (mode == val){
+tagModePrint += `
+<a class="inlineBlock padding op active2" href="#" onclick="tagListCloud('` + val +`'); return false;">` + val +`</a>
+`;
+} else {
+tagModePrint += `
+<a class="inlineBlock padding op brand" href="#" onclick="tagListCloud('` + val +`'); return false;">` + val +`</a>
+`;
+}
+});
+
+
+if (tagListSortConf == "sort"){
+tagModePrint += `
+<span class="op gray">/</span>
+<a class="inlineBlock padding op gray" title="Close" href="#" onclick="tagListSortConfSet('unsort'); return false;">unsort</a>
+`;
+} else {
+tagModePrint += `
+<span class="op gray">/</span>
+<a class="inlineBlock padding op brand" href="#" onclick="tagListSortConfSet('sort'); return false;">sort</a>
+`;
+}
+
+if (mode == "edit"){
+tagModePrint += `
+<a class="inlineBlock padding op gray" title="Close" href="#" onclick="closeTagListData(''); return false;">edit</a>
+`;
+} else {
+tagModePrint += `
+<a class="inlineBlock padding op brand" href="#" onclick="tagListCloud('edit'); return false;">edit</a>
+`;
+}
+
+document.getElementById("printMode").innerHTML = tagModePrint;
+
+if (mode == "edit"){
+document.getElementById("tagListEditForm").innerHTML = `
+<form action="" method="get" class="form-example">
+<textarea id="tagListEditData" rows="10">` + tagList + `</textarea>
+<a class="submit block button padding2 op borderRadius2" href="#" onclick="saveTagListData(); return false;">Save</a>
+<div class="tRight"><a class="submit tRight button padding2 op red borderRadius2" href="#" onclick="resetTagListData(); return false;">Reset</a></div>
+  </div>
+</form>
+`;
+}
+
+}
+
+
+
+
+
+
+function saveTagListData(){
+let data = document.getElementById("tagListEditData").value;
+localStorage.setItem("tagListData", data);
+document.getElementById("tagListEditForm").innerHTML = ``;
+tagListCloud("");
+}
+
+function resetTagListData(){
+if (window.confirm("Are you sure?")) {
+localStorage.removeItem("tagListData")
+}
+document.getElementById("tagListEditForm").innerHTML = ``;
+tagListCloud("");
+}
+
+function closeTagListData(){
+document.getElementById("tagListEditForm").innerHTML = ``;
+tagListCloud("");
+}
+
 
 </script>
 
