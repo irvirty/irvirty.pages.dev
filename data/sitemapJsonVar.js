@@ -541,7 +541,7 @@ var sitemapJsonVar = [
     {
         "text": "Rain\n\nRain effect and animation using CSS and JavaScript | rain: ",
         "url": "\/projects\/rain-38\/index.html",
-        "tag": " #rain #random #drop #CSS #JavaScript #project",
+        "tag": " #rain #random #drop #relax #sleep #noise #CSS #JavaScript #project",
         "id": "f9cb36b965b03cfc797acd7bab35ebd8",
         "time": "id"
     },
