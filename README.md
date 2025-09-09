@@ -11,7 +11,7 @@ Carefully! The folder: "other-projects" contains PHP, Python, ... files
 Search redirection, themes, news, typing speed, games, to-do list, images, icons, new tab redirect extension, website templates, etc.
   
 ---
-  
+## Note, info:
 - Responsive, light, flat design.
 - ~50 Themes (dark, light and medium).
 - Speed ​​dial panel in the form of buttons.
