@@ -1,7 +1,7 @@
 // Typing Speed Test (WPM) or Typing Speed Game v.4.0.1
 // zen mode inspired by https://monkeytype.com/
 
-const wmpAverageLimit = 30;
+const wmpAverageLimit = 100;
 const wordLengthLimit = 5.1;
 const allowError = 70;
 const whenTypeProgress = 300;
