@@ -1,4 +1,4 @@
-/* Google programmable search CSS v.1.2.0 */
+/* Google programmable search CSS v.1.2.1 */
 
 /*a.gs-title:link { color: #1155CC !important; }*/
 a.gs-title:hover, a.gs-title:hover b { color: #337DFF !important; }
@@ -264,4 +264,12 @@ margin-top: var(--margin2) !important;
   border-color: var(--d3) !important;
   border-width: 1px 0;
   color: var(--c4) !important;
+}
+
+.gs-no-results-result .gs-snippet, .gs-error-result .gs-snippet {
+  background-color: var(--l3) !important;
+  border: 1px solid var(--d3) !important;
+  display: inline-block;
+  margin: 5px;
+  padding: 5px;
 }

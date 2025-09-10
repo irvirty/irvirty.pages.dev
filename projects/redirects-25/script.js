@@ -1,4 +1,4 @@
-// Search redirects v.2.8.32
+// Search redirects v.2.9.0
 // Search query + command
 
 // conf
@@ -50,6 +50,15 @@ sUrlText = myArray[0];
 
 if (q == ''&&q != 'null'){ q = ''; }
 if (q2 == "l"){ q = q + " l"; }
+
+if (q2 == "ai"){
+if (conf["confDevice"] == 'mobile'){
+q = q + " q";
+} else {
+q = q + " ai";
+}
+}
+
 //if (q == ""){ q = "q"; }
 
 if (rUrlGet == null&&q != 'null'&&q != null&&q != ''&&sUrlText.indexOf("cache") == -1){
@@ -2232,15 +2241,18 @@ q = q.trim();
 q = encodeURIComponent(q);
 urlList = [
 "https://www.google.com/search?q=" + q + "&udm=50",
-"https://chatgpt.com/?q=" + q + "&temporary-chat=true",
+"https://www.bing.com/copilotsearch?q=" + q + "&FORM=somesite",
+
+//"https://chatgpt.com/?q=" + q + "&temporary-chat=true",
 //"https://chat.mistral.ai/chat/?q=" + q,
 ];
 if (q == ''){
 urlList = [
-"https://www.google.com/",
-"https://chatgpt.com/",
-//"https://chat.mistral.ai/",
+"https://www.google.com/search?udm=50",
+"https://www.bing.com/copilotsearch",
 
+//"https://chatgpt.com/",
+//"https://chat.mistral.ai/",
 //"https://www.bing.com/copilot",
 //"https://copilot.microsoft.com/",
 //"https://gemini.google.com/",
@@ -2262,6 +2274,25 @@ urlList = [
 if (q == ''){
 urlList = [
 "https://www.google.com/",
+];
+}
+random = urlList[fuMRandom(0, urlList.length - 1)];
+url = random;
+sRedirectUrl = url;
+break;
+
+
+case 'bai#':
+case 'cop#':
+q = q3.replace(qCom, '');
+q = q.trim();
+q = encodeURIComponent(q);
+urlList = [
+"https://www.bing.com/copilotsearch?q=" + q + "&FORM=somesite",
+];
+if (q == ''){
+urlList = [
+"https://www.bing.com/copilotsearch",
 ];
 }
 random = urlList[fuMRandom(0, urlList.length - 1)];
