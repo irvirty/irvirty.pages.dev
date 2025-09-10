@@ -44,6 +44,7 @@ Books in /data from The Project Gutenberg: The Project Gutenberg License
    
 #### GitHub Explore, topics:  
 [Website](https://github.com/topics/website?s=updated),
+[Static Website ](https://github.com/topics/static-website?s=updated),
 [Personal Website](https://github.com/topics/personal-website?s=updated),
 [Homepage](https://github.com/topics/homepage?s=updated),
 [Startpage](https://github.com/topics/startpage?s=updated),
