@@ -11,13 +11,15 @@ Carefully! The folder: "other-projects" contains PHP, Python, ... files
 Search redirection, themes, news, typing speed, games, to-do list, images, icons, new tab redirect extension, website templates, etc.
   
 ---
-## Note, info:
-- Responsive, light, flat design.
-- ~50 Themes (dark, light and medium).
-- Speed ​​dial panel in the form of buttons.
-- Typing Speed with your own text (in games).
-- New Tab Redirect extension: any website in a new tab page. (in pages)
-- SimpleHomePage - experimental theme for WordPress. (in pages)
+  
+## Feature:
+🎨 ~50 Themes (dark, light and medium).  
+🏷️ Speed ​​dial panel.  
+🎮 JavaScript Games: Typing Speed (WPM), Snake, Memory Symbol, Tic Tac Toe. (in games).  
+🎨 Themes for Firefox, Geany IDE. (in pages).  
+🛍 Extensions: New Tab Redirect, Auto theme switcher (in pages).  
+WP: Experimental theme for WordPress. (in pages).  
+📝 Todo List. (in projects).  
   
 ---
    
