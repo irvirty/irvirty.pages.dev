@@ -8,7 +8,7 @@ Carefully! The folder: "other-projects" contains PHP, Python, ... files
   
 # Homepage, Start Page and Projects
   
-Search redirection, themes, news, typing speed, games, to-do list, images, icons, new tab redirect extension, website templates, etc.
+### Search redirection, themes, news, typing speed, games, to-do list, images, icons, new tab redirect extension, website templates, etc.
   
 ---
   
@@ -19,7 +19,9 @@ Search redirection, themes, news, typing speed, games, to-do list, images, icons
 🎨 Themes for Firefox, Geany IDE. (in pages).  
 🛍 Extensions: New Tab Redirect, Auto theme switcher (in pages).  
 WP: Experimental theme for WordPress. (in pages).  
-📝 Todo List. (in projects).  
+📄 Website Templates. (in pages).  
+📝 Todo List. (in projects). 
+📦 And other: CSS art, images, icons, ...
   
 ---
    
