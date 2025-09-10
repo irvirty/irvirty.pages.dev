@@ -12,7 +12,7 @@ Carefully! The folder: "other-projects" contains PHP, Python, ... files
   
 ---
   
-## Feature:
+## Features:
 🎨 ~50 Themes (dark, light and medium).  
 🏷️ Speed ​​dial panel.  
 🎮 JavaScript Games: Typing Speed (WPM), Snake, Memory Symbol, Tic Tac Toe. (in games).  
@@ -20,8 +20,8 @@ Carefully! The folder: "other-projects" contains PHP, Python, ... files
 🛍 Extensions: New Tab Redirect, Auto theme switcher (in pages).  
 WP: Experimental theme for WordPress. (in pages).  
 📄 Website Templates. (in pages).  
-📝 Todo List. (in projects). 
-📦 And other: CSS art, images, icons, ...
+📝 Todo List. (in projects).  
+📦 And other: CSS art, images, icons, ...  
   
 ---
    
