@@ -15,13 +15,13 @@ Carefully! The folder: "other-projects" contains PHP, Python, ... files
 ## Features:
 🎨 ~50 Themes (dark, light and medium).  
 🏷️ Speed ​​dial panel.  
-🎮 JavaScript Games: Typing Speed (WPM), Snake, Memory Symbol, Tic Tac Toe. (in games).  
-🎨 Themes for Firefox, Geany IDE. (in pages).  
-🛍 Extensions: New Tab Redirect, Auto theme switcher (in pages).  
-WP: Experimental theme for WordPress. (in pages).  
-📄 Website Templates. (in pages).  
-📝 Todo List. (in projects).  
-📦 And other: CSS art, images, icons, ...  
+🎮 JavaScript Games: Typing Speed (WPM), Snake, Memory Symbol, Tic Tac Toe.  
+🎨 Themes for Firefox, Geany IDE.  
+🛍 Extensions: New Tab Redirect, Auto theme switcher.  
+WP: Experimental theme for WordPress.  
+📄 Website Templates.  
+📝 Todo List.  
+📦 And other: CSS Art, images, icons, ...  
   
 ---
    
