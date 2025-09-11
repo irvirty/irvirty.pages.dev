@@ -109,7 +109,9 @@
 <!-- content -->
 <main id="content" class="content">
 
+<div id="topHeader">
 <h1 class="op tCenter"><span class="insertIconTitle">All (start menu)</span></h1>
+</div>
 
 <div class="wrapper">
 
@@ -397,6 +399,9 @@ var confD = "../";
 <script src="../js/script.js"></script>
 
 
+
+
+
 <script src="../data/sitemapJsonVar.js"></script>
 <script src="../data/linksJsonVar.js"></script>
 <script src="../data/websitedirectoryJsonVar.js"></script>
@@ -420,6 +425,26 @@ data = data.concat(sitemapJsonVar, linksJsonVar, websitedirectoryJsonVar, random
 
 <script>
 //startMenu("result", data);
+</script>
+
+<script>
+
+// hide top header if mobile
+if (conf["confDevice"] == 'mobile'){
+var getclick2 = document.getElementById('form');
+if (getclick2 != null&&document.getElementById('topHeader') != null){
+document.addEventListener('click', function(event) {
+if (getclick2.contains(event.target)) {
+document.getElementById( 'topHeader' ).style.display = 'none';
+document.getElementById( 'topNav' ).style.display = 'none';
+} else {
+document.getElementById( 'topHeader' ).style.display = 'block';
+document.getElementById( 'topNav' ).style.display = 'block';
+}
+});
+}
+}
+
 </script>
 
 
