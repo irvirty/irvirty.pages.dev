@@ -1,4 +1,4 @@
-/* Main.css style v.23.8.6
+/* Main.css style v.23.8.7
 /* main.css + theme (auto.css) */
 /* The style is mostly based on classes */
 
@@ -210,10 +210,11 @@ align-items: self-end;
 align-items: stretch;
 flex-shrink: 0;
 }
-.oneColumn { grid-template-columns: calc(100% / 1); }
-.twoColumn{ grid-template-columns: calc(100% / 2) calc(100% / 2); }
-.threeColumn { grid-template-columns: calc(100% / 3) calc(100% / 3) calc(100% / 3); }
-.fourColumn { grid-template-columns:  calc(100% / 4) calc(100% / 4) calc(100% / 4) calc(100% / 4); }
+/*https://stackoverflow.com/questions/72176290/css-grid-grid-gap-causing-items-to-overflow#*/
+.oneColumn { grid-template-columns: repeat(1, minmax(0, 1fr)); }
+.twoColumn{ grid-template-columns: repeat(2, minmax(0, 1fr)); }
+.threeColumn { grid-template-columns: repeat(3, minmax(0, 1fr));; }
+.fourColumn { grid-template-columns:  repeat(4, minmax(0, 1fr));; }
 
 
 .autoColumn {
