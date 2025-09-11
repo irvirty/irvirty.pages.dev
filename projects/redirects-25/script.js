@@ -2678,9 +2678,25 @@ var getclick2 = document.getElementById('form');
 if (getclick2 != null&&document.getElementById('topHeader') != null){
 document.addEventListener('click', function(event) {
 if (getclick2.contains(event.target)) {
+	
 document.getElementById( 'topHeader' ).style.display = 'none';
+if (document.getElementById('topNav') != null){
+document.getElementById( 'topNav' ).style.display = 'none';
+}
+if (document.getElementById('secondNav') != null){
+document.getElementById( 'secondNav' ).style.display = 'none';
+}
+
 } else {
+	
 document.getElementById( 'topHeader' ).style.display = 'block';
+if (document.getElementById('topNav') != null){
+document.getElementById( 'topNav' ).style.display = 'block';
+}
+if (document.getElementById('secondNav') != null){
+document.getElementById( 'secondNav' ).style.display = 'block';
+}
+
 }
 });
 }

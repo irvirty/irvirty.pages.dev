@@ -521,7 +521,7 @@ document.getElementById("footer").innerHTML = `
 </div>
 
 <div>
-<!--<a class="brand" href="#goBack" onclick="history.back();return false;">Go Back</a>-->
+<!--<a class="brand" href="#HistoryBack" onclick="history.back();return false;">Go Back</a>-->
 <span class="capitalize brand" title="Theme settings"><a id="fTheme" class="inlineBlock padding brand" href="${confD}pages/themes/">Themes</a></span>
 <span id="fEmbedFileUrl"></span>
 <span id="fPinButton"></span>

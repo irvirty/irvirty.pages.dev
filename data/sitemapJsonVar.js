@@ -616,13 +616,6 @@ var sitemapJsonVar = [
         "time": "id"
     },
     {
-        "text": "Redirect to list\n\nRedirect page, not intended for viewing. | icons: ",
-        "url": "\/pages\/icons\/inspiration-log.html",
-        "tag": " #Redirect_to_list",
-        "id": "b534d8b7df2ff19d3c4d5eb87c95dee4",
-        "time": "id"
-    },
-    {
         "text": "Remove duplicates\n\nRemove duplicates. Remove duplicate items. | remove duplicates: ",
         "url": "\/projects\/remove-duplicates-61\/index.html",
         "tag": " #Experimental #tool #duplicates #remove #itmes #JavaScript #project",
