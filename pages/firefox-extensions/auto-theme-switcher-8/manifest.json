@@ -1,7 +1,7 @@
 {
 "manifest_version": 3,
 "name": "Auto theme switcher",
-"version": "2.2.3",
+"version": "2.2.5",
 "description": "Automatically change the browser theme based on the operating system's light or dark color scheme or depending on time. Note: Auto mode works unstable with certain theme settings in the extension and with the system light and dark browser theme.",
 
 "icons": {
@@ -42,7 +42,7 @@
 
 "browser_specific_settings": {
 "gecko": {
-"id": "auto-theme-switcher@example.com",
+"id": "auto-theme-switcher-8@example.com",
 "strict_min_version": "132.0"
 }
 }

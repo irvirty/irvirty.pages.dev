@@ -1,7 +1,7 @@
 {
 "manifest_version": 3,
 "name": "New Tab Redirect",
-"version": "2.6.0",
+"version": "2.6.1",
 "description": "Any website in a new tab page. This add-on automatically opens your website every time you open a new tab in your browser.",
 
 "icons": {
@@ -12,12 +12,6 @@
 [
 "storage"
 ],
- 
-"browser_specific_settings": {
-  "gecko": {
-    "id": "{ca76a51e-39c5-426e-a65a-17331611382e}",
-    "strict_min_version": "109.0"  }
-},
 
 "options_ui": {
 "page": "options.html",
@@ -31,8 +25,16 @@
 }
 },
 
+
 "chrome_url_overrides" : {
     "newtab": "new-tab-redirect.html"
-  }
+  },
+  
+"browser_specific_settings": {
+"gecko": {
+"id": "new-tab-redirect-8@example.com",
+"strict_min_version": "132.0"
+}
+}
   
 }
