@@ -8,7 +8,7 @@ Carefully! The folder: "other-projects" contains PHP, Python, ... files
   
 # Homepage, Start Page and Projects
   
-#### Search redirection, themes, news, typing speed, games, to-do list, images, icons, new tab redirect extension, website templates, etc.
+Search redirection, themes, news, typing speed, games, to-do list, images, icons, new tab redirect extension, website templates, etc.
   
 ---
   
