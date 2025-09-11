@@ -3,6 +3,86 @@ var musicJsonVar =
 
 [
     {
+        "id": "6495",
+        "text": "I Follow Rivers (The Magician Remix) \u00b7 Lykke Li",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=4CaEGG0xpMk",
+        "tag": "#music",
+        "time": 1757587699,
+        "rightFooter": ""
+    },
+    {
+        "id": "6494",
+        "text": "The World\u2019s Biggest Paving Slab (Live from BBC Maida Vale) \u00b7 English Teacher",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=nnUT7ALedp4",
+        "tag": "#music",
+        "time": 1757586914,
+        "rightFooter": ""
+    },
+    {
+        "id": "6493",
+        "text": "English Teacher - Song About Love' (Official Video) - YouTube",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=4u9AulY9Gdc",
+        "tag": "#music",
+        "time": 1757586753,
+        "rightFooter": ""
+    },
+    {
+        "id": "6492",
+        "text": "A55 \u00b7 English Teacher",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=JtE6-aMZIqg",
+        "tag": "#music",
+        "time": 1757586717,
+        "rightFooter": ""
+    },
+    {
+        "id": "6491",
+        "text": "English Teacher \u2013 BIRDS OF A FEATHER (Live from BBC Maida Vale) - YouTube",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=KpZYVnlbs18",
+        "tag": "#music",
+        "time": 1757586674,
+        "rightFooter": ""
+    },
+    {
+        "id": "6490",
+        "text": "English Teacher - R&B - YouTube",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=5I7zefEoqGE",
+        "tag": "#music",
+        "time": 1757586437,
+        "rightFooter": ""
+    },
+    {
+        "id": "6489",
+        "text": "English Teacher - Nearly Daffodils (Lyric Video) - YouTube",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=x6xKTRZm3vI",
+        "tag": "#music",
+        "time": 1757586373,
+        "rightFooter": ""
+    },
+    {
+        "id": "6488",
+        "text": "English Teacher - The World\u2019s Biggest Paving Slab - YouTube",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=YNkbgumvYyA",
+        "tag": "#music",
+        "time": 1757586319,
+        "rightFooter": ""
+    },
+    {
         "id": "6420",
         "text": "American Pie \u00b7 Madonna",
         "text2": "",
