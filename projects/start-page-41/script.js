@@ -72,7 +72,7 @@ setInterval(fuStopwatch, 1000);
 // hide top header if mobile
 if (conf["confDevice"] == 'mobile'){
 var getclick2 = document.getElementById('form');
-if (getclick2 != null&&document.getElementById('topHeader') != null){
+if (getclick2 != null){
 document.addEventListener('click', function(event) {
 if (getclick2.contains(event.target)) {
 	

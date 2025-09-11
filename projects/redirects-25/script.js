@@ -53,7 +53,8 @@ if (q2 == "l"){ q = q + " l"; }
 
 if (q2 == "ai"){
 if (conf["confDevice"] == 'mobile'){
-q = q + " q";
+//q = q + " q";
+q = q + " ai";
 } else {
 q = q + " ai";
 }
