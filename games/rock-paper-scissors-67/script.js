@@ -1,4 +1,4 @@
-// Rock paper scissors v.1.1.0
+// Rock paper scissors v.1.2.0
 
 
 let variantArr = ["🪨", "📄", "✂️"];
@@ -36,13 +36,13 @@ val = `
 print += val;
 });
 
-document.getElementById("resultTop").innerHTML = `<span class="xxLarge">Select:</span>`;
+//document.getElementById("resultTop").innerHTML = `<span class="xxLarge">Select:</span>`;
 break;
 
 case 'result':
 
 resultWinStatus = `
-<h2 class="red">Wrong!</h2>
+<h2 class="red">Lost!</h2>
 <audio style="display:none" autoplay="false" src="${confD}audio/error.mp3"></audio>
 `;
 
@@ -88,24 +88,23 @@ resultWinStatus = `
 `;
 }
 
-if(resultWinStatus.indexOf("Wrong") != -1){
+if(resultWinStatus.indexOf("Lonst") != -1){
 rpsGameScorePc++;
 localStorage.setItem("rpsGameScorePc", rpsGameScorePc);
 }
 
 document.getElementById("resultWin").innerHTML = `${resultWinStatus}`;
 document.getElementById("resultTop").innerHTML = `
-PC:
 <span class="xxLarge">${pcVariant}</span>
-&nbsp;&nbsp;
-<span class="xxLarge">${selectedVal} </span>
-:You
+<!--&nbsp;&nbsp;-->
+<div class="padding"></div>
+<span class="xxLarge">${selectedVal}</span>
 `;
 
 document.getElementById("scoreResult").innerHTML = `
-${rpsGameScorePc}
+computer: ${rpsGameScorePc}
 &nbsp;&nbsp;|&nbsp;&nbsp;
-${rpsGameScoreUser}
+human: ${rpsGameScoreUser}
 `;
 
 break;

@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
   "name": "Irvirty Search Redirect",
-  "version": "1.7.0",
+  "version": "1.7.1",
   "description": "URL irvirty.pages.dev/search/?q={searchTerms} as Search engine.",
   
 "icons": {
@@ -11,7 +11,7 @@
 
   "chrome_settings_overrides": {
   "search_provider": {
-    "name": "Irvirty Search",
+    "name": "Irvirty",
     "search_url": "https://irvirty.pages.dev/search/?q={searchTerms}",
     "keyword": "@irvirty",
     "favicon_url": "icon512x512.png"
