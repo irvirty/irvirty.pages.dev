@@ -8,7 +8,7 @@ Carefully! The folder: "other-projects" contains PHP, Python, ... files
   
 # Homepage, Start Page and Projects
   
-Search redirection, themes, news, typing speed, games, to-do list, images, icons, new tab redirect extension, website templates, etc.
+Search redirection, themes, news, typing speed, games, to-do list, images, icons, new tab redirect extension, website templates, WordPress theme, etc.
   
 ---
   
@@ -17,7 +17,7 @@ Search redirection, themes, news, typing speed, games, to-do list, images, icons
 🏷️ Speed ​​dial panel.  
 🎮 JavaScript Games: Typing Speed (WPM), Snake, Memory Symbol, Tic Tac Toe.  
 🎨 Themes for Firefox, Geany IDE.  
-🛍 Extensions: New Tab Redirect, Auto theme switcher.  
+🛍 Extensions: New Tab Redirect, Auto theme switcher (for Firefox only).  
 WP: Experimental theme for WordPress.  
 📄 Website Templates.  
 📝 Todo List.  
@@ -43,9 +43,9 @@ Roboto font: Copyright 2025 Google Apache License, Version 2.0
 Books in /data from The Project Gutenberg: The Project Gutenberg License
 .screenReader class in main.css: Copyright 2025 WordPress License: GPLv2 (or later)
 ```
-
+  
 ---
-   
+  
 #### GitHub Explore, topics:  
 [Website](https://github.com/topics/website?s=updated),
 [Static Website ](https://github.com/topics/static-website?s=updated),
