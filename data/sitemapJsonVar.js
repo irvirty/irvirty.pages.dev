@@ -728,9 +728,9 @@ var sitemapJsonVar = [
         "time": "id"
     },
     {
-        "text": "Start Page\n\nStart page, home page, new tab page. | start page: ",
+        "text": "Start Page\n\nStart page, home page, new tab page. Timer in tab. Tab timer. | start page: ",
         "url": "\/projects\/start-page-41\/index.html",
-        "tag": " #NewTabPage #StartPage #home #homepage #start #page #tab #NewTab #StartPage #CSS #JavaScript #project",
+        "tag": " #Timer #NewTabPage #StartPage #home #homepage #start #page #tab #NewTab #StartPage #CSS #JavaScript #project",
         "id": "0c669ab1f6ae5ee45db5b42b1b9a6bf7",
         "time": "id"
     },
