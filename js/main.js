@@ -205,6 +205,7 @@ conf["confMenuItems"] = [
 {"url":`${confD}games/`, "title":"Games", "text":"Games", "class":""},
 {"url":`${confD}projects/`, "title":"Projects", "text":"Projects", "class":""},
 {"url":`${confD}mini-projects/`, "title":"Mini Projects", "text":"Mini Projects", "class":""},
+{"url":`${confD}pages/about/`, "title":"About page", "text":"About", "class":""},
 ];
 
 conf["confMenuItems2"] = '';
@@ -266,7 +267,7 @@ ${conf["confMenuItems2"]}
 </div>
 </div>
 
-<a class="inlineBlock padding mClassNavUp brand borderBottomTransparent itemLinkAni" tabindex="0" href="../" title="../ (Up)">List (up)</a>
+<!--<a class="inlineBlock padding mClassNavUp brand borderBottomTransparent itemLinkAni" tabindex="0" href="../" title="../ (Up)">List (up)</a>-->
 
 <form class="noscriptHide inlineBlock padding" style="padding-right: 0;" method="GET" action="${confD}site-search/" role="search">
 <!--<label for="siteSearch" class="xSmall op">search:</label>-->
