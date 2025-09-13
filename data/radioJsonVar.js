@@ -1947,6 +1947,15 @@ var radioJsonVar =
         "rightFooter": ""
     },
     {
+        "text": "BBC World Service | Free Internet Radio | TuneIn",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/tunein.com\/radio\/BBC-World-Service-s322318\/",
+        "tag": "#radio #en #news",
+        "time": 1739637732,
+        "rightFooter": ""
+    },
+    {
         "text": "BBC Radio 6 Music, BBC 6Music, UK | Free Internet Radio | TuneIn",
         "text2": "",
         "text3": "",
@@ -4914,15 +4923,6 @@ var radioJsonVar =
         "url": "https:\/\/tunein.com\/radio\/Ibiza-Sonica-Radio-924-s78109\/",
         "tag": "#radio #RadioMusic #dance #electronic",
         "time": 1624768131,
-        "rightFooter": ""
-    },
-    {
-        "text": "BBC World Service News | Free Internet Radio | TuneIn",
-        "text2": "",
-        "text3": "",
-        "url": "https:\/\/tunein.com\/radio\/BBC-World-Service-News-s24948\/",
-        "tag": "#radio #en",
-        "time": 1624768043,
         "rightFooter": ""
     },
     {

@@ -1,5 +1,5 @@
 
-//var myCacheVersion = "v.1.2.2025.09.12";
+//var myCacheVersion = "v.1.2.2025.09.13";
 
 
 
@@ -70,7 +70,7 @@ function swJsInstallFiles(){
 //https://stackoverflow.com/questions/66529102/uncaught-in-promise-typeerror-failed-to-execute-cache-on-addall-request
 //https://github.com/mdn/pwa-examples
 self.addEventListener('install', (e) => {
-e.waitUntil(caches.open("v.1.2.2025.09.12").then((cache) => cache.addAll(fileListArrFound)),);
+e.waitUntil(caches.open("v.1.2.2025.09.13").then((cache) => cache.addAll(fileListArrFound)),);
 });*/
 
 
@@ -516,6 +516,7 @@ var fileListArr = ["/404.html",
 "/pages/art/2024/winter-pixels-gimp-19.png",
 "/pages/art/2025/landscape-gimp-25.png",
 "/pages/art/2025/",
+"/pages/art/2025/mountains-krita-27.png",
 "/pages/art/2025/tool-test-inkscape-26.jpeg",
 "/pages/art/index.html",
 "/pages/art/tpl-gimp-0.png",
@@ -863,7 +864,6 @@ var fileListArr = ["/404.html",
 "/pages/images/2024/ai-assistant-inkscape-62.png",
 "/pages/images/",
 "/pages/images/2024/",
-"/pages/images/2024/art-krita-28.png",
 "/pages/images/2024/ava-woman-laptop-ava-inkscape-12.svg",
 "/pages/images/2024/ava-woman-laptop-inkscape-30.svg",
 "/pages/images/2024/barbie-time-inkscape-10.svg",
@@ -1216,6 +1216,10 @@ var fileListArr = ["/404.html",
 "/projects/drawing-7/",
 "/projects/drawing-7/script.js",
 "/projects/drawing-7/style.css",
+"/projects/empty-page-80/index.html",
+"/projects/empty-page-80/",
+"/projects/empty-page-80/script.js",
+"/projects/empty-page-80/style.css",
 "/projects/google-programmable-search-49/clean.html",
 "/projects/google-programmable-search-49/",
 "/projects/google-programmable-search-49/index.html",
@@ -1470,7 +1474,7 @@ if (res.ok) {
 // file is present at URL
 console.log('try cache.add ' + file);
 //https://web.dev/learn/pwa/caching/
-caches.open("v.1.2.2025.09.12")
+caches.open("v.1.2.2025.09.13")
 .then(cache => {
 cache.add(file); // it stores only one resource
 //  cache.addAll(["styles.css", "app.js"]); // it stores two resources
@@ -1496,7 +1500,7 @@ if (res.ok) {
 // file is present at URL
 console.log('try cache.add ' + newFile);
 //https://web.dev/learn/pwa/caching/
-caches.open("v.1.2.2025.09.12")
+caches.open("v.1.2.2025.09.13")
 .then(cache => {
 cache.add(newFile); // it stores only one resource
 //  cache.addAll(["styles.css", "app.js"]); // it stores two resources
@@ -1529,7 +1533,7 @@ console.log('404 not found ' + newFile);
 // rm old cache
 //https://developer.mozilla.org/en-US/docs/Web/API/CacheStorage/delete
 this.addEventListener("activate", (event) => {
-  const cachesToKeep = ["v.1.2.2025.09.12"];
+  const cachesToKeep = ["v.1.2.2025.09.13"];
 
   event.waitUntil(
     caches.keys().then((keyList) =>

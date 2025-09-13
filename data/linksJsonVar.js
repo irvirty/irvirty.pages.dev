@@ -1398,7 +1398,7 @@ var linksJsonVar =
         "text2": "",
         "text3": "",
         "url": "https:\/\/www.deezer.com\/us\/",
-        "tag": "#music #platform",
+        "tag": "#music #platform #live #radio",
         "time": 1707015128,
         "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=99\"  title=\"id=99 (permanent link)\" >id<\/a>"
     },
