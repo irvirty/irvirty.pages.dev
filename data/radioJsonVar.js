@@ -3,6 +3,15 @@ var radioJsonVar =
 
 [
     {
+        "text": "Hromadske Radio",
+        "text2": "https:\/\/hromadske.radio\/radio_https_upstream",
+        "text3": "mp3",
+        "url": "https:\/\/hromadske.radio\/en",
+        "tag": "#radio #ua #uk",
+        "time": 1757739041,
+        "rightFooter": ""
+    },
+    {
         "text": "Bible Radio Book | Free Internet Radio | TuneIn",
         "text2": "",
         "text3": "",
@@ -2788,7 +2797,7 @@ var radioJsonVar =
         "text2": "https:\/\/radio.nrcu.gov.ua\/ur3-mp3",
         "text3": "mp3",
         "url": "https:\/\/suspilne.media\/culture\/",
-        "tag": "#radio #ua",
+        "tag": "#radio #ua #uk",
         "time": 1683435941,
         "rightFooter": ""
     },
@@ -2797,7 +2806,7 @@ var radioJsonVar =
         "text2": "https:\/\/radio.nrcu.gov.ua\/ur1-mp3",
         "text3": "mp3",
         "url": "https:\/\/ukr.radio\/",
-        "tag": "#radio #ua",
+        "tag": "#radio #ua #uk",
         "time": 1683435737,
         "rightFooter": ""
     },
@@ -2842,7 +2851,7 @@ var radioJsonVar =
         "text2": "https:\/\/radio.ukr.radio\/ur2-mp3",
         "text3": "mp3",
         "url": "https:\/\/promin.fm\/",
-        "tag": "#radio #ua",
+        "tag": "#radio #ua #uk",
         "time": 1683434926,
         "rightFooter": ""
     },
@@ -2968,7 +2977,7 @@ var radioJsonVar =
         "text2": "http:\/\/91.90.22.10:8012\/;",
         "text3": "mp3",
         "url": "https:\/\/radio.kyiv24.news\/",
-        "tag": "#radio #ua",
+        "tag": "#radio #ua #uk",
         "time": 1683396082,
         "rightFooter": ""
     },
@@ -4728,6 +4737,15 @@ var radioJsonVar =
         "rightFooter": ""
     },
     {
+        "text": "Radio Kyiv FM, \u0420\u0430\u0434\u0456\u043e \u041a\u0438\u0457\u0432 \u0424\u041c 98.0 FM, Kiev, Ukraine | Free Internet Radio | TuneIn",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/tunein.com\/radio\/Radio-Kyiv-FM-980-s81360\/",
+        "tag": "#radio #ua #uk",
+        "time": 1644475916,
+        "rightFooter": ""
+    },
+    {
         "text": "Rockabilly Radio",
         "text2": "https:\/\/rradio.fastserv.com\/hifi",
         "text3": "mp3",
@@ -5058,6 +5076,15 @@ var radioJsonVar =
         "url": "https:\/\/tunein.com\/radio\/KQED-FM-885-s34804\/",
         "tag": "#en #radio",
         "time": 1620118467,
+        "rightFooter": ""
+    },
+    {
+        "text": "Hromadske Radio, 70.4 FM, Kiev, Ukraine | Free Internet Radio | TuneIn",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/tunein.com\/radio\/Hromadske-Radio-704-s218694\/",
+        "tag": "#radio #403 #ua #uk",
+        "time": 1620115891,
         "rightFooter": ""
     },
     {
