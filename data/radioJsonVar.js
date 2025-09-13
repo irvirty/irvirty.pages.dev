@@ -2973,15 +2973,6 @@ var radioJsonVar =
         "rightFooter": ""
     },
     {
-        "text": "\u0413\u043e\u043b\u043e\u0432\u043d\u0430 - \u041a\u0438\u0457\u0432 FM - #\u0421\u043b\u0443\u0445\u0430\u0439\u041a\u0438\u0457\u0432",
-        "text2": "http:\/\/91.90.22.10:8012\/;",
-        "text3": "mp3",
-        "url": "https:\/\/radio.kyiv24.news\/",
-        "tag": "#radio #ua",
-        "time": 1683396082,
-        "rightFooter": ""
-    },
-    {
         "text": "Radio X",
         "text2": "http:\/\/mp3.radiox.ch\/standard.mp3",
         "text3": "mp3",
@@ -4993,7 +4984,7 @@ var radioJsonVar =
         "text2": "",
         "text3": "",
         "url": "https:\/\/tunein.com\/radio\/COPE-Madrid-999-s24956\/",
-        "tag": "#es #radio",
+        "tag": "#radio #es",
         "time": 1620121116,
         "rightFooter": ""
     },
