@@ -7,7 +7,7 @@ var radioJsonVar =
         "text2": "https:\/\/hromadske.radio\/radio_https_upstream",
         "text3": "mp3",
         "url": "https:\/\/hromadske.radio\/en",
-        "tag": "#radio #ua #uk",
+        "tag": "#radio #ua",
         "time": 1757739041,
         "rightFooter": ""
     },
@@ -2797,7 +2797,7 @@ var radioJsonVar =
         "text2": "https:\/\/radio.nrcu.gov.ua\/ur3-mp3",
         "text3": "mp3",
         "url": "https:\/\/suspilne.media\/culture\/",
-        "tag": "#radio #ua #uk",
+        "tag": "#radio #ua",
         "time": 1683435941,
         "rightFooter": ""
     },
@@ -2806,7 +2806,7 @@ var radioJsonVar =
         "text2": "https:\/\/radio.nrcu.gov.ua\/ur1-mp3",
         "text3": "mp3",
         "url": "https:\/\/ukr.radio\/",
-        "tag": "#radio #ua #uk",
+        "tag": "#radio #ua",
         "time": 1683435737,
         "rightFooter": ""
     },
@@ -2851,7 +2851,7 @@ var radioJsonVar =
         "text2": "https:\/\/radio.ukr.radio\/ur2-mp3",
         "text3": "mp3",
         "url": "https:\/\/promin.fm\/",
-        "tag": "#radio #ua #uk",
+        "tag": "#radio #ua",
         "time": 1683434926,
         "rightFooter": ""
     },
@@ -2977,7 +2977,7 @@ var radioJsonVar =
         "text2": "http:\/\/91.90.22.10:8012\/;",
         "text3": "mp3",
         "url": "https:\/\/radio.kyiv24.news\/",
-        "tag": "#radio #ua #uk",
+        "tag": "#radio #ua",
         "time": 1683396082,
         "rightFooter": ""
     },
@@ -4741,7 +4741,7 @@ var radioJsonVar =
         "text2": "",
         "text3": "",
         "url": "https:\/\/tunein.com\/radio\/Radio-Kyiv-FM-980-s81360\/",
-        "tag": "#radio #ua #uk",
+        "tag": "#radio #ua",
         "time": 1644475916,
         "rightFooter": ""
     },
@@ -5083,7 +5083,7 @@ var radioJsonVar =
         "text2": "",
         "text3": "",
         "url": "https:\/\/tunein.com\/radio\/Hromadske-Radio-704-s218694\/",
-        "tag": "#radio #403 #ua #uk",
+        "tag": "#radio #403 #ua",
         "time": 1620115891,
         "rightFooter": ""
     },
