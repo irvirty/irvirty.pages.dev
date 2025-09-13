@@ -1,5 +1,59 @@
 [
     {
+        "text": "580 CFRA, 580 AM, Ottawa, Canada | Free Internet Radio | TuneIn",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/tunein.com\/radio\/580-CFRA-s31140\/",
+        "tag": "#radio #en",
+        "time": 1757801139,
+        "rightFooter": ""
+    },
+    {
+        "text": "KERA, 90.1 FM, Dallas-Fort Worth, US | Free Internet Radio | TuneIn",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/tunein.com\/radio\/KERA-901-s32500\/",
+        "tag": "#radio #en",
+        "time": 1757801118,
+        "rightFooter": ""
+    },
+    {
+        "text": "Iowa Public Radio News, WSUI 910 AM, Des Moines, US | Free Internet Radio | TuneIn",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/tunein.com\/radio\/Iowa-Public-Radio-News-910-s23012\/",
+        "tag": "#radio #en",
+        "time": 1757801100,
+        "rightFooter": ""
+    },
+    {
+        "text": "West Virginia Public Broadcasting, WVPB 88.5 FM, Charleston, US | Free Internet Radio | TuneIn",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/tunein.com\/radio\/West-Virginia-Public-Broadcasting-885-s23618\/",
+        "tag": "#radio #en #news",
+        "time": 1757801069,
+        "rightFooter": ""
+    },
+    {
+        "text": "NEWSTALK 1010, CFRB 1010 AM, Toronto, Canada | Free Internet Radio | TuneIn",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/tunein.com\/radio\/NEWSTALK-1010-s31141\/",
+        "tag": "#radio #en #news",
+        "time": 1757801008,
+        "rightFooter": ""
+    },
+    {
+        "text": "WBUR FM, WBUR-FM 90.9 FM, Boston, US | Free Internet Radio | TuneIn",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/tunein.com\/radio\/WBUR-FM-909-s27654\/",
+        "tag": "#radio #en",
+        "time": 1757800760,
+        "rightFooter": ""
+    },
+    {
         "text": "Hromadske Radio",
         "text2": "https:\/\/hromadske.radio\/radio_https_upstream",
         "text3": "mp3",
@@ -1435,7 +1489,7 @@
         "text2": "",
         "text3": "",
         "url": "https:\/\/tunein.com\/radio\/C-SPAN-Radio-901-s28047\/",
-        "tag": "#radio #en",
+        "tag": "#radio #en #news",
         "time": 1745128906,
         "rightFooter": ""
     },
@@ -5055,6 +5109,15 @@
         "url": "https:\/\/tunein.com\/radio\/WAMU-885-s27111\/",
         "tag": "#en #radio",
         "time": 1620118531,
+        "rightFooter": ""
+    },
+    {
+        "text": "WNYC-FM, 93.9 FM, New York, US | Free Internet Radio | TuneIn",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/tunein.com\/radio\/WNYC-FM-939-s21606\/",
+        "tag": "#radio #en #news",
+        "time": 1620118501,
         "rightFooter": ""
     },
     {
