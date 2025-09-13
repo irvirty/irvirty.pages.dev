@@ -3,6 +3,15 @@ var radioJsonVar =
 
 [
     {
+        "text": "NewsRadio Vancouver, CKWX 1130 AM, Vancouver, Canada | Free Internet Radio | TuneIn",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/tunein.com\/radio\/NewsRadio-Vancouver-1130-s31301\/",
+        "tag": "#radio #en #news",
+        "time": 1757801986,
+        "rightFooter": ""
+    },
+    {
         "text": "580 CFRA, 580 AM, Ottawa, Canada | Free Internet Radio | TuneIn",
         "text2": "",
         "text3": "",
@@ -5083,7 +5092,7 @@ var radioJsonVar =
         "text2": "",
         "text3": "",
         "url": "https:\/\/tunein.com\/radio\/ABC-Radio-Australia-English-s25557\/",
-        "tag": "#en #radio",
+        "tag": "#radio #en #WorldNews #news",
         "time": 1620118953,
         "rightFooter": ""
     },

@@ -7,7 +7,7 @@ var tvJsonVar =
         "text2": "",
         "text3": "",
         "url": "https:\/\/www.youtube.com\/@twit",
-        "tag": "#tv #tech #technology",
+        "tag": "#TV #tech #technology",
         "time": 1757344599,
         "rightFooter": ""
     },
@@ -16,7 +16,7 @@ var tvJsonVar =
         "text2": "",
         "text3": "",
         "url": "https:\/\/www.youtube.com\/@NBCNews",
-        "tag": "#tv #news #en",
+        "tag": "#TV #news #en",
         "time": 1747490505,
         "rightFooter": ""
     },
@@ -34,7 +34,7 @@ var tvJsonVar =
         "text2": "",
         "text3": "",
         "url": "https:\/\/www.youtube.com\/playlist?list=PLZb1SVCX0ajryaDLmFe0Ah3ad59FbA5ua",
-        "tag": "#tv #cartoon",
+        "tag": "#TV #cartoon",
         "time": 1746955888,
         "rightFooter": ""
     },
