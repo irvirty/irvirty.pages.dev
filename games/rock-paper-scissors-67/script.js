@@ -1,4 +1,4 @@
-// Rock paper scissors v.1.2.0
+// Rock paper scissors v.1.2.1
 
 
 let variantArr = ["🪨", "📄", "✂️"];
@@ -88,7 +88,7 @@ resultWinStatus = `
 `;
 }
 
-if(resultWinStatus.indexOf("Lonst") != -1){
+if(resultWinStatus.indexOf("Lost") != -1){
 rpsGameScorePc++;
 localStorage.setItem("rpsGameScorePc", rpsGameScorePc);
 }
