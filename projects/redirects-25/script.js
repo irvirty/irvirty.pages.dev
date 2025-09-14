@@ -221,6 +221,25 @@ sRedirectUrl = url;
 break;
 
 
+case 'loc#':
+case '/#':
+q = q3.replace(qCom, '');
+q = q.trim();
+q = encodeURIComponent(q);
+urlList = [
+"/?q=" + q,
+];
+if (q == ''){
+urlList = [
+"/",
+];
+}
+random = urlList[fuMRandom(0, urlList.length - 1)];
+url = random;
+sRedirectUrl = url;
+break;
+
+
 case 'wor#':
 case 'wp#':
 q = q3.replace(qCom, '');

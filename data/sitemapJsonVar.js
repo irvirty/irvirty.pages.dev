@@ -931,10 +931,10 @@ var sitemapJsonVar = [
         "time": "id"
     },
     {
-        "text": "test\n\nTest page, test style, sometimes there are some test fragments of JavaScript or CSS code. | test: ",
-        "url": "\/projects\/test-27\/index.html",
+        "text": "test\n\nTest page, test style, sometimes there are some test fragments of JavaScript or CSS code. | test page: ",
+        "url": "\/projects\/test-page-27\/index.html",
         "tag": " #test #page #HTML #CSS #JavaScript #project",
-        "id": "86d9dee90df2fa84b95059eb006e7fa1",
+        "id": "03015dc608dc9c20a3d10ae0988909e2",
         "time": "id"
     },
     {
