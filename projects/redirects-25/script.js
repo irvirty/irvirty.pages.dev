@@ -222,16 +222,15 @@ break;
 
 
 case 'loc#':
-case '/#':
 q = q3.replace(qCom, '');
 q = q.trim();
 q = encodeURIComponent(q);
 urlList = [
-"/?q=" + q,
+"https://localhost/?q=" + q,
 ];
 if (q == ''){
 urlList = [
-"/",
+"https://localhost/",
 ];
 }
 random = urlList[fuMRandom(0, urlList.length - 1)];
