@@ -221,6 +221,7 @@ sRedirectUrl = url;
 break;
 
 
+case '/#':
 case 'loc#':
 q = q3.replace(qCom, '');
 q = q.trim();
