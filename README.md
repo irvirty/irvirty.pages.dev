@@ -16,12 +16,13 @@ Search redirect, games, to-do list, images, icons, link collection, music collec
 🎨 ~50 Themes (dark, light and medium).  
 🏷️ Speed ​​dial panel.  
 🎮 JavaScript Games: Typing Speed (WPM), Snake, Memory Symbol, Tic Tac Toe.  
+📝 Todo List.  
 🎨 Themes for Firefox, Geany IDE.  
 🛍 Extensions: New Tab Redirect, Auto theme switcher (for Firefox only).  
 WP: Experimental theme for WordPress.  
-📄 Website Templates.  
-📝 Todo List.  
+📄 Website Templates.    
 📦 And other: CSS Art, images, icons, ...  
+🎁 The old simplified version of this website is in the "website templates" section.  
   
 ---
    
