@@ -1,4 +1,4 @@
-// Main js v.6.21.0
+// Main js v.6.22.0
 // For second navigation, footer, themes, etc
 
 if (confD == undefined) { var confD = "/"; }
@@ -154,43 +154,6 @@ document.getElementsByTagName('title')[0].innerHTML += conf["confDomainNameInTit
 // css theme fix if save page
 if (String(window.location.href).slice(0, 4) != 'http'){
 document.getElementById('theme').id = 'themeDisable';
-}
-
-//fuMInsertHtml('#topNav', 'afterend', '<h1>test</h1>'); //fixme, if save as, dublicate
-//document.querySelector('#topNav').insertAdjacentHTML('afterend', '<h1>test</h1>');
-function fuMInsertHtml(selector, option, text){
-//https://developer.mozilla.org/en-US/docs/Web/API/Element/insertAdjacentHTML
-//option: beforebegin, afterbegin, beforeend, afterend
-
-if (option == "head"){
-if (document.head != null){
-if (option != undefined&&option != ''){
-document.head.insertAdjacentHTML(option, text);
-//alert(opition + 'test');
-} else {
-document.head.insertAdjacentHTML("beforeend", text);
-//alert(option + 'test2');
-}
-} else {
-//console.log("fuMInsertHtml: document head probably null");
-}
-
-} else {
-
-if (document.querySelector(selector) != null){
-if (option != undefined&&option != ''){
-document.querySelector(selector).insertAdjacentHTML(option, text);
-//alert(opition + 'test');
-} else {
-document.querySelector(selector).insertAdjacentHTML('beforeend', text);
-//alert(option + 'test2');
-}
-} else {
-//console.log("fuMInsertHtml: querySelector probably null");
-}
-
-}
-
 }
 
 
@@ -490,8 +453,6 @@ fDescTitle = `<span class="inlineBlock xSmall">Description: <span class="xSmall"
 }
 }
 
-//fuMInsertHtml("#footer", 'beforeend', ``);
-
 if (document.getElementById("footer") != null){
 document.getElementById("footer").innerHTML = `
 
@@ -567,7 +528,6 @@ mFooterNavLinksPrint += fuMHideFileNameExt(` <span class="gray">/</span> <a clas
 }
 });
 
-//fuMInsertHtml("#footerNav", '', mFooterNavLinksPrint);
 if (document.getElementById("footerNav") != null){
 document.getElementById("footerNav").innerHTML = mFooterNavLinksPrint;
 }
@@ -638,14 +598,13 @@ fuMBg(conf["confThemeEmbed"], conf["confBgImg"]);
 
 // fix
 if (conf["confThemeEmbed"] == 'dark'){
-fuMInsertHtml("head", 'beforeend', `
+document.head.insertAdjacentHTML("beforeend", `
 <style>
 .reduceLight { filter:brightness(70%); }
 </style>
 `);
 } else {
-//document.head.insertAdjacentHTML("beforeend", `
-fuMInsertHtml("head", 'beforeend', `
+document.head.insertAdjacentHTML("beforeend", `
 <style>
 .reduceLight { filter: brightness(100%); }
 </style>
@@ -755,7 +714,6 @@ var themeListBest = [
 "o-silver",
 
 "od-blue",
-"od-blue-2",
 "od-green",
 "od-gray",
 "od-sea",
@@ -1178,8 +1136,7 @@ let mRandBgPos2 = fuMRandom(0, 100);
 
 
 if (conf["confThemeEmbed"] == 'light'||com == "light"){
-//document.head.insertAdjacentHTML("beforeend", `
-fuMInsertHtml("head", 'beforeend', `
+document.head.insertAdjacentHTML("beforeend", `
 <style>
 /*.reduceLight { filter: brightness(100%); }*/
 body, .siteName a, .siteName a::after {
@@ -1191,8 +1148,7 @@ background-attachment: fixed;
 </style>
 `);
 } else {
-//document.head.insertAdjacentHTML("beforeend", `
-fuMInsertHtml("head", 'beforeend', `
+document.head.insertAdjacentHTML("beforeend", `
 <style>
 /*.reduceLight { filter:brightness(70%); }*/
 body, .siteName a, .siteName a::after {
@@ -1209,8 +1165,7 @@ let reduceBgLight = "";
 if (conf["confThemeEmbed"] == 'dark'||com == "dark"){
 reduceBgLight = "filter:brightness(60%);";
 }
-//document.head.insertAdjacentHTML("beforeend", `
-fuMInsertHtml("head", 'beforeend', `
+document.head.insertAdjacentHTML("beforeend", `
 <style>
 body::before {
 content: "";
@@ -1246,8 +1201,7 @@ opacity: .06;
 // random bg image
 
 // fonts
-//document.head.insertAdjacentHTML("beforeend", `
-fuMInsertHtml("head", 'beforeend', `
+document.head.insertAdjacentHTML("beforeend", `
 <style>
 @font-face {
 font-family: 'Roboto';
@@ -1292,7 +1246,6 @@ conf["confDataCollection"] = 'on';
 }
 }
 
-//fuMInsertHtml('#fPrivacy', 'beforeend', `Cookie: auto (${conf["confDataCollection"]})`); 
 if (document.getElementById('fPrivacy') != null){
 document.getElementById('fPrivacy').innerHTML = `Cookie: auto (${conf["confDataCollection"]})`;
 }

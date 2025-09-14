@@ -112,7 +112,7 @@ fuMSetTheme(item);
 light(item);
 localStorage.setItem('confTheme', item);
 
-document.getElementById("confTheme").innerHTML = `
+/*document.getElementById("confTheme").innerHTML = `
 <div class="tLeft">
 
 <span class="small borderRadius2">device theme: <b>${conf["confDeviceTheme"]}</b></span><br>
@@ -121,7 +121,7 @@ document.getElementById("confTheme").innerHTML = `
 <span class="small borderRadius2">theme for embed: <b>${conf["confThemeEmbed"]}</b></span>
 
 <div>
-`;
+`;*/
 
 
 

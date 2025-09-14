@@ -47,7 +47,7 @@ document.getElementById(id).innerHTML = text;
 // Themes changer v.1.2.0
 theme = conf["confTheme"];
 if (conf["confTheme"] == null||theme == undefined||theme == 'auto'){
-theme = "auto";
+theme = "light";
 
 if (window.matchMedia &&window.matchMedia('(prefers-contrast: more)').matches == true){
 if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
@@ -64,7 +64,6 @@ if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').match
 if (window.matchMedia && window.matchMedia('(prefers-color-scheme: light)').matches) { conf["confDeviceTheme"] = 'light'; }
 
 
-
 // top bar color theme set
 //<meta name="theme-color" content="#317EFB"/>
 var meta = document.createElement('meta');
@@ -77,19 +76,10 @@ meta.content = "#F0F0F0";
 document.getElementsByTagName('head')[0].appendChild(meta);
 
 
-
 // insert color-theme.css in header
 function fuMPrintTheme(theme){
 
 if (document.getElementById('theme') != null){
-
-//https://stackoverflow.com/questions/36641137/how-exactly-does-link-rel-preload-work
-let cssEmbed = document.createElement("link");
-/*cssEmbed.rel = "preload";
-cssEmbed.as = "style";
-cssEmbed.href = '/css/' + theme + '.css';
-document.head.appendChild(cssEmbed);*/
-
 document.getElementById('theme').href = '/css/' + theme + '.css';
 }
 
@@ -101,22 +91,26 @@ document.getElementById("fTheme").text = conf["confTheme"] + ' (' + theme + ')';
 
 // fix and dynamic
 fuMThemeEmbed();
-fuMBg();
+fuMBg(conf["confThemeEmbed"], conf["confBgImg"]);
 
 // fix
 if (conf["confThemeEmbed"] == 'dark'){
-fuMPrintText('style', `
+document.head.insertAdjacentHTML("beforeend", `
 <style>
 .reduceLight { filter:brightness(70%); }
 </style>
-`, 'plus');
+`);
 } else {
-fuMPrintText('style', `
+document.head.insertAdjacentHTML("beforeend", `
 <style>
 .reduceLight { filter: brightness(100%); }
 </style>
-`, 'plus');
+`);
 }
+
+
+
+
 
 }
 
@@ -217,7 +211,6 @@ var themeListBest = [
 "o-silver",
 
 "od-blue",
-"od-blue-2",
 "od-green",
 "od-gray",
 "od-sea",
@@ -334,7 +327,7 @@ document.cookie = "theme=light; SameSite=None; Secure; path=/";
 
 /*themeList.forEach((element) => {
 if (mode == element){
-//document.getElementById('theme').href = '/css/'+mode+'.css';
+//document.getElementById('theme').href = '/css/' + mode + '.css';
 fuMPrintTheme(conf["confRealTmpTheme"] );
 }
 })*/
@@ -509,14 +502,7 @@ fuMSetTheme(conf["confTheme"]);
 }
 });
 */
-
-/* in test, delme (now in function: setTheme)
-// print theme mode and name in footer
-if (document.getElementById('fTheme') != null){
-document.getElementById("fTheme").innerHTML = 'Theme: ' + theme + ' (' + conf["confRealTmpTheme"] + ')';
-}*/
-
-// end Theme switcher
+// end Themes changer
 
 
 // CSS
