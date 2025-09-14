@@ -47,7 +47,7 @@ document.getElementById(id).innerHTML = text;
 // Themes changer v.1.2.0
 theme = conf["confTheme"];
 if (conf["confTheme"] == null||theme == undefined||theme == 'auto'){
-theme = "auto";
+theme = "light";
 
 if (window.matchMedia &&window.matchMedia('(prefers-contrast: more)').matches == true){
 if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {

@@ -1,4 +1,4 @@
-// Main js v.6.20.3
+// Main js v.6.21.0
 // For second navigation, footer, themes, etc
 
 if (confD == undefined) { var confD = "/"; }
@@ -54,7 +54,7 @@ Other:
 "confTitle":"Theme",
 "confDescription":`Choosing a theme for the site. More modes and themes: <a class="brand" href="${confD}pages/themes/">${confD}pages/themes/</a>`,
 "confName":"confTheme",
-"confValueDefault":"auto",
+"confValueDefault":"light",
 "confValueVariant":["light", "dark", "auto-time", "auto", "auto-t-rand-all", "auto-rand-all"],
 },
 {
@@ -590,7 +590,7 @@ if (conf["confDevice"] == 'none'){ conf["confDevice"] = 'pc'; }
 // Themes changer v.1.2.0
 theme = conf["confTheme"];
 if (conf["confTheme"] == null||theme == undefined||theme == 'auto'){
-theme = "auto";
+theme = "light";
 
 if (window.matchMedia &&window.matchMedia('(prefers-contrast: more)').matches == true){
 if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
