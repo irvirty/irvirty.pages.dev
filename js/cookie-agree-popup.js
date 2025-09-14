@@ -1,10 +1,11 @@
-// Cookie Consent Popup v.1.4.1
+// Cookie Consent Popup v.1.5.0
 // if "not selected": popup
 // icons (svg) inspired by https://www.dw.com/
 
 if(String(document.location).indexOf("file://") == -1){
 
-fuMInsertHtml('#cookiePopup', '', `
+if (document.getElementById("cookiePopup") != null){
+document.getElementById("cookiePopup").innerHTML = `
 
 <div class="wrapper">
 <div class="cookiePopup post bg2 border3 margin tCenter shadow borderRadius2">
@@ -53,9 +54,10 @@ Other:<br>
 </div>
 </div>
 
-`);
+`;
+}
 
-fuMInsertHtml("head", 'beforeend', `
+document.head.insertAdjacentHTML("beforeend", `
 
 <style>
 #cookiePopup {
@@ -98,8 +100,7 @@ document.getElementById("cookiePopup").style.display = "block";
 function cookiePopup(option){
 localStorage.setItem("confDataCollection", option);
 if(document.getElementById("cookiePopup") != null){
-document.getElementById("cookiePopup").style.display = "none";
-//fuMInsertHtml('#fPrivacy', '', `<a href="/settings.html#confDataCollection">cookie: ${option}</a>`); 
+document.getElementById("cookiePopup").style.display = "none"; 
 if(document.getElementById('fPrivacy') != null){
 document.getElementById('fPrivacy').innerText = `Cookie: ${option}`;
 }
