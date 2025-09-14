@@ -252,6 +252,13 @@ var sitemapJsonVar = [
         "time": "id"
     },
     {
+        "text": "Empty page\n\nEmpty page. To take a screenshot of a page and its background image and set it as wallpaper. | empty page: ",
+        "url": "\/mini-projects\/empty-page-39\/index.html",
+        "tag": " #empty #page #HTML #CSS #project",
+        "id": "8bc5872acb68af550b74362765da548b",
+        "time": "id"
+    },
+    {
         "text": "Firefox extensions\n\nAn extension for the Mozilla Firefox browser. Extension: new tab redirct (own new tab page), localhost as search engine, etc. Firefox addon. | firefox extensions: ",
         "url": "\/pages\/firefox-extensions\/index.html",
         "tag": " #startpage #newtabpage #Firefox #hotkeys #new #tab #NewTab #firefox #extension #extensions #addon #project #page #main #page #main",
