@@ -1250,7 +1250,14 @@ document.getElementById('fPrivacy').innerHTML = `Cookie: auto (${conf["confDataC
 }
 
 //conf["confDataCollection"] conf["confEmbedBlockMsg"]
-conf["confEmbedBlockMsg"] = `<div class="padding bg border small borderRadius">Embedding is disabled. <!--Sorry, but there is no consent for third-party cookies.--> <a id="fPrivacy" class="underline brand inlineBlock padding" title="Cookie Settings" href="${confD}pages/settings/#confDataCollection">Cookie: ${conf["confDataCollection"]}</a></div>`;
+conf["confEmbedBlockMsg"] = `<div class="tCenter padding bg border small borderRadius">Embedding is disabled. <!--Sorry, but there is no consent for third-party cookies.--> <a id="fPrivacy" class="underline brand inlineBlock padding" title="Cookie Settings" href="${confD}pages/settings/#confDataCollection">Cookie: ${conf["confDataCollection"]}</a></div>`;
+
+//conf["confDataCollection"] conf["confEmbedBlockMsg"]
+if (conf["confDataCollection"] != "on"){
+	if (document.getElementById("disableEmbed") != null){
+	document.getElementById("disableEmbed").innerHTML = conf["confEmbedBlockMsg"];
+}
+}
 
 // end Cookie (auto)
 

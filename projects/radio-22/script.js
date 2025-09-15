@@ -1,5 +1,6 @@
 // Radio stations (random, embed) v.1.3.3
 
+if (conf["confDataCollection"] == "on"){
 function randomRadio(printId, jsonVar){
 
 //https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Math/random
@@ -642,6 +643,10 @@ document.getElementsByTagName('head')[0].appendChild(script2);
 
 
 
+}
+} else {
+	function randomRadio(){
+	}
 }
 
 

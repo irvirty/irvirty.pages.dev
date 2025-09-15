@@ -1,5 +1,6 @@
 // Video (random, embed) v.1.2.2
 
+if (conf["confDataCollection"] == "on"){
 var jsonVar = videoJsonVar;
 
 //https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Math/random
@@ -658,8 +659,7 @@ document.getElementById('input').value = q;
 
 
 
-
-
+}
 
 
 

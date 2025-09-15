@@ -1,8 +1,10 @@
 // Podcasts (random, embed) v.1.0.0
 
-
+if (conf["confDataCollection"] == "on"){
 function randomPodcast(printId, jsonVar){
 
+
+	
 var w = '100%';
 var h = '275px';
 
@@ -736,6 +738,11 @@ document.getElementsByTagName('head')[0].appendChild(script2);
 
 
 
+}
+} else {
+function randomPodcast(){
+	/* code */
+}
 }
 
 

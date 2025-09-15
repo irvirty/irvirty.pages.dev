@@ -103,20 +103,24 @@ checkNotFound = 'found';
 }
 // end from radio
 
-
+if (document.getElementById("lPrint") != null){
 document.getElementById("lPrint").innerHTML = `
 <div id="msg"></div>
 `;
+}
 
 
 
 
 
-
+if (document.getElementById('msg') != null){
 document.getElementById('msg').innerHTML = `
 <div class="block padding2 margin2 tCenter"><span id="msg2"></span></div>
 `;
+}
+if (document.getElementById('msg2') != null){
 document.getElementById('msg2').innerText = `${comMessagePrint}`;
+}
 
 if(q == "#music"){ id = getRandomInt(jsonVar.length); }
 
@@ -129,7 +133,7 @@ if(q == "#music"){ id = getRandomInt(jsonVar.length); }
 
 if(checkNotFound == ''){
 
-
+if (document.getElementById('lPrint') != null){
 document.getElementById("lPrint").innerHTML += `
 
 <div class="wrapper">
@@ -144,6 +148,7 @@ document.getElementById("lPrint").innerHTML += `
 </div>
 
 `;
+}
 
 var randomTitle = jsonVar[id]['text'];
 var randomURL = jsonVar[id]['url'];
@@ -186,31 +191,35 @@ item = `<span class="borderBottomOrange">${item}</span>`;
 text += item;
 });
 
-document.getElementById("playTitle").innerHTML =  '' + text; 
-
-
-
-if((randomURL.toLowerCase()).indexOf((q2.toLowerCase())) != -1){
-document.getElementById("playURL").innerHTML =  '<span class="borderBottomOrange"><a class="brand break2" href="' + randomURL + '">' + randomURL + '</a></span>'; 
-}else{
-document.getElementById("playURL").innerHTML =  '<a class="brand break2" href="' + randomURL + '">' + randomURL + '</a>'; 
+if (document.getElementById("playTitle") != null){
+document.getElementById("playTitle").innerHTML =  '' + text;
 }
 
+if (document.getElementById("playURL") != null){
+if((randomURL.toLowerCase()).indexOf((q2.toLowerCase())) != -1){
+document.getElementById("playURL").innerHTML =  '<span class="borderBottomOrange"><a class="brand break2" href="' + randomURL + '">' + randomURL + '</a></span>'; 
+} else {
+document.getElementById("playURL").innerHTML =  '<a class="brand break2" href="' + randomURL + '">' + randomURL + '</a>'; 
+}
+}
+
+if (document.getElementById("playRandomButton") != null){
 document.getElementById("playRandomButton").innerHTML = `
 <br />
 <div class="footerPost"><a class="button brand block submit border borderRadius2 tCenter pointer notUnderline" onClick="window.location.reload();return false;" title="location.reload" href="#">Random</a></div>
 
 
 `;
+}
 
- }
+}
  
 
 
 var w = '100%';
 var h = '275px';
 
-
+if (conf["confDataCollection"] == "on"){
 switch (host) {
 
 case "youtu.be":
@@ -378,7 +387,7 @@ break;
 default:
 console.log(`default switch`);
 }
-
+}
 
 
 

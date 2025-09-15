@@ -1,5 +1,6 @@
 // TV (Playlists, embed) v.1.3.1
 
+if (conf["confDataCollection"] == "on"){
 function randomRadio(printId, jsonVar){
 
 //https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Math/random
@@ -663,6 +664,9 @@ document.getElementById('input').value = q;
 
 
 
+}
+} else {
+	function randomRadio(){}
 }
 
 
