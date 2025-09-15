@@ -550,7 +550,7 @@ if (conf["confDevice"] == 'none'){ conf["confDevice"] = 'pc'; }
 // Themes changer v.1.2.0
 theme = conf["confTheme"];
 if (conf["confTheme"] == null||theme == undefined||theme == 'auto'){
-theme = "light";
+theme = "auto";
 
 if (window.matchMedia &&window.matchMedia('(prefers-contrast: more)').matches == true){
 if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
