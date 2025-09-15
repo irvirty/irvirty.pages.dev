@@ -2110,7 +2110,7 @@ countHl++;
 if (conf["confDataCollection"] != 'on'&&embed != ""){
 embed = `
 
-<div class="padding bg border small borderRadius">Embedding is disabled. <!--Sorry, but there is no consent for third-party cookies.--> <a id="fPrivacy" class="underline brand inlineBlock padding" title="Cookie Settings" href="${confD}pages/settings/#confDataCollection">Cookie: ${conf["confDataCollection"]}</a></div>`;
+${conf["confEmbedBlockMsg"]}`;
 }
 
 
@@ -2594,7 +2594,7 @@ text += item;
 if (conf["confDataCollection"] != 'on'&&embed != ""){
 embed = `
 
-<div class="padding bg border small borderRadius">Embedding is disabled. <!--Sorry, but there is no consent for third-party cookies.--> <a id="fPrivacy" class="underline brand inlineBlock padding" title="Cookie Settings" href="${confD}pages/settings/#confDataCollection">Cookie: ${conf["confDataCollection"]}</a></div>`;
+${conf["confEmbedBlockMsg"]}`;
 }
 
 // multi embed
