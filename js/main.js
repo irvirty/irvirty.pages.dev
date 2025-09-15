@@ -164,7 +164,7 @@ document.getElementById('theme').id = 'themeDisable';
 
 conf["confMenuItems"] = [
 {"url":`${confD}all/`, "title":"All pages", "text":"All", "class":""},
-{"url":`${confD}pages/`, "title":"Pages", "text":"Pages", "class":""},
+{"url":`${confD}pages/`, "title":"Main Pages", "text":"Main Pages", "class":""},
 {"url":`${confD}games/`, "title":"Games", "text":"Games", "class":""},
 {"url":`${confD}projects/`, "title":"Projects", "text":"Projects", "class":""},
 {"url":`${confD}mini-projects/`, "title":"Mini Projects", "text":"Mini Projects", "class":""},
@@ -176,8 +176,20 @@ conf["confMenuItems"].forEach((item, index) => {
 
 let navUrlClean = item['url'];
 navUrlClean = navUrlClean.split("/");
-navUrlClean = "/" + navUrlClean[navUrlClean.length - 2];
-if ((window.location.pathname).indexOf(navUrlClean) != -1){
+navUrlClean = navUrlClean[navUrlClean.length - 1];
+if (navUrlClean == ""){ navUrlClean = navUrlClean[navUrlClean.length - 2]; }
+
+let navUrlClean2 = window.location.href;
+navUrlClean2 = navUrlClean2.split("/");
+navUrlClean2 = navUrlClean2[navUrlClean2.length - 1];
+
+if (navUrlClean2 == ""){
+navUrlClean2 = window.location.href;
+navUrlClean2 = navUrlClean2.split("/");
+navUrlClean2 = navUrlClean2[navUrlClean2.length - 2];
+}
+
+if (navUrlClean == navUrlClean2){
 conf["confMenuItems2"] += `<a class="active2 inlineBlock padding itemLinkAniActive ${item['class']}" tabindex="0" href="${item['url']}" title="${item['title']}">${item['text']}</a>
 `;
 } else {
