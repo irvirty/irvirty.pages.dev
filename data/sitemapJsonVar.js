@@ -308,13 +308,6 @@ var sitemapJsonVar = [
         "time": "id"
     },
     {
-        "text": "Guestbook\n\nGuestbook page. Pages for visitors' comments. This is a static site, so a third-party service is used for comments. | guestbook: ",
-        "url": "\/pages\/guestbook\/index.html",
-        "tag": " #guestbook #comments #disqus #page #main",
-        "id": "2c06ac852dc3b67179c67679461fed9c",
-        "time": "id"
-    },
-    {
         "text": "HTML colors name\n\nHTML colors name | html colors name: ",
         "url": "\/projects\/html-colors-name-73\/index.html",
         "tag": " #HTML #colors #name #CSS #JavaScript #project",
