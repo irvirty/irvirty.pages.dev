@@ -2005,6 +2005,8 @@ embed2 = `
 
 
 
+
+
 if (item[0] != ''&&item[1] != ''&&item[2] != ''){
 if (item.indexOf(".htm") != -1&&item.indexOf("./") != -1&&item.indexOf("http") == -1||
 item.indexOf("/") != -1&&item.indexOf("index.htm") != -1/*||item[0] == "/"&&item[1] != "/"&&item[2] != " "*/) {
@@ -2015,10 +2017,7 @@ embed2 = `<iframe class="borderRadius2" width="${w}" height="400" src="${item}" 
 }
 }
 
-
 }
-
-
 
 
 var item222 = '';
@@ -2108,7 +2107,11 @@ countHl++;
 });
 }
 
+if (conf["confDataCollection"] != 'on'&&embed != ""){
+embed = `
 
+<div class="padding bg border small borderRadius">Embedding is disabled. <!--Sorry, but there is no consent for third-party cookies.--> <a id="fPrivacy" class="underline brand inlineBlock padding" title="Cookie Settings" href="${confD}pages/settings/#confDataCollection">Cookie: ${conf["confDataCollection"]}</a></div>`;
+}
 
 
 if (item222 != ''){ item = item222; }
@@ -2588,7 +2591,11 @@ item = `<a class="brand op" href="${scriptDir}?q=${item}">${item}</a>`;
 
 text += item;
 
+if (conf["confDataCollection"] != 'on'&&embed != ""){
+embed = `
 
+<div class="padding bg border small borderRadius">Embedding is disabled. <!--Sorry, but there is no consent for third-party cookies.--> <a id="fPrivacy" class="underline brand inlineBlock padding" title="Cookie Settings" href="${confD}pages/settings/#confDataCollection">Cookie: ${conf["confDataCollection"]}</a></div>`;
+}
 
 // multi embed
 if (multiEmbedStatus == 'on'&&embedStatus == 'on'){
@@ -2603,7 +2610,7 @@ embed2 = '';
 });
 
 // single embed
-if (multiEmbedStatus != 'on'&&embedStatus == 'on'){ text += embed+embed2; }
+if (multiEmbedStatus != 'on'&&embedStatus == 'on'){ text += embed + embed2; }
 
 
 
@@ -2840,7 +2847,7 @@ ${nav2Print}
 
 
 // for embed 
-if (embedStatus == 'on'){
+if (embedStatus == 'on'&&conf["confDataCollection"] == 'on'){
 
 if (embedServiceList.indexOf('xcom') != -1||embedServiceList.indexOf('twitter') != -1) {
 var script = document.createElement('script');
