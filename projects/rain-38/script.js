@@ -33,3 +33,14 @@ print =
 `;
 
 document.getElementById("snowPrint").innerHTML = print;
+
+if (conf["confDataCollection"] == "on"){
+	if (document.getElementById("printAudio") != null){
+		document.getElementById("printAudio").innerHTML = `
+
+<audio controls width="250" autoplay="autoplay">
+  <source src="https://upload.wikimedia.org/wikipedia/commons/9/99/Mountain_Stream_Rain_Shower_ASMR.webm" type="video/webm">
+</audio>
+		`;
+	}
+}
