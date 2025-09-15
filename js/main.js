@@ -176,24 +176,12 @@ conf["confMenuItems"].forEach((item, index) => {
 
 let navUrlClean = item['url'];
 navUrlClean = navUrlClean.split("/");
-navUrlClean = navUrlClean[navUrlClean.length - 1];
-if (navUrlClean == ""){ navUrlClean = navUrlClean[navUrlClean.length - 2]; }
-
-let navUrlClean2 = window.location.href;
-navUrlClean2 = navUrlClean2.split("/");
-navUrlClean2 = navUrlClean2[navUrlClean2.length - 1];
-
-if (navUrlClean2 == ""){
-navUrlClean2 = window.location.href;
-navUrlClean2 = navUrlClean2.split("/");
-navUrlClean2 = navUrlClean2[navUrlClean2.length - 2];
-}
-
-if (navUrlClean == navUrlClean2){
-conf["confMenuItems2"] += `<a class="active2 inlineBlock padding itemLinkAniActive ${item['class']}" tabindex="0" href="${item['url']}" title="${item['title']}">${item['text']}</a>
+navUrlClean = "/" + navUrlClean[navUrlClean.length - 2];
+if ((window.location.pathname).indexOf(navUrlClean) != -1){
+conf["confMenuItems2"] += `<a class="active2 navMenuActive inlineBlock padding ${item['class']}" tabindex="0" href="${item['url']}" title="${item['title']}">${item['text']}</a>
 `;
 } else {
-conf["confMenuItems2"] += `<a class="inlineBlock padding brand itemLinkAni ${item['class']}" tabindex="0" href="${item['url']}" title="${item['title']}">${item['text']}</a>
+conf["confMenuItems2"] += `<a class="inlineBlock padding brand ${item['class']}" tabindex="0" href="${item['url']}" title="${item['title']}">${item['text']}</a>
 `;
 }
 });
