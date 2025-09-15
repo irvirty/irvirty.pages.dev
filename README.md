@@ -22,7 +22,6 @@ Search redirect, games, to-do list, images, icons, link collection, music collec
 WP: Experimental theme for WordPress.  
 📄 Website Templates.    
 📦 And other: CSS Art, images, icons, ...  
-🎁 The old simplified version of this website is in the "website templates" section.  
   
 ---
    
