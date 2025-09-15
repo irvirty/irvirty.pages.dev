@@ -1,6 +1,8 @@
 // Music list (random, embed) v.1.3.4
 // data inspiration: radio, music recomendation.
 
+if (conf["confDataCollection"] == "on"){
+	
 var jsonVar = musicJsonVar;
 
 //https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Math/random
@@ -219,7 +221,7 @@ document.getElementById("playRandomButton").innerHTML = `
 var w = '100%';
 var h = '275px';
 
-if (conf["confDataCollection"] == "on"){
+
 switch (host) {
 
 case "youtu.be":
@@ -387,7 +389,7 @@ break;
 default:
 console.log(`default switch`);
 }
-}
+
 
 
 
@@ -712,3 +714,5 @@ i++;
 }
 }
 
+
+}

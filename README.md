@@ -38,11 +38,11 @@ WP: Experimental theme for WordPress.
 - Geany Themes: GNU General Public License
 - Chrome Themes: Apache 2.0 License
 
-Resources and others:
+Resources and others:  
 - Roboto font: Copyright 2025 Google Apache License, Version 2.0
 - Books in /data from The Project Gutenberg: The Project Gutenberg License
 - .screenReader class in main.css: Copyright 2025 WordPress License: GPLv2 (or later)
-
+  
 ---
   
 #### GitHub Explore, topics:  
