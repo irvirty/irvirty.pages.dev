@@ -33,8 +33,6 @@ WP: Experimental theme for WordPress.
   
 ## License:  
   
----
-  
 - Main license: CC BY-SA 4.0
 - SimpleHomePage theme for WordPress: GNU General Public License v2 or later
 - Geany Themes: GNU General Public License
