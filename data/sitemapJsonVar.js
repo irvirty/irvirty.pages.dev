@@ -511,13 +511,6 @@ var sitemapJsonVar = [
         "time": "id"
     },
     {
-        "text": "Posts\n\nPosts. Personal posts. Thoughts, reflections, remarks.\nThat is a more private and personal page that is not intended for public viewing. | posts: ",
-        "url": "\/pages\/posts\/index.html",
-        "tag": " #posts #page #main",
-        "id": "53dcd041f945f83e20320e608ec3346f",
-        "time": "id"
-    },
-    {
         "text": "Project ideas\n\nProject ideas, inspiration, project after Hello World! Ideas for projects.\r\nIdeas for projects. | project ideas: ",
         "url": "\/mini-projects\/project-ideas-37\/index.html",
         "tag": " #project #ideas #inspiration #HTML #project",
@@ -882,13 +875,6 @@ var sitemapJsonVar = [
         "time": "id"
     },
     {
-        "text": "Website Mini Templates (sandbox)\n\nWebsite mini templates. My HTML and CSS sandbox. HTML templates. | website mini templates: ",
-        "url": "\/pages\/website-mini-templates\/index.html",
-        "tag": " #Experimental #sandbox #UI #UX #one #page #project #list #page #main",
-        "id": "e122e7bd35d382b7c4eb5ef6f9d5e263",
-        "time": "id"
-    },
-    {
         "text": "Website Templates (Experimental)\n\nWebsite templates. HTML templates. (I create pages for practice. Sandbox). | website templates: ",
         "url": "\/pages\/website-templates\/index.html",
         "tag": " #experimental #sandbox #UI #UX #landing #webpage #website #page #site #webdesign #web #design #webdevelopment #development #template #templates #SaaS #personal #profile #card #HomePage #cards #project #list #page #main",
@@ -900,13 +886,6 @@ var sitemapJsonVar = [
         "url": "\/projects\/website-analysis-75\/index.html",
         "tag": " #website #analysis #check #HTML_CSS #JavaScript #project",
         "id": "4c38192e9957c16b667b6abd036c2f22",
-        "time": "id"
-    },
-    {
-        "text": "Website directory\n\nWebsite directory. Website catalog. Collection of sites. | website directory: ",
-        "url": "\/pages\/website-directory\/index.html",
-        "tag": " #website #directory #websites #links #collection #page #main",
-        "id": "4d3e605194f6d6f045890bfd09bd4652",
         "time": "id"
     },
     {

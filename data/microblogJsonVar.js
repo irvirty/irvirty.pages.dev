@@ -3,6 +3,196 @@ var microblogJsonVar =
 
 [
     {
+        "id": "294",
+        "text": "Web design is thinking about how to make something better.",
+        "text2": "",
+        "text3": "",
+        "url": "",
+        "tag": "#WebDesign #WebDevelopment",
+        "time": 1757904016,
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/microblog\/?id=294\"  title=\"id=294 (permanent link)\" >id<\/a>"
+    },
+    {
+        "id": "293",
+        "text": "If a code seems unnecessary and you want to delete it, be careful because that code probably was used in other places.",
+        "text2": "",
+        "text3": "",
+        "url": "",
+        "tag": "#coding #CSS #include #PHP",
+        "time": 1757903989,
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/microblog\/?id=293\"  title=\"id=293 (permanent link)\" >id<\/a>"
+    },
+    {
+        "id": "292",
+        "text": "Perhaps writing texts is an additional good practice for language learning. When you begin writing a text, then you start to think and look for words to use; this may refresh your memories of learned words, and you need to look for new words to use when writing a text, and to learn these new words.",
+        "text2": "",
+        "text3": "",
+        "url": "",
+        "tag": "#language #English",
+        "time": 1757903942,
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/microblog\/?id=292\"  title=\"id=292 (permanent link)\" >id<\/a>"
+    },
+    {
+        "id": "291",
+        "text": "I tried for several hours to add an SVG hamburger icon to the navigation (dropdown menu) and the attempt was unsuccessful, it does not work as it should (something was wrong with SVG and the click event using JS), so I left the text version.",
+        "text2": "",
+        "text3": "",
+        "url": "",
+        "tag": "#SVG #JavaScript #click #navigation #button #dropdown #DropdownMenu #menu #UI #UX",
+        "time": 1757903850,
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/microblog\/?id=291\"  title=\"id=291 (permanent link)\" >id<\/a>"
+    },
+    {
+        "id": "290",
+        "text": "SEO is when it takes 1 hour to come up with 2 words.",
+        "text2": "",
+        "text3": "",
+        "url": "",
+        "tag": "#SEO",
+        "time": 1757903801,
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/microblog\/?id=290\"  title=\"id=290 (permanent link)\" >id<\/a>"
+    },
+    {
+        "id": "289",
+        "text": "Web design news and UI\/UX news are also news when big sites update their site design: changes in navigation, functionality, etc.",
+        "text2": "",
+        "text3": "",
+        "url": "",
+        "tag": "#news #WebDesign",
+        "time": 1757903779,
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/microblog\/?id=289\"  title=\"id=289 (permanent link)\" >id<\/a>"
+    },
+    {
+        "id": "288",
+        "text": "Caching pages and showing a fresh version of the page is probably a complicated thing.",
+        "text2": "",
+        "text3": "",
+        "url": "",
+        "tag": "#website #hosting #observation",
+        "time": 1757903749,
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/microblog\/?id=288\"  title=\"id=288 (permanent link)\" >id<\/a>"
+    },
+    {
+        "id": "287",
+        "text": "Making changes to the code can often create bugs.",
+        "text2": "",
+        "text3": "",
+        "url": "",
+        "tag": "#coding",
+        "time": 1757903706,
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/microblog\/?id=287\"  title=\"id=287 (permanent link)\" >id<\/a>"
+    },
+    {
+        "id": "286",
+        "text": "I think minimalism in web design is a skill that requires practice, training, and time. Simplicity doesn't mean little work, it's just as complex as a complex design with different effects.\r\n+\r\nOr maybe it's just the result of practice and your own style, your own evolution in design.",
+        "text2": "",
+        "text3": "",
+        "url": "",
+        "tag": "#WebDesign #minimalism",
+        "time": 1757903634,
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/microblog\/?id=286\"  title=\"id=286 (permanent link)\" >id<\/a>"
+    },
+    {
+        "id": "285",
+        "text": "I finally figured out the difference between a blog and a microblog using search, microblog posts don't have a title.",
+        "text2": "",
+        "text3": "",
+        "url": "",
+        "tag": "#writing #blog #microblog #difference",
+        "time": 1757903502,
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/microblog\/?id=285\"  title=\"id=285 (permanent link)\" >id<\/a>"
+    },
+    {
+        "id": "284",
+        "text": "Writing articles is not easy, it can take one day to write one very short article.",
+        "text2": "",
+        "text3": "",
+        "url": "",
+        "tag": "#writing #article",
+        "time": 1757903465,
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/microblog\/?id=284\"  title=\"id=284 (permanent link)\" >id<\/a>"
+    },
+    {
+        "id": "283",
+        "text": "Having your own site means having control.",
+        "text2": "",
+        "text3": "",
+        "url": "",
+        "tag": "#note",
+        "time": 1757903435,
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/microblog\/?id=283\"  title=\"id=283 (permanent link)\" >id<\/a>"
+    },
+    {
+        "id": "282",
+        "text": "Even a very simple site requires many hours of work.",
+        "text2": "",
+        "text3": "",
+        "url": "",
+        "tag": "#note #WebDevelopment #WebDesign #update #updating",
+        "time": 1757903385,
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/microblog\/?id=282\"  title=\"id=282 (permanent link)\" >id<\/a>"
+    },
+    {
+        "id": "281",
+        "text": "Site navigation is a complex thing.",
+        "text2": "",
+        "text3": "",
+        "url": "",
+        "tag": "#WebDesign #WebDevelopmetn #UI",
+        "time": 1757903330,
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/microblog\/?id=281\"  title=\"id=281 (permanent link)\" >id<\/a>"
+    },
+    {
+        "id": "280",
+        "text": "Web design is the ability to identify flaws in a site's design.",
+        "text2": "",
+        "text3": "",
+        "url": "",
+        "tag": "#WebDesign",
+        "time": 1757903298,
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/microblog\/?id=280\"  title=\"id=280 (permanent link)\" >id<\/a>"
+    },
+    {
+        "id": "279",
+        "text": "The old code always looks more horrible than the new code after more experience.",
+        "text2": "",
+        "text3": "",
+        "url": "",
+        "tag": "#coding",
+        "time": 1757903280,
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/microblog\/?id=279\"  title=\"id=279 (permanent link)\" >id<\/a>"
+    },
+    {
+        "id": "278",
+        "text": "Space in the code is important. (hint: Python)",
+        "text2": "",
+        "text3": "",
+        "url": "",
+        "tag": "#coding #programming",
+        "time": 1757903263,
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/microblog\/?id=278\"  title=\"id=278 (permanent link)\" >id<\/a>"
+    },
+    {
+        "id": "277",
+        "text": "I redesigned the blog from a static page to a more dynamic one (my JS script). Instead of one word in the post, post there will be consist with more words, this idea was bad with one word.",
+        "text2": "",
+        "text3": "",
+        "url": "",
+        "tag": "#update",
+        "time": 1757903227,
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/microblog\/?id=277\"  title=\"id=277 (permanent link)\" >id<\/a>"
+    },
+    {
+        "id": "276",
+        "text": "Restart if something doesn't work.",
+        "text2": "",
+        "text3": "",
+        "url": "",
+        "tag": "#note",
+        "time": 1757903137,
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/microblog\/?id=276\"  title=\"id=276 (permanent link)\" >id<\/a>"
+    },
+    {
         "id": "275",
         "text": "World Quantum Day Doodle - Google Doodles",
         "text2": "",
