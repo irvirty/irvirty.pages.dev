@@ -139,8 +139,11 @@ var script = document.createElement('script');
 script.type='text/javascript';
 script.async = true;
 script.charset = 'utf-8';
-script.src = 'https://cse.google.com/cse.js?cx=' + item["code"];      
+
+if (conf["confDataCollection"] == 'on'){
+script.src = 'https://cse.google.com/cse.js?cx=' + item["code"]; 
 document.getElementsByTagName('head')[0].appendChild(script);
+}
 
 let printTitle = q.slice(0, 260) + ' - ' + document.getElementsByTagName('title')[0].innerHTML;
 document.getElementsByTagName('title')[0].innerHTML = printTitle;
