@@ -8,7 +8,7 @@ Carefully! The folder: "other-projects" contains PHP, Python, ... files
   
 # Homepage, start page and projects
   
-Search redirect, games, to-do list, images, icons, collection of links and music, extensions, news, website templates, WordPress theme, navigation for a website ...
+Search redirect, games, to-do list, images, icons, collection of links and music, extensions, website templates, WordPress theme, navigation for a website ...
   
 ---
   
