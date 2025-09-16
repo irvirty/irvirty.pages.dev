@@ -709,7 +709,7 @@ var sitemapJsonVar = [
     {
         "text": "Speed dial\n\nPin, unpin a page for speed dial or your own link. Speed dial. Quick access to a page or site. | speed dial: ",
         "url": "\/projects\/speed-dial-58\/index.html",
-        "tag": " #speed #dial #setting #JavaScript #project",
+        "tag": " #speed #dial #setting #speeddial #spidial #JavaScript #project",
         "id": "a72c4243ce1362c1831921e909d2cb59",
         "time": "id"
     },

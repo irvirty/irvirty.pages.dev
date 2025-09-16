@@ -1,20 +1,15 @@
-<!--
-===
-Carefully! The folder: "other-projects" contains PHP, Python, ... files
-===
--->  
 
 ![banner](/img/github-banner-settings.png)  
   
-# Homepage, start page and projects
+# irvirty.pages.dev
   
-Search redirect, games, to-do list, images, icons, collection of links and music, extensions, website templates, WordPress theme, navigation for a website ...
+🏠🗂️ Homepage, start page and projects. Search redirect, games, to-do list, images, icons, collection of links and music, extensions, website templates, WordPress theme, navigation for a website ...
   
 ---
    
 > [!IMPORTANT]
+> - Carefully! The folder: "other-projects" contains PHP, Python files ...  
 > - The Google analytics ID is in the file "/js/main.js", it works if accept the cookie.  
-> - Carefully! The folder: "other-projects" contains PHP, Python, ... files.  
   
 ---
   
