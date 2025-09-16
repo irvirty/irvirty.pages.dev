@@ -17,7 +17,7 @@ Homepage, start page and projects. Search redirect, games, to-do list, images, i
   
 • Main license: CC BY-SA 4.0  
   
-• Others:  
+Others:  
 • SimpleHomePage theme for WordPress: GNU General Public License v2 or later  
 • Geany Themes: GNU General Public License  
 • Chrome Themes: Apache 2.0 License  
