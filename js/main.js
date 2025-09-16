@@ -1207,13 +1207,13 @@ document.getElementById('fPrivacy').innerHTML = `Cookie: auto (${conf["confDataC
 
 
 //conf["confDataCollection"] conf["confEmbedBlockMsg"]
-conf["confEmbedBlockMsg"] = `<div class="tCenter padding bg border small borderRadius">Embedding is disabled. <a id="fPrivacy" class="underline brand inlineBlock padding" title="Cookie Settings" href="${confD}pages/settings/#confDataCollection">Cookie settings.</a></div>`;
+conf["confEmbedBlockMsg"] = `<div class="tCenter padding bg border small borderRadius">Embedding is disabled. <a id="fPrivacy" class="underline brand inlineBlock padding" title="Cookie Settings" href="${confD}pages/settings/#confDataCollection">Cookie settings</a></div>`;
 
 if (conf["confDataCollection"] != "allow embed"){
 //conf["confDataCollection"] conf["confEmbedBlockMsg"]
 if (conf["confDataCollection"] != "on"){
-if (document.getElementById("disableEmbed") != null){
-document.getElementById("disableEmbed").innerHTML = conf["confEmbedBlockMsg"];
+if (document.getElementById("disableEmbedMsg") != null){
+document.getElementById("disableEmbedMsg").innerHTML = conf["confEmbedBlockMsg"];
 }
 }
 }
@@ -1433,13 +1433,13 @@ if (conf["confDataCollection"] == 'not selected'){
 fuMEmbedScript(confD + `js/cookie-agree-popup.js`, conf["confIdEmbedScript"]);
 }
 
-if (conf["confDataCollection"] == "on"&&conf["confDataCollection"] != "allow embed"){
+if (conf["confDataCollection"] == "on"){
 fuMEmbedScript(`https://www.googletagmanager.com/gtag/js?id=${conf["confGoogleAnalyticsId"]}`, conf["confIdEmbedScript"]);
 }
 
 
 ///////////////////////////
-// Run:
+// Run after script load:
 //https://stackoverflow.com/questions/39155645/multiple-window-onload-functions-with-only-javascript
 window.addEventListener('load', function() {
 //https://stackoverflow.com/questions/7559520/determine-if-statically-named-javascript-function-exists-to-prevent-errors

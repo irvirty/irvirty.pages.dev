@@ -2,6 +2,7 @@
 
 
 function disqusCommnets(disqusShortname, titleStatus, urlStatus){
+if (conf["confDataCollection"] == "on"){
 var pageTitle = "";
 var pageUrl = "";
 
@@ -44,5 +45,5 @@ this.page.identifier = pageTitle; // Replace PAGE_IDENTIFIER with your page's un
     s.setAttribute('data-timestamp', +new Date());
     (d.head || d.body).appendChild(s);
     })();
-
+}
 }
