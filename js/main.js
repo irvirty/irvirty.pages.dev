@@ -1,4 +1,4 @@
-// Main js v.7.0.0
+// Main js v.7.1.0
 // For second navigation, footer, themes, etc
 
 if (confD == undefined) { var confD = "/"; }
@@ -36,7 +36,7 @@ const confData = [
 {
 "confTitle":"Allow Cookies For Third Parties?",
 "confDescription":`- This is necessary to improve the site. (For Ads Services, Statistics).
-- Auto: used the time zone or Browser settings.
+- Auto: Browser settings are used.
 - Site used Functionality cookies.
 - Some services still collect visit information if cookie off.
 
@@ -1185,7 +1185,7 @@ font-display: swap;
 
 
 
-// Cookie (auto) v.1.1.0
+// Cookie (auto) v.2.0.0
 /*if (conf["confDataCollection"] == 'not selected'){
 if (navigator.doNotTrack == 1||navigator.globalPrivacyControl == true){
 conf["confDataCollection"] = "off";
@@ -1196,24 +1196,6 @@ document.getElementById('fPrivacy').innerHTML = `Cookie: not selected (${conf["c
 if (conf["confDataCollection"] == 'auto'){
 if (navigator.doNotTrack == 1||navigator.globalPrivacyControl == true){
 conf["confDataCollection"] = "off";
-} else {
-// Auto select (timezone) v.1.2.0
-//https://www.termsfeed.com/blog/cookie-consent-outside-eu/
-//https://stackoverflow.com/questions/38399465/how-to-get-list-of-all-timezones-in-javascript
-var timeZone = (Intl.DateTimeFormat().resolvedOptions().timeZone).toLowerCase();
-if (
-timeZone.indexOf('UTC'.toLowerCase()) != -1||
-timeZone.indexOf('europe'.toLowerCase()) != -1||
-timeZone.indexOf('mexico_city'.toLowerCase()) != -1||
-timeZone.indexOf('argentina'.toLowerCase()) != -1||
-timeZone.indexOf('brazil'.toLowerCase()) != -1||
-timeZone.indexOf('lagos'.toLowerCase()) != -1||
-timeZone.indexOf('japan'.toLowerCase()) != -1
-){
-conf["confDataCollection"] = 'off';
-} else {
-conf["confDataCollection"] = 'on';
-}
 }
 
 if (document.getElementById('fPrivacy') != null){
@@ -1225,16 +1207,16 @@ document.getElementById('fPrivacy').innerHTML = `Cookie: auto (${conf["confDataC
 
 
 //conf["confDataCollection"] conf["confEmbedBlockMsg"]
-conf["confEmbedBlockMsg"] = `<div class="tCenter padding bg border small borderRadius">Embedding is disabled. <!--Sorry, but there is no consent for third-party cookies.--> <a id="fPrivacy" class="underline brand inlineBlock padding" title="Cookie Settings" href="${confD}pages/settings/#confDataCollection">Cookie: ${conf["confDataCollection"]}</a></div>`;
+conf["confEmbedBlockMsg"] = `<div class="tCenter padding bg border small borderRadius">Embedding is disabled. <a id="fPrivacy" class="underline brand inlineBlock padding" title="Cookie Settings" href="${confD}pages/settings/#confDataCollection">Cookie settings.</a></div>`;
 
 if (conf["confDataCollection"] != "allow embed"){
-	//conf["confDataCollection"] conf["confEmbedBlockMsg"]
-	if (conf["confDataCollection"] != "on"){
-		if (document.getElementById("disableEmbed") != null){
-			document.getElementById("disableEmbed").innerHTML = conf["confEmbedBlockMsg"];
-			}
-			}
-			}
+//conf["confDataCollection"] conf["confEmbedBlockMsg"]
+if (conf["confDataCollection"] != "on"){
+if (document.getElementById("disableEmbed") != null){
+document.getElementById("disableEmbed").innerHTML = conf["confEmbedBlockMsg"];
+}
+}
+}
 
 // end Cookie (auto)
 
