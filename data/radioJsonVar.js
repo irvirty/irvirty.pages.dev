@@ -2100,15 +2100,6 @@ var radioJsonVar =
         "rightFooter": ""
     },
     {
-        "text": "ABC SPORT 1 | Free Internet Radio | TuneIn",
-        "text2": "",
-        "text3": "",
-        "url": "https:\/\/tunein.com\/radio\/ABC-SPORT-1-s47283\/",
-        "tag": "#radio #sport",
-        "time": 1739608516,
-        "rightFooter": ""
-    },
-    {
         "text": "KCRW, 89.9 FM, Los Angeles, US | Free Internet Radio | TuneIn",
         "text2": "",
         "text3": "",
