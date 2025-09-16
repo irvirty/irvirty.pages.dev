@@ -1,4 +1,4 @@
-/* Main.css style v.23.8.7
+/* Main.css style v.23.8.8
 /* main.css + theme (auto.css) */
 /* The style is mostly based on classes */
 
@@ -19,6 +19,7 @@
 --inputHeight: 45px;
 --fontSize: 14px;
 
+/* When changing, also change in main.js */
 --wrapper: 560px;
 --wrapper2: 700px;
 --wrapper3: 900px;

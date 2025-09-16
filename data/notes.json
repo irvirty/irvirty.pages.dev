@@ -1,5 +1,15 @@
 [
     {
+        "id": "111",
+        "text": "Window: confirm() method - Web APIs | MDN",
+        "text2": "===\r\nif (window.confirm(\"Do you want to open in new tab?\")) {\r\n    window.open(\"https:\/\/developer.mozilla.org\/en-US\/docs\/Web\/API\/Window\/open\");\r\n  } else {\r\n    log.innerText = \"Glad you're staying!\";\r\n  }",
+        "text3": "",
+        "url": "https:\/\/developer.mozilla.org\/en-US\/docs\/Web\/API\/Window\/confirm",
+        "tag": "#JS #JavaScript",
+        "time": 1758064743,
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/notes\/?id=111\"  title=\"id=111 (permanent link)\" >id<\/a>"
+    },
+    {
         "id": "109",
         "text": "tabindex - HTML: HyperText Markup Language | MDN",
         "text2": "<div tabindex=\"0\">Tabbable due to tabindex.<\/div>",

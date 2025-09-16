@@ -1,6 +1,6 @@
 // Podcasts (random, embed) v.1.0.0
 
-if (conf["confDataCollection"] == "on"){
+if (conf["confDataCollection"] == "on"||conf["confDataCollection"] == "allow embed"){
 function randomPodcast(printId, jsonVar){
 
 

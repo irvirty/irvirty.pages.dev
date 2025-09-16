@@ -366,7 +366,7 @@ var sitemapJsonVar = [
     {
         "text": "Keep (demo page)\n\nStatic version of the offline 'keep' script that saves things. Not for large data. Demo. | keep: ",
         "url": "\/projects\/keep-1\/index.html",
-        "tag": " #demo #content_display_system #microblog #CSS #JavaScript #project",
+        "tag": " #demo #content_display_system #microblog #embed #CSS #JavaScript #project",
         "id": "561cedb4ab503ad3ea6a2310c3471e6c",
         "time": "id"
     },
@@ -527,7 +527,7 @@ var sitemapJsonVar = [
     {
         "text": "Rain\n\nRain effect and animation using CSS and JavaScript | rain: ",
         "url": "\/projects\/rain-38\/index.html",
-        "tag": " #rain #random #drop #relax #sleep #noise #CSS #JavaScript #project",
+        "tag": " #rain #random #drop #relax #sleep #noise #embed #CSS #JavaScript #project",
         "id": "f9cb36b965b03cfc797acd7bab35ebd8",
         "time": "id"
     },

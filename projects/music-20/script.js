@@ -1,7 +1,7 @@
 // Music list (random, embed) v.1.3.4
 // data inspiration: radio, music recomendation.
 
-if (conf["confDataCollection"] == "on"){
+if (conf["confDataCollection"] == "on"||conf["confDataCollection"] == "allow embed"){
 	
 var jsonVar = musicJsonVar;
 

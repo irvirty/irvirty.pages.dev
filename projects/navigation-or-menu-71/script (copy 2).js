@@ -1,4 +1,4 @@
-// Navigation JS part v.2.3.1
+// Navigation JS part v.2.3.0
 
 if (conf === undefined){
 var conf = [];
@@ -60,13 +60,13 @@ display: none !important;
 }
 
 // button
-var dropdownButton = document.getElementById("dropdownMenuButton");
-var dropdownMenu = document.getElementById("dropdownMenu");
-var topNav = document.getElementById("topNav");
+const dropdownButton = document.getElementById("dropdownMenuButton");
+let dropdownMenu = document.getElementById("dropdownMenu");
+const topNav = document.getElementById("topNav");
 
 //https://www.w3.org/WAI/ARIA/apg/patterns/menu-button/examples/menu-button-links/
 if (topNav != undefined&&topNav.querySelectorAll("a")[0] != undefined){
-var topNavAllLinks = topNav.querySelectorAll("a");
+let topNavAllLinks = topNav.querySelectorAll("a");
 topNavAllLinks.forEach((item, index) => {
 topNav.querySelectorAll("a")[index].tabIndex = 0;
 });

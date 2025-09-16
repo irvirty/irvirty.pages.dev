@@ -1,6 +1,6 @@
 // Radio stations (random, embed) v.1.3.3
 
-if (conf["confDataCollection"] == "on"){
+if (conf["confDataCollection"] == "on"||conf["confDataCollection"] == "allow embed"){
 function randomRadio(printId, jsonVar){
 
 //https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Math/random

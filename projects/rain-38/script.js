@@ -34,7 +34,7 @@ print =
 
 document.getElementById("snowPrint").innerHTML = print;
 
-if (conf["confDataCollection"] == "on"){
+if (conf["confDataCollection"] == "on"||conf["confDataCollection"] == "allow embed"){
 	if (document.getElementById("printAudio") != null){
 		document.getElementById("printAudio").innerHTML = `
 

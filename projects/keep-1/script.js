@@ -2106,8 +2106,8 @@ countHl++;
 }
 });
 }
-
-if (conf["confDataCollection"] != 'on'&&embed != ""){
+if (conf["confDataCollection"] == "allow embed"){ conf["confDataCollection"] == "on"; } 
+if (conf["confDataCollection"] != "on"&&embed != ""){
 embed = `
 
 ${conf["confEmbedBlockMsg"]}`;
@@ -2591,7 +2591,8 @@ item = `<a class="brand op" href="${scriptDir}?q=${item}">${item}</a>`;
 
 text += item;
 
-if (conf["confDataCollection"] != 'on'&&embed != ""){
+if (conf["confDataCollection"] == "allow embed"){ conf["confDataCollection"] == "on"; } 
+if (conf["confDataCollection"] != "on"&&embed != ""){
 embed = `
 
 ${conf["confEmbedBlockMsg"]}`;
@@ -2847,7 +2848,10 @@ ${nav2Print}
 
 
 // for embed 
-if (embedStatus == 'on'&&conf["confDataCollection"] == 'on'){
+if (
+embedStatus == 'on'&&conf["confDataCollection"] == "on"||
+embedStatus == 'on'&&conf["confDataCollection"] == "allow embed"
+){
 
 if (embedServiceList.indexOf('xcom') != -1||embedServiceList.indexOf('twitter') != -1) {
 var script = document.createElement('script');

@@ -140,7 +140,7 @@ script.type='text/javascript';
 script.async = true;
 script.charset = 'utf-8';
 
-if (conf["confDataCollection"] == 'on'){
+if (conf["confDataCollection"] == "on"||conf["confDataCollection"] == "allow embed"){
 script.src = 'https://cse.google.com/cse.js?cx=' + item["code"]; 
 document.getElementsByTagName('head')[0].appendChild(script);
 }
