@@ -11,20 +11,6 @@ Carefully! The folder: "other-projects" contains PHP, Python, ... files
 Search redirect, games, to-do list, images, icons, collection of links and music, extensions, website templates, WordPress theme, navigation for a website ...
   
 ---
-  
-## Features:
-🎨 ~50 Themes (dark, light and medium).  
-🏷️ Speed ​​dial panel.  
-🎮 JavaScript Games: Typing Speed (WPM), Snake, Memory Symbol, Tic Tac Toe.  
-📝 Todo List.  
-🎨 Themes for Firefox, Geany IDE.  
-🛍 Extensions: New Tab Redirect, Auto theme switcher (for Firefox only).  
-WP: Experimental theme for WordPress.  
-📄 Website Templates.  
-☰ Project: navigation or menu for a website, there is a drop-down.  
-📦 And other: CSS Art, images, icons, ...  
-  
----
    
 > [!IMPORTANT]
 > - The Google analytics ID is in the file "/js/main.js", it works if accept the cookie.  

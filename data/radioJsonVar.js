@@ -2914,7 +2914,7 @@ var radioJsonVar =
         "text2": "https:\/\/radio.ukr.radio\/ur2-mp3",
         "text3": "mp3",
         "url": "https:\/\/promin.fm\/",
-        "tag": "#radio #ua",
+        "tag": "#radio #RadioMusic",
         "time": 1683434926,
         "rightFooter": ""
     },
