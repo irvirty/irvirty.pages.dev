@@ -10,6 +10,24 @@ conf["confGoogleAnalyticsId"] = "G-RQJTJG7DF9";
 conf["confUsername"] = "irvirty"; // only in some places
 conf["confWebsiteUrl"] = "irvirty.pages.dev";
 
+conf["confCookieDesc"] = `
+- This is necessary to improve the site. (For Ads Services, Statistics).
+- Auto: Browser settings are used.
+- Site used Functionality cookies.
+- Some services still collect visit information if cookie off.
+
+- Other:
+<a class="brand inlineBlock padding" target="blank" href="https://www.google.com/policies/privacy/partners/">Google's Privacy & Terms</a>
+<a class="brand inlineBlock padding" target="blank" href="https://www.cloudflare.com/privacypolicy/">Cloudflare's Privacy Policy</a>
+`;
+
+conf["confCookieDescPopup"] = `
+Other:
+<a class="brand inlineBlock padding" target="blank" href="https://www.google.com/policies/privacy/partners/">Google's Privacy & Terms</a>
+<a class="brand inlineBlock padding" target="blank" href="https://www.cloudflare.com/privacypolicy/">Cloudflare's Privacy Policy</a>
+`;
+
+
 // wrapper size for navigation, number in px from your CSS
 conf["confWrapperNavWidth"] = 900;
 conf["confMenuItemAverageWidth"] = 120;
@@ -35,15 +53,7 @@ conf["confIdEmbedScript"] = "footer";
 const confData = [
 {
 "confTitle":"Allow Cookies For Third Parties?",
-"confDescription":`- This is necessary to improve the site. (For Ads Services, Statistics).
-- Auto: Browser settings are used.
-- Site used Functionality cookies.
-- Some services still collect visit information if cookie off.
-
-Other:
-<a class="brand inlineBlock padding" target="blank" href="https://www.google.com/policies/privacy/partners/">Google's Privacy & Terms</a>
-<a class="brand inlineBlock padding" target="blank" href="https://www.cloudflare.com/privacypolicy/">Cloudflare's Privacy Policy</a>
-`,
+"confDescription":`${conf["confCookieDesc"]}`,
 "confName":"confDataCollection",
 "confValueDefault":"not selected",
 "confValueVariant":["on", "off", "auto", "not selected", "allow embed"],
@@ -1185,13 +1195,10 @@ font-display: swap;
 
 
 
-// Cookie (auto) v.2.0.0
-/*if (conf["confDataCollection"] == 'not selected'){
-if (navigator.doNotTrack == 1||navigator.globalPrivacyControl == true){
-conf["confDataCollection"] = "off";
-document.getElementById('fPrivacy').innerHTML = `Cookie: not selected (${conf["confDataCollection"]})`;
+// Cookie (auto) v.2.1.0
+if (document.getElementById('fPrivacy') != null){
+document.getElementById('fPrivacy').innerHTML = `Cookie: (${conf["confDataCollection"]})`;
 }
-}*/
 
 if (conf["confDataCollection"] == 'auto'){
 if (navigator.doNotTrack == 1||navigator.globalPrivacyControl == true){

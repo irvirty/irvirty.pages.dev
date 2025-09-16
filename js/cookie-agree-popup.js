@@ -1,6 +1,6 @@
-// Cookie Consent Popup v.1.5.0
+// Cookie Consent Popup v.2.0.0
 // if "not selected": popup
-// icons (svg) inspired by https://www.dw.com/
+
 
 if(String(document.location).indexOf("file://") == -1){
 
@@ -18,37 +18,13 @@ document.getElementById("cookiePopup").innerHTML = `
 <div class="padding2List"></div>
 
 <p>
+<button class="shadow bold button light3 border3 margin2List cookieBtnNo borderRadius2"  onclick="cookiePopup('off')">No (reject)</button>
 
-<button class="shadow bold button light3 border3 margin2List cookieBtnNo borderRadius2"  onclick="cookiePopup('off')">No &nbsp; 
-<span class="ico">
-<svg width="512" height="512" version="1.1" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
- <g transform="rotate(135 256 256)" stroke="#000" stroke-width="20.817">
-  <path d="m25.615 219.61h460.77v72.78h-460.77z"/>
-  <path transform="matrix(0,-1,-1,0,0,0)" d="m-486.39-292.39h460.77v72.78h-460.77z"/>
- </g>
-</svg>
-</span>
-</button>
-
-<button class="shadow bold button light3 border3 margin2List cookieBtnYes borderRadius2" onclick="cookiePopup('on')">Yes &nbsp; 
-<span class="ico">
-<svg width="512" height="512" version="1.1" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
- <g transform="matrix(.93266 0 0 .93266 34.642 17.239)" fill="#4e9a06">
-  <rect transform="rotate(-45)" x="-188.2" y="323.59" width="429.04" height="129.54" stroke-width="2.6875"/>
-  <rect transform="rotate(30)" x="154.15" y="169.52" width="234.83" height="129.54" stroke-width="1.9883"/>
- </g>
-</svg>
-</span>
-</button>
-
+<button class="shadow bold button light3 border3 margin2List cookieBtnYes borderRadius2" onclick="cookiePopup('on')">Yes (accept)</button>
 </p>
 
-<div class="padding2List"></div>
-<div class="small">
-Other:<br>
-<a class="brand inlineBlock padding" target="blank" href="https://www.google.com/policies/privacy/partners/">Google's Privacy & Terms</a><br>
-<a class="brand inlineBlock padding" target="blank" href="https://www.cloudflare.com/privacypolicy/">Cloudflare's Privacy Policy</a><br>
-</div>
+<div class="small pre">${conf["confCookieDescPopup"]}</div>
+
 
 </div>
 </div>
