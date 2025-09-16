@@ -3,7 +3,7 @@
   
 # irvirty.pages.dev
   
-• Homepage, start page and projects. Search redirect, games, to-do list, images, icons, collection of links and music, extensions, website templates, WordPress theme, navigation for a website ...
+Homepage, start page and projects. Search redirect, games, to-do list, images, icons, collection of links and music, extensions, website templates, WordPress theme, navigation for a website ...
   
 ---
    
