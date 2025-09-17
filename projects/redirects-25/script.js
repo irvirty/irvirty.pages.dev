@@ -238,6 +238,7 @@ sRedirectUrl = url;
 break;
 
 
+case '1#':
 case '/#':
 case 'loc#':
 q = q3.replace(qCom, '');
@@ -249,42 +250,6 @@ urlList = [
 if (q == ''){
 urlList = [
 "https://localhost/",
-];
-}
-random = urlList[fuMRandom(0, urlList.length - 1)];
-url = random;
-sRedirectUrl = url;
-break;
-
-
-case '1#':
-q = q3.replace(qCom, '');
-q = q.trim();
-q = encodeURIComponent(q);
-urlList = [
-"https://localhost/?q=1",
-];
-if (q == ''){
-urlList = [
-"https://localhost/?q=1",
-];
-}
-random = urlList[fuMRandom(0, urlList.length - 1)];
-url = random;
-sRedirectUrl = url;
-break;
-
-
-case '2#':
-q = q3.replace(qCom, '');
-q = q.trim();
-q = encodeURIComponent(q);
-urlList = [
-"https://localhost/?q=2",
-];
-if (q == ''){
-urlList = [
-"https://localhost/?q=2",
 ];
 }
 random = urlList[fuMRandom(0, urlList.length - 1)];
