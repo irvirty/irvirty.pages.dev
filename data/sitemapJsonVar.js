@@ -392,13 +392,6 @@ var sitemapJsonVar = [
         "time": "id"
     },
     {
-        "text": "Main Pages\n\nMain pages of the site. Firefox extensions and themes, icons, a links collection, articles, website templates, and others. | pages: ",
-        "url": "\/pages\/index.html",
-        "tag": " #Geany #Firefox #Chrome #Art #icons #Blog #Bookmark #template #website #theme #extension #HTML #CSS #JavaScript #projects #menu #list #pages #main",
-        "id": "30d3aca3ddbd02ee548c917dcf5666bc",
-        "time": "id"
-    },
-    {
         "text": "Memory Symbol\n\nIn this game, there is a grid with masked cells that need to be opened. You need to open two identical symbols (emoji) in sequence, winning if you opened everything. | memory symbol: ",
         "url": "\/games\/memory-symbol-11\/index.html",
         "tag": " #game #memory #symbol #HTML5 #CSS #JavaScript #project",
@@ -487,6 +480,13 @@ var sitemapJsonVar = [
         "url": "\/projects\/lag-test-47\/index.html",
         "tag": " #Experimental #test #lag #test #JavaScript #project",
         "id": "6b3d0c0efa47d4814fcab6ba9e6c292f",
+        "time": "id"
+    },
+    {
+        "text": "Pages (main)\n\nMain pages of the site. Firefox extensions and themes, icons, a links collection, articles, website templates, and others. | pages: ",
+        "url": "\/pages\/index.html",
+        "tag": " #Geany #Firefox #Chrome #Art #icons #Blog #Bookmark #template #website #theme #extension #HTML #CSS #JavaScript #projects #menu #list #pages #main",
+        "id": "30d3aca3ddbd02ee548c917dcf5666bc",
         "time": "id"
     },
     {
