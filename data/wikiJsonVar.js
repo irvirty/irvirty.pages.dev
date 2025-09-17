@@ -3,6 +3,16 @@ var wikiJsonVar =
 
 [
     {
+        "id": "151",
+        "text": "\"Hello, World!\" program - Wikipedia",
+        "text2": "A \"Hello, World!\" program is usually a simple computer program that emits (or displays) to the screen (often the console) a message similar to \"Hello, World!\". A small piece of code in most general-purpose programming languages, this program is used to illustrate a language's basic syntax. Such a program is often the first written by a student of a new programming language,[1] but it can also be used as a sanity check to ensure that the computer software intended to compile or run source code is correctly installed, and that its operator understands how to use it.",
+        "text3": "",
+        "url": "https:\/\/en.wikipedia.org\/wiki\/\"Hello,_World!\"_program",
+        "tag": "#coding #programming",
+        "time": 1758102675,
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/wiki\/?id=151\"  title=\"id=151 (permanent link)\" >id<\/a>"
+    },
+    {
         "id": "150",
         "text": "Doomscrolling - Wikipedia",
         "text2": "Doomscrolling or doomsurfing is the act of spending an excessive amount of time reading large quantities of user-generated content or news, particularly negative news, on the web and social media.[1][2] The concept was coined around 2020, particularly in the context of the COVID-19 pandemic.",
