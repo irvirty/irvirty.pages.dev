@@ -1,5 +1,7 @@
 // Rock paper scissors v.1.2.1
 
+//https://stackoverflow.com/questions/17883692/how-to-set-time-delay-in-javascript
+var delayInMilliseconds = 1000; //1 second
 
 let variantArr = ["🪨", "📄", "✂️"];
 
@@ -17,9 +19,9 @@ localStorage.setItem("rpsGameScoreUser", 0);
 }
 
 //if(typeof localStorage == 'objec't){ alert('test'); }
-function main(gameMode, selectedVal){
+function main(gameMode, playerVariant){
 
-document.getElementById("resultWin").innerHTML = `${resultWinStatus}`;
+//document.getElementById("resultWin").innerHTML = `${resultWinStatus}`; // test delme
 
 rpsGameScorePc = localStorage.getItem("rpsGameScorePc");
 rpsGameScoreUser = localStorage.getItem("rpsGameScoreUser");
@@ -48,10 +50,10 @@ resultWinStatus = `
 
 let pcVariant = variantArr[fuMRandom(0, 2)];
 //getRandomInt
-//console.log(`pc: ${pcVariant}, user: ${selectedVal}`);
+//console.log(`pc: ${pcVariant}, user: ${playerVariant}`);
 // Expected output: "Mangoes and papayas are $2.79 a pound."
 
-if(pcVariant == "🪨"&&selectedVal == "📄"){
+if(pcVariant == "🪨"&&playerVariant == "📄"){
 resultWinStatus = `
 <h2 class="orange">Win!</h2>
 <audio style="display:none" autoplay="false" src="${confD}audio/ok.mp3"></audio>
@@ -61,7 +63,7 @@ rpsGameScoreUser++;
 localStorage.setItem("rpsGameScoreUser", rpsGameScoreUser);
 }
 
-if(pcVariant == "📄"&&selectedVal == "✂️"){
+if(pcVariant == "📄"&&playerVariant == "✂️"){
 resultWinStatus = `
 <h2 class="orange">Win!</h2>
 <audio style="display:none" autoplay="false" src="${confD}audio/ok.mp3"></audio>
@@ -71,7 +73,7 @@ rpsGameScoreUser++;
 localStorage.setItem("rpsGameScoreUser", rpsGameScoreUser);
 }
 
-if(pcVariant == "✂️"&&selectedVal == "🪨"){
+if(pcVariant == "✂️"&&playerVariant == "🪨"){
 resultWinStatus = `
 <h2 class="orange">Win!</h2>
 <audio style="display:none" autoplay="false" src="${confD}audio/ok.mp3"></audio>
@@ -81,7 +83,7 @@ rpsGameScoreUser++;
 localStorage.setItem("rpsGameScoreUser", rpsGameScoreUser);
 }
 
-if(pcVariant == selectedVal){
+if(pcVariant == playerVariant){
 resultWinStatus = `
 <h2>Tie!</h2>
 <audio style="display:none" autoplay="false" src="${confD}audio/neutral.mp3"></audio>
@@ -93,18 +95,31 @@ rpsGameScorePc++;
 localStorage.setItem("rpsGameScorePc", rpsGameScorePc);
 }
 
+setTimeout(function() {
 document.getElementById("resultWin").innerHTML = `${resultWinStatus}`;
+}, delayInMilliseconds);
+
+
+document.getElementById("resultTop").innerHTML = `
+<span class="xxLarge">&nbsp;</span>
+<!--&nbsp;&nbsp;-->
+<div class="padding"></div>
+<span class="xxLarge">${playerVariant}</span>
+`;
+
+setTimeout(function() {
 document.getElementById("resultTop").innerHTML = `
 <span class="xxLarge">${pcVariant}</span>
 <!--&nbsp;&nbsp;-->
 <div class="padding"></div>
-<span class="xxLarge">${selectedVal}</span>
+<span class="xxLarge">${playerVariant}</span>
 `;
+}, delayInMilliseconds);
 
 document.getElementById("scoreResult").innerHTML = `
 computer: ${rpsGameScorePc}
 &nbsp;&nbsp;|&nbsp;&nbsp;
-human: ${rpsGameScoreUser}
+player: ${rpsGameScoreUser}
 `;
 
 break;

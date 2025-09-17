@@ -1,4 +1,7 @@
-// Dice game v.1.4.0
+// Dice game v.2.0.0
+
+//https://stackoverflow.com/questions/17883692/how-to-set-time-delay-in-javascript
+var delayInMilliseconds = 1000; //1 second
 
 
 var dice = {
@@ -40,6 +43,9 @@ document.getElementById("myBtn").addEventListener("click", displayResult);
 displayResult()
 
 function displayResult(){
+
+document.getElementById("resultPc").innerHTML = ``;
+
 if (endGame[0] != 'end'){
 var rand = randomDice();
 var rand2 = randomDice();
@@ -114,26 +120,30 @@ endGame[0] = 'end';
 }
 // end for end game
 
-
-
-document.getElementById("result").innerHTML = `
-<div class="gDice">
-
+//https://stackoverflow.com/questions/507138/how-to-add-a-class-to-a-given-element
+setTimeout(function() {
+  //your code to be executed after 1 second
+document.getElementById("resultPc").innerHTML = `
 <div class="gDicePlayer">
-<div class="gDname2 ` + colorPcWin + `" style="max-height: 0px;">` + pc + `</div><br>
+<div id="colorPc" class="gDname2" style="max-height: 0px;">` + pc + `</div><br>
 <div class="gDname op">pc</div>
 <div class="gDname op">` + pointsPc + `</div>
 </div>
+`;
+}, delayInMilliseconds);
 
+document.getElementById("resultPlayer").innerHTML = `
 <div class="gDicePlayer">
-<div class="gDname2 ` + colorPlayerWin + `" style="max-height: 0px;">` + player + `</div><br>
+<div id="colorPlayer" class="gDname2" style="max-height: 0px;">` + player + `</div><br>
 <div class="gDname op">player</div>
 <div class="gDname op">` + pointsPlayer + `</div>
 </div>
-
-</div>
 `;
-document.getElementById("result2").innerHTML = '<span>'+win+'</span>';
+//https://stackoverflow.com/questions/507138/how-to-add-a-class-to-a-given-element
+setTimeout(function() {
+document.getElementById("result2").innerHTML = '<span>' + win + '</span>';
+}, delayInMilliseconds);
+
 }
 
 document.getElementById("msg").innerHTML = `
