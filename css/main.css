@@ -19,7 +19,7 @@
 --inputHeight: 45px;
 --fontSize: 14px;
 
-/* When changing, also change in main.js */
+/* main.js (for nav) */
 --wrapper: 560px;
 --wrapper2: 700px;
 --wrapper3: 900px;
