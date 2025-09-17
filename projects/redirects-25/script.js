@@ -1,4 +1,4 @@
-// Search redirects v.2.9.0
+// Search redirects v.2.9.1
 // Search query + command
 
 // conf
@@ -107,13 +107,30 @@ q = q.trim();
 q = encodeURIComponent(q);
 urlList = [
 "https://www.google.com/search?btnI=1&q=" + q,
-//url = "https://you.com/search?q=!" + q;
-//url = "https://duckduckgo.com/?q=! " + q;
+//url = "https://duckduckgo.com/?q=! " + q,
 ];
 if (q == ''){
 urlList = [
 "https://www.google.com/search?btnI=1",
-"https://www.google.com/search?q=i'm feeling curious",
+//"https://duckduckgo.com/",
+];
+}
+random = urlList[fuMRandom(0, urlList.length - 1)];
+url = random;
+sRedirectUrl = url;
+break;
+
+
+case 'lll#':
+q = q3.replace(qCom, '');
+q = q.trim();
+q = encodeURIComponent(q);
+urlList = [
+url = "https://duckduckgo.com/?q=! " + q,
+];
+if (q == ''){
+urlList = [
+"https://duckduckgo.com/",
 ];
 }
 random = urlList[fuMRandom(0, urlList.length - 1)];
@@ -232,6 +249,42 @@ urlList = [
 if (q == ''){
 urlList = [
 "https://localhost/",
+];
+}
+random = urlList[fuMRandom(0, urlList.length - 1)];
+url = random;
+sRedirectUrl = url;
+break;
+
+
+case '1#':
+q = q3.replace(qCom, '');
+q = q.trim();
+q = encodeURIComponent(q);
+urlList = [
+"https://localhost/?q=1",
+];
+if (q == ''){
+urlList = [
+"https://localhost/?q=1",
+];
+}
+random = urlList[fuMRandom(0, urlList.length - 1)];
+url = random;
+sRedirectUrl = url;
+break;
+
+
+case '2#':
+q = q3.replace(qCom, '');
+q = q.trim();
+q = encodeURIComponent(q);
+urlList = [
+"https://localhost/?q=2",
+];
+if (q == ''){
+urlList = [
+"https://localhost/?q=2",
 ];
 }
 random = urlList[fuMRandom(0, urlList.length - 1)];
