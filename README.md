@@ -3,7 +3,7 @@
   
 # irvirty.pages.dev
   
-Search redirect, games, to-do list, links, music, images, icons, theme for Firefox, extensions: New Tab Redirect, WordPress theme, website templates ...
+Homepage, start page and projects. Search redirect, games, to-do list, links, music, images, icons, microblog, themes for Firefox, extensions: New Tab Redirect, WP theme, website templates ...
   
 ---
    
