@@ -27,9 +27,8 @@ var confSpeedDialDataArr = localStorage.getItem("confSpeedDialData");
 } else {
 var confSpeedDialDataArr = [];
 
-confSpeedDialDataArr.push({"text":"Link example", "url":"https://example.com/"});
-confSpeedDialDataArr.push({"text":"Link example", "url":"https://example.com/"});
-confSpeedDialDataArr.push({"text":"Link example", "url":"https://example.com/"});
+confSpeedDialDataArr.push({"text":"Wikipedia", "url":"https://www.wikipedia.org/"});
+confSpeedDialDataArr.push({"text":"Mozilla Firefox", "url":"https://www.firefox.com/"});
 
 var confSpeedDialDataArr = JSON.stringify(confSpeedDialDataArr);
 
@@ -142,6 +141,7 @@ ${print}
 
 </div>
 
+<div class="tLeft">
 <details>
 <summary class="pointer xSmall op inlineBlock brand">
 <span class="green bold">+</span> Add item
@@ -150,6 +150,7 @@ ${print}
 ${submitForm}
 </div>
 </details>
+</div>
 
 <div class="block padding2 margin2"></div>
 
