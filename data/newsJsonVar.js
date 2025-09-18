@@ -3,6 +3,16 @@ var newsJsonVar =
 
 [
     {
+        "id": "44",
+        "text": "Firefox 143.0, See All New Features, Updates and Fixes",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.firefox.com\/en-US\/firefox\/143.0\/releasenotes\/",
+        "tag": "#Firefox #browser #update #app #software",
+        "time": 1758172231,
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/news\/?id=44\"  title=\"id=44 (permanent link)\" >id<\/a>"
+    },
+    {
         "id": "41",
         "text": "Google's AI Mode expands globally, adds new agentic features | TechCrunch",
         "text2": "",

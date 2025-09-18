@@ -240,6 +240,7 @@ break;
 
 case '1#':
 case '/#':
+case '//#':
 case 'loc#':
 q = q3.replace(qCom, '');
 q = q.trim();
