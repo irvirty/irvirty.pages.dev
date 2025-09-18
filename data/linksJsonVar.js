@@ -1748,7 +1748,7 @@ var linksJsonVar =
         "text2": "",
         "text3": "",
         "url": "https:\/\/search.google.com\/search-console\/about",
-        "tag": "#tools",
+        "tag": "#tools #WebDevelopment #SEO",
         "time": 1706535988,
         "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=88\"  title=\"id=88 (permanent link)\" >id<\/a>"
     },
@@ -1758,7 +1758,7 @@ var linksJsonVar =
         "text2": "",
         "text3": "",
         "url": "https:\/\/www.bing.com\/webmasters",
-        "tag": "#tools #web",
+        "tag": "#tools #WebDevelopment #SEO",
         "time": 1706520469,
         "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=86\"  title=\"id=86 (permanent link)\" >id<\/a>"
     },
