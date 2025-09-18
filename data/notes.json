@@ -822,7 +822,7 @@
     {
         "id": "18",
         "text": "switch - JavaScript | MDN",
-        "text2": "const expr = 'Papayas';\r\n\r\nswitch (expr) {\r\n\r\ncase 'Oranges':\r\nconsole.log('Oranges are $0.59 a pound.');\r\nbreak;\r\n\r\ncase 'Mangoes':\r\ncase 'Papayas':\r\nconsole.log('Mangoes and papayas are $2.79 a pound.');\r\n\/\/ Expected output: \"Mangoes and papayas are $2.79 a pound.\"\r\nbreak;\r\n\r\ndefault:\r\nconsole.log(`Sorry, we are out of ${expr}.`);\r\n}",
+        "text2": "const expr = \"Papayas\";\r\nswitch (expr) {\r\n  case \"Oranges\":\r\n    console.log(\"Oranges are $0.59 a pound.\");\r\n    break;\r\n  case \"Mangoes\":\r\n  case \"Papayas\":\r\n    console.log(\"Mangoes and papayas are $2.79 a pound.\");\r\n    \/\/ Expected output: \"Mangoes and papayas are $2.79 a pound.\"\r\n    break;\r\n  default:\r\n    console.log(`Sorry, we are out of ${expr}.`);\r\n}",
         "text3": "",
         "url": "https:\/\/developer.mozilla.org\/en-US\/docs\/Web\/JavaScript\/Reference\/Statements\/switch",
         "tag": "#code #coding #JavaScript #JS",

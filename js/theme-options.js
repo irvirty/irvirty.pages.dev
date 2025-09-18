@@ -1,4 +1,4 @@
-/* Theme print option v.4.3.3 */
+/* Theme print option v.4.3.4 */
 // variable config in main.js
 
 var result = '';
@@ -20,7 +20,7 @@ if(element == 'rand-l'){ result += `
 <summary class="pointer brand wrapperSmall tLeft">Other:</summary><p>Random mode:</p>
 `; }
 if(element == 'auto-time'){ result += '</details><p>Auto mode:</p>'; }
-if(element == 'auto'){ result += '<div class="margin"></div>'; }
+if(element == 'auto'){ result += '<div class="margin wrapper"><hr></div>'; }
 
 
 if(element == theme){
