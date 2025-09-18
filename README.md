@@ -6,7 +6,20 @@
 Search redirect, games, to-do list, links, music, images, icons, microblog, news, browser extension and themes, WordPress theme, website templates ...
   
 ---
-   
+  
+## Features:
+• 50+ Themes (light, dark, and medium) + theme mode: auto, auto-random.  
+• Speed ​​dial panel.  
+• JavaScript Games: Typing Speed (WPM), Snake, Memory Symbol, Tic Tac Toe. 
+• Todo List, start page with timer, timer (stopwatch).   
+• Themes for Firefox browser, Geany IDE.  
+• Extensions: New tab redirect (any website in new tab), Auto theme switcher (Firefox only, changes the theme to dark or light depending on the theme mode of the browser or OS.).  
+• WP: Experimental theme for WordPress (light flat theme for blog or page).  
+• Website Templates.  
+• And other: images, icons, CSS Art, AGI countdown timer ...  
+  
+---
+  
 > [!IMPORTANT]
 > - Carefully! The folder: "other-projects" contains PHP, Python files ...  
 > - The Google analytics ID is in the file "/js/main.js", it works if accept the cookie.  
