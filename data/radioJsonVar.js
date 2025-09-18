@@ -14,7 +14,7 @@ var radioJsonVar =
     {
         "text": "BBC Audio | World Service | Listen Live",
         "text2": "https:\/\/stream.live.vc.bbcmedia.co.uk\/bbc_world_service",
-        "text3": "",
+        "text3": "mp3",
         "url": "https:\/\/www.bbc.com\/audio\/play\/live\/bbc_world_service",
         "tag": "#radio #en #WorldNews #news",
         "time": 1757805185,
