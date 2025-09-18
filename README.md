@@ -14,7 +14,7 @@ Search redirect, games, to-do list, links, music, images, icons, microblog, news
 • Todo List, Start page with timer in the tab title, Timer (stopwatch).   
 • Themes for Firefox browser and Geany IDE.  
 • Extensions: New tab redirect (any website in a new tab), Auto theme switcher (Firefox only, changes the theme to dark or light depending on the theme mode of the OS or time.).  
-• WP: SimpleHomepage experimental theme for WordPress (light flat theme for blog or page).  
+• WP: SimpleHomePage experimental theme for WordPress (light flat theme for blog or pages).  
 • Website templates.  
 • And other: Images, icons, CSS Art, AGI countdown timer ...  
   
