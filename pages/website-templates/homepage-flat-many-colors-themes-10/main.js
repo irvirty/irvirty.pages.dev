@@ -1,11 +1,11 @@
-// Main v.1.3.2
+// Main v.1.3.3
 
 
 var conf = [];
 conf["confTheme"] = localStorage.getItem("confTheme");
 
-conf["confStartDay"] = 7;
-conf["confStartNight"] = 19;
+conf["confStartDay"] = 8;
+conf["confStartNight"] = 20;
 
 // css theme fix if save page
 if(String(window.location.href).slice(0, 4) != 'http'){
