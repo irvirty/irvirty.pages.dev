@@ -32,8 +32,8 @@ newtab, new, tab, startpage, start, page, main,
 
 <link rel="preload" href="./css/main.css" as="style">
 <link rel="stylesheet" href="./css/main.css" type="text/css">
-<link rel="preload" href="./css/light.css" as="style">
-<link rel="stylesheet" type="text/css" href="./css/light.css" id="theme">
+<link rel="preload" href="./css/auto.css" as="style">
+<link rel="stylesheet" type="text/css" href="./css/auto.css" id="theme">
 
 <link rel="preload" href="./css/style.css" as="style">
 <link rel="stylesheet" href="./css/style.css" type="text/css">
@@ -678,8 +678,7 @@ opacity: .7;
 <span class="xSmall">Site update: <span class="brand" id="last-update"></span></span>
 </summary>
 <div class="wrapperSmall small inlineBlock padding2 pre bg shadow borderRadius2 tLeft">
-I removed the tag cloud on the main page again, there is a search form for that.
-+ I undeleted and restored it (more faster 1 click).
+Switching to automatic theme detection for pages (auto.css: dark or light theme).
 
 <a class="brand inlineBlock w100 padding2 small tCenter border2 light borderRadius2" href="./pages/updates/" title="Update Log">more</a>
 </div>
@@ -932,7 +931,7 @@ return time + ' ago';
 
 <!--<script src="/js/fuPostTime.js"></script>-->
 <script>
-document.getElementById("last-update").innerHTML = fuPostTime(1758082925);
+document.getElementById("last-update").innerHTML = fuPostTime(1758247434);
 </script>
 
 <script>

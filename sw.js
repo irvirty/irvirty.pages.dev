@@ -1,5 +1,5 @@
 
-//var myCacheVersion = "v.1.2.2025.09.18";
+//var myCacheVersion = "v.1.2.2025.09.19";
 
 
 
@@ -70,7 +70,7 @@ function swJsInstallFiles(){
 //https://stackoverflow.com/questions/66529102/uncaught-in-promise-typeerror-failed-to-execute-cache-on-addall-request
 //https://github.com/mdn/pwa-examples
 self.addEventListener('install', (e) => {
-e.waitUntil(caches.open("v.1.2.2025.09.18").then((cache) => cache.addAll(fileListArrFound)),);
+e.waitUntil(caches.open("v.1.2.2025.09.19").then((cache) => cache.addAll(fileListArrFound)),);
 });*/
 
 
@@ -990,33 +990,28 @@ var fileListArr = ["/404.html",
 "/pages/themes/",
 "/pages/updates/index.html",
 "/pages/updates/",
-"/pages/website-templates/about-me-page-light-21/index.html",
+"/pages/website-templates/about-me-page-auto-light-dark-21/index.html",
 "/pages/website-templates/",
-"/pages/website-templates/about-me-page-light-21/",
-"/pages/website-templates/about-me-page-light-21/style.css",
+"/pages/website-templates/about-me-page-auto-light-dark-21/",
+"/pages/website-templates/about-me-page-auto-light-dark-21/style.css",
 "/pages/website-templates/about-underline-why-underline-important-auto-light-dark-26/index.html",
 "/pages/website-templates/about-underline-why-underline-important-auto-light-dark-26/",
 "/pages/website-templates/about-underline-why-underline-important-auto-light-dark-26/style.css",
-"/pages/website-templates/card-page-light-20/image.png",
-"/pages/website-templates/card-page-light-20/",
-"/pages/website-templates/card-page-light-20/index.html",
-"/pages/website-templates/card-page-light-20/page.html",
-"/pages/website-templates/card-page-light-20/style.css",
-"/pages/website-templates/clean-one-page-mini-simple-light-16/index.html",
-"/pages/website-templates/clean-one-page-mini-simple-light-16/",
-"/pages/website-templates/clean-one-page-mini-simple-light-16/style.css",
-"/pages/website-templates/clean-simple-micro-light-24/index.html",
-"/pages/website-templates/clean-simple-micro-light-24/",
-"/pages/website-templates/clean-simple-micro-light-24/style.css",
-"/pages/website-templates/flower-one-page-mini-light-flat-17/flower.svg",
-"/pages/website-templates/flower-one-page-mini-light-flat-17/",
-"/pages/website-templates/flower-one-page-mini-light-flat-17/index.html",
-"/pages/website-templates/flower-one-page-mini-light-flat-17/style.css",
-"/pages/website-templates/homepage-flat-light-mini-9/index.html",
-"/pages/website-templates/homepage-flat-light-mini-9/",
-"/pages/website-templates/homepage-flat-light-mini-9/menu.html",
-"/pages/website-templates/homepage-flat-light-mini-9/page.html",
-"/pages/website-templates/homepage-flat-light-mini-9/style.css",
+"/pages/website-templates/card-page-auto-light-dark-20/image.png",
+"/pages/website-templates/card-page-auto-light-dark-20/",
+"/pages/website-templates/card-page-auto-light-dark-20/index.html",
+"/pages/website-templates/card-page-auto-light-dark-20/page.html",
+"/pages/website-templates/card-page-auto-light-dark-20/style.css",
+"/pages/website-templates/clean-one-page-mini-simple-auto-light-dark-16/index.html",
+"/pages/website-templates/clean-one-page-mini-simple-auto-light-dark-16/",
+"/pages/website-templates/clean-one-page-mini-simple-auto-light-dark-16/style.css",
+"/pages/website-templates/clean-simple-micro-auto-light-dark-24/index.html",
+"/pages/website-templates/clean-simple-micro-auto-light-dark-24/",
+"/pages/website-templates/clean-simple-micro-auto-light-dark-24/style.css",
+"/pages/website-templates/flower-one-page-mini-flat-auto-light-dark-17/flower.svg",
+"/pages/website-templates/flower-one-page-mini-flat-auto-light-dark-17/",
+"/pages/website-templates/flower-one-page-mini-flat-auto-light-dark-17/index.html",
+"/pages/website-templates/flower-one-page-mini-flat-auto-light-dark-17/style.css",
 "/pages/website-templates/homepage-flat-many-colors-themes-10/css/auto.css",
 "/pages/website-templates/homepage-flat-many-colors-themes-10/",
 "/pages/website-templates/homepage-flat-many-colors-themes-10/css/",
@@ -1091,42 +1086,47 @@ var fileListArr = ["/404.html",
 "/pages/website-templates/homepage-flat-many-colors-themes-10/page.html",
 "/pages/website-templates/homepage-flat-many-colors-themes-10/theme-options.js",
 "/pages/website-templates/homepage-flat-many-colors-themes-10/themes.html",
+"/pages/website-templates/homepage-flat-mini-auto-light-dark-9/index.html",
+"/pages/website-templates/homepage-flat-mini-auto-light-dark-9/",
+"/pages/website-templates/homepage-flat-mini-auto-light-dark-9/menu.html",
+"/pages/website-templates/homepage-flat-mini-auto-light-dark-9/page.html",
+"/pages/website-templates/homepage-flat-mini-auto-light-dark-9/style.css",
 "/pages/website-templates/index.html",
-"/pages/website-templates/movie-flat-light-11/index.html",
-"/pages/website-templates/movie-flat-light-11/",
-"/pages/website-templates/movie-flat-light-11/movie-id.html",
-"/pages/website-templates/movie-flat-light-11/movie-poster2.png",
-"/pages/website-templates/movie-flat-light-11/movie-poster.png",
-"/pages/website-templates/movie-flat-light-11/name.html",
-"/pages/website-templates/movie-flat-light-11/search.html",
-"/pages/website-templates/movie-flat-light-11/style.css",
+"/pages/website-templates/movie-flat-auto-light-dark-11/index.html",
+"/pages/website-templates/movie-flat-auto-light-dark-11/",
+"/pages/website-templates/movie-flat-auto-light-dark-11/movie-id.html",
+"/pages/website-templates/movie-flat-auto-light-dark-11/movie-poster2.png",
+"/pages/website-templates/movie-flat-auto-light-dark-11/movie-poster.png",
+"/pages/website-templates/movie-flat-auto-light-dark-11/name.html",
+"/pages/website-templates/movie-flat-auto-light-dark-11/search.html",
+"/pages/website-templates/movie-flat-auto-light-dark-11/style.css",
 "/pages/website-templates/personal-2/index.html",
 "/pages/website-templates/personal-2/",
 "/pages/website-templates/personal-2/style.css",
 "/pages/website-templates/personal-3/index.html",
 "/pages/website-templates/personal-3/",
 "/pages/website-templates/personal-3/style.css",
-"/pages/website-templates/photo-gallery-one-page-flat-light-18/index.html",
-"/pages/website-templates/photo-gallery-one-page-flat-light-18/",
-"/pages/website-templates/photo-gallery-one-page-flat-light-18/style.css",
-"/pages/website-templates/profile-card-flat-mini-light-12/index.html",
-"/pages/website-templates/profile-card-flat-mini-light-12/",
-"/pages/website-templates/profile-card-flat-mini-light-12/style.css",
-"/pages/website-templates/profile-card-mini-flat-light-14/index.html",
-"/pages/website-templates/profile-card-mini-flat-light-14/",
-"/pages/website-templates/profile-card-mini-flat-light-14/style.css",
-"/pages/website-templates/saas-landing-page-light-19/index.html",
-"/pages/website-templates/saas-landing-page-light-19/",
-"/pages/website-templates/saas-landing-page-light-19/login.html",
-"/pages/website-templates/saas-landing-page-light-19/product2.png",
-"/pages/website-templates/saas-landing-page-light-19/product3.png",
-"/pages/website-templates/saas-landing-page-light-19/product4.png",
-"/pages/website-templates/saas-landing-page-light-19/product.png",
-"/pages/website-templates/saas-landing-page-light-19/style (copy 1).css",
-"/pages/website-templates/saas-landing-page-light-19/style.css",
-"/pages/website-templates/services-landing-page-light-25/index.html",
-"/pages/website-templates/services-landing-page-light-25/",
-"/pages/website-templates/services-landing-page-light-25/style.css",
+"/pages/website-templates/photo-gallery-one-page-flat-auto-light-dark-18/index.html",
+"/pages/website-templates/photo-gallery-one-page-flat-auto-light-dark-18/",
+"/pages/website-templates/photo-gallery-one-page-flat-auto-light-dark-18/style.css",
+"/pages/website-templates/profile-card-flat-mini-auto-light-dark-12/index.html",
+"/pages/website-templates/profile-card-flat-mini-auto-light-dark-12/",
+"/pages/website-templates/profile-card-flat-mini-auto-light-dark-12/style.css",
+"/pages/website-templates/profile-card-mini-flat-auto-light-dark-14/index.html",
+"/pages/website-templates/profile-card-mini-flat-auto-light-dark-14/",
+"/pages/website-templates/profile-card-mini-flat-auto-light-dark-14/style.css",
+"/pages/website-templates/saas-landing-page-auto-light-dark-19/index.html",
+"/pages/website-templates/saas-landing-page-auto-light-dark-19/",
+"/pages/website-templates/saas-landing-page-auto-light-dark-19/login.html",
+"/pages/website-templates/saas-landing-page-auto-light-dark-19/product2.png",
+"/pages/website-templates/saas-landing-page-auto-light-dark-19/product3.png",
+"/pages/website-templates/saas-landing-page-auto-light-dark-19/product4.png",
+"/pages/website-templates/saas-landing-page-auto-light-dark-19/product.png",
+"/pages/website-templates/saas-landing-page-auto-light-dark-19/style (copy 1).css",
+"/pages/website-templates/saas-landing-page-auto-light-dark-19/style.css",
+"/pages/website-templates/services-landing-page-auto-light-dark-25/index.html",
+"/pages/website-templates/services-landing-page-auto-light-dark-25/",
+"/pages/website-templates/services-landing-page-auto-light-dark-25/style.css",
 "/pages/website-templates/simple-4/index.html",
 "/pages/website-templates/simple-4/",
 "/pages/website-templates/simple-4/style.css",
@@ -1148,14 +1148,14 @@ var fileListArr = ["/404.html",
 "/pages/website-templates/tpl-0/index.html",
 "/pages/website-templates/tpl-0/",
 "/pages/website-templates/tpl-0/style.css",
-"/pages/website-templates/web-design-one-page-mini-flat-light-15/circle.svg",
-"/pages/website-templates/web-design-one-page-mini-flat-light-15/",
-"/pages/website-templates/web-design-one-page-mini-flat-light-15/coffee.svg",
-"/pages/website-templates/web-design-one-page-mini-flat-light-15/index.html",
-"/pages/website-templates/web-design-one-page-mini-flat-light-15/style.css",
-"/pages/website-templates/web-design-services-simple-light-22/index.html",
-"/pages/website-templates/web-design-services-simple-light-22/",
-"/pages/website-templates/web-design-services-simple-light-22/style.css",
+"/pages/website-templates/web-design-one-page-mini-flat-auto-light-dark-15/circle.svg",
+"/pages/website-templates/web-design-one-page-mini-flat-auto-light-dark-15/",
+"/pages/website-templates/web-design-one-page-mini-flat-auto-light-dark-15/coffee.svg",
+"/pages/website-templates/web-design-one-page-mini-flat-auto-light-dark-15/index.html",
+"/pages/website-templates/web-design-one-page-mini-flat-auto-light-dark-15/style.css",
+"/pages/website-templates/web-design-services-simple-auto-light-dark-22/index.html",
+"/pages/website-templates/web-design-services-simple-auto-light-dark-22/",
+"/pages/website-templates/web-design-services-simple-auto-light-dark-22/style.css",
 "/pages/wiki/index.html",
 "/pages/wiki/",
 "/pages/wordpress-themes/index.html",
@@ -1463,7 +1463,7 @@ if (res.ok) {
 // file is present at URL
 console.log('try cache.add ' + file);
 //https://web.dev/learn/pwa/caching/
-caches.open("v.1.2.2025.09.18")
+caches.open("v.1.2.2025.09.19")
 .then(cache => {
 cache.add(file); // it stores only one resource
 //  cache.addAll(["styles.css", "app.js"]); // it stores two resources
@@ -1489,7 +1489,7 @@ if (res.ok) {
 // file is present at URL
 console.log('try cache.add ' + newFile);
 //https://web.dev/learn/pwa/caching/
-caches.open("v.1.2.2025.09.18")
+caches.open("v.1.2.2025.09.19")
 .then(cache => {
 cache.add(newFile); // it stores only one resource
 //  cache.addAll(["styles.css", "app.js"]); // it stores two resources
@@ -1522,7 +1522,7 @@ console.log('404 not found ' + newFile);
 // rm old cache
 //https://developer.mozilla.org/en-US/docs/Web/API/CacheStorage/delete
 this.addEventListener("activate", (event) => {
-  const cachesToKeep = ["v.1.2.2025.09.18"];
+  const cachesToKeep = ["v.1.2.2025.09.19"];
 
   event.waitUntil(
     caches.keys().then((keyList) =>
