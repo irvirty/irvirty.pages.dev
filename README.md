@@ -16,7 +16,7 @@ Search redirect, games, to-do list, links, tools, music, images, icons, microblo
 • Extensions: new tab redirect, auto theme switcher (Firefox only).  
 • WP: SimpleHomePage experimental theme for WordPress.  
 • Website templates.  
-• And other: tools, images, icons, CSS Art, AGI countdown timer ...  
+• And other: images, icons, CSS Art, tools ... 
   
 ---
   
