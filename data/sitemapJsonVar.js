@@ -58,7 +58,7 @@ var sitemapJsonVar = [
     {
         "text": "Average number\n\nAfter entering the numbers, the result will be the average value. Average calculator. | average number: ",
         "url": "\/projects\/average-number-40\/index.html",
-        "tag": " #Experimental #average #number #calculator #count #tool #JavaScript #project",
+        "tag": " #Experimental #average #number #calculator #count #tool #tools #JavaScript #project",
         "id": "fc61833ea57d16d081bc11c60aa84b1e",
         "time": "id"
     },
@@ -170,7 +170,7 @@ var sitemapJsonVar = [
     {
         "text": "Calculator\n\nOnline calculator. | calculator: ",
         "url": "\/projects\/calculator-3\/index.html",
-        "tag": " #Experimental #\u0441alculator #calc #tool #JavaScript #project",
+        "tag": " #Experimental #\u0441alculator #calc #tool #tools #JavaScript #project",
         "id": "edd89fc42456d08a51cee4c12872d538",
         "time": "id"
     },
@@ -205,7 +205,7 @@ var sitemapJsonVar = [
     {
         "text": "Color Picker\n\nColor picker. | color picker: ",
         "url": "\/projects\/color-picker-4\/index.html",
-        "tag": " #color #tool #picker #HTML #CSS #JavaScript #project",
+        "tag": " #color #tool #tools #picker #HTML #CSS #JavaScript #project",
         "id": "ff9327a7930ca78b4fc70c8294f41eb3",
         "time": "id"
     },
@@ -240,7 +240,7 @@ var sitemapJsonVar = [
     {
         "text": "Drawing\n\nA simple web application for drawing. | drawing: ",
         "url": "\/projects\/drawing-7\/index.html",
-        "tag": " #draw #drawing #art #tool #HTML5 #drawing #app #WebAppproject #JavaScript #project",
+        "tag": " #draw #drawing #art #tool #tools #HTML5 #drawing #app #WebAppproject #JavaScript #project",
         "id": "0c05b18c71846997afc95fd7f279e35c",
         "time": "id"
     },
@@ -275,7 +275,7 @@ var sitemapJsonVar = [
     {
         "text": "Function insert icon\n\nJavaScript icon insertion function. | insert icon: ",
         "url": "\/projects\/insert-icon-17\/index.html",
-        "tag": " #Experimental #insert #icon #function #tool #function #JavaScript #project",
+        "tag": " #Experimental #insert #icon #function #tool #tools #function #JavaScript #project",
         "id": "e895118af1d3bd5f1127bf58deb976fb",
         "time": "id"
     },
@@ -289,7 +289,7 @@ var sitemapJsonVar = [
     {
         "text": "Google Programmable Search\n\nGoogle programmable search engine. Google custom search engine and search widget. Google search. | google programmable search: ",
         "url": "\/projects\/google-programmable-search-49\/index.html",
-        "tag": " #widget #search #engine #tool #HTML #Google #embed #JavaScript #project",
+        "tag": " #widget #search #engine #tool #tools #HTML #Google #embed #JavaScript #project",
         "id": "2b575a4c74a2cfc05b4467752b43dcaa",
         "time": "id"
     },
@@ -413,7 +413,7 @@ var sitemapJsonVar = [
         "time": "id"
     },
     {
-        "text": "Mini projects\n\nMini projects only using HTML, and CSS.\nProjects like: project ideas, button, flex grid, hide show on resize. Projects without JavaScript. | mini projects: ",
+        "text": "Mini projects\n\nMini projects only using HTML, and CSS. Projects without JavaScript. | mini projects: ",
         "url": "\/mini-projects\/index.html",
         "tag": " #HTML #CSS #noscript #projects #menu #list #pages #main",
         "id": "f3db3035277214dd7fb639903cd258fe",
@@ -511,7 +511,7 @@ var sitemapJsonVar = [
         "time": "id"
     },
     {
-        "text": "Projects\n\nProjects based on HTML, CSS and JavaScript. \nProjects like: to-do list, timer, sorting items and more | projects: ",
+        "text": "Projects\n\nProjects based on HTML, CSS and JavaScript. Tools, collection, and other. | projects: ",
         "url": "\/projects\/index.html",
         "tag": " #HTML #CSS #JavaScript #projects #menu #list #pages #main",
         "id": "2641529d236ed4619d28ac7f42078020",
@@ -555,7 +555,7 @@ var sitemapJsonVar = [
     {
         "text": "Random Symbols or Password Generator\n\nThe page generates random letters, symbols, and numbers that can be used for a password. | random symbols: ",
         "url": "\/projects\/random-symbols-23\/index.html",
-        "tag": " #symbol #random #generator #tool #letter #symbols #password #JavaScript #project",
+        "tag": " #symbol #random #generator #tool #tools #letter #symbols #password #JavaScript #project",
         "id": "f0ea68a06b9b5d51c994b2c305b75624",
         "time": "id"
     },
@@ -569,7 +569,7 @@ var sitemapJsonVar = [
     {
         "text": "Random Text\n\nThe page generates random letters with commas, dots and line breaks to be like the text of the article. | random text generator: ",
         "url": "\/projects\/random-text-generator-24\/index.html",
-        "tag": " #random #text #tool #letter #lorem #ipsum #JavaScript #project",
+        "tag": " #random #text #tool #tools #letter #lorem #ipsum #JavaScript #project",
         "id": "1c49d865d44e58ee812e7b5df505684d",
         "time": "id"
     },
@@ -611,7 +611,7 @@ var sitemapJsonVar = [
     {
         "text": "Remove duplicates\n\nRemove duplicates. Remove duplicate items. | remove duplicates: ",
         "url": "\/projects\/remove-duplicates-61\/index.html",
-        "tag": " #Experimental #tool #duplicates #remove #itmes #JavaScript #project",
+        "tag": " #Experimental #tool #tools #duplicates #remove #itmes #JavaScript #project",
         "id": "f86d027451a664e1290a813f5146c924",
         "time": "id"
     },
@@ -688,7 +688,7 @@ var sitemapJsonVar = [
     {
         "text": "Sorting itmes\n\nSorting itmes. Sort text. | sorting: ",
         "url": "\/projects\/sorting-55\/index.html",
-        "tag": " #Experimental #tool #sorting #sort #itmes #JavaScript #project",
+        "tag": " #Experimental #tool #tools #sorting #sort #itmes #JavaScript #project",
         "id": "da601564f3b09b3ee57b01f86794eab4",
         "time": "id"
     },
@@ -730,7 +730,7 @@ var sitemapJsonVar = [
     {
         "text": "Stopwatch\n\nStop watch. Countdown from zero. | time stopwatch: ",
         "url": "\/projects\/time-stopwatch-30\/index.html",
-        "tag": " #time #stopwatch #tool #info #countdown #timer #JavaScript #project",
+        "tag": " #time #stopwatch #tool #tools #info #countdown #timer #JavaScript #project",
         "id": "df98aad619835f4b090a0a1ba20a4b68",
         "time": "id"
     },
@@ -744,7 +744,7 @@ var sitemapJsonVar = [
     {
         "text": "Symbol counter\n\nA very simple counter of letters or symbols in the text. Additionally, a word counter has been added. Word calculator. | symbol counter: ",
         "url": "\/projects\/symbol-counter-39\/index.html",
-        "tag": " #symbol #counter #count #calculator #tool #symbol #word #symbols #words #JavaScript #project",
+        "tag": " #symbol #counter #count #calculator #tool #tools #symbol #word #symbols #words #JavaScript #project",
         "id": "42e297c9b17bc402ea1e5949c9fb11a5",
         "time": "id"
     },
@@ -758,14 +758,14 @@ var sitemapJsonVar = [
     {
         "text": "Text To Binary\n\nBinary text. Conversion of text and symbols into binary format using JavaScript. | text to binary: ",
         "url": "\/projects\/text-to-binary-52\/index.html",
-        "tag": " #Experimental #text #binary #tool #conversion #converter #JavaScript #project",
+        "tag": " #Experimental #text #binary #tool #tools #conversion #converter #JavaScript #project",
         "id": "e6459362df1ce316ace4a26040df03f8",
         "time": "id"
     },
     {
         "text": "Text to URL or file name\n\nConversion of text into URL or file name text using JavaScript.\r\nText to url, url to text tile name. | text to url: ",
         "url": "\/projects\/text-to-url-43\/index.html",
-        "tag": " #text #URL #tool #file #name #JavaScript #project",
+        "tag": " #text #URL #tool #tools #file #name #JavaScript #project",
         "id": "4d4fbb01ddf0ddec93ab9128a52c8794",
         "time": "id"
     },
@@ -793,28 +793,28 @@ var sitemapJsonVar = [
     {
         "text": "To Do List\n\nTo-do, todo list. It's a simple to-do list with the ability to pin tasks as daily. (Task list, tasks). | todo list: ",
         "url": "\/projects\/todo-list-31\/index.html",
-        "tag": " #todo #task #tool #JavaScript #project",
+        "tag": " #todo #task #tool #tools #JavaScript #project",
         "id": "25bac8c7ef282c01977ecafa4f3f789c",
         "time": "id"
     },
     {
         "text": "To Do list ideas\n\nThis is a simple list of ideas based on the [todo list] script. (Idea list). | todo list ideas: ",
         "url": "\/projects\/todo-list-ideas-32\/index.html",
-        "tag": " #todo #idea #tool #JavaScript #project",
+        "tag": " #todo #idea #tool #tools #JavaScript #project",
         "id": "98ad9a9c4d9b4d0c5a9ede137fdd6f02",
         "time": "id"
     },
     {
         "text": "Typing speed\n\nA typing speed test, typing speed game or keyboard trainer. Typing test.\r\nModes: quotes, book, wiki, own text input.\r\nWPM means Words Per Minute. | typing speed: ",
         "url": "\/games\/typing-speed-14\/index.html",
-        "tag": " #test #tool #game #typing #speed #trainer #WPM #CSS #JavaScript #project",
+        "tag": " #test #tool #tools #game #typing #speed #trainer #WPM #CSS #JavaScript #project",
         "id": "0b91b83acdf8371274a96c1cafb81efd",
         "time": "id"
     },
     {
         "text": "Typing speed with the keyboard\n\nTyping speed with the keyboard. 10-Finger Typing Trainer. WPM. Typing test. | typing speed keyborad: ",
         "url": "\/games\/typing-speed-keyborad-70\/index.html",
-        "tag": " #typing #speed #10 #finger #trainer #WPM #test #tool #CSS #JavaScript #project",
+        "tag": " #typing #speed #10 #finger #trainer #WPM #test #tool #tools #CSS #JavaScript #project",
         "id": "baae59c58aff06893032c75688021435",
         "time": "id"
     },
@@ -828,7 +828,7 @@ var sitemapJsonVar = [
     {
         "text": "Ukrainian transliteration\n\nUkrainian transliteration. Cyrillic transliteration using JavaScript. | uk transliteration: ",
         "url": "\/projects\/uk-transliteration-35\/index.html",
-        "tag": " #Experimental #transliteration #text #tool #translit #JavaScript #project",
+        "tag": " #Experimental #transliteration #text #tool #tools #translit #JavaScript #project",
         "id": "ea88e06318cd7fc81c3fc3c0c027a660",
         "time": "id"
     },
@@ -877,7 +877,7 @@ var sitemapJsonVar = [
     {
         "text": "Website analysis\n\nLinks, tools or resources for website analysis: SEO, validator, search engine presence, etc. | website analysis: ",
         "url": "\/projects\/website-analysis-75\/index.html",
-        "tag": " #website #analysis #check #HTML_CSS #JavaScript #project",
+        "tag": " #website #analysis #check #tool #tools #HTML_CSS #JavaScript #project",
         "id": "4c38192e9957c16b667b6abd036c2f22",
         "time": "id"
     },
@@ -898,7 +898,7 @@ var sitemapJsonVar = [
     {
         "text": "pwa test\n\nTest PWA, PWA test. | pwa test: ",
         "url": "\/old-projects\/pwa-test-21\/index.html",
-        "tag": " #PWA #tool #test #WebApp #Service #worker #HTML #JavaScript #project",
+        "tag": " #PWA #test #WebApp #Service #worker #HTML #JavaScript #project",
         "id": "551aec3849bcce3c49550c3fd07d25dc",
         "time": "id"
     },
