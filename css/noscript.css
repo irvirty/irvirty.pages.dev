@@ -12,9 +12,9 @@ display: none;
 
 .topNav .dropdownMenuButton { display: inline; }
 
-/*.dropdownMenuContent:hover .dropdownMenu{ display: block; }*/
+/* .dropdownMenuContent:hover .dropdownMenu{ display: block; } */
 .dropdownMenuContent:hover {
-.dropdownMenu{ display: block; }
+.dropdownMenu { display: block; }
 }
 /* end Navigation CSS noscript part (CSS) */
 
