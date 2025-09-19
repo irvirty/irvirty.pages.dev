@@ -1,8 +1,8 @@
 {
 
   "manifest_version": 3,
-  "name": "New Tab Redirect",
-  "version": "1.4.1",
+  "name": "New tab redirect",
+  "version": "1.4.2",
   "description": "Your own URL website will open in a New Tab",
 
 "icons": {

@@ -8,7 +8,7 @@ Search redirect, games, to-do list, links, tools, music, images, icons, microblo
 ---
   
 ## Features:
-• 50+ Themes (light, dark, and medium) + theme mode: auto, auto-random.  
+• 50+ Themes (light, dark, and medium) + theme mode: auto, auto-random ...  
 • Speed ​​dial panel.  
 • JavaScript games: typing speed (WPM), snake, memory symbol, tic tac toe.  
 • Todo List, start page with timer in the title, timer (stopwatch).   

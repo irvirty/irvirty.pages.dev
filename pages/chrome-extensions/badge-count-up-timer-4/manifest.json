@@ -1,8 +1,8 @@
 {
 
   "manifest_version": 3,
-  "name": "Badge Count Up Timer",
-  "version": "1.0.7",
+  "name": "Badge count up timer",
+  "version": "1.0.8",
   "description": "Shows a Count Up Timer in extension Badge.",
 
 "icons": {

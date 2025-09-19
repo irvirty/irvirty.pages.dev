@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
-  "name": "Google Search (unofficial)",
-  "version": "1.5.0",
+  "name": "Google search (unofficial)",
+  "version": "1.5.1",
   "description": "URL www.google.com/search?q={searchTerms} as Search engine. (unofficial)",
   
 "icons": {
