@@ -21,7 +21,7 @@ Search redirect, games, to-do list, links, tools, music, images, icons, microblo
 ---
   
 > [!IMPORTANT]
-> - The Google analytics ID is in the file "/js/main.js", it works if accept the cookie (you can replace it with your own). 
+> - The Google analytics ID is in the file "/js/main.js", it works if accept the cookie (you can replace with your ID). 
 > - Carefully! The folder: "other-projects" contains PHP, Python files 
   
 ---
