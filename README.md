@@ -10,10 +10,10 @@ Search redirect, games, to-do list, links, tools, music, images, icons, microblo
 ## Features:
 • 50+ Themes (light, dark, and medium) + theme mode: auto, auto-random.  
 • Speed ​​dial panel.  
-• JavaScript Games: Typing Speed (WPM), Snake, Memory Symbol, Tic Tac Toe.  
+• JavaScript games: typing speed (WPM), snake, memory symbol, tic tac toe.  
 • Todo List, start page with timer in the title, timer (stopwatch).   
 • Themes for Firefox browser and Geany IDE.  
-• Extensions: New tab redirect, Auto theme switcher (Firefox only).  
+• Extensions: new tab redirect, auto theme switcher (Firefox only).  
 • WP: SimpleHomePage experimental theme for WordPress.  
 • Website templates.  
 • And other: tools, images, icons, CSS Art, AGI countdown timer ...  
@@ -21,8 +21,8 @@ Search redirect, games, to-do list, links, tools, music, images, icons, microblo
 ---
   
 > [!IMPORTANT]
-> - Carefully! The folder: "other-projects" contains PHP, Python files ...  
-> - The Google analytics ID is in the file "/js/main.js", it works if accept the cookie.  
+> - The Google analytics ID is in the file "/js/main.js", it works if accept the cookie (you can replace it with your own). 
+> - Carefully! The folder: "other-projects" contains PHP, Python files 
   
 ---
   
