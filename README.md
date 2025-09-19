@@ -11,12 +11,12 @@ Search redirect, games, to-do list, links, tools, music, images, icons, microblo
 • 50+ Themes (light, dark, and medium) + theme mode: auto, auto-random.  
 • Speed ​​dial panel.  
 • JavaScript Games: Typing Speed (WPM), Snake, Memory Symbol, Tic Tac Toe.  
-• Todo List, Start page with timer in the tab title, Timer (stopwatch).   
+• Todo List, start page with timer in the title, timer (stopwatch).   
 • Themes for Firefox browser and Geany IDE.  
-• Extensions: New tab redirect (any website in a new tab), Auto theme switcher (Firefox only, changes the theme to dark or light depending on the theme mode of the OS or time.).  
-• WP: SimpleHomePage experimental theme for WordPress (light flat theme for blog or pages).  
+• Extensions: New tab redirect, Auto theme switcher (Firefox only).  
+• WP: SimpleHomePage experimental theme for WordPress.  
 • Website templates.  
-• And other: Images, icons, CSS Art, AGI countdown timer ...  
+• And other: tools, images, icons, CSS Art, AGI countdown timer ...  
   
 ---
   
