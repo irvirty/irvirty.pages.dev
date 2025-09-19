@@ -30,7 +30,7 @@ text-align: center;
 }
 
 /* fix for mobile */
- @media only screen and (max-width: 500px){
+ @media (max-width: 500px){
 .topNav nav {
 justify-content: left;
 align-items: center;
@@ -131,7 +131,9 @@ margin: 0 auto;
 justify-content: center;
 }
 
- @media only screen and (max-width: 150px) { .menu { display: block; width: 100%; }}
+@media (max-width: 150px) {
+.menu { display: block; width: 100%;}
+}
 
 .menu a {
 display: flex;
