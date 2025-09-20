@@ -1,4 +1,4 @@
-// Keep v.4.2.1
+// Keep v.4.3.0
 // The static version of my offline "keep" PHP script that saves things (links, notes, etc).
 // Inspired by Twitter, Google Keep
 // Not for large data files.
@@ -2106,7 +2106,7 @@ countHl++;
 }
 });
 }
-if (conf["confDataCollection"] == "allow embed"){ conf["confDataCollection"] == "on"; } 
+if (conf["confDataCollection"] == "allow embed"){ conf["confDataCollection"] = "on"; } 
 if (conf["confDataCollection"] != "on"&&embed != ""){
 embed = `
 
@@ -2591,7 +2591,7 @@ item = `<a class="brand op" href="${scriptDir}?q=${item}">${item}</a>`;
 
 text += item;
 
-if (conf["confDataCollection"] == "allow embed"){ conf["confDataCollection"] == "on"; } 
+if (conf["confDataCollection"] == "allow embed"){ conf["confDataCollection"] = "on"; } 
 if (conf["confDataCollection"] != "on"&&embed != ""){
 embed = `
 
