@@ -1,4 +1,4 @@
-// Search redirects v.2.9.1
+// Search redirects v.2.9.2
 // Search query + command
 
 // conf
@@ -2388,8 +2388,8 @@ urlList = [
 "https://marginalia-search.com/",
 "https://search.seznam.cz/",
 //"https://mwmbl.org/",
-"https://www.mojeek.com/",
-"https://duckduckgo.com/",
+//"https://www.mojeek.com/",
+//"https://duckduckgo.com/",
 ];
 }
 random = urlList[fuMRandom(0, urlList.length - 1)];
