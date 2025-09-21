@@ -496,6 +496,7 @@ document.getElementById("footer").innerHTML = `
 
 <!--<a class="brand inlineBlock padding" style="padding-left: 0;" title="Start menu" href="${confD}all/">All</a>-->
 <a class="brand inlineBlock padding" title="About" href="${confD}pages/about/">About</a>
+<a class="brand inlineBlock padding" title="Doante" href="${confD}pages/about/#donate">Donate</a>
 <a class="brand inlineBlock padding" title="Bluesky" href="https://bsky.app/profile/${conf["confUsername"]}.pages.dev">Bluesky</a>
 <a class="brand inlineBlock padding" title="RSS News" href="${confD}rss.xml">RSS</a>
 <a id="fSettings" class="brand inlineBlock padding2" title="Settings" href="${confD}pages/settings/">Settings</a>
