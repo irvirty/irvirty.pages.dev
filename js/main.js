@@ -505,7 +505,7 @@ document.getElementById("footer").innerHTML = `
 <span class="gray">License:</span>
 <a class="brand inlineBlock padding" rel="license" title="Licenses for content" href="${confD}pages/about/#license">CC BY-SA 4.0 <sup>*</sup></a>
 <span class="op inlineBlock padding gray" title="update"><!--2019--->2025</span>
-<br>
+<span class="op inlineBlock padding gray">|</span>
 <span class="gray">Powered by </span><a class="brand inlineBlock padding" style="padding-right: 0;"  href="https://pages.cloudflare.com/">Cloudflare Pages</a>
 
 </div>
