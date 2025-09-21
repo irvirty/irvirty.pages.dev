@@ -353,7 +353,7 @@
      x="0"
      y="0" />
   <circle
-     style="fill:#f9f9f9;fill-opacity:1;stroke-width:0"
+     style="fill:#e8f6ef;fill-opacity:1;stroke-width:0"
      id="path4151"
      cx="256"
      cy="256"
@@ -367,19 +367,19 @@
      id="text3699"
      style="font-size:24px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect3701);display:inline" />
   <circle
-     style="fill:#33d17a;stroke-width:1.26748"
+     style="fill:#26a269;stroke-width:1.26748"
      id="path434"
      cx="256"
      cy="256"
      r="198.842" />
   <circle
-     style="fill:#f9f9f9;stroke-width:0.999337"
+     style="fill:#e8f6ef;stroke-width:0.999337;fill-opacity:1"
      id="path562"
      cx="256"
      cy="256"
      r="155.18771" />
   <rect
-     style="fill:#33d17a;stroke-width:0.905352"
+     style="fill:#26a269;stroke-width:0.905352"
      id="rect174"
      width="46.568939"
      height="335.67865"

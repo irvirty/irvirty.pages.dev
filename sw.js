@@ -1,5 +1,5 @@
 
-//var myCacheVersion = "v.1.2.2025.09.20";
+//var myCacheVersion = "v.1.2.2025.09.21";
 
 
 
@@ -70,7 +70,7 @@ function swJsInstallFiles(){
 //https://stackoverflow.com/questions/66529102/uncaught-in-promise-typeerror-failed-to-execute-cache-on-addall-request
 //https://github.com/mdn/pwa-examples
 self.addEventListener('install', (e) => {
-e.waitUntil(caches.open("v.1.2.2025.09.20").then((cache) => cache.addAll(fileListArrFound)),);
+e.waitUntil(caches.open("v.1.2.2025.09.21").then((cache) => cache.addAll(fileListArrFound)),);
 });*/
 
 
@@ -949,6 +949,8 @@ var fileListArr = ["/404.html",
 "/pages/images/2025/wallpaper-desktop-tile-kaleidoscope-mandala-light-gimp-91.jpeg",
 "/pages/images/2025/wallpaper-desktop-wall-inkscape-gimp-78.jpeg",
 "/pages/images/2025/wallpaper-desktop-wave-lines-light-blue-inkscape-96.png",
+"/pages/images/2025/wallpaper-desktop-wave-lines-light-inkscape-100.svg",
+"/pages/images/2025/wallpaper-desktop-wave-lines-light-inkscape-101.png",
 "/pages/images/2025/wallpaper-desktop-waves-dark-inkscape-84.png",
 "/pages/images/2025/wallpaper-desktop-waves-light-inkscape-82.svg",
 "/pages/images/2025/wallpaper-desktop-waves-light-inkscape-83.png",
@@ -1463,7 +1465,7 @@ if (res.ok) {
 // file is present at URL
 console.log('try cache.add ' + file);
 //https://web.dev/learn/pwa/caching/
-caches.open("v.1.2.2025.09.20")
+caches.open("v.1.2.2025.09.21")
 .then(cache => {
 cache.add(file); // it stores only one resource
 //  cache.addAll(["styles.css", "app.js"]); // it stores two resources
@@ -1489,7 +1491,7 @@ if (res.ok) {
 // file is present at URL
 console.log('try cache.add ' + newFile);
 //https://web.dev/learn/pwa/caching/
-caches.open("v.1.2.2025.09.20")
+caches.open("v.1.2.2025.09.21")
 .then(cache => {
 cache.add(newFile); // it stores only one resource
 //  cache.addAll(["styles.css", "app.js"]); // it stores two resources
@@ -1522,7 +1524,7 @@ console.log('404 not found ' + newFile);
 // rm old cache
 //https://developer.mozilla.org/en-US/docs/Web/API/CacheStorage/delete
 this.addEventListener("activate", (event) => {
-  const cachesToKeep = ["v.1.2.2025.09.20"];
+  const cachesToKeep = ["v.1.2.2025.09.21"];
 
   event.waitUntil(
     caches.keys().then((keyList) =>

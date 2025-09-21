@@ -3,6 +3,16 @@ var notesJsonVar =
 
 [
     {
+        "id": "112",
+        "text": "How to revert jumpy address bar behavior : r\/firefox",
+        "text2": "browser.urlbar.trimURLs to false.\r\n===\r\nA \"jumping\" URL in Firefox, when you click on the URL in the browser's address bar, the protocol name \"https\" will appear, and the URL will shift (jump).",
+        "text3": "",
+        "url": "https:\/\/www.reddit.com\/r\/firefox\/comments\/1lcrx2d\/how_to_revert_jumpy_address_bar_behavior\/",
+        "tag": "#fix #Firefox #AddressBar #UI #UX",
+        "time": 1758383723,
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/notes\/?id=112\"  title=\"id=112 (permanent link)\" >id<\/a>"
+    },
+    {
         "id": "111",
         "text": "Window: confirm() method - Web APIs | MDN",
         "text2": "===\r\nif (window.confirm(\"Do you want to open in new tab?\")) {\r\n    window.open(\"https:\/\/developer.mozilla.org\/en-US\/docs\/Web\/API\/Window\/open\");\r\n  } else {\r\n    log.innerText = \"Glad you're staying!\";\r\n  }",

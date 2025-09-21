@@ -882,7 +882,7 @@ var sitemapJsonVar = [
         "time": "id"
     },
     {
-        "text": "Wordpress themes\n\nMy themes for CMS WordPress | wordpress themes: ",
+        "text": "Wordpress themes\n\nMy themes for CMS WordPress. A simple flat light theme for WordPress (experimental). | wordpress themes: ",
         "url": "\/pages\/wordpress-themes\/index.html",
         "tag": " #theme #Wordpress #WP #project #page #main",
         "id": "30974c4a6a0676de8a95ca45bf4bca67",
