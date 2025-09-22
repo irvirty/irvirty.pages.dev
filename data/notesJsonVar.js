@@ -3,6 +3,16 @@ var notesJsonVar =
 
 [
     {
+        "id": "113",
+        "text": "How to disable menu popping up when I press ALT key | Firefox Support Forum | Mozilla Support",
+        "text2": "===\r\nCarefully!\r\n===\r\nDisable top menu when pressing Alt key in Firefox\r\n===\r\nui.key.menuAccessKeyFocuses = false \r\n===",
+        "text3": "",
+        "url": "https:\/\/support.mozilla.org\/en-US\/questions\/1278533",
+        "tag": "#fix #Firefox #alt #key #popup",
+        "time": 1758548029,
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/notes\/?id=113\"  title=\"id=113 (permanent link)\" >id<\/a>"
+    },
+    {
         "id": "112",
         "text": "How to revert jumpy address bar behavior : r\/firefox",
         "text2": "browser.urlbar.trimURLs to false.\r\n===\r\nA \"jumping\" URL in Firefox, when you click on the URL in the browser's address bar, the protocol name \"https\" will appear, and the URL will shift (jump).",
