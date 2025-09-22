@@ -14,7 +14,7 @@ Search redirect, games, to-do list, links, tools, music, images, icons, microblo
 • Todo List, start page with timer in the title, timer (stopwatch).   
 • Themes for Firefox browser and Geany IDE.  
 • Extensions: new tab redirect, auto theme switcher (Firefox only).  
-• WP: SimpleHomePage experimental theme for WordPress.  
+• WP: SimpleHomepage experimental theme for WordPress.  
 • Website templates.  
 • And other: images, icons, CSS Art, tools ... 
   
