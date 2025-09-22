@@ -267,8 +267,26 @@ Other places
 <div class="padding3List op small"></div>
 
 <div class="wrapperSmall padding2">
-<label for="goal">Current goal is $25. Progress:</label><br>
-<progress id="goal" max="25" value="0.0">0</progress>
+
+The current goal is $25, progress:<br>
+<div class="bg2 border margin">
+<div id="donateProgress"></div>
+</div>
+
+<script>
+///Donate goal v.1.0.0
+
+let donateGoal = 25;
+let donateAmount = 0;
+let donateProgressPercentage = (donateAmount * 100) / donateGoal;
+
+if (document.getElementById("donateProgress") != null){
+document.getElementById("donateProgress").innerHTML = `
+<div class="bg4 borderRadius small padding broder2 tCenter" style="width: ` + donateProgressPercentage + `%; max-width: 100%; min-width: 45px; z-index: 1; position: abosolute;"> <div style="min-width="120px">` + donateProgressPercentage + `%</div>`;
+}
+
+</script>
+
 </div>
 
 <div class="margin padding"></div>
