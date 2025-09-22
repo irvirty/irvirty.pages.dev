@@ -264,7 +264,7 @@ default:
 
 autoThemeSwitcherSettings(getMode, getThemeLight, getThemeDark, getTimeDay, getTimeNight);
 } else {
-autoThemeSwitcherSettings("auto", "test", "test", "7", "19");
+autoThemeSwitcherSettings("auto", "test", "test", "8", "20");
 }
 
 }
