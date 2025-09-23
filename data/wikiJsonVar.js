@@ -3,6 +3,16 @@ var wikiJsonVar =
 
 [
     {
+        "id": "152",
+        "text": "Lorem ipsum - Wikipedia",
+        "text2": "Lorem ipsum (\/\u02ccl\u0254\u02d0.r\u0259m \u02c8\u026ap.s\u0259m\/ LOR-\u0259m IP-s\u0259m) is a dummy or placeholder text commonly used in graphic design, publishing, and web development. Its purpose is to permit a page layout to be designed, independently of the copy that will subsequently populate it, or to demonstrate various fonts of a typeface without meaningful text that could be distracting.",
+        "text3": "",
+        "url": "https:\/\/en.wikipedia.org\/wiki\/Lorem_ipsum",
+        "tag": "#text",
+        "time": 1758647725,
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/wiki\/?id=152\"  title=\"id=152 (permanent link)\" >id<\/a>"
+    },
+    {
         "id": "151",
         "text": "\"Hello, World!\" program - Wikipedia",
         "text2": "A \"Hello, World!\" program is usually a simple computer program that emits (or displays) to the screen (often the console) a message similar to \"Hello, World!\". A small piece of code in most general-purpose programming languages, this program is used to illustrate a language's basic syntax. Such a program is often the first written by a student of a new programming language,[1] but it can also be used as a sanity check to ensure that the computer software intended to compile or run source code is correctly installed, and that its operator understands how to use it.",

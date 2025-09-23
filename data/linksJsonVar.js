@@ -3,6 +3,46 @@ var linksJsonVar =
 
 [
     {
+        "id": "327",
+        "text": "Encyclopedia Britannica | Britannica",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.britannica.com\/",
+        "tag": "#encyclopedia",
+        "time": 1758647982,
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=327\"  title=\"id=327 (permanent link)\" >id<\/a>"
+    },
+    {
+        "id": "326",
+        "text": "Wikipedia",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.wikipedia.org\/",
+        "tag": "#encyclopedia",
+        "time": 1758647935,
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=326\"  title=\"id=326 (permanent link)\" >id<\/a>"
+    },
+    {
+        "id": "325",
+        "text": "Wikipedia Choose article title",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/linkstre.am\/wikipedia",
+        "tag": "#sortme",
+        "time": 1758647863,
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=325\"  title=\"id=325 (permanent link)\" >id<\/a>"
+    },
+    {
+        "id": "323",
+        "text": "Blog - Creative Commons",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/creativecommons.org\/blog\/",
+        "tag": "#license #blog #copyright",
+        "time": 1758642429,
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=323\"  title=\"id=323 (permanent link)\" >id<\/a>"
+    },
+    {
         "id": "322",
         "text": "Proton Wallet: A secure, self-custodial Bitcoin wallet | Proton",
         "text2": "",

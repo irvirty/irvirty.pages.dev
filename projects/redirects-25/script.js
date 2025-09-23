@@ -1,4 +1,4 @@
-// Search redirects v.2.9.2
+// Search redirects v.2.9.3
 // Search query + command
 
 // conf
@@ -969,7 +969,7 @@ q = q.trim();
 q = encodeURI(q);
 //q = q.replaceAll('%2F', '/');
 urlList = [
-"http://" + q,
+"https://" + q,
 ];
 if (q == ""){
 urlList = [
@@ -2381,7 +2381,7 @@ urlList = [
 "https://search.seznam.cz/?q=" + q,
 //"https://mwmbl.org/?q=" + q,
 //"https://www.mojeek.com/search?q=" + q,
-//"https://duckduckgo.com/" + q,
+"https://duckduckgo.com/" + q,
 ];
 if (q == ""){
 urlList = [
@@ -2389,7 +2389,7 @@ urlList = [
 "https://search.seznam.cz/",
 //"https://mwmbl.org/",
 //"https://www.mojeek.com/",
-//"https://duckduckgo.com/",
+"https://duckduckgo.com/",
 ];
 }
 random = urlList[fuMRandom(0, urlList.length - 1)];

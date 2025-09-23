@@ -196,7 +196,7 @@ var radioJsonVar =
         "text2": "",
         "text3": "",
         "url": "https:\/\/tunein.com\/radio\/R\u00e1dio-Cultura-de-Viseu----RCi-1055-s115125\/",
-        "tag": "#radio #RadioMusic #europe",
+        "tag": "#radio #RadioMusic",
         "time": 1745731803,
         "rightFooter": ""
     },
