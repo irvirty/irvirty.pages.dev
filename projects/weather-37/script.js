@@ -1,5 +1,6 @@
 // Weather widget v.1.0.3
 
+if (conf["confDataCollection"] == "on"||conf["confDataCollection"] == "allow embed"){
 var result = [];
 
 var apiWeather = "https://api.open-meteo.com/v1/forecast?latitude=[latitude]&longitude=[longitude]&current_weather=true&hourly=temperature_2m,relativehumidity_2m,windspeed_10m";
@@ -127,3 +128,4 @@ weather(apiWeather);
 
 getLocation();
 
+}

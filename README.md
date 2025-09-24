@@ -3,20 +3,20 @@
   
 # irvirty.pages.dev
   
-Search redirect, games, to-do list, links, tools, music, images, icons, microblog, news, browser extension and themes, WordPress theme, website templates ...
+You find: search redirect, games, to-do list, links, tools, images, icons, microblog, news, browser extension and themes, WordPress theme, website templates ...
   
 ---
   
 ## Features:
-• 50+ Themes (light, dark, and medium) + theme mode: auto, auto-random ...  
-• Speed ​​dial panel.  
-• JavaScript games: typing speed (WPM), snake, memory symbol, tic-tac-toe.  
-• Todo List, start page with timer in the title, timer (stopwatch).   
-• Themes for Firefox browser and Geany IDE.  
+• 50+ themes with theme modes.  
+• Speed ​​dial panel (pin page).  
+• JavaScript games: typing speed (WPM), snake, memory symbol, and tic-tac-toe.  
+• Todo List, start page with timer.   
 • Extensions: new tab redirect, auto theme switcher (Firefox only).  
-• WP: SimpleHomepage experimental theme for WordPress.  
+• Themes for the Firefox browser and Geany IDE.  
+• WP: SimpleHomepage experimental theme for WordPress (homepage, blog, microblog).  
 • Website templates.  
-• And other: images, icons, CSS Art, tools ... 
+• And other: tools, news, images, icons, CSS art ... 
   
 ---
   
@@ -31,9 +31,10 @@ Search redirect, games, to-do list, links, tools, music, images, icons, microblo
 • Main license: CC BY-SA 4.0  
   
 Others:  
-• SimpleHomePage theme for WordPress: GNU General Public License v2 or later  
+• SimpleHomepage theme for WordPress: GNU General Public License v2 or later  
 • Geany Themes: GNU General Public License  
 • Chrome Themes: Apache 2.0 License  
++  
 • Roboto font: Copyright 2025 Google Apache License, Version 2.0  
 • Books in /data from The Project Gutenberg: The Project Gutenberg License  
 • .screenReader class in main.css: Copyright 2025 WordPress License: GPLv2 (or later)  

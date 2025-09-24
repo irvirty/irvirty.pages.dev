@@ -2,7 +2,7 @@
 
 
 function disqusCommnets(disqusShortname, titleStatus, urlStatus){
-if (conf["confDataCollection"] == "on"){
+if (conf["confDataCollection"] == "on"||conf["confDataCollection"] == "allow embed"){
 var pageTitle = "";
 var pageUrl = "";
 

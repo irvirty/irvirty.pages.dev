@@ -233,7 +233,7 @@ var sitemapJsonVar = [
     {
         "text": "Disqus comments\n\nDisqus comments. Comments widget for website. Comments for the web page. | disqus comments: ",
         "url": "\/projects\/disqus-comments-74\/index.html",
-        "tag": " #disqus #comments #comment #widget #CSS #JavaScript #project",
+        "tag": " #disqus #comments #comment #widget #embed #CSS #JavaScript #project",
         "id": "cb44d565848dd57ee5b48bc2c6952ec5",
         "time": "id"
     },
@@ -856,7 +856,7 @@ var sitemapJsonVar = [
     {
         "text": "Weather\n\nA simple tiny card showing the current weather. | weather: ",
         "url": "\/projects\/weather-37\/index.html",
-        "tag": " #weather #information #api #info #widget #CSS #JavaScript #project",
+        "tag": " #weather #information #api #info #widget #embed #CSS #JavaScript #project",
         "id": "6f8bee68e5f3f02be837cba1bf6cf272",
         "time": "id"
     },
