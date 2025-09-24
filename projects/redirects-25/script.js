@@ -1766,6 +1766,7 @@ break;
 
 
 case "ps#":
+case "pse#":
 case "cs#":
 case "cse#":
 case "gps#":
