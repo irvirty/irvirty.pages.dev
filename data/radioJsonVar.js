@@ -187,7 +187,7 @@ var radioJsonVar =
         "text2": "",
         "text3": "",
         "url": "https:\/\/tunein.com\/radio\/Radio-Do-Concelho-De-Mafra-1056-s83942\/",
-        "tag": "#radio #RadioMusic #PortugueseMusic #EuropeanMusic",
+        "tag": "#radio #RadioMusic",
         "time": 1745731848,
         "rightFooter": ""
     },
@@ -304,7 +304,7 @@ var radioJsonVar =
         "text2": "",
         "text3": "",
         "url": "https:\/\/tunein.com\/radio\/\u00c5lands-Radio-913-s17504\/",
-        "tag": "#radio #RadioMusic #EuropeanMusic",
+        "tag": "#radio #RadioMusic",
         "time": 1745730825,
         "rightFooter": ""
     },
