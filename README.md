@@ -3,7 +3,7 @@
   
 # irvirty.pages.dev
   
-You find: search redirect, games, to-do list, links, tools, images, icons, microblog, news, browser extension and themes, WordPress theme, website templates ...
+Search redirect, games, to-do list, links, tools, music collection, images, icons, microblog, news, browser themes and extensions, WP theme, site templates ...
   
 ---
   

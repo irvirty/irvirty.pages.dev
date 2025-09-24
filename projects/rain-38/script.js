@@ -51,12 +51,14 @@ License: <a href="https://commons.wikimedia.org/wiki/File:Mountain_Stream_Rain_S
 -->
 
 <!--https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/audio#-->
+<div class="op">
 <figure>
   <figcaption>rain.mp3:</figcaption>
   <audio controls autoplay loop src="${confD}audio/rain.mp3"></audio>
 <br>
   <a href="${confD}audio/rain.mp3"> Download audio </a>
 </figure>
-		`;
+</div>
+`;
 	}
 
