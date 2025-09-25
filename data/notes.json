@@ -1,5 +1,25 @@
 [
     {
+        "id": "115",
+        "text": "<textarea>: The Textarea element - HTML | MDN",
+        "text2": "===\r\n<label for=\"story\">Tell us your story:<\/label>\r\n\r\n<textarea id=\"story\" name=\"story\" rows=\"5\" cols=\"33\">\r\nIt was a dark and stormy night...\r\n<\/textarea>",
+        "text3": "",
+        "url": "https:\/\/developer.mozilla.org\/en-US\/docs\/Web\/HTML\/Reference\/Elements\/textarea",
+        "tag": "#HTML #tag",
+        "time": 1758799485,
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/notes\/?id=115\"  title=\"id=115 (permanent link)\" >id<\/a>"
+    },
+    {
+        "id": "114",
+        "text": "HTMLElement: innerText property - Web APIs | MDN",
+        "text2": "===\r\nconst source = document.getElementById(\"source\");\r\nconst textContentOutput = document.getElementById(\"textContentOutput\");\r\nconst innerTextOutput = document.getElementById(\"innerTextOutput\");\r\n\r\ntextContentOutput.value = source.textContent;\r\ninnerTextOutput.value = source.innerText;",
+        "text3": "",
+        "url": "https:\/\/developer.mozilla.org\/en-US\/docs\/Web\/API\/HTMLElement\/innerText",
+        "tag": "#JS #JavaScript #code #coding #programming",
+        "time": 1758797878,
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/notes\/?id=114\"  title=\"id=114 (permanent link)\" >id<\/a>"
+    },
+    {
         "id": "113",
         "text": "How to disable menu popping up when I press ALT key | Firefox Support Forum | Mozilla Support",
         "text2": "===\r\nCarefully!\r\n===\r\nDisable top menu when pressing Alt key in Firefox\r\n===\r\nui.key.menuAccessKeyFocuses = false \r\n===",
@@ -22,7 +42,7 @@
     {
         "id": "111",
         "text": "Window: confirm() method - Web APIs | MDN",
-        "text2": "===\r\nif (window.confirm(\"Do you want to open in new tab?\")) {\r\n    window.open(\"https:\/\/developer.mozilla.org\/en-US\/docs\/Web\/API\/Window\/open\");\r\n  } else {\r\n    log.innerText = \"Glad you're staying!\";\r\n  }",
+        "text2": "===\r\nconst windowButton = document.querySelector(\"#windowButton\");\r\nconst log = document.querySelector(\"#log\");\r\n\r\nwindowButton.addEventListener(\"click\", () => {\r\n  if (window.confirm(\"Do you want to open in new tab?\")) {\r\n    window.open(\"https:\/\/developer.mozilla.org\/en-US\/docs\/Web\/API\/Window\/open\");\r\n  } else {\r\n    log.innerText = \"Glad you're staying!\";\r\n  }\r\n});",
         "text3": "",
         "url": "https:\/\/developer.mozilla.org\/en-US\/docs\/Web\/API\/Window\/confirm",
         "tag": "#JS #JavaScript",

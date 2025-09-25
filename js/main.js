@@ -1,4 +1,4 @@
-// Main js v.7.1.0
+// Main js v.7.1.1
 // For second navigation, footer, themes, etc
 
 if (confD == undefined) { var confD = "/"; }
@@ -31,7 +31,7 @@ Other:
 // wrapper size for navigation, number in px from your CSS
 conf["confWrapperNavWidth"] = 900;
 conf["confMenuItemAverageWidth"] = 120;
-conf["confMenuItemAverageWidth"] = 80;
+conf["confMenuItemAverageWidth"] = 70;
 
 conf["confDomainNameInTitleStatus"] = "on"; // on, off
 conf["confDomainName"] = String((location.hostname).split('.')[0]);
@@ -176,6 +176,7 @@ conf["confMenuItems"] = [
 {"url":`${confD}games/`, "title":"Games", "text":"Games", "class":""},
 {"url":`${confD}projects/`, "title":"Projects", "text":"Projects", "class":""},
 {"url":`${confD}mini-projects/`, "title":"Mini projects", "text":"Mini projects", "class":""},
+{"url":`${confD}pages/guestbook/`, "title":"Guestbook", "text":"Guestbook", "class":""},
 {"url":`${confD}pages/about/`, "title":"About page", "text":"About", "class":""},
 ];
 
@@ -261,13 +262,14 @@ ${conf["confMenuItems2"]}
 
 
 
-// Navigation JS part v.2.3.1
+// Navigation JS part v.2.3.2
 
 if (conf === undefined){
 var conf = [];
 // wrapper size for navigation, number in px from your CSS
 conf["confWrapperNavWidth"] = 900;
 conf["confMenuItemAverageWidth"] = 120;
+//conf["confMenuItemAverageWidth"] = 79;
 }
 
 // count links

@@ -308,6 +308,13 @@ var sitemapJsonVar = [
         "time": "id"
     },
     {
+        "text": "Guestbook\n\nGuestbook. A page for comments and feedback, or something else. | guestbook: ",
+        "url": "\/pages\/guestbook\/index.html",
+        "tag": " #guestbook #comments #page #main",
+        "id": "2c06ac852dc3b67179c67679461fed9c",
+        "time": "id"
+    },
+    {
         "text": "HTML colors name\n\nHTML colors name | html colors name: ",
         "url": "\/projects\/html-colors-name-73\/index.html",
         "tag": " #HTML #colors #name #CSS #JavaScript #project",
