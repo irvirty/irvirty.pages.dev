@@ -272,7 +272,7 @@ Other places
 
 The current goal is $25, progress:
 <div class="margin"></div>
-<div class="bg2 border">
+<div class="bg2 shadow borderRadius2">
 <div id="donateProgress"></div>
 </div>
 <div class="margin"></div>
@@ -289,7 +289,7 @@ if (donateProgressPercentage > 0){ donateProgressBg = " bg4 "; }
 
 if (document.getElementById("donateProgress") != null){
 document.getElementById("donateProgress").innerHTML = `
-<div class=" ` + donateProgressBg + ` borderRadius small padding border3 tCenter" style="width: ` + donateProgressPercentage + `%; max-width: 100%; min-width: 45px; z-index: 1; position: abosolute;"> <div style="min-width="120px">` + donateProgressPercentage + `%</div>`;
+<div class=" ` + donateProgressBg + ` borderRadius2 small padding border3 tCenter" style="width: ` + donateProgressPercentage + `%; max-width: 100%; min-width: 45px; z-index: 1; position: abosolute;"> <div style="min-width="120px">` + donateProgressPercentage + `%</div>`;
 }
 
 </script>
