@@ -39,7 +39,12 @@ Others:
 • Books in /data from The Project Gutenberg: The Project Gutenberg License  
 • .screenReader class in main.css: Copyright 2025 WordPress License: GPLv2 (or later)  
   
----
+---  
+
+[Download ZIP](https://github.com/irvirty/irvirty.pages.dev/archive/refs/heads/main.zip)
+
+---  
+  
   
 #### GitHub Explore, topics:  
 [Website](https://github.com/topics/website),
