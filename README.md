@@ -40,9 +40,11 @@ Others:
 • .screenReader class in main.css: Copyright 2025 WordPress License: GPLv2 (or later)  
   
 ---  
-
+  
+## Download:
+  
 [Download ZIP](https://github.com/irvirty/irvirty.pages.dev/archive/refs/heads/main.zip)
-
+  
 ---  
   
   
