@@ -158,8 +158,8 @@
 <script src="../data/newsJsonVar.js"></script>
 <script src="../data/microblogJsonVar.js"></script>
 <script src="../data/articlesJsonVar.js"></script>
-<script src="../data/notesJsonVar.js"></script>
 <script src="../data/wikiJsonVar.js"></script>
+<script src="../data/notesJsonVar.js"></script>
 
 <script>
 
@@ -173,8 +173,8 @@ data = data.concat(confSpeedDialDataArr2);
 
 
 
-data = data.concat(sitemapJsonVar, linksJsonVar, newsJsonVar, microblogJsonVar, articlesJsonVar, notesJsonVar, wikiJsonVar);
-//data = [...sitemapJsonVar, ...linksJsonVar, newsJsonVar, ...microblogJsonVar, ...articlesJsonVar, ...notesJsonVar, ...wikiJsonVar];
+data = data.concat(sitemapJsonVar, linksJsonVar, newsJsonVar, microblogJsonVar, articlesJsonVar, wikiJsonVar, notesJsonVar);
+//data = [...sitemapJsonVar, ...linksJsonVar, newsJsonVar, ...microblogJsonVar, ...articlesJsonVar, ...wikiJsonVar, ...notesJsonVar,];
 
 
 
@@ -267,7 +267,7 @@ if (q55TagPrintUrl == null||q55TagPrintUrl == "null"||q55TagPrintUrl == ""){
 q55PrintUrl = "q=" + q55TagPrintUrl;
 }
 
-let lModeList = "all sitemap links news microblog notes articles wiki";
+let lModeList = "all sitemap links news microblog articles wiki notes";
 let lModeListArr = fuMSplit(lModeList);
 
 
