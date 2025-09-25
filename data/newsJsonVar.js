@@ -3,6 +3,16 @@ var newsJsonVar =
 
 [
     {
+        "id": "45",
+        "text": "Guido Reichstadter on X: \"Hi, it\u2019s Guido on hunger strike Day 23 outside the offices of Anthropic, going strong. There is a great and profound evil in this place. Each day, I sit and watch at lunch time and dinner time as delivery drivers on scooters and bikes stop at the curb and bring packages of https:\/\/t.co\/vnYEGvzPOv\" \/ X",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/x.com\/wolflovesmelon\/status\/1971002333577482360",
+        "tag": "#AGI #AI",
+        "time": 1758786505,
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/news\/?id=45\"  title=\"id=45 (permanent link)\" >id<\/a>"
+    },
+    {
         "id": "44",
         "text": "Firefox 143.0, See All New Features, Updates and Fixes",
         "text2": "",
