@@ -11,12 +11,12 @@ Search redirect, games, to-do list, links, tools, music collection, images, icon
 • 50+ themes with theme modes.  
 • Speed ​​dial panel (pin page).  
 • JavaScript games: typing speed (WPM), snake, memory symbol, and tic-tac-toe.  
-• Todo List, start page with timer.   
+• To-do List, start page with timer, and tools.   
 • Extensions: new tab redirect, auto theme switcher (Firefox only).  
 • Themes for the Firefox browser and Geany IDE.  
 • WP: SimpleHomepage experimental theme for WordPress (homepage, blog, microblog).  
 • Website templates.  
-• And other: tools, news, images, icons, CSS art ... 
+• Other: news, images, icons, CSS art ... 
   
 ---
   
@@ -34,10 +34,8 @@ Others:
 • SimpleHomepage theme for WordPress: GNU General Public License v2 or later  
 • Geany Themes: GNU General Public License  
 • Chrome Themes: Apache 2.0 License  
-+  
 • Roboto font: Copyright 2025 Google Apache License, Version 2.0  
-• Books in /data from The Project Gutenberg: The Project Gutenberg License  
-• .screenReader class in main.css: Copyright 2025 WordPress License: GPLv2 (or later)  
+• Books in /data: The Project Gutenberg License  
   
 ---  
   
