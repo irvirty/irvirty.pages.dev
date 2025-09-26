@@ -497,24 +497,34 @@ document.getElementById("footer").innerHTML = `
 </div>
 
 <!--<a class="brand inlineBlock padding" style="padding-left: 0;" title="Start menu" href="${confD}all/">All</a>-->
-<a class="brand inlineBlock padding" title="About" href="${confD}pages/about/">About</a>
 
-<a class="brand inlineBlock padding" title="Bluesky" href="https://bsky.app/profile/${conf["confUsername"]}.pages.dev">Bluesky</a>
-
-<a class="brand inlineBlock padding" title="RSS News" href="${confD}rss.xml">RSS</a>
-
-<a class="brand inlineBlock padding" title="Source code (repository)" href="https://github.com/${conf["confUsername"]}/${conf["confWebsiteUrl"]}">Source Code</a>
+<a class="brand inlineBlock padding" style="padding-left: 0;" title="About" href="${confD}pages/about/">About</a>
+<span class="op gray">|</span>
 
 <a id="fSettings" class="brand inlineBlock padding2" title="Settings" href="${confD}pages/settings/">Settings</a>
+<span class="op gray">|</span>
 
 <a class="brand inlineBlock padding" title="Doante" href="${confD}pages/about/#donate">Donate</a>
+<span class="op gray">|</span>
+
+<a class="brand inlineBlock padding" title="RSS News" href="${confD}rss.xml">RSS</a>
+<span class="op gray">|</span>
+
+<a class="brand inlineBlock padding" title="Bluesky" href="https://bsky.app/profile/${conf["confUsername"]}.pages.dev">Bluesky</a>
+<span class="op gray">|</span>
+
+<a class="brand inlineBlock padding" title="Source code (repository)" href="https://github.com/${conf["confUsername"]}/${conf["confWebsiteUrl"]}">Source Code</a>
+<span class="op gray">|</span>
 
 <span class="gray inlineBlock padding" style="padding-right: 0;">License:</span>
 <a class="brand inlineBlock padding" rel="license" title="Licenses for content" href="${confD}pages/about/#license">CC BY-SA 4.0 <sup>*</sup></a>
+<span class="op gray">|</span>
 
 <a id="fPrivacy" class="brand inlineBlock padding" title="Cookie Settings" href="${confD}pages/settings/#confDataCollection">Cookie: ${conf["confDataCollection"]}</a>
+<span class="op gray">|</span>
 
 <span class="op inlineBlock padding gray" title="update"><!--2019-->2025</span>
+<span class="op gray">|</span>
 
 <span class="gray inlineBlock padding" style="padding-right: 0;">Powered by </span><a class="brand inlineBlock padding" style="padding-right: 0;"  href="https://pages.cloudflare.com/">Cloudflare Pages</a>
 
