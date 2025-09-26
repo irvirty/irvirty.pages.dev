@@ -501,28 +501,27 @@ document.getElementById("footer").innerHTML = `
 
 <a class="brand inlineBlock padding" title="Bluesky" href="https://bsky.app/profile/${conf["confUsername"]}.pages.dev">Bluesky</a>
 
+<a class="brand inlineBlock padding" title="RSS News" href="${confD}rss.xml">RSS</a>
+
 <a class="brand inlineBlock padding" title="Source code (repository)" href="https://github.com/${conf["confUsername"]}/${conf["confWebsiteUrl"]}">Source Code</a>
-<!--<a class="brand inlineBlock padding" title="RSS News" href="${confD}rss.xml">RSS</a>-->
 
 <a id="fSettings" class="brand inlineBlock padding2" title="Settings" href="${confD}pages/settings/">Settings</a>
 
 <a class="brand inlineBlock padding" title="Doante" href="${confD}pages/about/#donate">Donate</a>
 
-<span class="inlineBlock padding" style="padding-left: 0";></span>
-<span class="gray">License:</span>
+<span class="gray inlineBlock padding" style="padding-right: 0;">License:</span>
 <a class="brand inlineBlock padding" rel="license" title="Licenses for content" href="${confD}pages/about/#license">CC BY-SA 4.0 <sup>*</sup></a>
- 
+
 <a id="fPrivacy" class="brand inlineBlock padding" title="Cookie Settings" href="${confD}pages/settings/#confDataCollection">Cookie: ${conf["confDataCollection"]}</a>
 
-<span class="inlineBlock padding" style="padding-left: 0";></span>
-<span class="gray">Powered by </span><a class="brand inlineBlock padding" style="padding-right: 0;"  href="https://pages.cloudflare.com/">Cloudflare Pages</a>
+<span class="op inlineBlock padding gray" title="update"><!--2019-->2025</span>
+
+<span class="gray inlineBlock padding" style="padding-right: 0;">Powered by </span><a class="brand inlineBlock padding" style="padding-right: 0;"  href="https://pages.cloudflare.com/">Cloudflare Pages</a>
 
 </div>
 </nav>
 
 <div id="fScrollToBottom"></div>
-
-<!-- First created: 2019 -->
 
 `;
 }
