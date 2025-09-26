@@ -42,7 +42,7 @@ var podcastJsonVar =
         "text": "TED Radio Hour | Listen to Podcasts On Demand Free | TuneIn",
         "text2": "",
         "text3": "",
-        "url": "https:\/\/tunein.com\/podcasts\/Ideas\/The-Moth-p418021\/?topicId=496178632",
+        "url": "https:\/\/tunein.com\/podcasts\/Ideas\/The-Moth-p418021\/",
         "tag": "#podcast #arts #culture #technology #en",
         "time": 1757740112,
         "rightFooter": ""
@@ -771,7 +771,7 @@ var podcastJsonVar =
         "text": "Money Rehab with Nicole Lapin | Listen to Podcasts On Demand Free | TuneIn",
         "text2": "",
         "text3": "",
-        "url": "https:\/\/tunein.com\/podcasts\/Business--Economics-Podcasts\/Money-Rehab-with-Nicole-Lapin-p1538776\/?topicId=467952173",
+        "url": "https:\/\/tunein.com\/podcasts\/Business--Economics-Podcasts\/Money-Rehab-with-Nicole-Lapin-p1538776\/",
         "tag": "#podcast #business #economics #en",
         "time": 1745722411,
         "rightFooter": ""
@@ -780,7 +780,7 @@ var podcastJsonVar =
         "text": "SmartLess | Listen to Podcasts On Demand Free | TuneIn",
         "text2": "",
         "text3": "",
-        "url": "https:\/\/tunein.com\/podcasts\/Comedy\/SmartLess-p1352445\/?topicId=467053596",
+        "url": "https:\/\/tunein.com\/podcasts\/Comedy\/SmartLess-p1352445\/",
         "tag": "#podcast #comedy #en",
         "time": 1745722284,
         "rightFooter": ""
