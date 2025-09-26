@@ -1,7 +1,7 @@
 
-# simplehomepage (theme for WordPress)
+# simplehomepage
 
-A simple flat light theme for WordPress (experimental). Blog theme, homepage theme, microblog theme, simple theme, light colors, flat theme, light theme, lightweight theme, clean theme. Note: The multi-level menu does not work and is displayed as a single-level menu.    
+A simple, flat, light theme for WordPress (Experimental). Ideal for a blog, homepage, or microblog.  It features simple, light colors, a flat design, and is lightweight. Note: The menu is displayed as a single-level menu.   
   
 ---
     
