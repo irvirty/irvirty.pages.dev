@@ -1122,7 +1122,7 @@ case 'Bing':
 tagListPrint += `<a class="inlineBlock padding op ` + color + `" href="/search/?q=` + printTagUrl +` bin">` + val + `</a>`;
 break;
 
-case 'GoogleProgrammableSearch':
+case 'GooglePS':
 tagListPrint += `<a class="inlineBlock padding op ` + color + `" href="/projects/google-programmable-search-49/?q=` + printTagUrl +`">` + val + `</a>`;
 break;
 
@@ -1162,7 +1162,7 @@ tagListCloud("");
 function modeSwitch(mode, tagList, tagListSortConf){
 
 let tagModePrint = "";
-let tagsModeList = `Hashtags Keywords News Search Google Bing SearchOther GoogleProgrammableSearch`;
+let tagsModeList = `Hashtags Keywords News Search Google Bing SearchOther GooglePS`;
 
 let arr = fuMSplit(tagsModeList);
 let tagListPrint = `<span class="op">mode:</span>`;
