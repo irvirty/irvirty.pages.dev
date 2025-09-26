@@ -1111,6 +1111,17 @@ return textOrArr.sort(collator.compare);
 
 // CSS
 // random bg image (background img with random position)
+
+// fix bg
+if (conf["confThemeEmbed"] == undefined){
+if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
+conf["confThemeEmbed"] = "dark";
+}
+if (window.matchMedia && window.matchMedia('(prefers-color-scheme: light)').matches) {
+conf["confThemeEmbed"] = "light";
+}
+}
+
 function fuMBg(com, bgImage){
 if (conf["confBg"] == "on"){
 
