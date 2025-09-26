@@ -52,13 +52,6 @@ conf["confIdEmbedScript"] = "footer";
 // settings var
 var confData = [
 {
-"confTitle":"Allow Cookies For Third Parties?",
-"confDescription":`${conf["confCookieDesc"]}`,
-"confName":"confDataCollection",
-"confValueDefault":"not selected",
-"confValueVariant":["on", "off", "auto", "not selected", "allow embed"],
-},
-{
 "confTitle":"Theme",
 "confDescription":`Choosing a theme for the site. More modes and themes: <a class="brand" href="${confD}pages/themes/">${confD}pages/themes/</a>`,
 "confName":"confTheme",
@@ -136,6 +129,13 @@ var confData = [
 "confName":"confScreenWakeLock",
 "confValueDefault":"off",
 "confValueVariant":["on", "off"],
+},
+{
+"confTitle":"Allow Cookies For Third Parties?",
+"confDescription":`${conf["confCookieDesc"]}`,
+"confName":"confDataCollection",
+"confValueDefault":"not selected",
+"confValueVariant":["on", "off", "auto", "not selected", "allow embed"],
 },
 ];
 //console.table(confData);
@@ -1008,7 +1008,10 @@ fuMSetTheme(conf["confTheme"]);
 // end Themes changer
 
 
-function fuMReload(){ location.reload(true); }
+function fuMReload(){
+window.location.hash = "";
+location.reload(true);
+}
 
 //https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/random
 function fuMRandom(min, max){
