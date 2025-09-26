@@ -501,7 +501,7 @@ document.getElementById("footer").innerHTML = `
 <a class="brand inlineBlock padding" style="padding-left: 0;" title="About" href="${confD}pages/about/">About</a>
 <span class="op gray">|</span>
 
-<a id="fSettings" class="brand inlineBlock padding2" title="Settings" href="${confD}pages/settings/">Settings</a>
+<a id="fSettings" class="brand inlineBlock padding" title="Settings" href="${confD}pages/settings/">Settings</a>
 <span class="op gray">|</span>
 
 <a class="brand inlineBlock padding" title="Doante" href="${confD}pages/about/#donate">Donate</a>
