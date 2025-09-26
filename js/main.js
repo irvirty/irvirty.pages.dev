@@ -500,7 +500,7 @@ document.getElementById("footer").innerHTML = `
 <a class="brand inlineBlock padding" title="About" href="${confD}pages/about/">About</a>
 <span class="op gray">|</span>
 <a class="brand inlineBlock padding" title="Bluesky" href="https://bsky.app/profile/${conf["confUsername"]}.pages.dev">Bluesky</a>
--<span class="op gray">|</span>
+<span class="op gray">|</span>
 <a class="brand inlineBlock padding" title="Source code (repository)" href="https://github.com/${conf["confUsername"]}/${conf["confWebsiteUrl"]}">Source Code</a>
 <!--<a class="brand inlineBlock padding" title="RSS News" href="${confD}rss.xml">RSS</a>-->
 <span class="op gray">|</span>
