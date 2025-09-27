@@ -3,16 +3,6 @@ var newsJsonVar =
 
 [
     {
-        "id": "46",
-        "text": "Activists launch hunger strikes outside DeepMind and Anthropic offices over race to build advanced AI | TechSpot",
-        "text2": "",
-        "text3": "",
-        "url": "https:\/\/www.techspot.com\/news\/109368-activists-launch-hunger-strikes-outside-anthropic-deepmind-offices.html",
-        "tag": "#AI #AGI #ASI #technology",
-        "time": 1758814108,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/news\/?id=46\"  title=\"id=46 (permanent link)\" >id<\/a>"
-    },
-    {
         "id": "44",
         "text": "Firefox 143.0, See All New Features, Updates and Fixes",
         "text2": "",
