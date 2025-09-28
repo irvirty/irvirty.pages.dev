@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Keep (demo page)</title>
+
+<meta name="description" content="
+Static version of the offline 'keep' script that saves things. Not for large data. Demo.
+">
+<meta name="keywords" content="
+demo, content display system, microblog, embed,
+CSS, JavaScript, project,
+">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="icon" sizes="512x512" href="../../img/logo.png" type="image/png">
+<link rel="shortcut icon" href="../../favicon.ico" type="image/x-icon">
+
+<!-- main -->
+<link rel="preload" href="../../js/main.js" as="script">
+
+<link rel="preload" href="../../css/main.css" as="style">
+<link rel="stylesheet" href="../../css/main.css" type="text/css">
+<link rel="preload" href="../../css/auto.css" as="style">
+<link rel="stylesheet" type="text/css" href="../../css/auto.css" id="theme">
+
+<link rel="preload" href="../../css/style.css" as="style">
+<link rel="stylesheet" href="../../css/style.css" type="text/css">
+
+<noscript>
+<link rel="stylesheet" type="text/css" href="../../css/noscript.css">
+</noscript>
+<!-- // main -->
+
+<link rel="preload" href="script.js" as="script"> 
+
+<link rel="preload" href="style.css" as="style">
+<link rel="stylesheet" href="style.css" type="text/css">
+
+<!--<link rel="preload" href="../../data/keepJsonVar.js" as="script">-->
+
+
+</head>
+<body>
+
+<div id="secondNav">
+<header class="tCenter">
+<div class="margin2"></div>
+<nav>
+<a class="inlineBlock padding brand" style="padding-left: 0;" href="/">index</a>
+<a class="inlineBlock padding brand" style="padding-right: 0;" href="../">list</a>
+</nav>
+</header>
+</div>
+
+
+<main id="content" class="content">
+<h1 class="tCenter op insertIconTitle">Keep (demo page)</h1>
+
+<div id="printKeep"></div>
+
+</main>
+
+
+<footer id="footer"></footer>
+
+<script>
+var confD = "../../";
+</script>
+<script src="../../js/main.js"></script>
+
+<!-- Keep -->
+<script src="/data/keepJsonVar.js"></script>
+
+<script>
+
+
+if (keepJsonVar == undefined||keepJsonVar == ''){
+// Example of data in the file, fresh example in script.js
+var keepJsonVar = 
+
+[
+    {
+        "id": 251,
+        "text": "test text",
+        "text2": "test text",
+        "text3": "test text",
+        "url": "https:\/\/example.com",
+        "tag": "#test2 #tag",
+        "time": 1671480576,
+        "rightFooter": ""
+    },
+    {
+        "id": 250,
+        "text": "test text",
+        "text2": "test text",
+        "text3": "test text",
+        "url": "https:\/\/example.com",
+        "tag": "#test #tag",
+        "time": 1668444918,
+        "rightFooter": ""
+
+    }
+];
+//
+
+}
+</script>
+
+<!--
+Config, copy paste in html before script.js.
+Fresh config in script.js
+-->
+<script>
+let keepConfig = {
+"postLimit":"", // number, the number of posts per page
+"embedStatus":"", // "off", "semi" (when id)
+"multiEmbedStatus":"", // "on"
+"tagListStatus":"", // "off", "all"
+"tagListLimit":"", // number
+"targetOption":"", // "blank"
+"bottomMsg":`
+<!-- bottom text or code -->
+`, // text
+"display":"", // gallery, art, blog (text, text2), all (text, text2, text3)
+"timeStatus":"", // off, disable post time (post id)
+"rightFooterStatus":"", // on, off, right footer in data
+"usernameStatus":"", // on, off
+"confD":"../../", //
+};
+</script>
+
+<script src="../../projects/keep-1/script.js" onload="keep('printKeep', keepJsonVar, 'wrapper', './', keepConfig)"></script>
+
+<!--<script src="/projects/keep-1/script.js"></script>
+<script>
+keep('printKeep', keepJsonVar, 'wrapper', './', keepConfig)
+</script>-->
+
+<!-- // keep -->
+
+</body>
+</html>

@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!-- //https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/Implement_a_settings_page -->
+<meta charset="UTF-8">
+
+<meta name="robots" content="noindex, nofollow">
+
+<title>Options</title>
+
+<meta name="description" content="
+empty description.
+">
+<meta name="keywords" content="
+empty keywords, !ignoreme
+">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<link rel="stylesheet" type="text/css" href="main.css">
+<link rel="stylesheet" type="text/css" href="auto.css">
+<link rel="stylesheet" type="text/css" href="style.css">
+
+<link rel="preload" href="options.js" as="script"> 
+
+</head>
+
+<body>
+
+
+<div class="content">
+<div class="wrapper2">
+
+<div class="block padding"></div>
+<a class="block tCenter padding brand" target="_blank" href="options.html">⚙️ Settings (in new tab)</a>
+
+
+<form>
+
+<div class="grid">
+
+<div>Redirect from the first URL:</div>
+<div>To the second URL:</div>
+
+<!-- 5 -->
+<input class="classUrlFirst padding" type="text" autocomplete="off">
+<input class="classUrlSecond padding" type="text" autocomplete="off">
+
+<input class="classUrlFirst padding" type="text" autocomplete="off">
+<input class="classUrlSecond padding" type="text" autocomplete="off">
+
+<input class="classUrlFirst padding" type="text" autocomplete="off">
+<input class="classUrlSecond padding" type="text" autocomplete="off">
+
+<input class="classUrlFirst padding" type="text" autocomplete="off">
+<input class="classUrlSecond padding" type="text" autocomplete="off">
+
+<input class="classUrlFirst padding" type="text" autocomplete="off">
+<input class="classUrlSecond padding" type="text" autocomplete="off">
+
+
+<!-- 5 -->
+<!--
+<input class="classUrlFirst padding" type="text" autocomplete="off">
+<input class="classUrlSecond padding" type="text" autocomplete="off">
+
+<input class="classUrlFirst padding" type="text" autocomplete="off">
+<input class="classUrlSecond padding" type="text" autocomplete="off">
+
+<input class="classUrlFirst padding" type="text" autocomplete="off">
+<input class="classUrlSecond padding" type="text" autocomplete="off">
+
+<input class="classUrlFirst padding" type="text" autocomplete="off">
+<input class="classUrlSecond padding" type="text" autocomplete="off">
+
+<input class="classUrlFirst padding" type="text" autocomplete="off">
+<input class="classUrlSecond padding" type="text" autocomplete="off">
+-->
+</div>
+<div class="margin"></div>
+<input type="submit" class="submit">
+<div class="padding2"></div>
+<input class="submit block" type="reset" class="submit">
+<div class="padding2"></div>
+
+<!-- more -->
+
+<!--<details>
+<summary class="tRight small" style="cursor: pointer;">Notes (in test):</summary>
+<div class="block padding2 shadow small"><span class="pre">
+You can use this "*" symbol in the first URL.
+</span></div>
+</details>-->
+
+<div class="margin"></div>
+
+<details>
+
+<summary class="padding brand" style="cursor: pointer;">↓ more input ↓ / <a class="padding brand" target="_blank" href="options.html">⚙️ Settings (in new window)</a></summary>
+
+<div class="grid">
+
+
+<!-- 5 -->
+<input class="classUrlFirst padding" type="text" autocomplete="off">
+<input class="classUrlSecond padding" type="text" autocomplete="off">
+
+<input id="anchor" class="classUrlFirst padding" type="text" autocomplete="off">
+<input class="classUrlSecond padding" type="text" autocomplete="off">
+
+<input class="classUrlFirst padding" type="text" autocomplete="off">
+<input class="classUrlSecond padding" type="text" autocomplete="off">
+
+<input class="classUrlFirst padding" type="text" autocomplete="off">
+<input class="classUrlSecond padding" type="text" autocomplete="off">
+
+<input class="classUrlFirst padding" type="text" autocomplete="off">
+<input class="classUrlSecond padding" type="text" autocomplete="off">
+
+
+<!-- 5 -->
+<input class="classUrlFirst padding" type="text" autocomplete="off">
+<input class="classUrlSecond padding" type="text" autocomplete="off">
+
+<input class="classUrlFirst padding" type="text" autocomplete="off">
+<input class="classUrlSecond padding" type="text" autocomplete="off">
+
+<input class="classUrlFirst padding" type="text" autocomplete="off">
+<input class="classUrlSecond padding" type="text" autocomplete="off">
+
+<input class="classUrlFirst padding" type="text" autocomplete="off">
+<input class="classUrlSecond padding" type="text" autocomplete="off">
+
+<input class="classUrlFirst padding" type="text" autocomplete="off">
+<input class="classUrlSecond padding" type="text" autocomplete="off">
+
+
+
+<!-- 5 -->
+<input class="classUrlFirst padding" type="text" autocomplete="off">
+<input class="classUrlSecond padding" type="text" autocomplete="off">
+
+<input class="classUrlFirst padding" type="text" autocomplete="off">
+<input class="classUrlSecond padding" type="text" autocomplete="off">
+
+<input class="classUrlFirst padding" type="text" autocomplete="off">
+<input class="classUrlSecond padding" type="text" autocomplete="off">
+
+<input class="classUrlFirst padding" type="text" autocomplete="off">
+<input class="classUrlSecond padding" type="text" autocomplete="off">
+
+<input class="classUrlFirst padding" type="text" autocomplete="off">
+<input class="classUrlSecond padding" type="text" autocomplete="off">
+
+
+<!-- 5 -->
+<input class="classUrlFirst padding" type="text" autocomplete="off">
+<input class="classUrlSecond padding" type="text" autocomplete="off">
+
+<input class="classUrlFirst padding" type="text" autocomplete="off">
+<input class="classUrlSecond padding" type="text" autocomplete="off">
+
+<input class="classUrlFirst padding" type="text" autocomplete="off">
+<input class="classUrlSecond padding" type="text" autocomplete="off">
+
+<input class="classUrlFirst padding" type="text" autocomplete="off">
+<input class="classUrlSecond padding" type="text" autocomplete="off">
+
+<input class="classUrlFirst padding" type="text" autocomplete="off">
+<input class="classUrlSecond padding" type="text" autocomplete="off">
+
+</div>
+
+<input type="submit" class="submit">
+
+</details>
+<!-- end more -->
+
+
+</form>
+
+</div>
+</div>
+
+<div class="padding2 margin2"></div>
+
+<!--
+<footer>
+
+</footer>
+-->
+    <script src="options.js"></script>
+
+  </body>
+</html>

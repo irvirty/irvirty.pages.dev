@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="640"
+   height="300"
+   viewBox="0 0 169.33333 79.375"
+   version="1.1"
+   id="svg5"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs2">
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath6179">
+      <ellipse
+         style="display:none;fill:#222222;fill-opacity:1;stroke:none;stroke-width:4.94866"
+         id="ellipse6181"
+         cx="26.876253"
+         cy="63.5"
+         rx="22.68141"
+         ry="28.096701" />
+      <path
+         id="lpe_path-effect6183"
+         style="fill:#222222;fill-opacity:1;stroke:none;stroke-width:4.94866"
+         class="powerclip"
+         d="M 9.5889963,30.403307 H 75.782398 V 96.596708 H 9.5889963 Z M 49.557663,63.5 A 22.68141,28.096701 0 0 0 26.876253,35.403299 22.68141,28.096701 0 0 0 4.1948433,63.5 22.68141,28.096701 0 0 0 26.876253,91.596701 22.68141,28.096701 0 0 0 49.557663,63.5 Z" />
+    </clipPath>
+  </defs>
+  <g
+     id="layer1">
+    <g
+       id="g6325"
+       transform="translate(0,-23.8125)">
+      <rect
+         style="opacity:1;fill:#222222;fill-opacity:1;stroke:none;stroke-width:4.25504"
+         id="rect846"
+         width="84.666664"
+         height="79.375"
+         x="0"
+         y="23.8125" />
+      <rect
+         style="opacity:1;fill:#f3f3f3;fill-opacity:1;stroke:none;stroke-width:4.25504"
+         id="rect846-1"
+         width="84.666664"
+         height="79.375"
+         x="84.666664"
+         y="23.8125" />
+      <g
+         id="g6317">
+        <circle
+           style="opacity:1;fill:#ffb22b;fill-opacity:1;stroke:none;stroke-width:5.50783"
+           id="path1895"
+           cx="127.99953"
+           cy="63.5"
+           r="28.096701" />
+        <g
+           id="g6177"
+           clip-path="url(#clipPath6179)"
+           transform="translate(-9.8088157)">
+          <circle
+             style="fill:#dbdbdb;fill-opacity:1;stroke:none;stroke-width:5.50783"
+             id="path1895-2"
+             transform="rotate(26.426846)"
+             r="28.096701"
+             cy="37.866993"
+             cx="66.486168" />
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!-- //https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/Implement_a_settings_page -->
+<meta charset="UTF-8">
+
+<meta name="robots" content="noindex, nofollow">
+
+<title>Options</title>
+
+<meta name="description" content="
+empty description.
+">
+<meta name="keywords" content="
+empty keywords, !ignoreme
+">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<link rel="stylesheet" type="text/css" href="main.css">
+<link rel="stylesheet" type="text/css" href="style.css">
+
+<link rel="preload" href="options.js" as="script"> 
+
+</head>
+
+<body>
+
+
+<main id="content" class="content">
+<div class="wrapper">
+
+<div class="padding2"></div>
+<a class="block tCenter padding2" target="_blank" href="options.html">⚙️ Settings (in new window)</a>
+
+<div class="center">
+<span class="small">key pressed:</span> 
+<input class="tCenter" id="keyPressed" type="text" autocomplete="off" style="width: 120px;  position: relative; z-index: -1;">
+</div>
+</div>
+
+<form>
+
+<div class="grid">
+
+<div>key (max 3):</div>
+<div>URL (optional: %title, %url, %selection, %input, !blank or !NewTab)</div>
+
+<!-- 5 -->
+<input class="classHotkeyId padding2" type="text" autocomplete="off">
+<input class="classHotkeyIdUrl padding2" type="text" autocomplete="off">
+
+<input class="classHotkeyId padding2" type="text" autocomplete="off">
+<input class="classHotkeyIdUrl padding2" type="text" autocomplete="off">
+
+<input class="classHotkeyId padding2" type="text" autocomplete="off">
+<input class="classHotkeyIdUrl padding2" type="text" autocomplete="off">
+
+<input class="classHotkeyId padding2" type="text" autocomplete="off">
+<input class="classHotkeyIdUrl padding2" type="text" autocomplete="off">
+
+<input class="classHotkeyId padding2" type="text" autocomplete="off">
+<input class="classHotkeyIdUrl padding2" type="text" autocomplete="off">
+
+
+<!-- 5 -->
+<!--
+<input class="classHotkeyId padding2" type="text" autocomplete="off">
+<input class="classHotkeyIdUrl padding2" type="text" autocomplete="off">
+
+<input class="classHotkeyId padding2" type="text" autocomplete="off">
+<input class="classHotkeyIdUrl padding2" type="text" autocomplete="off">
+
+<input class="classHotkeyId padding2" type="text" autocomplete="off">
+<input class="classHotkeyIdUrl padding2" type="text" autocomplete="off">
+
+<input class="classHotkeyId padding2" type="text" autocomplete="off">
+<input class="classHotkeyIdUrl padding2" type="text" autocomplete="off">
+
+<input class="classHotkeyId padding2" type="text" autocomplete="off">
+<input class="classHotkeyIdUrl padding2" type="text" autocomplete="off">
+-->
+</div>
+
+<input type="submit">
+
+
+
+<!-- start more -->
+
+<div class="block padding2"></div>
+<details>
+
+<summary class="" style="cursor: pointer;">↓ more input ↓ and | <a class="" target="_blank" href="options.html">⚙️ Settings (in new window)</a></summary>
+
+<div class="grid">
+
+
+<!-- 5 -->
+<input class="classHotkeyId padding2" type="text" autocomplete="off">
+<input class="classHotkeyIdUrl padding2" type="text" autocomplete="off">
+
+<input id="anchor" class="classHotkeyId padding2" type="text" autocomplete="off">
+<input class="classHotkeyIdUrl padding2" type="text" autocomplete="off">
+
+<input class="classHotkeyId padding2" type="text" autocomplete="off">
+<input class="classHotkeyIdUrl padding2" type="text" autocomplete="off">
+
+<input class="classHotkeyId padding2" type="text" autocomplete="off">
+<input class="classHotkeyIdUrl padding2" type="text" autocomplete="off">
+
+<input class="classHotkeyId padding2" type="text" autocomplete="off">
+<input class="classHotkeyIdUrl padding2" type="text" autocomplete="off">
+
+
+<!-- 5 -->
+<input class="classHotkeyId padding2" type="text" autocomplete="off">
+<input class="classHotkeyIdUrl padding2" type="text" autocomplete="off">
+
+<input class="classHotkeyId padding2" type="text" autocomplete="off">
+<input class="classHotkeyIdUrl padding2" type="text" autocomplete="off">
+
+<input class="classHotkeyId padding2" type="text" autocomplete="off">
+<input class="classHotkeyIdUrl padding2" type="text" autocomplete="off">
+
+<input class="classHotkeyId padding2" type="text" autocomplete="off">
+<input class="classHotkeyIdUrl padding2" type="text" autocomplete="off">
+
+<input class="classHotkeyId padding2" type="text" autocomplete="off">
+<input class="classHotkeyIdUrl padding2" type="text" autocomplete="off">
+
+
+
+<!-- 5 -->
+<input class="classHotkeyId padding2" type="text" autocomplete="off">
+<input class="classHotkeyIdUrl padding2" type="text" autocomplete="off">
+
+<input class="classHotkeyId padding2" type="text" autocomplete="off">
+<input class="classHotkeyIdUrl padding2" type="text" autocomplete="off">
+
+<input class="classHotkeyId padding2" type="text" autocomplete="off">
+<input class="classHotkeyIdUrl padding2" type="text" autocomplete="off">
+
+<input class="classHotkeyId padding2" type="text" autocomplete="off">
+<input class="classHotkeyIdUrl padding2" type="text" autocomplete="off">
+
+<input class="classHotkeyId padding2" type="text" autocomplete="off">
+<input class="classHotkeyIdUrl padding2" type="text" autocomplete="off">
+
+
+<!-- 5 -->
+<input class="classHotkeyId padding2" type="text" autocomplete="off">
+<input class="classHotkeyIdUrl padding2" type="text" autocomplete="off">
+
+<input class="classHotkeyId padding2" type="text" autocomplete="off">
+<input class="classHotkeyIdUrl padding2" type="text" autocomplete="off">
+
+<input class="classHotkeyId padding2" type="text" autocomplete="off">
+<input class="classHotkeyIdUrl padding2" type="text" autocomplete="off">
+
+<input class="classHotkeyId padding2" type="text" autocomplete="off">
+<input class="classHotkeyIdUrl padding2" type="text" autocomplete="off">
+
+<input class="classHotkeyId padding2" type="text" autocomplete="off">
+<input class="classHotkeyIdUrl padding2" type="text" autocomplete="off">
+
+</div>
+
+<input type="submit">
+
+</details>
+<!-- end more -->
+
+
+</form>
+
+</div>
+</main>
+
+<div class="margin2 padding2"></div>
+
+<!--
+<footer>
+
+</footer>
+-->
+    <script src="options.js"></script>
+
+  </body>
+</html>

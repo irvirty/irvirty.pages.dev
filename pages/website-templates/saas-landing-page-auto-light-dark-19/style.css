@@ -1,0 +1,100 @@
+/* v.1.3.0 */
+/* Inspired by images of sites when searching, and what the landing page should look like. */
+
+.lTwoCardList {
+display: grid;
+grid-template-columns: auto auto;
+grid-gap: 15px;
+justify-content: space-around;
+}
+
+.lTwoCardDiv {
+width: 100%;
+max-width: 400px;
+min-height: 250px;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+.lTwoCardDiv form, .lTwoCardDiv input { width: 350px; max-width: 100%; }
+
+@media(max-width: 550px) { .lTwoCardList { display: block; width: 100%; }}
+@media(max-width: 550px) { .lTwoCardDiv { min-height: 0px; display: block; margin: 0 auto; margin-top: 35px; }}
+
+.lTwoCardDiv img { border-radius: 15px; width: 100%; max-width: 250px; }
+
+
+.lPriceList {
+display: flex;
+flex: 1 0 auto;
+flex-wrap: wrap;
+gap: 10px;
+
+justify-content: center;
+justify-content: space-evenly;
+}
+
+.lPriceListDiv {
+display: flex;
+flex-basis: auto;
+flex-direction: column;
+min-height: 100%; 
+
+width: 100%;
+max-width: 200px;
+gap: 0;
+}
+
+.lPriceListDesc { flex: 1 0 auto; }
+.lPriceListPrice { flex-shrink: 0; }
+
+@media(max-width: 400px)  {
+.lPriceList { display: block; width: 100%; }
+.lPriceListDiv {  display: block; width: 100%; margin: 10px auto; }
+}
+
+.lPriceListDiv img {
+border-radius: 5px;
+}
+
+@media (prefers-color-scheme: light) {
+body{
+background-image: url("../../../img/tpl/bg.svg");
+background-repeat: repeat;
+background-attachment: fixed;
+}
+}
+
+@media (prefers-color-scheme: dark) {
+body{
+background-image: url("../../../img/tpl/bg-dark.svg");
+background-repeat: repeat;
+background-attachment: fixed;
+}
+}
+
+
+.logo, .logo2{
+position: relative;
+border-radius: 50%;
+display: inline-flex;
+vertical-align: middle;
+text-align: center;
+padding: 1px;
+border: 2px dashed color-mix(in srgb, var(--brand) 50%, transparent);
+opacity: 1;
+transition: transform .250s ease-in-out;
+width: 60px;
+}
+
+.logo:hover, .logo2:hover{
+transform: rotate(360deg);
+transition: transform 1.5s ease-in-out;
+}
+
+.logo2 { width: 26px; height: 26px; }
+
+@media (prefers-reduced-motion) {
+.logo:hover, .logo2:hover{ border-color: var(--c); }
+}

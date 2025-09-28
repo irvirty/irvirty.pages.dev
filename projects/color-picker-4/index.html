@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Color Picker</title>
+
+<meta name="description" content="
+Color picker.
+">
+<meta name="keywords" content="
+color, tool, tools,
+picker,
+HTML,
+CSS, JavaScript, project,
+">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="icon" sizes="512x512" href="../../img/logo.png" type="image/png">
+<link rel="shortcut icon" href="../../favicon.ico" type="image/x-icon">
+
+<!-- main -->
+<link rel="preload" href="../../js/main.js" as="script">
+
+<link rel="preload" href="../../css/main.css" as="style">
+<link rel="stylesheet" href="../../css/main.css" type="text/css">
+<link rel="preload" href="../../css/auto.css" as="style">
+<link rel="stylesheet" type="text/css" href="../../css/auto.css" id="theme">
+
+<link rel="preload" href="../../css/style.css" as="style">
+<link rel="stylesheet" href="../../css/style.css" type="text/css">
+
+<noscript>
+<link rel="stylesheet" type="text/css" href="../../css/noscript.css">
+</noscript>
+<!-- // main -->
+
+<link rel="preload" href="script.js" as="script"> 
+
+<link rel="preload" href="style.css" as="style">
+<link rel="stylesheet" href="style.css" type="text/css">
+
+</head>
+<body>
+
+
+<div id="secondNav">
+<header class="tCenter">
+<div class="margin2"></div>
+<nav>
+<a class="inlineBlock padding brand" style="padding-left: 0;" href="/">index</a>
+<a class="inlineBlock padding brand" style="padding-right: 0;" href="../">list</a>
+</nav>
+</header>
+</div>
+
+
+<!-- content -->
+<main id="content" class="content">
+
+<h1 class="tCenter op insertIconTitle">Color Picker</h1>
+
+
+<div class="wrapper2 border bg2 borderRadius2">
+
+<div class="block padding2">
+<div id="result" class="tCenter bold h3"></div>
+<div id="result2" class="tCenter bold h3"></div>
+</div>
+
+<div>
+<div class="border4">
+<div class="colorBgImageLocal">
+<div id="block33" class="tCenter h1">
+
+
+<div class="block padding2" style="color: #fff; ">
+text<br>
+<b>bold text</b>
+</div>
+
+
+<div class="block padding2" style="color: #000;">
+text<br>
+<b>bold text</b>
+</div>
+
+</div>
+</div>
+</div>
+</div>
+
+<div class="block padding2"></div>
+<!--https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/color#-->
+<form action="index.html" class="block padding2">
+<label for="color" class="xSmall op block paddingList">Select color:</label>
+<input id="color" class="block padding2" type="color" name="color" value="#613583">
+<div class="block padding2"></div>
+<label id="search" class="op tLeft xSmall block paddingList">Input HEX color:</label>
+<input class="padding2" type="text" id="color2" name="color2" placeholder="input color">
+<!--<input type="submit">-->
+</form>
+
+<div class="block padding2">
+<label id="search" class="op block tLeft xSmall block paddingList">Opacity:</label>
+<form>
+<input name="range" id="inputRange" value="100" type="range" min="0" max="100" step="1" onmouseup="setOpacityRange();" ontouchend="setOpacityRange();" rel="nofollow">
+</form>
+
+<div class="padding2List"></div>
+
+<div style="display: grid; grid-template-columns: 1fr 20% 1fr; grid-gap: 2px;">
+<button class="light3 pointer button border borderRadius2 bold" onclick="rangeMinus();return false;">-</button>
+<div id="opacityResult" class="button border borderRadius2 op small"></div>
+<button class="light3 pointer button border borderRadius2 bold" onclick="rangePlus();return false;">+</button>
+</div>
+</div>
+
+</div>
+
+</main>
+<!-- // content -->
+
+
+<footer id="footer"></footer>
+
+<script>
+var confD = "../../";
+</script>
+<script src="../../js/main.js"></script>
+
+<script src="script.js"></script>
+
+
+</body>
+</html>

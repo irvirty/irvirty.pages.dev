@@ -1,0 +1,18 @@
+/* 1.0.0 */
+
+.lButton {
+height: 100px;
+width: 100%;
+max-width: 300px;
+display: block;
+margin: 0 auto;
+filter: blur(.1rem);
+border-radius: 30px;
+}
+
+.lButton h1 { filter: blur(0); z-index: 2; }
+.lButton:hover {
+filter: blur(0);
+}
+
+

@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<!-- //https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/Implement_a_settings_page -->
+<meta charset="UTF-8">
+
+<meta name="robots" content="noindex, nofollow">
+
+<title>Options</title>
+
+<meta name="description" content="
+empty description.
+">
+<meta name="keywords" content="
+empty keywords, !ignoreme
+">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<link rel="stylesheet" type="text/css" href="main.css">
+<link rel="stylesheet" type="text/css" href="style.css">
+<link rel="stylesheet" type="text/css" href="auto.css">
+
+<!--<link rel="preload" href="options.js" as="script">-->
+
+</head>
+
+<body>
+
+
+<main id="content" class="contentCenter">
+<div class="wrapper">
+
+<h1>Option</h1>
+<!--<div id="msg" class=" tCenter orange padding2 bg3 border">status</div>-->
+
+<div class="tRight small"><a class="block padding brand" target="_blank" href="options.html">⚙️ Settings and if lag</a></div>
+
+<form id="theme-switcher-form" class="border padding3 light2 borderRadius2">
+
+
+  <fieldset>
+    <legend class="bold">Mode</legend>
+
+    <input class="themeSwitcherMode" type="radio" id="auto" name="mode" value="auto">
+    <label for="auto">Auto</label><br>
+
+    <input class="themeSwitcherMode" type="radio" id="time" name="mode" value="time">
+    <label for="time">Time</label><br>
+
+  </fieldset>
+
+<fieldset>
+<p class="bold">Choose a Firefox theme:</p>
+<p class="small">Light mode:</p>
+<select name="theme" id="theme-list-light"></select>
+<p class="small">Dark mode:</p>
+<select name="theme2" id="theme-list-dark"></select>
+</fieldset>
+
+<fieldset>
+<p><span class="bold">Time </span> <span class="small">(if the time mode is active, 24-hour time format)</span>:</p>
+<label for="theme-time-day">Start of the day:</label>
+<!--<input type="time" id="day" name="day" min="06:00" max="18:00">-->
+<input type="number" id="theme-time-day" name="day" min="5" max="11"><br>
+<label for="theme-time-night">Start of the night:</label>
+<!--<input class="themeTime" type="time" id="theme-time-night" name="night">-->
+<input type="number" id="theme-time-night" name="night" min="17" max="23">
+</fieldset>
+
+<input type="submit" class="submit">
+
+</form>
+
+</div>
+</main>
+
+<footer>
+<div class="margin padding"></div>
+<div class="tCenter"><a class="block tCenter padding brand" target="_blank" href="options.html">⚙️ Settings (in new tab)</a></div>
+<div class="margin padding"></div>
+</footer>
+
+<script src="script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,23 @@
+
+var guestbookJsonVar = 
+
+[
+    {
+        "text": "test name\r\n---\r\ntest line break\r\ntest text https:\/\/example.com\/#TestLink",
+        "text2": "",
+        "text3": "",
+        "url": "",
+        "tag": "#guestbook",
+        "time": 1758806908,
+        "rightFooter": ""
+    },
+    {
+        "text": "1 test text , test link: https:\/\/example.com\/",
+        "text2": "",
+        "text3": "",
+        "url": "",
+        "tag": "#guestbook",
+        "time": 1758795596,
+        "rightFooter": ""
+    }
+]

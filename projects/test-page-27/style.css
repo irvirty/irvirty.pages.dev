@@ -1,0 +1,418 @@
+/* v.1.1.5 */
+
+
+
+
+/**/
+.testBoldHover:hover { font-weight: bold; }
+
+
+/**/
+.testColumn { border: 1px solid var(--red); }
+
+/**/
+.testOrange { color: orange; }
+.testRed { color: red; }
+
+
+/*********/
+
+/* 
+*:hover { border: 1px solid var(--red); } */
+
+/***/
+#glcanvas { max-width: 100%; }
+/***/
+.effect, .effect:hover {
+background: var(--indigo);
+color: var(--rC4);
+}
+
+.lImg {
+display: block;
+filter: blur(2em);
+width: 200px;
+margin: 0 auto;
+}
+
+
+.lBackdropWrapper {
+width: 150px;
+height: 70px;
+margin: 0 auto;
+background-image: url("/img/logo.png");
+background-size: contain;
+background-repeat: repeat;
+
+display: flex;
+align-items: center;
+justify-content: center;
+font-size: xx-small;
+
+
+/*filter: hue-rotate(90deg);
+filter: invert(100%);
+filter: saturate(800%);
+filter: sepia(100%);*/
+filter: saturate(7);
+}
+
+.lBackdrop {
+background-color:  color-mix(in srgb, #ffffff 70%, transparent);
+backdrop-filter: blur(10px);
+border: 1px solid var(--d);
+padding: 3px 5px;
+}
+
+
+/**/
+hr:nth-child(3n+1){
+border-top: 3px solid var(--d2);
+width: 70%;
+}
+
+
+/*https://developer.mozilla.org/en-US/docs/Web/CSS/Nesting_selector#*/
+.tree {
+display: inline-block;
+margin: 0 auto;
+border: 2px dashed var(--green);
+
+.nesting {
+border: 2px dotted var(--red);
+color: var(--red);
+}
+
+.nesting a { color: var(--red); }
+
+}
+.tree, .nesting { padding: 5px; font-weight: bold; }
+
+/* bug */
+body {  border: 5px solid var(--red); } /* for bug with line */
+
+/***/
+
+h1 { color: var(--orange); }
+
+/*nav, header, footer, .content {
+border: 1px solid var(--gray);
+padding: 5px;
+}*/
+
+/* clip-path */
+.logo {
+border-radius: 0;
+border: 0;
+padding: 0;
+clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%);
+}
+/***/
+
+
+/** testLightDark https://www.bram.us/2023/10/09/the-future-of-css-easy-light-dark-mode-color-switching-with-light-dark/#*/
+
+:root {
+color-scheme: light dark;
+}
+
+
+.testLightDark {
+background: light-dark(#fff, #000);
+color: light-dark(#000, #fff);
+}
+
+
+
+
+
+
+
+
+/****/
+
+.test {
+display: block;
+background: var(--orange);
+height: 5lh;
+width: 5lh;
+margin: 15px;
+}
+.test::before {
+content: "lh";
+display: grid;
+height: 100%;
+width: 100%;
+align-items: center;
+}
+
+/*********/
+/*
+body {
+zoom: 100%;
+}
+*/
+
+
+
+/******************/
+
+
+
+
+/************/
+
+html {
+/*overflow: scroll;*/
+scrollbar-width: 50px;
+}
+
+::-webkit-scrollbar {
+width: 3px;
+}
+
+
+.block33, .block332, .block333, .block334 {
+width: 100%;
+display: block;
+margin: 0 auto;
+height: 60px;
+background: #4DA7B7;
+border: 1px solid #377783;
+margin-bottom: -30px;
+border-radius: 45%;
+position: relative;
+z-index: 2;
+box-shadow: 12px 12px 2px 1px #377783b3;
+}
+
+.block33 { max-width: 100px; }
+.block332 { max-width: 300px; }
+.block333 { max-width: 500px; }
+.block334 { max-width: 1000px; }
+
+.vText {
+/*https://www.w3.org/TR/css-writing-modes-4/#text-orientation#*/
+writing-mode: vertical-rl;
+text-orientation: upright;
+direction: ltr;
+overflow: hidden;
+color: var(--blue);
+font-weight: bold;
+}
+
+/*
+body{
+    background: url(https://unsplash.com/photos/5dWJlG9xWBI/download?ixid=M3wxMjA3fDB8MXxzZWFyY2h8Nnx8c3VuJTIwc3ByaW5nJTIwdHJlZXxlbnwwfHx8fDE2ODQ0MDAzMTR8MA&force=true&w=640);
+background-size: cover;
+
+}*/
+
+
+
+
+
+
+.testButton{
+display: grid;
+align-items: center;
+position: relative;
+width: 100%;
+max-width: 120px;
+padding: 15px; /* ani border size */
+margin: 15px auto;
+}
+
+.testButtonBorder{
+display: block;
+margin: auto;
+position: absolute;
+animation: testButtonAni 5s linear infinite;
+width: 100%;
+height: 100%;
+z-index: -2;
+overflow: hidden;
+border-radius: 15px;
+border: 1px solid #000;
+}
+
+.testButtonText{
+display: block;
+height: 100%;
+width: 100%;
+font-weight: bold;
+background: #fff;
+margin: auto;
+display: grid;
+align-items: center;
+border-radius: 9px;
+padding: 9px 5px;
+border: 1px solid #000;
+animation: testButtonAni 15s linear infinite;
+color: #fff;
+}
+
+@keyframes testButtonAni {
+
+0%{ background: red;  }
+20%{ background: green;  }
+40%{ background: yellow;  }
+50%{ background: violet;  }
+60%{ background: orange;  }
+80%{ background: blue;  }
+100%{ background: purple;  }
+
+}
+
+/* only webkit */
+:playing {
+  border-bottom: 5px solid green;
+}
+
+
+/*
+https://web.dev/color-spaces-and-functions/
+*/
+.block331 {
+  background-color: color-mix(in srgb, #E3D4B9 30%, #C29467);
+}
+
+
+
+/*
+@keyframes ani {
+from { transform: rotate(0deg); font-size: 7px; }
+to { transform: rotate(-360deg); font-size: 18px; }
+}
+*/
+
+/******************/
+/* centering */
+
+
+/* fixme wrong position */
+.cursorHl, a:hover {
+//cursor: url("cursor-hl.png"), pointer;
+
+}
+
+/*****/
+/*https://stackoverflow.com/questions/30950891/how-to-display-red-borders-on-required-or-invalid-value-input-element-in-chrome*/
+input[type="number"]:invalid { color: var(--red); }
+input[type="number"]:valid { color: var(--green); }
+
+h1 {
+z-index: 1;
+font-size: 5em;
+  display: block;
+  position: relative;
+text-transform: uppercase;
+  margin: auto;
+z-index: -1;
+margin-bottom: -.5em;
+}
+h1::after, h1::before {
+ content: '';
+  z-index: 2;
+  display: block;
+  position: absolute;
+top: 50%;
+ border-bottom: 1em solid var(--bg);
+
+  width: 100%;
+}
+
+/*
+html::before {
+width: calc(100vw);
+height: calc(100vh);
+content: "";
+opacity: 0.25;
+position: fixed;
+
+background: url('/img/logo.png') no-repeat center center fixed;
+background-size: 65px;
+background-position: right 23px bottom 23px;
+z-index: -2;
+}*/
+
+/* CSS debug */
+/** { border: 0.1px solid var(--violet); }*/
+
+
+.lTerminal {
+position: fixed;
+bottom: 0;
+left: 0;
+width: 100%;
+max-width: 340px;
+height: 100%;
+max-height: 75px;
+overflow-y: scroll;
+z-index: 5;
+/*resize: both;*/
+
+background: var(--d4);
+color: var(--l3);
+}
+
+
+
+
+
+/* backup, not rmme */
+
+
+
+.op { opacity: 0.88; } 
+.op:hover { opacity: 1; }
+.op2 { opacity: 0.2; }
+.op2:hover { opacity: 1; }
+
+@media (prefers-reduced-transparency) {
+.op { opacity: 1; }
+.op2 { opacity: 0.5; }
+}
+
+
+
+
+:root{
+--borderBottomOpacity: 50%;
+}
+
+@media (prefers-reduced-transparency: reduce) {
+:root{
+--borderBottomOpacity: 90%;
+}
+}
+
+/*https://twitter.com/ChromiumDev/status/1753117729186292068#
+@supports (::spelling-error) {
+
+::spelling-error {
+text-decoration: wavy var(--red);
+}
+
+textarea::grammar-error {
+text-decoration: wavy var(--blue);
+}
+
+}*/
+
+
+
+/*https://developer.mozilla.org/en-US/docs/Web/CSS/if#syntax*/
+.testIf {
+
+background-color: if(
+media(prefers-color-scheme: dark): black;
+);
+
+background-color: if(
+media(prefers-color-scheme: light): white;
+);
+
+}
+
+

@@ -1,0 +1,24 @@
+/* v.1.0.0 */
+
+.tmpblock {
+width: 80px;
+min-height: 100px;
+border: 1px solid var(--d4);
+
+display: inline-flex;
+flex-grow: 1; /*https://stackoverflow.com/questions/37745051/fill-the-remaining-height-or-width-in-a-flex-container#*/
+align-items: end;
+justify-content: center;
+margin: 1px;
+text-align: center;
+word-break: break-all;
+}
+
+.tmpblock div {
+min-height: 35px; width: 100%; font-size: x-small; background: var(--bg); padding: 5px;
+display: inline-flex;
+align-items: center;
+justify-content: center;
+}
+
+.tmph * { text-align: center; display: inline-block; margin: 0 auto;  }

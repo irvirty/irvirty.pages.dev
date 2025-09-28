@@ -1,0 +1,63 @@
+/* v.1.2.1 */
+/* Inspired by a post from LinkedIn in the form of four pictures with one large one on top. */
+
+.lMegaH { font-size: 4em; }
+@media(max-width: 600px) { .lMegaH { font-size: 3em; } }
+
+.lTopCard {
+width: 100%;
+padding: 30px 0;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+}
+
+
+
+
+.lCardList {
+display: flex;
+flex: 1 0 auto;
+flex-wrap: wrap;
+gap: 10px;
+
+justify-content: center;
+}
+
+.lCardListDiv {
+display: flex;
+flex-basis: auto;
+flex-direction: column;
+min-height: 100%; 
+
+width: 100%;
+max-width: 200px;
+gap: 0;
+}
+
+
+.lCardListDiv img {
+border-radius: 15px;
+}
+
+.lCardListDesc { flex: 1 0 auto; }
+.lCardListBottom { flex-shrink: 0; }
+
+@media (prefers-color-scheme: light) {
+body{
+background-image: url("../../../img/tpl/bg.svg");
+background-repeat: repeat;
+background-attachment: fixed;
+}
+}
+
+@media (prefers-color-scheme: dark) {
+body{
+background-image: url("../../../img/tpl/bg-dark.svg");
+background-repeat: repeat;
+background-attachment: fixed;
+}
+}
+
+

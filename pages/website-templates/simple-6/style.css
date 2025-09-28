@@ -1,0 +1,74 @@
+/* v.1.1.0 */
+
+
+html, body {margin:0; padding:0}
+body{height:100%;overflow-y:scroll}
+body, select, textarea, a, input, pre{
+font-family: Helvetica,Arial,sans-serif;
+font-size: 14px;
+word-wrap:break-word; text-decoration:none;
+}
+
+a { text-decoration: underline; }
+nav a { text-decoration: none; }
+iframe, video, audio, img, table{max-width:100%; border:0}
+img{height:auto; }
+
+
+header, .content, footer { padding: 0 15px; }
+footer{ padding:20px 15px; }
+
+.footer a, .footer { font-size:small }
+.footer a { margin-right:5px }
+.footer {min-height:20px}
+
+.wrapper, .content{
+min-width:100px;
+min-height:100%;
+max-width:700px;
+margin:0 auto;
+}
+
+.logo { height: 34px; }
+.logo { display: inline-block; vertical-align: middle;  }
+
+
+nav { text-align: center; text-transform: capitalize; padding: 15px 0 10px 0; }
+nav ul{display: inline-block;
+list-style-type:none;
+margin:0;
+padding:0;
+}
+
+nav li a { color:#414141; }
+nav li {
+display: inline-block;
+text-align:center;
+padding: 7px;
+text-decoration:none;
+border-bottom: 2px solid transparent;
+}
+
+nav li a:hover { color:black; }
+nav li:hover{ border-bottom:2px solid black; }
+
+.active a { color: black; }
+.active { border-bottom:2px solid grey; }
+.logo { padding-right: 7px; }
+
+
+
+
+
+/* colors */
+body{background: #FFFEF7; color: #464646}
+a{ color: #0BA2BD; }
+a:hover{ color: #12B7D5; }
+h1,h2,h3{color:#3e3e3e}
+
+header {
+background: #FAF9F5;
+border-bottom: 2px solid whitesmoke;
+}
+
+footer a, footer{ font-size: small; }

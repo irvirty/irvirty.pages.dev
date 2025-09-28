@@ -1,0 +1,27 @@
+{
+  "manifest_version": 3,
+  "name": "Google search (unofficial)",
+  "version": "1.5.3",
+  "description": "URL www.google.com/search?q={searchTerms} as Search engine. (unofficial)",
+  
+"icons": {
+  "512": "icon512x512.png"
+},
+
+
+  "chrome_settings_overrides": {
+  "search_provider": {
+    "name": "Google Search (unofficial)",
+    "search_url": "https://www.google.com/search?q={searchTerms}",
+    "keyword": "@ggg",
+    "favicon_url": "icon512x512.png"
+  }
+},
+
+"browser_specific_settings": {
+  "gecko": {
+"id": "google-search@example.com"
+  }
+}
+
+}

@@ -1,0 +1,12 @@
+<svg width="512" height="512" version="1.1" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+ <defs>
+  <clipPath id="clipPath1398">
+   <rect x="94.28" y="389.38" width="327.06" height="41.754" d="m 94.2798,389.37708 h 327.06107 v 41.75377 H 94.2798 Z" display="none" stroke-width="24.589"/>
+   <path class="powerclip" d="m167.62 325.63h177.97v164.68h-177.97zm-73.339 63.75v41.754h327.06v-41.754z" stroke-width="24.589"/>
+  </clipPath>
+ </defs>
+ <g transform="translate(0 17.801)">
+  <ellipse cx="256" cy="148.28" rx="162.02" ry="139.39" stroke-width="30"/>
+ </g>
+ <path x="172.61842" y="330.62729" width="167.96994" height="154.67697" ry="32.497353" d="m205.12 330.63h102.98c18.004 0 32.497 14.494 32.497 32.497v89.682c0 18.004-14.494 32.497-32.497 32.497h-102.98c-18.004 0-32.497-14.494-32.497-32.497v-89.682c0-18.004 14.494-32.497 32.497-32.497z" clip-path="url(#clipPath1398)" stroke-width="29.369"/>
+</svg>

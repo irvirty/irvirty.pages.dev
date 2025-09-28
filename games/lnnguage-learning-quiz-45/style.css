@@ -1,0 +1,49 @@
+/* v.1.0.2 */
+
+
+.quizOptionGrid {
+display: grid;
+/*grid-template-areas: "a a a a a";*/
+/*grid-template-columns: repeat(4, 1fr);*/
+/*grid-template-columns: repeat(auto-fill, minmax(130px, max-content));*/
+/*grid-template-columns: repeat(auto-fill, minmax(130px, max-content));*/
+/*grid-auto-columns: 1fr;*/
+/*grid-template-columns: repeat(auto-fill, minmax(130px, 1fr));*/
+grid-template-columns: repeat(2, 0.5fr);
+grid-gap: 5px;
+margin: 0 auto;
+justify-content: center;
+}
+
+.quizOptionGrid div{
+display: flex;
+min-width: 100%;
+min-height: 100%;
+justify-content: start;
+align-content: center;
+margin: 0 auto;
+text-wrap: balance;
+text-align: left;
+}
+
+@media(max-width: 330px) {
+.quizOptionGrid { display: block; width: 100%; }
+.quizOptionGrid div{ margin-bottom: 5px; }
+}
+
+.quizButton {
+border: 1px dashed var(--d3);
+border-bottom: 2px dashed var(--d3);
+}
+
+.quizCorrect {
+border: 1px dashed var(--green);
+border-bottom: 2px dashed var(--green);
+color: var(--green);
+}
+.quizIncorrect {
+border: 1px dashed var(--red);
+border-bottom: 2px dashed var(--red);
+color: var(--red);
+}
+

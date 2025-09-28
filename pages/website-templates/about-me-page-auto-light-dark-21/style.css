@@ -1,0 +1,78 @@
+/* v.1.1.0 */
+
+/* in progress */
+.lMenu {
+display: flex;
+flex: 1 0 auto;
+flex-wrap: wrap;
+gap: 5px;
+}
+
+.lMenu .button {
+flex: 1 0 auto;
+width: 150px;
+justify-content: start;
+
+}
+
+/*https://stackoverflow.com/questions/11142125/css-highlight-a-div-when-the-id-is-linked-to-using-an-anchor#*/
+
+#about:target,
+#links:target,
+#otherLinks:target,
+#hosting:target,
+#contact:target,
+#donate:target,
+#counter:target,
+#sites:target,
+#other:target,
+#license:target {
+
+border-bottom: 4px solid var(--orange);
+min-height: 100vh;
+min-height: 100dvh;
+display: flex;
+flex-direction: column;
+justify-content: center;
+}
+
+@media (prefers-color-scheme: light) {
+body{
+background-image: url("../../../img/tpl/bg.svg");
+background-repeat: repeat;
+background-attachment: fixed;
+}
+}
+
+@media (prefers-color-scheme: dark) {
+body{
+background-image: url("../../../img/tpl/bg-dark.svg");
+background-repeat: repeat;
+background-attachment: fixed;
+}
+}
+
+
+.logo, .logo2{
+position: relative;
+border-radius: 50%;
+display: inline-flex;
+vertical-align: middle;
+text-align: center;
+padding: 1px;
+border: 2px dashed color-mix(in srgb, var(--brand) 50%, transparent);
+opacity: 1;
+transition: transform .250s ease-in-out;
+width: 120px;
+}
+
+.logo:hover, .logo2:hover{
+transform: rotate(360deg);
+transition: transform 1.5s ease-in-out;
+}
+
+.logo2 { width: 26px; height: 26px; }
+
+@media (prefers-reduced-motion) {
+.logo:hover, .logo2:hover{ border-color: var(--c); }
+}

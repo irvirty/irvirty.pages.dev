@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   version="1.1"
+   id="svg2"
+   width="512"
+   height="512"
+   viewBox="0 0 511.99999 512.00001"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs6">
+    <rect
+       x="130.7293"
+       y="419.00379"
+       width="325.18659"
+       height="134.94494"
+       id="rect33004" />
+    <rect
+       x="112.46336"
+       y="267.75215"
+       width="202.80906"
+       height="83.677576"
+       id="rect24194" />
+    <rect
+       x="127.93012"
+       y="231.62604"
+       width="103.6727"
+       height="55.834155"
+       id="rect2510" />
+    <linearGradient
+       id="linearGradient7120">
+      <stop
+         style="stop-color:#202e40;stop-opacity:1;"
+         offset="0"
+         id="stop7118" />
+    </linearGradient>
+  </defs>
+  <rect
+     style="opacity:1;fill:#000000;fill-opacity:1;stroke-width:4.66417"
+     id="rect930"
+     width="512"
+     height="512"
+     x="0"
+     y="0" />
+  <text
+     xml:space="preserve"
+     id="text2508"
+     style="font-size:14px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect2510)"
+     transform="translate(114.47363,-97.571544)"><tspan
+       x="127.92969"
+       y="244.01367"
+       id="tspan36263"><tspan
+         style="fill:#ffffff"
+         id="tspan36261">Test</tspan></tspan></text>
+  <text
+     xml:space="preserve"
+     id="text24192"
+     style="font-size:48px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect24194)"
+     transform="translate(96.919922,-37.064453)"><tspan
+       x="112.46289"
+       y="310.2207"
+       id="tspan36267"><tspan
+         style="fill:#ffffff"
+         id="tspan36265">Test</tspan></tspan></text>
+  <text
+     xml:space="preserve"
+     id="text33002"
+     style="font-size:64px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect33004)"
+     transform="translate(63.115234,-63.386831)"><tspan
+       x="130.72852"
+       y="475.62891"
+       id="tspan36271"><tspan
+         style="fill:#ffffff"
+         id="tspan36269">Test</tspan></tspan></text>
+</svg>

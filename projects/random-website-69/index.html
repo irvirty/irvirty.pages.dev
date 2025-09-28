@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Random Website</title>
+
+<meta name="description" content="
+Random Website. Random site. A random website from a small collection of sites.
+">
+<meta name="keywords" content="
+Random,Website,CSS,
+JavaScript, project,
+">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="icon" sizes="512x512" href="../../img/logo.png" type="image/png">
+<link rel="shortcut icon" href="../../favicon.ico" type="image/x-icon">
+
+<!-- main -->
+<link rel="preload" href="../../js/main.js" as="script">
+
+<link rel="preload" href="../../css/main.css" as="style">
+<link rel="stylesheet" href="../../css/main.css" type="text/css">
+<link rel="preload" href="../../css/auto.css" as="style">
+<link rel="stylesheet" type="text/css" href="../../css/auto.css" id="theme">
+
+<link rel="preload" href="../../css/style.css" as="style">
+<link rel="stylesheet" href="../../css/style.css" type="text/css">
+
+<noscript>
+<link rel="stylesheet" type="text/css" href="../../css/noscript.css">
+</noscript>
+<!-- // main -->
+
+<link rel="preload" href="script.js" as="script"> 
+
+<link rel="preload" href="style.css" as="style">
+<link rel="stylesheet" href="style.css" type="text/css">
+
+</head>
+<body>
+
+<div id="secondNav">
+<header class="tCenter">
+<div class="margin2"></div>
+<nav>
+<a class="inlineBlock padding brand" style="padding-left: 0;" href="/">index</a>
+<a class="inlineBlock padding brand" style="padding-right: 0;" href="../">list</a>
+</nav>
+</header>
+</div>
+
+<h1 class="tCenter op insertIconTitle">Random Website</h1>
+<!--<div class="tCenter margin4List small op">experimental</div>-->
+
+<!-- content -->
+<main id="content" class="contentCenter">
+<div class="wrapper">
+
+<div id="result"></div>
+
+<div class="tCenter op wrapperSmall notUnderline autoColumn">
+<a class="button border borderRadius2 light2 shadow brand" href="#" onclick="fuMReload();return false;">Again (Reload)</a>
+<a class="button border borderRadius2 light2 shadow brand" href="../../pages/links/">Data List (links)</a>
+<!--<a class="button border borderRadius2 light2 shadow" href="/?q=rs">Random Site (Web)</a>-->
+</div>
+
+
+<div class="margin2 padding2"></div>
+
+<!--<div id="echoBlog"></div>-->
+
+</div>
+</main>
+<!-- // content -->
+
+
+<footer id="footer"></footer>
+
+<script>
+var confD = "../../";
+</script>
+<script src="../../js/main.js"></script>
+
+
+<script src="../../data/linksJsonVar.js"></script>
+
+<script>
+
+var data = [];
+data = [...linksJsonVar];
+
+</script>
+
+
+<script>
+//fuMSetTheme('light');
+</script>
+
+<script src="script.js"></script>
+
+</body>
+</html>
