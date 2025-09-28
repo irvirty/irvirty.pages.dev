@@ -3,6 +3,16 @@ var notesJsonVar =
 
 [
     {
+        "id": "117",
+        "text": "Lorem ipsum - Wikipedia",
+        "text2": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "text3": "",
+        "url": "https:\/\/en.wikipedia.org\/wiki\/Lorem_ipsum",
+        "tag": "#lorem #ipsum #text #WebDevelopment #template #website",
+        "time": 1759066872,
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/notes\/?id=117\"  title=\"id=117 (permanent link)\" >id<\/a>"
+    },
+    {
         "id": "116",
         "text": "Known issues \u00b7 Cloudflare Pages docs",
         "text2": "===\r\nDelete a project with a high number of deployments",

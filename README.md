@@ -48,7 +48,6 @@ Others:
   
 ## GitHub Explore, topics:  
 [Website](https://github.com/topics/website),
-[Static Website ](https://github.com/topics/static-website),
 [Personal Website](https://github.com/topics/personal-website),
 [Homepage](https://github.com/topics/homepage),
 [Startpage](https://github.com/topics/startpage),

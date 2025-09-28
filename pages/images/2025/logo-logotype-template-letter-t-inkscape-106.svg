@@ -1,0 +1,378 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="512"
+   height="512"
+   viewBox="0 0 512 512"
+   version="1.1"
+   id="svg5"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs2">
+    <rect
+       x="39.732853"
+       y="41.307645"
+       width="471.88095"
+       height="475.58556"
+       id="rect23491" />
+    <rect
+       x="104.91416"
+       y="138.84727"
+       width="301.92453"
+       height="242.00238"
+       id="rect5437" />
+    <rect
+       x="237.164"
+       y="182.83529"
+       width="251.82177"
+       height="59.387627"
+       id="rect3701" />
+    <rect
+       x="108.98836"
+       y="358.47676"
+       width="379.53182"
+       height="157.14663"
+       id="rect6712" />
+    <filter
+       style="color-interpolation-filters:sRGB;"
+       id="filter814"
+       x="0"
+       y="0"
+       width="1"
+       height="1">
+      <feColorMatrix
+         values="1 0 0 0.247973 -0 0 1 0 0.247973 -0 0 0 1 0.247973 -0 0 0 0 1 0"
+         id="feColorMatrix812"
+         result="fbSourceGraphic" />
+      <feColorMatrix
+         result="fbSourceGraphicAlpha"
+         in="fbSourceGraphic"
+         values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"
+         id="feColorMatrix834" />
+      <feColorMatrix
+         id="feColorMatrix836"
+         values="1 0 0 0.247973 -0 0 1 0 0.247973 -0 0 0 1 0.247973 -0 0 0 0 1 0"
+         in="fbSourceGraphic"
+         result="fbSourceGraphic" />
+      <feColorMatrix
+         result="fbSourceGraphicAlpha"
+         in="fbSourceGraphic"
+         values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"
+         id="feColorMatrix1054" />
+      <feColorMatrix
+         id="feColorMatrix1056"
+         values="1 0 0 -0.243337 -0 0 1 0 -0.243337 -0 0 0 1 -0.243337 -0 0 0 0 1 0"
+         in="fbSourceGraphic"
+         result="fbSourceGraphic" />
+      <feColorMatrix
+         result="fbSourceGraphicAlpha"
+         in="fbSourceGraphic"
+         values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"
+         id="feColorMatrix1005" />
+      <feColorMatrix
+         id="feColorMatrix1007"
+         values="1 0 0 -0.0665531 -0 0 1 0 -0.0665531 -0 0 0 1 -0.0665531 -0 0 0 0 1 0"
+         in="fbSourceGraphic"
+         result="fbSourceGraphic" />
+      <feColorMatrix
+         result="fbSourceGraphicAlpha"
+         in="fbSourceGraphic"
+         values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"
+         id="feColorMatrix1256" />
+      <feColorMatrix
+         id="feColorMatrix1258"
+         values="0.21 0.72 0.072 0 0 0.21 0.72 0.072 0 0 0.21 0.72 0.072 0 0 0 0 0 1 0 "
+         in="fbSourceGraphic" />
+    </filter>
+    <filter
+       style="color-interpolation-filters:sRGB;"
+       id="filter1262"
+       x="0"
+       y="0"
+       width="1"
+       height="1">
+      <feColorMatrix
+         values="0.21 0.72 0.072 0 0 0.21 0.72 0.072 0 0 0.21 0.72 0.072 0 0 0 0 0 1 0 "
+         id="feColorMatrix1260"
+         result="fbSourceGraphic" />
+      <feColorMatrix
+         result="fbSourceGraphicAlpha"
+         in="fbSourceGraphic"
+         values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"
+         id="feColorMatrix1804" />
+      <feColorMatrix
+         id="feColorMatrix1806"
+         values="1 0 0 0.208726 -0 0 1 0 0.208726 -0 0 0 1 0.208726 -0 0 0 0 1 0"
+         in="fbSourceGraphic" />
+    </filter>
+    <filter
+       style="color-interpolation-filters:sRGB;"
+       id="filter1266"
+       x="0"
+       y="0"
+       width="1"
+       height="1">
+      <feColorMatrix
+         values="0.21 0.72 0.072 0 0 0.21 0.72 0.072 0 0 0.21 0.72 0.072 0 0 0 0 0 1 0 "
+         id="feColorMatrix1264"
+         result="fbSourceGraphic" />
+      <feColorMatrix
+         result="fbSourceGraphicAlpha"
+         in="fbSourceGraphic"
+         values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"
+         id="feColorMatrix2035" />
+      <feColorMatrix
+         id="feColorMatrix2037"
+         values="1 0 0 0.0873472 -0 0 1 0 0.0873472 -0 0 0 1 0.0873472 -0 0 0 0 1 0"
+         in="fbSourceGraphic" />
+    </filter>
+    <filter
+       style="color-interpolation-filters:sRGB;"
+       id="filter1270"
+       x="0"
+       y="0"
+       width="1"
+       height="1">
+      <feColorMatrix
+         values="0.21 0.72 0.072 0 0 0.21 0.72 0.072 0 0 0.21 0.72 0.072 0 0 0 0 0 1 0 "
+         id="feColorMatrix1268"
+         result="fbSourceGraphic" />
+      <feColorMatrix
+         result="fbSourceGraphicAlpha"
+         in="fbSourceGraphic"
+         values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"
+         id="feColorMatrix2039" />
+      <feColorMatrix
+         id="feColorMatrix2041"
+         values="1 0 0 0.0873472 -0 0 1 0 0.0873472 -0 0 0 1 0.0873472 -0 0 0 0 1 0"
+         in="fbSourceGraphic" />
+    </filter>
+    <filter
+       style="color-interpolation-filters:sRGB;"
+       id="filter2363"
+       x="0"
+       y="0"
+       width="1"
+       height="1">
+      <feColorMatrix
+         values="1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 1 "
+         type="matrix"
+         result="r"
+         in="SourceGraphic"
+         id="feColorMatrix2335" />
+      <feColorMatrix
+         values="0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 0 0 0 1 "
+         type="matrix"
+         result="g"
+         in="SourceGraphic"
+         id="feColorMatrix2337" />
+      <feColorMatrix
+         values="0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 0 0 1 "
+         type="matrix"
+         result="b"
+         in="SourceGraphic"
+         id="feColorMatrix2339" />
+      <feBlend
+         result="minrg"
+         in="r"
+         mode="darken"
+         in2="g"
+         id="feBlend2341" />
+      <feBlend
+         result="p"
+         in="minrg"
+         mode="darken"
+         in2="b"
+         id="feBlend2343" />
+      <feBlend
+         result="maxrg"
+         in="r"
+         mode="lighten"
+         in2="g"
+         id="feBlend2345" />
+      <feBlend
+         result="q"
+         in="maxrg"
+         mode="lighten"
+         in2="b"
+         id="feBlend2347" />
+      <feComponentTransfer
+         result="q2"
+         in="q"
+         id="feComponentTransfer2351">
+        <feFuncR
+           slope="0"
+           type="linear"
+           id="feFuncR2349" />
+      </feComponentTransfer>
+      <feBlend
+         result="pq"
+         in="p"
+         mode="lighten"
+         in2="q2"
+         id="feBlend2353" />
+      <feColorMatrix
+         values="-1 1 0 0 0 -1 1 0 0 0 -1 1 0 0 0 0 0 0 0 1 "
+         type="matrix"
+         result="qminp"
+         in="pq"
+         id="feColorMatrix2355" />
+      <feComposite
+         k3="1"
+         operator="arithmetic"
+         result="qminpc"
+         in="qminp"
+         in2="qminp"
+         id="feComposite2357" />
+      <feBlend
+         result="result2"
+         in2="SourceGraphic"
+         mode="screen"
+         id="feBlend2359" />
+      <feComposite
+         operator="in"
+         in="result2"
+         in2="SourceGraphic"
+         result="fbSourceGraphic"
+         id="feComposite2361" />
+      <feColorMatrix
+         result="fbSourceGraphicAlpha"
+         in="fbSourceGraphic"
+         values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"
+         id="feColorMatrix3309" />
+      <feColorMatrix
+         id="feColorMatrix3311"
+         values="1.05 0 0 0.0404875 -0.025 0 1.05 0 0.0404875 -0.025 0 0 1.05 0.0404875 -0.025 0 0 0 1 0"
+         in="fbSourceGraphic" />
+    </filter>
+    <filter
+       style="color-interpolation-filters:sRGB;"
+       id="filter830"
+       x="0"
+       y="0"
+       width="1"
+       height="1">
+      <feComponentTransfer
+         in="blur"
+         result="component"
+         id="feComponentTransfer828">
+        <feFuncR
+           type="gamma"
+           amplitude="0.6"
+           exponent="1"
+           offset="0"
+           id="feFuncR822" />
+        <feFuncG
+           type="gamma"
+           amplitude="0.6"
+           exponent="1"
+           offset="0"
+           id="feFuncG824" />
+        <feFuncB
+           type="gamma"
+           amplitude="0.6"
+           exponent="1"
+           offset="0"
+           id="feFuncB826" />
+      </feComponentTransfer>
+    </filter>
+    <filter
+       style="color-interpolation-filters:sRGB;"
+       id="filter840"
+       x="0"
+       y="0"
+       width="1"
+       height="1">
+      <feComponentTransfer
+         in="blur"
+         result="component"
+         id="feComponentTransfer838">
+        <feFuncR
+           type="gamma"
+           amplitude="0.6"
+           exponent="1"
+           offset="0"
+           id="feFuncR832" />
+        <feFuncG
+           type="gamma"
+           amplitude="0.6"
+           exponent="1"
+           offset="0"
+           id="feFuncG834" />
+        <feFuncB
+           type="gamma"
+           amplitude="0.6"
+           exponent="1"
+           offset="0"
+           id="feFuncB836" />
+      </feComponentTransfer>
+    </filter>
+    <filter
+       style="color-interpolation-filters:sRGB;"
+       id="filter850"
+       x="0"
+       y="0"
+       width="1"
+       height="1">
+      <feComponentTransfer
+         in="blur"
+         result="component"
+         id="feComponentTransfer848">
+        <feFuncR
+           type="gamma"
+           amplitude="0.6"
+           exponent="1"
+           offset="0"
+           id="feFuncR842" />
+        <feFuncG
+           type="gamma"
+           amplitude="0.6"
+           exponent="1"
+           offset="0"
+           id="feFuncG844" />
+        <feFuncB
+           type="gamma"
+           amplitude="0.6"
+           exponent="1"
+           offset="0"
+           id="feFuncB846" />
+      </feComponentTransfer>
+    </filter>
+  </defs>
+  <ellipse
+     style="display:inline;fill:#1a5fb4;fill-opacity:1;stroke:#454545;stroke-width:2.00395;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     id="path4109"
+     cx="256"
+     cy="256"
+     rx="254.998"
+     ry="254.99802" />
+  <rect
+     style="display:none;fill:#ffffff;stroke-width:1.28268;paint-order:markers fill stroke"
+     id="rect1346"
+     width="512"
+     height="512"
+     x="0"
+     y="0" />
+  <circle
+     style="display:inline;fill:#f6f5f4;fill-opacity:1;stroke-width:0"
+     id="path4151"
+     cx="256"
+     cy="256"
+     r="215" />
+  <text
+     xml:space="preserve"
+     id="text23489"
+     style="font-style:normal;font-weight:normal;font-size:24px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect23491);fill:#1a5fb4;fill-opacity:1;stroke:none"
+     transform="translate(116.29373,32.080899)"><tspan
+       x="39.732422"
+       y="62.542969"
+       id="tspan47767">
+</tspan><tspan
+       x="39.732422"
+       y="330.83956"
+       id="tspan47771"><tspan
+         style="font-weight:bold;font-size:293.333px;font-family:'DejaVu Sans';-inkscape-font-specification:'DejaVu Sans Bold'"
+         id="tspan47769">T</tspan></tspan></text>
+</svg>
