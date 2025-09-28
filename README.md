@@ -1,5 +1,6 @@
 
-![banner](/img/github-banner-settings.png)  
+<!--https://stackoverflow.com/questions/61071158/add-image-with-link-in-githubs-readme-md#-->
+[![banner](/img/github-banner-settings.png)](/img/screenshot.png)
   
 # irvirty.pages.dev
   
