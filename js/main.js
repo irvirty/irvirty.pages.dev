@@ -519,6 +519,9 @@ document.getElementById("footer").innerHTML = `
 <span class="gray inlineBlock padding" style="padding-right: 0;">License:</span> <a class="brand inlineBlock padding" style="padding-left: 0;" rel="license" title="Licenses for content" href="${confD}pages/about/#license">CC BY-SA 4.0 <sup>*</sup></a>
 <span class="op gray">|</span>
 
+<a id="contact" class="brand inlineBlock padding" title="Contact" href="${confD}pages/about/#contact">Contact</a>
+<span class="op gray">|</span>
+
 <a id="fPrivacy" class="brand inlineBlock padding" title="Cookie Settings" href="${confD}pages/settings/#confDataCollection">Cookie: ${conf["confDataCollection"]}</a>
 <span class="op gray">|</span>
 
