@@ -3,6 +3,26 @@ var newsJsonVar =
 
 [
     {
+        "id": "50",
+        "text": "Mozilla introduces visual search powered by Google Lens on Firefox desktop | AlternativeTo",
+        "text2": "\"Google must be set as the browser\u2019s default search engine.\"",
+        "text3": "",
+        "url": "https:\/\/alternativeto.net\/news\/2025\/9\/mozilla-introduces-visual-search-powered-by-google-lens-on-firefox-desktop\/",
+        "tag": "#app #software #browser #web",
+        "time": 1759146874,
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/news\/?id=50\"  title=\"id=50 (permanent link)\" >id<\/a>"
+    },
+    {
+        "id": "49",
+        "text": "Activists launch hunger strikes outside DeepMind and Anthropic offices over race to build advanced AI | TechSpot",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.techspot.com\/news\/109368-activists-launch-hunger-strikes-outside-anthropic-deepmind-offices.html",
+        "tag": "#technology #AI #AGI #ASI",
+        "time": 1759146454,
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/news\/?id=49\"  title=\"id=49 (permanent link)\" >id<\/a>"
+    },
+    {
         "id": "48",
         "text": "OBS Studio 32 is now available!\r\n\r\nThis release comes with our initial version of the Plugin Manager! We've also made additions and optimizations to NVIDIA RTX filters, and added hybrid MOV support.",
         "text2": "",

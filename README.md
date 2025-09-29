@@ -44,24 +44,25 @@ Others:
   
 [Download ZIP](https://github.com/irvirty/irvirty.pages.dev/archive/refs/heads/main.zip)
   
+<!--
 ---  
   
-  
 ## GitHub Explore, topics:  
+[Web Development](https://github.com/topics/web-development),
+[WebDev](https://github.com/topics/webdev),
+[Web Design](https://github.com/topics/web-design),
 [Website](https://github.com/topics/website),
-[Personal Website](https://github.com/topics/personal-website),
-[Homepage](https://github.com/topics/homepage),
-[Startpage](https://github.com/topics/startpage),
-[Search redirect](https://github.com/topics/search-redirect),
-[Portfolio](https://github.com/topics/portfolio),
-[Projects](https://github.com/topics/projects),
-[Mini projects](https://github.com/topics/mini-projects),
-[Web development](https://github.com/topics/web-development),
-[Web design](https://github.com/topics/web-design),
-[Cloudflare pages](https://github.com/topics/cloudflare-pages),
 [HTML](https://github.com/topics/HTML),
 [CSS](https://github.com/topics/CSS),
 [JavaScript](https://github.com/topics/javascript),
-[Open source](https://github.com/topics/open-source),
-[WebDev](https://github.com/topics/webdev),
+[Personal Website](https://github.com/topics/personal-website),
+[Portfolio](https://github.com/topics/portfolio),
+[Homepage](https://github.com/topics/homepage),
+[Startpage](https://github.com/topics/startpage),
+[Projects](https://github.com/topics/projects),
+[Mini Projects](https://github.com/topics/mini-projects),
+[Cloudflare Pages](https://github.com/topics/cloudflare-pages),
+[Open Source](https://github.com/topics/open-source),
+[Search Redirect](https://github.com/topics/search-redirect),
+-->
 
