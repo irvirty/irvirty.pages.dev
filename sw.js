@@ -1,5 +1,5 @@
 
-//var myCacheVersion = "v.1.2.2025.09.29";
+//var myCacheVersion = "v.1.2.2025.09.30";
 
 
 
@@ -70,7 +70,7 @@ function swJsInstallFiles(){
 //https://stackoverflow.com/questions/66529102/uncaught-in-promise-typeerror-failed-to-execute-cache-on-addall-request
 //https://github.com/mdn/pwa-examples
 self.addEventListener('install', (e) => {
-e.waitUntil(caches.open("v.1.2.2025.09.29").then((cache) => cache.addAll(fileListArrFound)),);
+e.waitUntil(caches.open("v.1.2.2025.09.30").then((cache) => cache.addAll(fileListArrFound)),);
 });*/
 
 
@@ -655,19 +655,6 @@ var fileListArr = ["/404.html",
 "/pages/firefox-extensions/google-search-unofficial-9/icon512x512.svg",
 "/pages/firefox-extensions/google-search-unofficial-9/manifest.json",
 "/pages/firefox-extensions/google-search-unofficial-9/screenshot.png",
-"/pages/firefox-extensions/hotkey-url-5/hotkey-url-5.zip",
-"/pages/firefox-extensions/hotkey-url-5/",
-"/pages/firefox-extensions/hotkey-url-5/icon512x512.png",
-"/pages/firefox-extensions/hotkey-url-5/icon512x512.svg",
-"/pages/firefox-extensions/hotkey-url-5/main.css",
-"/pages/firefox-extensions/hotkey-url-5/manifest.json",
-"/pages/firefox-extensions/hotkey-url-5/options.html",
-"/pages/firefox-extensions/hotkey-url-5/options.js",
-"/pages/firefox-extensions/hotkey-url-5/README.md",
-"/pages/firefox-extensions/hotkey-url-5/screenshot.png",
-"/pages/firefox-extensions/hotkey-url-5/script.js",
-"/pages/firefox-extensions/hotkey-url-5/style.css",
-"/pages/firefox-extensions/hotkey-url-5/worker.js",
 "/pages/firefox-extensions/index.html",
 "/pages/firefox-extensions/irvirty-search-redirect-10/icon512x512.png",
 "/pages/firefox-extensions/irvirty-search-redirect-10/",
@@ -705,10 +692,22 @@ var fileListArr = ["/404.html",
 "/pages/firefox-extensions/old/badge-count-up-timer-4/screenshot.png",
 "/pages/firefox-extensions/old/badge-count-up-timer-4/script.js",
 "/pages/firefox-extensions/old/badge-count-up-timer-4/style.css",
+"/pages/firefox-extensions/old/hotkey-url-5/hotkey-url-5.zip",
+"/pages/firefox-extensions/old/hotkey-url-5/",
+"/pages/firefox-extensions/old/hotkey-url-5/icon512x512.png",
+"/pages/firefox-extensions/old/hotkey-url-5/icon512x512.svg",
+"/pages/firefox-extensions/old/hotkey-url-5/main.css",
+"/pages/firefox-extensions/old/hotkey-url-5/manifest.json",
+"/pages/firefox-extensions/old/hotkey-url-5/options.html",
+"/pages/firefox-extensions/old/hotkey-url-5/options.js",
+"/pages/firefox-extensions/old/hotkey-url-5/README.md",
+"/pages/firefox-extensions/old/hotkey-url-5/screenshot.png",
+"/pages/firefox-extensions/old/hotkey-url-5/script.js",
+"/pages/firefox-extensions/old/hotkey-url-5/style.css",
+"/pages/firefox-extensions/old/hotkey-url-5/worker.js",
 "/pages/firefox-extensions/old/rss-button-status-in-progress-9/auto.css",
 "/pages/firefox-extensions/old/rss-button-status-in-progress-9/",
 "/pages/firefox-extensions/old/rss-button-status-in-progress-9/background.js",
-"/pages/firefox-extensions/old/rss-button-status-in-progress-9/badge-count-up-timer-4.zip",
 "/pages/firefox-extensions/old/rss-button-status-in-progress-9/icon-2-512x512.png",
 "/pages/firefox-extensions/old/rss-button-status-in-progress-9/icon-512x512.png",
 "/pages/firefox-extensions/old/rss-button-status-in-progress-9/icon-512x512.svg",
@@ -720,6 +719,19 @@ var fileListArr = ["/404.html",
 "/pages/firefox-extensions/old/rss-button-status-in-progress-9/screenshot.png",
 "/pages/firefox-extensions/old/rss-button-status-in-progress-9/script.js",
 "/pages/firefox-extensions/old/rss-button-status-in-progress-9/style.css",
+"/pages/firefox-extensions/old/stop-loading-website-7/auto.css",
+"/pages/firefox-extensions/old/stop-loading-website-7/",
+"/pages/firefox-extensions/old/stop-loading-website-7/icon512x512.png",
+"/pages/firefox-extensions/old/stop-loading-website-7/icon512x512.svg",
+"/pages/firefox-extensions/old/stop-loading-website-7/main.css",
+"/pages/firefox-extensions/old/stop-loading-website-7/manifest.json",
+"/pages/firefox-extensions/old/stop-loading-website-7/options.html",
+"/pages/firefox-extensions/old/stop-loading-website-7/options.js",
+"/pages/firefox-extensions/old/stop-loading-website-7/README.md",
+"/pages/firefox-extensions/old/stop-loading-website-7/screenshot.png",
+"/pages/firefox-extensions/old/stop-loading-website-7/script.js",
+"/pages/firefox-extensions/old/stop-loading-website-7/stop-loading-website-7.zip",
+"/pages/firefox-extensions/old/stop-loading-website-7/style.css",
 "/pages/firefox-extensions/search-localhost-http-1/icon512x512.png",
 "/pages/firefox-extensions/search-localhost-http-1/",
 "/pages/firefox-extensions/search-localhost-http-1/icon512x512.svg",
@@ -731,19 +743,6 @@ var fileListArr = ["/404.html",
 "/pages/firefox-extensions/search-localhost-https-2/icon512x512.svg",
 "/pages/firefox-extensions/search-localhost-https-2/manifest.json",
 "/pages/firefox-extensions/search-localhost-https-2/search-localhost-https-2.zip",
-"/pages/firefox-extensions/stop-loading-website-7/auto.css",
-"/pages/firefox-extensions/stop-loading-website-7/",
-"/pages/firefox-extensions/stop-loading-website-7/icon512x512.png",
-"/pages/firefox-extensions/stop-loading-website-7/icon512x512.svg",
-"/pages/firefox-extensions/stop-loading-website-7/main.css",
-"/pages/firefox-extensions/stop-loading-website-7/manifest.json",
-"/pages/firefox-extensions/stop-loading-website-7/options.html",
-"/pages/firefox-extensions/stop-loading-website-7/options.js",
-"/pages/firefox-extensions/stop-loading-website-7/README.md",
-"/pages/firefox-extensions/stop-loading-website-7/screenshot.png",
-"/pages/firefox-extensions/stop-loading-website-7/script.js",
-"/pages/firefox-extensions/stop-loading-website-7/stop-loading-website-7.zip",
-"/pages/firefox-extensions/stop-loading-website-7/style.css",
 "/pages/firefox-extensions/url-redirect-6/auto.css",
 "/pages/firefox-extensions/url-redirect-6/",
 "/pages/firefox-extensions/url-redirect-6/icon512x512.png",
@@ -1474,7 +1473,7 @@ if (res.ok) {
 // file is present at URL
 console.log('try cache.add ' + file);
 //https://web.dev/learn/pwa/caching/
-caches.open("v.1.2.2025.09.29")
+caches.open("v.1.2.2025.09.30")
 .then(cache => {
 cache.add(file); // it stores only one resource
 //  cache.addAll(["styles.css", "app.js"]); // it stores two resources
@@ -1500,7 +1499,7 @@ if (res.ok) {
 // file is present at URL
 console.log('try cache.add ' + newFile);
 //https://web.dev/learn/pwa/caching/
-caches.open("v.1.2.2025.09.29")
+caches.open("v.1.2.2025.09.30")
 .then(cache => {
 cache.add(newFile); // it stores only one resource
 //  cache.addAll(["styles.css", "app.js"]); // it stores two resources
@@ -1533,7 +1532,7 @@ console.log('404 not found ' + newFile);
 // rm old cache
 //https://developer.mozilla.org/en-US/docs/Web/API/CacheStorage/delete
 this.addEventListener("activate", (event) => {
-  const cachesToKeep = ["v.1.2.2025.09.29"];
+  const cachesToKeep = ["v.1.2.2025.09.30"];
 
   event.waitUntil(
     caches.keys().then((keyList) =>
