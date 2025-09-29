@@ -3,6 +3,16 @@ var notesJsonVar =
 
 [
     {
+        "id": "118",
+        "text": "CSS tag size in pixel",
+        "text2": "===\r\nxx-small: 9px\r\nx-small: 10px\r\nsmall: 13px\r\nmedium: 16px\r\nlarge: 18px\r\nx-large: 24px\r\nxx-large: 32px\r\nxxx-large: 48px\r\n===\r\nSource:\r\n- AI Overview\r\n- CSS Font-Size: A Tutorial on Text Sizing in CSS | Career Karma - https:\/\/careerkarma.com\/blog\/css-font-size\/\r\n- CSS Font-Size Property - Scaler Topics - https:\/\/www.scaler.com\/topics\/font-size-in-css\/",
+        "text3": "",
+        "url": "",
+        "tag": "#CSS #tag #size #pixel #convert",
+        "time": 1759148141,
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/notes\/?id=118\"  title=\"id=118 (permanent link)\" >id<\/a>"
+    },
+    {
         "id": "117",
         "text": "Lorem ipsum - Wikipedia",
         "text2": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
