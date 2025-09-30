@@ -1,8 +1,7 @@
-README.md
-###
+# firefox-themes
 
-#### Screenshot
-![screenshot](light-flat-theme.png)
-![screenshot2](dark-flat-theme.png)
+#### Screenshotі:
+![screenshot](screenshot.png)
+![screenshot2](screenshot2.png)
 
 
