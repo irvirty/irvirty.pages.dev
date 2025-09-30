@@ -48,59 +48,67 @@
      rx="2.2009101"
      ry="5.2248907" />
   <rect
-     style="opacity:0.035;fill:#000000;fill-opacity:0.99562299;stroke-width:0"
+     style="opacity:0.035;fill:#767676;fill-opacity:0.99562305;stroke-width:0"
      id="rect1540"
      width="201.18025"
      height="100.79607"
      x="0"
-     y="0" />
+     y="0"
+     ry="50.398033" />
   <rect
-     style="fill:#000000;fill-opacity:0.99562299;stroke-width:0;opacity:0.035"
+     style="opacity:0.035;fill:#767676;fill-opacity:0.99562305;stroke-width:0"
      id="rect1540-0"
      width="201.18025"
      height="100.79607"
      x="310.81976"
-     y="411.20392" />
+     y="411.20392"
+     ry="50.398033" />
   <rect
-     style="fill:#000000;fill-opacity:0.99562299;stroke-width:0;opacity:0.035"
+     style="opacity:0.035;fill:#767676;fill-opacity:0.99562305;stroke-width:0"
      id="rect1540-0-9"
      width="250.63074"
      height="56.671299"
      x="60.189041"
-     y="354.53262" />
+     y="354.53262"
+     ry="28.335649" />
   <rect
-     style="fill:#000000;fill-opacity:0.99562299;stroke-width:0;opacity:0.035"
+     style="opacity:0.035;fill:#767676;fill-opacity:0.99562305;stroke-width:0"
      id="rect1540-0-9-3"
      width="119.15326"
      height="180.16573"
      x="310.81976"
-     y="174.3669" />
+     y="174.3669"
+     ry="59.57663" />
   <rect
-     style="fill:#000000;fill-opacity:0.99562299;stroke-width:0;opacity:0.035"
+     style="opacity:0.035;fill:#767676;fill-opacity:0.99562305;stroke-width:0"
      id="rect1540-0-9-3-6"
      width="109.63951"
      height="73.570816"
      x="201.18025"
-     y="100.79607" />
+     y="100.79607"
+     ry="36.785408" />
   <rect
-     style="fill:#000000;fill-opacity:0.99562299;stroke-width:0;opacity:0.035"
+     style="opacity:0.035;fill:#767676;fill-opacity:0.99562305;stroke-width:0"
      id="rect1540-0-9-3-6-0"
      width="151.06221"
      height="80.917854"
      x="50.118042"
-     y="174.36688" />
+     y="174.36688"
+     ry="40.458927" />
   <rect
-     style="fill:#000000;fill-opacity:0.99562299;stroke-width:0;opacity:0.035"
+     style="opacity:0.035;fill:#767676;fill-opacity:0.99562305;stroke-width:0"
      id="rect1540-0-9-3-6-0-2"
      width="87.484665"
      height="47.977978"
      x="201.18025"
-     y="255.28473" />
+     y="255.28473"
+     ry="23.988989" />
   <rect
-     style="fill:#000000;fill-opacity:0.99562299;stroke-width:0;opacity:0.035"
+     style="opacity:0.035;fill:#767676;fill-opacity:0.99562305;stroke-width:0"
      id="rect1540-0-9-3-6-0-6"
      width="132.32738"
      height="67.024483"
      x="310.81976"
-     y="33.771584" />
+     y="33.771584"
+     ry="33.512241" />
 </svg>
