@@ -1,4 +1,4 @@
-// Main js v.7.1.1
+// Main js v.7.1.2
 // For second navigation, footer, themes, etc
 
 if (confD == undefined) { var confD = "/"; }
@@ -1145,9 +1145,9 @@ conf["confThemeEmbed"] = "light";
 bgImage = fuMClearText(bgImage);
 
 if (bgImage == undefined||bgImage == null||bgImage == ""){
-let mBg = fuMRandomItem("index.svg line-square.svg star.svg circle.svg triangle.svg square-solid.svg binary.svg short-line.svg shape.svg line-chaotic.svg wood.png deco-paper.svg grid.png granite.png flower.png flower-2.png");
-let mBgDark = fuMRandomItem("index-d.svg line-square-d.svg star-d.svg circle-d.svg triangle-d.svg square-solid-d.svg binary-d.svg short-line-d.svg shape-d.svg line-chaotic-d.svg wood-d.png deco-paper-d.svg grid-d.png granite-d.png flower-d.png flower-2-d.png");
-//mBg = fuMRandomItem("line-horizontal.svg"); mBgDark = fuMRandomItem("line-horizontal-d.svg");
+let mBg = fuMRandomItem("index.svg line-square.svg star.svg circle.svg triangle.svg square-solid.svg binary.svg short-line.svg shape.svg line-chaotic.svg wood.png deco-paper.svg grid.png granite.png flower.png flower-2.png mondrian.svg");
+let mBgDark = fuMRandomItem("index-d.svg line-square-d.svg star-d.svg circle-d.svg triangle-d.svg square-solid-d.svg binary-d.svg short-line-d.svg shape-d.svg line-chaotic-d.svg wood-d.png deco-paper-d.svg grid-d.png granite-d.png flower-d.png flower-2-d.png mondrian-d.svg");
+//mBg = fuMRandomItem("mondrian.svg"); mBgDark = fuMRandomItem("mondrian.svg");
 let mRandBgPos = fuMRandom(0, 100);
 let mRandBgPos2 = fuMRandom(0, 100);
 
