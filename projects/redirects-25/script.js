@@ -1,4 +1,4 @@
-// Search redirects v.2.9.4
+// Search redirects v.2.9.5
 // Search query + command
 
 // conf
@@ -563,6 +563,7 @@ break;
 
 
 case "tg#":
+case "tgg#":
 q = q3.replace(qCom, '');
 q = q.trim();
 q = encodeURIComponent(q);
@@ -576,6 +577,7 @@ break;
 
 
 case "tb#":
+case "ttb#":
 q = q3.replace(qCom, '');
 q = q.trim();
 q = encodeURIComponent(q);
