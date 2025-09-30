@@ -48,18 +48,25 @@ if (mode == null){ mode = 'quote'; }
 
 
 
-var modeList = Array(/*"letters",*/ "1k", "words", "quote", "book", "wiki", "input", "zen");
+var modeList = Array(/*"letters",*/ "1k", "words", "quote", "book", "wiki", "input", "zen", "b2", "i2", "z2");
 var modeListPrint = '';
 modeList.forEach(FunctionModeList);
 function FunctionModeList(item, index) {
 //hide none mode in not localhost
 var skip = '';
+if (
+location.hostname != 'localhost'&&item == 'b2'||
+location.hostname != 'localhost'&&item == 'i2'||
+location.hostname != 'localhost'&&item == 'z2'
+){
+skip = 'yes';
+}
 
-if (mode == item){
+if (mode == item&&skip != 'yes'){
 modeListPrint += `
 <a class="keepTag light4 border borderRadius2 borderBottomBrand" style="color: var(--c3);" href="?mode=` + item + `">` + item + `</a>
 `;
-} else{
+} else if (skip != 'yes'){
 modeListPrint += `
 <a class="keepTag op light3 border2 borderRadius2" href="?mode=` + item + `">` + item + `</a>
 `;
@@ -141,7 +148,7 @@ main(task);
 
 
 
-if (mode == 'book'){
+if (mode == 'book'||mode == "b2"){
 
 //https://stackoverflow.com/questions/16230886/trying-to-fire-the-onload-event-on-script-tag
 var script2 = document.createElement('script');
@@ -271,7 +278,7 @@ task = "           abcdefghijklmnopqrstuvwxyz";
 main(task);
 }
 
-if (mode == 'input'){
+if (mode == 'input'||mode == 'i2'){
 var tg = '';
 document.getElementById("bookmarklet").style.display = "inline-block";
 
@@ -336,7 +343,7 @@ localStorage.setItem("input", inputText);
 
 
 
-if (mode == 'zen'){
+if (mode == 'zen'||mode == 'z2'){
 document.getElementById('text').rows = '7';
 task = '';
 main('');
@@ -345,13 +352,45 @@ main('');
 }
 
 
-
 function fuLtr(lTrTask){
 if (location.hostname == 'localhost'){
 if (lTrTask == undefined){ lTrTask = task; }
+document.getElementById("mode2").innerHTML = ' <a class="keepTag op light3 border2 borderRadius2" href="/?q=' + encodeURIComponent(lTrTask) + ' d"> tr2</a>';
 document.getElementById("mode2").innerHTML += ` <a class="keepTag op light3 border2 borderRadius2" title="translate" href="${confD}projects/redirects-25/?q=` + encodeURIComponent(lTrTask) + ` t">tr</a>`;
 } else {
 document.getElementById("mode2").innerHTML = ` <a class="keepTag border2 borderRadius2" title="translate" href="${confD}projects/redirects-25/?q=` + encodeURIComponent(lTrTask) + ` t">tr</a>`;
+}
+}
+
+function typingSpeedTranslate(textForTranslate, mode) {
+
+//console.log(mode300);
+if (location.hostname == "localhost"){
+if (mode == "b2"||mode == "i2"||mode == "z2"){
+document.getElementById("lPrintTr").style.display = "block";
+
+// source code none
+let text = textForTranslate;
+//let text = (textForTranslate);
+let http = new XMLHttpRequest();
+let url2 = '/?q=dic';
+let params = 'text=' + encodeURIComponent(text);
+//alert(params);
+http.open('POST', url2, true);
+//Send the proper header information along with the request
+http.setRequestHeader('Content-type', 'application/x-www-form-urlencoded');
+http.onreadystatechange = function() { //Call a function when the state changes.
+if (http.readyState == 4 && http.status == 200) {
+// alert(http.responseText);
+document.getElementById("lPrintTr").innerHTML = http.responseText;
+}
+
+}
+http.send(params);
+} else {
+document.getElementById("lPrintTr").innerHTML = '';
+document.getElementById("lPrintTr").style.display = "none";
+}
 }
 }
 
@@ -363,7 +402,7 @@ document.getElementById("lPrintTr").style.display = "none";
 //setTimeout(function () {
 function main(task){
 
-if (mode == 'zen'){
+if (mode == 'zen'||mode == 'z2'){
 document.getElementById("result").style.display = "none";
 } else {
 document.getElementById("result").style.display = "block";
@@ -657,6 +696,14 @@ if (wpmRecord == null||wpmRecord < 0||wpmRecord == undefined){ wpmRecord =  0; }
 q = e.target.value;
 //console.log(task.join("").slice(0, q.length));
 
+if (mode == "b2"||mode == "i2"){
+typingSpeedTranslate(task.join("").slice(0, q.length), mode);
+}
+if (mode == "z2"){
+typingSpeedTranslate(q, mode);
+fuLtr(q);
+}
+
 //var answerArr = q.split ("");
 var answerArr = [...q]; // convert input string to array for check
 //console.log(answerArr);
@@ -682,8 +729,7 @@ if (scrollToVar !=  ''){ document.getElementById("scrollTo").scrollIntoView(true
 
 
 
-
-if (mode != 'zen'){
+if (mode != 'zen'&&mode != 'z2'){
 letters.forEach(myFunctionCheckAll);
 }
 
