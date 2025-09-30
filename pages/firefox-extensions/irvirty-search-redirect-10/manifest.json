@@ -1,8 +1,8 @@
 {
   "manifest_version": 3,
   "name": "Irvirty search redirect",
-  "version": "1.7.3",
-  "description": "URL irvirty.pages.dev/search/?q={searchTerms} as Search engine.",
+  "version": "1.7.5",
+  "description": "URL irvirty.pages.dev/search/?q={searchTerms} as search engine.",
   
 "icons": {
   "512": "icon512x512.png"

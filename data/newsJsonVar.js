@@ -3,6 +3,16 @@ var newsJsonVar =
 
 [
     {
+        "id": "51",
+        "text": "How Electronic Arts' $55 billion go-private deal could impact the video game industry | AP News",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/apnews.com\/article\/electronic-arts-buyout-what-to-know-ea6d403811e6ebab0b96ab772f5e7d67",
+        "tag": "#game #games #EA #app #software",
+        "time": 1759228760,
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/news\/?id=51\"  title=\"id=51 (permanent link)\" >id<\/a>"
+    },
+    {
         "id": "50",
         "text": "Mozilla introduces visual search powered by Google Lens on Firefox desktop | AlternativeTo",
         "text2": "\"Google must be set as the browser\u2019s default search engine.\"",

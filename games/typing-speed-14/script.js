@@ -1,5 +1,6 @@
-// Typing Speed Test (WPM) or Typing Speed Game v.4.0.1
-// zen mode inspired by https://monkeytype.com/
+// Typing Speed Test (WPM) or Typing Speed Game v.4.0.2
+// "Zen" mode inspired by https://monkeytype.com/
+// Ignore some "typing modes" if the site is running on localhost, I use them to translate letters when I type.
 
 const wmpAverageLimit = 100;
 const wordLengthLimit = 5.1;

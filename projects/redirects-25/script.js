@@ -1,5 +1,6 @@
-// Search redirects v.2.9.5
+// Search redirects v.2.9.6
 // Search query + command
+// Example: "text goo" or "text google", "text bin" or "text bing"
 
 // conf
 var com = "on"; // on, off redirection
