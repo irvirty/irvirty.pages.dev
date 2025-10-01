@@ -2217,15 +2217,6 @@ var radioJsonVar =
         "rightFooter": ""
     },
     {
-        "text": "StarTalk Radio | Listen to Podcasts On Demand Free | TuneIn",
-        "text2": "",
-        "text3": "",
-        "url": "https:\/\/tunein.com\/podcasts\/Science-Podcasts\/StarTalk-Radio-p334521\/",
-        "tag": "#radio #en #science #culture",
-        "time": 1719774545,
-        "rightFooter": ""
-    },
-    {
         "text": "Loutraki FM, 96.9 FM, Loutraki, Greece | Free Internet Radio | TuneIn",
         "text2": "",
         "text3": "",

@@ -856,5 +856,14 @@ var podcastJsonVar =
         "tag": "#podcast #makrets #investing #busines #economics #en",
         "time": 1726644543,
         "rightFooter": ""
+    },
+    {
+        "text": "StarTalk Radio | Listen to Podcasts On Demand Free | TuneIn",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/tunein.com\/podcasts\/Science-Podcasts\/StarTalk-Radio-p334521\/",
+        "tag": "#podcast #en #science #culture",
+        "time": 1719774545,
+        "rightFooter": ""
     }
 ]

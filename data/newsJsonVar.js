@@ -3,12 +3,32 @@ var newsJsonVar =
 
 [
     {
+        "id": "53",
+        "text": "Unfortunately, Bluesky is unavailable in Mississippi right now, due to a new state law that requires age verification for all users.",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/bsky.app\/profile\/bsky.app\/post\/3lwzadikbrc2u",
+        "tag": "#privacy #ban #SocialNetwork #platform #Bluesky #web #internet",
+        "time": 1759300631,
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/news\/?id=53\"  title=\"id=53 (permanent link)\" >id<\/a>"
+    },
+    {
+        "id": "52",
+        "text": "Imgur Blocked in UK: Why It Happened and How to Unblock It",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/cybernews.com\/uk\/how-to-use-vpn\/imgur-blocked-in-uk-why-it-happened-and-how-to-unblock-it\/",
+        "tag": "#web #internet #privacy #platform #image #photo #Imgur",
+        "time": 1759299997,
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/news\/?id=52\"  title=\"id=52 (permanent link)\" >id<\/a>"
+    },
+    {
         "id": "51",
         "text": "How Electronic Arts' $55 billion go-private deal could impact the video game industry | AP News",
         "text2": "",
         "text3": "",
         "url": "https:\/\/apnews.com\/article\/electronic-arts-buyout-what-to-know-ea6d403811e6ebab0b96ab772f5e7d67",
-        "tag": "#game #games #EA #app #software",
+        "tag": "#technology #game #games #EA #app #software",
         "time": 1759228760,
         "rightFooter": "<a class=\"brand\" href=\"\/pages\/news\/?id=51\"  title=\"id=51 (permanent link)\" >id<\/a>"
     },
@@ -18,7 +38,7 @@ var newsJsonVar =
         "text2": "\"Google must be set as the browser\u2019s default search engine.\"",
         "text3": "",
         "url": "https:\/\/alternativeto.net\/news\/2025\/9\/mozilla-introduces-visual-search-powered-by-google-lens-on-firefox-desktop\/",
-        "tag": "#app #software #browser #web",
+        "tag": "#technology #app #software #browser #web #Firefox #MozillaFirefox #tools #tool",
         "time": 1759146874,
         "rightFooter": "<a class=\"brand\" href=\"\/pages\/news\/?id=50\"  title=\"id=50 (permanent link)\" >id<\/a>"
     },
@@ -28,7 +48,7 @@ var newsJsonVar =
         "text2": "",
         "text3": "",
         "url": "https:\/\/www.techspot.com\/news\/109368-activists-launch-hunger-strikes-outside-anthropic-deepmind-offices.html",
-        "tag": "#technology #AI #AGI #ASI",
+        "tag": "#technology #AI #AGI #ASI #Google #DeepMind #Anthropic #NeuralNetwork",
         "time": 1759146454,
         "rightFooter": "<a class=\"brand\" href=\"\/pages\/news\/?id=49\"  title=\"id=49 (permanent link)\" >id<\/a>"
     },
@@ -38,7 +58,7 @@ var newsJsonVar =
         "text2": "",
         "text3": "",
         "url": "https:\/\/bsky.app\/profile\/obsproject.com\/post\/3lzrij2yie22j",
-        "tag": "#app #software #stream #live #recording",
+        "tag": "#technology #app #software #stream #live #recording",
         "time": 1759130782,
         "rightFooter": "<a class=\"brand\" href=\"\/pages\/news\/?id=48\"  title=\"id=48 (permanent link)\" >id<\/a>"
     },
@@ -48,7 +68,7 @@ var newsJsonVar =
         "text2": "",
         "text3": "",
         "url": "https:\/\/doodles.google\/doodle\/googles-27th-birthday\/",
-        "tag": "#doodle #search #platform #web #logo #logotype",
+        "tag": "#technology #doodle #search #platform #web #logo #logotype",
         "time": 1759058992,
         "rightFooter": "<a class=\"brand\" href=\"\/pages\/news\/?id=47\"  title=\"id=47 (permanent link)\" >id<\/a>"
     },
@@ -58,7 +78,7 @@ var newsJsonVar =
         "text2": "",
         "text3": "",
         "url": "https:\/\/www.firefox.com\/en-US\/firefox\/143.0\/releasenotes\/",
-        "tag": "#Firefox #browser #update #app #software",
+        "tag": "#technology #Firefox  #MozillaFirefox #browser #update #app #software",
         "time": 1758172231,
         "rightFooter": "<a class=\"brand\" href=\"\/pages\/news\/?id=44\"  title=\"id=44 (permanent link)\" >id<\/a>"
     },
@@ -68,7 +88,7 @@ var newsJsonVar =
         "text2": "",
         "text3": "",
         "url": "https:\/\/techcrunch.com\/2025\/08\/21\/googles-ai-mode-expands-globally-adds-new-agentic-features\/",
-        "tag": "#Google #web #search #internet",
+        "tag": "#technology #Google #web #search #internet #SearchEngine",
         "time": 1756679665,
         "rightFooter": "<a class=\"brand\" href=\"\/pages\/news\/?id=41\"  title=\"id=41 (permanent link)\" >id<\/a>"
     },
@@ -88,7 +108,7 @@ var newsJsonVar =
         "text2": "",
         "text3": "",
         "url": "https:\/\/openai.com\/index\/introducing-gpt-5\/",
-        "tag": "#AI",
+        "tag": "#technology #AI #AGI",
         "time": 1755677889,
         "rightFooter": "<a class=\"brand\" href=\"\/pages\/news\/?id=38\"  title=\"id=38 (permanent link)\" >id<\/a>"
     },
@@ -98,7 +118,7 @@ var newsJsonVar =
         "text2": "",
         "text3": "",
         "url": "https:\/\/thenextweb.com\/news\/lworlds-first-song-made-by-quantum-and-ai",
-        "tag": "#AI #QuantumComputer",
+        "tag": "#technology #AI #QuantumComputer",
         "time": 1746854581,
         "rightFooter": "<a class=\"brand\" href=\"\/pages\/news\/?id=36\"  title=\"id=36 (permanent link)\" >id<\/a>"
     },
@@ -118,7 +138,7 @@ var newsJsonVar =
         "text2": "",
         "text3": "",
         "url": "https:\/\/techcrunch.com\/2025\/05\/05\/skype-is-shutting-down-today-these-are-the-best-alternatives\/",
-        "tag": "#app #web #software",
+        "tag": "#technology #app #web #software",
         "time": 1746646978,
         "rightFooter": "<a class=\"brand\" href=\"\/pages\/news\/?id=34\"  title=\"id=34 (permanent link)\" >id<\/a>"
     },
@@ -138,7 +158,7 @@ var newsJsonVar =
         "text2": "",
         "text3": "",
         "url": "https:\/\/bsky.app\/profile\/neocities.org\/post\/3lhu7xapg3s2x",
-        "tag": "#web #hosting",
+        "tag": "#web #internet #hosting",
         "time": 1745333263,
         "rightFooter": "<a class=\"brand\" href=\"\/pages\/news\/?id=31\"  title=\"id=31 (permanent link)\" >id<\/a>"
     },
@@ -148,7 +168,7 @@ var newsJsonVar =
         "text2": "",
         "text3": "",
         "url": "https:\/\/www.youtube.com\/watch?v=OIuG1bBkfs0",
-        "tag": "#web",
+        "tag": "#web #internet #video #platform",
         "time": 1745321783,
         "rightFooter": "<a class=\"brand\" href=\"\/pages\/news\/?id=30\"  title=\"id=30 (permanent link)\" >id<\/a>"
     },
