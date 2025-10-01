@@ -1,4 +1,4 @@
-/* Main.css style v.23.9.0
+/* Main.css style v.23.10.0
 /* main.css + theme (auto.css, light.css ...) */
 /* The style is mostly based on classes. */
 
@@ -54,8 +54,9 @@
 
 /*@import url('https://fonts.googleapis.com/css2?family=Roboto:ital@0;1&display=swap');*/
 html, body, a, input, button, textarea, pre, code, select {
-font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", Helvetica, Arial, sans-serif; /* (Twitter font) */
+font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", Helvetica, Arial, sans-serif; /* (Twitter font */
 /*hyphens: auto;*/
+/*font-weight: 300;*/
 font-style: normal;
 overflow-wrap: break-word;
 /*word-break: break-all;*/
