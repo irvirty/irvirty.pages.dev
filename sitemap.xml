@@ -61,6 +61,9 @@
 <url><loc>https://irvirty.pages.dev/mini-projects/button-blur-unblur-28/index.html</loc></url>
 <url><loc>https://irvirty.pages.dev/mini-projects/button-blur-unblur-28/</loc></url>
 
+<url><loc>https://irvirty.pages.dev/mini-projects/empty-page-39/index.html</loc></url>
+<url><loc>https://irvirty.pages.dev/mini-projects/empty-page-39/</loc></url>
+
 <url><loc>https://irvirty.pages.dev/mini-projects/flex-grid-32/index.html</loc></url>
 <url><loc>https://irvirty.pages.dev/mini-projects/flex-grid-32/</loc></url>
 
@@ -124,15 +127,6 @@
 <url><loc>https://irvirty.pages.dev/old-projects/textarea-24/index.html</loc></url>
 <url><loc>https://irvirty.pages.dev/old-projects/textarea-24/</loc></url>
 
-<url><loc>https://irvirty.pages.dev/other-projects/index.html</loc></url>
-<url><loc>https://irvirty.pages.dev/other-projects/</loc></url>
-
-<url><loc>https://irvirty.pages.dev/other-projects/php/index.html</loc></url>
-<url><loc>https://irvirty.pages.dev/other-projects/php/</loc></url>
-
-<url><loc>https://irvirty.pages.dev/other-projects/python/index.html</loc></url>
-<url><loc>https://irvirty.pages.dev/other-projects/python/</loc></url>
-
 <url><loc>https://irvirty.pages.dev/other-projects-list/index.html</loc></url>
 <url><loc>https://irvirty.pages.dev/other-projects-list/</loc></url>
 
@@ -172,8 +166,14 @@
 <url><loc>https://irvirty.pages.dev/pages/chrome-themes/index.html</loc></url>
 <url><loc>https://irvirty.pages.dev/pages/chrome-themes/</loc></url>
 
+<url><loc>https://irvirty.pages.dev/pages/css-art/city-34/index.html</loc></url>
+<url><loc>https://irvirty.pages.dev/pages/css-art/city-34/</loc></url>
+
 <url><loc>https://irvirty.pages.dev/pages/css-art/computer-css-9/index.html</loc></url>
 <url><loc>https://irvirty.pages.dev/pages/css-art/computer-css-9/</loc></url>
+
+<url><loc>https://irvirty.pages.dev/pages/css-art/flower-33/index.html</loc></url>
+<url><loc>https://irvirty.pages.dev/pages/css-art/flower-33/</loc></url>
 
 <url><loc>https://irvirty.pages.dev/pages/css-art/halloween-pumpkin-css-15/index.html</loc></url>
 <url><loc>https://irvirty.pages.dev/pages/css-art/halloween-pumpkin-css-15/</loc></url>
@@ -193,11 +193,11 @@
 <url><loc>https://irvirty.pages.dev/pages/data-page/index.html</loc></url>
 <url><loc>https://irvirty.pages.dev/pages/data-page/</loc></url>
 
+<url><loc>https://irvirty.pages.dev/pages/data-page-other/index.html</loc></url>
+<url><loc>https://irvirty.pages.dev/pages/data-page-other/</loc></url>
+
 <url><loc>https://irvirty.pages.dev/pages/firefox-extensions/auto-theme-switcher-8/options.html</loc></url>
 <url><loc>https://irvirty.pages.dev/pages/firefox-extensions/auto-theme-switcher-8/options</loc></url>
-
-<url><loc>https://irvirty.pages.dev/pages/firefox-extensions/hotkey-url-5/options.html</loc></url>
-<url><loc>https://irvirty.pages.dev/pages/firefox-extensions/hotkey-url-5/options</loc></url>
 
 <url><loc>https://irvirty.pages.dev/pages/firefox-extensions/index.html</loc></url>
 <url><loc>https://irvirty.pages.dev/pages/firefox-extensions/</loc></url>
@@ -214,14 +214,17 @@
 <url><loc>https://irvirty.pages.dev/pages/firefox-extensions/old/badge-count-up-timer-4/popup.html</loc></url>
 <url><loc>https://irvirty.pages.dev/pages/firefox-extensions/old/badge-count-up-timer-4/popup</loc></url>
 
+<url><loc>https://irvirty.pages.dev/pages/firefox-extensions/old/hotkey-url-5/options.html</loc></url>
+<url><loc>https://irvirty.pages.dev/pages/firefox-extensions/old/hotkey-url-5/options</loc></url>
+
 <url><loc>https://irvirty.pages.dev/pages/firefox-extensions/old/rss-button-status-in-progress-9/options.html</loc></url>
 <url><loc>https://irvirty.pages.dev/pages/firefox-extensions/old/rss-button-status-in-progress-9/options</loc></url>
 
 <url><loc>https://irvirty.pages.dev/pages/firefox-extensions/old/rss-button-status-in-progress-9/popup.html</loc></url>
 <url><loc>https://irvirty.pages.dev/pages/firefox-extensions/old/rss-button-status-in-progress-9/popup</loc></url>
 
-<url><loc>https://irvirty.pages.dev/pages/firefox-extensions/stop-loading-website-7/options.html</loc></url>
-<url><loc>https://irvirty.pages.dev/pages/firefox-extensions/stop-loading-website-7/options</loc></url>
+<url><loc>https://irvirty.pages.dev/pages/firefox-extensions/old/stop-loading-website-7/options.html</loc></url>
+<url><loc>https://irvirty.pages.dev/pages/firefox-extensions/old/stop-loading-website-7/options</loc></url>
 
 <url><loc>https://irvirty.pages.dev/pages/firefox-extensions/url-redirect-6/options.html</loc></url>
 <url><loc>https://irvirty.pages.dev/pages/firefox-extensions/url-redirect-6/options</loc></url>
@@ -262,14 +265,11 @@
 <url><loc>https://irvirty.pages.dev/pages/notes/index.html</loc></url>
 <url><loc>https://irvirty.pages.dev/pages/notes/</loc></url>
 
-<url><loc>https://irvirty.pages.dev/pages/other-data-page/index.html</loc></url>
-<url><loc>https://irvirty.pages.dev/pages/other-data-page/</loc></url>
-
 <url><loc>https://irvirty.pages.dev/pages/photos/index.html</loc></url>
 <url><loc>https://irvirty.pages.dev/pages/photos/</loc></url>
 
-<url><loc>https://irvirty.pages.dev/pages/posts/index.html</loc></url>
-<url><loc>https://irvirty.pages.dev/pages/posts/</loc></url>
+<url><loc>https://irvirty.pages.dev/pages/services/index.html</loc></url>
+<url><loc>https://irvirty.pages.dev/pages/services/</loc></url>
 
 <url><loc>https://irvirty.pages.dev/pages/settings/index.html</loc></url>
 <url><loc>https://irvirty.pages.dev/pages/settings/</loc></url>
@@ -283,20 +283,11 @@
 <url><loc>https://irvirty.pages.dev/pages/updates/index.html</loc></url>
 <url><loc>https://irvirty.pages.dev/pages/updates/</loc></url>
 
-<url><loc>https://irvirty.pages.dev/pages/website-directory/index.html</loc></url>
-<url><loc>https://irvirty.pages.dev/pages/website-directory/</loc></url>
-
-<url><loc>https://irvirty.pages.dev/pages/website-mini-templates/index.html</loc></url>
-<url><loc>https://irvirty.pages.dev/pages/website-mini-templates/</loc></url>
-
-<url><loc>https://irvirty.pages.dev/pages/website-mini-templates/tpl-0/index.html</loc></url>
-<url><loc>https://irvirty.pages.dev/pages/website-mini-templates/tpl-0/</loc></url>
-
-<url><loc>https://irvirty.pages.dev/pages/website-mini-templates/why-underline-important-1/index.html</loc></url>
-<url><loc>https://irvirty.pages.dev/pages/website-mini-templates/why-underline-important-1/</loc></url>
-
 <url><loc>https://irvirty.pages.dev/pages/website-templates/about-me-page-auto-light-dark-21/index.html</loc></url>
 <url><loc>https://irvirty.pages.dev/pages/website-templates/about-me-page-auto-light-dark-21/</loc></url>
+
+<url><loc>https://irvirty.pages.dev/pages/website-templates/about-underline-why-underline-important-auto-light-dark-26/index.html</loc></url>
+<url><loc>https://irvirty.pages.dev/pages/website-templates/about-underline-why-underline-important-auto-light-dark-26/</loc></url>
 
 <url><loc>https://irvirty.pages.dev/pages/website-templates/card-page-auto-light-dark-20/index.html</loc></url>
 <url><loc>https://irvirty.pages.dev/pages/website-templates/card-page-auto-light-dark-20/</loc></url>
@@ -310,29 +301,29 @@
 <url><loc>https://irvirty.pages.dev/pages/website-templates/clean-simple-micro-auto-light-dark-24/index.html</loc></url>
 <url><loc>https://irvirty.pages.dev/pages/website-templates/clean-simple-micro-auto-light-dark-24/</loc></url>
 
-<url><loc>https://irvirty.pages.dev/pages/website-templates/flower-one-page-mini-auto-light-dark-flat-17/index.html</loc></url>
-<url><loc>https://irvirty.pages.dev/pages/website-templates/flower-one-page-mini-auto-light-dark-flat-17/</loc></url>
+<url><loc>https://irvirty.pages.dev/pages/website-templates/flower-one-page-mini-flat-auto-light-dark-17/index.html</loc></url>
+<url><loc>https://irvirty.pages.dev/pages/website-templates/flower-one-page-mini-flat-auto-light-dark-17/</loc></url>
 
-<url><loc>https://irvirty.pages.dev/pages/website-templates/home-page-flat-auto-many-colors-themes-10/index.html</loc></url>
-<url><loc>https://irvirty.pages.dev/pages/website-templates/home-page-flat-auto-many-colors-themes-10/</loc></url>
+<url><loc>https://irvirty.pages.dev/pages/website-templates/homepage-flat-many-colors-themes-10/index.html</loc></url>
+<url><loc>https://irvirty.pages.dev/pages/website-templates/homepage-flat-many-colors-themes-10/</loc></url>
 
-<url><loc>https://irvirty.pages.dev/pages/website-templates/home-page-flat-auto-many-colors-themes-10/menu.html</loc></url>
-<url><loc>https://irvirty.pages.dev/pages/website-templates/home-page-flat-auto-many-colors-themes-10/menu</loc></url>
+<url><loc>https://irvirty.pages.dev/pages/website-templates/homepage-flat-many-colors-themes-10/menu.html</loc></url>
+<url><loc>https://irvirty.pages.dev/pages/website-templates/homepage-flat-many-colors-themes-10/menu</loc></url>
 
-<url><loc>https://irvirty.pages.dev/pages/website-templates/home-page-flat-auto-many-colors-themes-10/page.html</loc></url>
-<url><loc>https://irvirty.pages.dev/pages/website-templates/home-page-flat-auto-many-colors-themes-10/page</loc></url>
+<url><loc>https://irvirty.pages.dev/pages/website-templates/homepage-flat-many-colors-themes-10/page.html</loc></url>
+<url><loc>https://irvirty.pages.dev/pages/website-templates/homepage-flat-many-colors-themes-10/page</loc></url>
 
-<url><loc>https://irvirty.pages.dev/pages/website-templates/home-page-flat-auto-many-colors-themes-10/themes.html</loc></url>
-<url><loc>https://irvirty.pages.dev/pages/website-templates/home-page-flat-auto-many-colors-themes-10/themes</loc></url>
+<url><loc>https://irvirty.pages.dev/pages/website-templates/homepage-flat-many-colors-themes-10/themes.html</loc></url>
+<url><loc>https://irvirty.pages.dev/pages/website-templates/homepage-flat-many-colors-themes-10/themes</loc></url>
 
-<url><loc>https://irvirty.pages.dev/pages/website-templates/home-page-flat-mini-auto-light-dark-flat-9/index.html</loc></url>
-<url><loc>https://irvirty.pages.dev/pages/website-templates/home-page-flat-mini-auto-light-dark-flat-9/</loc></url>
+<url><loc>https://irvirty.pages.dev/pages/website-templates/homepage-flat-mini-auto-light-dark-9/index.html</loc></url>
+<url><loc>https://irvirty.pages.dev/pages/website-templates/homepage-flat-mini-auto-light-dark-9/</loc></url>
 
-<url><loc>https://irvirty.pages.dev/pages/website-templates/home-page-flat-mini-auto-light-dark-flat-9/menu.html</loc></url>
-<url><loc>https://irvirty.pages.dev/pages/website-templates/home-page-flat-mini-auto-light-dark-flat-9/menu</loc></url>
+<url><loc>https://irvirty.pages.dev/pages/website-templates/homepage-flat-mini-auto-light-dark-9/menu.html</loc></url>
+<url><loc>https://irvirty.pages.dev/pages/website-templates/homepage-flat-mini-auto-light-dark-9/menu</loc></url>
 
-<url><loc>https://irvirty.pages.dev/pages/website-templates/home-page-flat-mini-auto-light-dark-flat-9/page.html</loc></url>
-<url><loc>https://irvirty.pages.dev/pages/website-templates/home-page-flat-mini-auto-light-dark-flat-9/page</loc></url>
+<url><loc>https://irvirty.pages.dev/pages/website-templates/homepage-flat-mini-auto-light-dark-9/page.html</loc></url>
+<url><loc>https://irvirty.pages.dev/pages/website-templates/homepage-flat-mini-auto-light-dark-9/page</loc></url>
 
 <url><loc>https://irvirty.pages.dev/pages/website-templates/index.html</loc></url>
 <url><loc>https://irvirty.pages.dev/pages/website-templates/</loc></url>
@@ -391,6 +382,9 @@
 <url><loc>https://irvirty.pages.dev/pages/website-templates/simple-text-1/index.html</loc></url>
 <url><loc>https://irvirty.pages.dev/pages/website-templates/simple-text-1/</loc></url>
 
+<url><loc>https://irvirty.pages.dev/pages/website-templates/simple-website-template-27/index.html</loc></url>
+<url><loc>https://irvirty.pages.dev/pages/website-templates/simple-website-template-27/</loc></url>
+
 <url><loc>https://irvirty.pages.dev/pages/website-templates/tpl-0/index.html</loc></url>
 <url><loc>https://irvirty.pages.dev/pages/website-templates/tpl-0/</loc></url>
 
@@ -426,9 +420,6 @@
 
 <url><loc>https://irvirty.pages.dev/projects/color-picker-4/index.html</loc></url>
 <url><loc>https://irvirty.pages.dev/projects/color-picker-4/</loc></url>
-
-<url><loc>https://irvirty.pages.dev/projects/count-symbol-39/index.html</loc></url>
-<url><loc>https://irvirty.pages.dev/projects/count-symbol-39/</loc></url>
 
 <url><loc>https://irvirty.pages.dev/projects/demo-test-style-class-5/index.html</loc></url>
 <url><loc>https://irvirty.pages.dev/projects/demo-test-style-class-5/</loc></url>
@@ -475,8 +466,8 @@
 <url><loc>https://irvirty.pages.dev/projects/music-20/index.html</loc></url>
 <url><loc>https://irvirty.pages.dev/projects/music-20/</loc></url>
 
-<url><loc>https://irvirty.pages.dev/projects/navigation-71/index.html</loc></url>
-<url><loc>https://irvirty.pages.dev/projects/navigation-71/</loc></url>
+<url><loc>https://irvirty.pages.dev/projects/navigation-or-menu-71/index.html</loc></url>
+<url><loc>https://irvirty.pages.dev/projects/navigation-or-menu-71/</loc></url>
 
 <url><loc>https://irvirty.pages.dev/projects/podcast-70/index.html</loc></url>
 <url><loc>https://irvirty.pages.dev/projects/podcast-70/</loc></url>
@@ -498,9 +489,6 @@
 
 <url><loc>https://irvirty.pages.dev/projects/random-text-generator-24/index.html</loc></url>
 <url><loc>https://irvirty.pages.dev/projects/random-text-generator-24/</loc></url>
-
-<url><loc>https://irvirty.pages.dev/projects/random-website-69/data-list.html</loc></url>
-<url><loc>https://irvirty.pages.dev/projects/random-website-69/data-list</loc></url>
 
 <url><loc>https://irvirty.pages.dev/projects/random-website-69/index.html</loc></url>
 <url><loc>https://irvirty.pages.dev/projects/random-website-69/</loc></url>
@@ -529,11 +517,14 @@
 <url><loc>https://irvirty.pages.dev/projects/start-page-41/index.html</loc></url>
 <url><loc>https://irvirty.pages.dev/projects/start-page-41/</loc></url>
 
+<url><loc>https://irvirty.pages.dev/projects/symbol-counter-39/index.html</loc></url>
+<url><loc>https://irvirty.pages.dev/projects/symbol-counter-39/</loc></url>
+
 <url><loc>https://irvirty.pages.dev/projects/tag-cloud-79/index.html</loc></url>
 <url><loc>https://irvirty.pages.dev/projects/tag-cloud-79/</loc></url>
 
-<url><loc>https://irvirty.pages.dev/projects/test-27/index.html</loc></url>
-<url><loc>https://irvirty.pages.dev/projects/test-27/</loc></url>
+<url><loc>https://irvirty.pages.dev/projects/test-page-27/index.html</loc></url>
+<url><loc>https://irvirty.pages.dev/projects/test-page-27/</loc></url>
 
 <url><loc>https://irvirty.pages.dev/projects/text-to-binary-52/index.html</loc></url>
 <url><loc>https://irvirty.pages.dev/projects/text-to-binary-52/</loc></url>
@@ -571,11 +562,11 @@
 <url><loc>https://irvirty.pages.dev/projects/tpl-projects-app-34/index.html</loc></url>
 <url><loc>https://irvirty.pages.dev/projects/tpl-projects-app-34/</loc></url>
 
-<url><loc>https://irvirty.pages.dev/projects/transliterate-35/index.html</loc></url>
-<url><loc>https://irvirty.pages.dev/projects/transliterate-35/</loc></url>
-
 <url><loc>https://irvirty.pages.dev/projects/tv-36/index.html</loc></url>
 <url><loc>https://irvirty.pages.dev/projects/tv-36/</loc></url>
+
+<url><loc>https://irvirty.pages.dev/projects/uk-transliteration-35/index.html</loc></url>
+<url><loc>https://irvirty.pages.dev/projects/uk-transliteration-35/</loc></url>
 
 <url><loc>https://irvirty.pages.dev/projects/video-18/index.html</loc></url>
 <url><loc>https://irvirty.pages.dev/projects/video-18/</loc></url>
@@ -600,5 +591,8 @@
 
 <url><loc>https://irvirty.pages.dev/search/index.html</loc></url>
 <url><loc>https://irvirty.pages.dev/search/</loc></url>
+
+<url><loc>https://irvirty.pages.dev/site-search/index.html</loc></url>
+<url><loc>https://irvirty.pages.dev/site-search/</loc></url>
 
 </urlset>
