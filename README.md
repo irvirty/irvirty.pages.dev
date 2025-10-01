@@ -35,7 +35,6 @@ Others:
 • SimpleHomepage theme for WordPress: GNU General Public License v2 or later  
 • Geany Themes: GNU General Public License  
 • Chrome Themes: Apache 2.0 License  
-<!--• Roboto font: Copyright 2025 Google Apache License, Version 2.0  -->
 • Books in /data: The Project Gutenberg License  
   
 ---  
@@ -65,4 +64,3 @@ Others:
 [Open Source](https://github.com/topics/open-source),
 [Search Redirect](https://github.com/topics/search-redirect),
 -->
-
