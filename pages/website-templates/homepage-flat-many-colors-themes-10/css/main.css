@@ -1,6 +1,6 @@
-/* Main.css style v.23.8.7
-/* main.css + theme (auto.css) */
-/* The style is mostly based on classes */
+/* Main.css style v.23.9.0
+/* main.css + theme (auto.css, light.css ...) */
+/* The style is mostly based on classes. */
 
 /* Main */
 @charset "UTF-8";
@@ -19,6 +19,7 @@
 --inputHeight: 45px;
 --fontSize: 14px;
 
+/* main.js (for nav) */
 --wrapper: 560px;
 --wrapper2: 700px;
 --wrapper3: 900px;
@@ -52,7 +53,7 @@
 }
 
 /*@import url('https://fonts.googleapis.com/css2?family=Roboto:ital@0;1&display=swap');*/
-html, body, a, input, button, textarea, pre, code, select{
+html, body, a, input, button, textarea, pre, code, select {
 font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", Helvetica, Arial, sans-serif; /* (Twitter font) */
 /*hyphens: auto;*/
 font-style: normal;

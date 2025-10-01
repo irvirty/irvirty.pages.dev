@@ -401,8 +401,7 @@ var confD = "../";
 
 <script src="../data/sitemapJsonVar.js"></script>
 <script src="../data/linksJsonVar.js"></script>
-<script src="../data/websitedirectoryJsonVar.js"></script>
-<script src="../data/randomwebsiteJsonVar.js"></script>
+
 
 <script>
 var data = [];
@@ -414,8 +413,8 @@ confSpeedDialDataArr2 = JSON.parse(confSpeedDialDataArr2);
 data = data.concat(confSpeedDialDataArr2);
 }
 
-data = data.concat(sitemapJsonVar, linksJsonVar, websitedirectoryJsonVar, randomwebsiteJsonVar);
-//data = [...sitemapJsonVar, ...linksJsonVar, ...websitedirectoryJsonVar, ...randomwebsiteJsonVar];
+data = data.concat(sitemapJsonVar, linksJsonVar);
+//data = [...sitemapJsonVar, ...linksJsonVar];
 </script>
 
 <script src="script.js"></script>
