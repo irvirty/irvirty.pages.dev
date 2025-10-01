@@ -1,4 +1,4 @@
-// Search redirects v.2.9.6
+// Search redirects v.2.9.7
 // Search query + command
 // Example: "text goo" or "text google", "text bin" or "text bing"
 
@@ -1370,7 +1370,6 @@ sRedirectUrl = url;
 break;
 
 
-case "b#":
 case "blo#":
 q = q3.replace(qCom, '');
 q = q.trim();
@@ -1832,7 +1831,7 @@ url = random;
 sRedirectUrl = url;
 break;
 
-
+case "b#":
 case "bing#":
 case "bin#":
 q = q3.replace(qCom, '');
