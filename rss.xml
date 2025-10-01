@@ -6,8 +6,8 @@
 <channel>
 
 <title>Irvirty News RSS</title>
-<link>https://irvirty.pages.dev</link>
-<description>These are news headlines from other sources on various topics. (Maybe with commentary or your own news.)</description>
+<link>https://irvirty.pages.dev/pages/news/</link>
+<description>These are news headlines from other sources on various topics. (Maybe with commentary or my own news.)</description>
 
 <image>
 <url>https://irvirty.pages.dev/img/logo.png</url>
