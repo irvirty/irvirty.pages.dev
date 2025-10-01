@@ -7,15 +7,41 @@
 
 <title>Irvirty News RSS</title>
 <link>https://irvirty.pages.dev</link>
-<description>Short news on various topics.</description>
+<description>These are news headlines from other sources on various topics. (Maybe with commentary or your own news.)</description>
 
 <image>
 <url>https://irvirty.pages.dev/img/logo.png</url>
 <title>Irvirty News RSS</title>
-<link>https://irvirty.pages.dev</link>
+<link>https://irvirty.pages.dev/pages/news/</link>
 <width>32</width>
 <height>32</height>
 </image>
+
+<item>
+<pubDate>Wed, 01 Oct 2025 07:05:01 +0000</pubDate>
+<title><![CDATA[Judge approves $1.5 billion copyright settlement between AI company Anthropic and authors | AP News 
+ ]]></title>
+<link><![CDATA[https://apnews.com/article/anthropic-authors-copyright-judge-artificial-intelligence-9643064e847a5e88ef6ee8b620b3a44c]]></link>
+<description>
+<![CDATA[
+Judge approves $1.5 billion copyright settlement between AI company Anthropic and authors | AP News 
+https://apnews.com/article/anthropic-authors-copyright-judge-artificial-intelligence-9643064e847a5e88ef6ee8b620b3a44c
+]]>
+</description>
+</item>
+
+<item>
+<pubDate>Wed, 01 Oct 2025 07:02:15 +0000</pubDate>
+<title><![CDATA[Amazon to pay $2.5 billion to settle U.S. lawsuit that it 'tricked' people into Prime 
+ ]]></title>
+<link><![CDATA[https://www.npr.org/2025/09/25/nx-s1-5551026/amazon-prime-lawsuit-ftc-settlement]]></link>
+<description>
+<![CDATA[
+Amazon to pay $2.5 billion to settle U.S. lawsuit that it 'tricked' people into Prime 
+https://www.npr.org/2025/09/25/nx-s1-5551026/amazon-prime-lawsuit-ftc-settlement
+]]>
+</description>
+</item>
 
 <item>
 <pubDate>Wed, 01 Oct 2025 06:37:11 +0000</pubDate>
@@ -186,32 +212,6 @@ https://thenextweb.com/news/lworlds-first-song-made-by-quantum-and-ai
 <![CDATA[
 Duolingo launches 148 courses created with AI after sharing plans to replace contractors with AI | TechCrunch 
 https://techcrunch.com/2025/04/30/duolingo-launches-148-courses-created-with-ai-after-sharing-plans-to-replace-contractors-with-ai/
-]]>
-</description>
-</item>
-
-<item>
-<pubDate>Wed, 07 May 2025 19:42:58 +0000</pubDate>
-<title><![CDATA[Skype is shutting down today — these are the best alternatives | TechCrunch 
- ]]></title>
-<link><![CDATA[https://techcrunch.com/2025/05/05/skype-is-shutting-down-today-these-are-the-best-alternatives/]]></link>
-<description>
-<![CDATA[
-Skype is shutting down today — these are the best alternatives | TechCrunch 
-https://techcrunch.com/2025/05/05/skype-is-shutting-down-today-these-are-the-best-alternatives/
-]]>
-</description>
-</item>
-
-<item>
-<pubDate>Tue, 22 Apr 2025 14:48:20 +0000</pubDate>
-<title><![CDATA[Bluesky: "30M users 1B posts 🤝 bluesky milestone achieved this week" — Bluesky 
- ]]></title>
-<link><![CDATA[https://bsky.app/profile/bsky.app/post/3lh5iyaqqos24]]></link>
-<description>
-<![CDATA[
-Bluesky: "30M users 1B posts 🤝 bluesky milestone achieved this week" — Bluesky 
-https://bsky.app/profile/bsky.app/post/3lh5iyaqqos24
 ]]>
 </description>
 </item>
