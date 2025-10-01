@@ -490,7 +490,7 @@ var sitemapJsonVar = [
         "time": "id"
     },
     {
-        "text": "Pages (main)\n\nMain pages of the site. Firefox extensions and themes, icons, a links collection, articles, website templates, and others. | pages: ",
+        "text": "Pages\n\nMain pages of the site. Firefox extensions and themes, icons, a links collection, articles, website templates, and others. | pages: ",
         "url": "\/pages\/index.html",
         "tag": " #Geany #Firefox #Chrome #Art #icons #Blog #Bookmark #template #website #theme #extension #HTML #CSS #JavaScript #projects #menu #list #pages #main",
         "id": "30d3aca3ddbd02ee548c917dcf5666bc",
