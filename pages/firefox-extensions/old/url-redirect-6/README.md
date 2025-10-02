@@ -10,7 +10,7 @@ Redirection from one URL address to another. In the settings, specify two URLs, 
 You can use this "*" symbol in the first URL. (test)
 
 Screenshots:  
-![screenshot](screenshot.png)
+[![screenshot](screenshot.png)](screenshot.png)
 
 
 

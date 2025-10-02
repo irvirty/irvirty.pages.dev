@@ -1,5 +1,5 @@
 
-//var myCacheVersion = "v.1.2.2025.10.01";
+//var myCacheVersion = "v.1.2.2025.10.02";
 
 
 
@@ -70,7 +70,7 @@ function swJsInstallFiles(){
 //https://stackoverflow.com/questions/66529102/uncaught-in-promise-typeerror-failed-to-execute-cache-on-addall-request
 //https://github.com/mdn/pwa-examples
 self.addEventListener('install', (e) => {
-e.waitUntil(caches.open("v.1.2.2025.10.01").then((cache) => cache.addAll(fileListArrFound)),);
+e.waitUntil(caches.open("v.1.2.2025.10.02").then((cache) => cache.addAll(fileListArrFound)),);
 });*/
 
 
@@ -732,6 +732,20 @@ var fileListArr = ["/404.html",
 "/pages/firefox-extensions/old/stop-loading-website-7/script.js",
 "/pages/firefox-extensions/old/stop-loading-website-7/stop-loading-website-7.zip",
 "/pages/firefox-extensions/old/stop-loading-website-7/style.css",
+"/pages/firefox-extensions/old/url-redirect-6/auto.css",
+"/pages/firefox-extensions/old/url-redirect-6/",
+"/pages/firefox-extensions/old/url-redirect-6/icon512x512.png",
+"/pages/firefox-extensions/old/url-redirect-6/icon512x512.svg",
+"/pages/firefox-extensions/old/url-redirect-6/main.css",
+"/pages/firefox-extensions/old/url-redirect-6/manifest.json",
+"/pages/firefox-extensions/old/url-redirect-6/options.html",
+"/pages/firefox-extensions/old/url-redirect-6/options.js",
+"/pages/firefox-extensions/old/url-redirect-6/README.md",
+"/pages/firefox-extensions/old/url-redirect-6/screenshot.png",
+"/pages/firefox-extensions/old/url-redirect-6/script (copy 1).js",
+"/pages/firefox-extensions/old/url-redirect-6/script.js",
+"/pages/firefox-extensions/old/url-redirect-6/style.css",
+"/pages/firefox-extensions/old/url-redirect-6/url-redirect-6.zip",
 "/pages/firefox-extensions/search-localhost-http-1/icon512x512.png",
 "/pages/firefox-extensions/search-localhost-http-1/",
 "/pages/firefox-extensions/search-localhost-http-1/icon512x512.svg",
@@ -743,20 +757,6 @@ var fileListArr = ["/404.html",
 "/pages/firefox-extensions/search-localhost-https-2/icon512x512.svg",
 "/pages/firefox-extensions/search-localhost-https-2/manifest.json",
 "/pages/firefox-extensions/search-localhost-https-2/search-localhost-https-2.zip",
-"/pages/firefox-extensions/url-redirect-6/auto.css",
-"/pages/firefox-extensions/url-redirect-6/",
-"/pages/firefox-extensions/url-redirect-6/icon512x512.png",
-"/pages/firefox-extensions/url-redirect-6/icon512x512.svg",
-"/pages/firefox-extensions/url-redirect-6/main.css",
-"/pages/firefox-extensions/url-redirect-6/manifest.json",
-"/pages/firefox-extensions/url-redirect-6/options.html",
-"/pages/firefox-extensions/url-redirect-6/options.js",
-"/pages/firefox-extensions/url-redirect-6/README.md",
-"/pages/firefox-extensions/url-redirect-6/screenshot.png",
-"/pages/firefox-extensions/url-redirect-6/script (copy 1).js",
-"/pages/firefox-extensions/url-redirect-6/script.js",
-"/pages/firefox-extensions/url-redirect-6/style.css",
-"/pages/firefox-extensions/url-redirect-6/url-redirect-6.zip",
 "/pages/firefox-themes/index.html",
 "/pages/firefox-themes/",
 "/pages/firefox-themes/README.md",
@@ -1473,7 +1473,7 @@ if (res.ok) {
 // file is present at URL
 console.log('try cache.add ' + file);
 //https://web.dev/learn/pwa/caching/
-caches.open("v.1.2.2025.10.01")
+caches.open("v.1.2.2025.10.02")
 .then(cache => {
 cache.add(file); // it stores only one resource
 //  cache.addAll(["styles.css", "app.js"]); // it stores two resources
@@ -1499,7 +1499,7 @@ if (res.ok) {
 // file is present at URL
 console.log('try cache.add ' + newFile);
 //https://web.dev/learn/pwa/caching/
-caches.open("v.1.2.2025.10.01")
+caches.open("v.1.2.2025.10.02")
 .then(cache => {
 cache.add(newFile); // it stores only one resource
 //  cache.addAll(["styles.css", "app.js"]); // it stores two resources
@@ -1532,7 +1532,7 @@ console.log('404 not found ' + newFile);
 // rm old cache
 //https://developer.mozilla.org/en-US/docs/Web/API/CacheStorage/delete
 this.addEventListener("activate", (event) => {
-  const cachesToKeep = ["v.1.2.2025.10.01"];
+  const cachesToKeep = ["v.1.2.2025.10.02"];
 
   event.waitUntil(
     caches.keys().then((keyList) =>

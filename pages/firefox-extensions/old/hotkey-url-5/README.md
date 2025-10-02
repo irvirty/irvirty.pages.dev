@@ -20,7 +20,7 @@ key and URL:
 
 
 Screenshots:  
-![screenshot](screenshot.png)
+[![screenshot](screenshot.png)](screenshot.png)
 
 
 

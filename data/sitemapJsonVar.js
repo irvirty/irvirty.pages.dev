@@ -9,7 +9,7 @@ var sitemapJsonVar = [
     {
         "text": "AGI countdown timer\n\nAGI Countdown timer. An attempt to predict when general artificial intelligence will be created. Research or explore. (Human-level AI). | agi countdown: ",
         "url": "\/projects\/agi-countdown-59\/index.html",
-        "tag": " #experimental #research #explore. #agi #ai #JavaScript #project",
+        "tag": " #experimental #research #explore #AGI #AI #JavaScript #project",
         "id": "983c52c3556e8725e77dd0cbef09c65c",
         "time": "id"
     },

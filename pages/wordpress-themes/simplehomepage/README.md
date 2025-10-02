@@ -7,7 +7,7 @@ An experimental, lightweight WordPress theme. It features a clean, flat, and min
     
 ## Screenshot:
 
-![screenshot](screenshot.png)
+[![screenshot](screenshot.png)](screenshot.png)
 
 
 
