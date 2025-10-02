@@ -1217,18 +1217,6 @@ opacity: .06;
 }
 // random bg image
 
-/*
-// fonts
-document.head.insertAdjacentHTML("beforeend", `
-<style>
-@font-face {
-font-family: 'Roboto';
-src: url('${confD}fonts/Roboto-Regular.ttf')  format('truetype');
-font-display: swap;
-}
-</style>
-`);*/
-
 // CSS
 
 

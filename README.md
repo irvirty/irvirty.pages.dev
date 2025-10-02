@@ -36,6 +36,7 @@ Others:
 • Geany Themes: GNU General Public License  
 • Chrome Themes: Apache 2.0 License  
 • Books in /data: The Project Gutenberg License  
+• Roboto font: Copyright 2025 Google Apache License, Version 2.0  
   
 ---  
   
