@@ -211,7 +211,7 @@ opacity: .7;
 <span class="xSmall">Site update: <span class="brand" id="last-update"></span></span>
 </summary>
 <div class="wrapperSmall small inlineBlock padding2 pre bg shadow borderRadius2 tLeft">
-I accidentally fixed the &quot;shifting links bug&quot; after page load (opening the link). The font loading code was originally in JavaScript, the JS was at the bottom of the page, and it probably caused the font shifting, but now I moved it to the CSS, and that fixed the problem.
+I removed the tag cloud again for a cleaner design.
 
 <a class="brand inlineBlock w100 padding2 small tCenter border2 light borderRadius2" href="./pages/updates/" title="Update Log">more</a>
 </div>
@@ -439,7 +439,7 @@ return time + ' ago';
 
 <!--<script src="/js/fuPostTime.js"></script>-->
 <script>
-document.getElementById("last-update").innerHTML = fuPostTime(1759383320);
+document.getElementById("last-update").innerHTML = fuPostTime(1759388210);
 </script>
 
 <script>
