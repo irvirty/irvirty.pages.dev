@@ -362,6 +362,27 @@ document.getElementById('urlDayNow').innerHTML = `<a class="brand inlineBlock pa
 </noscript>
 <div class="padding2 margin2"></div>
 
+<!-- tag cloud -->
+<aside>
+<div class="wrapper2 tCenter">
+
+<div id="printTagsHeader"></div>
+
+<div id="printTags" class="balance notUnderline"></div>
+
+
+<div class="wrapperSmall small tRight">
+<div><span class="notUnderline" id="printMode"></span></div>
+</div>
+
+<div id="tagListEditForm"></div>
+
+</div>
+</aside>
+<!--// tag cloud -->
+
+
+
 
 
 </main>
@@ -558,6 +579,213 @@ document.getElementById("wpm").innerHTML = wpm;
 dateArr = dateArr.slice(-500);
 }
 
+</script>
+
+
+
+<script>
+
+if (conf["confTagCloudlStatus"] == "on"){
+
+document.getElementById("printTagsHeader").innerHTML = `
+
+<div class="bold padding medium">
+<a class="op brand notUnderline" href="/projects/redirects-25/?q=s" title="Social Networks Explore (random)">Social Network and Web Explore:</a>
+</div>
+
+<div class="padding"></div>
+
+`;
+
+
+
+//window.addEventListener('load', function() {});
+
+function tagListCloud(mode){
+
+let tagModePrint = "";
+
+if (mode == undefined||mode == ""){
+mode = localStorage.getItem("tagModeData");
+} else if (mode != "edit"){
+localStorage.setItem("tagModeData", mode);
+}
+
+if (mode == null){ mode = "Hashtags"; }
+
+let tagListSortConf = localStorage.getItem("tagListSortConf");
+
+let tagListColor = `red orange yellow green blue indigo violet`;
+
+let tagList = localStorage.getItem("tagListData");
+if (tagList == null||tagList == undefined){
+tagList = `
+Keyword Keyword Keyword
+`;
+}
+
+let arr = fuMSplit(tagList);
+
+if (tagListSortConf == "sort"){
+arr = fuMSort(arr, "", "arr");
+}
+
+
+
+
+let tagListPrint = "";
+arr.forEach((val, index) => {
+let val2 = val.trim();
+if (val2 != ""){
+val = val.trim();
+//console.log(val + "=" + index);
+let color = fuMRandomItem(tagListColor);
+let printTagUrl = val.toLowerCase();
+
+
+switch (mode) {
+
+case 'Keywords':
+tagListPrint += `<a class="inlineBlock padding op ` + color + `" href="/search/?q=` + printTagUrl + ` s">` + val + `</a>`;
+break;
+
+case 'News':
+tagListPrint += `<a class="inlineBlock padding op ` + color + `" href="/search/?q=` + printTagUrl +` n">` + val + `</a>`;
+break;
+
+case 'Search':
+tagListPrint += `<a class="inlineBlock padding op ` + color + `" href="/search/?q=` + printTagUrl +` q">` + val + `</a>`;
+break;
+
+case 'Google':
+tagListPrint += `<a class="inlineBlock padding op ` + color + `" href="/search/?q=` + printTagUrl +` goo">` + val + `</a>`;
+break;
+
+case 'Bing':
+tagListPrint += `<a class="inlineBlock padding op ` + color + `" href="/search/?q=` + printTagUrl +` bin">` + val + `</a>`;
+break;
+
+case 'GooglePS':
+tagListPrint += `<a class="inlineBlock padding op ` + color + `" href="/projects/google-programmable-search-49/?q=` + printTagUrl +`">` + val + `</a>`;
+break;
+
+case 'SearchOther':
+tagListPrint += `<a class="inlineBlock padding op ` + color + `" href="/search/?q=` + printTagUrl + ` o">` + val + `</a>`;
+break;
+
+case 'edit':
+tagListPrint += `<span class="inlineBlock padding">` + val + `</span>`;
+break;
+
+default:
+tagListPrint += `<a class="inlineBlock padding op ` + color + `" href="/search/?q=` + printTagUrl + ` ht">#` + val + `</a>`;
+
+}
+
+} else {
+//tagListPrint += val;
+}
+});
+
+document.getElementById("printTags").innerHTML = tagListPrint;
+
+modeSwitch(mode, tagList, tagListSortConf);
+
+}
+
+tagListCloud("");
+
+
+function tagListSortConfSet(item){
+localStorage.setItem("tagListSortConf", item);
+tagListCloud("");
+}
+
+
+function modeSwitch(mode, tagList, tagListSortConf){
+
+let tagModePrint = "";
+let tagsModeList = `Hashtags Keywords News Search Google Bing SearchOther GooglePS`;
+
+let arr = fuMSplit(tagsModeList);
+let tagListPrint = `<span class="op">mode:</span>`;
+arr.forEach((val, index) => {
+if (mode == val){
+tagModePrint += `
+<a class="inlineBlock padding op active2" href="#" onclick="tagListCloud('` + val +`'); return false;">` + val +`</a>
+`;
+} else {
+tagModePrint += `
+<a class="inlineBlock padding op brand" href="#" onclick="tagListCloud('` + val +`'); return false;">` + val +`</a>
+`;
+}
+});
+
+
+if (tagListSortConf == "sort"){
+tagModePrint += `
+<span class="op gray">/</span>
+<a class="inlineBlock padding op gray" title="Close" href="#" onclick="tagListSortConfSet('unsort'); return false;">unsort</a>
+`;
+} else {
+tagModePrint += `
+<span class="op gray">/</span>
+<a class="inlineBlock padding op brand" href="#" onclick="tagListSortConfSet('sort'); return false;">sort</a>
+`;
+}
+
+if (mode == "edit"){
+tagModePrint += `
+<a class="inlineBlock padding op gray" title="Close" href="#" onclick="closeTagListData(''); return false;">edit</a>
+`;
+} else {
+tagModePrint += `
+<a class="inlineBlock padding op brand" href="#" onclick="tagListCloud('edit'); return false;">edit</a>
+`;
+}
+
+document.getElementById("printMode").innerHTML = `<hr><span class="op gray">mode:</span> `;
+document.getElementById("printMode").innerHTML += tagModePrint;
+
+if (mode == "edit"){
+document.getElementById("tagListEditForm").innerHTML = `
+<form action="" method="get" class="form-example">
+<textarea id="tagListEditData" rows="5">` + tagList + `</textarea>
+<a class="submit block button padding2 op borderRadius2" href="#" onclick="saveTagListData(); return false;">Save</a>
+<div class="tRight"><a class="submit tRight button padding2 op red borderRadius2" href="#" onclick="resetTagListData(); return false;">Reset</a></div>
+  </div>
+</form>
+`;
+}
+
+}
+
+
+
+
+
+
+function saveTagListData(){
+let data = document.getElementById("tagListEditData").value;
+localStorage.setItem("tagListData", data);
+document.getElementById("tagListEditForm").innerHTML = ``;
+tagListCloud("");
+}
+
+function resetTagListData(){
+if (window.confirm("Are you sure?")) {
+localStorage.removeItem("tagListData")
+}
+document.getElementById("tagListEditForm").innerHTML = ``;
+tagListCloud("");
+}
+
+function closeTagListData(){
+document.getElementById("tagListEditForm").innerHTML = ``;
+tagListCloud("");
+}
+
+}
 </script>
 
 
