@@ -1,4 +1,4 @@
-// Keep v.4.3.2
+// Keep v.4.3.0
 // The static version of my offline "keep" PHP script that saves things (links, notes, etc).
 // Inspired by Twitter, Google Keep
 // Not for large data files.
@@ -520,7 +520,7 @@ if (q2 == 'l'&&String('' + window.location + '').indexOf("#StopRedirect") == -1)
 if (postUrl != ''){
 sTimeRedir[2] = 1200;
 comMessagePrint = `Luck search, redirect to URL: `+ sTimeRedir[2] / 1000 +` sec.`;
-window.location.href = '/search/?rUrl=' + postUrl;
+window.location.href = '/projects/redirects-25/?rUrl=' + postUrl;
 //window.location.href = postUrl;
 window.location.href = window.location.href + '#StopRedirect'; 
 //setTimeout(function(){ window.location.href = postUrl; }, sTimeRedir[2]);
@@ -589,7 +589,7 @@ var subQforLight = subQListFound.join(confSymbolForSplit);
 if (q2 == 'l'&&String('' + window.location + '').indexOf("#StopRedirect") == -1){
 if (postUrl != ''){
 comMessagePrint = `Luck search, redirect to URL: ` + sTimeRedir[2] / 1000 +` sec.`;
-window.location.href = '/search/?rUrl=' + postUrl;
+window.location.href = '/projects/redirects-25/?rUrl=' + postUrl;
 //window.location.href = postUrl;
 window.location.href = window.location.href + '#StopRedirect';
 //setTimeout(function(){ window.location.href = postUrl; }, sTimeRedir[2]);
@@ -702,7 +702,7 @@ if (mode == 'randomurl'&&String('' + window.location + '').indexOf("#StopRedirec
 //if (postUrl == ''&&postId != ''){ window.location.href = scriptDir + '?id=' + postId; }
 if (postUrl != ''){
 comMessagePrint = `Luck search, redirect to URL: `+ sTimeRedir[2] / 1000+` sec.`;
-window.location.href = '/search/?rUrl=' + postUrl;
+window.location.href = '/projects/redirects-25/?rUrl=' + postUrl;
 //window.location.href = postUrl;
 window.location.href = window.location.href + '#StopRedirect'; 
 //setTimeout(function(){ window.location.href = postUrl; }, sTimeRedir[2]);
@@ -840,7 +840,7 @@ if (q2 == 'l'){
 //if (postUrl == ''&&postId != ''){ window.location.href = scriptDir + '?id=' + postId; }
 if (postUrl != ''&&String('' + window.location + '').indexOf("#StopRedirect") == -1){
 comMessagePrint = `Luck search, redirect to URL: ` + sTimeRedir[2] / 1000+` sec.`;
-window.location.href = '/search/?rUrl=' + postUrl;
+window.location.href = '/projects/redirects-25/?rUrl=' + postUrl;
 //window.location.href = postUrl;
 window.location.href = window.location.href + '#StopRedirect'; 
 //setTimeout(function(){ window.location.href = postUrl; }, sTimeRedir[2]);
@@ -972,7 +972,7 @@ if (q2 == 'l'){
 //if (postUrl == ''&&postId != ''){ window.location.href = scriptDir + '?id=' + postId; }
 if (postUrl != ''&&String('' + window.location + '').indexOf("#StopRedirect") == -1){
 comMessagePrint = `Luck search, redirect to URL: ` + sTimeRedir[2] / 1000+` sec.`;
-window.location.href = '/search/?rUrl=' + postUrl;
+window.location.href = '/projects/redirects-25/?rUrl=' + postUrl;
 //window.location.href = postUrl;
 window.location.href = window.location.href + '#StopRedirect'; 
 //setTimeout(function(){ window.location.href = postUrl; }, sTimeRedir[2]);
@@ -2948,7 +2948,7 @@ if (q2 == 'r'){
 if (lFoundQUrlRandom != ''){
 /*sTimeRedir[2] = 1200;
 comMessagePrint = `random URL: `+ sTimeRedir[2] / 1000 +` sec.`;*/
-//window.location.href = '/search/?rUrl=' + lFoundQUrlRandom;
+//window.location.href = '/projects/redirects-25/?rUrl=' + lFoundQUrlRandom;
 window.location.href = lFoundQUrlRandom;
 //setTimeout(function(){ window.location.href = postUrl; }, sTimeRedir[2]);
 window.location.href = window.location.href + '#StopRedirect'; 
