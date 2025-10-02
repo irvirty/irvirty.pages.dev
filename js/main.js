@@ -1,4 +1,4 @@
-// Main js v.7.2.0
+// Main js v.7.2.1
 // For second navigation, footer, themes, etc
 
 if (confD == undefined) { var confD = "/"; }
@@ -101,18 +101,18 @@ var confData = [
 "confValueVariant":["on", "off", "random"],
 },
 {
-"confTitle":"Tag cloud",
-"confDescription":`Tag cloud on the main page.`,
-"confName":"confTagCloudlStatus",
-"confValueDefault":"off",
-"confValueVariant":["on", "off"],
-},
-{
 "confTitle":"Second Navigation",
 "confDescription":"Second navigation (JS) over the current navigation. To improve where it is bad",
 "confName":"confMenu",
 "confValueDefault":"off",
 "confValueVariant":["on", "off", "random"],
+},
+{
+"confTitle":"Tag cloud",
+"confDescription":`Tag cloud on the main page.`,
+"confName":"confTagCloudlStatus",
+"confValueDefault":"off",
+"confValueVariant":["on", "off"],
 },
 {
 "confTitle":"Hide link extensions",

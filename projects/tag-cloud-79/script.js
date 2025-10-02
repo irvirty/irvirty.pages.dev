@@ -12,8 +12,6 @@ let confSymbolForSplit = "confSymbolForSplit";
 let color = 'silver';
 let size = '';
 
-tagList = '';
-
 /*tagCloudData = tagCloudData.toLowerCase();
 confSymbolForSplit = confSymbolForSplit.toLowerCase();*/
 
@@ -77,6 +75,7 @@ tagListCount = Object.keys(tagListCountLimited).sort().reduce(
   }, 
   {}
 );
+
 // end Taglist limit
 
 
@@ -84,7 +83,7 @@ tagListCount = Object.keys(tagListCountLimited).sort().reduce(
 /*tagAverage = (Math.min(...Object.values(tagListCount))+Math.max(...Object.values(tagListCount)))/2;
 //console.log(tagAverage);*/
 Object.values(tagListCount).forEach(function (x) {
-tagTotal = tagTotal+x;
+tagTotal = tagTotal + x;
 });
 tagAverage = tagTotal / Object.values(tagListCount).length;
 
@@ -155,15 +154,13 @@ sortedTags.forEach(entry => {
 const [key, value] = entry;
 
 
-
 tag = key.trim();
 tagCount = value;
-
 
 fuTag(tagCount);
 
 
-if (tag != ''){
+if (tag != ""){
 let printTag = tag;
 let printTag2 = tag.replaceAll(/#/g, "");
 let goTag = encodeURIComponent(tag);
