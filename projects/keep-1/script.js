@@ -1,4 +1,4 @@
-// Keep v.4.4.1
+// Keep v.4.5.0
 // The static version of my offline "keep" PHP script that saves things (links, notes, etc).
 // Inspired by Twitter, Google Keep
 // Not for large data files.
@@ -191,7 +191,7 @@ var url = new URL(window.location);
 
 var sTimeRedir = [];
 sTimeRedir[0] = 10000;
-sTimeRedir[2] = 1200; // Luck
+sTimeRedir[2] = 1200; // I'm Feeling Lucky
 
 var q = url.searchParams.get("q");
 
@@ -514,12 +514,12 @@ if ((qData2 + ' ').indexOf((qSearch + ' ')) >= 0){
 subQListFound.push(qSearch);
 var subQforLight = subQListFound.join(confSymbolForSplit);
 
-// Luck
+// I'm Feeling Lucky
 if (q2 == 'l'&&String('' + window.location + '').indexOf("#StopRedirect") == -1){
 //if (postUrl == ''&&postId != ''){ window.location.href = scriptDir + '?id=' + postId; }
 if (postUrl != ''){
 sTimeRedir[2] = 1200;
-comMessagePrint = `Luck search, redirect to URL: `+ sTimeRedir[2] / 1000 +` sec.`;
+comMessagePrint = `I'm Feeling Lucky, redirect to URL: `+ sTimeRedir[2] / 1000 +` sec.`;
 window.location.href = '/projects/redirects-25/?rUrl=' + postUrl;
 //window.location.href = postUrl;
 window.location.href = window.location.href + '#StopRedirect'; 
@@ -530,7 +530,7 @@ window.location.href = window.location.href + '#StopRedirect';
 }
 //console.log(postUrl);
 }
-// end Luck search
+// end I'm Feeling Lucky
 
 if (getP3 <= i){
 if (i3 <= postLimit - 1){
@@ -585,7 +585,7 @@ subQListFound.push(qSearchTmp);
 var subQforLight = subQListFound.join(confSymbolForSplit);
 
 
-// Luck
+// I'm Feeling Lucky
 if (q2 == 'l'&&String('' + window.location + '').indexOf("#StopRedirect") == -1){
 if (postUrl != ''){
 comMessagePrint = `Luck search, redirect to URL: ` + sTimeRedir[2] / 1000 +` sec.`;
@@ -599,7 +599,7 @@ window.location.href = window.location.href + '#StopRedirect';
 }
 //console.log(postUrl);
 }
-// end Luck search
+// end I'm Feeling Lucky
 
 if (getP3 <= i){
 if (i3 <= postLimit - 1){
@@ -697,7 +697,7 @@ postLimit = 1;
 if (getP2 == key){
 if (i <= postLimit - 1){
 
-// Luck
+// I'm Feeling Lucky
 if (mode == 'randomurl'&&String('' + window.location + '').indexOf("#StopRedirect") == -1){
 //if (postUrl == ''&&postId != ''){ window.location.href = scriptDir + '?id=' + postId; }
 if (postUrl != ''){
@@ -712,7 +712,7 @@ window.location.href = window.location.href + '#StopRedirect';
 }
 //console.log(postUrl);
 }
-// end Luck search
+// end I'm Feeling Lucky
 
 if (postText2 != ''){ postText2 = `
 
@@ -839,22 +839,23 @@ var subQforLight = subQListFound.join(confSymbolForSplit);
 
 if (checkFoundCounter == (qSearch.length)){
 
-// Luck
-if (q2 == 'l'){
+// I'm Feeling Lucky
+if (q2 == 'l'&&String('' + window.location + '').indexOf("#StopRedirect") == -1){
 //if (postUrl == ''&&postId != ''){ window.location.href = scriptDir + '?id=' + postId; }
-if (postUrl != ''&&String('' + window.location + '').indexOf("#StopRedirect") == -1){
-comMessagePrint = `Luck search, redirect to URL: ` + sTimeRedir[2] / 1000+` sec.`;
+if (postUrl != ''){
+sTimeRedir[2] = 1200;
+comMessagePrint = `I'm Feeling Lucky, redirect to URL: `+ sTimeRedir[2] / 1000 +` sec.`;
 window.location.href = '/projects/redirects-25/?rUrl=' + postUrl;
 //window.location.href = postUrl;
 window.location.href = window.location.href + '#StopRedirect'; 
 //setTimeout(function(){ window.location.href = postUrl; }, sTimeRedir[2]);
 } else {
 window.location.href = scriptDir + '?p2=' + key;
-window.location.href = window.location.href + '#StopRedirect';
+window.location.href = window.location.href + '#StopRedirect'; 
 }
 //console.log(postUrl);
 }
-// end Luck search
+// end I'm Feeling Lucky
 
 
 
@@ -913,17 +914,17 @@ checkFoundCounter = 0;
 
 
 
-};
+}
 
 checkFoundCounter = 0;
 
 
 });
 
-}
+};
 
 
-}
+};
 
 
 
@@ -1000,7 +1001,7 @@ if (checkDublicateId[0] != postId){ // fixed dublicate post when search and foun
 if (checkFoundCounter == (qSearchList.length)){
 
 // fixme for s3
-// Luck
+// I'm Feeling Lucky
 if (q2 == 'l'){
 //if (postUrl == ''&&postId != ''){ window.location.href = scriptDir + '?id=' + postId; }
 if (postUrl != ''&&String('' + window.location + '').indexOf("#StopRedirect") == -1){
@@ -1015,7 +1016,7 @@ window.location.href = window.location.href + '#StopRedirect';
 }
 //console.log(postUrl);
 }
-// end Luck search
+// end I'm Feeling Lucky
 
 if (getP3 <= i){
 if (i3 <= postLimit - 1){
