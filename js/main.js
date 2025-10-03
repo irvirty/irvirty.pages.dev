@@ -1,4 +1,4 @@
-// Main js v.7.2.1
+// Main js v.7.3.0
 // For second navigation, footer, themes, etc
 
 if (confD == undefined) { var confD = "/"; }
@@ -1228,13 +1228,13 @@ opacity: .06;
 
 
 
-// Cookie (auto) v.2.1.0
+// Cookie (auto) v.2.2.0
 if (document.getElementById('fPrivacy') != null){
 document.getElementById('fPrivacy').innerHTML = `Cookie: (${conf["confDataCollection"]})`;
 }
 
 if (conf["confDataCollection"] == 'auto'){
-if (navigator.doNotTrack == 1||navigator.globalPrivacyControl == true){
+if (fuMBrowserDoNotShareDataConfig() == "on"){
 conf["confDataCollection"] = "off";
 }
 
@@ -1257,6 +1257,13 @@ document.getElementById("disableEmbedMsg").innerHTML = conf["confEmbedBlockMsg"]
 }
 }
 }
+
+function fuMBrowserDoNotShareDataConfig(){
+if (navigator.doNotTrack == 1||navigator.globalPrivacyControl == true){
+return "on";
+}
+}
+//alert(fuMBrowserDoNotShareDataConfig());
 
 // end Cookie (auto)
 
@@ -1475,9 +1482,25 @@ fuMEmbedScript(confD + `data/adsJsonVar.js`, conf["confIdEmbedScript"]);
 fuMEmbedScript(confD + `js/ads.js`, conf["confIdEmbedScript"]);
 }
 
+
+// Cookie popup
 if (conf["confDataCollection"] == 'not selected'){
+/*
+if (fuMBrowserDoNotShareDataConfig() == "on"){
+localStorage.setItem("confDataCollection", "off");
+conf["confDataCollection"] = "off";
+
+if (document.getElementById('fPrivacy') != null){
+document.getElementById('fPrivacy').innerHTML = `Cookie: (${conf["confDataCollection"]})`;
+}
+
+} else {
+fuMEmbedScript(confD + `js/cookie-agree-popup.js`, conf["confIdEmbedScript"]);
+}*/
 fuMEmbedScript(confD + `js/cookie-agree-popup.js`, conf["confIdEmbedScript"]);
 }
+// end Cookie popup
+
 
 if (conf["confDataCollection"] == "on"){
 fuMEmbedScript(`https://www.googletagmanager.com/gtag/js?id=${conf["confGoogleAnalyticsId"]}`, conf["confIdEmbedScript"]);
