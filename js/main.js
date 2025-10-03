@@ -1,4 +1,4 @@
-// Main js v.7.3.0
+// Main js v.7.3.1
 // For second navigation, footer, themes, etc
 
 if (confD == undefined) { var confD = "/"; }
@@ -1413,12 +1413,6 @@ text = text.replaceAll(/"/g, '%22');
 text = text.replaceAll(/'/g, '%27');
 return text;
 }
-}
-
-//https://stackoverflow.com/questions/822452/strip-html-tags-from-text-using-plain-javascript/47140708#47140708
-function fuMStrip(html){
-let doc = new DOMParser().parseFromString(html, 'text/html');
-return doc.body.textContent || "";
 }
 
 //https://stackoverflow.com/questions/15968911/how-to-clear-text-area-with-a-button-in-html-using-javascript
