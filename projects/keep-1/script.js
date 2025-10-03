@@ -1,4 +1,4 @@
-// Keep v.4.5.0
+// Keep v.4.5.1
 // The static version of my offline "keep" PHP script that saves things (links, notes, etc).
 // Inspired by Twitter, Google Keep
 // Not for large data files.
@@ -1002,17 +1002,18 @@ if (checkFoundCounter == (qSearchList.length)){
 
 // fixme for s3
 // I'm Feeling Lucky
-if (q2 == 'l'){
+if (q2 == 'l'&&String('' + window.location + '').indexOf("#StopRedirect") == -1){
 //if (postUrl == ''&&postId != ''){ window.location.href = scriptDir + '?id=' + postId; }
-if (postUrl != ''&&String('' + window.location + '').indexOf("#StopRedirect") == -1){
-comMessagePrint = `Luck search, redirect to URL: ` + sTimeRedir[2] / 1000+` sec.`;
+if (postUrl != ''){
+sTimeRedir[2] = 1200;
+comMessagePrint = `I'm Feeling Lucky, redirect to URL: `+ sTimeRedir[2] / 1000 +` sec.`;
 window.location.href = '/projects/redirects-25/?rUrl=' + postUrl;
 //window.location.href = postUrl;
 window.location.href = window.location.href + '#StopRedirect'; 
 //setTimeout(function(){ window.location.href = postUrl; }, sTimeRedir[2]);
 } else {
 window.location.href = scriptDir + '?p2=' + key;
-window.location.href = window.location.href + '#StopRedirect';
+window.location.href = window.location.href + '#StopRedirect'; 
 }
 //console.log(postUrl);
 }
