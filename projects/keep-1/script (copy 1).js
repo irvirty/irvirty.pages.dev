@@ -837,6 +837,7 @@ checkFoundCounter++;
 subQListFound.push(item3344);
 var subQforLight = subQListFound.join(confSymbolForSplit);
 
+
 if (checkFoundCounter == (qSearch.length)){
 
 // Luck
@@ -932,8 +933,141 @@ checkFoundCounter = 0;
 if (mode == 'search'&&comMessage != 'found') { comMessagePrint = `${q} Probably not found`; }
 // end s2 new Search 2
 
+
 /*
-// s3, search 3
+// s3 Search 3, word
+
+if (mode == 'search'&&comMessage != 'found'){
+
+var subQListFound = [];
+
+comMessagePrint = '';
+
+if (q != ''){
+
+//qSearch = String(q.toLowerCase()).replaceAll(/ /g, "|"); //if ((qData).search(qSearch) != -1){}
+//qSearch = decodeURIComponent(q);
+qSearch = (q);
+qSearch = String(qSearch).toLowerCase();
+
+qSearch = (qSearch + ' ').split(' ');
+//https://stackoverflow.com/questions/55685037/how-to-remove-empty-array-values-from-an-array
+qSearch = qSearch.filter(item => item);
+
+jsonVar.forEach((item, key) => {
+
+postId = '';
+postText = '';
+postText2 = '';
+postText3 = '';
+postTag = '';
+postUrl = '';
+postTime = '';
+rightFooter = '';
+
+if (item['id'] != null){ postId = item['id']; }
+if (item['text'] != null){ postText = item['text']; }
+if (item['text2'] != null){ postText2 = item['text2']; }
+if (item['text3'] != null){ postText3 = item['text3']; }
+if (item['tag'] != null){ postTag = item['tag']; }
+if (item['url'] != null){ postUrl = item['url']; }
+if (item['time'] != null){ postTime = item['time']; }
+if (item['rightFooter'] != null){ rightFooter = item['rightFooter']; }
+
+postText = postText.trim();
+
+qData = String(postText + ' ' + postUrl + ' ' + postText2 + ' ' + postText3 + ' ' + postTag).toLowerCase();
+
+
+let checkFound = 0;
+
+//https://stackoverflow.com/questions/55685037/how-to-remove-empty-array-values-from-an-array
+qSearch = qSearch.filter(item => item);
+
+for (const item3344 of qSearch) {
+    // ...use `element`...
+// query
+//if ((qData.split(item)).length > 1&&item334 != ''){
+if ((qData.indexOf(item3344)) != -1&&item3344 != ''){
+subQListFound.push(item3344);
+var subQforLight = subQListFound.join(confSymbolForSplit);
+
+// Luck
+if (q2 == 'l'){
+//if (postUrl == ''&&postId != ''){ window.location.href = scriptDir + '?id=' + postId; }
+if (postUrl != ''&&String('' + window.location + '').indexOf("#StopRedirect") == -1){
+comMessagePrint = `Luck search, redirect to URL: ` + sTimeRedir[2] / 1000+` sec.`;
+window.location.href = '/projects/redirects-25/?rUrl=' + postUrl;
+//window.location.href = postUrl;
+window.location.href = window.location.href + '#StopRedirect'; 
+//setTimeout(function(){ window.location.href = postUrl; }, sTimeRedir[2]);
+} else {
+window.location.href = scriptDir + '?p2=' + key;
+window.location.href = window.location.href + '#StopRedirect';
+}
+//console.log(postUrl);
+}
+// end Luck search
+
+
+
+
+if (getP3 <= i){
+if (i3 <= postLimit - 1){
+//printPost += fuPrintPost(postId, '', postText + ' ' + postUrl, postTag, postTime, subQforLight, rightFooter, rightFooter);
+if (display == "all"||mode == "search"){
+
+if (postText2 != ''){ postText2 = `
+
+` + postText2; };
+if (postText3 != ''){ postText3 = `
+
+` + postText3; };
+printPost += fuPrintPost(postId, '', postText + ' ' + postUrl + postText2 + postText3, postTag, postTime, subQforLight, rightFooter);
+} else {
+printPost += fuPrintPost(postId, '', postText + ' ' + postUrl, postTag, postTime, subQforLight, rightFooter);
+}
+}
+i3++;
+}
+i++;
+total = i;
+subQListFound = [...new Set(subQListFound)];
+comMessagePrint = `${q} (s3: ${subQListFound}) ${i}`;
+qData = '';
+checkFound = '';
+comMessage = 'found';
+
+// collect for random
+if (postUrl == ''&&postId != ''){
+//lFoundQUrlList.push(scriptDir + '?id=' + postId);
+lFoundQUrlList.push(scriptDir + '?p2=' + key);
+} else {
+lFoundQUrlList.push(postUrl);
+}
+
+}
+
+};
+
+
+});
+
+}
+
+
+}
+
+
+
+
+
+if (mode == 'search'&&comMessage != 'found') { comMessagePrint = `${q} Probably not found`; }
+// end s3 Search 3
+*/
+
+
+// s4, search 4
 if (mode == 'search'&&comMessage != 'found'){
 var subQ = [];
 comMessagePrint = '';
@@ -944,10 +1078,6 @@ if (q != ''){
 qSearch = (q);
 qSearch = String(qSearch).toLowerCase();
 var qSearchList = (qSearch + ' ').split(' ');
-//https://stackoverflow.com/questions/55685037/how-to-remove-empty-array-values-from-an-array
-qSearchList = qSearchList.filter(item => item);
-
-var checkFoundCounter = 0;
 
 jsonVar.forEach((item, key) => {
 
@@ -985,19 +1115,13 @@ qData.forEach(function(item336) { // foreach post word and quary for search
 qSearchList.forEach((qSearchListItem) => {
 //console.log(fuzzySearch(item336, qSearchListItem));
 if (fuzzySearch(item336, qSearchListItem) == true&&item336 != ''&&qSearchListItem != ''){
-
-checkFoundCounter++;
-
 //var subQ = 's3: ' + item336 + ',';
 subQ.push(String(item336).trim() + ' ');
 //https://stackoverflow.com/questions/9229645/remove-duplicate-values-from-js-array
 subQ = [...new Set(subQ)];
-
 var subQforLight = subQ.join(confSymbolForSplit);
 
 if (checkDublicateId[0] != postId){ // fixed dublicate post when search and found
-
-if (checkFoundCounter == (qSearchList.length)){
 
 // fixme for s3
 // Luck
@@ -1037,7 +1161,7 @@ i3++;
 i++;
 total = i;
 let subQprint = subQ.slice(0, 5).join(", ") + ' ...';
-comMessagePrint = `${q} (s3: ${subQprint}) ${i}`;
+comMessagePrint = `${q} (s4: ${subQprint}) ${i}`;
 qData = '';
 comMessage = 'found';
 checkDublicateId[0] = postId;
@@ -1050,32 +1174,19 @@ lFoundQUrlList.push(scriptDir + '?p2=' + key);
 lFoundQUrlList.push(postUrl);
 }
 
-if (checkFoundCounter == (qSearch.length)){
-console.log((qSearch.length));
-//console.log((subQforLight));
-comMessage = "found";
-//alert("test");
-checkFoundCounter = 0;
-}
-
-}
-
 }
 }
 })
 
 
 })
-
-checkFoundCounter = 0;
-
 })
 }
 };
 
 if (mode == 'search'&&comMessage != 'found') { comMessagePrint = `${q} Probably not found`; }
-// end s3, search 3
-*/
+// end s4, search 4
+
 
 
 let keepStyle = "";
