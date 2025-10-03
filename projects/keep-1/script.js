@@ -1,4 +1,4 @@
-// Keep v.4.4.0
+// Keep v.4.4.1
 // The static version of my offline "keep" PHP script that saves things (links, notes, etc).
 // Inspired by Twitter, Google Keep
 // Not for large data files.
@@ -458,7 +458,7 @@ if (mode == 'list'&&tagListStatus == 'on'){
 
 /*print += `
 <!--<div class="block tCenter padding2">
-mode:${mode} id:${id} q:${q} p:${getP} p2:${getP2}
+mode:${mode} id:${id} | q:${q}| p:${getP} | p2:${getP2}
 <a href="?id=">random</a>
 </div>-->
 `;*/
@@ -555,7 +555,7 @@ i3++;
 i++;
 total = i;
 subQListFound = [...new Set(subQListFound)];
-comMessagePrint = `${q} (s1.1: ${subQListFound}) ${i}`;
+comMessagePrint = `${q} | (s1.1: ${subQListFound}) | ${i}${i} results`;
 comMessage = 'found';
 
 // collect for random
@@ -628,7 +628,7 @@ subQListFound = [...new Set(subQListFound)];
 subQListFound = subQListFound.join(",");
 subQListFound = subQListFound.replaceAll(confSymbolForSplit, ' ');
 
-comMessagePrint = `${q} (s1.2: ${subQListFound}) ${i}`;
+comMessagePrint = `${q} | (s1.2: ${subQListFound}) | ${i} results`;
 comMessage = 'found';
 
 // collect for random
@@ -644,7 +644,7 @@ lFoundQUrlList.push(postUrl);
 
 
 
-if (comMessage != 'found') { comMessagePrint = `${q} Probably not found`; }
+if (comMessage != 'found') { comMessagePrint = `${q} | Probably not found`; }
 break;
 // end search 1
 
@@ -686,7 +686,7 @@ i++;
 getP = key;
 }
 }
-if (comMessagePrint == '') { comMessagePrint = `${q} Probably not found`; }
+if (comMessagePrint == '') { comMessagePrint = `${q} | Probably not found`; }
 // end s1
 break;
 
@@ -880,7 +880,7 @@ i3++;
 i++;
 total = i;
 subQListFound = [...new Set(subQListFound)];
-comMessagePrint = `${q} (s2 new: ${subQListFound}) ${i}`;
+comMessagePrint = `${q} | s2: ${subQListFound} | ${i} results`;
 qData = "";
 checkFound = "";
 //comMessage = "found";
@@ -929,7 +929,7 @@ checkFoundCounter = 0;
 
 
 
-if (mode == 'search'&&comMessage != 'found') { comMessagePrint = `${q} Probably not found`; }
+if (mode == 'search'&&comMessage != 'found') { comMessagePrint = `${q} | Probably not found`; }
 // end s2 new Search 2
 
 /*
@@ -1037,7 +1037,7 @@ i3++;
 i++;
 total = i;
 let subQprint = subQ.slice(0, 5).join(", ") + ' ...';
-comMessagePrint = `${q} (s3: ${subQprint}) ${i}`;
+comMessagePrint = `${q} | (s3: ${subQprint}) | ${i} results`;
 qData = '';
 comMessage = 'found';
 checkDublicateId[0] = postId;
@@ -1073,7 +1073,7 @@ checkFoundCounter = 0;
 }
 };
 
-if (mode == 'search'&&comMessage != 'found') { comMessagePrint = `${q} Probably not found`; }
+if (mode == 'search'&&comMessage != 'found') { comMessagePrint = `${q} | Probably not found`; }
 // end s3, search 3
 */
 
@@ -1263,7 +1263,7 @@ input.setAttribute("value", dMode);
 document.getElementById("keepForm").appendChild(input);
 
 
-comMessagePrint = `mode: ${mode} ` + comMessagePrint;
+comMessagePrint = `mode: ${mode} | ` + comMessagePrint;
 if (comMessagePrint != ''){
 if (document.getElementById('comMsg') != null){
 

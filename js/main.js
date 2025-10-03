@@ -1408,6 +1408,12 @@ return text;
 }
 }
 
+//https://stackoverflow.com/questions/822452/strip-html-tags-from-text-using-plain-javascript/47140708#47140708
+function fuMStrip(html){
+let doc = new DOMParser().parseFromString(html, 'text/html');
+return doc.body.textContent || "";
+}
+
 //https://stackoverflow.com/questions/15968911/how-to-clear-text-area-with-a-button-in-html-using-javascript
 function fuMResetForm(idOrClass) {
 if (idOrClass != undefined&&idOrClass != null&&idOrClass != ""){

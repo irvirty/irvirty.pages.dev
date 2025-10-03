@@ -358,7 +358,7 @@ document.getElementById('urlDayNow').innerHTML = `<a class="brand inlineBlock pa
 </noscript>
 <div class="padding2 margin2"></div>
 
-<!-- tag cloud -->
+<!-- tag cloud 1.0.0 -->
 <aside>
 <div class="wrapper2 tCenter">
 
@@ -633,6 +633,7 @@ let tagListLimit = "38";
 
 tagCloudData = tagList;
 
+
 let confSymbolForSplit = "confSymbolForSplit";
 let color = fuMRandomItem(tagListColor);
 let size = '';
@@ -795,8 +796,12 @@ fuTag(tagCount);
 
 if (tag != ""){
 let printTag = tag;
+
 let printTag2 = tag.replaceAll(/#/g, "");
 let printTagUrl = encodeURIComponent(tag);
+
+printTag = fuMClearText(printTag);
+
 
 switch (mode) {
 
