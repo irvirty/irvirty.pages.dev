@@ -296,7 +296,11 @@ return time + ' ago';
 
 <!--<script src="/js/fuPostTime.js"></script>-->
 <script>
+window.onload = () => {
+if (document.getElementById("last-update") != null){
 document.getElementById("last-update").innerHTML = fuPostTime(1759481539);
+}
+};
 </script>
 
 <!--<script>
@@ -580,6 +584,7 @@ dateArr = dateArr.slice(-500);
 <script>
 
 if (conf["confTagCloudlStatus"] == "on"){
+window.onload = () => {
 
 document.getElementById("printTagsHeader").innerHTML = `
 
@@ -941,6 +946,7 @@ document.getElementById("tagListEditForm").innerHTML = ``;
 tagListCloud("");
 }
 
+}
 }
 </script>
 

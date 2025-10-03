@@ -1,7 +1,9 @@
 // Speed dial v.1.14.2
 //https://developer.mozilla.org/en-US/docs/Web/API/Storage
 
+
 function fuLSpeedDial(idForPrint, text, url, com){
+
 
 //https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/typeof
 /*if (typeof conf === "undefined"){
@@ -189,7 +191,9 @@ lNaturalSort(confSpeedDialDataArr);
 localStorage.setItem("confSpeedDialData", JSON.stringify(confSpeedDialDataArr));
 }
 
+onload = (event) => {
 fuLSpeedDial("speedDialPrint", "", "", "print");
+}
 break;
 
 
@@ -211,7 +215,9 @@ confSpeedDialDataArr.push({text:text, url:url});
 localStorage.setItem("confSpeedDialData", JSON.stringify(confSpeedDialDataArr));
 }
 
+onload = (event) => {
 fuLSpeedDial("speedDialPrint", "", "", "print");
+}
 break;
 
 
@@ -245,8 +251,9 @@ lNaturalSort(confSpeedDialDataArrUpdate);
 //https://stackoverflow.com/questions/23728626/localstorage-and-json-stringify-json-parse
 localStorage.setItem("confSpeedDialData", JSON.stringify(confSpeedDialDataArrUpdate));
 
+onload = (event) => {
 fuLSpeedDial("speedDialPrint", "", "", "print");
-
+}
 break;
 
 
@@ -333,7 +340,9 @@ if (document.getElementById("speedDialSettingPrint") != null){
 document.getElementById("speedDialSettingPrint").innerHTML = printSettings; 
 }
 
+onload = (event) => {
 fuLSpeedDial("speedDialPrint", "", "", "print");
+}
 break;
 
 
@@ -362,7 +371,9 @@ confSpeedDialDataArr.push({text:text, url:url});
 localStorage.setItem("confSpeedDialData", JSON.stringify(confSpeedDialDataArr));
 }
 
+onload = (event) => {
 //fuLSpeedDial("speedDialPrint", "", "", "print");
+}
 fuMReload();
 break;
 
@@ -393,9 +404,7 @@ return arr.sort(collator.compare);
 }
 
 
-
 }
-
 
 
 
