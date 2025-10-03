@@ -42,7 +42,7 @@
     {
         "id": "114",
         "text": "HTMLElement: innerText property - Web APIs | MDN",
-        "text2": "===\r\nconst source = document.getElementById(\"source\");\r\nconst textContentOutput = document.getElementById(\"textContentOutput\");\r\nconst innerTextOutput = document.getElementById(\"innerTextOutput\");\r\n\r\ntextContentOutput.value = source.textContent;\r\ninnerTextOutput.value = source.innerText;",
+        "text2": "===\r\nconst source = document.getElementById(\"source\");\r\nconst textContentOutput = document.getElementById(\"textContentOutput\");\r\nconst innerTextOutput = document.getElementById(\"innerTextOutput\");\r\n\r\ntextContentOutput.value = source.textContent;\r\ninnerTextOutput.value = source.innerText;\r\n===\r\ndocument.getElementById(\"testId\").innerText = value;",
         "text3": "",
         "url": "https:\/\/developer.mozilla.org\/en-US\/docs\/Web\/API\/HTMLElement\/innerText",
         "tag": "#JS #JavaScript #code #coding #programming",
