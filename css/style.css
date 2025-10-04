@@ -6,7 +6,7 @@ src: url('/fonts/Roboto-Regular.ttf')  format('truetype');
 font-display: swap;
 }
 
-/* Navigation CSS v.3.1.0 */
+/* Navigation CSS v.3.2.0 */
 
 .topNav form, .topNav input[type=search] { display: inline-block; }
 .topNav form { width: 100%; max-width: 130px; vertical-align: middle; }
@@ -36,7 +36,7 @@ text-align: center;
 }
 
 /* fix for mobile */
- @media (max-width: 500px){
+ @media only screen and (max-width: 500px){
 .topNav nav {
 justify-content: left;
 align-items: center;
@@ -117,6 +117,10 @@ transition: transform 1.5s ease-in-out;
 
 @media (prefers-reduced-motion) {
 .logo:hover, .logo2:hover{ border-color: var(--c); }
+}
+
+#siteSearch {
+border-radius: 15px;
 }
 
 /* .screenReader in main.css */

@@ -441,10 +441,10 @@ var sitemapJsonVar = [
         "time": "id"
     },
     {
-        "text": "Navigation\n\nNavigation. Navigation for website. Menu for website. Site navigation using CSS and JavaScript with a dropdown menu. | navigation or menu: ",
-        "url": "\/projects\/navigation-or-menu-71\/index.html",
+        "text": "Navigation\n\nNavigation. Navigation for website. Menu for website. Site navigation using CSS and JavaScript with a dropdown menu. | navigation menu: ",
+        "url": "\/projects\/navigation-menu-71\/index.html",
         "tag": " #Navigation #dropdown #menu #HTML #CSS #JavaScript #project",
-        "id": "23111949437d3b726d147827e4e19733",
+        "id": "ecdd6f178995c6b62a40ec31083cb7cd",
         "time": "id"
     },
     {
