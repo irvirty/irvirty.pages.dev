@@ -26,7 +26,7 @@ text-align: center;
 	}
 }
 
-#snow {
+#drop {
 	position: absolute;
 	z-index: -1;
 	width: 100vw;
@@ -36,7 +36,7 @@ text-align: center;
 	background-color: #90a4ae;
 }
 
-.snowflake {
+.dropflake {
 	/*font-size: 2rem;*/
 	font-size: 1rem;
 	/*filter: brightness(1.75);*/
@@ -63,7 +63,7 @@ transform: scaleY(1);
 	top: 100vh;
 }
 
-#snowPrint {
+#dropPrint {
 	display: block;
 	position: absolute;
 	width: 100vw;
@@ -79,7 +79,7 @@ transform: scaleY(1);
 	animation: ani 6s linear infinite;
 }
 
-/*.snowflake {
+/*.dropflake {
 	animation: ani2 45s linear infinite;
 }*/
 

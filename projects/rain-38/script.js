@@ -1,16 +1,27 @@
 // v.2.0.0
 // only for many random div with different position
 
+let rainDropConfig = "";
+rainDropConfig = localStorage.getItem("rainDropConfig");
+
+function rainDropConfigClick(config){
+if (config == "full"){ localStorage.setItem("rainDropConfig", "full"); fuMReload(); }
+if (config == "light"){ localStorage.setItem("rainDropConfig", "light"); fuMReload(); }
+}
+
+if (rainDropConfig == "light"){
+
+} else {
 let n = 0;
 var print = "";
-let min = 50;
-let max = 200;
+let min = 30;
+let max = 300;
 // https://stackoverflow.com/questions/4959975/generate-random-number-between-two-numbers-in-javascript
-var snowflake = Math.floor(Math.random() * (max - min + 1) + min);
+var dropflake = Math.floor(Math.random() * (max - min + 1) + min);
 
-while (n <= snowflake) {
+while (n <= dropflake) {
 	print +=
-		`<div class="snowflake" style="position: absolute; top:` +
+		`<div class="dropflake" style="position: absolute; top:` +
 		Math.floor(Math.random() * 100) +
 		`%; left:` +
 		Math.floor(Math.random() * 100) +
@@ -32,20 +43,21 @@ print =
 
 `;
 
-document.getElementById("snowPrint").innerHTML = print;
+document.getElementById("dropPrint").innerHTML = print;
+}
 
 //if (conf["confDataCollection"] == "on"||conf["confDataCollection"] == "allow embed"){}
 
-let rainAudoConfig = "";
-rainAudoConfig = localStorage.getItem("rainAudoConfig");
+let rainAudioConfig = "";
+rainAudioConfig = localStorage.getItem("rainAudioConfig");
 
-function rainAudoConfigClick(config){
-if (config == "rain"){ localStorage.setItem("rainAudoConfig", "rain"); fuMReload(); }
-if (config == "noise"){ localStorage.setItem("rainAudoConfig", "noise"); fuMReload(); }
+function rainAudioConfigClick(config){
+if (config == "rain"){ localStorage.setItem("rainAudioConfig", "rain"); fuMReload(); }
+if (config == "noise"){ localStorage.setItem("rainAudioConfig", "noise"); fuMReload(); }
 }
 
 
-switch (rainAudoConfig) {
+switch (rainAudioConfig) {
 
 case "noise":
 
@@ -55,14 +67,12 @@ document.getElementById("printAudio").innerHTML = `
 <!--https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/audio#-->
 <div class="op">
 <figure>
-  <figcaption>white-noise.mp3:</figcaption>
+  <figcaption>white-noise.mp3</figcaption>
   <audio controls autoplay loop src="${confD}audio/white-noise.mp3"></audio>
 <br>
   <a href="${confD}audio/white-noise.mp3"> Download audio </a>
 </figure>
 </div>
-
-<a class="brand" title="Click to do something" href="#" onclick="rainAudoConfigClick('rain');return false;">rain (audio)</a>
 
 `;
 }
@@ -77,17 +87,31 @@ document.getElementById("printAudio").innerHTML = `
 <!--https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/audio#-->
 <div class="op">
 <figure>
-  <figcaption>rain.mp3:</figcaption>
+  <figcaption>rain.mp3</figcaption>
   <audio controls autoplay loop src="${confD}audio/rain.mp3"></audio>
 <br>
   <a href="${confD}audio/rain.mp3"> Download audio </a>
 </figure>
 </div>
 
-<a class="brand" title="Click to do something" href="#" onclick="rainAudoConfigClick('noise');return false;">noise (audio)</a>
-
 `;
 }
 
+}
+
+if (document.getElementById("printMode") != null){
+document.getElementById("printMode").innerHTML = `
+<!--Mode:-->
+<!--<span class="inlineBlock padding" style="padding-right: 0;">Rain:</span>
+<a class="brand inlineBlock padding" title="Click to do something" href="#" onclick="rainDropConfigClick('full');return false;">full</a>
+| 
+<a class="brand inlineBlock padding" title="Click to do something" href="#" onclick="rainDropConfigClick('light');return false;">light</a>
+/-->
+<span class="inlineBlock padding" style="padding-right: 0;">Audio:</span>
+<a class="brand inlineBlock padding" title="Click to do something" href="#" onclick="rainAudioConfigClick('rain');return false;">rain</a>
+|
+<a class="brand inlineBlock padding" title="Click to do something" href="#" onclick="rainAudioConfigClick('noise');return false;">noise</a>
+
+`;
 }
 
