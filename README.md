@@ -17,7 +17,7 @@ Search redirect, games, to-do list, links, tools, music collection, images, icon
 • Themes for the Firefox browser and Geany IDE.  
 • WP: SimpleHomepage experimental theme for WordPress (homepage, blog, microblog).  
 • Website templates.  
-• Other features include news, images, icons, and CSS art.
+• Other: news, images, icons, CSS art, menu for the website, etc.  
   
 ---
   
