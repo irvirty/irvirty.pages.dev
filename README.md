@@ -4,7 +4,7 @@
   
 # irvirty.pages.dev
   
-Search redirect, games, to-do list, links, tools, music collection, images, icons, microblog, news, browser themes and extensions, WP theme, site templates ...
+Search redirect, links, news, games, music collection, images, microblog, to-do list, tools, browser themes and extensions, WP theme, site templates, icons
   
 ---
   
@@ -17,7 +17,7 @@ Search redirect, games, to-do list, links, tools, music collection, images, icon
 • Themes for the Firefox browser and Geany IDE.  
 • WP: SimpleHomepage experimental theme for WordPress (homepage, blog, microblog).  
 • Website templates.  
-• Other: news, images, icons, CSS art, menu for the website, etc.  
+• Other: news, images, icons, CSS art, navigation menu for a website, etc.  
   
 ---
   
