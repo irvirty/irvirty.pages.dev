@@ -3,6 +3,16 @@ var notesJsonVar =
 
 [
     {
+        "id": "119",
+        "text": "<legend>: The Field Set Legend element - HTML | MDN",
+        "text2": "===\r\n<fieldset>\r\n  <legend>Choose your favorite monster<\/legend>\r\n\r\n  <input type=\"radio\" id=\"kraken\" name=\"monster\" value=\"K\" \/>\r\n  <label for=\"kraken\">Kraken<\/label><br \/>\r\n\r\n  <input type=\"radio\" id=\"sasquatch\" name=\"monster\" value=\"S\" \/>\r\n  <label for=\"sasquatch\">Sasquatch<\/label><br \/>\r\n\r\n  <input type=\"radio\" id=\"mothman\" name=\"monster\" value=\"M\" \/>\r\n  <label for=\"mothman\">Mothman<\/label>\r\n<\/fieldset>",
+        "text3": "",
+        "url": "https:\/\/developer.mozilla.org\/en-US\/docs\/Web\/HTML\/Reference\/Elements\/legend",
+        "tag": "#HTML #code #coding",
+        "time": 1759530898,
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/notes\/?id=119\"  title=\"id=119 (permanent link)\" >id<\/a>"
+    },
+    {
         "id": "118",
         "text": "CSS tag size in pixel",
         "text2": "===\r\nxx-small: 9px\r\nx-small: 10px\r\nsmall: 13px\r\nmedium: 16px\r\nlarge: 18px\r\nx-large: 24px\r\nxx-large: 32px\r\nxxx-large: 48px\r\n===\r\nSource:\r\n- AI Overview\r\n- CSS Font-Size: A Tutorial on Text Sizing in CSS | Career Karma - https:\/\/careerkarma.com\/blog\/css-font-size\/\r\n- CSS Font-Size Property - Scaler Topics - https:\/\/www.scaler.com\/topics\/font-size-in-css\/",
