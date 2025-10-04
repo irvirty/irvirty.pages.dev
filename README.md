@@ -4,20 +4,7 @@
   
 # irvirty.pages.dev
   
-Search redirect, links, news, games, music collection, images, microblog, to-do list, tools, browser themes and extensions, WP theme, site templates, icons
-  
----
-  
-## Features:
-• 50+ themes with theme modes.  
-• Speed ​​dial panel (pin page).  
-• JavaScript games: typing speed (WPM), snake, memory symbol, and tic-tac-toe.  
-• To-do List, start page with timer, and tools.   
-• Extensions: new tab redirect, auto theme switcher (Firefox only).  
-• Themes for the Firefox browser and Geany IDE.  
-• WP: SimpleHomepage experimental theme for WordPress (homepage, blog, microblog).  
-• Website templates.  
-• Other: news, images, icons, CSS art, navigation menu for a website, etc.  
+Search redirect, links, news, games, music collection, images, microblog, to-do list, tools, browser themes and extensions, WP theme, site templates, icons ...
   
 ---
   
