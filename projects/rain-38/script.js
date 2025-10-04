@@ -35,20 +35,44 @@ print =
 document.getElementById("snowPrint").innerHTML = print;
 
 //if (conf["confDataCollection"] == "on"||conf["confDataCollection"] == "allow embed"){}
-	if (document.getElementById("printAudio") != null){
-		document.getElementById("printAudio").innerHTML = `
 
-<!--<audio controls width="250" autoplay="autoplay">
-  <source src="https://upload.wikimedia.org/wikipedia/commons/9/99/Mountain_Stream_Rain_Shower_ASMR.webm" type="video/webm">
-</audio>
+let rainAudoConfig = "";
+rainAudoConfig = localStorage.getItem("rainAudoConfig");
 
+function rainAudoConfigClick(config){
+if (config == "rain"){ localStorage.setItem("rainAudoConfig", "rain"); fuMReload(); }
+if (config == "noise"){ localStorage.setItem("rainAudoConfig", "noise"); fuMReload(); }
+}
+
+
+switch (rainAudoConfig) {
+
+case "noise":
+
+if (document.getElementById("printAudio") != null){
+document.getElementById("printAudio").innerHTML = `
+
+<!--https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/audio#-->
+<div class="op">
+<figure>
+  <figcaption>white-noise.mp3:</figcaption>
+  <audio controls autoplay loop src="${confD}audio/white-noise.mp3"></audio>
 <br>
+  <a href="${confD}audio/white-noise.mp3"> Download audio </a>
+</figure>
+</div>
 
-<a class="brand button" target="blank" href="https://commons.wikimedia.org/wiki/File:Mountain_Stream_Rain_Shower_ASMR.webm">File:Mountain Stream Rain Shower ASMR.webm - Wikimedia Commons</a><br>
+<a class="brand" title="Click to do something" href="#" onclick="rainAudoConfigClick('rain');return false;">rain (audio)</a>
 
-License: <a href="https://commons.wikimedia.org/wiki/File:Mountain_Stream_Rain_Shower_ASMR.webm">Jarrod stanley</a>, CC0, via Wikimedia Commons<br>
+`;
+}
 
--->
+break;
+
+default:
+
+if (document.getElementById("printAudio") != null){
+document.getElementById("printAudio").innerHTML = `
 
 <!--https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/audio#-->
 <div class="op">
@@ -60,9 +84,10 @@ License: <a href="https://commons.wikimedia.org/wiki/File:Mountain_Stream_Rain_S
 </figure>
 </div>
 
+<a class="brand" title="Click to do something" href="#" onclick="rainAudoConfigClick('noise');return false;">noise (audio)</a>
+
 `;
-
-
+}
 
 }
 

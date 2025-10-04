@@ -1,6 +1,10 @@
 
 # Navigation menu
 
+## Screenshot:
+  
+[![screenshot](screenshot.png)](screenshot)
+
 ## Navigation consists of several parts:
 
 - HTML navigation code in the index.html file.
@@ -12,11 +16,5 @@
 
 - JS config. In the JS file or in the script, you need to specify the width of your "wrapper" in pixels from your CSS file.
 - CSS changes required. Navigation uses main.css and auto.css (colors) of this site.
-  
----  
-  
-## Screenshot:
-  
-[![screenshot](screenshot)](screenshot)
 
 

@@ -475,7 +475,7 @@ var notesJsonVar =
     {
         "id": "71",
         "text": "JavaScript - href vs onclick for callback function on Hyperlink - Stack Overflow",
-        "text2": "<a id=\"myLink\" title=\"Click to do something\"\r\n href=\"PleaseEnableJavascript.html\" onclick=\"MyFunction();return false;\">link text<\/a>",
+        "text2": "<a id=\"myLink\" title=\"Click to do something\" href=\"PleaseEnableJavascript.html\" onclick=\"MyFunction();return false;\">link text<\/a>",
         "text3": "",
         "url": "https:\/\/stackoverflow.com\/questions\/1070760\/javascript-href-vs-onclick-for-callback-function-on-hyperlink",
         "tag": "#JavaScript #JS",
