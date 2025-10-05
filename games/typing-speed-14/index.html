@@ -46,7 +46,7 @@ CSS, JavaScript, project,
 </head>
 <body>
 
-<span id="secondNav">
+<div id="secondNav">
 <header class="tCenter">
 <div class="margin2"></div>
 <nav>
@@ -54,7 +54,7 @@ CSS, JavaScript, project,
 <a class="inlineBlock padding brand" style="padding-right: 0;" href="../">list</a>
 </nav>
 </header>
-</span>
+</div>
 
 <h1 class="tCenter op insertIconTitle large">Typing speed</h1>
 
@@ -65,11 +65,11 @@ CSS, JavaScript, project,
 
 <div id="win" class="win"></div>
 
-<div id="all">
+<div>
 <div id="statTopWpm" class="orange">0</div>
 </div>
 
-<div id="all" class="padding2 border bg2 height borderRadius2">
+<div class="padding2 border bg2 height borderRadius2">
 
 <div id="result" class="result scroll pre"></div>
 <div id="lPrintTr" class="scroll"></div>
@@ -81,12 +81,13 @@ CSS, JavaScript, project,
 </form>
 
 <div class="padding2"></div>
-<span class="op"><progress id="typeProgress" class="op" min="0" max="0" value="0"></progress></span>
+<span class="op"><progress id="typeProgress" class="op" value="0" max="100"></progress></span>
 <div class="gridStat">
 <div id="countSymbolTask" class="op">countSymbol</div>
 <div id="stat" class="op">stat</div>
 </div>
-<br />
+
+<br>
 
 
 

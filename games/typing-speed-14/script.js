@@ -384,7 +384,7 @@ http.onreadystatechange = function() { //Call a function when the state changes.
 if (http.readyState == 4 && http.status == 200) {
 // alert(http.responseText);
 //task = fuMClearText(task);
-document.getElementById("lPrintTr").innerHTML = fuMClearText(http.responseText);
+document.getElementById("lPrintTr").innerHTML = http.responseText;
 }
 
 }
