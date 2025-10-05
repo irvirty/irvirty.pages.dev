@@ -383,7 +383,8 @@ http.setRequestHeader('Content-type', 'application/x-www-form-urlencoded');
 http.onreadystatechange = function() { //Call a function when the state changes.
 if (http.readyState == 4 && http.status == 200) {
 // alert(http.responseText);
-document.getElementById("lPrintTr").innerHTML = http.responseText;
+//task = fuMClearText(task);
+document.getElementById("lPrintTr").innerHTML = fuMClearText(http.responseText);
 }
 
 }
@@ -402,8 +403,6 @@ document.getElementById("lPrintTr").style.display = "none";
 // main
 //setTimeout(function () {
 function main(task){
-
-task = fuMClearText(task);
 
 if (mode == 'zen'||mode == 'z2'){
 document.getElementById("result").style.display = "none";
@@ -643,6 +642,7 @@ return a;
 /*letters = replaceCode(letters.join(""));
 letters =  [...letters];*/
 
+text = fuMClearText(text2)
 document.getElementById("result").innerHTML = replaceCode(text2);
 
 
@@ -818,7 +818,7 @@ check = '';
 }
 
 
-
+text = fuMClearText(text11);
 text = '<span class=" green typeUnderline ">' + text11 + '</span><span id="scrollTo">&#8288;</span>' + replaceCode(text33); //&#8288; - fix webkit jump
 document.getElementById("result").innerHTML = text;
 document.getElementById("scrollTo").scrollIntoView(true);
