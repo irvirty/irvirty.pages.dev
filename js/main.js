@@ -1133,8 +1133,7 @@ return textOrArr.sort(collator.compare);
 
 
 
-// CSS
-// random bg image (background img with random position)
+// Random bg image CSS (background img with random position)
 
 function fuMBg(com, bgImage){
 if (conf["confBg"] == "on"){
@@ -1222,9 +1221,8 @@ opacity: .06;
 
 }
 }
-// random bg image
 
-// CSS
+// Random bg image CSS
 
 
 
