@@ -1,4 +1,4 @@
-// Search redirects v.2.9.7
+// Search redirects v.2.10.1
 // Search query + command
 // Example: "text goo" or "text google", "text bin" or "text bing"
 
@@ -391,24 +391,7 @@ sRedirectUrl = url;
 break;
 
 
-case "x#":
-q = q3.replace(qCom, '');
-q = q.trim();
-q = encodeURIComponent(q);
-urlList = [
-"https://x.com/search?q=" + q,
-];
-if (q == ""){
-urlList = [
-"https://x.com/",
-];
-}
-random = urlList[fuMRandom(0, urlList.length - 1)];
-url = random;
-sRedirectUrl = url;
-break;
-
-
+case "threads#":
 case "th#":
 case "thr#":
 q = q3.replace(qCom, '');
@@ -428,6 +411,27 @@ sRedirectUrl = url;
 break;
 
 
+case "thh#":
+case "thrr#":
+case "thl#":
+q = q3.replace(qCom, '');
+q = q.trim();
+q = encodeURIComponent(q);
+urlList = [
+"https://www.threads.com/search?q=" + q + "&serp_type=default&filter=recent",
+];
+if (q == ""){
+urlList = [
+"https://www.threads.net/",
+];
+}
+random = urlList[fuMRandom(0, urlList.length - 1)];
+url = random;
+sRedirectUrl = url;
+break;
+
+
+case "nostr#":
 case "nos#":
 q = q3.replace(qCom, '');
 q = q.trim();
@@ -446,6 +450,7 @@ sRedirectUrl = url;
 break;
 
 
+case "reddit#":
 case "red#":
 q = q3.replace(qCom, '');
 q = q.trim();
@@ -465,6 +470,7 @@ break;
 
 
 case "redd#":
+case "redl#":
 q = q3.replace(qCom, '');
 q = q.trim();
 q = encodeURIComponent(q);
@@ -1868,6 +1874,7 @@ url = random;
 sRedirectUrl = url;
 break;
 
+
 case "mojeek#":
 case "moj#":
 case "mo#":
@@ -1880,99 +1887,6 @@ urlList = [
 if (q == ""){
 urlList = [
 "https://www.mojeek.com/",
-];
-}
-random = urlList[fuMRandom(0, urlList.length - 1)];
-url = random;
-sRedirectUrl = url;
-break;
-
-
-case "qwant#":
-case "qwa#":
-q = q3.replace(qCom, '');
-q = q.trim();
-q = encodeURIComponent(q);
-urlList = [
-"https://www.qwant.com/?q=" + q,
-];
-if (q == ""){
-urlList = [
-"https://www.qwant.com/",
-];
-}
-random = urlList[fuMRandom(0, urlList.length - 1)];
-url = random;
-sRedirectUrl = url;
-break;
-
-
-case "qwaa#":
-case "qwad#":
-q = q3.replace(qCom, '');
-q = q.trim();
-q = encodeURIComponent(q);
-urlList = [
-"https://www.qwant.com/?q=" + q + "&freshness=day",
-];
-if (q == ""){
-urlList = [
-"https://www.qwant.com/",
-];
-}
-random = urlList[fuMRandom(0, urlList.length - 1)];
-url = random;
-sRedirectUrl = url;
-break;
-
-
-case "qwaw#":
-q = q3.replace(qCom, '');
-q = q.trim();
-q = encodeURIComponent(q);
-urlList = [
-"https://www.qwant.com/?q=" + q + "&freshness=week",
-];
-if (q == ""){
-urlList = [
-"https://www.qwant.com/",
-];
-}
-random = urlList[fuMRandom(0, urlList.length - 1)];
-url = random;
-sRedirectUrl = url;
-break;
-
-
-case "qwam#":
-q = q3.replace(qCom, '');
-q = q.trim();
-q = encodeURIComponent(q);
-urlList = [
-"https://www.qwant.com/?q=" + q + "&freshness=month",
-];
-if (q == ""){
-urlList = [
-"https://www.qwant.com/",
-];
-}
-random = urlList[fuMRandom(0, urlList.length - 1)];
-url = random;
-sRedirectUrl = url;
-break;
-
-
-case "ecosia#":
-case "eco#":
-q = q3.replace(qCom, '');
-q = q.trim();
-q = encodeURIComponent(q);
-urlList = [
-"https://www.ecosia.org/search?q=" + q,
-];
-if (q == ""){
-urlList = [
-"https://www.ecosia.org/",
 ];
 }
 random = urlList[fuMRandom(0, urlList.length - 1)];
@@ -2138,42 +2052,6 @@ urlList = [
 if (q == ""){
 urlList = [
 "https://www.startpage.com/",
-];
-}
-random = urlList[fuMRandom(0, urlList.length - 1)];
-url = random;
-sRedirectUrl = url;
-break;
-
-
-case "x#":
-q = q3.replace(qCom, '');
-q = q.trim();
-q = encodeURIComponent(q);
-urlList = [
-"https://x.com/search?q=" + q,
-];
-if (q == ""){
-urlList = [
-"https://x.com/",
-];
-}
-random = urlList[fuMRandom(0, urlList.length - 1)];
-url = random;
-sRedirectUrl = url;
-break;
-
-
-case "xx#":
-q = q3.replace(qCom, '');
-q = q.trim();
-q = encodeURIComponent(q);
-urlList = [
-"https://x.com/search?q=" + q + "&f=live",
-];
-if (q == ""){
-urlList = [
-"https://x.com/",
 ];
 }
 random = urlList[fuMRandom(0, urlList.length - 1)];
@@ -2404,7 +2282,7 @@ urlList = [
 "https://search.seznam.cz/?q=" + q,
 //"https://mwmbl.org/?q=" + q,
 //"https://www.mojeek.com/search?q=" + q,
-"https://duckduckgo.com/" + q,
+//"https://duckduckgo.com/" + q,
 ];
 if (q == ""){
 urlList = [
@@ -2412,7 +2290,7 @@ urlList = [
 "https://search.seznam.cz/",
 //"https://mwmbl.org/",
 //"https://www.mojeek.com/",
-"https://duckduckgo.com/",
+//"https://duckduckgo.com/",
 ];
 }
 random = urlList[fuMRandom(0, urlList.length - 1)];
