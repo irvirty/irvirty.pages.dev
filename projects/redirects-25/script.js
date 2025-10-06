@@ -1,4 +1,4 @@
-// Search redirects v.2.10.1
+// Search redirects v.2.10.2
 // Search query + command
 // Example: "text goo" or "text google", "text bin" or "text bing"
 
@@ -373,6 +373,7 @@ sRedirectUrl = url;
 break;
 
 
+case "substack#":
 case "sub#":
 q = q3.replace(qCom, '');
 q = q.trim();
@@ -383,6 +384,25 @@ urlList = [
 if (q == ""){
 urlList = [
 "https://substack.com/",
+];
+}
+random = urlList[fuMRandom(0, urlList.length - 1)];
+url = random;
+sRedirectUrl = url;
+break;
+
+
+case "medium#":
+case "med#":
+q = q3.replace(qCom, '');
+q = q.trim();
+q = encodeURIComponent(q);
+urlList = [
+"https://medium.com/search?q=" + q,
+];
+if (q == ""){
+urlList = [
+"https://medium.com/",
 ];
 }
 random = urlList[fuMRandom(0, urlList.length - 1)];
@@ -897,7 +917,7 @@ sRedirectUrl = url;
 break;
 
 
-case "med#":
+/*case "wm#":
 q = q3.replace(qCom, '');
 q = q.trim();
 q = encodeURIComponent(q);
@@ -912,7 +932,7 @@ urlList = [
 random = urlList[fuMRandom(0, urlList.length - 1)];
 url = random;
 sRedirectUrl = url;
-break;
+break;*/
 
 
 case "enc#":

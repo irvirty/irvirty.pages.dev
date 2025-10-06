@@ -587,7 +587,6 @@ dateArr = dateArr.slice(-500);
 <script>
 
 if (conf["confTagCloudlStatus"] == "on"){
-window.onload = () => {
 
 document.getElementById("printTagsHeader").innerHTML = `
 
@@ -805,7 +804,7 @@ if (tag != ""){
 let printTag = tag;
 
 let printTag2 = tag.replaceAll(/#/g, "");
-let printTagUrl = encodeURIComponent(tag);
+let printTagUrl = encodeURIComponent(tag.toLowerCase());
 
 printTag = fuMClearText(printTag);
 
@@ -949,7 +948,6 @@ document.getElementById("tagListEditForm").innerHTML = ``;
 tagListCloud("");
 }
 
-}
 }
 </script>
 
