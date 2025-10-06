@@ -297,11 +297,13 @@ return time + ' ago';
 
 <!--<script src="/js/fuPostTime.js"></script>-->
 <script>
-window.onload = () => {
+//https://stackoverflow.com/questions/2810825/javascript-event-window-onload-not-triggered
+window.addEventListener("load", myInitFunctionUpdate);
+function myInitFunctionUpdate(){
 if (document.getElementById("last-update") != null){
 document.getElementById("last-update").innerHTML = fuPostTime(1759750969);
 }
-};
+}
 </script>
 
 <!--<script>

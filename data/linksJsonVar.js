@@ -1173,16 +1173,6 @@ var linksJsonVar =
         "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=214\"  title=\"id=214 (permanent link)\" >id<\/a>"
     },
     {
-        "id": "213",
-        "text": "RuneScape Online Community - News, Events and more",
-        "text2": "",
-        "text3": "",
-        "url": "https:\/\/www.runescape.com\/community",
-        "tag": "#game #MMORPG",
-        "time": 1733559520,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=213\"  title=\"id=213 (permanent link)\" >id<\/a>"
-    },
-    {
         "id": "212",
         "text": "Pinterest",
         "text2": "",
