@@ -36,13 +36,13 @@ printGameMode = '';
 
 document.getElementById("number2").innerHTML = `
 
-<input id="number" class="tCenter" type="number" name="number" value="0" min="0" max="${mode}" autofocus="autofocus" required>
+<input id="number" class="tCenter" type="number" name="number" min="0" value="0" max="${mode[0]}" autofocus="autofocus" required>
 
 `;
 
 document.getElementById("range2").innerHTML = `
 
-<input id="range" class="slider padding2" name="range" style="" value="0" type="range" min="0" max="${mode}" step="1" onmouseup="submit33();" ontouchend="submit33();">
+<input id="range" class="slider padding2" name="range" type="range" min="0" max="${mode[0]}" step="1" value="0" onmouseup="submit33();" ontouchend="submit33();">
 </form>
 `;
 
