@@ -5,12 +5,16 @@
 // tagList
 function fuTagCloud(tagCloudPrintId, tagCloudData, tagQ, tagListLimit, scriptDir){
 
+
 if (tagListLimit == undefined||tagListLimit == ''){ tagListLimit = '38'; }
 if (scriptDir == undefined||scriptDir == ''){ scriptDir = "./"; }
 
 let confSymbolForSplit = "confSymbolForSplit";
 let color = 'silver';
 let size = '';
+
+let tagList = "";
+
 
 /*tagCloudData = tagCloudData.toLowerCase();
 confSymbolForSplit = confSymbolForSplit.toLowerCase();*/

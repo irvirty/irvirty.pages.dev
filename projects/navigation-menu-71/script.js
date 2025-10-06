@@ -26,14 +26,14 @@ var mNavItemsCount = ((countMenuItem.length + 2) / 2);
 var mNavWhenDropdownWidth = (mNavItemsAverageWidth * mNavItemsCount) / 2;
 // /2 - for 2 rows links
 // auto based on item
-var cssMedia = `@media(width <= ${mNavWhenDropdownWidth}px)`;
-var cssMedia2 = `@media(width > ${mNavWhenDropdownWidth}px)`;
+var cssMedia = `@media (width <= ${mNavWhenDropdownWidth}px)`;
+var cssMedia2 = `@media (width > ${mNavWhenDropdownWidth}px)`;
 
 // if nav (items) more width then wrapper (forece dropdown)
 if ((mNavWhenDropdownWidth) >= conf["confWrapperNavWidth"]){
-cssMedia = '@media(width >= 1px)';
+cssMedia = '@media (width >= 1px)';
 // cancel
-cssMedia2 = `@media(width <= 0px)`; 
+cssMedia2 = `@media (width <= 0px)`; 
 }
 
 // embed style

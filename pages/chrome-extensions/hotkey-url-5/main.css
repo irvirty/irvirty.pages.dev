@@ -1,4 +1,4 @@
-/* Main.css style v.23.10.1
+/* Main.css style v.23.11.0 */
 /* main.css + theme (auto.css, light.css ...) */
 /* The style is mostly based on classes. */
 
@@ -510,7 +510,7 @@ body { background-color: var(--bg); color: var(--c3); }
 a { color: var(--c2); }
 a:hover { color: var(--c4); } 
 
-hr{ border: 1px solid var(--d2); border-bottom:1px solid var(--l); }
+hr { border: 1px solid var(--d2); border-bottom:1px solid var(--l); }
 ::selection { background: color-mix(in srgb, var(--orange) 50%, #fff); color: #000; }
 mark { font-weight: bold;}
 
