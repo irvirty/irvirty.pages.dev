@@ -1,4 +1,4 @@
-/* Main.css style v.23.11.0 */
+/* Main.css style v.23.11.1 */
 /* main.css + theme (auto.css, light.css ...) */
 /* The style is mostly based on classes. */
 
@@ -669,7 +669,7 @@ border-bottom: 2px dotted var(--d3);
 /* Print */
 
 @media print {
-/* https://developer.mozilla.org/docs/Web/CSS/CSS_media_queries/Printing */
+/* https://developer.mozilla.org/docs/Web/CSS/CSS_media_queries/Printing#*/
 .navTop, footer, nav {
 display: none;
 }
@@ -716,8 +716,7 @@ del a { text-decoration: line-through; }
 
 /*h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 word-break: break-all;
-}
-h1, h2, h3, h4, h5, h6, .bold, .b, b { letter-spacing: 0.25px; }test and dellme*/
+}*/
 
 @media(max-width: 200px) {
 div, input, textarea, a { word-break: break-all; }
@@ -742,7 +741,7 @@ svg, img { height: auto;  display: inline-block; }
 .over, .over a{
 overflow: hidden;
 white-space: nowrap;
-/* display: inline-flex; display: block; display: inline-block; */display: inline-block;
+/* display: inline-flex; display: block; display: inline-block;*/ display: inline-block;
 max-width: 100%;
 text-overflow: ellipsis;
 }
