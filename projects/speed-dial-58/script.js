@@ -1,4 +1,4 @@
-// Speed dial v.1.14.3
+// Speed dial v.1.15.0
 //https://developer.mozilla.org/en-US/docs/Web/API/Storage
 
 
@@ -190,9 +190,8 @@ lNaturalSort(confSpeedDialDataArr);
 localStorage.setItem("confSpeedDialData", JSON.stringify(confSpeedDialDataArr));
 }
 
-onload = (event) => {
 fuLSpeedDial("speedDialPrint", "", "", "print");
-}
+
 break;
 
 
@@ -214,9 +213,9 @@ confSpeedDialDataArr.push({text:text, url:url});
 localStorage.setItem("confSpeedDialData", JSON.stringify(confSpeedDialDataArr));
 }
 
-onload = (event) => {
+
 fuLSpeedDial("speedDialPrint", "", "", "print");
-}
+
 break;
 
 
@@ -250,9 +249,8 @@ lNaturalSort(confSpeedDialDataArrUpdate);
 //https://stackoverflow.com/questions/23728626/localstorage-and-json-stringify-json-parse
 localStorage.setItem("confSpeedDialData", JSON.stringify(confSpeedDialDataArrUpdate));
 
-onload = (event) => {
 fuLSpeedDial("speedDialPrint", "", "", "print");
-}
+
 break;
 
 
@@ -339,9 +337,9 @@ if (document.getElementById("speedDialSettingPrint") != null){
 document.getElementById("speedDialSettingPrint").innerHTML = printSettings; 
 }
 
-onload = (event) => {
+
 fuLSpeedDial("speedDialPrint", "", "", "print");
-}
+
 break;
 
 
@@ -370,9 +368,9 @@ confSpeedDialDataArr.push({text:text, url:url});
 localStorage.setItem("confSpeedDialData", JSON.stringify(confSpeedDialDataArr));
 }
 
-onload = (event) => {
+
 //fuLSpeedDial("speedDialPrint", "", "", "print");
-}
+
 fuMReload();
 break;
 
