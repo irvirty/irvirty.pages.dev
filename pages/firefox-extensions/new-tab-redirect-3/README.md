@@ -10,7 +10,7 @@ How the addon works:
 2. The addon redirects to the page specified in the settings (it creates a new tab and closes itself; it's fast).  
 3. Done; you should theoretically be on your page.  
   
----
+## Keywords: New tab redirect, custom new tab, set homepage, change new tab URL, new tab website.  
   
 ## Screenshots:
 [![screenshot](screenshot.png)](screenshot.png)
