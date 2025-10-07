@@ -1,25 +1,5 @@
 [
     {
-        "id": "59",
-        "text": "Proof-of-age ID leaked in Discord data breach | Games | The Guardian",
-        "text2": "",
-        "text3": "",
-        "url": "https:\/\/www.theguardian.com\/games\/2025\/oct\/07\/discord-data-breach-proof-of-age-id-leaked",
-        "tag": "#web #platform #Discord #messenger #privacy",
-        "time": 1759842666,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/news\/?id=59\"  title=\"id=59 (permanent link)\" >id<\/a>"
-    },
-    {
-        "id": "58",
-        "text": "Google Search confirms it does not support the results per page parameter",
-        "text2": "",
-        "text3": "",
-        "url": "https:\/\/searchengineland.com\/google-search-confirms-it-does-not-support-the-results-per-page-parameter-462244",
-        "tag": "#web #platform #internet #Google #SearchEngine #search  #AI #AGI #tool #tools",
-        "time": 1759811630,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/news\/?id=58\"  title=\"id=58 (permanent link)\" >id<\/a>"
-    },
-    {
         "id": "57",
         "text": "we hit 2 billion posts today! \ud83e\udd73",
         "text2": "",
@@ -28,76 +8,6 @@
         "tag": "#SocialNetwork #web #internet #platform #SocialMedia",
         "time": 1759811082,
         "rightFooter": "<a class=\"brand\" href=\"\/pages\/news\/?id=57\"  title=\"id=57 (permanent link)\" >id<\/a>"
-    },
-    {
-        "id": "56",
-        "text": "Amazon settles lawsuit over Prime subscriptions : NPR",
-        "text2": "",
-        "text3": "",
-        "url": "https:\/\/www.npr.org\/2025\/09\/25\/nx-s1-5551026\/amazon-prime-lawsuit-ftc-settlement",
-        "tag": "#technology #Amazon #platform #shopping #store",
-        "time": 1759509743,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/news\/?id=56\"  title=\"id=56 (permanent link)\" >id<\/a>"
-    },
-    {
-        "id": "55",
-        "text": "Judge approves $1.5 billion copyright settlement between AI company Anthropic and authors | AP News",
-        "text2": "",
-        "text3": "",
-        "url": "https:\/\/apnews.com\/article\/anthropic-authors-copyright-judge-artificial-intelligence-9643064e847a5e88ef6ee8b620b3a44c",
-        "tag": "#technology #copyright #OpenSource #books #AI #AGI #Anthropic",
-        "time": 1759302301,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/news\/?id=55\"  title=\"id=55 (permanent link)\" >id<\/a>"
-    },
-    {
-        "id": "53",
-        "text": "Unfortunately, Bluesky is unavailable in Mississippi right now, due to a new state law that requires age verification for all users.",
-        "text2": "",
-        "text3": "",
-        "url": "https:\/\/bsky.app\/profile\/bsky.app\/post\/3lwzadikbrc2u",
-        "tag": "#privacy #ban #SocialNetwork #platform #Bluesky #web #internet",
-        "time": 1759300631,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/news\/?id=53\"  title=\"id=53 (permanent link)\" >id<\/a>"
-    },
-    {
-        "id": "52",
-        "text": "Imgur Blocked in UK: Why It Happened and How to Unblock It",
-        "text2": "",
-        "text3": "",
-        "url": "https:\/\/cybernews.com\/uk\/how-to-use-vpn\/imgur-blocked-in-uk-why-it-happened-and-how-to-unblock-it\/",
-        "tag": "#web #internet #privacy #platform #image #photo #Imgur",
-        "time": 1759299997,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/news\/?id=52\"  title=\"id=52 (permanent link)\" >id<\/a>"
-    },
-    {
-        "id": "51",
-        "text": "How Electronic Arts' $55 billion go-private deal could impact the video game industry | AP News",
-        "text2": "",
-        "text3": "",
-        "url": "https:\/\/apnews.com\/article\/electronic-arts-buyout-what-to-know-ea6d403811e6ebab0b96ab772f5e7d67",
-        "tag": "#technology #game #games #EA #app #software",
-        "time": 1759228760,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/news\/?id=51\"  title=\"id=51 (permanent link)\" >id<\/a>"
-    },
-    {
-        "id": "50",
-        "text": "Mozilla introduces visual search powered by Google Lens on Firefox desktop | AlternativeTo",
-        "text2": "\"Google must be set as the browser\u2019s default search engine.\"",
-        "text3": "",
-        "url": "https:\/\/alternativeto.net\/news\/2025\/9\/mozilla-introduces-visual-search-powered-by-google-lens-on-firefox-desktop\/",
-        "tag": "#technology #app #software #browser #web #Firefox #MozillaFirefox #tools #tool",
-        "time": 1759146874,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/news\/?id=50\"  title=\"id=50 (permanent link)\" >id<\/a>"
-    },
-    {
-        "id": "49",
-        "text": "Activists launch hunger strikes outside DeepMind and Anthropic offices over race to build advanced AI | TechSpot",
-        "text2": "",
-        "text3": "",
-        "url": "https:\/\/www.techspot.com\/news\/109368-activists-launch-hunger-strikes-outside-anthropic-deepmind-offices.html",
-        "tag": "#technology #AI #AGI #ASI #Google #DeepMind #Anthropic #NeuralNetwork",
-        "time": 1759146454,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/news\/?id=49\"  title=\"id=49 (permanent link)\" >id<\/a>"
     },
     {
         "id": "48",
@@ -115,7 +25,7 @@
         "text2": "",
         "text3": "",
         "url": "https:\/\/doodles.google\/doodle\/googles-27th-birthday\/",
-        "tag": "#technology #doodle #search #platform #web #logo #logotype",
+        "tag": "#technology #doodle #search #platform #web #logo #logotype #Google",
         "time": 1759058992,
         "rightFooter": "<a class=\"brand\" href=\"\/pages\/news\/?id=47\"  title=\"id=47 (permanent link)\" >id<\/a>"
     },
@@ -128,26 +38,6 @@
         "tag": "#technology #Firefox  #MozillaFirefox #browser #update #app #software",
         "time": 1758172231,
         "rightFooter": "<a class=\"brand\" href=\"\/pages\/news\/?id=44\"  title=\"id=44 (permanent link)\" >id<\/a>"
-    },
-    {
-        "id": "41",
-        "text": "Google's AI Mode expands globally, adds new agentic features | TechCrunch",
-        "text2": "",
-        "text3": "",
-        "url": "https:\/\/techcrunch.com\/2025\/08\/21\/googles-ai-mode-expands-globally-adds-new-agentic-features\/",
-        "tag": "#technology #Google #web #search #internet #SearchEngine",
-        "time": 1756679665,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/news\/?id=41\"  title=\"id=41 (permanent link)\" >id<\/a>"
-    },
-    {
-        "id": "40",
-        "text": "Nano Banana! Image editing in Gemini just got a major upgrade",
-        "text2": "",
-        "text3": "",
-        "url": "https:\/\/blog.google\/intl\/en-mena\/product-updates\/explore-get-answers\/nano-banana-image-editing-in-gemini-just-got-a-major-upgrade\/",
-        "tag": "#AI",
-        "time": 1756393593,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/news\/?id=40\"  title=\"id=40 (permanent link)\" >id<\/a>"
     },
     {
         "id": "38",
@@ -170,22 +60,12 @@
         "rightFooter": "<a class=\"brand\" href=\"\/pages\/news\/?id=36\"  title=\"id=36 (permanent link)\" >id<\/a>"
     },
     {
-        "id": "35",
-        "text": "Duolingo launches 148 courses created with AI after sharing plans to replace contractors with AI | TechCrunch",
-        "text2": "",
-        "text3": "",
-        "url": "https:\/\/techcrunch.com\/2025\/04\/30\/duolingo-launches-148-courses-created-with-ai-after-sharing-plans-to-replace-contractors-with-ai\/",
-        "tag": "#app  #software #web #language #learning",
-        "time": 1746846712,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/news\/?id=35\"  title=\"id=35 (permanent link)\" >id<\/a>"
-    },
-    {
         "id": "34",
         "text": "Skype is shutting down today \u2014 these are the best alternatives | TechCrunch",
         "text2": "",
         "text3": "",
         "url": "https:\/\/techcrunch.com\/2025\/05\/05\/skype-is-shutting-down-today-these-are-the-best-alternatives\/",
-        "tag": "#technology #app #web #software",
+        "tag": "#technology #app #web #software #Skype",
         "time": 1746646978,
         "rightFooter": "<a class=\"brand\" href=\"\/pages\/news\/?id=34\"  title=\"id=34 (permanent link)\" >id<\/a>"
     },
@@ -205,7 +85,7 @@
         "text2": "",
         "text3": "",
         "url": "https:\/\/bsky.app\/profile\/neocities.org\/post\/3lhu7xapg3s2x",
-        "tag": "#web #internet #hosting",
+        "tag": "#web #internet #hosting #Neocities",
         "time": 1745333263,
         "rightFooter": "<a class=\"brand\" href=\"\/pages\/news\/?id=31\"  title=\"id=31 (permanent link)\" >id<\/a>"
     },
@@ -215,7 +95,7 @@
         "text2": "",
         "text3": "",
         "url": "https:\/\/www.youtube.com\/watch?v=OIuG1bBkfs0",
-        "tag": "#web #internet #video #platform",
+        "tag": "#web #internet #video #platform #YouTube",
         "time": 1745321783,
         "rightFooter": "<a class=\"brand\" href=\"\/pages\/news\/?id=30\"  title=\"id=30 (permanent link)\" >id<\/a>"
     },
@@ -235,7 +115,7 @@
         "text2": "",
         "text3": "",
         "url": "https:\/\/www.gimp.org\/news\/2025\/03\/16\/gimp-3-0-released\/",
-        "tag": "#app #software",
+        "tag": "#app #software #graphic #GraphicDesign #GIMP",
         "time": 1743253627,
         "rightFooter": "<a class=\"brand\" href=\"\/pages\/news\/?id=25\"  title=\"id=25 (permanent link)\" >id<\/a>"
     },
@@ -285,7 +165,7 @@
         "text2": "",
         "text3": "",
         "url": "https:\/\/www.mozilla.org\/en-US\/firefox\/132.0\/releasenotes\/",
-        "tag": "#software #app #update #browser",
+        "tag": "#software #app #update #browser #web #internet #Firefox",
         "time": 1730313353,
         "rightFooter": "<a class=\"brand\" href=\"\/pages\/news\/?id=4\"  title=\"id=4 (permanent link)\" >id<\/a>"
     }
