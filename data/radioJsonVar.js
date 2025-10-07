@@ -615,24 +615,6 @@ var radioJsonVar =
         "rightFooter": ""
     },
     {
-        "text": "BBC Radio London, 94.9 FM, London Borough of Bromley, UK | Free Internet Radio | TuneIn",
-        "text2": "",
-        "text3": "",
-        "url": "https:\/\/tunein.com\/radio\/BBC-Radio-London-949-s24849\/",
-        "tag": "#radio #en #news",
-        "time": 1745727245,
-        "rightFooter": ""
-    },
-    {
-        "text": "BBC Asian Network, UK | Free Internet Radio | TuneIn",
-        "text2": "",
-        "text3": "",
-        "url": "https:\/\/tunein.com\/radio\/BBC-Asian-Network-s44490\/",
-        "tag": "#radio #RadioMusic #AsianMusic #HipHopMusic #AdultHits",
-        "time": 1745727213,
-        "rightFooter": ""
-    },
-    {
         "text": "Alive Radio, 107.3 FM, Dumfries, UK | Free Internet Radio | TuneIn",
         "text2": "",
         "text3": "",
@@ -2034,24 +2016,6 @@ var radioJsonVar =
         "url": "https:\/\/tunein.com\/radio\/Capital-London-958-s16534\/",
         "tag": "#radio #RadioMusic #PopMusic",
         "time": 1739637791,
-        "rightFooter": ""
-    },
-    {
-        "text": "BBC World Service | Free Internet Radio | TuneIn",
-        "text2": "",
-        "text3": "",
-        "url": "https:\/\/tunein.com\/radio\/BBC-World-Service-s322318\/",
-        "tag": "#radio #en #news",
-        "time": 1739637732,
-        "rightFooter": ""
-    },
-    {
-        "text": "BBC Radio 6 Music, BBC 6Music, UK | Free Internet Radio | TuneIn",
-        "text2": "",
-        "text3": "",
-        "url": "https:\/\/tunein.com\/radio\/BBC-Radio-6-Music-s44491\/",
-        "tag": "#radio #RadioMusic",
-        "time": 1739637712,
         "rightFooter": ""
     },
     {
@@ -4059,24 +4023,6 @@ var radioJsonVar =
         "url": "https:\/\/tunein.com\/radio\/Crooner-Radio-Lounge-s298983\/",
         "tag": "#radio #RadioMusic #jazz",
         "time": 1678453768,
-        "rightFooter": ""
-    },
-    {
-        "text": "BBC Radio 5 live, BBC R5L 909 AM, London, UK | Free Internet Radio | TuneIn",
-        "text2": "",
-        "text3": "",
-        "url": "https:\/\/tunein.com\/radio\/BBC-Radio-5-live-909-s24943\/",
-        "tag": "#radio #sport",
-        "time": 1657703633,
-        "rightFooter": ""
-    },
-    {
-        "text": "BBC Radio 4, BBC R4 93.5 FM, London, UK | Free Internet Radio | TuneIn",
-        "text2": "",
-        "text3": "",
-        "url": "https:\/\/tunein.com\/radio\/BBC-Radio-4-935-s25419\/",
-        "tag": "#radio #en",
-        "time": 1657703590,
         "rightFooter": ""
     },
     {
