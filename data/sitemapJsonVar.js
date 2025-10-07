@@ -259,9 +259,9 @@ var sitemapJsonVar = [
         "time": "id"
     },
     {
-        "text": "Firefox extensions\n\nAn extension for the Mozilla Firefox browser. Extension: new tab redirct (own new tab page), localhost as search engine, etc. Firefox addon. | firefox extensions: ",
+        "text": "Firefox extensions\n\nAn extension for the Mozilla Firefox browser. Extension: New tab redirect (any website in a new tab), auto theme switcher (auto dark mode). Firefox add-on. | firefox extensions: ",
         "url": "\/pages\/firefox-extensions\/index.html",
-        "tag": " #startpage #newtabpage #Firefox #hotkeys #new #tab #NewTab #firefox #extension #extensions #addon #project #page #main #page #main",
+        "tag": " #auto #theme #switcher #automatic #theme #dark #mode #light #mode #OS #theme #sync #system #theme #time #based #theme #browser #theme #changer #scheduled #theme #New #tab #redirect #custom #new #tab #set #homepage #change #new #tab #URL #new #tab #website #startpage #newtabpage #Firefox #hotkeys #new #tab #NewTab #firefox #extension #extensions #addon #project #page #main #page #main",
         "id": "b512751404c82bc56284e93243416212",
         "time": "id"
     },

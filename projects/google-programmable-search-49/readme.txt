@@ -28,7 +28,6 @@ Static:
 *.pages.dev/*
 *.github.io/*
 *.neocities.org/*
-*.nekoweb.org/*
 
 Social Network:
 *.bsky.app/*
