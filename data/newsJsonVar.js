@@ -3,6 +3,26 @@ var newsJsonVar =
 
 [
     {
+        "id": "58",
+        "text": "Google Search confirms it does not support the results per page parameter",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/searchengineland.com\/google-search-confirms-it-does-not-support-the-results-per-page-parameter-462244",
+        "tag": "#web #platform #internet #Google #SearchEngine #search  #AI #AGI #tool #tools",
+        "time": 1759811630,
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/news\/?id=58\"  title=\"id=58 (permanent link)\" >id<\/a>"
+    },
+    {
+        "id": "57",
+        "text": "we hit 2 billion posts today! \ud83e\udd73",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/bsky.app\/profile\/bsky.app\/post\/3m2kdgmbbzc2o",
+        "tag": "#SocialNetwork #web #internet #platform #SocialMedia",
+        "time": 1759811082,
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/news\/?id=57\"  title=\"id=57 (permanent link)\" >id<\/a>"
+    },
+    {
         "id": "56",
         "text": "Amazon settles lawsuit over Prime subscriptions : NPR",
         "text2": "",
