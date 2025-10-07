@@ -54,16 +54,30 @@ CSS, JavaScript, project,
 <div id="topHeader">
 <h1 class="tCenter op medium normal insertIconTitle">Start Page</h1>
 <!--<div class="tCenter padding2 small op">in progress</div>-->
+
 <div class="wrapper">
+<div class="headerBannerImg reduceLight">
+<img src="../../img/header-banner.png" alt="header banner">
+</div>
+</div>
+
+<div class="wrapper" style="position: relative; z-index: 2;">
 <div class="padding2 tRight">
 <div id="clock" class="h1 bold"></div>
+
 <div class="small">
 <div class="margin"></div>
-<span class="bold"><span id="clock2"></span></span> / 
-<span class="">UTC: <span id="clockUtc"></span></span><br>
-<div class="padding1Px"></div>
-<span id="urlDayNow" class="small"></span>
+
+<div>
+<span class="medium bold" style="padding-left: 0;"><span id="clock2"></span></span>
+<span class="inlineBlock padding gray" style="padding-top: 0; padding-bottom: 0;">|</span>
+<span class="bold" style="padding-right: 0;"><span class="gray">UTC:</span> <span id="clockUtc"></span></span><br>
+<div class="wrapperSmall4 right tRight"><hr style="margin-bottom: 0; padding-bottom: 2x;"></div>
+<span id="urlDayNow" class="op orange bold small"></span>
 </div>
+
+</div>
+
 <div id="audio"></div>
 </div>
 </div>
