@@ -1,4 +1,4 @@
-// Ads v.1.8.1
+// Ads v.1.8.2
 // Mini banner system
 // /data/adsJsonVar.js
 
@@ -65,7 +65,7 @@ adsText = fuMHideFileNameExt(`<a class="brand inlineBlock" href="{confD}pages/se
 
 
 if (adsText.search("src=") == -1){ // not found code
-adsPrint = `<div class="ads"><div class="adsHeader"><a class="brand tag" href="${adsUrlPage}"><span class="yellow ico">✪</span><del>ads,</del> links</a></div><div class="adsBody">${adsText} <a class="brand break insertIcon" target="blank" href="${adsURL}">${adsURL}</a></div></div>`;
+adsPrint = `<div class="ads"><div class="adsHeader"><a class="brand tag notUnderline" href="${adsUrlPage}"><span class="yellow ico">✪</span>ads, links</a></div><div class="adsBody">${adsText} <a class="brand break insertIcon" target="blank" href="${adsURL}">${adsURL}</a></div></div>`;
 
 // print
 document.getElementById(printIdAds).innerHTML = `<aside>
@@ -75,7 +75,7 @@ document.getElementById(printIdAds).innerHTML = `<aside>
 </aside>`;
 
 } else {
-adsPrint = `<div class="ads"><div class="adsHeader"><a class="padding light brand tag" href="${adsUrlPage}"><span class="yellow op ico">✪ </span><del>ads,</del> links</a></div><div class="adsBody">${adsText} <a class="brand break insertIcon" target="blank" href="${adsURL}">${adsURL}</a></div></div>`;
+adsPrint = `<div class="ads"><div class="adsHeader"><a class="brand tag notUnderline" href="${adsUrlPage}"><span class="yellow op ico">✪ </span>ads, links</a></div><div class="adsBody">${adsText} <a class="brand break insertIcon" target="blank" href="${adsURL}">${adsURL}</a></div></div>`;
 
 // print
 document.getElementById(printIdAds).innerHTML = `
@@ -109,11 +109,11 @@ if (adsText.search("src=") != -1&&cookieStatus != 'on'){ // found
 adsText = fuMHideFileNameExt(`<a class="brand" href="{confD}pages/settings/#confDataCollection">Cookie setting: ${cookieStatus}.</a>`);
 }
 if (adsText.search("src=") == -1){ // not found code
-adsPrint = `<div class="ads"><div class="adsHeader"><a class="brand tag" href="${adsUrlPage}"><span class="yellow op ico">✪ </span><del>ads,</del> links</a></div><div class="adsBody">${adsText} <a class="brand break insertIcon" target="blank" href="${adsURL}">${adsURL}</a></div></div>`;
+adsPrint = `<div class="ads"><div class="adsHeader"><a class="brand tag notUnderline" href="${adsUrlPage}"><span class="yellow op ico">✪ </span>ads, links</a></div><div class="adsBody">${adsText} <a class="brand break insertIcon" target="blank" href="${adsURL}">${adsURL}</a></div></div>`;
 
 adsPrint = '<div class="wrapper"><div class="borderRadius2 padding3 light borderList ads tLeft break">'+adsPrint+'</div></div>';
 } else {
-adsPrint = `<div class="ads"><div class="adsHeader"><a class="padding light brand tag" href="${adsUrlPage}"><span class="yellow op ico">✪ </span><del>ads, </del> links</a></div><div class="adsBody">${adsText} <a class="brand break insertIcon" target="blank" href="${adsURL}">${adsURL}</a></div></div>`;
+adsPrint = `<div class="ads"><div class="adsHeader"><a class="brand tag notUnderline" href="${adsUrlPage}"><span class="yellow op ico">✪ </span>ads, links</a></div><div class="adsBody">${adsText} <a class="brand break insertIcon" target="blank" href="${adsURL}">${adsURL}</a></div></div>`;
 
 adsPrint = '<div class="center"><div class="adsCode">' + adsPrint + '</div></div>';
 }

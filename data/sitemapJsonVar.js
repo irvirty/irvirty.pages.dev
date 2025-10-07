@@ -441,6 +441,13 @@ var sitemapJsonVar = [
         "time": "id"
     },
     {
+        "text": "Music\n\nA collection of music,  played randomly, using third-party platforms and their players. | music: ",
+        "url": "\/projects\/music-20\/index.html",
+        "tag": " #music #collection #random #embed #JavaScript #project",
+        "id": "e6daf18cc1e29a8ca88f27d0032c14fc",
+        "time": "id"
+    },
+    {
         "text": "Navigation\n\nNavigation. Navigation for website. Menu for website. Site navigation using CSS and JavaScript with a dropdown menu. | navigation menu: ",
         "url": "\/projects\/navigation-menu-71\/index.html",
         "tag": " #Navigation #dropdown #menu #HTML #CSS #JavaScript #project",
@@ -511,6 +518,13 @@ var sitemapJsonVar = [
         "time": "id"
     },
     {
+        "text": "Podcast\n\nA small collection of podcasts that are randomly selected and automatically played. | podcast: ",
+        "url": "\/projects\/podcast-70\/index.html",
+        "tag": " #podcast #random #online #colection #embed #JavaScript #project",
+        "id": "45035fca1a58fbf64d92ed9bb1c454ef",
+        "time": "id"
+    },
+    {
         "text": "Project ideas\n\nProject ideas, inspiration, project after Hello World! Ideas for projects.\r\nIdeas for projects. | project ideas: ",
         "url": "\/mini-projects\/project-ideas-37\/index.html",
         "tag": " #project #ideas #inspiration #HTML #project",
@@ -532,31 +546,17 @@ var sitemapJsonVar = [
         "time": "id"
     },
     {
+        "text": "Radio\n\nA small collection of radio stations with the ability to play online, which is chosen randomly. Radio online. Online radio. | radio: ",
+        "url": "\/projects\/radio-22\/index.html",
+        "tag": " #radio #random #online #station #colection #embed #JavaScript #project",
+        "id": "b31f7cd39ade46560c86d8f7dc26ed78",
+        "time": "id"
+    },
+    {
         "text": "Rain\n\nRain effect and animation using CSS and JavaScript | rain: ",
         "url": "\/projects\/rain-38\/index.html",
         "tag": " #rain #random #drop #relax #sleep #noise #embed #CSS #JavaScript #project",
         "id": "f9cb36b965b03cfc797acd7bab35ebd8",
-        "time": "id"
-    },
-    {
-        "text": "Random Music\n\nA collection of music,  played randomly, using third-party platforms and their players. | music: ",
-        "url": "\/projects\/music-20\/index.html",
-        "tag": " #music #collection #random #embed #JavaScript #project",
-        "id": "e6daf18cc1e29a8ca88f27d0032c14fc",
-        "time": "id"
-    },
-    {
-        "text": "Random Podcast\n\nA small collection of podcasts that are randomly selected and automatically played. | podcast: ",
-        "url": "\/projects\/podcast-70\/index.html",
-        "tag": " #podcast #random #online #colection #embed #JavaScript #project",
-        "id": "45035fca1a58fbf64d92ed9bb1c454ef",
-        "time": "id"
-    },
-    {
-        "text": "Random Radio\n\nA small collection of radio stations with the ability to play online, which is chosen randomly. Radio online. Online radio. | radio: ",
-        "url": "\/projects\/radio-22\/index.html",
-        "tag": " #radio #random #online #station #colection #embed #JavaScript #project",
-        "id": "b31f7cd39ade46560c86d8f7dc26ed78",
         "time": "id"
     },
     {
@@ -567,24 +567,10 @@ var sitemapJsonVar = [
         "time": "id"
     },
     {
-        "text": "Random TV (Playlists)\n\nA small collection of playlists, which is chosen randomly. | tv: ",
-        "url": "\/projects\/tv-36\/index.html",
-        "tag": " #playlist #playlists #random #collection #embed #JavaScript #project",
-        "id": "51dbcbafa80241f5d7d53c57d624d6c1",
-        "time": "id"
-    },
-    {
         "text": "Random Text\n\nThe page generates random letters with commas, dots and line breaks to be like the text of the article. | random text generator: ",
         "url": "\/projects\/random-text-generator-24\/index.html",
         "tag": " #random #text #tool #tools #letter #lorem #ipsum #JavaScript #project",
         "id": "1c49d865d44e58ee812e7b5df505684d",
-        "time": "id"
-    },
-    {
-        "text": "Random Video\n\nA small collection video, shown randomly. | video: ",
-        "url": "\/projects\/video-18\/index.html",
-        "tag": " #video #random #collection #movie #cartoon #embed #JavaScript #project",
-        "id": "cf8764f66497b8a627865ab36433767c",
         "time": "id"
     },
     {
@@ -756,6 +742,13 @@ var sitemapJsonVar = [
         "time": "id"
     },
     {
+        "text": "TV\n\nA small collection of playlists, which is chosen randomly. | tv: ",
+        "url": "\/projects\/tv-36\/index.html",
+        "tag": " #playlist #playlists #random #collection #embed #JavaScript #project",
+        "id": "51dbcbafa80241f5d7d53c57d624d6c1",
+        "time": "id"
+    },
+    {
         "text": "Tag cloud\n\nTag cloud JS function. This JS function was cut from the Keep project for use elsewhere. | tag cloud: ",
         "url": "\/projects\/tag-cloud-79\/index.html",
         "tag": " #tag #cloud #HTML #CSS #JavaScript #project",
@@ -844,6 +837,13 @@ var sitemapJsonVar = [
         "url": "\/pages\/updates\/index.html",
         "tag": " #update #news #new #page #main",
         "id": "3aa7d51a94e288d28055ebbd73247adb",
+        "time": "id"
+    },
+    {
+        "text": "Video\n\nA small collection video, shown randomly. | video: ",
+        "url": "\/projects\/video-18\/index.html",
+        "tag": " #video #random #collection #movie #cartoon #embed #JavaScript #project",
+        "id": "cf8764f66497b8a627865ab36433767c",
         "time": "id"
     },
     {

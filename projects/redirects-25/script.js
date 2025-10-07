@@ -1,4 +1,4 @@
-// Search redirects v.2.10.2
+// Search redirects v.2.10.3
 // Search query + command
 // Example: "text goo" or "text google", "text bin" or "text bing"
 
@@ -786,6 +786,7 @@ sRedirectUrl = url;
 break;
 
 
+case "tunein#":
 case "tun#":
 q = q3.replace(qCom, '');
 q = q.trim();
