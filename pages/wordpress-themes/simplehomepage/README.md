@@ -8,7 +8,7 @@ An experimental, lightweight WordPress theme. It features a clean, flat, and min
 • Main license: GNU General Public License v2 or later  
   
 Other:  
-• main.css, light.css, main.js, bg.svg, circle.svg, line-chaotic.svg, deco-paper.svg, wood.png, grid.png, flower.png, flower-2.png - Irvirty, CC BY-SA 4.0, https://irvirty.pages.dev  
+• main.css, light.css, main.js, bg.svg, circle.svg, line-chaotic.svg, deco-paper.svg, wood.png, grid.png, flower.png, flower-2.png - Irvirty CC BY-SA 4.0  
 • Roboto font: Copyright 2025 Google Apache License, Version 2.0  
   
 ---
