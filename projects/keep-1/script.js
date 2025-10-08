@@ -1096,7 +1096,7 @@ justify-content: center;
 max-width: 100%;
 margin: 0 auto;
 
-align-items: stretch
+align-items: stretch;
 }
 
 .keepContent .keepPost {

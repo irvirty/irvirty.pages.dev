@@ -217,13 +217,6 @@ var sitemapJsonVar = [
         "time": "id"
     },
     {
-        "text": "Data page other\n\nOther files with data. | data page other: ",
-        "url": "\/pages\/data-page-other\/index.html",
-        "tag": " #data #data_file #file #list #page #main",
-        "id": "d36b086784554b1097124d69999b1fc4",
-        "time": "id"
-    },
-    {
         "text": "Dice Game\n\nGame dice. Roll a dice. Dice roller. Online dice. | dice: ",
         "url": "\/games\/dice-9\/index.html",
         "tag": " #game #dice #HTML5 #roll #roller #CSS #JavaScript #project",
