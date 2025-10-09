@@ -5,13 +5,13 @@
 
 <channel>
 
-<title>Irvirty News RSS</title>
+<title>Irvirty News</title>
 <link>https://irvirty.pages.dev/pages/news/</link>
 <description>These are news headlines from other sources on various topics. (Maybe with commentary or my own news.)</description>
 
 <image>
 <url>https://irvirty.pages.dev/img/logo.png</url>
-<title>Irvirty News RSS</title>
+<title>Irvirty News</title>
 <link>https://irvirty.pages.dev/pages/news/</link>
 <width>32</width>
 <height>32</height>

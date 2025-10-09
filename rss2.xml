@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="/css/rss.css"?>
+
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+
+<channel>
+
+<title>Irvirty Microblog</title>
+<link>https://irvirty.pages.dev/pages/news/</link>
+<description>Microblog: reposts, likes, and other.</description>
+
+<image>
+<url>https://irvirty.pages.dev/img/logo.png</url>
+<title>Irvirty Microblog</title>
+<link>https://irvirty.pages.dev/pages/news/</link>
+<width>32</width>
+<height>32</height>
+</image>
+
+<item>
+<pubDate>Thu, 09 Oct 2025 13:20:10 +0000</pubDate>
+<title><![CDATA[Privacy is a constant battle with browser or OS features, and when you disable all these features for privacy, you lose because those disabled features make the browser unique. 
+]]></title>
+<link><![CDATA[https://irvirty.pages.dev/pages/news/?id=299]]></link>
+<description>
+<![CDATA[
+Privacy is a constant battle with browser or OS features, and when you disable all these features for privacy, you lose because those disabled features make the browser unique. 
+
+]]>
+</description>
+</item>
+
+<item>
+<pubDate>Thu, 09 Oct 2025 13:10:29 +0000</pubDate>
+<title><![CDATA[If you want to find out something interesting on Google, type "I'm feeling curious" or use this link  'm+feeling+curious 
+]]></title>
+<link><![CDATA[https://www.google.com/search?q=I'm+feeling+curious]]></link>
+<description>
+<![CDATA[
+If you want to find out something interesting on Google, type "I'm feeling curious" or use this link https://www.google.com/search?q=I'm+feeling+curious 
+
+]]>
+</description>
+</item>
+
+<item>
+<pubDate>Thu, 09 Oct 2025 13:08:13 +0000</pubDate>
+<title><![CDATA[Tip about Google search and news. You don't need to read all the news, you can ask, "Top news stories this week" AI Overview will give you the answer. 
+]]></title>
+<link><![CDATA[https://irvirty.pages.dev/pages/news/?id=297]]></link>
+<description>
+<![CDATA[
+Tip about Google search and news. You don't need to read all the news, you can ask, "Top news stories this week" AI Overview will give you the answer. 
+
+]]>
+</description>
+</item>
+
+<item>
+<pubDate>Thu, 09 Oct 2025 13:04:19 +0000</pubDate>
+<title><![CDATA[GitHub -> Your Repository -> Insights -> traffic:
+"Referring sites and popular content are temporarily unavailable or may not display accurately. We're actively working to resolve the issue." 
+]]></title>
+<link><![CDATA[https://irvirty.pages.dev/pages/news/?id=296]]></link>
+<description>
+<![CDATA[
+GitHub -> Your Repository -> Insights -> traffic:
+"Referring sites and popular content are temporarily unavailable or may not display accurately. We're actively working to resolve the issue." 
+
+]]>
+</description>
+</item>
+
+<item>
+<pubDate>Fri, 26 Sep 2025 15:44:47 +0000</pubDate>
+<title><![CDATA[Default styles for h1 elements are changing 
+ ]]></title>
+<link><![CDATA[https://developer.mozilla.org/en-US/blog/h1-element-styles/]]></link>
+<description>
+<![CDATA[
+Default styles for h1 elements are changing 
+https://developer.mozilla.org/en-US/blog/h1-element-styles/
+]]>
+</description>
+</item>
+
+<item>
+<pubDate>Mon, 15 Sep 2025 02:40:16 +0000</pubDate>
+<title><![CDATA[Web design is thinking about how to make something better. 
+]]></title>
+<link><![CDATA[https://irvirty.pages.dev/pages/news/?id=294]]></link>
+<description>
+<![CDATA[
+Web design is thinking about how to make something better. 
+
+]]>
+</description>
+</item>
+
+<item>
+<pubDate>Mon, 15 Sep 2025 02:39:49 +0000</pubDate>
+<title><![CDATA[If a code seems unnecessary and you want to delete it, be careful because that code probably was used in other places. 
+]]></title>
+<link><![CDATA[https://irvirty.pages.dev/pages/news/?id=293]]></link>
+<description>
+<![CDATA[
+If a code seems unnecessary and you want to delete it, be careful because that code probably was used in other places. 
+
+]]>
+</description>
+</item>
+
+<item>
+<pubDate>Mon, 15 Sep 2025 02:39:02 +0000</pubDate>
+<title><![CDATA[Perhaps writing texts is an additional good practice for language learning. When you begin writing a text, then you start to think and look for words to use; this may refresh your memories of learned words, and you need to look for new words to use when writing a text, and to learn these new words. ]]></title>
+<link><![CDATA[https://irvirty.pages.dev/pages/news/?id=292]]></link>
+<description>
+<![CDATA[
+Perhaps writing texts is an additional good practice for language learning. When you begin writing a text, then you start to think and look for words to use; this may refresh your memories of learned words, and you need to look for new words to use when writing a text, and to learn these new words. 
+
+]]>
+</description>
+</item>
+
+<item>
+<pubDate>Mon, 15 Sep 2025 02:37:30 +0000</pubDate>
+<title><![CDATA[I tried for several hours to add an SVG hamburger icon to the navigation (dropdown menu) and the attempt was unsuccessful, it does not work as it should (something was wrong with SVG and the click event using JS), so I left the text version. 
+]]></title>
+<link><![CDATA[https://irvirty.pages.dev/pages/news/?id=291]]></link>
+<description>
+<![CDATA[
+I tried for several hours to add an SVG hamburger icon to the navigation (dropdown menu) and the attempt was unsuccessful, it does not work as it should (something was wrong with SVG and the click event using JS), so I left the text version. 
+
+]]>
+</description>
+</item>
+
+<item>
+<pubDate>Mon, 15 Sep 2025 02:36:41 +0000</pubDate>
+<title><![CDATA[SEO is when it takes 1 hour to come up with 2 words. 
+]]></title>
+<link><![CDATA[https://irvirty.pages.dev/pages/news/?id=290]]></link>
+<description>
+<![CDATA[
+SEO is when it takes 1 hour to come up with 2 words. 
+
+]]>
+</description>
+</item>
+
+<item>
+<pubDate>Mon, 15 Sep 2025 02:36:19 +0000</pubDate>
+<title><![CDATA[Web design news and UI/UX news are also news when big sites update their site design: changes in navigation, functionality, etc. 
+]]></title>
+<link><![CDATA[https://irvirty.pages.dev/pages/news/?id=289]]></link>
+<description>
+<![CDATA[
+Web design news and UI/UX news are also news when big sites update their site design: changes in navigation, functionality, etc. 
+
+]]>
+</description>
+</item>
+
+<item>
+<pubDate>Mon, 15 Sep 2025 02:35:49 +0000</pubDate>
+<title><![CDATA[Caching pages and showing a fresh version of the page is probably a complicated thing. 
+]]></title>
+<link><![CDATA[https://irvirty.pages.dev/pages/news/?id=288]]></link>
+<description>
+<![CDATA[
+Caching pages and showing a fresh version of the page is probably a complicated thing. 
+
+]]>
+</description>
+</item>
+
+<item>
+<pubDate>Mon, 15 Sep 2025 02:35:06 +0000</pubDate>
+<title><![CDATA[Making changes to the code can often create bugs. 
+]]></title>
+<link><![CDATA[https://irvirty.pages.dev/pages/news/?id=287]]></link>
+<description>
+<![CDATA[
+Making changes to the code can often create bugs. 
+
+]]>
+</description>
+</item>
+
+<item>
+<pubDate>Mon, 15 Sep 2025 02:33:54 +0000</pubDate>
+<title><![CDATA[I think minimalism in web design is a skill that requires practice, training, and time. Simplicity doesn't mean little work, it's just as complex as a complex design with different effects.
++
+Or maybe it's just the result of practice and your own style, your own evolution in design. 
+]]></title>
+<link><![CDATA[https://irvirty.pages.dev/pages/news/?id=286]]></link>
+<description>
+<![CDATA[
+I think minimalism in web design is a skill that requires practice, training, and time. Simplicity doesn't mean little work, it's just as complex as a complex design with different effects.
++
+Or maybe it's just the result of practice and your own style, your own evolution in design. 
+
+]]>
+</description>
+</item>
+
+<item>
+<pubDate>Mon, 15 Sep 2025 02:31:42 +0000</pubDate>
+<title><![CDATA[I finally figured out the difference between a blog and a microblog using search, microblog posts don't have a title. 
+]]></title>
+<link><![CDATA[https://irvirty.pages.dev/pages/news/?id=285]]></link>
+<description>
+<![CDATA[
+I finally figured out the difference between a blog and a microblog using search, microblog posts don't have a title. 
+
+]]>
+</description>
+</item>
+
+
+</channel>
+</rss>

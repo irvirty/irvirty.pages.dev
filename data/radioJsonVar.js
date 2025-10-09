@@ -160,7 +160,7 @@ var radioJsonVar =
         "text2": "",
         "text3": "",
         "url": "https:\/\/tunein.com\/radio\/CamoesRadiocom-s292223\/",
-        "tag": "#radio #pt",
+        "tag": "#radio #pt #RadioMusic",
         "time": 1745732813,
         "rightFooter": ""
     },
@@ -1206,15 +1206,6 @@ var radioJsonVar =
         "url": "https:\/\/tunein.com\/radio\/KBRW-680-s31846\/",
         "tag": "#radio #en",
         "time": 1745626079,
-        "rightFooter": ""
-    },
-    {
-        "text": "Voice of America Portuguese | Free Internet Radio | TuneIn",
-        "text2": "",
-        "text3": "",
-        "url": "https:\/\/tunein.com\/radio\/Voice-of-America-Portuguese-s17800\/",
-        "tag": "#radio #pt",
-        "time": 1745385311,
         "rightFooter": ""
     },
     {
