@@ -49,13 +49,6 @@ var sitemapJsonVar = [
         "time": "id"
     },
     {
-        "text": "Articles\n\nLong text: article, post. I'm attempting to write something. Mini Blogger. | articles: ",
-        "url": "\/pages\/articles\/index.html",
-        "tag": " #text #article #articles #post #page #main",
-        "id": "6486819bd5e26634f447504b8a0325bd",
-        "time": "id"
-    },
-    {
         "text": "Average number\n\nAfter entering the numbers, the result will be the average value. Average calculator. | average number: ",
         "url": "\/projects\/average-number-40\/index.html",
         "tag": " #Experimental #average #number #calculator #count #tool #tools #JavaScript #project",
@@ -88,6 +81,13 @@ var sitemapJsonVar = [
         "url": "\/old-projects\/blocked-65\/index.html",
         "tag": " #block #JavaScript #project",
         "id": "0ccb5ac450f60f4856196f4adc8d67f3",
+        "time": "id"
+    },
+    {
+        "text": "Blog\n\nLong text: article, post. I'm attempting to write something. Mini Blogger. | blog: ",
+        "url": "\/pages\/blog\/index.html",
+        "tag": " #text #article #articles #post #page #main",
+        "id": "11ba72d3d22f9935040c1907055a7e62",
         "time": "id"
     },
     {

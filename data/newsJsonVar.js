@@ -3,12 +3,72 @@ var newsJsonVar =
 
 [
     {
+        "id": "65",
+        "text": "How Electronic Arts' $55 billion go-private deal could impact the video game industry | AP News",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/apnews.com\/article\/electronic-arts-buyout-what-to-know-ea6d403811e6ebab0b96ab772f5e7d67",
+        "tag": "#technology #games #EA",
+        "time": 1759989398,
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/news\/?id=65\"  title=\"id=65 (permanent link)\" >id<\/a>"
+    },
+    {
+        "id": "64",
+        "text": "Imgur Blocked in UK: Why It Happened and How to Unblock It",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/cybernews.com\/uk\/how-to-use-vpn\/imgur-blocked-in-uk-why-it-happened-and-how-to-unblock-it\/",
+        "tag": "#technology #platform #web #interent #Imgur #privacy",
+        "time": 1759989372,
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/news\/?id=64\"  title=\"id=64 (permanent link)\" >id<\/a>"
+    },
+    {
+        "id": "63",
+        "text": "Unfortunately, Bluesky is unavailable in Mississippi right now, due to a new state law that requires age verification for all users.",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/bsky.app\/profile\/bsky.app\/post\/3lwzadikbrc2u",
+        "tag": "#technology #web #internet #privacy #Bluesky",
+        "time": 1759989328,
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/news\/?id=63\"  title=\"id=63 (permanent link)\" >id<\/a>"
+    },
+    {
+        "id": "62",
+        "text": "Amazon settles lawsuit over Prime subscriptions : NPR",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.npr.org\/2025\/09\/25\/nx-s1-5551026\/amazon-prime-lawsuit-ftc-settlement",
+        "tag": "#technology #store #Amazon",
+        "time": 1759989274,
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/news\/?id=62\"  title=\"id=62 (permanent link)\" >id<\/a>"
+    },
+    {
+        "id": "61",
+        "text": "Judge approves $1.5 billion copyright settlement between AI company Anthropic and authors | AP News",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/apnews.com\/article\/anthropic-authors-copyright-judge-artificial-intelligence-9643064e847a5e88ef6ee8b620b3a44c",
+        "tag": "#technology #Anthropic #AI #book",
+        "time": 1759989222,
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/news\/?id=61\"  title=\"id=61 (permanent link)\" >id<\/a>"
+    },
+    {
+        "id": "60",
+        "text": "Google Search confirms it does not support the results per page parameter",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/searchengineland.com\/google-search-confirms-it-does-not-support-the-results-per-page-parameter-462244",
+        "tag": "#technology #Google #platform #SearchEngine #seach #web #internet",
+        "time": 1759989099,
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/news\/?id=60\"  title=\"id=60 (permanent link)\" >id<\/a>"
+    },
+    {
         "id": "57",
         "text": "we hit 2 billion posts today! \ud83e\udd73",
         "text2": "",
         "text3": "",
         "url": "https:\/\/bsky.app\/profile\/bsky.app\/post\/3m2kdgmbbzc2o",
-        "tag": "#SocialNetwork #web #internet #platform #SocialMedia",
+        "tag": "#technology #Bluesky #SocialNetwork #web #internet #platform #SocialMedia",
         "time": 1759811082,
         "rightFooter": "<a class=\"brand\" href=\"\/pages\/news\/?id=57\"  title=\"id=57 (permanent link)\" >id<\/a>"
     },
@@ -18,7 +78,7 @@ var newsJsonVar =
         "text2": "",
         "text3": "",
         "url": "https:\/\/bsky.app\/profile\/obsproject.com\/post\/3lzrij2yie22j",
-        "tag": "#technology #app #software #stream #live #recording",
+        "tag": "#technology #app #software #stream #live #recording #OBS",
         "time": 1759130782,
         "rightFooter": "<a class=\"brand\" href=\"\/pages\/news\/?id=48\"  title=\"id=48 (permanent link)\" >id<\/a>"
     },
@@ -48,7 +108,7 @@ var newsJsonVar =
         "text2": "",
         "text3": "",
         "url": "https:\/\/openai.com\/index\/introducing-gpt-5\/",
-        "tag": "#technology #AI #AGI",
+        "tag": "#technology #AI #AGI #OpenAI #ChatGPT",
         "time": 1755677889,
         "rightFooter": "<a class=\"brand\" href=\"\/pages\/news\/?id=38\"  title=\"id=38 (permanent link)\" >id<\/a>"
     },
@@ -78,7 +138,7 @@ var newsJsonVar =
         "text2": "",
         "text3": "",
         "url": "https:\/\/bsky.app\/profile\/bsky.app\/post\/3lh5iyaqqos24",
-        "tag": "#web #SocialNetwork #SocialMedia",
+        "tag": "#technology #web #SocialNetwork #SocialMedia #Bluesky",
         "time": 1745333300,
         "rightFooter": "<a class=\"brand\" href=\"\/pages\/news\/?id=32\"  title=\"id=32 (permanent link)\" >id<\/a>"
     },
@@ -88,7 +148,7 @@ var newsJsonVar =
         "text2": "",
         "text3": "",
         "url": "https:\/\/bsky.app\/profile\/neocities.org\/post\/3lhu7xapg3s2x",
-        "tag": "#web #internet #hosting #Neocities",
+        "tag": "#technology #web #internet #hosting #Neocities",
         "time": 1745333263,
         "rightFooter": "<a class=\"brand\" href=\"\/pages\/news\/?id=31\"  title=\"id=31 (permanent link)\" >id<\/a>"
     },
@@ -108,7 +168,7 @@ var newsJsonVar =
         "text2": "",
         "text3": "",
         "url": "https:\/\/theconversation.com\/chatgpt-just-passed-the-turing-test-but-that-doesnt-mean-ai-is-now-as-smart-as-humans-253946",
-        "tag": "#AI #AGI",
+        "tag": "#technology #AI #AGI #OpenAI #ChatGPT",
         "time": 1744634711,
         "rightFooter": "<a class=\"brand\" href=\"\/pages\/news\/?id=27\"  title=\"id=27 (permanent link)\" >id<\/a>"
     },
@@ -118,7 +178,7 @@ var newsJsonVar =
         "text2": "",
         "text3": "",
         "url": "https:\/\/www.gimp.org\/news\/2025\/03\/16\/gimp-3-0-released\/",
-        "tag": "#app #software #graphic #GraphicDesign #GIMP",
+        "tag": "#technology #app #software #graphic #GraphicDesign #GIMP",
         "time": 1743253627,
         "rightFooter": "<a class=\"brand\" href=\"\/pages\/news\/?id=25\"  title=\"id=25 (permanent link)\" >id<\/a>"
     },
@@ -128,7 +188,7 @@ var newsJsonVar =
         "text2": "",
         "text3": "",
         "url": "https:\/\/www.mozilla.org\/en-US\/firefox\/134.0\/releasenotes\/",
-        "tag": "#browser #app #software",
+        "tag": "#technology #web #internet #browser #app #software #Firefox #MozillaFirefox",
         "time": 1736454871,
         "rightFooter": "<a class=\"brand\" href=\"\/pages\/news\/?id=17\"  title=\"id=17 (permanent link)\" >id<\/a>"
     },
@@ -138,7 +198,7 @@ var newsJsonVar =
         "text2": "",
         "text3": "",
         "url": "https:\/\/theconversation.com\/an-ai-system-has-reached-human-level-on-a-test-for-general-intelligence-heres-what-that-means-246529",
-        "tag": "#AI #AGI",
+        "tag": "#technology #AI #AGI #OpenAI #ChatGPT",
         "time": 1735508925,
         "rightFooter": "<a class=\"brand\" href=\"\/pages\/news\/?id=15\"  title=\"id=15 (permanent link)\" >id<\/a>"
     },
@@ -148,7 +208,7 @@ var newsJsonVar =
         "text2": "",
         "text3": "",
         "url": "https:\/\/www.youtube.com\/watch?v=61JHONRXhjs",
-        "tag": "#video #search #web",
+        "tag": "#video #search #web #trend #social #SearchEngine",
         "time": 1734681436,
         "rightFooter": "<a class=\"brand\" href=\"\/pages\/news\/?id=7\"  title=\"id=7 (permanent link)\" >id<\/a>"
     },
@@ -168,7 +228,7 @@ var newsJsonVar =
         "text2": "",
         "text3": "",
         "url": "https:\/\/www.mozilla.org\/en-US\/firefox\/132.0\/releasenotes\/",
-        "tag": "#software #app #update #browser #web #internet #Firefox",
+        "tag": "#technology #software #app #update #browser #web #internet #Firefox",
         "time": 1730313353,
         "rightFooter": "<a class=\"brand\" href=\"\/pages\/news\/?id=4\"  title=\"id=4 (permanent link)\" >id<\/a>"
     }
