@@ -5,6 +5,7 @@
 // conf
 var com = "on"; // on, off redirection
 var sTimeRedirect = 1000;
+var sTimeRedirect = 500;
 // conf
 
 var geturl = location.href;
