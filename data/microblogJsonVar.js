@@ -3,6 +3,46 @@ var microblogJsonVar =
 
 [
     {
+        "id": "299",
+        "text": "Privacy is a constant battle with browser or OS features, and when you disable all these features for privacy, you lose because those disabled features make the browser unique.",
+        "text2": "",
+        "text3": "",
+        "url": "",
+        "tag": "#privacy #cookie #browser",
+        "time": 1760016010,
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/microblog\/?id=299\"  title=\"id=299 (permanent link)\" >id<\/a>"
+    },
+    {
+        "id": "298",
+        "text": "If you want to find out something interesting on Google, type \"I'm feeling curious\" or use this link https:\/\/www.google.com\/search?q=I'm+feeling+curious",
+        "text2": "",
+        "text3": "",
+        "url": "",
+        "tag": "#Google #search #facts #interesting",
+        "time": 1760015429,
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/microblog\/?id=298\"  title=\"id=298 (permanent link)\" >id<\/a>"
+    },
+    {
+        "id": "297",
+        "text": "Tip about Google search and news. You don't need to read all the news, you can ask, \"Top news stories this week\" AI Overview will give you the answer.",
+        "text2": "",
+        "text3": "",
+        "url": "",
+        "tag": "#tips #search #news #Google #query",
+        "time": 1760015293,
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/microblog\/?id=297\"  title=\"id=297 (permanent link)\" >id<\/a>"
+    },
+    {
+        "id": "296",
+        "text": "GitHub -> Your Repository -> Insights -> traffic:\r\n\"Referring sites and popular content are temporarily unavailable or may not display accurately. We're actively working to resolve the issue.\"",
+        "text2": "",
+        "text3": "",
+        "url": "",
+        "tag": "#GitHub #error",
+        "time": 1760015059,
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/microblog\/?id=296\"  title=\"id=296 (permanent link)\" >id<\/a>"
+    },
+    {
         "id": "295",
         "text": "Default styles for h1 elements are changing",
         "text2": "",
