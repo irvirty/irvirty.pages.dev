@@ -3,6 +3,26 @@ var newsJsonVar =
 
 [
     {
+        "id": "67",
+        "text": "AMD and OpenAI Announce Strategic Partnership to Deploy 6 Gigawatts of AMD GPUs :: Advanced Micro Devices, Inc. (AMD)",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/ir.amd.com\/news-events\/press-releases\/detail\/1260\/amd-and-openai-announce-strategic-partnership-to-deploy-6-gigawatts-of-amd-gpus",
+        "tag": "#technology #AMD #AI #AGI #OpanAI #ChatGPT",
+        "time": 1759995119,
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/news\/?id=67\"  title=\"id=67 (permanent link)\" >id<\/a>"
+    },
+    {
+        "id": "66",
+        "text": "Google's Play Store shake-up looms after Supreme Court refuses to delay overhaul of the monopoly | AP News",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/apnews.com\/article\/google-play-store-supreme-court-b33d756da057061404b594d00a6451dc",
+        "tag": "#technology #platform #Google #store #app #software",
+        "time": 1759994825,
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/news\/?id=66\"  title=\"id=66 (permanent link)\" >id<\/a>"
+    },
+    {
         "id": "65",
         "text": "How Electronic Arts' $55 billion go-private deal could impact the video game industry | AP News",
         "text2": "",
