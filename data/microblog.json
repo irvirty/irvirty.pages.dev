@@ -1,5 +1,15 @@
 [
     {
+        "id": "300",
+        "text": "I may know why the spell check for English sometimes doesn't work in Firefox, maybe there's a dictionary conflict or something, because when I removed all the dictionaries, the spell check for English started working.",
+        "text2": "",
+        "text3": "",
+        "url": "",
+        "tag": "#English #Firefox #SpellCheck #addon #extension #fix #bug",
+        "time": 1760114407,
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/microblog\/?id=300\"  title=\"id=300 (permanent link)\" >id<\/a>"
+    },
+    {
         "id": "299",
         "text": "Privacy is a constant battle with browser or OS features, and when you disable all these features for privacy, you lose because those disabled features make the browser unique.",
         "text2": "",

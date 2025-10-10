@@ -3,6 +3,15 @@ var videoJsonVar =
 
 [
     {
+        "text": "Peppa Pig Tales 2025 \ud83e\udd96 Peppa Finds REAL DINOSAUR Fossil! \ud83e\uddb4 BRAND NEW Peppa Pig Episodes - YouTube",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=xkFDe4xCXhE",
+        "tag": "#video #cartoon",
+        "time": 1760093848,
+        "rightFooter": ""
+    },
+    {
         "text": "SECRET GARDEN on the Roof! \ud83e\udeb4 Peppa Pig Full Episodes | 4 Hours - YouTube",
         "text2": "",
         "text3": "",
