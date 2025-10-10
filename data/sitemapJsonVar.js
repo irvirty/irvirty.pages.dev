@@ -476,13 +476,6 @@ var sitemapJsonVar = [
         "time": "id"
     },
     {
-        "text": "Other projects list\n\nOther projects using other programming languages. Such a PHP project as the conversion of static webpages to application (PWA). etc | other projects list: ",
-        "url": "\/other-projects-list\/index.html",
-        "tag": " #PHP #Python #CSS #code #programming #coding #projects #list #main #pages",
-        "id": "5bc6816c23f96d4da2082fd8dab3826d",
-        "time": "id"
-    },
-    {
         "text": "Page generation test\n\nPage generation test | lag test: ",
         "url": "\/projects\/lag-test-47\/index.html",
         "tag": " #Experimental #test #lag #test #JavaScript #project",
