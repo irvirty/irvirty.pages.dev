@@ -11,7 +11,7 @@ Search redirect, links, news, games, music collection, images, microblog, to-do 
 ## Features:  
 • 50+ Themes with Dark and Light Modes.  
 • Speed Dial Panel.  
-• To-do List  
+• To-do List.  
 • JavaScript Games: Typing Speed (WPM), Snake, Memory Symbol, and Tic-Tac-Toe.   
 • Browser Extensions such as a New Tab Redirect and an Auto Theme Switcher (Firefox only).  
 • Themes for the Firefox browser and Geany IDE.  

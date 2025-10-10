@@ -1,11 +1,9 @@
 
-
 # Auto theme switcher
-Automatically change the browser theme based on the operating system's light or dark color scheme or depending on time. 
+This extension automatically sets a dark or light theme by syncing with your operating system's color scheme or following a custom time schedule.  
 
-Note: Auto mode works unstably with certain theme settings in the extension and with some themes.
+Note: Automatic mode may work unstable with some themes or settings.  
 
-Keywords: auto theme switcher, automatic theme, dark mode, light mode, OS theme sync, system theme, time-based theme, browser theme changer, scheduled theme.
 
 [![screenshot](screenshot.png)](screenshot.png)
 

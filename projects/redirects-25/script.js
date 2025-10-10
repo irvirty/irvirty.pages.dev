@@ -1440,6 +1440,8 @@ break;
 
 
 case "s#":
+case "so#":
+case "soc#":
 q = q3.replace(qCom, '');
 q = q.trim();
 q = encodeURIComponent(q);
