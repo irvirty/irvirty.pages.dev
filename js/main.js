@@ -519,22 +519,22 @@ document.getElementById("footer").innerHTML = `
 <a class="brand inlineBlock padding" style="padding-left: 0;" title="About" href="${confD}pages/about/">About</a>
 <span class="op gray">|</span>
 
+<!--<a id="contact" class="brand inlineBlock padding" title="Contact" href="${confD}pages/about/#contact">Contact</a>
+<span class="op gray">|</span>-->
+
 <a id="fSettings" class="brand inlineBlock padding" title="Settings" href="${confD}pages/settings/">Settings</a>
 <span class="op gray">|</span>
 
 <a class="brand inlineBlock padding" title="Doante" href="${confD}pages/about/#donate">Donate</a>
 <span class="op gray">|</span>
 
-<a class="brand inlineBlock padding" title="RSS News" href="${confD}rss.xml">RSS</a>
-<span class="op gray">|</span>
-
 <a class="brand inlineBlock padding" title="Bluesky" href="https://bsky.app/profile/${conf["confUsername"]}.pages.dev">Bluesky</a>
 <span class="op gray">|</span>
 
-<a class="brand inlineBlock padding" title="Source code (repository)" href="https://github.com/${conf["confUsername"]}/${conf["confWebsiteUrl"]}">Source Code</a>
+<a class="brand inlineBlock padding" title="RSS News" href="${confD}rss.xml">RSS</a>
 <span class="op gray">|</span>
 
-<a id="contact" class="brand inlineBlock padding" title="Contact" href="${confD}pages/about/#contact">Contact</a>
+<a class="brand inlineBlock padding" title="Source code (repository)" href="https://github.com/${conf["confUsername"]}/${conf["confWebsiteUrl"]}">Source Code</a>
 <span class="op gray">|</span>
 
 <a id="fPrivacy" class="brand inlineBlock padding" title="Cookie Settings" href="${confD}pages/settings/#confDataCollection">Cookie: ${conf["confDataCollection"]}</a>
