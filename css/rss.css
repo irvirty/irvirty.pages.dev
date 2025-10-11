@@ -1,4 +1,4 @@
-/* RSS style v.1.1.0
+/* RSS style v.1.2.0
 /* <?xml-stylesheet href="/css/rss.css"?>*/
 
 
@@ -36,6 +36,8 @@ font-size: small;
 
 description {
 border: 1px solid dotted;
+/* .pre */
+white-space: pre-wrap; word-wrap: break-word; line-height: normal;
 }
 
 pubDate {
