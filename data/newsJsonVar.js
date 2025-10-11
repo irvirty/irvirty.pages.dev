@@ -3,6 +3,16 @@ var newsJsonVar =
 
 [
     {
+        "id": "69",
+        "text": "Sora 2 is here | OpenAI",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/openai.com\/index\/sora-2\/",
+        "tag": "#technology #OpenAI #Sora #GenerativeAI #AI #AGI",
+        "time": 1760167763,
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/news\/?id=69\"  title=\"id=69 (permanent link)\" >id<\/a>"
+    },
+    {
         "id": "67",
         "text": "AMD and OpenAI Announce Strategic Partnership to Deploy 6 Gigawatts of AMD GPUs :: Advanced Micro Devices, Inc. (AMD)",
         "text2": "",

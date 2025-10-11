@@ -21,7 +21,7 @@
 <pubDate>Fri, 10 Oct 2025 16:40:07 +0000</pubDate>
 <title><![CDATA[I may know why the spell check for English sometimes doesn't work in Firefox, maybe there's a dictionary conflict or something, because when I removed all the dictionaries, the spell check for English started working. 
 ]]></title>
-<link><![CDATA[https://irvirty.pages.dev/pages/news/?id=300]]></link>
+<link><![CDATA[https://irvirty.pages.dev/pages/microblog/?id=300]]></link>
 <description>
 <![CDATA[
 I may know why the spell check for English sometimes doesn't work in Firefox, maybe there's a dictionary conflict or something, because when I removed all the dictionaries, the spell check for English started working. 
@@ -34,7 +34,7 @@ I may know why the spell check for English sometimes doesn't work in Firefox, ma
 <pubDate>Thu, 09 Oct 2025 13:20:10 +0000</pubDate>
 <title><![CDATA[Privacy is a constant battle with browser or OS features, and when you disable all these features for privacy, you lose because those disabled features make the browser unique. 
 ]]></title>
-<link><![CDATA[https://irvirty.pages.dev/pages/news/?id=299]]></link>
+<link><![CDATA[https://irvirty.pages.dev/pages/microblog/?id=299]]></link>
 <description>
 <![CDATA[
 Privacy is a constant battle with browser or OS features, and when you disable all these features for privacy, you lose because those disabled features make the browser unique. 
@@ -47,7 +47,7 @@ Privacy is a constant battle with browser or OS features, and when you disable a
 <pubDate>Thu, 09 Oct 2025 13:10:29 +0000</pubDate>
 <title><![CDATA[If you want to find out something interesting on Google, type "I'm feeling curious" or use this link  'm+feeling+curious 
 ]]></title>
-<link><![CDATA[https://www.google.com/search?q=I'm+feeling+curious]]></link>
+<link><![CDATA[https://irvirty.pages.dev/pages/microblog/?id=298]]></link>
 <description>
 <![CDATA[
 If you want to find out something interesting on Google, type "I'm feeling curious" or use this link https://www.google.com/search?q=I'm+feeling+curious 
@@ -60,7 +60,7 @@ If you want to find out something interesting on Google, type "I'm feeling curio
 <pubDate>Thu, 09 Oct 2025 13:08:13 +0000</pubDate>
 <title><![CDATA[Tip about Google search and news. You don't need to read all the news, you can ask, "Top news stories this week" AI Overview will give you the answer. 
 ]]></title>
-<link><![CDATA[https://irvirty.pages.dev/pages/news/?id=297]]></link>
+<link><![CDATA[https://irvirty.pages.dev/pages/microblog/?id=297]]></link>
 <description>
 <![CDATA[
 Tip about Google search and news. You don't need to read all the news, you can ask, "Top news stories this week" AI Overview will give you the answer. 
@@ -74,7 +74,7 @@ Tip about Google search and news. You don't need to read all the news, you can a
 <title><![CDATA[GitHub -> Your Repository -> Insights -> traffic:
 "Referring sites and popular content are temporarily unavailable or may not display accurately. We're actively working to resolve the issue." 
 ]]></title>
-<link><![CDATA[https://irvirty.pages.dev/pages/news/?id=296]]></link>
+<link><![CDATA[https://irvirty.pages.dev/pages/microblog/?id=296]]></link>
 <description>
 <![CDATA[
 GitHub -> Your Repository -> Insights -> traffic:
@@ -88,7 +88,7 @@ GitHub -> Your Repository -> Insights -> traffic:
 <pubDate>Fri, 26 Sep 2025 15:44:47 +0000</pubDate>
 <title><![CDATA[Default styles for h1 elements are changing 
  ]]></title>
-<link><![CDATA[https://developer.mozilla.org/en-US/blog/h1-element-styles/]]></link>
+<link><![CDATA[https://irvirty.pages.dev/pages/microblog/?id=295]]></link>
 <description>
 <![CDATA[
 Default styles for h1 elements are changing 
@@ -101,7 +101,7 @@ https://developer.mozilla.org/en-US/blog/h1-element-styles/
 <pubDate>Mon, 15 Sep 2025 02:40:16 +0000</pubDate>
 <title><![CDATA[Web design is thinking about how to make something better. 
 ]]></title>
-<link><![CDATA[https://irvirty.pages.dev/pages/news/?id=294]]></link>
+<link><![CDATA[https://irvirty.pages.dev/pages/microblog/?id=294]]></link>
 <description>
 <![CDATA[
 Web design is thinking about how to make something better. 
@@ -114,7 +114,7 @@ Web design is thinking about how to make something better.
 <pubDate>Mon, 15 Sep 2025 02:39:49 +0000</pubDate>
 <title><![CDATA[If a code seems unnecessary and you want to delete it, be careful because that code probably was used in other places. 
 ]]></title>
-<link><![CDATA[https://irvirty.pages.dev/pages/news/?id=293]]></link>
+<link><![CDATA[https://irvirty.pages.dev/pages/microblog/?id=293]]></link>
 <description>
 <![CDATA[
 If a code seems unnecessary and you want to delete it, be careful because that code probably was used in other places. 
@@ -126,7 +126,7 @@ If a code seems unnecessary and you want to delete it, be careful because that c
 <item>
 <pubDate>Mon, 15 Sep 2025 02:39:02 +0000</pubDate>
 <title><![CDATA[Perhaps writing texts is an additional good practice for language learning. When you begin writing a text, then you start to think and look for words to use; this may refresh your memories of learned words, and you need to look for new words to use when writing a text, and to learn these new words. ]]></title>
-<link><![CDATA[https://irvirty.pages.dev/pages/news/?id=292]]></link>
+<link><![CDATA[https://irvirty.pages.dev/pages/microblog/?id=292]]></link>
 <description>
 <![CDATA[
 Perhaps writing texts is an additional good practice for language learning. When you begin writing a text, then you start to think and look for words to use; this may refresh your memories of learned words, and you need to look for new words to use when writing a text, and to learn these new words. 
@@ -139,7 +139,7 @@ Perhaps writing texts is an additional good practice for language learning. When
 <pubDate>Mon, 15 Sep 2025 02:37:30 +0000</pubDate>
 <title><![CDATA[I tried for several hours to add an SVG hamburger icon to the navigation (dropdown menu) and the attempt was unsuccessful, it does not work as it should (something was wrong with SVG and the click event using JS), so I left the text version. 
 ]]></title>
-<link><![CDATA[https://irvirty.pages.dev/pages/news/?id=291]]></link>
+<link><![CDATA[https://irvirty.pages.dev/pages/microblog/?id=291]]></link>
 <description>
 <![CDATA[
 I tried for several hours to add an SVG hamburger icon to the navigation (dropdown menu) and the attempt was unsuccessful, it does not work as it should (something was wrong with SVG and the click event using JS), so I left the text version. 
@@ -152,7 +152,7 @@ I tried for several hours to add an SVG hamburger icon to the navigation (dropdo
 <pubDate>Mon, 15 Sep 2025 02:36:41 +0000</pubDate>
 <title><![CDATA[SEO is when it takes 1 hour to come up with 2 words. 
 ]]></title>
-<link><![CDATA[https://irvirty.pages.dev/pages/news/?id=290]]></link>
+<link><![CDATA[https://irvirty.pages.dev/pages/microblog/?id=290]]></link>
 <description>
 <![CDATA[
 SEO is when it takes 1 hour to come up with 2 words. 
@@ -165,7 +165,7 @@ SEO is when it takes 1 hour to come up with 2 words.
 <pubDate>Mon, 15 Sep 2025 02:36:19 +0000</pubDate>
 <title><![CDATA[Web design news and UI/UX news are also news when big sites update their site design: changes in navigation, functionality, etc. 
 ]]></title>
-<link><![CDATA[https://irvirty.pages.dev/pages/news/?id=289]]></link>
+<link><![CDATA[https://irvirty.pages.dev/pages/microblog/?id=289]]></link>
 <description>
 <![CDATA[
 Web design news and UI/UX news are also news when big sites update their site design: changes in navigation, functionality, etc. 
@@ -178,7 +178,7 @@ Web design news and UI/UX news are also news when big sites update their site de
 <pubDate>Mon, 15 Sep 2025 02:35:49 +0000</pubDate>
 <title><![CDATA[Caching pages and showing a fresh version of the page is probably a complicated thing. 
 ]]></title>
-<link><![CDATA[https://irvirty.pages.dev/pages/news/?id=288]]></link>
+<link><![CDATA[https://irvirty.pages.dev/pages/microblog/?id=288]]></link>
 <description>
 <![CDATA[
 Caching pages and showing a fresh version of the page is probably a complicated thing. 
@@ -191,7 +191,7 @@ Caching pages and showing a fresh version of the page is probably a complicated 
 <pubDate>Mon, 15 Sep 2025 02:35:06 +0000</pubDate>
 <title><![CDATA[Making changes to the code can often create bugs. 
 ]]></title>
-<link><![CDATA[https://irvirty.pages.dev/pages/news/?id=287]]></link>
+<link><![CDATA[https://irvirty.pages.dev/pages/microblog/?id=287]]></link>
 <description>
 <![CDATA[
 Making changes to the code can often create bugs. 
@@ -206,7 +206,7 @@ Making changes to the code can often create bugs.
 +
 Or maybe it's just the result of practice and your own style, your own evolution in design. 
 ]]></title>
-<link><![CDATA[https://irvirty.pages.dev/pages/news/?id=286]]></link>
+<link><![CDATA[https://irvirty.pages.dev/pages/microblog/?id=286]]></link>
 <description>
 <![CDATA[
 I think minimalism in web design is a skill that requires practice, training, and time. Simplicity doesn't mean little work, it's just as complex as a complex design with different effects.
@@ -230,9 +230,7 @@ Or maybe it's just the result of practice and your own style, your own evolution
 
 - BBC Learning English - BBC Learning English - Homepage
  ]]></title>
-<link><![CDATA[https://learnenglish.britishcouncil.org/
-
--]]></link>
+<link><![CDATA[https://irvirty.pages.dev/pages/blog/?id=24]]></link>
 <description>
 <![CDATA[
 Free English language courses 
@@ -256,7 +254,7 @@ https://www.bbc.co.uk/learningenglish/
 It takes from 4 weeks to 6 months to create a site. It depends on many factors, such as the complexity of the work and the technologies used for creating:
 1. Work complexity: one page, many pages, landing page, e-commerce site.
 2. Technologies used to cr]]></title>
-<link><![CDATA[https://wordpress.com/go/website-building/how-long-does-it-take-to-make-a-website/]]></link>
+<link><![CDATA[https://irvirty.pages.dev/pages/blog/?id=19]]></link>
 <description>
 <![CDATA[
 How long does it take to create a website? 
@@ -304,7 +302,7 @@ Web design includes:
 
 - Graphic design.
 - User interfac]]></title>
-<link><![CDATA[https://webflow.com/blog/web-design-trends-2024]]></link>
+<link><![CDATA[https://irvirty.pages.dev/pages/blog/?id=18]]></link>
 <description>
 <![CDATA[
 About Web Design 
@@ -359,9 +357,7 @@ About: Notes that arise during the development process.
 =====
 ---
  Font: I accidentally fixed the "shifting links bug" after page load (opening the link). The font loading code was originally in JavaScript, the JS was at the bo]]></title>
-<link><![CDATA[https://stackoverflow.com/questions/1128778/how-to-mix-links-a-tag-and-headings-h1-tag-in-web-standard
----
-Using]]></link>
+<link><![CDATA[https://irvirty.pages.dev/pages/blog/?id=15]]></link>
 <description>
 <![CDATA[
 Web design notes, webdev notes (WebDevelopment notes) 
@@ -450,7 +446,7 @@ Dev:
 - The W3C CSS Validation Service  
 
 ]]></title>
-<link><![CDATA[https://ecograder.com/]]></link>
+<link><![CDATA[https://irvirty.pages.dev/pages/blog/?id=12]]></link>
 <description>
 <![CDATA[
 Web Design, Web Development resources and tools 
@@ -527,7 +523,7 @@ Title
 Example:
 1. "Text text - site name"
 2. "Tex]]></title>
-<link><![CDATA[https://rss.slashdot.org/Slashdot/slashdot]]></link>
+<link><![CDATA[https://irvirty.pages.dev/pages/blog/?id=9]]></link>
 <description>
 <![CDATA[
 Notes on SEO 
@@ -651,7 +647,7 @@ Slashdot https://rss.slashdot.org/Slashdot/slashdot
 List of application and extensions for auto dark theme and light theme mode. Automatic change of the theme based on the time of day or a custom time.
 
 If you have Windows, Linux (Gnome DE) and the Firefox browser, then this topic is]]></title>
-<link><![CDATA[https://irvirty.pages.dev/pages/news/?id=7]]></link>
+<link><![CDATA[https://irvirty.pages.dev/pages/blog/?id=7]]></link>
 <description>
 <![CDATA[
 Auto dark mode and auto light mode for browser and OS (app list) 
@@ -706,7 +702,7 @@ Responsive web design is a web design or CSS style that makes a website look goo
 Note: The most popular responsive design technique is "Mobile First Design".
 
 To make the page optimized for mobile devices, first use this meta t]]></title>
-<link><![CDATA[https://developer.mozilla.org/docs/Learn/CSS/Building_blocks/Values_and_units]]></link>
+<link><![CDATA[https://irvirty.pages.dev/pages/blog/?id=5]]></link>
 <description>
 <![CDATA[
 Responsive Web Design 
@@ -843,7 +839,7 @@ CSS values and units - Learn web development | MDN - https://developer.mozilla.o
 To create an HTML page and view it, we will use your pre-installed programs, such as a text editor and a browser.
 
 1. First step: you need to create a file "index.html" with the ".html" extension. To do this, use this in]]></title>
-<link><![CDATA[https://support.apple.com/guide/mac-help/show-or-hide-filename-extensions-on-mac-mchlp2304/mac]]></link>
+<link><![CDATA[https://irvirty.pages.dev/pages/blog/?id=3]]></link>
 <description>
 <![CDATA[
 Instruction: how to create a website (HTML file, webpage, or HTML document). 
@@ -883,7 +879,7 @@ MacOS file extension - https://support.apple.com/guide/mac-help/show-or-hide-fil
 <pubDate>Tue, 02 Jan 2024 22:36:46 +0000</pubDate>
 <title><![CDATA[Title start end 
 Text start end]]></title>
-<link><![CDATA[https://irvirty.pages.dev/pages/news/?id=1]]></link>
+<link><![CDATA[https://irvirty.pages.dev/pages/blog/?id=1]]></link>
 <description>
 <![CDATA[
 Title start end 

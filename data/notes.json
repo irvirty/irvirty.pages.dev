@@ -1,5 +1,15 @@
 [
     {
+        "id": "120",
+        "text": "How do I get firefox to show the http:\/\/ in a web address? | Firefox Support Forum | Mozilla Support",
+        "text2": "===\r\nCareful! about: config\r\n(3) Double-click browser.urlbar.trimURLs to toggle it from true to false (it should turn bold).",
+        "text3": "",
+        "url": "https:\/\/support.mozilla.org\/en-US\/questions\/881261",
+        "tag": "#Firefox #MozillaFirefox #fix #URL #AdressBar",
+        "time": 1760162780,
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/notes\/?id=120\"  title=\"id=120 (permanent link)\" >id<\/a>"
+    },
+    {
         "id": "119",
         "text": "<legend>: The Field Set Legend element - HTML | MDN",
         "text2": "===\r\n<fieldset>\r\n  <legend>Choose your favorite monster<\/legend>\r\n\r\n  <input type=\"radio\" id=\"kraken\" name=\"monster\" value=\"K\" \/>\r\n  <label for=\"kraken\">Kraken<\/label><br \/>\r\n\r\n  <input type=\"radio\" id=\"sasquatch\" name=\"monster\" value=\"S\" \/>\r\n  <label for=\"sasquatch\">Sasquatch<\/label><br \/>\r\n\r\n  <input type=\"radio\" id=\"mothman\" name=\"monster\" value=\"M\" \/>\r\n  <label for=\"mothman\">Mothman<\/label>\r\n<\/fieldset>",
