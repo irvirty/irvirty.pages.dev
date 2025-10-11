@@ -27,14 +27,14 @@ Search redirect, links, news, games, music collection, images, microblog, to-do 
   
 ## License:  
   
-• Main license: CC BY-SA 4.0  
+• Main license: Copyright 2025 Irvirty CC BY-SA 4.0  
   
 Others:  
-• SimpleHomepage theme for WordPress: GNU General Public License v2 or later  
-• Geany Themes: GNU General Public License  
-• Chrome Themes: Apache 2.0 License  
+• SimpleHomepage theme for WordPress: Copyright 2025 Irvirty GNU General Public License v2 or later  
+• Geany Themes: Copyright 2025 Irvirty GNU General Public License  
+• Chrome Themes: Copyright 2025 Irvirty Apache 2.0 License  
 • Books in /data: The Project Gutenberg License  
-• Roboto font: Copyright 2025 Google Apache License, Version 2.0  
+• Roboto font: Copyright 2011 The Roboto Project Authors (https://github.com/googlefonts/roboto-classic). SIL Open Font License, Version 1.1  
   
 ---  
   
