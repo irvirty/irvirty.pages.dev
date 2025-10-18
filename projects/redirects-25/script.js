@@ -1,4 +1,4 @@
-// Search redirects v.2.10.4
+// Search redirects v.2.10.5
 // Search query + command
 // Example: "text goo" or "text google", "text bin" or "text bing"
 
@@ -271,7 +271,7 @@ urlList = [
 ];
 if (q == ""){
 urlList = [
-"https://wordpress.com/discover",
+"https://wordpress.com/",
 ];
 }
 random = urlList[fuMRandom(0, urlList.length - 1)];
@@ -366,7 +366,7 @@ urlList = [
 ];
 if (q == ""){
 urlList = [
-"https://bsky.app/search",
+"https://bsky.app/",
 ];
 }
 random = urlList[fuMRandom(0, urlList.length - 1)];
