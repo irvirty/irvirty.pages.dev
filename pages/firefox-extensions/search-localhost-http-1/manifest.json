@@ -1,0 +1,27 @@
+{
+  "manifest_version": 3,
+  "name": "Localhost search HTTP",
+  "version": "1.3.2",
+  "description": "URL: http://localhost/?q= as Search engine",
+  
+"icons": {
+  "512": "icon512x512.png"
+},
+
+  "chrome_settings_overrides": {
+  "search_provider": {
+    "name": "Localhost (http)",
+    "search_url": "http://localhost/?q={searchTerms}",
+    "keyword": "@localhost",
+    "favicon_url": "icon512x512.png"
+  }
+},
+
+"browser_specific_settings": {
+  "gecko": {
+"id": "localhost-search-http@example.com"
+  }
+}
+
+
+}

@@ -1,0 +1,59 @@
+
+:root{
+--bg: #2D2D2E;
+--l: #2F2F30;
+--l2: #353536;
+--l3: #3D3E40;
+--l4: #434345;
+--d: #E6E6E6;
+--d2: #E6E6E6;
+--d3: #fff;
+--d4: #fff;
+
+--c: #D4D4D4;
+--cOp: color-mix(in srgb, #E0E0E0 50%, transparent);
+--c2: #EDEDED; 
+--c3: #F5F5F5; 
+--c4: #FFFFFF; 
+--brand: #C8E0ED;
+--brand2: #E6F6FF;
+--red: #FFB399;
+--red2: #FFC6B3;
+--orange: #E6BE73;
+--orange2: #FFD68C;
+--yellow: #E6DAA1;
+--yellow2: #F2E8B6;
+--green: #9BD982;
+--green2: #A4E689;
+--blue: #8AC9E6;
+--blue2: #99DFFF;
+--indigo: #A9B0F2;
+--indigo2: #CCD0FF;
+--violet: #E2ACE6;
+--violet2: #F1CDF2;
+}
+
+.darkInvert { filter: invert(0%); }
+.darkBrightness { filter: brightness(100%); }
+
+input[type="submit"] { background: var(--l); color: var(--c2); }
+input[type="submit"]:hover { background: var(--d); color: var(--c3); }
+
+html{ scrollbar-color: var(--d2) var(--l4); }
+::-webkit-scrollbar { background-color: var(--l3); }
+::-webkit-scrollbar-thumb { background-color: var(--d2); }
+
+/* fix */
+.op, .op:hover, .op2, .op2:hover { opacity: 1; }
+placaholder { color: var(--c); }
+
+
+.submit, input[type="submit"],  form button[type="submit"] { background: var(--d); color: #000; }
+.submit:hover, input[type="submit"]:hover, form button[type="submit"]:hover { background: var(--d4); color: #000; }
+
+.shadow { border: 1px solid #fff;  box-shadow: none; }
+
+
+
+
+

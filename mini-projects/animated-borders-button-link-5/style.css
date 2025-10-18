@@ -1,0 +1,80 @@
+/* v.1.1.0 */
+/* comment */
+
+
+/*
+body {
+margin: 0;
+padding: 0;
+font-family: Arial;
+background: #2D2D2E;
+  
+display: flex;
+align-items: center;
+justify-content: center;
+height: 100vh;
+}*/
+
+.lButtonBorder{
+position: relative;
+display: inline-block;
+padding: 5px; /*border*/
+border-radius: 35px;
+box-shadow: 0 6px 9px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+overflow: hidden;
+border: 1px solid black;
+}
+
+.lButtonAnimation{
+position: absolute;
+background: linear-gradient(to right, #000, #fff, #000); 
+animation: lButtonAnimation 15s linear infinite;
+width: 250px;
+height: 250px;
+z-index: -2;
+top: -50px;
+left: -50px;
+}
+
+.lButtonText {
+display: block;
+padding: 10px 15px;
+background: black;
+color: #ECECEC;
+border-radius: 35px;
+z-index: -1;
+font-size: small;
+text-decoration: none;
+     font-weight: bold;
+}
+
+
+@keyframes lButtonAnimation {
+
+0%{ transform: rotate(-360deg); }
+100%{ transform: rotate(360deg); }
+
+}
+
+
+/* hover with nesting */
+
+.lButtonBorder:hover{
+
+  .lButtonText{
+background: #212121;
+color: #fff;
+ 
+  }
+  
+  .lButtonAnimation {
+background: silver;
+    animation: none;
+  }
+  
+}
+
+
+body { text-align: center; }
+
+

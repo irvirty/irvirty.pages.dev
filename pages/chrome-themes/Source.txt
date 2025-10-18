@@ -1,0 +1,9 @@
+
+https://developer.chrome.com/docs/extensions/develop/ui/themes
+Apache 2.0 License
+https://www.apache.org/licenses/LICENSE-2.0
+
+
+https://github.com/Patrick-Batenburg/GoogleChromeThemeCreationGuide
+CC-BY-SA-4.0 license
+https://github.com/Patrick-Batenburg/GoogleChromeThemeCreationGuide?tab=CC-BY-SA-4.0-1-ov-file#readme

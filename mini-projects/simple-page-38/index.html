@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Simple page</title>
+
+<meta name="description" content="Simple page.">
+<meta name="keywords" content="simple, page, HTML, CSS, project,">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<style>
+* { color-scheme: light dark; } /* view-source:about:blank, fixed blink */
+html, body { margin: 0 auto; padding: 0; }
+body {
+padding: 0 3vw;
+display: flex;
+flex-basis: auto;
+flex-basis: 100%;
+flex-direction: column;
+min-height: 100vh;
+min-height: 100dvh;
+height: 100%;
+/*min-height: -webkit-fill-available;*/
+}
+
+html {
+position: relative;
+overflow-y: scroll;
+/*height: -webkit-fill-available*/
+}
+
+.content,
+.contentCenter {
+flex: 1 0 auto;
+}
+
+.contentCenter {
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+/*height: 100vh;*/
+}
+
+header, footer {
+flex-shrink: 0;
+width: 100%;
+}
+
+.wrapper {
+width: 100%;
+margin: 0 auto;
+max-width: 560px;
+}
+
+.tLeft { text-align: left; }
+.tRight { text-align: right; }
+.tCenter { text-align: center; }
+
+/* Fix */
+/*https://forum.freecodecamp.org/t/before-after-box-sizing-border-box/425735#*/
+*, *::before, *::after { box-sizing: border-box; }
+</style>
+
+</head>
+<body>
+
+<!-- content -->
+<main id="content" class="content">
+<div class="wrapper">
+
+<h1 class="tCenter">Simple page</h1>
+<div class="tCenter">Lorem Ipsum Dolor</div>
+
+</div>
+</main>
+<!-- // content -->
+
+
+<footer class="tCenter">
+<div>
+<a href="#">link</a><br>
+footer content
+<br><br>
+</div>
+</footer>
+
+</body>
+</html>

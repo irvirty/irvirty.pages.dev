@@ -1,0 +1,21 @@
+{
+  "manifest_version": 3,
+  "version": "1.0.0",
+  "name": "Light theme",
+  "theme": {
+    "colors" : {
+      "frame" : [232, 232, 232],
+      "toolbar" : [255, 255, 255],
+      "ntp_text" : [26, 26, 26],
+      "ntp_link" : [26, 26, 26],
+      "ntp_section" : [255, 255, 255],
+      "button_background" : [255, 255, 255]
+    },
+    "tints" : {
+      "buttons" : [0.33, 0.5, 0.47]
+    },
+    "properties" : {
+      "ntp_background_alignment" : "bottom"
+    }
+  }
+}

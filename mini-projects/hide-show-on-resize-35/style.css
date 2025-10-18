@@ -1,0 +1,14 @@
+/* v.1.0.0 */
+/* comment */
+
+
+
+@media(width >= 500px){
+.showDesktopBlock { display: block; }
+.showMobileBlock{ display: none; }
+}
+
+@media(width <= 500px){
+.showDesktopBlock { display: none; }
+.showMobileBlock{ display: block; }
+}

@@ -1,0 +1,49 @@
+/* v.4.0.0 */
+
+body, html { margin: 0; padding: 0; }
+
+
+
+
+
+.profilePhoto {
+display: block;
+min-height: 60dvh;
+width: 100%;
+background-image: url('/img/tpl/woman.svg');
+background-size: 60dvh;
+background-position: center; /*background-position: center;*/
+background-repeat: no-repeat;
+}
+
+/*@media(max-width: 512px) { .profilePhoto { background-size: cover; } }*/
+
+.profileFooter {
+min-height: 40dvh;
+width: 100%;
+display: inline-flex;
+justify-content: center;
+align-items: center;
+text-align: center;
+box-sizing: border-box;
+opacity: 0.94;
+padding: 15px 10vw;
+text-align: left;
+}
+
+
+@media (prefers-color-scheme: light) {
+body{
+background-image: url("../../../img/tpl/bg.svg");
+background-repeat: repeat;
+background-attachment: fixed;
+}
+}
+
+@media (prefers-color-scheme: dark) {
+body{
+background-image: url("../../../img/tpl/bg-dark.svg");
+background-repeat: repeat;
+background-attachment: fixed;
+}
+}

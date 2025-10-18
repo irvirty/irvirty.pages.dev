@@ -1,0 +1,205 @@
+
+var newsJsonVar = 
+
+[
+    {
+        "id": "73",
+        "text": "Firefox 144.0, See All New Features, Updates and Fixes",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.firefox.com\/en-US\/firefox\/144.0\/releasenotes\/",
+        "tag": "#technology #app #software #Firefox #MozillaFirefox #browser",
+        "time": 1760495868,
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/news\/?id=73\"  title=\"id=73 (permanent link)\" >id<\/a>"
+    },
+    {
+        "id": "72",
+        "text": "Firefox profiles: Private, focused spaces for all the ways you browse",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/blog.mozilla.org\/en\/firefox\/profile-management\/",
+        "tag": "#technology #browser #Firefox #MozillaFirefox #feature #update",
+        "time": 1760244610,
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/news\/?id=72\"  title=\"id=72 (permanent link)\" >id<\/a>"
+    },
+    {
+        "id": "69",
+        "text": "Sora 2 is here | OpenAI",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/openai.com\/index\/sora-2\/",
+        "tag": "#technology #OpenAI #Sora #GenerativeAI #AI #AGI",
+        "time": 1760167763,
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/news\/?id=69\"  title=\"id=69 (permanent link)\" >id<\/a>"
+    },
+    {
+        "id": "67",
+        "text": "AMD and OpenAI Announce Strategic Partnership to Deploy 6 Gigawatts of AMD GPUs :: Advanced Micro Devices, Inc. (AMD)",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/ir.amd.com\/news-events\/press-releases\/detail\/1260\/amd-and-openai-announce-strategic-partnership-to-deploy-6-gigawatts-of-amd-gpus",
+        "tag": "#technology #AMD #AI #AGI #OpanAI #ChatGPT",
+        "time": 1759995119,
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/news\/?id=67\"  title=\"id=67 (permanent link)\" >id<\/a>"
+    },
+    {
+        "id": "57",
+        "text": "we hit 2 billion posts today! \ud83e\udd73",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/bsky.app\/profile\/bsky.app\/post\/3m2kdgmbbzc2o",
+        "tag": "#technology #Bluesky #SocialNetwork #web #internet #platform #SocialMedia",
+        "time": 1759811082,
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/news\/?id=57\"  title=\"id=57 (permanent link)\" >id<\/a>"
+    },
+    {
+        "id": "48",
+        "text": "OBS Studio 32 is now available!\r\n\r\nThis release comes with our initial version of the Plugin Manager! We've also made additions and optimizations to NVIDIA RTX filters, and added hybrid MOV support.",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/bsky.app\/profile\/obsproject.com\/post\/3lzrij2yie22j",
+        "tag": "#technology #app #software #stream #live #recording #OBS",
+        "time": 1759130782,
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/news\/?id=48\"  title=\"id=48 (permanent link)\" >id<\/a>"
+    },
+    {
+        "id": "47",
+        "text": "Google's 27th Birthday Doodle - Google Doodles",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/doodles.google\/doodle\/googles-27th-birthday\/",
+        "tag": "#technology #doodle #search #platform #web #logo #logotype #Google",
+        "time": 1759058992,
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/news\/?id=47\"  title=\"id=47 (permanent link)\" >id<\/a>"
+    },
+    {
+        "id": "44",
+        "text": "Firefox 143.0, See All New Features, Updates and Fixes",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.firefox.com\/en-US\/firefox\/143.0\/releasenotes\/",
+        "tag": "#technology #Firefox  #MozillaFirefox #browser #update #app #software",
+        "time": 1758172231,
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/news\/?id=44\"  title=\"id=44 (permanent link)\" >id<\/a>"
+    },
+    {
+        "id": "38",
+        "text": "Introducing GPT-5 | OpenAI",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/openai.com\/index\/introducing-gpt-5\/",
+        "tag": "#technology #AI #AGI #OpenAI #ChatGPT",
+        "time": 1755677889,
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/news\/?id=38\"  title=\"id=38 (permanent link)\" >id<\/a>"
+    },
+    {
+        "id": "36",
+        "text": "Listen to the \u2018world\u2019s first\u2019 song made by a quantum computer and AI",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/thenextweb.com\/news\/lworlds-first-song-made-by-quantum-and-ai",
+        "tag": "#technology #AI #QuantumComputer",
+        "time": 1746854581,
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/news\/?id=36\"  title=\"id=36 (permanent link)\" >id<\/a>"
+    },
+    {
+        "id": "32",
+        "text": "Bluesky: \"30M users 1B posts \ud83e\udd1d bluesky milestone achieved this week\" \u2014 Bluesky",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/bsky.app\/profile\/bsky.app\/post\/3lh5iyaqqos24",
+        "tag": "#technology #web #SocialNetwork #SocialMedia #Bluesky",
+        "time": 1745333300,
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/news\/?id=32\"  title=\"id=32 (permanent link)\" >id<\/a>"
+    },
+    {
+        "id": "31",
+        "text": "Neocities: \"One million sites \ud83c\udf89\" \u2014 Bluesky",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/bsky.app\/profile\/neocities.org\/post\/3lhu7xapg3s2x",
+        "tag": "#technology #web #internet #hosting #Neocities",
+        "time": 1745333263,
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/news\/?id=31\"  title=\"id=31 (permanent link)\" >id<\/a>"
+    },
+    {
+        "id": "30",
+        "text": "It\u2019s Our Birthday, Let\u2019s Party - YouTube",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=OIuG1bBkfs0",
+        "tag": "#web #internet #video #platform #YouTube",
+        "time": 1745321783,
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/news\/?id=30\"  title=\"id=30 (permanent link)\" >id<\/a>"
+    },
+    {
+        "id": "27",
+        "text": "ChatGPT just passed the Turing test. But that doesn\u2019t mean AI is now as smart as humans",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/theconversation.com\/chatgpt-just-passed-the-turing-test-but-that-doesnt-mean-ai-is-now-as-smart-as-humans-253946",
+        "tag": "#technology #AI #AGI #OpenAI #ChatGPT",
+        "time": 1744634711,
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/news\/?id=27\"  title=\"id=27 (permanent link)\" >id<\/a>"
+    },
+    {
+        "id": "25",
+        "text": "GIMP 3.0\u00a0Released - GIMP",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.gimp.org\/news\/2025\/03\/16\/gimp-3-0-released\/",
+        "tag": "#technology #app #software #graphic #GraphicDesign #GIMP",
+        "time": 1743253627,
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/news\/?id=25\"  title=\"id=25 (permanent link)\" >id<\/a>"
+    },
+    {
+        "id": "17",
+        "text": "Firefox 134.0, See All New Features, Updates and Fixes",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.mozilla.org\/en-US\/firefox\/134.0\/releasenotes\/",
+        "tag": "#technology #web #internet #browser #app #software #Firefox #MozillaFirefox",
+        "time": 1736454871,
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/news\/?id=17\"  title=\"id=17 (permanent link)\" >id<\/a>"
+    },
+    {
+        "id": "15",
+        "text": "An AI system has reached human level on a test for \u2018general intelligence\u2019. Here\u2019s what that means",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/theconversation.com\/an-ai-system-has-reached-human-level-on-a-test-for-general-intelligence-heres-what-that-means-246529",
+        "tag": "#technology #AI #AGI #OpenAI #ChatGPT",
+        "time": 1735508925,
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/news\/?id=15\"  title=\"id=15 (permanent link)\" >id<\/a>"
+    },
+    {
+        "id": "7",
+        "text": "Google \u2014 Year in Search 2024 - YouTube",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=61JHONRXhjs",
+        "tag": "#video #search #web #trend #social #SearchEngine",
+        "time": 1734681436,
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/news\/?id=7\"  title=\"id=7 (permanent link)\" >id<\/a>"
+    },
+    {
+        "id": "6",
+        "text": "Google\u2019s Year in Search 2024: The top trending searches of the year",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/blog.google\/products\/search\/google-year-in-search-2024\/",
+        "tag": "#search #trends #web #internet",
+        "time": 1733981107,
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/news\/?id=6\"  title=\"id=6 (permanent link)\" >id<\/a>"
+    },
+    {
+        "id": "4",
+        "text": "Firefox 132.0, See All New Features, Updates and Fixes",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.mozilla.org\/en-US\/firefox\/132.0\/releasenotes\/",
+        "tag": "#technology #software #app #update #browser #web #internet #Firefox",
+        "time": 1730313353,
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/news\/?id=4\"  title=\"id=4 (permanent link)\" >id<\/a>"
+    }
+]

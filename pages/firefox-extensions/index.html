@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<meta charset="UTF-8">
+<title>Firefox extensions</title>
+
+<meta name="description" content="An extension for the Mozilla Firefox browser. Extension: New tab redirect (any website in a new tab), auto theme switcher (auto dark mode). Firefox add-on.">
+<meta name="keywords" content="auto, theme, switcher, automatic, theme, dark, mode, light, mode, OS, theme, sync, system, theme, time, based, theme, browser, theme, changer, scheduled, theme,
+New, tab, redirect, custom, new, tab, set, homepage, change, new, tab, URL, new, tab, website,
+
+startpage, newtabpage, Firefox, hotkeys, new, tab, NewTab,
+firefox, extension, extensions, addon, project, page, main, 
+page, main,">
+
+<link rel="alternate" type="application/rss+xml" title="Irvirty News" href="/rss.xml">
+<link rel="alternate" type="application/rss+xml" title="Irvirty Microblog" href="/rss2.xml">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<meta name="color-scheme" content="light dark">
+<!--<meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">-->
+
+<link rel="icon" sizes="512x512" href="../../img/logo.png" type="image/png">
+<link rel="shortcut icon" href="../../favicon.ico" type="image/x-icon">
+
+
+<!-- main -->
+<link rel="preload" href="../../js/main.js" as="script">
+
+<link rel="preload" href="../../css/main.css" as="style">
+<link rel="stylesheet" href="../../css/main.css" type="text/css">
+<link rel="preload" href="../../css/auto.css" as="style">
+<link rel="stylesheet" type="text/css" href="../../css/auto.css" id="theme">
+
+<link rel="preload" href="../../css/style.css" as="style">
+<link rel="stylesheet" href="../../css/style.css" type="text/css">
+
+<noscript>
+<link rel="stylesheet" type="text/css" href="../../css/noscript.css">
+</noscript>
+<!-- // main -->
+
+<link rel="preload" href="../../js/script.js" as="script">
+
+
+<!--<link rel="preload" href="/projects/17-insert-icon/script.js" as="script">-->
+
+</head>
+<body>
+
+
+
+<!-- Navigation HTML v.1.0.1 -->
+<header>
+<div class="wrapper3">
+<div class="margin"></div>
+
+<div id="topNav" class="topNav">
+<nav>
+
+<!-- /* Skip navigation: .screenReader (in main.css) + id="content" */ -->
+<a class="screenReader inlineBlock padding brand" tabindex="0" href="#content">Skip navigation</a>
+<a class="inlineBlock padding" style="padding-left: 0;" tabindex="0" href="../../" title="index / nav 1"><img class="logo2 reduceLight" src="../../img/logo.png" alt="logo" style="max-width: 26px;"></a> 
+
+<span id="navMenu" class="navMenu">
+<!-- links in nav -->
+<a class="inlineBlock padding brand empty" tabindex="0" href="../../all/" title="All pages">All</a>
+<a class="active2 navMenuActive inlineBlock padding empty" tabindex="0" href="../../pages/" title="Main pages">Pages</a>
+<a class="inlineBlock padding brand empty" tabindex="0" href="../../games/" title="Games">Games</a>
+<a class="inlineBlock padding brand empty" tabindex="0" href="../../projects/" title="JavaScript projects">Projects</a>
+<a class="inlineBlock padding brand empty" tabindex="0" href="../../mini-projects/" title="HTML and CSS projects">Mini projects</a>
+<a class="inlineBlock padding brand empty" tabindex="0" href="../../pages/about/" title="About page">About</a>
+<!-- // links in nav -->
+</span>
+
+<div class="dropdownMenuContentWrapper navMenu2">
+<div class="dropdownMenuContent">
+
+<a id="dropdownMenuButton" class="dropdownMenuButton inlineBlock padding mClassNavUp brand borderBottomTransparent" tabindex="0" href="#" onclick="fuMDropdownButton();return false;">☰ Menu</a>
+
+<div id="dropdownMenu" class="dropdownMenu">
+<div class="dropdownMenuColumn shadow bg2 padding2 borderRadius2">
+<!-- links for show in dropdown (duplicate) -->
+<a class="inlineBlock padding brand empty" tabindex="0" href="../../all/" title="All pages">All</a>
+<a class="active2 navMenuActive inlineBlock padding empty" tabindex="0" href="../../pages/" title="Main pages">Pages</a>
+<a class="inlineBlock padding brand empty" tabindex="0" href="../../games/" title="Games">Games</a>
+<a class="inlineBlock padding brand empty" tabindex="0" href="../../projects/" title="JavaScript projects">Projects</a>
+<a class="inlineBlock padding brand empty" tabindex="0" href="../../mini-projects/" title="HTML and CSS projects">Mini projects</a>
+<a class="inlineBlock padding brand empty" tabindex="0" href="../../pages/about/" title="About page">About</a>
+<!-- // links for show in dropdown (duplicate) -->
+<hr>
+<a class="noscriptHide block w100 tCenter padding small gray" href="#" onclick="fuMDropdownButtonClose();return false;" title="Close menu">Close</a>
+</div>
+</div>
+
+</div>
+</div>
+
+<!--<a class="inlineBlock padding mClassNavUp brand borderBottomTransparent" tabindex="0" href="../" title="../ (Up)">List (up)</a>-->
+
+<form class="noscriptHide inlineBlock padding" style="padding-right: 0;" method="GET" action="../../site-search/" role="search">
+<!--<label for="siteSearch" class="xSmall op">search:</label>-->
+<input id="siteSearch" class="borderRadius3" type="search" placeholder="site search" name="q" autocomplete="off">
+</form>
+
+</nav>
+</div>
+
+</div>
+</header>
+<!-- // Navigation HTML -->
+
+<!--<hr>-->
+
+
+
+<!-- content -->
+<main id="content" class="content">
+<div class="wrapper notUnderline">
+
+<h1 class="tCenter op insertIconTitle">Firefox extensions</h1>
+
+
+
+<div class="wrapper">
+
+<!-- post -->
+<div class="bgList borderList post file borderRadius2 padding3">
+
+<div class="pre"><a class="brand insertIcon" href="https://github.com/irvirty/irvirty.pages.dev/tree/main/pages/firefox-extensions/auto-theme-switcher-8/">[ Auto theme switcher 8 ] <span class="op sup x-small">⇗</span></a> <span class="small op">(Repository)</span> <a class="brand" href="../../pages/firefox-extensions/auto-theme-switcher-8/screenshot.png">../../pages/firefox-extensions/auto-theme-switcher-8/screenshot.png</a><br><a href="../../pages/firefox-extensions/auto-theme-switcher-8/screenshot.png"><img class="img border" src="../../pages/firefox-extensions/auto-theme-switcher-8/screenshot.png" alt="img"></a></div>
+<div class="keepPostTagList"></div>
+
+</div>
+<!-- // post -->
+
+<!-- post -->
+<div class="bgList borderList post file borderRadius2 padding3">
+
+<div class="pre"><a class="brand insertIcon" href="https://github.com/irvirty/irvirty.pages.dev/tree/main/pages/firefox-extensions/google-search-unofficial-9/">[ Google search unofficial 9 ] <span class="op sup x-small">⇗</span></a> <span class="small op">(Repository)</span> <a class="brand" href="../../pages/firefox-extensions/google-search-unofficial-9/screenshot.png">../../pages/firefox-extensions/google-search-unofficial-9/screenshot.png</a><br><a href="../../pages/firefox-extensions/google-search-unofficial-9/screenshot.png"><img class="img border" src="../../pages/firefox-extensions/google-search-unofficial-9/screenshot.png" alt="img"></a></div>
+<div class="keepPostTagList"></div>
+
+</div>
+<!-- // post -->
+
+<!-- post -->
+<div class="bgList borderList post file borderRadius2 padding3">
+
+<div class="pre"><a class="brand insertIcon" href="https://github.com/irvirty/irvirty.pages.dev/tree/main/pages/firefox-extensions/irvirty-search-redirect-10/">[ Irvirty search redirect 10 ] <span class="op sup x-small">⇗</span></a> <span class="small op">(Repository)</span> <a class="brand" href="../../pages/firefox-extensions/irvirty-search-redirect-10/screenshot.png">../../pages/firefox-extensions/irvirty-search-redirect-10/screenshot.png</a><br><a href="../../pages/firefox-extensions/irvirty-search-redirect-10/screenshot.png"><img class="img border" src="../../pages/firefox-extensions/irvirty-search-redirect-10/screenshot.png" alt="img"></a></div>
+<div class="keepPostTagList"></div>
+
+</div>
+<!-- // post -->
+
+<!-- post -->
+<div class="bgList borderList post file borderRadius2 padding3">
+
+<div class="pre"><a class="brand insertIcon" href="https://github.com/irvirty/irvirty.pages.dev/tree/main/pages/firefox-extensions/new-tab-redirect-3/">[ New tab redirect 3 ] <span class="op sup x-small">⇗</span></a> <span class="small op">(Repository)</span> <a class="brand" href="../../pages/firefox-extensions/new-tab-redirect-3/screenshot.png">../../pages/firefox-extensions/new-tab-redirect-3/screenshot.png</a><br><a href="../../pages/firefox-extensions/new-tab-redirect-3/screenshot.png"><img class="img border" src="../../pages/firefox-extensions/new-tab-redirect-3/screenshot.png" alt="img"></a></div>
+<div class="keepPostTagList"></div>
+
+</div>
+<!-- // post -->
+
+<!-- post -->
+<div class="bgList borderList post file borderRadius2 padding3">
+
+<div class="pre"><a class="brand insertIcon" href="https://github.com/irvirty/irvirty.pages.dev/tree/main/pages/firefox-extensions/old/">[ Old ] <span class="op sup x-small">⇗</span></a> <span class="small op">(Repository)</span></div>
+<div class="keepPostTagList"></div>
+
+</div>
+<!-- // post -->
+
+<!-- post -->
+<div class="bgList borderList post file borderRadius2 padding3">
+
+<div class="pre"><a class="brand insertIcon" href="https://github.com/irvirty/irvirty.pages.dev/tree/main/pages/firefox-extensions/search-localhost-http-1/">[ Search localhost http 1 ] <span class="op sup x-small">⇗</span></a> <span class="small op">(Repository)</span> <a class="brand" href="../../pages/firefox-extensions/search-localhost-http-1/screenshot.png">../../pages/firefox-extensions/search-localhost-http-1/screenshot.png</a><br><a href="../../pages/firefox-extensions/search-localhost-http-1/screenshot.png"><img class="img border" src="../../pages/firefox-extensions/search-localhost-http-1/screenshot.png" alt="img"></a></div>
+<div class="keepPostTagList"></div>
+
+</div>
+<!-- // post -->
+
+<!-- post -->
+<div class="bgList borderList post file borderRadius2 padding3">
+
+<div class="pre"><a class="brand insertIcon" href="https://github.com/irvirty/irvirty.pages.dev/tree/main/pages/firefox-extensions/search-localhost-https-2/">[ Search localhost https 2 ] <span class="op sup x-small">⇗</span></a> <span class="small op">(Repository)</span></div>
+<div class="keepPostTagList"></div>
+
+</div>
+<!-- // post -->
+
+</div>
+
+<div class="margin padding"></div>
+
+<div class="post bg borderList">
+
+<a class="block insertIcon button border light2 brand bold borderRadius2 medium" href="https://addons.mozilla.org/firefox/user/17469135/">Install from Store</a>
+
+</div>
+
+<div class="padding2 margin2"></div>
+
+</div>
+</main>
+<!-- // content -->
+
+<div class="wrapper3">
+<footer id="footer"></footer>
+</div>
+
+<script>
+var confD = "../../";
+</script>
+<script src="../../js/main.js"></script>
+<script src="../../js/script.js"></script>
+
+
+
+</body>
+</html>
+

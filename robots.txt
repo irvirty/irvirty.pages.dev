@@ -1,0 +1,26 @@
+
+User-agent: *
+Allow: /
+
+#User-agent: ia_archiver
+#Disallow: /
+
+#User-agent: CCBot
+#Disallow: /
+
+#User-Agent: omgili
+#Disallow: /
+
+#User-agent: GPTBot
+#Disallow: /
+
+#User-agent: ChatGPT-User
+#Disallow: /
+
+#User-agent: Google-Extended
+#Disallow: /
+
+#https://developers.google.com/search/docs/crawling-indexing/sitemaps/build-sitemap#xml
+#https://www.reddit.com/robots.txt
+
+Sitemap: https://irvirty.pages.dev/sitemap.xml

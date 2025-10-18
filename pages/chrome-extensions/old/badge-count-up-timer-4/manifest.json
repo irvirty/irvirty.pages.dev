@@ -1,0 +1,36 @@
+{
+
+  "manifest_version": 3,
+  "name": "Badge count up timer",
+  "version": "1.0.8",
+  "description": "Shows a Count Up Timer in extension Badge.",
+
+"icons": {
+"512": "icon512x512.png"
+},
+
+"permissions":
+[
+"storage"
+],
+  
+
+  
+"action": {
+    "default_icon": {              // optional
+"512": "icon512x512.png"
+    },
+    "default_title": "refresh",   // optional, shown in tooltip
+    "default_popup": "popup.html"  // optional
+  },
+  
+
+
+  
+"background": {
+"service_worker": "background.js"
+}
+
+
+
+}

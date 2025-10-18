@@ -1,0 +1,15 @@
+<svg width="512" height="512" version="1.1" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+ <defs>
+  <clipPath id="clipPath25132">
+   <circle cx="256" cy="256" r="114.26" display="none" fill="#ef2929"/>
+   <path class="powerclip" d="m30.104 30.104h451.79v451.79h-451.79zm340.15 225.9a114.26 114.26 0 0 0-114.26-114.26 114.26 114.26 0 0 0-114.26 114.26 114.26 114.26 0 0 0 114.26 114.26 114.26 114.26 0 0 0 114.26-114.26z" fill="#ef2929"/>
+  </clipPath>
+ </defs>
+ <g clip-path="url(#clipPath25132)">
+  <circle cx="256" cy="256" r="164.18"/>
+  <path x="206" y="35.103806" width="100" height="441.79239" d="m206 35.104h100v441.79h-100z"/>
+  <path transform="rotate(-45)" x="-49.999989" y="141.14249" width="100" height="441.79239" d="m-50 141.14h100v441.79h-100z"/>
+  <path transform="rotate(90)" x="206" y="-476.89618" width="100" height="441.79239" d="m206-476.9h100v441.79h-100z"/>
+  <path transform="rotate(45)" x="312.03867" y="-220.89619" width="100" height="441.79239" d="m312.04-220.9h100v441.79h-100z"/>
+ </g>
+</svg>

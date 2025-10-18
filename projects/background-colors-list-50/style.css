@@ -1,0 +1,22 @@
+/* v.1.0.0 */
+/* comment */
+
+
+.lBlock {
+display: block;
+height: 50vh;
+width: 100%;
+
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: safe center;
+align-self: safe center;
+align-content: center;
+
+margin: auto;
+left: 0;
+right: 0;
+
+text-align: center;
+}

@@ -1,0 +1,49 @@
+{
+"manifest_version": 3,
+"name": "RSS status button",
+"version": "2.2.3",
+"description": "RSS status button.",
+
+"icons": {
+"512": "icon-512x512.png"
+},
+
+"permissions": [
+"activeTab"
+],
+
+
+"action": {
+    "default_popup": "options.html",
+    "default_icon": {
+      "512": "icon-512x512.png"
+    }
+  },
+
+"content_scripts": [
+{
+"js": ["script.js"],
+"matches": ["<all_urls>", "*://*/*"],
+"run_at": "document_end",
+"all_frames": false
+}
+],
+
+"background": {
+"scripts": ["background.js"]
+},
+
+"options_ui": {
+"page": "options.html",
+"open_in_tab": true
+},
+
+"browser_specific_settings": {
+"gecko": {
+"id": "rss-button-status@example.com",
+"strict_min_version": "132.0"
+}
+}
+
+
+}

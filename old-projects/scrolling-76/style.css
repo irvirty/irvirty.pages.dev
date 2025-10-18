@@ -1,0 +1,12 @@
+/* v.1.0.0 */
+/* comment */
+
+
+#result {
+
+background-color: radial-gradient(var(--orange), var(--violet));
+background-image: url("image.png");
+/*background-size: 5000px 5000px;*/
+width: 5000px;
+height: 5000px;
+}

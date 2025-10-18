@@ -1,0 +1,1051 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<meta charset="UTF-8">
+<title>Irvirty - Homepage, start Ppge and projects</title>
+
+<meta name="description" content="Search redirect, links, news, games, music collection, images, microblog, to-do list, tools, browser themes and extensions, WP theme, site templates, icons ...">
+<meta name="keywords" content="irvirty, website, site, homepage, home, page, personal, portfolio, project, projects,
+HTML, CSS, JavaScript,
+
+search, redirect, links, news, games, music, collection, images, microblog, todo, list, tools, browser, themes, extensions, WP, theme, site, templates, icons,
+
+newtab, new, tab, startpage, start, page, main, index, search, redirect, SearechRedirect,
+OpenSource,
+!ignoreme,">
+
+<link rel="alternate" type="application/rss+xml" title="Irvirty News" href="/rss.xml">
+<link rel="alternate" type="application/rss+xml" title="Irvirty Microblog" href="/rss2.xml">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<meta name="color-scheme" content="light dark">
+<!--<meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">-->
+
+<link rel="icon" sizes="512x512" href="./img/logo.png" type="image/png">
+<link rel="shortcut icon" href="./favicon.ico" type="image/x-icon">
+
+
+<!-- main -->
+<link rel="preload" href="./js/main.js" as="script">
+
+<link rel="preload" href="./css/main.css" as="style">
+<link rel="stylesheet" href="./css/main.css" type="text/css">
+<link rel="preload" href="./css/auto.css" as="style">
+<link rel="stylesheet" type="text/css" href="./css/auto.css" id="theme">
+
+<link rel="preload" href="./css/style.css" as="style">
+<link rel="stylesheet" href="./css/style.css" type="text/css">
+
+<noscript>
+<link rel="stylesheet" type="text/css" href="./css/noscript.css">
+</noscript>
+<!-- // main -->
+
+<link rel="preload" href="./js/script.js" as="script">
+
+
+<!--<link rel="manifest" href="manifest.webmanifest">-->
+
+<style>
+#topHeader { position: relative; }
+
+.siteName a {
+position: relative;
+text-transform: uppercase;
+
+display: inline-block;
+
+background-color: var(--bg);
+border-top: 2px dashed color-mix(in srgb, var(--brand) 50%, transparent);
+padding-top: 2px;
+top: -30px;
+
+width: 100%;
+max-width: 180px;
+
+/*transform: rotate(-7deg);*/
+}
+
+.siteName, .siteName a { color: var(--cRand2); }
+.siteName:hover, .siteName a:hover { color: var(--cRand); }
+
+.siteName a::after {
+content: "Homepage";
+text-transform: none;
+font-size: small;
+display: inline-block;
+
+position: absolute;
+
+background-color: var(--bg);
+width: 100%;
+height: 50%;
+text-align: center;
+left: 0;
+bottom: 0;
+color: var(--cRand);
+}
+
+.siteNameWrapper { margin-bottom: -30px; }
+
+.headerBannerImg img,
+.headerBannerImg svg {
+display: block;
+width: auto;
+max-height: 120px;
+margin: 0 auto;
+margin-bottom: -30px;
+position: relative;
+
+z-index: -2;
+/*border-bottom: 2px dashed var(--cRand2);*/
+
+
+}
+
+.headerBannerImg svg,
+.headerBannerImg img {
+opacity: .9;
+opacity: .7;
+}
+
+</style>
+
+</head>
+<body>
+
+
+
+<!-- Navigation HTML v.1.0.1 -->
+<header>
+<div class="wrapper3">
+<div class="margin"></div>
+
+<div id="topNav" class="topNav">
+<nav>
+
+<!-- /* Skip navigation: .screenReader (in main.css) + id="content" */ -->
+<a class="screenReader inlineBlock padding brand" tabindex="0" href="#content">Skip navigation</a>
+<a class="inlineBlock padding" style="padding-left: 0;" tabindex="0" href="./" title="index / nav 1"><img class="logo2 reduceLight" src="./img/logo.png" alt="logo" style="max-width: 26px;"></a> 
+
+<span id="navMenu" class="navMenu">
+<!-- links in nav -->
+<a class="inlineBlock padding brand empty" tabindex="0" href="./all/" title="All pages">All</a>
+<a class="inlineBlock padding brand empty" tabindex="0" href="./pages/" title="Main pages">Pages</a>
+<a class="inlineBlock padding brand empty" tabindex="0" href="./games/" title="Games">Games</a>
+<a class="inlineBlock padding brand empty" tabindex="0" href="./projects/" title="JavaScript projects">Projects</a>
+<a class="inlineBlock padding brand empty" tabindex="0" href="./mini-projects/" title="HTML and CSS projects">Mini projects</a>
+<a class="inlineBlock padding brand empty" tabindex="0" href="./pages/about/" title="About page">About</a>
+<!-- // links in nav -->
+</span>
+
+<div class="dropdownMenuContentWrapper navMenu2">
+<div class="dropdownMenuContent">
+
+<a id="dropdownMenuButton" class="dropdownMenuButton inlineBlock padding mClassNavUp brand borderBottomTransparent" tabindex="0" href="#" onclick="fuMDropdownButton();return false;">☰ Menu</a>
+
+<div id="dropdownMenu" class="dropdownMenu">
+<div class="dropdownMenuColumn shadow bg2 padding2 borderRadius2">
+<!-- links for show in dropdown (duplicate) -->
+<a class="inlineBlock padding brand empty" tabindex="0" href="./all/" title="All pages">All</a>
+<a class="inlineBlock padding brand empty" tabindex="0" href="./pages/" title="Main pages">Pages</a>
+<a class="inlineBlock padding brand empty" tabindex="0" href="./games/" title="Games">Games</a>
+<a class="inlineBlock padding brand empty" tabindex="0" href="./projects/" title="JavaScript projects">Projects</a>
+<a class="inlineBlock padding brand empty" tabindex="0" href="./mini-projects/" title="HTML and CSS projects">Mini projects</a>
+<a class="inlineBlock padding brand empty" tabindex="0" href="./pages/about/" title="About page">About</a>
+<!-- // links for show in dropdown (duplicate) -->
+<hr>
+<a class="noscriptHide block w100 tCenter padding small gray" href="#" onclick="fuMDropdownButtonClose();return false;" title="Close menu">Close</a>
+</div>
+</div>
+
+</div>
+</div>
+
+<!--<a class="inlineBlock padding mClassNavUp brand borderBottomTransparent" tabindex="0" href="../" title="../ (Up)">List (up)</a>-->
+
+<form class="noscriptHide inlineBlock padding" style="padding-right: 0;" method="GET" action="./site-search/" role="search">
+<!--<label for="siteSearch" class="xSmall op">search:</label>-->
+<input id="siteSearch" class="borderRadius3" type="search" placeholder="site search" name="q" autocomplete="off">
+</form>
+
+</nav>
+</div>
+
+</div>
+</header>
+<!-- // Navigation HTML -->
+
+<!--<hr>-->
+
+
+
+<!-- content -->
+<main id="content" class="content">
+
+
+
+<div class="wrapper">
+
+<header id="topHeader" class="block padding1PxList tCenter" style="position: relative;">
+
+<div class="headerBannerImg reduceLight">
+
+<img src="./img/header-banner.png" alt="header banner">
+
+</div>
+
+<a href="./img/logo.png"><img class="logo reduceLight" src="./img/logo.png" alt="logo"></a>
+
+<div class="padding2List"></div>
+
+<div class="siteNameWrapper">
+<h1 class="zero siteName"><a class="notUnderline" href="/pages/about/" title="About page">Irvirty</a></h1>
+</div>
+<div class="tRight">
+
+<details class="small" style="position: relative; z-index: 5;">
+<summary class="op wrapperSmall3 pointe padding pointer">
+<span class="xSmall">Site update: <span class="brand" id="last-update"></span></span>
+</summary>
+<div class="wrapperSmall small inlineBlock padding2 pre bg shadow borderRadius2 tLeft">
+WordPress theme: I added a background with a randomly selected image to the theme.
+
+<a class="brand inlineBlock w100 padding2 small tCenter border2 light borderRadius2" href="./pages/updates/" title="Update Log">more</a>
+</div>
+</details>
+
+</div>
+
+<div class="listItem op wrapperSmall3 inlineBlock marginList borderRadius2 tCenter">
+<div class="small pre"><span class="xSmall" title="Status">Status: </span><span class="ico zero medium">🍂</span> Autumn.</div>
+</div>
+
+<!--<aside>
+<div id="hotLinksTop" class="scrollX tCenter small noscriptHide paddingList notUnderline">
+<span id="urlDayNow"></span>
+<a class="brand inlineBlock padding op small" href="https://wikipedia.org/wiki/" title="Wikipedia, the free encyclopedia">Wiki</a>
+<a class="brand inlineBlock padding op small" href="/projects/redirects-25/?q=nn" title="News (random)">News</a>
+<a class="brand inlineBlock padding op small" href="/projects/redirects-25/?q=cul" title="Other news (random)">Other</a>
+<a class="brand inlineBlock padding op small" href="/projects/redirects-25/?q=spo" title="Sports news (random)">Sports</a>
+<a class="brand inlineBlock padding op small" href="/projects/redirects-25/?q=sci" title="Science news (random)">Sci</a>
+<a class="brand inlineBlock padding op small" href="/projects/redirects-25/?q=tec" title="Technology news (random)">Tech</a>
+<a class="brand inlineBlock padding op small" href="/projects/redirects-25/?q=dev" title="Development (random)">Dev</a>
+</div>
+</aside>-->
+
+<div class="padding1PxList"></div>
+
+</header>
+
+<script>
+// post time v.1.2.0, local
+//https://stackoverflow.com/questions/13903897/javascript-return-number-of-days-hours-minutes-seconds-between-two-dates
+
+// Time  post date
+function checkTime(i) {
+  if (i < 10) {i = "0" + i};  
+  return i;
+}
+
+
+function fuPostTime(p){
+const  date_future = Date.now();
+const  date_now = new Date(p * 1000);
+
+
+// get total seconds between the times
+var delta = Math.abs(date_future - date_now) / 1000;
+
+var year = Math.floor(delta / 31557600);
+delta -= year * 31557600;
+
+var month = Math.floor(delta / 2629800);
+delta -= month * 2629800;
+
+// calculate (and subtract) whole days
+var days = Math.floor(delta / 86400);
+delta -= days * 86400;
+
+// calculate (and subtract) whole hours
+var hours = Math.floor(delta / 3600) % 24;
+delta -= hours * 3600;
+
+// calculate (and subtract) whole minutes
+var minutes = Math.floor(delta / 60) % 60;
+delta -= minutes * 60;
+
+// what's left is seconds
+var seconds = delta % 60;  // in theory the modulus is not required
+
+if (year > 0){
+time = year + ' year ';
+} else if (month > 0){
+time = month + ' month ';
+} else if (days > 0){
+time = days + ' day ';
+} else if (hours > 0){
+time = hours + ' hour ';
+} else if (minutes > 0) {
+time = minutes + ' minute ';
+} else {
+time = checkTime(Math.floor(seconds))+' second ';
+}
+
+return time + ' ago';
+//document.getElementById("time").innerHTML = '&nbsp;' + time + '&nbsp;';
+}
+</script>
+
+<!--<script src="/js/fuPostTime.js"></script>-->
+<script>
+//https://stackoverflow.com/questions/2810825/javascript-event-window-onload-not-triggered
+window.addEventListener("load", myInitFunctionUpdate);
+function myInitFunctionUpdate(){
+if (document.getElementById("last-update") != null){
+document.getElementById("last-update").innerHTML = fuPostTime(1759750969);
+}
+}
+</script>
+
+<!--<script>
+// day link
+var monthsEn = ['', 'January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'];
+//https://en.wikipedia.org/wiki/Template:MONTHABBREV
+var monthsEnShort = ['', 'Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
+var dayEn = ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'];
+
+//https://stackoverflow.com/questions/50922593/function-getutcdate-returns-a-month
+var dateObj = new Date();
+var month = dateObj.getMonth() + 1; //months from 1-12
+var day = dateObj.getDate();
+var year = dateObj.getFullYear();
+
+//https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/getDay
+let d = dateObj.getDay();
+
+//var dayNowTitle = day +' '+ dayEn[d];
+var dayNowTitle = dayEn[d] + ', ' + monthsEnShort[month] + ' ' + day;
+
+var urlDayNow = 'https://en.wikipedia.org/wiki/' + monthsEn[month] + '_' + day + '';
+if (document.getElementById('urlDayNow') != null){
+document.getElementById('urlDayNow').innerHTML = `<a class="brand inlineBlock padding op small" href="` + urlDayNow + `" title="Wikipedia">` + dayNowTitle + `</a>`;
+//document.getElementById('urlDayNow').innerHTML = `<a class="brand inlineBlock padding op small" href="https://wikipedia.org/wiki/" title="Wikipedia">` + dayNowTitle + `</a>`
+}
+</script>-->
+
+
+<div id="form" class="noscriptHide">
+<form method="GET" style="margin-top: 0px;" action="./search/" autocomplete="off" role="search">
+
+<label id="search" class="op block tLeft xSmall padding1PxList" for="q"><span class="bold orange">✪</span> Web search (redirect, random, <a class="brand notUnderline" title="WPM - Words per minute" href="/games/typing-speed-14/">WPM: <span id="wpm" class="orange bold">0</span></a>):</label>
+<input id="q" class="borderRadius" aria-labelledby="search" type="search" name="q" autofocus="autofocus" placeholder="" autocomplete="off" spellcheck="true">
+
+<!--<div style="display: grid; grid-template-columns: 1fr 1fr; grid-gap: 2px;">-->
+<div class="threeColumn">
+<!--<input class="smaller op tCenter submit borderRadius" type="submit" value="Search" title="Random search engine">-->
+<button class="smaller op tCenter submit borderRadius" type="submit" title="Random search engine, text q">Search</button>
+<!--https://stackoverflow.com/questions/4171664/html-submit-button-different-value-button-text#-->
+<button class="smaller op tCenter submit borderRadius" name="q2" value="ai" type="submit" title="AI Mode, text ai">AI</button>
+<button class="smaller op tCenter submit borderRadius" name="q2" value="l" type="submit" title="First search result, text l">I'm Feeling Lucky</button>
+<!--<input  class="smaller op tCenter" type="submit" name="q2" value="l">-->
+</div>
+
+</form>
+
+</div>
+
+<div  class="center noscriptHide" style="margin-top: 7px;">
+<div class="wrapper tCenter small"><!--if scrollX horizontal class rm keepTagList)-->
+<div id="hotLinks">
+
+<div class="autoColumn notUnderline">
+<!--<span class="x-small op c" title="Commands:">com: </span>-->
+<!--<a class="autoColumnItem keepTag2 itemHeight3 light2 border3 borderRadius2 op" href="/search/?q=w" title="Web search random (text w)">Web</a>-->
+<a class="autoColumnItem keepTag2 itemHeight light2 border3 borderRadius2 op" href="/search/?q=goo" title="Google search (text goo)">Google</a>
+<a class="autoColumnItem keepTag2 itemHeight light2 border3 borderRadius2 op" href="/search/?q=bin" title="Bing search (text bin)">Bing</a>
+<a class="autoColumnItem keepTag2 itemHeight light2 border3 borderRadius2 op" href="/search/?q=o" title="Other search engine, random (text o)">Other</a>
+<a class="autoColumnItem keepTag2 itemHeight light2 border3 borderRadius2 op" href="/search/?q=n" title="News search random (text n)">News</a>
+<!--<a class="autoColumnItem keepTag2 itemHeight light2 border3 borderRadius2 op" href="/search/?q=mar" title="Marginalia search (text mar)">Marginalia</a>
+<a class="autoColumnItem keepTag2 itemHeight light2 border3 borderRadius2 op" href="/search/?q=sez" title="Seznam search (text sez)">Seznam</a>-->
+<!--<a class="autoColumnItem keepTag2 itemHeight light2 border3 borderRadius2 op" href="/search/?q=moj" title="Mojeek search (text moj)">Mojeek</a>-->
+<a class="autoColumnItem keepTag2 itemHeight light2 border3 borderRadius2 op" href="/search/?q=i" title="Image search random (text i)">Images</a>
+<a class="autoColumnItem keepTag2 itemHeight light2 border3 borderRadius2 op" href="/search/?q=v" title="Video search random (text v)">Videos</a>
+<a class="autoColumnItem keepTag2 itemHeight light2 border3 borderRadius2 op" href="/search/?q=pod" title="Podcast search (text pod)">Podcast</a>
+<a class="autoColumnItem keepTag2 itemHeight light2 border3 borderRadius2 op" href="/search/?q=s" title="Social media search random (text s)">Social</a>
+<a class="autoColumnItem keepTag2 itemHeight light2 border3 borderRadius2 op" href="/search/?q=t" title="Translate random (text t)">Translate</a>
+<a class="autoColumnItem keepTag2 itemHeight light2 border3 borderRadius2 op" href="/search/?q=ps" title="Google Programmable Search (text ps)">Google PS</a>
+<a class="autoColumnItem keepTag2 itemHeight light2 border3 borderRadius2 op" href="/search/?q=qs" title="Site search (text qs)">Site</a>
+</div>
+
+</div>
+</div>
+</div>
+
+
+
+
+
+
+<div class="margin3 padding3"></div>
+
+
+</div>
+
+
+<div class="wrapper">
+
+<div id="speedDialPrint"></div>
+</div>
+<noscript>
+<!-- nav2 -->
+<div class="margin padding"></div>
+<hr>
+<h2 class="op tCenter">Lists:</h2>
+
+<div class="xSmall op block tLeft padding1PxList margin1PxList"><span class="bold green">✪</span> Lists:</div>
+
+<div class="menu small">
+
+<a class=" button light3 border3 borderRadius2 itemHeight2" tabindex="0" href="./all/"><span class="insertIcon firstLetterBold">All</span></a>
+
+<a class=" button light3 border3 borderRadius2 itemHeight2" tabindex="0" href="./pages/"><span class="insertIcon firstLetterBold">Pages</span></a>
+
+<a class=" button light3 border3 borderRadius2 itemHeight2" tabindex="0" href="./games/"><span class="insertIcon firstLetterBold">Games</span></a>
+
+<a class=" button light3 border3 borderRadius2 itemHeight2" tabindex="0" href="./projects/"><span class="insertIcon firstLetterBold">Projects</span></a>
+
+<a class=" button light3 border3 borderRadius2 itemHeight2" tabindex="0" href="./mini-projects/"><span class="insertIcon firstLetterBold">Mini projects</span></a>
+
+<a class=" button light3 border3 borderRadius2 itemHeight2" tabindex="0" href="./old-projects/"><span class="insertIcon firstLetterBold">Old projects</span></a>
+
+</div>
+
+<div class="padding2"></div>
+<!-- // nav2 -->
+</noscript>
+<div class="padding2 margin2"></div>
+
+<!-- tag cloud 1.0.0 -->
+<aside>
+<div class="wrapper2 tCenter">
+
+<div id="printTagsHeader"></div>
+
+<div id="printTags" class="balance notUnderline"></div>
+
+<div class="wrapperSmall small tRight">
+<div><span class="notUnderline" id="printMode"></span></div>
+</div>
+
+<div id="tagListEditForm"></div>
+
+</div>
+</aside>
+<!--// tag cloud -->
+
+
+
+
+
+</main>
+<!-- // content -->
+
+<div class="wrapper3">
+<footer id="footer"></footer>
+</div>
+
+<script>
+var confD = "./";
+</script>
+<script src="./js/main.js"></script>
+<script src="./js/script.js"></script>
+
+
+
+
+<script>
+// v.1.1.3
+// hot links
+
+if (document.getElementById("q") != null){ 
+var inputA = document.getElementById("q");
+inputA.addEventListener('input', updateValueIn);
+}
+
+if (document.getElementById("q2") != null){ 
+var inputB = document.getElementById("q2");
+inputB.addEventListener('input', updateValueIn);
+}
+
+
+function updateValueIn(e) {
+var text = encodeURIComponent(e.target.value);
+
+var a = `
+
+<div class="autoColumn notUnderline">
+<!--<a class="autoColumnItem keepTag2 itemHeight light2 border3 borderRadius2 op" href="/search/?q=` + text + ` w" title="Web search random (text w)">Web</a>-->
+<a class="autoColumnItem keepTag2 itemHeight light2 border3 borderRadius2 op" href="/search/?q=` + text + ` goo" title="Google search (text goo)">Google</a>
+<a class="autoColumnItem keepTag2 itemHeight light2 border3 borderRadius2 op" href="/search/?q=` + text + ` bin" title="Bing search (text bin)">Bing</a>
+<a class="autoColumnItem keepTag2 itemHeight light2 border3 borderRadius2 op" href="/search/?q=` + text + ` o" title="Other search engine, random (text o)">Other</a>
+<a class="autoColumnItem keepTag2 itemHeight light2 border3 borderRadius2 op" href="/search/?q=` + text + ` n" title="News search random (text n)">News</a>
+<!--<a class="autoColumnItem keepTag2 itemHeight light2 border3 borderRadius2 op" href="/search/?q=` + text + ` mar" title="Marginalia search (text mar)">Marginalia</a>
+<a class="autoColumnItem keepTag2 itemHeight light2 border3 borderRadius2 op" href="/search/?q=` + text + ` sez" title="Seznam search (text sez)">Seznam</a>-->
+<!--<a class="autoColumnItem keepTag2 itemHeight light2 border3 borderRadius2 op" href="/search/?q=` + text + ` moj" title="Mojeek search (text moj)">Mojeek</a>-->
+<a class="autoColumnItem keepTag2 itemHeight light2 border3 borderRadius2 op" href="/search/?q=` + text + ` i" title="Image search random (text i)">Images</a>
+<a class="autoColumnItem keepTag2 itemHeight light2 border3 borderRadius2 op" href="/search/?q=` + text + ` v" title="Video search random (text v)">Videos</a>
+<a class="autoColumnItem keepTag2 itemHeight light2 border3 borderRadius2 op" href="/search/?q=` + text + ` pod" title="Podcast search (text pod)">Podcast</a>
+<a class="autoColumnItem keepTag2 itemHeight light2 border3 borderRadius2 op" href="/search/?q=` + text + ` s" title="Socail media search random (text s)">Social</a>
+<a class="autoColumnItem keepTag2 itemHeight light2 border3 borderRadius2 op" href="/search/?q=` + text + ` t" title="Translate random (text t)">Translate</a>
+<a class="autoColumnItem keepTag2 itemHeight light2 border3 borderRadius2 op" href="/search/?q=` + text + ` ps" title="Google Programmable Search (text ps)">Google PS</a>
+<a class="autoColumnItem keepTag2 itemHeight light2 border3 borderRadius2 op" href="/search/?q=` + text + ` qs" title="Site search (text qs)">Site</a>
+</div>
+
+`;
+
+document.getElementById("hotLinks").innerHTML = a; 
+
+}
+
+
+// hide top header if mobile
+if (conf["confDevice"] == 'mobile'){
+var getclick2 = document.getElementById('form');
+if (getclick2 != null){
+document.addEventListener('click', function(event) {
+if (getclick2.contains(event.target)) {
+
+if (document.getElementById('topHeader') != null){
+document.getElementById( 'topHeader' ).style.display = 'none';
+}
+if (document.getElementById('topNav') != null){
+document.getElementById( 'topNav' ).style.display = 'none';
+}
+
+} else {
+
+if (document.getElementById('topHeader') != null){
+document.getElementById( 'topHeader' ).style.display = 'block';
+}
+if (document.getElementById('topNav') != null){
+document.getElementById( 'topNav' ).style.display = 'block';
+}
+
+}
+});
+}
+}
+
+// hot links
+
+</script>
+
+<script>
+
+// WPM v.1.2.0
+if (document.getElementById("q") != null){ 
+var inputA2 = document.getElementById("q");
+inputA2.addEventListener('input', getWpm);
+}
+
+// new core 2
+
+let dateArr = [];
+let dateArrLast = [];
+const wordLengthLimit = 5.1;
+
+function getWpm(e){
+//if (e.target.value == ""){ dateArr = []; } //fixme
+if (dateArrLast[0] == undefined){ dateArrLast[0] =  Date.now(); }
+dateArr.push(((Date.now() - dateArrLast[0]) / 1000).toFixed(3));
+//console.table(wpmTime);
+dateArrLast[0] = Date.now();
+
+var wpm = 0;
+if (dateArr.length >= 2){
+dateArr.forEach(function(item) {
+wpm = Number(wpm) + Number(item);
+});
+
+var wpmAverageSec = wpm / dateArr.length;
+wpm =  (1 * 60 / wpmAverageSec) / wordLengthLimit;
+wpm = Math.round(wpm);
+}
+
+if (document.getElementById("wpm") != null){
+document.getElementById("wpm").innerHTML = wpm;
+}
+
+dateArr = dateArr.slice(-500);
+}
+
+</script>
+
+
+
+<script>
+
+if (conf["confTagCloudlStatus"] == "on"){
+
+document.getElementById("printTagsHeader").innerHTML = `
+
+<div class="bold padding medium">
+<a class="op brand notUnderline" href="/projects/redirects-25/?q=s" title="Social Networks Explore (random)">Social network and web explore:</a>
+</div>
+
+<div class="padding"></div>
+
+`;
+
+
+
+//window.addEventListener('load', function() {});
+
+function tagListCloud(mode){
+
+let tagModePrint = "";
+
+if (mode == undefined||mode == ""){
+mode = localStorage.getItem("tagModeData");
+} else if (mode != "edit"){
+localStorage.setItem("tagModeData", mode);
+}
+
+if (mode == null||mode == undefined){ mode = "Hashtags"; }
+
+let tagListSortConf = localStorage.getItem("tagListSortConf");
+
+let tagListColor = `red orange yellow green blue indigo violet`;
+
+let tagList = localStorage.getItem("tagListData");
+if (tagList == null||tagList == undefined){
+tagList = `
+Example Keyword Keyword
+`;
+}
+
+let arr = fuMSplit(tagList);
+
+/*
+if (tagListSortConf == "sort"){
+arr = fuMSort(arr, "", "arr");
+}*/
+
+
+
+// new
+let tagListLimit = "38";
+
+tagCloudData = tagList;
+
+
+let confSymbolForSplit = "confSymbolForSplit";
+let color = fuMRandomItem(tagListColor);
+let size = '';
+
+//tagList = '';
+
+tagCloudData = tagCloudData.replaceAll(`
+`, ' ');
+tagCloudData = tagCloudData.replaceAll(/,/g, confSymbolForSplit);
+tagCloudData = tagCloudData.replaceAll(/ /g, confSymbolForSplit);
+tagCloudData = tagCloudData.replaceAll('·', '');
+tagCloudData = tagCloudData.replaceAll('.', ' ');
+
+tagCloudData = '' + tagCloudData + ''.replaceAll(',', confSymbolForSplit);
+tagCloudData = '' + tagCloudData + ''.replaceAll(' ', confSymbolForSplit);
+
+tagCloudData = tagCloudData.split(confSymbolForSplit);
+
+/*
+//https://stackoverflow.com/questions/8996963/how-to-perform-case-insensitive-sorting-array-of-string-in-javascript
+tagCloudData.sort(function (a, b) {
+return a.toLowerCase().localeCompare(b.toLowerCase());
+});*/
+
+
+
+var tagAverage = 0;
+var tagTotal = 0;
+
+// https://stackoverflow.com/questions/19395257/how-to-count-duplicate-value-in-an-array-in-javascript
+// make uniq and count, object
+var tagListCount = {};
+tagCloudData.forEach(function (x) {
+if (x != null&&x != ''){
+tagListCount[x] = (tagListCount[x] || 0) + 1;
+}
+});
+
+
+
+// Taglist limit
+//https://stackoverflow.com/questions/1069666/sorting-object-property-by-values
+// sort object by value
+let entries = Object.entries(tagListCount);
+let tagListCountSorted = entries.sort((a, b) => a[1] - b[1]);
+tagListCountSorted.reverse();
+
+
+// Taglist limit (cut array) with sorted tag and convert to old object, sorted previos
+tagListCountLimited = {};
+tagListCountSorted.forEach(function (item, key) {
+if (key <= tagListLimit){
+tagListCountLimited[item[0]] = item[1];
+}
+});
+
+if (tagListSortConf == "sort"){
+// sort
+// https://stackoverflow.com/questions/5467129/sort-javascript-object-by-key
+tagListCount = {};
+tagListCount = Object.keys(tagListCountLimited).sort().reduce(
+  (obj, key) => { 
+    obj[key] = tagListCountLimited[key]; 
+    return obj;
+  }, 
+  {}
+);
+}
+
+// end Taglist limit
+
+/*tagAverage = (Math.min(...Object.values(tagListCount))+Math.max(...Object.values(tagListCount)))/2;
+//console.log(tagAverage);*/
+Object.values(tagListCount).forEach(function (x) {
+tagTotal = tagTotal + x;
+});
+tagAverage = tagTotal / Object.values(tagListCount).length;
+
+var tagSize = "";
+var tagColor = "";
+var tagPercentage = "";
+
+function fuTag(tagCount){
+//tagPercentage = (Math.floor((tagCount*100)/tagTotal)); // from 100%, need rebuild case from 100
+tagPercentage = (Math.floor((tagCount * 100) / tagAverage)); // over 100%, used average if tag disproportion 1% and 90%
+//console.log(tagPercentage);
+
+// tag font-size and color
+switch (true) {
+
+case tagPercentage >= 500:
+tagColor = "red";
+tagSize = "xx-large";
+break;
+
+case tagPercentage >= 300:
+tagColor = "orange";
+tagSize = "x-large";
+break;
+
+case tagPercentage >= 250:
+tagColor = "yellow";
+tagSize = "large";
+break;
+
+case tagPercentage >= 100:
+tagColor = "green";
+tagSize = "medium";
+break;
+
+case tagPercentage >= 80:
+tagColor = "blue";
+tagSize = "1em";
+break;
+
+case tagPercentage >= 50:
+tagColor = "indigo";
+tagSize = "small";
+break;
+
+case tagPercentage >= 30:
+tagColor = "violet";
+tagSize = "smaller";
+break;
+
+default:
+tagColor = "c2";
+tagColor = fuMRandomItem(tagListColor)
+tagSize = "x-small";
+}
+
+//console.log(tagColor);
+//return tagColor;
+
+}
+
+
+
+let sortedTags = "";
+//https://stackoverflow.com/questions/8996963/how-to-perform-case-insensitive-sorting-array-of-string-in-javascript
+if (tagListSortConf == "sort"){
+sortedTags = Object.entries(tagListCount).sort(Intl.Collator().compare);
+} else {
+sortedTags = Object.entries(tagListCount);
+// https://masteringjs.io/tutorials/fundamentals/foreach-object
+}
+
+//let sortedTags = Object.entries(tagListCount).sort(Intl.Collator().compare);
+// end new
+
+let tagListPrint = "";
+
+sortedTags.forEach(entry => {
+const [key, value] = entry;
+
+tag = key.trim();
+tagCount = value;
+
+fuTag(tagCount);
+
+if (tag != ""){
+let printTag = tag;
+
+let printTag2 = tag.replaceAll(/#/g, "");
+let printTagUrl = encodeURIComponent(tag.toLowerCase());
+
+printTag = fuMClearText(printTag);
+
+
+switch (mode) {
+
+case 'Keywords':
+tagListPrint += `<a class="inlineBlock padding op ` + tagColor + ` ;" style="font-size: ` + tagSize + `;" href="/search/?q=` + printTagUrl + ` s">` + printTag + `</a>`;
+break;
+
+case 'News':
+tagListPrint += `<a class="inlineBlock padding op ` + tagColor + ` ;" style="font-size: ` + tagSize + `;" href="/search/?q=` + printTagUrl + ` n">` + printTag + `</a>`;
+break;
+
+case 'Search':
+tagListPrint += `<a class="inlineBlock padding op ` + tagColor + ` ;" style="font-size: ` + tagSize + `;" href="/search/?q=` + printTagUrl + ` q">` + printTag + `</a>`;
+break;
+
+case 'Google':
+tagListPrint += `<a class="inlineBlock padding op ` + tagColor + ` " style="font-size: ` + tagSize + `;" href="/search/?q=` + printTagUrl + ` goo">` + printTag + `</a>`;
+break;
+
+case 'Bing':
+tagListPrint += `<a class="inlineBlock padding op ` + tagColor + ` " style="font-size: ` + tagSize + `;" href="/search/?q=` + printTagUrl + ` bin">` + printTag + `</a>`;
+break;
+
+case 'GooglePS':
+tagListPrint += `<a class="inlineBlock padding op ` + tagColor + ` " style="font-size: ` + tagSize + `;" href="/search/?q=` + printTagUrl + ` gps">` + printTag + `</a>`;
+break;
+
+case 'SearchOther':
+tagListPrint += `<a class="inlineBlock padding op ` + tagColor + ` " style="font-size: ` + tagSize + `;" href="/search/?q=` + printTagUrl + ` o">` + printTag + `</a>`;
+break;
+
+case 'edit':
+tagListPrint += `<span class="inlineBlock padding">` + printTag + `</span>`;
+break;
+
+default:
+tagListPrint += `<a class="inlineBlock padding op ` + tagColor + ` " style="font-size: ` + tagSize + `;" href="/search/?q=` + printTagUrl + ` ht">#` + printTag + `</a>`;
+
+}
+}
+});
+
+document.getElementById("printTags").innerHTML = tagListPrint;
+
+modeSwitch(mode, tagList, tagListSortConf);
+
+}
+
+tagListCloud("");
+
+
+function tagListSortConfSet(item){
+localStorage.setItem("tagListSortConf", item);
+tagListCloud("");
+}
+
+
+function modeSwitch(mode, tagList, tagListSortConf){
+
+let tagModePrint = "";
+let tagsModeList = `Hashtags Keywords News Search Google Bing SearchOther GooglePS`;
+
+let arr = fuMSplit(tagsModeList);
+let tagListPrint = `<span class="op">mode:</span>`;
+arr.forEach((val, index) => {
+if (mode == val){
+tagModePrint += `
+<a class="inlineBlock padding op active2" href="#" onclick="tagListCloud('` + val +`'); return false;">` + val +`</a>
+`;
+} else {
+tagModePrint += `
+<a class="inlineBlock padding op brand" href="#" onclick="tagListCloud('` + val +`'); return false;">` + val +`</a>
+`;
+}
+});
+
+
+if (tagListSortConf == "sort"){
+tagModePrint += `
+<span class="op gray">/</span>
+<a class="inlineBlock padding op gray" title="Close" href="#" onclick="tagListSortConfSet('unsort'); return false;">unsort</a>
+`;
+} else {
+tagModePrint += `
+<span class="op gray">/</span>
+<a class="inlineBlock padding op brand" href="#" onclick="tagListSortConfSet('sort'); return false;">sort</a>
+`;
+}
+
+if (mode == "edit"){
+tagModePrint += `
+<a class="inlineBlock padding op gray" title="Close" href="#" onclick="closeTagListData(''); return false;">edit</a>
+`;
+} else {
+tagModePrint += `
+<a class="inlineBlock padding op brand" href="#" onclick="tagListCloud('edit'); return false;">edit</a>
+`;
+}
+
+document.getElementById("printMode").innerHTML = `<hr><span class="op gray">mode:</span> `;
+document.getElementById("printMode").innerHTML += tagModePrint;
+
+if (mode == "edit"){
+document.getElementById("tagListEditForm").innerHTML = `
+<form action="" method="get" class="form-example">
+<textarea id="tagListEditData" rows="5">` + tagList + `</textarea>
+<a class="submit block button padding2 op borderRadius2" href="#" onclick="saveTagListData(); return false;">Save</a>
+<div class="tRight"><a class="submit tRight button padding2 op red borderRadius2" href="#" onclick="resetTagListData(); return false;">Reset</a></div>
+  </div>
+</form>
+`;
+}
+
+}
+
+
+
+
+
+
+function saveTagListData(){
+let data = document.getElementById("tagListEditData").value;
+localStorage.setItem("tagListData", data);
+document.getElementById("tagListEditForm").innerHTML = ``;
+tagListCloud("");
+}
+
+function resetTagListData(){
+if (window.confirm("Are you sure?")) {
+localStorage.removeItem("tagListData")
+}
+document.getElementById("tagListEditForm").innerHTML = ``;
+tagListCloud("");
+}
+
+function closeTagListData(){
+document.getElementById("tagListEditForm").innerHTML = ``;
+tagListCloud("");
+}
+
+}
+</script>
+
+
+
+<script>
+
+// redirect "q" to "redirect" script
+var geturl = window.location;
+var url = new URL(geturl);
+var q = url.searchParams.get("q");
+var url = new URL(geturl);
+let sUrlText = String(url);
+const myArray = sUrlText.split("q=");
+if (q != null&&myArray[0].search("cache") == -1&&url.hostname == location.hostname){
+q = encodeURIComponent(q);
+location.href = "/projects/redirects-25/?q=" + q;
+//location.href = fuMHideFileNameExt("./search.html?q=") + q;
+}
+
+</script>
+
+<script>
+// Random color generator v.1.2.0
+//if(document.getElementById("siteName") != null){}
+
+//document.getElementById("footer").onload = function() {}
+
+let mRandColorsPrint = "";
+
+const mColors = [
+"var(--brand)", "var(--red)", "var(--orange)", "var(--yellow)", "var(--green)", "var(--blue)", "var(--indigo)", "var(--violet)",
+
+"var(--brand2)", "var(--red2)", "var(--orange2)", "var(--yellow2)", "var(--green2)", "var(--blue2)", "var(--indigo2)", "var(--violet2)"
+];
+
+let mRandColor = fuMRandom(0, mColors.length - 1);
+mRandColor = mColors[mRandColor];
+
+let mRandColor2 = fuMRandom(0, mColors.length - 1);
+mRandColor2 = mColors[mRandColor2];
+
+//console.log(mRandColor + '=' + mRandColor2);
+if (mRandColor == mRandColor2){
+let n = 0;
+while (n < 10) {
+mRandColor2 = fuMRandom(0, mColors.length - 1);
+mRandColor2 = mColors[mRandColor2];
+if (mRandColor != mRandColor2){
+break;
+}
+n++;
+}
+}
+//element.classList.add(lRancColor);
+
+let mRandTone = fuMRandom(60, 100);
+let mRandTone2 = fuMRandom(60, 100);
+
+
+mRandColorsPrint += `
+
+:root {
+--cRand: color-mix(in srgb, ` + mRandColor + mRandTone + `%, ` + mRandColor2 + `);
+--cRand2: color-mix(in srgb, ` + mRandColor2 + mRandTone2 + `%, ` + mRandColor + `);
+}
+
+.cRand { color: var(--cRand); }
+.cRand2 { color: var(--cRand2); }
+
+.insertIcon svg *, .headerBannerImg svg *{
+fill: var(--cRand) !important;
+stroke: var(--cRand2) !important;
+
+fill: var(--brand) !important;
+stroke: var(--brand) !important;
+}
+
+`;
+
+
+/*
+var styleElem = document.head.appendChild(document.createElement("style"));
+styleElem.innerHTML = mRandColorsPrint;*/
+
+//https://developer.mozilla.org/en-US/docs/Web/API/Document/adoptedStyleSheets
+const extraSheet = new CSSStyleSheet();
+extraSheet.replaceSync(mRandColorsPrint);
+// Combine the existing sheets and new one
+document.adoptedStyleSheets = [...document.adoptedStyleSheets, extraSheet];
+
+//alert(document.getElementsByTagName("footer")[0].style.backgroundColor);
+// end Random color
+</script>
+
+
+</body>
+</html>
+

@@ -1,0 +1,10 @@
+/* v.1.1.2
+ * style addon */
+
+html {
+height: auto;
+min-height: 300px;
+max-height: 500px;
+}
+html, body { width: 500px; max-width: 100%;  }
+/*form { margin-top: 50px; max-width: 350px; }*/

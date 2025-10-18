@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="720"
+   height="90"
+   viewBox="0 0 720 90"
+   version="1.1"
+   id="svg5"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs2">
+    <rect
+       x="74.945331"
+       y="18.811289"
+       width="988.15281"
+       height="253.91915"
+       id="rect4016" />
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath48261">
+      <rect
+         style="fill:#ffffff;stroke-width:4.80984"
+         id="rect48263"
+         width="967.81848"
+         height="119.64789"
+         x="55.91629"
+         y="-7.9030304" />
+    </clipPath>
+  </defs>
+  <g
+     id="layer1">
+    <rect
+       style="fill:#ffffff;stroke-width:3.618"
+       id="rect43850"
+       width="728"
+       height="90"
+       x="0"
+       y="0" />
+    <text
+       xml:space="preserve"
+       id="text4014"
+       style="font-size:144px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect4016)"
+       transform="matrix(0.75220719,0,0,0.75220719,-42.06062,5.9447162)"
+       clip-path="url(#clipPath48261)"><tspan
+         x="74.945312"
+         y="146.2168"
+         id="tspan868"><tspan
+           style="font-weight:bold;-inkscape-font-specification:'sans-serif Bold'"
+           id="tspan866">web design</tspan></tspan></text>
+  </g>
+</svg>

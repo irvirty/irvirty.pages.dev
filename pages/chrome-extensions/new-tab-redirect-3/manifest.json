@@ -1,0 +1,36 @@
+{
+
+  "manifest_version": 3,
+  "name": "New tab redirect",
+  "version": "1.4.2",
+  "description": "Your own URL website will open in a New Tab",
+
+"icons": {
+  "512": "icon512x512.png"
+},
+
+"permissions":
+[
+"storage"
+],
+ 
+
+
+"action": {
+    "default_icon": {              // optional
+      "512": "icon512x512.png"
+    },
+    "default_title": "options",   // optional, shown in tooltip
+    "default_popup": "/options.html"  // optional
+  },
+
+"options_ui": {
+  "page": "options.html"
+},
+
+"chrome_url_overrides" : {
+"newtab": "new-tab-redirect.html"
+}
+
+ 
+}

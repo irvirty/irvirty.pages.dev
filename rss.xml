@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="/css/rss.css"?>
+
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+
+<channel>
+
+<title>Irvirty News</title>
+<link>https://irvirty.pages.dev/pages/news/</link>
+<description>These are news headlines from other sources on various topics. (Maybe with commentary or my own news.)</description>
+
+<image>
+<url>https://irvirty.pages.dev/img/logo.png</url>
+<title>Irvirty News</title>
+<link>https://irvirty.pages.dev/pages/news/</link>
+<width>32</width>
+<height>32</height>
+</image>
+
+<item>
+<pubDate>Wed, 15 Oct 2025 02:37:48 +0000</pubDate>
+<title><![CDATA[Firefox 144.0, See All New Features, Updates and Fixes 
+ ]]></title>
+<link><![CDATA[https://irvirty.pages.dev/pages/news/?id=73]]></link>
+<description>
+<![CDATA[
+Firefox 144.0, See All New Features, Updates and Fixes 
+https://www.firefox.com/en-US/firefox/144.0/releasenotes/
+]]>
+</description>
+</item>
+
+<item>
+<pubDate>Sun, 12 Oct 2025 04:50:10 +0000</pubDate>
+<title><![CDATA[Firefox profiles: Private, focused spaces for all the ways you browse 
+ ]]></title>
+<link><![CDATA[https://irvirty.pages.dev/pages/news/?id=72]]></link>
+<description>
+<![CDATA[
+Firefox profiles: Private, focused spaces for all the ways you browse 
+https://blog.mozilla.org/en/firefox/profile-management/
+]]>
+</description>
+</item>
+
+<item>
+<pubDate>Sat, 11 Oct 2025 07:29:23 +0000</pubDate>
+<title><![CDATA[Sora 2 is here | OpenAI 
+ ]]></title>
+<link><![CDATA[https://irvirty.pages.dev/pages/news/?id=69]]></link>
+<description>
+<![CDATA[
+Sora 2 is here | OpenAI 
+https://openai.com/index/sora-2/
+]]>
+</description>
+</item>
+
+<item>
+<pubDate>Thu, 09 Oct 2025 07:31:59 +0000</pubDate>
+<title><![CDATA[AMD and OpenAI Announce Strategic Partnership to Deploy 6 Gigawatts of AMD GPUs :: Advanced Micro Devices, Inc. (AMD) 
+ ]]></title>
+<link><![CDATA[https://irvirty.pages.dev/pages/news/?id=67]]></link>
+<description>
+<![CDATA[
+AMD and OpenAI Announce Strategic Partnership to Deploy 6 Gigawatts of AMD GPUs :: Advanced Micro Devices, Inc. (AMD) 
+https://ir.amd.com/news-events/press-releases/detail/1260/amd-and-openai-announce-strategic-partnership-to-deploy-6-gigawatts-of-amd-gpus
+]]>
+</description>
+</item>
+
+<item>
+<pubDate>Tue, 07 Oct 2025 04:24:42 +0000</pubDate>
+<title><![CDATA[we hit 2 billion posts today! 🥳 
+ ]]></title>
+<link><![CDATA[https://irvirty.pages.dev/pages/news/?id=57]]></link>
+<description>
+<![CDATA[
+we hit 2 billion posts today! 🥳 
+https://bsky.app/profile/bsky.app/post/3m2kdgmbbzc2o
+]]>
+</description>
+</item>
+
+<item>
+<pubDate>Mon, 29 Sep 2025 07:26:22 +0000</pubDate>
+<title><![CDATA[OBS Studio 32 is now available!
+
+This release comes with our initial version of the Plugin Manager! We've also made additions and optimizations to NVIDIA RTX filters, and added hybrid MOV support. 
+ ]]></title>
+<link><![CDATA[https://irvirty.pages.dev/pages/news/?id=48]]></link>
+<description>
+<![CDATA[
+OBS Studio 32 is now available!
+
+This release comes with our initial version of the Plugin Manager! We've also made additions and optimizations to NVIDIA RTX filters, and added hybrid MOV support. 
+https://bsky.app/profile/obsproject.com/post/3lzrij2yie22j
+]]>
+</description>
+</item>
+
+<item>
+<pubDate>Sun, 28 Sep 2025 11:29:52 +0000</pubDate>
+<title><![CDATA[Google's 27th Birthday Doodle - Google Doodles 
+ ]]></title>
+<link><![CDATA[https://irvirty.pages.dev/pages/news/?id=47]]></link>
+<description>
+<![CDATA[
+Google's 27th Birthday Doodle - Google Doodles 
+https://doodles.google/doodle/googles-27th-birthday/
+]]>
+</description>
+</item>
+
+<item>
+<pubDate>Thu, 18 Sep 2025 05:10:31 +0000</pubDate>
+<title><![CDATA[Firefox 143.0, See All New Features, Updates and Fixes 
+ ]]></title>
+<link><![CDATA[https://irvirty.pages.dev/pages/news/?id=44]]></link>
+<description>
+<![CDATA[
+Firefox 143.0, See All New Features, Updates and Fixes 
+https://www.firefox.com/en-US/firefox/143.0/releasenotes/
+]]>
+</description>
+</item>
+
+<item>
+<pubDate>Wed, 20 Aug 2025 08:18:09 +0000</pubDate>
+<title><![CDATA[Introducing GPT-5 | OpenAI 
+ ]]></title>
+<link><![CDATA[https://irvirty.pages.dev/pages/news/?id=38]]></link>
+<description>
+<![CDATA[
+Introducing GPT-5 | OpenAI 
+https://openai.com/index/introducing-gpt-5/
+]]>
+</description>
+</item>
+
+<item>
+<pubDate>Sat, 10 May 2025 05:23:01 +0000</pubDate>
+<title><![CDATA[Listen to the ‘world’s first’ song made by a quantum computer and AI 
+ ]]></title>
+<link><![CDATA[https://irvirty.pages.dev/pages/news/?id=36]]></link>
+<description>
+<![CDATA[
+Listen to the ‘world’s first’ song made by a quantum computer and AI 
+https://thenextweb.com/news/lworlds-first-song-made-by-quantum-and-ai
+]]>
+</description>
+</item>
+
+<item>
+<pubDate>Tue, 22 Apr 2025 14:48:20 +0000</pubDate>
+<title><![CDATA[Bluesky: "30M users 1B posts 🤝 bluesky milestone achieved this week" — Bluesky 
+ ]]></title>
+<link><![CDATA[https://irvirty.pages.dev/pages/news/?id=32]]></link>
+<description>
+<![CDATA[
+Bluesky: "30M users 1B posts 🤝 bluesky milestone achieved this week" — Bluesky 
+https://bsky.app/profile/bsky.app/post/3lh5iyaqqos24
+]]>
+</description>
+</item>
+
+<item>
+<pubDate>Tue, 22 Apr 2025 14:47:43 +0000</pubDate>
+<title><![CDATA[Neocities: "One million sites 🎉" — Bluesky 
+ ]]></title>
+<link><![CDATA[https://irvirty.pages.dev/pages/news/?id=31]]></link>
+<description>
+<![CDATA[
+Neocities: "One million sites 🎉" — Bluesky 
+https://bsky.app/profile/neocities.org/post/3lhu7xapg3s2x
+]]>
+</description>
+</item>
+
+<item>
+<pubDate>Tue, 22 Apr 2025 11:36:23 +0000</pubDate>
+<title><![CDATA[It’s Our Birthday, Let’s Party - YouTube 
+ ]]></title>
+<link><![CDATA[https://irvirty.pages.dev/pages/news/?id=30]]></link>
+<description>
+<![CDATA[
+It’s Our Birthday, Let’s Party - YouTube 
+https://www.youtube.com/watch?v=OIuG1bBkfs0
+]]>
+</description>
+</item>
+
+<item>
+<pubDate>Mon, 14 Apr 2025 12:45:11 +0000</pubDate>
+<title><![CDATA[ChatGPT just passed the Turing test. But that doesn’t mean AI is now as smart as humans 
+ ]]></title>
+<link><![CDATA[https://irvirty.pages.dev/pages/news/?id=27]]></link>
+<description>
+<![CDATA[
+ChatGPT just passed the Turing test. But that doesn’t mean AI is now as smart as humans 
+https://theconversation.com/chatgpt-just-passed-the-turing-test-but-that-doesnt-mean-ai-is-now-as-smart-as-humans-253946
+]]>
+</description>
+</item>
+
+<item>
+<pubDate>Sat, 29 Mar 2025 13:07:07 +0000</pubDate>
+<title><![CDATA[GIMP 3.0 Released - GIMP 
+ ]]></title>
+<link><![CDATA[https://irvirty.pages.dev/pages/news/?id=25]]></link>
+<description>
+<![CDATA[
+GIMP 3.0 Released - GIMP 
+https://www.gimp.org/news/2025/03/16/gimp-3-0-released/
+]]>
+</description>
+</item>
+
+
+</channel>
+</rss>

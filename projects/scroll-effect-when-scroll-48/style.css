@@ -1,0 +1,49 @@
+/* v.1.0.2 */
+/* comment */
+
+body {
+margin: 0;
+}
+
+.content {
+width: 100%;
+max-width: 500px;
+margin: 0 auto;
+text-align: center;
+}
+
+.lBlock {
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: safe center;
+align-self: safe center;
+align-content: center;
+
+margin: auto;
+left: 0;
+right: 0;
+
+min-height: 40vh;
+
+background-color: var(--orange);
+border: 3px solid var(--red);
+color: var(--c3R);
+
+}
+
+
+
+.lEffect {
+background: var(--green);
+}
+
+
+.lLine {
+  width: 100%;
+  position: fixed;
+  left: 0;
+  top: 50vh;
+  border: 3px solid var(--red);
+}
+]]]

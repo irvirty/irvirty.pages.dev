@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<!-- //https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/Implement_a_settings_page -->
+<meta charset="UTF-8">
+
+<meta name="robots" content="noindex, nofollow">
+
+<title>Options</title>
+
+<meta name="description" content="
+empty description.
+">
+<meta name="keywords" content="
+empty keywords, !ignoreme
+">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<link rel="stylesheet" type="text/css" href="main.css">
+<link rel="stylesheet" type="text/css" href="style.css">
+<link rel="stylesheet" type="text/css" href="auto.css">
+
+<!--<link rel="preload" href="options.js" as="script"> -->
+
+</head>
+
+<body>
+
+
+<main id="content" class="content">
+<div class="wrapper">
+
+<!--<div id="msg" class=" tCenter orange padding2 bg3 border">status</div>-->
+
+<form>
+<label for="q" class="small">Website URL:</label>
+<textarea id="q" class="padding2" rows="10" placeholder="https://example2.com/"></textarea>
+<input type="submit" class="submit">
+</form>
+
+</div>
+</main>
+
+<footer>
+<div class="margin padding"></div>
+<div class="tCenter"><a class="block tCenter padding brand" target="_blank" href="options.html">⚙️ Settings (in new tab)</a></div>
+<div class="margin padding"></div>
+</footer>
+
+
+    <script src="options.js"></script>
+  </body>
+</html>

@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<meta charset="UTF-8">
+<title>About me</title>
+
+<meta name="description" content="About me, profiles, license, contacts, donate.">
+<meta name="keywords" content="about, contact, donate, profile, support, page, main,">
+
+<link rel="alternate" type="application/rss+xml" title="Irvirty News" href="/rss.xml">
+<link rel="alternate" type="application/rss+xml" title="Irvirty Microblog" href="/rss2.xml">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<meta name="color-scheme" content="light dark">
+<!--<meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">-->
+
+<link rel="icon" sizes="512x512" href="../../img/logo.png" type="image/png">
+<link rel="shortcut icon" href="../../favicon.ico" type="image/x-icon">
+
+
+<!-- main -->
+<link rel="preload" href="../../js/main.js" as="script">
+
+<link rel="preload" href="../../css/main.css" as="style">
+<link rel="stylesheet" href="../../css/main.css" type="text/css">
+<link rel="preload" href="../../css/auto.css" as="style">
+<link rel="stylesheet" type="text/css" href="../../css/auto.css" id="theme">
+
+<link rel="preload" href="../../css/style.css" as="style">
+<link rel="stylesheet" href="../../css/style.css" type="text/css">
+
+<noscript>
+<link rel="stylesheet" type="text/css" href="../../css/noscript.css">
+</noscript>
+<!-- // main -->
+
+<link rel="preload" href="../../js/script.js" as="script">
+
+
+<style>
+
+.lMenu {
+display: flex;
+flex: 1 0 auto;
+flex-wrap: wrap;
+gap: 5px;
+}
+
+.lMenu .button {
+flex: 1 0 auto;
+width: 150px;
+justify-content: start;
+}
+
+/*https://stackoverflow.com/questions/11142125/css-highlight-a-div-when-the-id-is-linked-to-using-an-anchor#*/
+
+#about:target,
+#webdesign:target,
+#tools:target,
+#links:target,
+#hosting:target,
+#contact:target,
+#donate:target,
+#counter:target,
+#sites:target,
+#other:target,
+#license:target {
+
+border-bottom: 4px solid var(--orange);
+min-height: 100vh;
+min-height: 100dvh;
+display: flex;
+flex-direction: column;
+justify-content: center;
+
+}
+
+</style>
+
+</head>
+<body>
+
+
+
+<!-- Navigation HTML v.1.0.1 -->
+<header>
+<div class="wrapper3">
+<div class="margin"></div>
+
+<div id="topNav" class="topNav">
+<nav>
+
+<!-- /* Skip navigation: .screenReader (in main.css) + id="content" */ -->
+<a class="screenReader inlineBlock padding brand" tabindex="0" href="#content">Skip navigation</a>
+<a class="inlineBlock padding" style="padding-left: 0;" tabindex="0" href="../../" title="index / nav 1"><img class="logo2 reduceLight" src="../../img/logo.png" alt="logo" style="max-width: 26px;"></a> 
+
+<span id="navMenu" class="navMenu">
+<!-- links in nav -->
+<a class="inlineBlock padding brand empty" tabindex="0" href="../../all/" title="All pages">All</a>
+<a class="active2 navMenuActive inlineBlock padding empty" tabindex="0" href="../../pages/" title="Main pages">Pages</a>
+<a class="inlineBlock padding brand empty" tabindex="0" href="../../games/" title="Games">Games</a>
+<a class="inlineBlock padding brand empty" tabindex="0" href="../../projects/" title="JavaScript projects">Projects</a>
+<a class="inlineBlock padding brand empty" tabindex="0" href="../../mini-projects/" title="HTML and CSS projects">Mini projects</a>
+<a class="active2 navMenuActive inlineBlock padding empty" tabindex="0" href="../../pages/about/" title="About page">About</a>
+<!-- // links in nav -->
+</span>
+
+<div class="dropdownMenuContentWrapper navMenu2">
+<div class="dropdownMenuContent">
+
+<a id="dropdownMenuButton" class="dropdownMenuButton inlineBlock padding mClassNavUp brand borderBottomTransparent" tabindex="0" href="#" onclick="fuMDropdownButton();return false;">☰ Menu</a>
+
+<div id="dropdownMenu" class="dropdownMenu">
+<div class="dropdownMenuColumn shadow bg2 padding2 borderRadius2">
+<!-- links for show in dropdown (duplicate) -->
+<a class="inlineBlock padding brand empty" tabindex="0" href="../../all/" title="All pages">All</a>
+<a class="active2 navMenuActive inlineBlock padding empty" tabindex="0" href="../../pages/" title="Main pages">Pages</a>
+<a class="inlineBlock padding brand empty" tabindex="0" href="../../games/" title="Games">Games</a>
+<a class="inlineBlock padding brand empty" tabindex="0" href="../../projects/" title="JavaScript projects">Projects</a>
+<a class="inlineBlock padding brand empty" tabindex="0" href="../../mini-projects/" title="HTML and CSS projects">Mini projects</a>
+<a class="active2 navMenuActive inlineBlock padding empty" tabindex="0" href="../../pages/about/" title="About page">About</a>
+<!-- // links for show in dropdown (duplicate) -->
+<hr>
+<a class="noscriptHide block w100 tCenter padding small gray" href="#" onclick="fuMDropdownButtonClose();return false;" title="Close menu">Close</a>
+</div>
+</div>
+
+</div>
+</div>
+
+<!--<a class="inlineBlock padding mClassNavUp brand borderBottomTransparent" tabindex="0" href="../" title="../ (Up)">List (up)</a>-->
+
+<form class="noscriptHide inlineBlock padding" style="padding-right: 0;" method="GET" action="../../site-search/" role="search">
+<!--<label for="siteSearch" class="xSmall op">search:</label>-->
+<input id="siteSearch" class="borderRadius3" type="search" placeholder="site search" name="q" autocomplete="off">
+</form>
+
+</nav>
+</div>
+
+</div>
+</header>
+<!-- // Navigation HTML -->
+
+<!--<hr>-->
+
+
+
+<!-- content -->
+<main id="content" class="content notUnderline">
+
+<!-- About. Inspired by linktr.ee, GitHub -->
+
+<div class="padding2 margin2"></div>
+
+
+
+<div class="shadow bg padding2 wrapper tCenter borderRadius2">
+
+
+
+<div id="about" class="padding3List bg border borderRadius2 marginList">
+<div class="padding2List">
+
+<div class="padding2"></div>
+
+<div><a href="../../img/logo.png"><img class="reduceLight logo" src="../../img/logo.png" width="60" alt="logo"></a></div>
+
+<h1 class="op inlineBlock margin3List borderBottomBrand insertIconTitle notUnderline"><a href="#about">Irvirty</a></h1>
+<div class="padding3List op">Short info about me</div>
+
+<!-- Info -->
+<div class="listBlock firstLetterBold padding3 tLeft">
+
+<div class="listItem firstLetterBold"><span class="insertIcon">Hey There!</span></div>
+<div class="listItem firstLetterBold"><span class="insertIcon">Europe. He/him.</span></div>
+<div class="listItem firstLetterBold"><span class="insertIcon">I like</span> music, movies, and technology.</div>
+<div class="listItem firstLetterBold"><span class="insertIcon">Web design and web development is my hobby for many years.</span></div>
+<div class="listItem insertIcon firstLetterBold">I'm currently learning JavaScript and English.</div>
+<div class="listItem insertIcon firstLetterBold">Skills and tools: HTML, CSS, PHP, MySQL, JavaScript, GIMP, and Inkscape.</div> 
+<div class="listItem insertIcon firstLetterBold">Favorite software: Firefox, Ubuntu, GIMP, and Inkscape.</div>
+<div class="listItem insertIcon firstLetterBold">Games: Typing Speed (WPM).</div> 
+
+<details>
+<summary class="listItem pointer brand small">Other:</summary>
+<div class="listItem insertIcon firstLetterBold">Website: before publication, some pages and data are generated using PHP and MySQL, but most pages are static with manual editing.</div>
+<div class="listItem insertIcon firstLetterBold">Logotype: oval - inspired by Patreon new logo, before that it was a circle.</div>
+</details>
+
+</div>
+<!-- // Info -->
+
+
+</div>
+</div>
+
+<div class="margin padding"></div>
+
+<div id="links" class="bg border borderRadius2 marginList">
+<div class="padding2List">
+
+<h2 class="bold margin2"><a class="inlineBlock padding borderBottomBlue op notUnderline" href="#links">Links:</a></h2>
+<div class="padding3List op">
+Other places
+</div>
+
+
+<div class="lMenu tCenter padding2 notUnderline">
+
+<a class="insertIcon button brand light2 border borderRadius2 firstLetterBold" href="https://bsky.app/profile/irvirty.pages.dev"><span class="firstLetterBold">Bluesky</span></a>
+
+<a class="insertIcon button brand light2 border borderRadius2 firstLetterBold" href="https://www.deviantart.com/irvirty"><span class="firstLetterBold">DeviantArt</span></a>
+
+<a class="insertIcon button brand light2 border borderRadius2 firstLetterBold" href="https://dribbble.com/irvirty"><span class="firstLetterBold">Dribbble</span></a>
+
+<a class="insertIcon button brand light2 border borderRadius2 firstLetterBold" href="https://www.behance.net/irvirty"><span class="firstLetterBold">Behance</span></a>
+
+<a class="insertIcon button brand light2 border borderRadius2" href="https://codepen.io/irvirty"><span class="firstLetterBold">CodePen</span></a>
+
+<a class="insertIcon button brand light2 border borderRadius2 firstLetterBold" href="https://github.com/irvirty"><span class="firstLetterBold">GitHub</span></a>
+
+</div>
+
+
+<details class="block">
+<summary class="pointer padding2 brand tRight">More:</summary>
+
+<div class="lMenu tCenter padding2 notUnderline">
+
+<a class="insertIcon button brand light2 border borderRadius2 firstLetterBold" href="https://irvirty.wordpress.com/"><span class="firstLetterBold">WordPress</span></a>
+
+<a class="insertIcon button brand light2 border borderRadius2" href="https://dev.to/irvirty"><span class="firstLetterBold">DEV Community</span></a>
+
+
+</div>
+
+</details>
+
+
+<div class="margin padding"></div>
+<div class="op paddingList">My websites:</div>
+
+<div class="lMenu tCenter padding2 notUnderline">
+
+<a class="insertIcon button brand light2 border borderRadius2 firstLetterBold" href="https://irvirty.pages.dev/"><span class="firstLetterBold">irvirty.pages.dev</span></a>
+
+<a class="insertIcon button brand light2 border borderRadius2 firstLetterBold" href="https://irvirty.neocities.org/"><span class="firstLetterBold">irvirty.neocities.org</span></a>
+
+<a class="insertIcon button brand light2 border borderRadius2 firstLetterBold" href="https://irvirty.github.io/"><span class="firstLetterBold">irvirty.github.io</span></a>
+
+<a class="insertIcon button brand light2 border borderRadius2 firstLetterBold" href="https://irvirty.gitlab.io/"><span class="firstLetterBold">irvirty.gitlab.io</span></a>
+
+</div>
+
+</div>
+</div>
+
+
+
+
+
+
+
+<div class="margin padding"></div>
+
+<div id="donate" class="bg border borderRadius2 marginList">
+<div class="padding2List">
+
+<h2 class="margin2 bold"><a class="inlineBlock padding borderBottomGreen notUnderline" href="#donate">Donate:</a></h2>
+<div class="padding3List op small"></div>
+
+<div class="wrapperSmall padding2">
+
+The current goal is $25, progress:
+<div class="padding"></div>
+
+<div class="bg2 shadow borderRadius2">
+<div id="donateProgress"></div>
+</div>
+
+<div class="margin"></div>
+
+<script>
+///Donate goal v.1.1.0
+
+let donateGoal = 25;
+let donateAmount = 0;
+let donateProgressPercentage = (donateAmount * 100) / donateGoal;
+
+let donateProgressBg = "";
+if (donateProgressPercentage > 0){ donateProgressBg = " bg4 "; }
+
+if (document.getElementById("donateProgress") != null){
+document.getElementById("donateProgress").innerHTML = `
+<div class=" ` + donateProgressBg + ` borderRadius2 small padding border3 tCenter" style="width: ` + donateProgressPercentage + `%; max-width: 100%; min-width: 45px; z-index: 1; position: abosolute;"><div style="min-width="120px">` + donateProgressPercentage + `%</div></div>`;
+}
+
+</script>
+
+</div>
+
+<div class="margin padding"></div>
+
+<div class="wrapperSmall margin2List">
+<div class="border borderRadius2 tCenter margin2 padding2">
+
+<div class="insertIcon">Bitcoin address:</div>
+<div class="padding"></div>
+<div class="tCenter"><a href="bitcoin:bc1qrgpjr4wn9agy3zdgs836lw60fp0r5smp53qmel"><img class="op borderRadius2 border" src="../../img/bitcoin.png" style="width: 140px;" alt="qr-bitcoin"></a></div>
+<div class="padding"></div>
+<div>bc1qrgpjr4wn9agy3zdgs836lw60fp0r5smp53qmel</div>
+<div class="padding2"></div>
+
+</div>
+</div>
+
+<div class="margin padding"></div>
+<div class="wrapperSmall padding2">Thank you for your support!</div>
+<div class="margin padding"></div>
+
+
+</div>
+</div>
+
+
+
+
+
+
+<div class="margin padding"></div>
+
+<div id="contact" class="padding3List bg border borderRadius2 marginList">
+<div class="padding2List">
+<h2 class="margin2 bold"><a class="inlineBlock padding borderBottomBrand op notUnderline" href="#contact">Contacts:</a></h2>
+<div class="padding3List op">My contact information</div>
+
+Email: <a class="insertIcon inlineBlcok padding2 brand" rel="nofollow" href="mailto:s2m8voqyg@mozmail.com" title="Send email"><span class="firstLetterBold">s2m8voqyg@mozmail.com</span></a><br>
+
+</div>
+</div>
+
+
+
+
+
+<div class="margin padding"></div>
+
+<div id="license" class="padding3List bg border borderRadius2 marginList">
+<div class="padding2List">
+
+<h2 class="margin2 bold"><a class="inlineBlock padding borderBottomYellow op notUnderline" href="#license">License and copyright:</a></h2>
+<div class="padding3List op">Content usage rules</div>
+
+<div class="padding2 tLeft listBlock">
+
+<div class="listItem">Main: Copyright 2025 Irvirty <a class="brand" href="https://creativecommons.org/licenses/by-sa/4.0/"><span class="firstLetterBold">CC BY-SA 4.0</span></a></div>
+
+<div class="padding margin"></div>
+<div>Others:</div>
+<div class="padding"></div>
+
+<div class="listItem">SimpleHomepage theme for WordPress: Copyright 2025 Irvirty <a class="brand" href="http://www.gnu.org/licenses/gpl-2.0.html"><span class="firstLetterBold">GNU General Public License v2 or later</span></a></div>
+
+
+<div class="listItem">Geany Themes: Copyright 2025 Irvirty <a class="brand" href="https://en.wikipedia.org/wiki/GNU_General_Public_License"><span class="firstLetterBold">GNU General Public License</span></a></div>
+
+<div class="listItem">Chrome Themes: Copyright 2025 Irvirty <a class="brand" href="https://www.apache.org/licenses/LICENSE-2.0"><span class="firstLetterBold">Apache 2.0 License</span></a></div>
+
+<div class="listItem">Books in /data: <a class="brand" href="https://gutenberg.org/policy/license.html"><span class="firstLetterBold">The Project Gutenberg License</span></a></div>
+
+<div class="listItem">Roboto font: Copyright 2011 The Roboto Project Authors (https://github.com/googlefonts/roboto-classic). <a class="brand" href="https://openfontlicense.org/open-font-license-official-text/"><span class="firstLetterBold">SIL Open Font License, Version 1.1</span></a></div>
+
+<!--<h3>Copyright:</h3>
+<div class="listItem">text <a class="brand" href="#">link</a>.</div>-->
+
+</div>
+
+</div>
+</div>
+
+<div class="margin padding"></div>
+
+<div id="hosting" class="padding3List bg border borderRadius2 marginList">
+<div class="padding2List">
+<h2 class="margin2 bold"><a class="inlineBlock padding borderBottomGray op notUnderline" href="#hosting">Hosting:</a></h2>
+<div class="padding3List op">Thanks for hosting my site</div>
+
+<a class="insertIcon button brand" href="https://github.com/"><span class="firstLetterBold">GitHub</span></a>
+<a class="insertIcon button brand" href="https://pages.cloudflare.com/"><span class="firstLetterBold">Cloudflare Pages</span></a>
+
+</div>
+</div>
+
+
+
+<div class="margin padding"></div>
+
+<div class="bg border borderRadius2 marginList gray small">
+<div class="padding2">
+
+I'm grateful that you read it, have a nice day.
+
+</div>
+</div>
+
+
+</div>
+
+<div class="padding2 margin2"></div>
+
+
+
+
+</main>
+<!-- // content -->
+
+<div class="wrapper3">
+<footer id="footer"></footer>
+</div>
+
+<script>
+var confD = "../../";
+</script>
+<script src="../../js/main.js"></script>
+<script src="../../js/script.js"></script>
+
+
+
+</body>
+</html>
+

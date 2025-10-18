@@ -1,0 +1,90 @@
+/* v.1.1.25 */
+
+:root {
+--typingFont: 1.188em;
+}
+
+.result, textarea, #statTopWpm {
+margin: 0 auto;
+font-size: 120%;
+font-size: 1.3em; font-size: 1.125em; font-size: medium; font-size: medium; font-size: 1.25em; font-size: 1.188em; font-size: var(--typingFont);
+padding: 0 9px;
+}
+
+.result, textarea { padding: 9px; }
+#statTopWpm {
+padding-left: 9px;
+/*font-weight: bold;*/
+}
+
+.win { font-weight: bold; }
+#stat { font-weight: bold; text-align: right; }
+
+.scroll {
+/*overflow-x: auto;
+overflow-y: hidden;
+white-space: nowrap;*/
+max-height: 76px;
+padding-bottom: 10px;
+overflow-x: hidden;
+overflow-y: auto;
+scroll-padding-top: 1em;
+}
+
+#lPrintTr {
+/*overflow-x: auto;
+overflow-y: hidden;
+white-space: nowrap;*/
+max-height: 3em; max-height: 76px;
+overflow-x: hidden;
+overflow-y: auto;
+width: 100%;
+font-size: medium; font-size: var(--typingFont);
+}
+
+#lPrintTr {
+padding: 9px 9px;
+border-top: 7px solid var(--d2);
+
+display: flex;
+min-width: 100%;
+justify-content: start;
+align-content: center;
+margin: 0 auto;
+text-wrap: balance;
+text-align: left;
+}
+
+
+
+/*.msg { width: 100%; }*/
+
+/* fixed */
+html { scroll-padding-top: 240px; }
+
+
+
+.gridStat {
+display: grid;
+grid-template-columns: 30% 70%;
+grid-gap: 5px;
+width: 100%;
+max-width: 100%;
+margin: 0 auto;
+padding: 0;
+}
+
+@media(max-width: 500px) {
+#countSymbolTask, #stat { display: block; text-align: right; font-size: small; }
+.gridStat { grid-template-columns: 1fr; }
+}
+
+
+
+
+
+
+
+
+
+

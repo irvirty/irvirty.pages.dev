@@ -1,0 +1,54 @@
+/* v.1.3.1 */
+
+.localBg {
+width: 10vw;
+max-width: 150px;
+position: absolute;
+overflow: hidden;
+top: 0;
+z-index: -3;
+right: 10%;
+top: 10%;
+/*-webkit-transform: scaleX(-1);
+transform: scaleX(-1);*/
+/*transform: rotate(45deg);*/
+}
+
+
+.localBg2 {
+width: 21vw;
+max-width: 195px;
+position: absolute;
+overflow: hidden;
+z-index: -2;
+left: 5%;
+bottom: 20px;
+}
+/*https://developer.mozilla.org/en-US/docs/Web/CSS/@media/orientation#*/
+@media (orientation: portrait) {
+.localBg { width: 10vh; }
+.localBg2 { width: 21vh; }
+}
+
+@media (prefers-color-scheme: light) {
+body{
+background-image: url("../../../img/tpl/bg.svg");
+background-repeat: repeat;
+background-attachment: fixed;
+}
+}
+
+@media (prefers-color-scheme: dark) {
+body{
+background-image: url("../../../img/tpl/bg-dark.svg");
+background-repeat: repeat;
+background-attachment: fixed;
+}
+}
+
+
+/* fix */
+.contentCenter { max-width: 1100px; margin: 0 auto; }
+
+
+

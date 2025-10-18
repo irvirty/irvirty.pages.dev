@@ -1,0 +1,25 @@
+/* v.1.0.0 */
+/* comment */
+
+
+.headerBannerImg img,
+.headerBannerImg svg {
+display: block;
+width: auto;
+max-height: 120px;
+margin: 0 auto;
+margin-bottom: -30px;
+margin-bottom: -45px;
+position: relative;
+
+z-index: -2;
+/*border-bottom: 2px dashed var(--cRand2);*/
+
+
+}
+
+.headerBannerImg svg,
+.headerBannerImg img {
+opacity: .9;
+opacity: .7;
+}

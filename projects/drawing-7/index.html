@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Drawing</title>
+
+<meta name="description" content="
+A simple web application for drawing.
+">
+<meta name="keywords" content="
+draw, drawing, art, tool, tools, HTML5, drawing, app, WebAppproject,
+JavaScript, project,
+">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="icon" sizes="512x512" href="../../img/logo.png" type="image/png">
+<link rel="shortcut icon" href="../../favicon.ico" type="image/x-icon">
+
+<!-- main -->
+<link rel="preload" href="../../js/main.js" as="script">
+
+<link rel="preload" href="../../css/main.css" as="style">
+<link rel="stylesheet" href="../../css/main.css" type="text/css">
+<link rel="preload" href="../../css/auto.css" as="style">
+<link rel="stylesheet" type="text/css" href="../../css/auto.css" id="theme">
+
+<link rel="preload" href="../../css/style.css" as="style">
+<link rel="stylesheet" href="../../css/style.css" type="text/css">
+
+<noscript>
+<link rel="stylesheet" type="text/css" href="../../css/noscript.css">
+</noscript>
+<!-- // main -->
+
+<link rel="preload" href="script.js" as="script"> 
+
+<link rel="preload" href="style.css" as="style">
+<link rel="stylesheet" href="style.css" type="text/css">
+
+</head>
+<body>
+
+<!--
+<div id="secondNav">
+<header class="tCenter">
+<div class="margin2"></div>
+<nav>
+<a class="inlineBlock padding brand" style="padding-left: 0;" href="/">index</a>
+<a class="inlineBlock padding brand" style="padding-right: 0;" href="../">list</a>
+</nav>
+</header>
+</div>
+--->
+<div id="content"></div>
+<canvas id="myPics"></canvas>
+
+<div  id="btn">
+<span><a class="light3 button borderList broderRadius2" href="/">index</a></span><br>
+<span><a class="light3 button borderList broderRadius2" href="../">list</a></span><br>
+<!--<span><a class="light3 button borderList broderRadius2" href="javascript:history.back()">back</a></span><br>-->
+<span class="light3 button border"><input id="color" type="color"></span><br>
+<!--<span id="range"></span><br>-->
+<span id="img"></span><br><br>
+<span><a class="light3 button borderList broderRadius2" onclick="clearDrawing();return false;" href="#">clear</a></span><br>
+</div>
+
+<div id="ads2" class="drawAds"></div>
+<!--<footer style="position: absolute; bottom: 0; width: 100%; margin: 0 auto;">
+<div id="ads2" class="drawAds"></div>
+<script> fuAds('', 'ads2', ''); </script>
+</footer>-->
+
+<!--<footer id="footer"></footer>-->
+
+<script>
+var confD = "../../";
+</script>
+<script src="../../js/main.js"></script>
+
+<script src="script.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,9 @@
+/* v.1.0.0 */
+
+.memButton { min-width: 53px; min-height: 53px; font-size: 18px; padding: 0; font-weight: bold; }
+/*.history { min-height: 150px; margin: 10px; }*/
+#tableLenght  .button { font-size: 14px; }
+
+#win {
+min-height: 50px;
+}

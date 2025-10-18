@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<meta charset="UTF-8">
+<title>Updates</title>
+
+<meta name="description" content="Updates or changelog. About what's new on the site. Some changes and updates to the site may not be displayed here and updates may occur without post.">
+<meta name="keywords" content="update, news, new, page, main,">
+
+<link rel="alternate" type="application/rss+xml" title="Irvirty News" href="/rss.xml">
+<link rel="alternate" type="application/rss+xml" title="Irvirty Microblog" href="/rss2.xml">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<meta name="color-scheme" content="light dark">
+<!--<meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">-->
+
+<link rel="icon" sizes="512x512" href="../../img/logo.png" type="image/png">
+<link rel="shortcut icon" href="../../favicon.ico" type="image/x-icon">
+
+
+<!-- main -->
+<link rel="preload" href="../../js/main.js" as="script">
+
+<link rel="preload" href="../../css/main.css" as="style">
+<link rel="stylesheet" href="../../css/main.css" type="text/css">
+<link rel="preload" href="../../css/auto.css" as="style">
+<link rel="stylesheet" type="text/css" href="../../css/auto.css" id="theme">
+
+<link rel="preload" href="../../css/style.css" as="style">
+<link rel="stylesheet" href="../../css/style.css" type="text/css">
+
+<noscript>
+<link rel="stylesheet" type="text/css" href="../../css/noscript.css">
+</noscript>
+<!-- // main -->
+
+<link rel="preload" href="../../js/script.js" as="script">
+
+
+</head>
+<body>
+
+
+
+<!-- Navigation HTML v.1.0.1 -->
+<header>
+<div class="wrapper3">
+<div class="margin"></div>
+
+<div id="topNav" class="topNav">
+<nav>
+
+<!-- /* Skip navigation: .screenReader (in main.css) + id="content" */ -->
+<a class="screenReader inlineBlock padding brand" tabindex="0" href="#content">Skip navigation</a>
+<a class="inlineBlock padding" style="padding-left: 0;" tabindex="0" href="../../" title="index / nav 1"><img class="logo2 reduceLight" src="../../img/logo.png" alt="logo" style="max-width: 26px;"></a> 
+
+<span id="navMenu" class="navMenu">
+<!-- links in nav -->
+<a class="inlineBlock padding brand empty" tabindex="0" href="../../all/" title="All pages">All</a>
+<a class="active2 navMenuActive inlineBlock padding empty" tabindex="0" href="../../pages/" title="Main pages">Pages</a>
+<a class="inlineBlock padding brand empty" tabindex="0" href="../../games/" title="Games">Games</a>
+<a class="inlineBlock padding brand empty" tabindex="0" href="../../projects/" title="JavaScript projects">Projects</a>
+<a class="inlineBlock padding brand empty" tabindex="0" href="../../mini-projects/" title="HTML and CSS projects">Mini projects</a>
+<a class="inlineBlock padding brand empty" tabindex="0" href="../../pages/about/" title="About page">About</a>
+<!-- // links in nav -->
+</span>
+
+<div class="dropdownMenuContentWrapper navMenu2">
+<div class="dropdownMenuContent">
+
+<a id="dropdownMenuButton" class="dropdownMenuButton inlineBlock padding mClassNavUp brand borderBottomTransparent" tabindex="0" href="#" onclick="fuMDropdownButton();return false;">☰ Menu</a>
+
+<div id="dropdownMenu" class="dropdownMenu">
+<div class="dropdownMenuColumn shadow bg2 padding2 borderRadius2">
+<!-- links for show in dropdown (duplicate) -->
+<a class="inlineBlock padding brand empty" tabindex="0" href="../../all/" title="All pages">All</a>
+<a class="active2 navMenuActive inlineBlock padding empty" tabindex="0" href="../../pages/" title="Main pages">Pages</a>
+<a class="inlineBlock padding brand empty" tabindex="0" href="../../games/" title="Games">Games</a>
+<a class="inlineBlock padding brand empty" tabindex="0" href="../../projects/" title="JavaScript projects">Projects</a>
+<a class="inlineBlock padding brand empty" tabindex="0" href="../../mini-projects/" title="HTML and CSS projects">Mini projects</a>
+<a class="inlineBlock padding brand empty" tabindex="0" href="../../pages/about/" title="About page">About</a>
+<!-- // links for show in dropdown (duplicate) -->
+<hr>
+<a class="noscriptHide block w100 tCenter padding small gray" href="#" onclick="fuMDropdownButtonClose();return false;" title="Close menu">Close</a>
+</div>
+</div>
+
+</div>
+</div>
+
+<!--<a class="inlineBlock padding mClassNavUp brand borderBottomTransparent" tabindex="0" href="../" title="../ (Up)">List (up)</a>-->
+
+<form class="noscriptHide inlineBlock padding" style="padding-right: 0;" method="GET" action="../../site-search/" role="search">
+<!--<label for="siteSearch" class="xSmall op">search:</label>-->
+<input id="siteSearch" class="borderRadius3" type="search" placeholder="site search" name="q" autocomplete="off">
+</form>
+
+</nav>
+</div>
+
+</div>
+</header>
+<!-- // Navigation HTML -->
+
+<!--<hr>-->
+
+
+
+<!-- content -->
+<main id="content" class="content">
+<div class="wrapper">
+<h1 class="tCenter op insertIconTitle">Updates</h1>
+<div class="tCenter margin4List small op">last 30</div>
+<div class="padding3 borderList bg padding3 borderRadius2">
+<div class="op smaller padding2List">#356</div>
+<span class="inlineBlock firstLetterBold pre">WordPress theme: I added a background with a randomly selected image to the theme.</span>
+</div>
+
+<div class="padding3 borderList bg padding3 borderRadius2">
+<div class="op smaller padding2List">#355</div>
+<span class="inlineBlock firstLetterBold pre">Improved site search. It&#039;s hard to explain what has been improved, but it searches for two or more words, and they can be in different places in the sentence.</span>
+</div>
+
+<div class="padding3 borderList bg padding3 borderRadius2">
+<div class="op smaller padding2List">#354</div>
+<span class="inlineBlock firstLetterBold pre">I removed the tag cloud again for a cleaner design.
++ You can now enable this in the settings.</span>
+</div>
+
+<div class="padding3 borderList bg padding3 borderRadius2">
+<div class="op smaller padding2List">#353</div>
+<span class="inlineBlock firstLetterBold pre">I accidentally fixed the &quot;shifting links bug&quot; after page load (opening the link). The font loading code was originally in JavaScript, the JS was at the bottom of the page, and it probably caused the font shifting, but now I moved it to the CSS, and that fixed the problem.</span>
+</div>
+
+<div class="padding3 borderList bg padding3 borderRadius2">
+<div class="op smaller padding2List">#352</div>
+<span class="inlineBlock firstLetterBold pre">Those who use this repository will probably need to start everything from the beginning and run the command &quot;git clone,&quot; because the repository was deleted and recreated. Sorry for the inconvenience.</span>
+</div>
+
+<div class="padding3 borderList bg padding3 borderRadius2">
+<div class="op smaller padding2List">#349</div>
+<span class="inlineBlock firstLetterBold pre">The WordPress theme has been updated, now it can be used for microblogs. If you do not specify a post title, the H1 or H2 tag is hidden if it is empty.</span>
+</div>
+
+<div class="padding3 borderList bg padding3 borderRadius2">
+<div class="op smaller padding2List">#348</div>
+<span class="inlineBlock firstLetterBold pre">Switching to automatic theme detection for pages (auto.css: dark or light theme).</span>
+</div>
+
+<div class="padding3 borderList bg padding3 borderRadius2">
+<div class="op smaller padding2List">#347</div>
+<span class="inlineBlock firstLetterBold pre">I removed the tag cloud on the main page again, there is a search form for that.
++ I undeleted and restored it (more faster 1 click).</span>
+</div>
+
+<div class="padding3 borderList bg padding3 borderRadius2">
+<div class="op smaller padding2List">#346</div>
+<span class="inlineBlock firstLetterBold pre">Many &quot;site templates&quot; have been changed, from automatically selecting the theme color (light or dark auto.css), to only a light theme.
++
+Returned back to automatic mode (auto.css), depending on browser theme or OS (Operating System) theme mode</span>
+</div>
+
+<div class="padding3 borderList bg padding3 borderRadius2">
+<div class="op smaller padding2List">#345</div>
+<span class="inlineBlock firstLetterBold pre">- The light theme is now set by default. (Because during the day, the dark theme was enabled for the browser or OS dark mode, but the light theme is more suitable).
+- Fixed bugs in website templates.
+- Removed Robot font from WordPress theme because I think specifying license only in readme.txt is not enough, you can uncomment it in main.css file.</span>
+</div>
+
+<div class="padding3 borderList bg padding3 borderRadius2">
+<div class="op smaller padding2List">#344</div>
+<span class="inlineBlock firstLetterBold pre">Brought back the tag cloud on the main page (more convenient).</span>
+</div>
+
+<div class="padding3 borderList bg padding3 borderRadius2">
+<div class="op smaller padding2List">#343</div>
+<span class="inlineBlock firstLetterBold pre">I removed links that cause &quot;mindless scrolling&quot; (links above the form and the hashtag cloud on the main page)</span>
+</div>
+
+<div class="padding3 borderList bg padding3 borderRadius2">
+<div class="op smaller padding2List">#342</div>
+<span class="inlineBlock firstLetterBold pre">Fixed the title on some pages. The title was not related to the page URL.</span>
+</div>
+
+<div class="padding3 borderList bg padding3 borderRadius2">
+<div class="op smaller padding2List">#341</div>
+<span class="inlineBlock firstLetterBold pre">Improved site search. Search options did not work when using page navigation.</span>
+</div>
+
+<div class="padding3 borderList bg padding3 borderRadius2">
+<div class="op smaller padding2List">#340</div>
+<span class="inlineBlock firstLetterBold pre">Firefox extensions were removed from the add-on store and then re-uploaded with a new address.</span>
+</div>
+
+<div class="padding3 borderList bg padding3 borderRadius2">
+<div class="op smaller padding2List">#339</div>
+<span class="inlineBlock firstLetterBold pre">The second navigation is now disabled by default.</span>
+</div>
+
+<div class="padding3 borderList bg padding3 borderRadius2">
+<div class="op smaller padding2List">#338</div>
+<span class="inlineBlock firstLetterBold pre">Bulk file editing: I changed the URL path to a more local one; this change is to make the page more available after downloading. (in test, in progress)</span>
+</div>
+
+<div class="padding3 borderList bg padding3 borderRadius2">
+<div class="op smaller padding2List">#337</div>
+<span class="inlineBlock firstLetterBold pre">Updated the WordPress theme, trying to improve the navigation.</span>
+</div>
+
+<div class="padding3 borderList bg padding3 borderRadius2">
+<div class="op smaller padding2List">#335</div>
+<span class="inlineBlock firstLetterBold pre">The new version of main.css. Renamed some classes because there was a class conflict with the WordPress theme. (in progress)</span>
+</div>
+
+<div class="padding3 borderList bg padding3 borderRadius2">
+<div class="op smaller padding2List">#334</div>
+<span class="inlineBlock firstLetterBold pre">New: columns class in CSS is in progress. (edited)</span>
+</div>
+
+<div class="padding3 borderList bg padding3 borderRadius2">
+<div class="op smaller padding2List">#333</div>
+<span class="inlineBlock firstLetterBold pre">- New website template: Web design and web development services.
+- Improved WordPress theme.</span>
+</div>
+
+<div class="padding3 borderList bg padding3 borderRadius2">
+<div class="op smaller padding2List">#332</div>
+<span class="inlineBlock firstLetterBold pre">CSS Style: Now all links will be underlined. New class: .notUnderline. (in progress, in test).</span>
+</div>
+
+<div class="padding3 borderList bg padding3 borderRadius2">
+<div class="op smaller padding2List">#331</div>
+<span class="inlineBlock firstLetterBold pre">New: custom background image. (in test, experimental)</span>
+</div>
+
+<div class="padding3 borderList bg padding3 borderRadius2">
+<div class="op smaller padding2List">#330</div>
+<span class="inlineBlock firstLetterBold pre">All (start menu) page: fixed duplication of the first character when start typing if the input form is without focus.</span>
+</div>
+
+<div class="padding3 borderList bg padding3 borderRadius2">
+<div class="op smaller padding2List">#329</div>
+<span class="inlineBlock firstLetterBold pre">Improved navigation: removed the class for counting items in the menu, now it is automatic due to the number of links.</span>
+</div>
+
+<div class="padding3 borderList bg padding3 borderRadius2">
+<div class="op smaller padding2List">#328</div>
+<span class="inlineBlock firstLetterBold pre">- On the images page, there are new wallpapers.
+- main.css: removed Ubuntu font because it looked bad.
+- WordPress theme in templates: fixed alignment of the &quot;archive&quot; page after improvements to pass validation for the theme store.</span>
+</div>
+
+<div class="padding3 borderList bg padding3 borderRadius2">
+<div class="op smaller padding2List">#325</div>
+<span class="inlineBlock firstLetterBold pre">URL Redirect extension or addon: Attempting to add this &quot;*&quot; character to the first URL parameter in settings.</span>
+</div>
+
+<div class="padding3 borderList bg padding3 borderRadius2">
+<div class="op smaller padding2List">#324</div>
+<span class="inlineBlock firstLetterBold pre">The default theme is now only &quot;auto&quot; (light and dark).</span>
+</div>
+
+<div class="padding3 borderList bg padding3 borderRadius2">
+<div class="op smaller padding2List">#323</div>
+<span class="inlineBlock firstLetterBold pre">Main.css: Removed color style for HTML &quot;submit&quot; tag, use CSS class &quot;submit&quot; instead (in test).  For using other background color in submit button, like button &quot;call to action&quot;</span>
+</div>
+
+<div class="padding3 borderList bg padding3 borderRadius2">
+<div class="op smaller padding2List">#322</div>
+<span class="inlineBlock firstLetterBold pre">New project: HTML colors name.</span>
+</div>
+
+<div class="padding2 margin2"></div>
+
+</div>
+</main>
+<!-- // content -->
+
+<div class="wrapper3">
+<footer id="footer"></footer>
+</div>
+
+<script>
+var confD = "../../";
+</script>
+<script src="../../js/main.js"></script>
+<script src="../../js/script.js"></script>
+
+
+
+</body>
+</html>
+

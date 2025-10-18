@@ -1,0 +1,77 @@
+/* v.1.1.0 */
+
+.buttonTtt { 
+
+font-size: large;
+font-weight: bold;
+
+display: inline-flex;
+width: 100vw;
+height: 100vw;
+max-width: 65px;
+max-height: 65px;
+
+border: 1px solid var(--d);
+margin: 0;
+padding: 0;
+overflow: hidden;
+
+margin: 0;
+justify-content: center;
+align-items: center;
+
+}
+
+
+@media(max-width: 230px) {
+.buttonTtt { 
+font-size: normal;
+font-weight: bold;
+
+width: 100vw;
+height: 100vw;
+max-width: 35px;
+max-height: 35px;
+}
+}
+
+@media(max-width: 130px) {
+.buttonTtt { 
+font-size: small;
+font-weight: bold;
+
+width: 100vw;
+height: 100vw;
+max-width: 19px;
+max-height: 19px;
+}
+}
+
+
+#win { font-size: 24px; font-weight: bold; padding: 10px 0; min-height: 50px; }
+
+
+
+#tttStartButton {
+font-weight: bold;
+
+
+text-align: center;
+padding: 10px 20px;
+width: 100%;
+max-width: 140px;
+margin-top: 25px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

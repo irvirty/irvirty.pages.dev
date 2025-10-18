@@ -1,0 +1,15 @@
+{
+"background_color": "#FCF7ED",
+"description": "no description",
+"display":"minimal-ui",
+"icons": [
+{
+"src": "/img/maskable_icon_x512.png",
+"sizes": "512x512",
+"type": "image/png"
+}
+],
+"name": "PWA test",
+"short_name": "PWAt",
+"start_url": "./"
+}

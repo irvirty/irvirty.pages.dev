@@ -1,0 +1,11 @@
+/* v.1.1.1
+ * style addon */
+
+html { margin-top: 50px; height: 280px; }
+body { width: 380px; overflow: hidden; }
+form { max-width: 300px; }
+
+html, body, a, input, button, textarea, pre, code{
+font-size: 14px;
+}
+

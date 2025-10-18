@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   version="1.1"
+   id="svg2"
+   width="512"
+   height="512"
+   viewBox="0 0 512 512"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs6">
+    <linearGradient
+       id="linearGradient862">
+      <stop
+         style="stop-color:#ffe6c0;stop-opacity:1;"
+         offset="0"
+         id="stop860" />
+    </linearGradient>
+  </defs>
+  <g
+     id="g8">
+    <rect
+       style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:3;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect95519"
+       width="512"
+       height="512"
+       x="0"
+       y="0" />
+    <g
+       id="g3854"
+       transform="matrix(1.2613885,0,0,1.2613885,-20.929098,-96.135675)">
+      <ellipse
+         style="fill:#000000;stroke-width:3"
+         id="path1132"
+         cx="16.798904"
+         cy="404.12897"
+         rx="66.847816"
+         ry="41.823715"
+         transform="rotate(-24.625173)" />
+      <rect
+         style="fill:#000000;stroke-width:2.63813"
+         id="rect1236"
+         width="26.769119"
+         height="196.0712"
+         x="219.97314"
+         y="150.82387" />
+      <path
+         id="rect1340"
+         style="stroke-width:3"
+         d="m 246.74226,150.82387 c 101.27776,30.33495 66.64785,163.91611 64.38088,163.34927 -7.07745,-3.59588 6.39012,-129.69873 -91.15,-136.58894 z" />
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,13 @@
+<svg width="512" height="512" version="1.1" viewBox="0 0 135.47 135.47" xmlns="http://www.w3.org/2000/svg">
+ <defs>
+  <clipPath id="clipPath1386">
+   <rect x="29.491" y="55.965" width="75.703" height="41.631" d="m 29.49058,55.965004 h 75.70288 V 97.595757 H 29.49058 Z" display="none" fill="#ef2929" stroke-width="5.5834"/>
+   <path class="powerclip" d="m9.9267 36.942h115.62v78.976h-115.62zm19.564 19.023v41.631h75.703v-41.631z" fill="#ef2929" stroke-width="5.5834"/>
+  </clipPath>
+ </defs>
+ <path x="14.926673" y="41.942104" width="105.61665" height="68.975655" d="m14.927 41.942h105.62v68.976h-105.62z" clip-path="url(#clipPath1386)" stroke-width="8.4889"/>
+ <g transform="translate(0 -.077712)" stroke-width="7.9377">
+  <rect transform="rotate(-45)" x="11.6" y="33.659" width="13.412" height="44.386"/>
+  <rect transform="rotate(45)" x="70.78" y="-62.133" width="13.412" height="44.386"/>
+ </g>
+</svg>

@@ -1,0 +1,216 @@
+/* Main local style v.1.19.0 */
+
+@font-face {
+font-family: 'Roboto';
+src: url('../fonts/Roboto-Regular.ttf')  format('truetype');
+font-display: swap;
+}
+
+/* Navigation CSS v.3.2.0 */
+
+.topNav form, .topNav input[type=search] { display: inline-block; }
+.topNav form { width: 100%; max-width: 130px; vertical-align: middle; }
+.topNav input[type=search] { font-size: small; min-height: 10px; height: 30px; }
+.topNav form ::placeholder { font-size: x-small; }
+.topNav form { margin-left: var(--padding); }
+
+.topNav button { margin: 0; }
+.topNav { text-align: center; }
+/*
+.topNav nav{
+display: grid;
+grid-template-columns: repeat(auto-fill, minmax(0, auto));
+margin: 0 auto;
+justify-content: center;
+align-items: center;
+text-align: center;
+}test delme*/
+
+.topNav nav{
+display: inline-block;
+width: auto;
+margin: 0 auto;
+justify-content: center;
+align-items: center;
+text-align: center;
+}
+
+/* fix for mobile */
+ @media only screen and (max-width: 500px){
+.topNav nav {
+justify-content: left;
+align-items: center;
+text-align: left;
+}
+.topNav { text-align: left; }
+.topNav button { margin-right: var(--padding); }
+.topNav form { margin-left: 0; }
+}
+
+.dropdownMenu {
+width: calc(100% - (2 * var(--bodyPadding)));
+/*delme test validator error max-width: calc(900px - (2 * var(--bodyPadding)));*/
+max-width: 900px;
+margin: 0 auto;
+position: absolute;
+left: 0;
+right: 0;
+z-index: 999;
+display: none;
+}
+
+.topNav .dropdownMenuButton { display: none; }
+
+.dropdownMenuButton svg {
+max-width: 14px;
+vertical-align: middle;
+fill: var(--brand) !important;
+stroke: var(--c3) !important;
+}
+
+
+.dropdownMenuColumn {
+text-align: left;
+/*columns: 120px auto;*/
+z-index: 2;
+margin-top: var(--padding);
+}
+.dropdownMenuContent a { display: inline-block; }
+
+/* fix */
+.dropdownMenuContentWrapper, .dropdownMenuContent { display: inline-block;  }
+.showDropdownMenu { display: block; }
+
+.topNav nav ul, .topNav nav li {
+padding: 0;
+margin: 0;
+display: inline;
+width: auto;
+list-style-type: none;
+}
+
+.topNav nav a {
+padding: var(--padding);
+}
+
+
+
+.logo, .logo2{
+position: relative;
+border-radius: 50%;
+display: inline-flex;
+vertical-align: middle;
+text-align: center;
+padding: 1px;
+border: 2px dashed color-mix(in srgb, var(--brand) 50%, transparent);
+opacity: 1;
+transition: transform .250s ease-in-out;
+width: 60px;
+}
+
+.logo:hover, .logo2:hover{
+transform: rotate(360deg);
+transition: transform 1.5s ease-in-out;
+}
+
+.logo2 { width: 26px; height: 26px; }
+
+@media (prefers-reduced-motion) {
+.logo:hover, .logo2:hover{ border-color: var(--c); }
+}
+
+#siteSearch {
+border-radius: 15px;
+}
+
+/* .screenReader in main.css */
+
+/* end Navigation CSS */
+
+
+
+
+
+
+
+.menu {
+display: grid;
+grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+grid-gap: 5px;
+margin: 0 auto;
+justify-content: center;
+}
+
+@media (max-width: 150px) {
+.menu { display: block; width: 100%;}
+}
+
+.menu a {
+display: flex;
+min-width: 100%;
+justify-content: start;
+align-content: center;
+margin: 0 auto;
+text-wrap: balance;
+text-align: left;
+/*min-height: 50px;*/
+text-decoration: none;
+}
+
+.insertIcon svg *, .insertIconTitle svg * {
+fill: var(--c) !important;
+stroke: var(--c) !important;
+}
+
+.listBlock {
+padding: 0 var(--padding3);
+margin-bottom: var(--padding2);
+}
+.listItem {
+padding: var(--padding) 0;
+border-bottom: 2px dotted var(--d3);
+}
+
+/* bg image in main.js */
+
+/* fix */
+@media only screen and (max-width: 500px){
+#secondNav nav {
+text-align: left;
+}
+}
+
+.navMenu a,
+.navMenu2 a {
+border-bottom: 2px solid transparent;
+}
+.navMenu a:hover,
+.navMenu2 a:hover {
+transition: 0.3s;
+border-bottom: 2px dotted var(--brand);
+}
+.navMenuActive {
+border-bottom: 2px dotted var(--brand) !important;
+}
+
+
+/*
+.logo, .logo2{
+transition: transform .250s ease-in-out;
+animation: mAni 500ms 0s, mAniBlink 500ms .5s;
+opacity: 1;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+@keyframes mAni {
+from { transform: rotate(0); }
+to { transform: rotate(360deg); }
+}
+
+@keyframes mAniBlink {
+from{ border: 2px solid color-mix(in srgb, var(--brand) 100%, transparent); }
+to { border: 2px solid color-mix(in srgb, var(--brand) 20%, transparent); }
+}
+}*/
+
+

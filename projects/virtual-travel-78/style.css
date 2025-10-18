@@ -1,0 +1,17 @@
+/* v.1.0.0 */
+
+
+
+/*https://stackoverflow.com/questions/15292708/text-overflow-css-truncation/#*/
+.infoDisabled {
+text-overflow: ellipsis " [..]";   /* IE, Safari (WebKit) */
+overflow: hidden;              /* don't show excess chars */
+white-space: nowrap;           /* force single line */
+width: 100%;  /*This property playing a major role just showing the first 2 letter*/
+}
+
+.infoDisabled:hover {
+.info {
+white-space: wrap;
+}
+}

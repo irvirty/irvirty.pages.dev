@@ -1,0 +1,56 @@
+{
+
+  "manifest_version": 3,
+  "name": "Hotkey URL",
+  "version": "2.8.1",
+  "description": "Assign keys to a specific website.",
+
+"icons": {
+  "512": "icon512x512.png"
+},
+
+"permissions":
+[
+"storage",
+"activeTab"
+],
+
+"browser_specific_settings": {
+  "gecko": {
+    "id": "{2cd391cf-2698-4a72-9731-e4ec75bdca2e}",
+    "strict_min_version": "109.0"  }
+},
+
+"options_ui": {
+"page": "options.html",
+"open_in_tab": true
+},
+
+
+
+
+"action": {
+    "default_popup": "options.html",
+    "default_icon": {
+      "512": "icon512x512.png"
+    }
+  },
+
+
+
+
+"content_scripts": [
+{
+"js": ["script.js"],
+"matches": ["<all_urls>", "*://*/*"],
+"run_at": "document_end",
+"all_frames": false
+}
+],
+
+"background": {
+"scripts": ["worker.js"]
+}
+
+  
+}

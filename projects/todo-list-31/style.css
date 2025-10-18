@@ -1,0 +1,54 @@
+/* v.1.5.0
+fixme centring text in task
+fiexed textarea width: cols="100" */
+
+input[type="chckbox"] { display: inline-flex;  }
+
+.task {
+display: grid;
+grid-template-columns: auto 1fr auto;
+grid-gap: 10px;
+margin: 0 5px;
+width: 100%;
+max-width: 100%;
+justify-content: center;
+align-items: safe center;
+align-self: safe center;
+}
+
+.taskItem {
+padding: 10px 5px;
+display: flex;
+min-width: 100%;
+min-height: var(--inputH);
+justify-content: start;
+align-content: center;
+}
+
+@media(max-width: 300px) {
+.task {
+grid-template-columns: 100%;
+grid-template-columns: auto auto 1fr;
+}
+}
+
+@media(max-width: 150px) {
+.task {
+grid-template-columns: 100%;
+}
+}
+
+.flexCenter {
+display: flex;
+align-items: safe center;
+}
+
+/*.block {
+overflow: auto;
+}*/
+
+
+textarea { min-height: 10vh; }
+html { scroll-padding-top: 15px; }
+
+

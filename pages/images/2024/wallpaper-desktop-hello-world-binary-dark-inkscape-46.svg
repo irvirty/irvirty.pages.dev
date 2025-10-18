@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="1920"
+   height="1080"
+   viewBox="0 0 1920 1080"
+   version="1.1"
+   id="svg5"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs2">
+    <rect
+       x="407.77214"
+       y="294.5014"
+       width="495.83421"
+       height="345.75679"
+       id="rect24945" />
+  </defs>
+  <g
+     id="layer1">
+    <rect
+       style="mix-blend-mode:normal;fill:#ffffff;fill-opacity:1;stroke:#b8a382;stroke-width:3.14686;paint-order:markers fill stroke"
+       id="rect846"
+       width="1916.8531"
+       height="1076.8531"
+       x="1.5734253"
+       y="1.5734253" />
+    <rect
+       style="opacity:1;mix-blend-mode:normal;fill:#2e3436;fill-opacity:1;stroke:none;stroke-width:3.15418;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+       id="rect846-9"
+       width="1920"
+       height="1080"
+       x="0"
+       y="0" />
+    <text
+       xml:space="preserve"
+       id="text24943"
+       style="font-size:16px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect24945);fill:#909090;fill-opacity:1"
+       x="3112.2012"
+       y="0"
+       transform="translate(303.43262,227.16602)"><tspan
+         x="434.29004"
+         y="308.6582"
+         id="tspan877"><tspan
+           style="text-align:center;text-anchor:middle"
+           id="tspan875">1001000 1100101 1101100 1101100 1101111 100000 </tspan></tspan><tspan
+         x="434.29004"
+         y="328.6582"
+         id="tspan881"><tspan
+           style="text-align:center;text-anchor:middle"
+           id="tspan879">1010111 1101111 1110010 1101100 1100100 100001 </tspan></tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:12px;line-height:1.25;font-family:sans-serif;fill:#909090;fill-opacity:1"
+       x="1107.3969"
+       y="576.06592"
+       id="text105377"><tspan
+         id="tspan105375"
+         x="1107.3969"
+         y="576.06592"
+         style="font-size:12px;fill:#909090;fill-opacity:1">Hello World!</tspan></text>
+  </g>
+</svg>

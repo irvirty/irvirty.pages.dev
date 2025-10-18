@@ -1,0 +1,37 @@
+/* v.1.0.2 */
+
+h1 {
+font-size: 4em;
+text-align: center;
+position: relative;
+text-transform: uppercase;
+margin: 0;
+padding: 0;
+word-break: break-all;
+}
+
+h1::after {
+content: "relative + after + absolute";
+font-size: 16px;
+font-weight: bold;
+
+display: block;
+height: 50%;
+position: absolute;
+bottom: 0;
+width: 100%;
+background-color: var(--bg);
+color: var(--gray);
+}
+
+@media (max-width: 500px) {
+  h1 { font-size: 3em; }
+  h1::after{ font-size: 9px; }
+}
+
+@media (max-width: 250px) {
+    h1 { font-size: 2em; }
+  h1::after{ position: relative; }
+}
+
+

@@ -1,0 +1,32 @@
+/* Responsive grid v.1.3.0 */
+
+
+
+.item {
+flex: 1 0 auto;
+justify-content: center;
+align-items: center;
+/*align-self: stretch;*/
+
+width: auto;
+width: 120px;
+max-width: 100%;
+min-width: 1fr;
+gap: 0;
+
+}
+
+.flexBlock {
+display: flex;
+flex: 1 0 auto;
+flex-wrap: wrap;
+gap: 5px;
+}
+
+
+
+.lTransparentBg {
+background-image: url("/img/transparent.svg");
+background-repeat: repeat;
+background-size: 30px 30px;
+}

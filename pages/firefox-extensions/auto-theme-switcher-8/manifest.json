@@ -1,0 +1,51 @@
+{
+"manifest_version": 3,
+"name": "Auto theme switcher",
+"version": "2.3.2",
+"description": "This extension automatically sets your theme by syncing with your operating system's color scheme (dark/light mode) or following a custom time schedule. Note: Automatic mode may work unstable with some themes or settings.",
+
+"icons": {
+"512": "icon512x512.png"
+},
+
+"permissions": [
+"management",
+"storage",
+"activeTab"
+],
+
+
+"action": {
+    "default_popup": "options.html",
+    "default_icon": {
+      "512": "icon512x512.png"
+    }
+  },
+
+"content_scripts": [
+{
+"js": ["script.js"],
+"matches": ["<all_urls>", "*://*/*"],
+"run_at": "document_end",
+"all_frames": false
+}
+],
+
+"background": {
+"scripts": ["worker.js"]
+},
+
+"options_ui": {
+"page": "options.html",
+"open_in_tab": true
+},
+
+"browser_specific_settings": {
+"gecko": {
+"id": "auto-theme-switcher-8@example.com",
+"strict_min_version": "132.0"
+}
+}
+
+
+}

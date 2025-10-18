@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Collected data - website cost</title>
+
+<meta name="description" content="
+datapage, !ignoreme,
+">
+<meta name="keywords" content="
+datapage, !ignoreme, JavaScript, project
+">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="icon" sizes="512x512" href="../../img/logo.png" type="image/png">
+<link rel="shortcut icon" href="../../favicon.ico" type="image/x-icon">
+
+<!-- main -->
+<link rel="preload" href="../../js/main.js" as="script">
+
+<link rel="preload" href="../../css/main.css" as="style">
+<link rel="stylesheet" href="../../css/main.css" type="text/css">
+<link rel="preload" href="../../css/auto.css" as="style">
+<link rel="stylesheet" type="text/css" href="../../css/auto.css" id="theme">
+
+<link rel="preload" href="../../css/style.css" as="style">
+<link rel="stylesheet" href="../../css/style.css" type="text/css">
+
+<noscript>
+<link rel="stylesheet" type="text/css" href="../../css/noscript.css">
+</noscript>
+<!-- end main -->
+
+<link rel="preload" href="style.css" as="style">
+<link rel="stylesheet" href="style.css" type="text/css">
+
+</head>
+<body>
+
+<div id="secondNav">
+<header class="tCenter">
+<div class="margin2"></div>
+<nav>
+<a class="inlineBlock padding brand" style="padding-left: 0;" href="/">index</a>
+<a class="inlineBlock padding brand" style="padding-right: 0;" href="../">list</a>
+</nav>
+</header>
+</div>
+
+
+<!-- content -->
+<main id="content" class="content">
+
+<h1 class="op tCenter">List of collected data:</h1>
+
+<nav class="wrapper">
+<a class="inlineBlock brand padding" style="padding-left: 0;" href="./"><span class="small">« Page</span></a>
+</nav>
+
+<div id="echoKeep"></div>
+
+</main>
+<!-- // content -->
+
+
+<footer id="footer"></footer>
+
+<script>
+var confD = "../../";
+</script>
+<script src="../../js/main.js"></script>
+
+
+
+<!-- Keep -->
+<script src="../../data/HowMuchDoesAWebsiteCostJsonVar.js"></script>
+<script>
+// fresh data example in script.js
+if(jsonVar == undefined||jsonVar == ''){
+var jsonVar = 
+
+
+[
+    {
+        "id": 251,
+        "text": "test2 text2",
+        "text2": "test2 text2",
+        "text3": "test3 text3",
+        "url": "https:\/\/example.com",
+        "tag": "#test2 #tag",
+        "time": 1671480576
+    },
+    {
+        "id": 250,
+        "text": "test text",
+        "text2": "test2 text2",
+        "text3": "test3 text3",
+        "url": "https:\/\/example.com",
+        "tag": "#test #tag",
+        "time": 1668444918
+    }
+];
+
+}
+</script>
+
+<script>
+// fresh config in script.js
+let keepConfig = {
+"postLimit":"", // number
+"embedStatus":"off", // off
+"multiEmbedStatus":"", // on
+"tagListStatus":"", // off
+"tagListLimit":"", // number
+"targetOption":"", // blank
+"bottomMsg":"", // text
+"display":"all", // grid (for img link), article (text - title, text2 - text)
+"timeStatus":"", // off, disable post time (post id)
+};
+</script>
+<script src="../../projects/keep-1/script.js" onload="keep('echoKeep', HowMuchDoesAWebsiteCostJsonVar, ' wrapper post ', './data-list.html', keepConfig)"></script>
+<!-- // keep -->
+
+
+
+<script>
+//fuMSetTheme('light');
+</script>
+
+<!--<script src="script.js"></script>-->
+
+</body>
+</html>

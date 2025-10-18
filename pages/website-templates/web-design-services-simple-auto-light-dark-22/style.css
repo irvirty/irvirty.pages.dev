@@ -1,0 +1,19 @@
+/* v.1.0.0 */
+
+
+
+@media (prefers-color-scheme: light) {
+body{
+background-image: url("../../../img/tpl/bg.svg");
+background-repeat: repeat;
+background-attachment: fixed;
+}
+}
+
+@media (prefers-color-scheme: dark) {
+body{
+background-image: url("../../../img/tpl/bg-dark.svg");
+background-repeat: repeat;
+background-attachment: fixed;
+}
+}

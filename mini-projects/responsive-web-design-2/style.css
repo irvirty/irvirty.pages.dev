@@ -1,0 +1,23 @@
+/* v.1.0.0 */
+/* comment */
+
+
+.localBlock,
+.localBlock2,
+.localBlock3,
+.localBlock4 {
+width: 100%;
+display: block;
+margin: 0 auto;
+min-height: 50px;
+background: var(--indigo);
+margin-bottom: 1px;
+
+
+border: 1px solid var(--d);
+}
+
+.localBlock { max-width: 100px; }
+.localBlock2 { max-width: 480px; }
+.localBlock3 { max-width: 860px; }
+.localBlock4 { max-width: 100%; }

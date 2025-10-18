@@ -1,0 +1,9 @@
+/* v.1.0.0 */
+/* comment */
+
+
+/* fix Disqus and Twitter embed border */
+/*https://stackoverflow.com/questions/65260505/disqus-iframe-transparency-wont-work-on-chrome-87#*/
+iframe {
+color-scheme: light;
+}

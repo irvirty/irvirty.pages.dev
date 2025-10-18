@@ -1,0 +1,6 @@
+/* v.1.1.4
+ * style addon */
+
+html { max-height: 280px; min-height: 280px; }
+html, body { max-width: 95%; width: 500px;  }
+form { margin-top: 50px; max-width: 500px; }

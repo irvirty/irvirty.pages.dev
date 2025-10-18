@@ -1,0 +1,11 @@
+#geany-compiler-error {
+    color: #FF7382;
+}
+
+#geany-compiler-message {
+    color: #49C6FF;
+}
+
+#geany-compiler-context {
+    color: #FF9A9D;
+}

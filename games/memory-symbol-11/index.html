@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Memory Symbol</title>
+
+<meta name="description" content="
+In this game, there is a grid with masked cells that need to be opened. You need to open two identical symbols (emoji) in sequence, winning if you opened everything.
+">
+<meta name="keywords" content="
+game, memory, symbol, HTML5,
+CSS, JavaScript, project,
+">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="icon" sizes="512x512" href="../../img/logo.png" type="image/png">
+<link rel="shortcut icon" href="../../favicon.ico" type="image/x-icon">
+
+<!-- main -->
+<link rel="preload" href="../../js/main.js" as="script">
+
+<link rel="preload" href="../../css/main.css" as="style">
+<link rel="stylesheet" href="../../css/main.css" type="text/css">
+<link rel="preload" href="../../css/light.css" as="style">
+<link rel="stylesheet" type="text/css" href="../../css/light.css" id="theme">
+
+<link rel="preload" href="../../css/style.css" as="style">
+<link rel="stylesheet" href="../../css/style.css" type="text/css">
+
+<noscript>
+<link rel="stylesheet" type="text/css" href="../../css/noscript.css">
+</noscript>
+<!-- end main -->
+
+<link rel="preload" href="script.js" as="script"> 
+
+<link rel="preload" href="style.css" as="style">
+<link rel="stylesheet" href="style.css" type="text/css">
+
+</head>
+<body>
+
+<div id="secondNav">
+<header class="tCenter">
+<div class="margin2"></div>
+<nav>
+<a class="inlineBlock padding brand" style="padding-left: 0;" href="/">index</a>
+<a class="inlineBlock padding brand" style="padding-right: 0;" href="../">list</a>
+</nav>
+</header>
+</div>
+
+<main id="content" class="content">
+<h1 class="tCenter op insertIconTitle">Memory Symbol</h1>
+
+<div class="center3 text">
+
+<div class="" style="text-align: center;">
+<div id="win" class="button block bold h3"></div>
+<div id="task"></div>
+
+<!--<div style="position: relative;">
+<div id="result" style="position: absolute; display: block-inline; right: 50%; left: 50%; z-index: 2; opacity: 0.5;"></div>
+<div id="result2" style="position: absolute; right: 50%; left: 50%; z-index: 1;"></div>
+</div>-->
+
+
+<div id="result"></div>
+<!--<div id="result2"></div>-->
+
+<div id="test"></div>
+
+<div class="history"><span class="op"></span> <br>
+<br />
+<div  class="op" id="inputHistory"></div>
+<br>
+<!--<a class="tag padding2 light border margin2" onclick="refresh();return false;" href="#">refresh</a>-->
+<a class="tag padding2 light border margin2 submit notUnderline" onclick="fuMReload();return false;" href="#">Reload</a>
+
+</div>
+<br />
+
+<div class="margin padding"></div>
+<div id="tableLenght"></div>
+</div>
+
+</div>
+
+
+<div id="alert"></div>
+<div id="alert2"></div>
+
+
+</main>
+
+
+<footer id="footer"></footer>
+
+<script>
+var confD = "../../";
+</script>
+<script src="../../js/main.js"></script>
+
+<script src="script.js"></script>
+
+</body>
+</html>

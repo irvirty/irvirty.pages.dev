@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<meta charset="UTF-8">
+<title>Install Website (PWA)</title>
+
+<meta name="description" content="Install website as app (PWA). The site or page will look and run like an app and will be among other installed programs.">
+<meta name="keywords" content="
+install, download, website, PWA, WebApp, app, page, main,
+">
+
+<link rel="alternate" type="application/rss+xml" title="Irvirty News" href="/rss.xml">
+<link rel="alternate" type="application/rss+xml" title="Irvirty Microblog" href="/rss2.xml">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<meta name="color-scheme" content="light dark">
+<!--<meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">-->
+
+<link rel="icon" sizes="512x512" href="../../img/logo.png" type="image/png">
+<link rel="shortcut icon" href="../../favicon.ico" type="image/x-icon">
+
+
+<!-- main -->
+<link rel="preload" href="../../js/main.js" as="script">
+
+<link rel="preload" href="../../css/main.css" as="style">
+<link rel="stylesheet" href="../../css/main.css" type="text/css">
+<link rel="preload" href="../../css/auto.css" as="style">
+<link rel="stylesheet" type="text/css" href="../../css/auto.css" id="theme">
+
+<link rel="preload" href="../../css/style.css" as="style">
+<link rel="stylesheet" href="../../css/style.css" type="text/css">
+
+<noscript>
+<link rel="stylesheet" type="text/css" href="../../css/noscript.css">
+</noscript>
+<!-- // main -->
+
+<link rel="preload" href="../../js/script.js" as="script">
+
+
+</head>
+<body>
+
+
+
+<!-- Navigation HTML v.1.0.1 -->
+<header>
+<div class="wrapper3">
+<div class="margin"></div>
+
+<div id="topNav" class="topNav">
+<nav>
+
+<!-- /* Skip navigation: .screenReader (in main.css) + id="content" */ -->
+<a class="screenReader inlineBlock padding brand" tabindex="0" href="#content">Skip navigation</a>
+<a class="inlineBlock padding" style="padding-left: 0;" tabindex="0" href="../../" title="index / nav 1"><img class="logo2 reduceLight" src="../../img/logo.png" alt="logo" style="max-width: 26px;"></a> 
+
+<span id="navMenu" class="navMenu">
+<!-- links in nav -->
+<a class="inlineBlock padding brand empty" tabindex="0" href="../../all/" title="All pages">All</a>
+<a class="active2 navMenuActive inlineBlock padding empty" tabindex="0" href="../../pages/" title="Main pages">Pages</a>
+<a class="inlineBlock padding brand empty" tabindex="0" href="../../games/" title="Games">Games</a>
+<a class="inlineBlock padding brand empty" tabindex="0" href="../../projects/" title="JavaScript projects">Projects</a>
+<a class="inlineBlock padding brand empty" tabindex="0" href="../../mini-projects/" title="HTML and CSS projects">Mini projects</a>
+<a class="inlineBlock padding brand empty" tabindex="0" href="../../pages/about/" title="About page">About</a>
+<!-- // links in nav -->
+</span>
+
+<div class="dropdownMenuContentWrapper navMenu2">
+<div class="dropdownMenuContent">
+
+<a id="dropdownMenuButton" class="dropdownMenuButton inlineBlock padding mClassNavUp brand borderBottomTransparent" tabindex="0" href="#" onclick="fuMDropdownButton();return false;">☰ Menu</a>
+
+<div id="dropdownMenu" class="dropdownMenu">
+<div class="dropdownMenuColumn shadow bg2 padding2 borderRadius2">
+<!-- links for show in dropdown (duplicate) -->
+<a class="inlineBlock padding brand empty" tabindex="0" href="../../all/" title="All pages">All</a>
+<a class="active2 navMenuActive inlineBlock padding empty" tabindex="0" href="../../pages/" title="Main pages">Pages</a>
+<a class="inlineBlock padding brand empty" tabindex="0" href="../../games/" title="Games">Games</a>
+<a class="inlineBlock padding brand empty" tabindex="0" href="../../projects/" title="JavaScript projects">Projects</a>
+<a class="inlineBlock padding brand empty" tabindex="0" href="../../mini-projects/" title="HTML and CSS projects">Mini projects</a>
+<a class="inlineBlock padding brand empty" tabindex="0" href="../../pages/about/" title="About page">About</a>
+<!-- // links for show in dropdown (duplicate) -->
+<hr>
+<a class="noscriptHide block w100 tCenter padding small gray" href="#" onclick="fuMDropdownButtonClose();return false;" title="Close menu">Close</a>
+</div>
+</div>
+
+</div>
+</div>
+
+<!--<a class="inlineBlock padding mClassNavUp brand borderBottomTransparent" tabindex="0" href="../" title="../ (Up)">List (up)</a>-->
+
+<form class="noscriptHide inlineBlock padding" style="padding-right: 0;" method="GET" action="../../site-search/" role="search">
+<!--<label for="siteSearch" class="xSmall op">search:</label>-->
+<input id="siteSearch" class="borderRadius3" type="search" placeholder="site search" name="q" autocomplete="off">
+</form>
+
+</nav>
+</div>
+
+</div>
+</header>
+<!-- // Navigation HTML -->
+
+<!--<hr>-->
+
+
+
+<!-- content -->
+<main id="content" class="contentCenter">
+<div class="wrapperL">
+
+
+
+<h1 class="tCenter op padding2 insertIconTitle">Install Website (PWA)</h1>
+<div class="block tCenter small">(PWA v.1.2.2025.10)</div>
+<div class="block padding2 margin2"></div>
+<div><b class="red">!Note:</b> Before installing, hide file extensions in <a class="inlineBlock padding brand bold" href="../../pages/settings/#confHideLinkExt">Settings</a> to fix 404 error.</div>
+<div class="block padding3 margin3"></div>
+
+
+
+
+
+<div class="wrapperL tCenter">
+
+<button class="post padding2 margin2 borderList" onclick="startInstallPWA()"><span class="bold">Start Install (29,22 MB) - 1 first step</span>
+
+<span class="small block padding2">registration sw.js (service worker) and adding files to the cache.</span></button>
+
+<div id="startInstallStatus" class="post padding2 margin2 borderList"></div>
+<button class="add-button post padding2 margin2 borderList bold green" onclick="startInstallPWA()">Install (29,22 MB) - 2. second step</button>
+
+
+
+<div class="block padding2 margin2"></div>
+<button class="post padding2 margin2 borderList" onclick="startUnregisterSW()">Unregister SW (serviceWorker)</button>
+<div id="unregisterStatus" class="post padding2 margin2 borderList"></div>
+
+<div class="block padding3 margin3"></div>
+
+
+
+</div>
+
+
+
+
+
+
+<script>
+// v.1.0.1
+// reg worker
+
+
+
+function startUnregisterSW(){
+//confirm("Are you sure?"); // true, false
+
+//https://developer.mozilla.org/en-US/docs/Web/API/ServiceWorkerRegistration/unregister
+if ("serviceWorker" in navigator) {
+  navigator.serviceWorker
+    .register("/sw.js", { scope: "/" })
+    .then((registration) => {
+      // registration worked
+      console.log("Registration succeeded.");
+document.getElementById("unregisterStatus").innerHTML = "Registration succeeded.";
+      registration.unregister().then((boolean) => {
+        // if boolean = true, unregister is successful
+if(boolean == true){
+document.getElementById("unregisterStatus").innerHTML = `unregister is successful ` + boolean;
+console.log(`unregister is successful ` + boolean);
+}else{
+document.getElementById("unregisterStatus").innerHTML = `unregister status: ` + boolean;
+console.log(`unregister status: ` + boolean);
+}
+      });
+    })
+    .catch((error) => {
+      // registration failed
+      console.error(`Registration failed with ` + error);
+document.getElementById("unregisterStatus").innerHTML = `Registration for unregister failed with error: ` + error;
+    });
+}
+}
+
+
+
+// insert manifest in header
+let element = document.createElement('link'); 
+element.setAttribute('rel', 'manifest'); 
+element.setAttribute('href', "/manifest.webmanifest");
+//element.crossOrigin = 'anonymous';
+element.crossOrigin = 'use-credentials';
+document.querySelector('head').appendChild(element);
+
+
+
+function startInstallPWA(){
+
+//https://github.com/mdn/pwa-examples
+
+// Register service worker to control making site work offline
+
+if ('serviceWorker' in navigator) {
+  navigator.serviceWorker
+    .register('/sw.js', { scope: "/"} )
+.then((registration) => {
+console.log('Service Worker Registered'); 
+document.getElementById("startInstallStatus").innerHTML = `Service Worker Registered`;
+
+registration.addEventListener("updatefound", () => {
+        // If updatefound is fired, it means that there's
+        // a new service worker being installed.
+        const installingWorker = registration.installing;
+        console.log(
+          "A new service worker is being installed:",
+          installingWorker,
+        );
+document.getElementById("startInstallStatus").innerHTML = `A new service worker is being installed: installingWorker`;
+
+
+        // You can listen for changes to the installing service worker's
+        // state via installingWorker.onstatechange
+});
+
+/*//message to worker
+//https://developer.mozilla.org/en-US/docs/Web/API/ServiceWorkerGlobalScope/message_event
+navigator.serviceWorker.addEventListener("message", (event) => {
+    // event is a MessageEvent object
+    console.log(`The service worker sent me a message: ` + event.data);
+  });
+
+  navigator.serviceWorker.ready.then((registration) => {
+    registration.active.postMessage('Hi serviceWorker!');
+  });*/
+})
+.catch((error) => {
+      // registration failed
+      console.error(`Registration failed with` + error);
+document.getElementById("startInstallStatus").innerHTML = `Registration failed with` + error;
+    });   
+
+
+async function registerPeriodicSync() {
+  const swRegistration = await navigator.serviceWorker.ready;
+  swRegistration.periodicSync.register("update", {
+    // try to update every 24 hours
+    minInterval: 24 * 60 * 60 * 1000,
+  });
+}
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+//https://stackoverflow.com/questions/58985103/progressive-web-app-not-showing-install-button-in-browser-bar
+// Code to handle install prompt on desktop
+
+let deferredPrompt;
+const addBtn = document.querySelector('.add-button');
+addBtn.style.display = 'none';
+
+window.addEventListener('beforeinstallprompt', (e) => {
+  // Prevent Chrome 67 and earlier from automatically showing the prompt
+  e.preventDefault();
+  // Stash the event so it can be triggered later.
+  deferredPrompt = e;
+  // Update UI to notify the user they can add to home screen
+addBtn.style.display = 'block';
+
+
+  addBtn.addEventListener('click', () => {
+    // hide our user interface that shows our A2HS button
+    addBtn.style.display = 'none';
+    // Show the prompt
+    deferredPrompt.prompt();
+    // Wait for the user to respond to the prompt
+    deferredPrompt.userChoice.then((choiceResult) => {
+      if (choiceResult.outcome === 'accepted') {
+        console.log('User accepted the A2HS prompt');
+     } else {
+        console.log('User dismissed the A2HS prompt');
+      }
+      deferredPrompt = null;
+    });
+  });
+});
+
+</script>
+
+
+
+
+
+</div>
+</main>
+<!-- // content -->
+
+<div class="wrapper3">
+<footer id="footer"></footer>
+</div>
+
+<script>
+var confD = "../../";
+</script>
+<script src="../../js/main.js"></script>
+<script src="../../js/script.js"></script>
+
+
+
+</body>
+</html>
+

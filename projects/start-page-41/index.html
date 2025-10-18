@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Start Page</title>
+
+<meta name="description" content="
+Start page, home page, new tab page. Timer in tab. Tab timer.
+
+">
+<meta name="keywords" content="
+Timer, NewTabPage, StartPage, home, homepage, start, page, tab, NewTab, StartPage,
+CSS, JavaScript, project,
+">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="icon" sizes="512x512" href="../../img/logo.png" type="image/png">
+<link rel="shortcut icon" href="../../favicon.ico" type="image/x-icon">
+
+<!-- main -->
+<link rel="preload" href="../../js/main.js" as="script">
+
+<link rel="preload" href="../../css/main.css" as="style">
+<link rel="stylesheet" href="../../css/main.css" type="text/css">
+<link rel="preload" href="../../css/auto.css" as="style">
+<link rel="stylesheet" type="text/css" href="../../css/auto.css" id="theme">
+
+<link rel="preload" href="../../css/style.css" as="style">
+<link rel="stylesheet" href="../../css/style.css" type="text/css">
+
+<noscript>
+<link rel="stylesheet" type="text/css" href="../../css/noscript.css">
+</noscript>
+<!-- // main -->
+
+<link rel="preload" href="script.js" as="script"> 
+
+<link rel="preload" href="style.css" as="style">
+<link rel="stylesheet" href="style.css" type="text/css">
+
+</head>
+<body>
+
+<div id="secondNav">
+<header class="tCenter">
+<div class="margin2"></div>
+<nav>
+<a class="inlineBlock padding brand" style="padding-left: 0;" href="/">index</a>
+<a class="inlineBlock padding brand" style="padding-right: 0;" href="../">list</a>
+</nav>
+</header>
+</div>
+
+<div id="topHeader">
+<!--<h1 class="tCenter op medium normal insertIconTitle">Start Page</h1>-->
+<!--<div class="tCenter padding2 small op">in progress</div>-->
+
+<div class="wrapper">
+<div class="headerBannerImg reduceLight">
+<img src="../../img/header-banner.png" alt="header banner">
+</div>
+</div>
+
+<div class="wrapper" style="position: relative; z-index: 2;">
+<div class="padding2 tRight">
+<span id="clock" class="h1 bold bg"></span>
+
+<div class="margin"></div>
+
+<div>
+<span class="small bold bg" style="padding-left: 0;"><span id="clock2"></span></span>
+<span class="inlineBlock padding gray" style="padding-top: 0; padding-bottom: 0;">|</span>
+<span class="bold small bg" style="padding-right: 0;"><span class="gray">UTC:</span> <span id="clockUtc"></span></span>
+<div class="margin"></div>
+<span id="urlDayNow" class="op orange bold small light2" style="padding: 3px;"></span>
+</div>
+
+<div id="audio"></div>
+</div>
+</div>
+</div>
+
+<!-- content -->
+<div id="content"></div>
+<main id="searchPage" class="content">
+
+<div class="wrapper">
+
+<form id="form" method="GET" style="margin-top: 0px;" action="../../search/" autocomplete="off" role="search">
+
+<label id="search" class="op block tLeft xSmall padding1PxList" for="q"><span class="bold orange">✪</span> Search (redirect, random):</label>
+<input id="q" class="borderRadius" aria-labelledby="search" type="search" name="q" autofocus="autofocus" placeholder="" autocomplete="off" spellcheck="true">
+
+<!--<div style="display: grid; grid-template-columns: 1fr 1fr; grid-gap: 2px;">-->
+<div class="threeColumn">
+<!--<input class="smaller op tCenter submit borderRadius" type="submit" value="Search" title="Random search engine">-->
+<button class="smaller op tCenter submit borderRadius" type="submit" title="Random search engine, text q">Search</button>
+<!--https://stackoverflow.com/questions/4171664/html-submit-button-different-value-button-text#-->
+<button class="smaller op tCenter submit borderRadius" name="q2" value="ai" type="submit" title="AI Mode, text ai">AI</button>
+<button class="smaller op tCenter submit borderRadius" name="q2" value="l" type="submit" title="First search result, text l">I'm Feeling Lucky</button>
+<!--<input  class="smaller op tCenter" type="submit" name="q2" value="l">-->
+</div>
+
+</form>
+
+</div>
+
+<div class="wrapper">
+
+<div class="padding3 margin3"></div>
+
+<div id="speedDialPrint"></div>
+
+
+</div>
+
+</main>
+<!-- // content -->
+
+
+<footer id="footer"></footer>
+
+<script>
+var confD = "../../";
+</script>
+<script src="../../js/main.js"></script>
+<script src="../../js/script.js"></script>
+
+<script src="script.js"></script>
+
+<!--<script src="../../projects/redirects-25/script.js"></script>-->
+
+</body>
+</html>

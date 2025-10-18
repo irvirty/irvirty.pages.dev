@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Ukrainian transliteration</title>
+
+<meta name="description" content="
+Ukrainian transliteration. Cyrillic transliteration using JavaScript.
+">
+<meta name="keywords" content="
+Experimental,
+transliteration, text, tool, tools,
+translit,
+JavaScript, project,
+">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="icon" sizes="512x512" href="../../img/logo.png" type="image/png">
+<link rel="shortcut icon" href="../../favicon.ico" type="image/x-icon">
+
+<!-- main -->
+<link rel="preload" href="../../js/main.js" as="script">
+
+<link rel="preload" href="../../css/main.css" as="style">
+<link rel="stylesheet" href="../../css/main.css" type="text/css">
+<link rel="preload" href="../../css/auto.css" as="style">
+<link rel="stylesheet" type="text/css" href="../../css/auto.css" id="theme">
+
+<link rel="preload" href="../../css/style.css" as="style">
+<link rel="stylesheet" href="../../css/style.css" type="text/css">
+
+<noscript>
+<link rel="stylesheet" type="text/css" href="../../css/noscript.css">
+</noscript>
+<!-- // main -->
+
+<link rel="preload" href="script.js" as="script"> 
+
+<link rel="preload" href="style.css" as="style">
+<link rel="stylesheet" href="style.css" type="text/css">
+
+</head>
+<body>
+
+<div id="secondNav">
+<header class="tCenter">
+<div class="margin2"></div>
+<nav>
+<a class="inlineBlock padding brand" style="padding-left: 0;" href="/">index</a>
+<a class="inlineBlock padding brand" style="padding-right: 0;" href="../">list</a>
+</nav>
+</header>
+</div>
+
+<h1 class="tCenter op insertIconTitle">Ukrainian transliteration</h1>
+<div class="tCenter margin4List small op">Experimental</div>
+
+<main id="content" class="contentCenter">
+<div class="wrapper2">
+
+<div id="all" class="padding3 light2 border height" style="margin: 2em auto;">
+
+
+
+
+<textarea rows="5" id="textareaPrint" class="result"  name="textareaPrint" placeholder=" input"></textarea>
+
+
+
+
+<form action="index.html" style="width: 100%;">
+
+<!--<div id="result" class="result pre scroll"></div>-->
+
+<textarea rows="5" id="text" class="result"  name="q" placeholder=" input" autofocus="autofocus"></textarea>
+<input class="op xSmall submit" type="submit">
+</form>
+
+</div>
+
+
+
+</div>
+</div>
+
+
+</main>
+
+<footer id="footer"></footer>
+
+<script>
+var confD = "../../";
+</script>
+<script src="../../js/main.js"></script>
+
+<script src="script.js"></script>
+
+<script>
+document.getElementById('text').value = '';
+var task = '';
+var geturl = window.location;
+var url = new URL(geturl);
+var q = url.searchParams.get("q");
+
+/*if(q != null){ localStorage.setItem("qtranslit", q); q = q; }else{
+if(localStorage.getItem("qtranslit")){ q = localStorage.getItem("qtranslit"); }
+}*/
+
+//q = decodeURI(q);
+
+if(q != "null"){
+
+document.getElementById("textareaPrint").value = (transliterate(q));
+
+if(document.querySelectorAll('textarea').length >= 1){
+document.querySelectorAll('textarea')[1].value = q;
+}
+
+}
+
+
+// input listener and print result
+if(document.querySelectorAll('textarea').length >= 1){
+var inputA = document.querySelectorAll('textarea')[1];
+inputA.addEventListener('input', updateValueInput);
+}
+
+function updateValueInput(e) {
+//q = encodeURIComponent(e.target.value);
+q = e.target.value;
+document.getElementById("textareaPrint").value = (transliterate(q));
+//document.getElementById("scrollTo").scrollIntoView(true);
+
+}
+
+</script>
+
+
+
+
+
+
+</body>
+</html>

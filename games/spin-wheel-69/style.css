@@ -1,0 +1,97 @@
+/* v.1.1.2 */
+
+:root {
+--spinWidth: 320px;
+}
+
+.spinWheel {
+
+background: var(--l);
+display: flex;
+align-items: center;
+align-self: center;
+text-align: center;
+width: var(--spinWidth);
+aspect-ratio: 1 / 1;
+max-width: calc(100% - 50px);
+border-radius: 50%;
+
+margin: 0 auto;
+
+position: relative;
+}
+
+
+
+
+.spinStart {
+position: absolute;
+
+left: calc(50% - 35px);
+width: 70px;
+height: 70px;
+
+align-items: center;
+align-self: center;
+text-align: center;
+
+border-radius: 50%;
+}
+
+/*
+@keyframes spin {
+from { transform: rotate(0deg); }
+to { transform: rotate(360deg); }
+}
+*/
+
+
+.spinNumber {
+position: absolute;
+display: flex;
+left: 0;
+width: 100%;
+height: calc(var(--spinWidth) / 4);
+border: 1px solid var(--d);
+
+align-items: center;
+align-self: center;
+text-align: center;
+
+padding-right: calc(50% + 50px);
+
+font-size: large;
+font-weight: bold;
+padding: 9px;
+}
+
+.spinArrow {
+position: relative;
+display: block;
+left: calc(50% - (var(--spinWidth) / 2) - 50px);
+top: calc(var(--spinWidth) / 2 + 20px);
+width: 55px;
+
+align-items: center;
+align-self: center;
+text-align: right;
+
+padding: 10px;
+z-index: 2;
+}
+
+@media(max-width: 370px) {
+.spinArrow { display: none; }
+}
+
+@media(max-width: 300px) {
+.spinNumber { font-size: small; }
+.spinStart {
+font-size: x-small;
+}
+}
+
+
+@media(max-width: 200px) {
+.spinNumber { font-size: small; }
+}

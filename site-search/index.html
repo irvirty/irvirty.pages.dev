@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<meta charset="UTF-8">
+<title>Site Search</title>
+
+<meta name="description" content="Site search, main pages and more.">
+<meta name="keywords" content="site, search, page, main,">
+
+<link rel="alternate" type="application/rss+xml" title="Irvirty News" href="/rss.xml">
+<link rel="alternate" type="application/rss+xml" title="Irvirty Microblog" href="/rss2.xml">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<meta name="color-scheme" content="light dark">
+<!--<meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">-->
+
+<link rel="icon" sizes="512x512" href="../img/logo.png" type="image/png">
+<link rel="shortcut icon" href="../favicon.ico" type="image/x-icon">
+
+
+<!-- main -->
+<link rel="preload" href="../js/main.js" as="script">
+
+<link rel="preload" href="../css/main.css" as="style">
+<link rel="stylesheet" href="../css/main.css" type="text/css">
+<link rel="preload" href="../css/auto.css" as="style">
+<link rel="stylesheet" type="text/css" href="../css/auto.css" id="theme">
+
+<link rel="preload" href="../css/style.css" as="style">
+<link rel="stylesheet" href="../css/style.css" type="text/css">
+
+<noscript>
+<link rel="stylesheet" type="text/css" href="../css/noscript.css">
+</noscript>
+<!-- // main -->
+
+<link rel="preload" href="../js/script.js" as="script">
+
+
+<link rel="preload" href="style.css" as="style">
+<link rel="stylesheet" href="style.css" type="text/css">
+
+<link rel="preload" href="../projects/keep-1/script.js" as="script"> 
+
+</head>
+<body>
+
+
+
+<!-- Navigation HTML v.1.0.1 -->
+<header>
+<div class="wrapper3">
+<div class="margin"></div>
+
+<div id="topNav" class="topNav">
+<nav>
+
+<!-- /* Skip navigation: .screenReader (in main.css) + id="content" */ -->
+<a class="screenReader inlineBlock padding brand" tabindex="0" href="#content">Skip navigation</a>
+<a class="inlineBlock padding" style="padding-left: 0;" tabindex="0" href="../" title="index / nav 1"><img class="logo2 reduceLight" src="../img/logo.png" alt="logo" style="max-width: 26px;"></a> 
+
+<span id="navMenu" class="navMenu">
+<!-- links in nav -->
+<a class="inlineBlock padding brand empty" tabindex="0" href="../all/" title="All pages">All</a>
+<a class="inlineBlock padding brand empty" tabindex="0" href="../pages/" title="Main pages">Pages</a>
+<a class="inlineBlock padding brand empty" tabindex="0" href="../games/" title="Games">Games</a>
+<a class="inlineBlock padding brand empty" tabindex="0" href="../projects/" title="JavaScript projects">Projects</a>
+<a class="inlineBlock padding brand empty" tabindex="0" href="../mini-projects/" title="HTML and CSS projects">Mini projects</a>
+<a class="inlineBlock padding brand empty" tabindex="0" href="../pages/about/" title="About page">About</a>
+<!-- // links in nav -->
+</span>
+
+<div class="dropdownMenuContentWrapper navMenu2">
+<div class="dropdownMenuContent">
+
+<a id="dropdownMenuButton" class="dropdownMenuButton inlineBlock padding mClassNavUp brand borderBottomTransparent" tabindex="0" href="#" onclick="fuMDropdownButton();return false;">☰ Menu</a>
+
+<div id="dropdownMenu" class="dropdownMenu">
+<div class="dropdownMenuColumn shadow bg2 padding2 borderRadius2">
+<!-- links for show in dropdown (duplicate) -->
+<a class="inlineBlock padding brand empty" tabindex="0" href="../all/" title="All pages">All</a>
+<a class="inlineBlock padding brand empty" tabindex="0" href="../pages/" title="Main pages">Pages</a>
+<a class="inlineBlock padding brand empty" tabindex="0" href="../games/" title="Games">Games</a>
+<a class="inlineBlock padding brand empty" tabindex="0" href="../projects/" title="JavaScript projects">Projects</a>
+<a class="inlineBlock padding brand empty" tabindex="0" href="../mini-projects/" title="HTML and CSS projects">Mini projects</a>
+<a class="inlineBlock padding brand empty" tabindex="0" href="../pages/about/" title="About page">About</a>
+<!-- // links for show in dropdown (duplicate) -->
+<hr>
+<a class="noscriptHide block w100 tCenter padding small gray" href="#" onclick="fuMDropdownButtonClose();return false;" title="Close menu">Close</a>
+</div>
+</div>
+
+</div>
+</div>
+
+<!--<a class="inlineBlock padding mClassNavUp brand borderBottomTransparent" tabindex="0" href="../" title="../ (Up)">List (up)</a>-->
+
+<form class="noscriptHide inlineBlock padding" style="padding-right: 0;" method="GET" action="../site-search/" role="search">
+<!--<label for="siteSearch" class="xSmall op">search:</label>-->
+<input id="siteSearch" class="borderRadius3" type="search" placeholder="site search" name="q" autocomplete="off">
+</form>
+
+</nav>
+</div>
+
+</div>
+</header>
+<!-- // Navigation HTML -->
+
+<!--<hr>-->
+
+
+
+<!-- content -->
+<div id="content"></div>
+<main id="searchPage" class="content">
+
+<div id="topHeader">
+<h1 class="block tCenter op insertIconTitle">Site Search</h1>
+</div>
+
+<div class="wrapper">
+
+<noscript>
+<a class="blue" href="https://google.com/">Google</a><br>
+<!--<a href="https://bing.com/">Bing</a><br>-->
+</noscript>
+
+<div class="noscriptHide">
+
+<form id="form" method="GET" class="block" action="./" style="margin:0 auto;" role="search">
+
+<label id="search" class="op block tLeft xSmall padding1PxList" for="q"><span class="bold orange">✪</span> Search:</label>
+<input id="q" class="borderRadius" aria-labelledby="search" type="search" name="q" autofocus="autofocus" placeholder="" autocomplete="off" spellcheck="true">
+
+<div style="display: grid; grid-template-columns: 1fr 1fr; grid-gap: 2px;">
+<input class="smaller op tCenter submit borderRadius" type="submit" value="Search" title="Search">
+<!--https://stackoverflow.com/questions/4171664/html-submit-button-different-value-button-text#-->
+<button class="smaller op tCenter submit borderRadius" name="q2" value="l" type="submit" title="First search result">I'm Feeling Lucky</button>
+<!--<input  class="smaller op tCenter" type="submit" name="q2" value="l">-->
+</div>
+
+</form>
+</div>
+
+<div class="margin"></div>
+
+<div id="modeList" class="notUnderline autoColumn"></div><hr>
+
+</div>
+
+
+
+
+<script src="../data/sitemapJsonVar.js"></script>
+<script src="../data/linksJsonVar.js"></script>
+<script src="../data/newsJsonVar.js"></script>
+<script src="../data/microblogJsonVar.js"></script>
+<script src="../data/blogJsonVar.js"></script>
+<script src="../data/wikiJsonVar.js"></script>
+<script src="../data/notesJsonVar.js"></script>
+
+<script>
+
+var data = [];
+
+let confSpeedDialDataArr2 = localStorage.getItem("confSpeedDialData");
+if (confSpeedDialDataArr2 != null){
+confSpeedDialDataArr2 = JSON.parse(confSpeedDialDataArr2);
+data = data.concat(confSpeedDialDataArr2);
+}
+
+
+
+data = data.concat(sitemapJsonVar, linksJsonVar, newsJsonVar, microblogJsonVar, blogJsonVar, wikiJsonVar, notesJsonVar);
+//data = [...sitemapJsonVar, ...linksJsonVar, newsJsonVar, ...microblogJsonVar, ...blogJsonVar, ...wikiJsonVar, ...notesJsonVar,];
+
+
+
+
+</script>
+
+<div id="printKeep"></div>
+
+
+
+</main>
+<!-- // content -->
+
+
+<div class="wrapper3">
+<footer id="footer"></footer>
+</div>
+
+<script>
+var confD = "../";
+</script>
+<script src="../js/main.js"></script>
+<script src="../js/script.js"></script>
+
+
+<script>
+
+// hide top header if mobile
+if (conf["confDevice"] == 'mobile'){
+var getclick2 = document.getElementById('form');
+if (getclick2 != null){
+document.addEventListener('click', function(event) {
+if (getclick2.contains(event.target)) {
+
+if (document.getElementById('topHeader') != null){
+document.getElementById( 'topHeader' ).style.display = 'none';
+}
+if (document.getElementById('topNav') != null){
+document.getElementById( 'topNav' ).style.display = 'none';
+}
+
+} else {
+
+if (document.getElementById('topHeader') != null){
+document.getElementById( 'topHeader' ).style.display = 'block';
+}
+if (document.getElementById('topNav') != null){
+document.getElementById( 'topNav' ).style.display = 'block';
+}
+
+}
+});
+}
+}
+
+</script>
+
+<script>
+let getUrl55 = window.location;
+let url55 = new URL(getUrl55);
+let q55 = url55.searchParams.get("q");
+let q55PrintUrl = encodeURIComponent(q55);
+let q55Tag = url55.searchParams.get("tag");
+let q55TagPrintUrl = encodeURIComponent(q55Tag);
+let mode55 = url55.searchParams.get("dmode");
+let dataMode = mode55;
+let dMode = mode55;
+
+
+if (dataMode == null){ dataMode = "all"; mode55 = "all"; dMode = "all"; }
+
+//https://stackoverflow.com/questions/1000795/create-a-hidden-field-in-javascript
+var input = document.createElement("input");
+input.setAttribute("type", "hidden");
+input.setAttribute("name", "dmode");
+input.setAttribute("value", dataMode);
+//append to form element that you want .
+document.getElementById("form").appendChild(input);
+
+
+if (q55PrintUrl == null||q55PrintUrl == "null"||q55PrintUrl == ""){
+q55PrintUrl = "";
+} else {
+q55PrintUrl = "q=" + q55PrintUrl;
+}
+
+if (q55TagPrintUrl == null||q55TagPrintUrl == "null"||q55TagPrintUrl == ""){
+//q55PrintUrl = "";
+} else {
+q55PrintUrl = "q=" + q55TagPrintUrl;
+}
+
+let lModeList = "all sitemap links news microblog blog wiki notes";
+let lModeListArr = fuMSplit(lModeList);
+
+
+// print 1
+lPrint = "";
+lModeListArr.forEach((val, index) => {
+//console.log(val + "=" + index);
+if (mode55 == val){
+lPrint += `<a class="op autoColumnItem keepTag2 border light2 borderRadius2 active2 borderBottomBrand" href="?` + q55PrintUrl + `&dmode=` + val + `">`+ val + `</a> `;
+} else {
+lPrint += `<a class="op autoColumnItem keepTag2 border light2 borderRadius2" href="?` + q55PrintUrl + `&dmode=` + val + `">`+ val + `</a> `;
+}
+});
+document.getElementById("modeList").innerHTML = lPrint;
+
+
+
+function updateValue(e) {
+
+//log.textContent = e.target.value;
+q55PrintURl = e.target.value;
+q55PrintURl = "q=" + encodeURIComponent(q55PrintURl);
+
+
+// print 2
+lPrint = "";
+lModeListArr.forEach((val, index) => {
+//console.log(val + "=" + index);
+if (mode55 == val){
+lPrint += `<a class="op autoColumnItem keepTag2 border light2 borderRadius2 borderBottomBrand" href="?` + q55PrintURl + `&dmode=` + val + `">`+ val + `</a> `;
+} else {
+lPrint += `<a class="op autoColumnItem keepTag2 border light2 borderRadius2" href="?` + q55PrintURl + `&dmode=` + val + `">`+ val + `</a> `;
+}
+});
+document.getElementById("modeList").innerHTML = lPrint;
+
+}
+
+
+if (document.getElementById("q") != null){
+const input = document.getElementById("q");
+input.addEventListener("input", updateValue);
+}
+
+</script>
+
+
+<script src="../projects/keep-1/script.js"></script>
+
+<script>
+
+var geturl33 = window.location;
+var url33 = new URL(geturl33);
+var q33 = url33.searchParams.get("q");
+
+if(document.getElementById('q') != null&&q33 != ""&&q33 != null&&q33 != "null"){
+document.getElementById('q').value = q33;
+}
+
+
+var q33Tag = url33.searchParams.get("tag");
+
+if(document.getElementById('q') != null&&q33Tag != ""&q33Tag != null){
+document.getElementById('q').value = "#" + q33Tag;
+}
+
+</script>
+
+
+
+
+<style>
+.keepContent .pre { font-size: 1em; /*text-transform: capitalize;*/ }
+.keepContent .pre a { text-transform: none; }
+</style>
+
+<script>
+// fresh config in script.js
+
+let keepConfig = {
+"postLimit":"10", // number
+"embedStatus":"semi", // off
+"multiEmbedStatus":"", // on
+"tagListStatus":"", // off
+"tagListLimit":"", // number
+"targetOption":"", // blank
+"bottomMsg":`
+
+<div class="small tRight op">
+<details>
+<summary class="op pointer xSmall">Note:</summary>
+<span class="pre">Search in: site map, links, blog.
+"text l", l - I'm Feeling Lucky: the first page from search results.
+"text r", r - a random page from the search results.</span>
+</details>
+
+`, // text
+"display":"all", // grid
+"timeStatus":"off", // off
+"rightFooterStatus":"on", // on, off, right footer in data
+"usernameStatus":"off", // on, off
+};
+</script>
+
+
+
+<script>
+//https://stackoverflow.com/questions/724857/how-to-find-javascript-variable-by-its-name
+if (dataMode != "all"&&dataMode != null&&dataMode != "null"&&dataMode != undefined&&dataMode != ""){
+dataMode = window[dataMode + 'JsonVar'];
+keep("printKeep", dataMode, 'wrapper', './', keepConfig);
+} else {
+keep("printKeep", data, 'wrapper', './', keepConfig);
+}
+</script>
+
+
+
+
+
+
+
+</body>
+</html>
+
+

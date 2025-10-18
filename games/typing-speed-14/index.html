@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Typing speed</title>
+
+<meta name="description" content="
+A typing speed test, typing speed game or keyboard trainer. Typing test.
+Modes: quotes, book, wiki, own text input.
+WPM means Words Per Minute.
+">
+<meta name="keywords" content="
+test, tool, tools,
+game, typing, speed, trainer, WPM,
+CSS, JavaScript, project,
+">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="icon" sizes="512x512" href="../../img/logo.png" type="image/png">
+<link rel="shortcut icon" href="../../favicon.ico" type="image/x-icon">
+
+<!-- main -->
+<link rel="preload" href="../../js/main.js" as="script">
+
+<link rel="preload" href="../../css/main.css" as="style">
+<link rel="stylesheet" href="../../css/main.css" type="text/css">
+<link rel="preload" href="../../css/light.css" as="style">
+<link rel="stylesheet" type="text/css" href="../../css/light.css" id="theme">
+
+<link rel="preload" href="../../css/style.css" as="style">
+<link rel="stylesheet" href="../../css/style.css" type="text/css">
+
+<noscript>
+<link rel="stylesheet" type="text/css" href="../../css/noscript.css">
+</noscript>
+<!-- end main -->
+
+<link rel="preload" href="script.js" as="script"> 
+
+<link rel="preload" href="style.css" as="style">
+<link rel="stylesheet" href="style.css" type="text/css">
+
+<link rel="preload" href="../../data/quoteJsonVar.js" as="script">
+<!--<link rel="preload" href="../../data/bookJsonVar.js" as="script">-->
+
+</head>
+<body>
+
+<div id="secondNav">
+<header class="tCenter">
+<div class="margin2"></div>
+<nav>
+<a class="inlineBlock padding brand" style="padding-left: 0;" href="/">index</a>
+<a class="inlineBlock padding brand" style="padding-right: 0;" href="../">list</a>
+</nav>
+</header>
+</div>
+
+<h1 class="tCenter op insertIconTitle large">Typing speed</h1>
+
+<div id="content"></div>
+<main id="typingPage" class="contentCenter notUnderline">
+<div class="wrapper2">
+
+
+<div id="win" class="win"></div>
+
+<div>
+<div id="statTopWpm" class="orange">0</div>
+</div>
+
+<div class="padding2 border bg2 height borderRadius2">
+
+<div id="result" class="result scroll pre"></div>
+<div id="lPrintTr" class="scroll"></div>
+
+<div id="win2" class="win" style="text-align: center;"></div>
+
+<form id="typingForm">
+<textarea rows="2" id="text" class="pre borderRadius" name="input2" placeholder="input" autofocus="autofocus"></textarea>
+</form>
+
+<div class="padding2"></div>
+<span class="op"><progress id="typeProgress" class="op" value="0" max="100"></progress></span>
+<div class="gridStat">
+<div id="countSymbolTask" class="op">countSymbol</div>
+<div id="stat" class="op">stat</div>
+</div>
+
+<br>
+
+
+
+
+
+<div style="text-align: left;" class="brand small">
+
+
+
+<span class="small">
+<span id="mode" class="notUnderline"></span>
+<span id="mode2" class="notUnderline"></span>
+</span>
+
+</div>
+
+
+</div>
+
+
+<span id="topWords"></span>
+
+
+<div class="input"></div>
+<div id="sound"></div>
+
+<div class="msg2" id="msg2"></div>
+
+</div>
+</main>
+
+
+
+<footer id="footer"></footer>
+<script src="../../data/quoteJsonVar.js"></script>
+<!--<script src="../../data/bookJsonVar.js"></script>-->
+
+<script>
+//var fuMComVar = "footer off";
+</script>
+
+<script>
+var confD = "../../";
+</script>
+<script src="../../js/main.js"></script>
+<script src="script.js"></script>
+
+</body>
+</html>
