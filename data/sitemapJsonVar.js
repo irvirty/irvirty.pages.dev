@@ -1,12 +1,5 @@
 var sitemapJsonVar = [
     {
-        "text": "\n\n | googlebbaafeebecb: ",
-        "url": "\/googlebb934aafeeb1ecb6.html",
-        "tag": " #googlebbaafeebecb",
-        "id": "ddfd38af0807ae54804c3abb522ae1d8",
-        "time": "id"
-    },
-    {
         "text": "AGI countdown timer\n\nAGI Countdown timer. An attempt to predict when general artificial intelligence will be created. Research or explore. (Human-level AI). | agi countdown: ",
         "url": "\/projects\/agi-countdown-59\/index.html",
         "tag": " #experimental #research #explore #AGI #AI #JavaScript #project",
