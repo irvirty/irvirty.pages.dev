@@ -9,9 +9,10 @@ if (config == "full"){ localStorage.setItem("rainDropConfig", "full"); fuMReload
 if (config == "light"){ localStorage.setItem("rainDropConfig", "light"); fuMReload(); }
 }
 
-if (rainDropConfig == "light"){
+/*if (rainDropConfig == "light"){
 
-} else {
+} else {*/
+if (true){
 let n = 0;
 var print = "";
 let min = 30;

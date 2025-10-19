@@ -3,12 +3,22 @@ var newsJsonVar =
 
 [
     {
+        "id": "76",
+        "text": "Making every Windows 11 PC an AI PC | Windows Experience Blog",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/blogs.windows.com\/windowsexperience\/2025\/10\/16\/making-every-windows-11-pc-an-ai-pc\/",
+        "tag": "#technology #Windows11 #Windows #PC #app #software #OS #Microsoft #Copilot #AI",
+        "time": 1760881113,
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/news\/?id=76\"  title=\"id=76 (permanent link)\" >id<\/a>"
+    },
+    {
         "id": "74",
         "text": "Bringing new Veo 3.1 updates into Flow to edit AI video",
         "text2": "",
         "text3": "",
         "url": "https:\/\/blog.google\/technology\/ai\/veo-updates-flow\/",
-        "tag": "#AI #GenerativeAI #Google #video",
+        "tag": "#technology #AI #GenerativeAI #Google #video",
         "time": 1760866332,
         "rightFooter": "<a class=\"brand\" href=\"\/pages\/news\/?id=74\"  title=\"id=74 (permanent link)\" >id<\/a>"
     },
