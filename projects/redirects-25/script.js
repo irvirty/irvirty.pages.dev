@@ -1701,6 +1701,7 @@ sRedirectUrl = url;
 break;
 
 
+case "seznam#":
 case "sez#":
 q = q3.replace(qCom, '');
 q = q.trim();
