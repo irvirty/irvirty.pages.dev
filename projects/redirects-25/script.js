@@ -1,4 +1,4 @@
-// Search redirects v.2.10.6
+// Search redirects v.2.10.7
 // Search query + command
 // Example: "text goo" or "text google", "text bin" or "text bing"
 
@@ -445,6 +445,80 @@ urlList = [
 if (q == ""){
 urlList = [
 "https://www.threads.net/",
+];
+}
+random = urlList[fuMRandom(0, urlList.length - 1)];
+url = random;
+sRedirectUrl = url;
+break;
+
+
+case "x#":
+q = q3.replace(qCom, '');
+q = q.trim();
+q = encodeURIComponent(q);
+urlList = [
+"https://x.com/search?q=" + q,
+];
+if (q == ""){
+urlList = [
+"https://x.com/",
+];
+}
+random = urlList[fuMRandom(0, urlList.length - 1)];
+url = random;
+sRedirectUrl = url;
+break;
+
+
+case "xx#":
+q = q3.replace(qCom, '');
+q = q.trim();
+q = encodeURIComponent(q);
+urlList = [
+"https://x.com/search?q=" + q + "&f=live",
+];
+if (q == ""){
+urlList = [
+"https://x.com/",
+];
+}
+random = urlList[fuMRandom(0, urlList.length - 1)];
+url = random;
+sRedirectUrl = url;
+break;
+
+
+case "instagram#":
+case "ins#":
+q = q3.replace(qCom, '');
+q = q.trim();
+q = encodeURIComponent(q);
+urlList = [
+"https://www.instagram.com/explore/search/keyword/?q=" + q,
+];
+if (q == ""){
+urlList = [
+"https://www.instagram.com/",
+];
+}
+random = urlList[fuMRandom(0, urlList.length - 1)];
+url = random;
+sRedirectUrl = url;
+break;
+
+
+case "pinterest#":
+case "pin#":
+q = q3.replace(qCom, '');
+q = q.trim();
+q = encodeURIComponent(q);
+urlList = [
+"https://www.pinterest.com/search/pins/?q=" + q,
+];
+if (q == ""){
+urlList = [
+"https://www.pinterest.com/",
 ];
 }
 random = urlList[fuMRandom(0, urlList.length - 1)];
