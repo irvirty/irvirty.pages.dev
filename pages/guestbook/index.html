@@ -111,82 +111,45 @@
 
 
 
-
 <!-- content -->
 <main id="content" class="content">
-
-<h1 class="op tCenter insertIconTitle">Guestbook</h1>
-<!--<div class="tCenter margin4List small op">text</div>-->
-
-
-
 <div class="wrapper">
 
-<div id="printKeep"></div>
+<h1 class="tCenter op insertIconTitle">Disqus comments</h1>
+<!--<div class="tCenter margin4List small op">Experimental, Test</div>-->
+
+<div class="padding3 border bg">
+
+<div id="disableEmbedMsg"></div>
+
+<div id="result"></div>
+
+<div id="disqus_thread"></div>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
 
 </div>
 
-
-<!-- guestbook -->
-<div class="wrapper">
-
-<div class="tCenter">
-<b class="medium block padding2 op">Write a comment using email.</b>
-<div class="block">(Message won't appear immediately)</div>
 </div>
+</main>
+<!-- // content -->
 
-<!--<div class="xSmall gray">Preview:</div>
-<div class="padding2 light2 border borderRadius2 pre"><div id="guestbookPreviw"></div></div>-->
 
-<div class="margin padding"></div>
-
-<!--https://stackoverflow.com/questions/75525775/how-to-submit-a-form-using-mailto-in-form-action#-->
-
-<label for="fullName"></label>
-<!--<input class="" id="fullName" type="text" placeholder="Full Name" onKeyUp="sendEmail()">
-<label for="subject"></label>
-<input class="" id="subject" type="text" placeholder="Subject" onKeyUp="sendEmail()">-->
-
-<label for="name"></label>
-<input class="" id="name" type="text" placeholder="Name" onKeyUp="sendEmail()">
-<label for="comment"></label>
-<textarea id="comment" class="" rows="3" placeholder="Comment" onKeyUp="sendEmail()"></textarea>
-
-<a href="" id="send_email"><button class="button submit w100 small" href="">Send Email</button></a>
-
+<footer id="footer"></footer>
 
 <script>
-// config
-let guestbookEmail = "s2m8voqyg@mozmail.com";
-let guestbookSubject = "To Guestbook 1";
+var confD = "../../";
+</script>
+<script src="../../js/main.js"></script>
 
-function sendEmail() {
-var link = document.getElementById('send_email');
-//var name = document.getElementById('fullName').value;
-//var subject = document.getElementById('subject').value;
-var name = document.getElementById('name').value;
-if (name != undefined&&name != ""){
-name = name + `
----
-`;
-}
-var message = document.getElementById('comment').value;
-var href = "mailto:" + guestbookEmail + "?subject=" + guestbookSubject + "&body=" + encodeURIComponent(name + message);
-//document.getElementById('guestbookPreviw').textContent = name + message;
-//console.log(href);
-link.setAttribute("href", href);
-}
+<script>
+//fuMSetTheme('light');
 </script>
 
-
-</div>
-<!--// guestbook -->
-
-<div class="margin padding"></div>
-
-</main>
-<!--// content -->
-
+<script src="../../projects/disqus-comments-74/script.js"></script>
+<script>
+var disqusShortname = conf["confUsername"] + "-pages-dev";
+disqusCommnets(disqusShortname, "on", "off");
+</script>
 
 
 <div class="wrapper3">
@@ -199,73 +162,6 @@ var confD = "../../";
 <script src="../../js/main.js"></script>
 <script src="../../js/script.js"></script>
 
-
-<!-- Keep -->
-<script src="../..//data/guestbookJsonVar.js"></script>
-
-<script>
-
-// Example of data in the file, fresh example in script.js
-if (guestbookJsonVar == undefined||guestbookJsonVar == ''){
-
-//
-var guestbookJsonVar = 
-
-[
-    {
-        "id": 251,
-        "text": "test2 text2",
-        "url": "https:\/\/example.com",
-        "tag": "#test2 #tag",
-        "time": 1671480576,
-        "rightFooter": ""
-    },
-    {
-        "id": 250,
-        "text": "test text",
-        "url": "https:\/\/example.com",
-        "tag": "#test #tag",
-        "time": 1668444918,
-        "rightFooter": ""
-
-    }
-];
-// end
-
-}
-</script>
-
-<!--
-Config, copy paste in html before script.js.
-Fresh config in script.js
--->
-<script>
-let keepConfig = {
-"postLimit":"", // number, the number of posts per page
-"embedStatus":"", // "off", "semi" (when id)
-"multiEmbedStatus":"", // "on"
-"tagListStatus":"all", // "off", "all"
-"tagListLimit":"", // number
-"targetOption":"", // "blank"
-"bottomMsg":`
-<!-- bottom text or code -->
-`, // text
-"display":"", // gallery, art, blog (text, text2), all (text, text2, text3)
-"timeStatus":"", // off, disable post time (post id)
-"rightFooterStatus":"", // on, off, right footer in data
-"usernameStatus":"", // on, off
-"confD":"../../", //
-};
-</script>
-
-<script src="../../projects/keep-1/script.js" onload="keep('printKeep', guestbookJsonVar, 'wrapper', './', keepConfig)"></script>
-
-<!--<script src="/projects/keep-1/script.js"></script>
-<script>
-keep('printKeep', guestbookJsonVar, 'wrapper', './', keepConfig)
-</script>-->
-
-<!-- // keep -->
 
 
 </body>

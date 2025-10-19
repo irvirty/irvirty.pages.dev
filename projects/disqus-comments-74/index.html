@@ -56,7 +56,7 @@ CSS, JavaScript, project,
 <div class="wrapper">
 
 <h1 class="tCenter op insertIconTitle">Disqus comments</h1>
-<div class="tCenter margin4List small op">Experimental, Test</div>
+<!--<div class="tCenter margin4List small op">Experimental, Test</div>-->
 
 <div class="padding3 border bg">
 
@@ -87,7 +87,8 @@ var confD = "../../";
 
 <script src="script.js"></script>
 <script>
-disqusCommnets(conf["confUsername"], "on", "off");
+var disqusShortname = conf["confUsername"] + "-pages-dev";
+disqusCommnets(disqusShortname, "on", "off");
 </script>
 
 </body>
