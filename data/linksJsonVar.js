@@ -3,6 +3,16 @@ var linksJsonVar =
 
 [
     {
+        "id": "337",
+        "text": "Lumo: Privacy-first AI assistant where chats stay confidential",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/lumo.proton.me\/u\/1\/",
+        "tag": "#ai #assistant",
+        "time": 1760837759,
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=337\"  title=\"id=337 (permanent link)\" >id<\/a>"
+    },
+    {
         "id": "336",
         "text": "7,000+ Free Audio Books & eBook Downloads - Loyal Books",
         "text2": "",
@@ -758,7 +768,7 @@ var linksJsonVar =
         "text2": "",
         "text3": "",
         "url": "https:\/\/cohere.com\/",
-        "tag": "#AI #assistant #chatbot",
+        "tag": "#AI #assistant",
         "time": 1746936462,
         "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=259\"  title=\"id=259 (permanent link)\" >id<\/a>"
     },
@@ -1728,7 +1738,7 @@ var linksJsonVar =
         "text2": "",
         "text3": "",
         "url": "https:\/\/www.perplexity.ai\/",
-        "tag": "#AI #assistant #chatbot",
+        "tag": "#AI #assistant",
         "time": 1711187007,
         "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=128\"  title=\"id=128 (permanent link)\" >id<\/a>"
     },
@@ -1838,7 +1848,7 @@ var linksJsonVar =
         "text2": "",
         "text3": "",
         "url": "https:\/\/chat.mistral.ai\/chat",
-        "tag": "#AI #assistant #chatbot",
+        "tag": "#AI #assistant",
         "time": 1710426340,
         "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=116\"  title=\"id=116 (permanent link)\" >id<\/a>"
     },
@@ -1848,7 +1858,7 @@ var linksJsonVar =
         "text2": "",
         "text3": "",
         "url": "https:\/\/huggingface.co\/chat\/",
-        "tag": "#AI #assistant #chatbot",
+        "tag": "#AI #assistant",
         "time": 1710425641,
         "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=115\"  title=\"id=115 (permanent link)\" >id<\/a>"
     },
@@ -1858,7 +1868,7 @@ var linksJsonVar =
         "text2": "",
         "text3": "",
         "url": "https:\/\/chat.openai.com\/",
-        "tag": "#AI #assistant #chatbot",
+        "tag": "#AI #assistant",
         "time": 1710418765,
         "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=114\"  title=\"id=114 (permanent link)\" >id<\/a>"
     },
@@ -1868,7 +1878,7 @@ var linksJsonVar =
         "text2": "",
         "text3": "",
         "url": "https:\/\/gemini.google.com\/app",
-        "tag": "#AI #assistant #chatbot",
+        "tag": "#AI #assistant",
         "time": 1710418283,
         "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=113\"  title=\"id=113 (permanent link)\" >id<\/a>"
     },
@@ -1878,7 +1888,7 @@ var linksJsonVar =
         "text2": "",
         "text3": "",
         "url": "https:\/\/copilot.microsoft.com\/",
-        "tag": "#AI #assistant #chatbot",
+        "tag": "#AI #assistant",
         "time": 1710418263,
         "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=112\"  title=\"id=112 (permanent link)\" >id<\/a>"
     },

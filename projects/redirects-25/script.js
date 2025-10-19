@@ -1,4 +1,4 @@
-// Search redirects v.2.10.5
+// Search redirects v.2.10.6
 // Search query + command
 // Example: "text goo" or "text google", "text bin" or "text bing"
 
@@ -1360,6 +1360,7 @@ break;
 
 
 case "twitch#":
+case "tv#":
 case "twi#":
 q = q3.replace(qCom, '');
 q = q.trim();
@@ -1380,7 +1381,7 @@ sRedirectUrl = url;
 break;
 
 
-case "tv#":
+case "tv2#":
 case "kick#":
 q = q3.replace(qCom, '');
 q = q.trim();
