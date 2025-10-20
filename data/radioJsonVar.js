@@ -1218,15 +1218,6 @@ var radioJsonVar =
         "rightFooter": ""
     },
     {
-        "text": "easy CROOZE | Free Internet Radio | TuneIn",
-        "text2": "",
-        "text3": "",
-        "url": "https:\/\/tunein.com\/radio\/easy-CROOZE-s302502\/",
-        "tag": "#radio #AmbientMusic",
-        "time": 1745362533,
-        "rightFooter": ""
-    },
-    {
         "text": "Relax Zone | Free Internet Radio | TuneIn",
         "text2": "",
         "text3": "",

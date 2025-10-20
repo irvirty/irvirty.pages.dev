@@ -3,15 +3,6 @@ var videoJsonVar =
 
 [
     {
-        "text": "Love Letters (1999) - FREE MOVIE - YouTube",
-        "text2": "",
-        "text3": "",
-        "url": "https:\/\/www.youtube.com\/watch?v=QARz4Q2It7Y",
-        "tag": "#video #movie",
-        "time": 1760880556,
-        "rightFooter": ""
-    },
-    {
         "text": "Guarding Tess (1994) - FREE MOVIE - YouTube",
         "text2": "",
         "text3": "",
