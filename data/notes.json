@@ -2,7 +2,7 @@
     {
         "id": "121",
         "text": "Can I turn off the tab groups? | Firefox Support Forum | Mozilla Support",
-        "text2": "===\r\n browser.tabs.groups.enabled.\r\n\r\nIf the value is set to true, toggle it to false",
+        "text2": "===\r\n browser.tabs.groups.enabled\r\n\r\nIf the value is set to true, toggle it to false",
         "text3": "",
         "url": "https:\/\/support.mozilla.org\/en-US\/questions\/1534259",
         "tag": "#fix #Firefox #MozillaFirefox",
