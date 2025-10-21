@@ -3,16 +3,6 @@ var microblogJsonVar =
 
 [
     {
-        "id": "301",
-        "text": "First an internal server error and now rate limit exceeded? What is going on?! : r\/BlueskySocial",
-        "text2": "",
-        "text3": "",
-        "url": "https:\/\/www.reddit.com\/r\/BlueskySocial\/comments\/1obffv7\/first_an_internal_server_error_and_now_rate_limit\/",
-        "tag": "#Bluesy #error",
-        "time": 1761007913,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/microblog\/?id=301\"  title=\"id=301 (permanent link)\" >id<\/a>"
-    },
-    {
         "id": "300",
         "text": "I may know why the spell check for English sometimes doesn't work in Firefox, maybe there's a dictionary conflict or something, because when I removed all the dictionaries, the spell check for English started working.",
         "text2": "",
