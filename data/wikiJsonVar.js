@@ -3,6 +3,26 @@ var wikiJsonVar =
 
 [
     {
+        "id": "156",
+        "text": "Free license - Wikipedia",
+        "text2": "A free license or open license is a license that allows copyrighted work to be reused, modified, and redistributed. These uses are normally prohibited by copyright, patent or other Intellectual property (IP) laws. The term broadly covers free content licenses and open-source licenses, also known as free software licenses.",
+        "text3": "",
+        "url": "https:\/\/en.wikipedia.org\/wiki\/Free_license",
+        "tag": "#copyright #license #content #rule",
+        "time": 1761052220,
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/wiki\/?id=156\"  title=\"id=156 (permanent link)\" >id<\/a>"
+    },
+    {
+        "id": "155",
+        "text": "Public domain - Wikipedia",
+        "text2": "The public domain (PD) consists of all the creative work to which no exclusive intellectual property rights apply. Those rights may have expired,[1] been forfeited,[2] expressly waived, or may be inapplicable.[3] Because no one holds the exclusive rights, anyone can legally use or reference those works without permission.[3][4]",
+        "text3": "",
+        "url": "https:\/\/en.wikipedia.org\/wiki\/Public_domain",
+        "tag": "#copyright #content #rule",
+        "time": 1761052039,
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/wiki\/?id=155\"  title=\"id=155 (permanent link)\" >id<\/a>"
+    },
+    {
         "id": "154",
         "text": "Tablet computer - Wikipedia",
         "text2": "A tablet computer, commonly shortened to tablet or simply tab, is a mobile device, typically with a mobile operating system and touchscreen display processing circuitry, and a rechargeable battery in a single, thin and flat package. Tablets, being computers, have similar capabilities, but lack some input\/output (I\/O) abilities that others have. Modern tablets are based on smartphones, the only differences being that tablets are relatively larger than smartphones, with screens 7 inches (18 cm) or larger, measured diagonally,[1][2][3][4] and may not support access to a cellular network. Unlike laptops (which have traditionally run off operating systems usually designed for desktops), tablets usually run mobile operating systems, alongside smartphones.",
@@ -598,7 +618,7 @@ var wikiJsonVar =
         "text2": "A copyright is a type of intellectual property that gives the creator of an original work, or another right holder, the exclusive and legally secured right to copy, distribute, adapt, display, and perform a creative work, usually for a limited time.[1][2][3][4][5] The creative work may be in a literary, artistic, educational, or musical form. Copyright is intended to protect the original expression of an idea in the form of a creative work, but not the idea itself.[6][7][8] A copyright is subject to limitations based on public interest considerations, such as the fair use doctrine in the United States.",
         "text3": "",
         "url": "https:\/\/en.wikipedia.org\/wiki\/Copyright",
-        "tag": "#empty",
+        "tag": "#copyright #content #rule",
         "time": 1719568487,
         "rightFooter": "<a class=\"brand\" href=\"\/pages\/wiki\/?id=34\"  title=\"id=34 (permanent link)\" >id<\/a>"
     },
