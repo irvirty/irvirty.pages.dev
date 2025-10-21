@@ -41,24 +41,3 @@ Others:
   
 [Download ZIP](https://github.com/irvirty/irvirty.pages.dev/archive/refs/heads/main.zip)
   
-<!--
----  
-  
-## GitHub Explore, topics:  
-[Web Development](https://github.com/topics/web-development),
-[WebDev](https://github.com/topics/webdev),
-[Web Design](https://github.com/topics/web-design),
-[Website](https://github.com/topics/website),
-[HTML](https://github.com/topics/HTML),
-[CSS](https://github.com/topics/CSS),
-[JavaScript](https://github.com/topics/javascript),
-[Personal Website](https://github.com/topics/personal-website),
-[Portfolio](https://github.com/topics/portfolio),
-[Homepage](https://github.com/topics/homepage),
-[Startpage](https://github.com/topics/startpage),
-[Projects](https://github.com/topics/projects),
-[Mini Projects](https://github.com/topics/mini-projects),
-[Cloudflare Pages](https://github.com/topics/cloudflare-pages),
-[Open Source](https://github.com/topics/open-source),
-[Search Redirect](https://github.com/topics/search-redirect),
--->
