@@ -3,6 +3,16 @@ var newsJsonVar =
 
 [
     {
+        "id": "78",
+        "text": "Introducing ChatGPT Atlas | OpenAI",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/openai.com\/index\/introducing-chatgpt-atlas\/",
+        "tag": "#technology #browser #web #internet #ChatGPT #OpenAI #Atlas",
+        "time": 1761114831,
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/news\/?id=78\"  title=\"id=78 (permanent link)\" >id<\/a>"
+    },
+    {
         "id": "76",
         "text": "Making every Windows 11 PC an AI PC | Windows Experience Blog",
         "text2": "",
