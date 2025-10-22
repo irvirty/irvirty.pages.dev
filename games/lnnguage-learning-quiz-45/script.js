@@ -883,7 +883,7 @@ document.getElementById('taglist').innerHTML +=  `
 
 <br>
 <div class="small op tCenter margin2 padding2">total: ${jsonVar.length}</div>
-<div class="smaller gray op margin2 padding2 tRight">There may be errors, sorry!</div>
+<div class="smaller gray op margin2 padding2 tRight">Experimental. There may be errors, sorry!</div>
 
 </div>
 
