@@ -1,4 +1,4 @@
-// Search redirects v.2.10.7
+// Search redirects v.2.10.8
 // Search query + command
 // Example: "text goo" or "text google", "text bin" or "text bing"
 
@@ -6,6 +6,7 @@
 var com = "on"; // on, off redirection
 var sTimeRedirect = 1000;
 var sTimeRedirect = 500;
+var sTimeRedirect = 0;
 // conf
 
 var geturl = location.href;
