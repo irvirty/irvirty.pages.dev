@@ -73,26 +73,6 @@ var linksJsonVar =
         "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=332\"  title=\"id=332 (permanent link)\" >id<\/a>"
     },
     {
-        "id": "331",
-        "text": "internet speed test - Search (Bing)",
-        "text2": "",
-        "text3": "",
-        "url": "https:\/\/www.bing.com\/search?q=internet+speed+test",
-        "tag": "#tool #service #internet #speed #Bing",
-        "time": 1759245010,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=331\"  title=\"id=331 (permanent link)\" >id<\/a>"
-    },
-    {
-        "id": "330",
-        "text": "internet speed test - Google Search",
-        "text2": "",
-        "text3": "",
-        "url": "https:\/\/www.google.com\/search?q=internet+speed+test",
-        "tag": "#tool #service #internet #speed #Google",
-        "time": 1759244764,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=330\"  title=\"id=330 (permanent link)\" >id<\/a>"
-    },
-    {
         "id": "329",
         "text": "Proton Drive",
         "text2": "",
