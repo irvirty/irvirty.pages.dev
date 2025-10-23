@@ -1,4 +1,4 @@
-/* Main.css style v.23.11.0 */
+/* Main.css style v.23.12.0 */
 /* main.css + theme (auto.css, light.css ...) */
 /* The style is mostly based on classes. */
 
@@ -54,7 +54,7 @@
 
 /*@import url('https://fonts.googleapis.com/css2?family=Roboto:ital@0;1&display=swap');*/
 html, body, a, input, button, textarea, pre, code, select {
-font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "FreeSans", Helvetica, Arial, sans-serif; /* (Twitter font */
+font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", Helvetica, Arial, sans-serif; /* (Twitter font */
 /*hyphens: auto;*/
 /*font-weight: 300;*/
 font-style: normal;
@@ -112,7 +112,7 @@ header, footer, nav, .keepPostFooter { flex-shrink: 0; }
 .h5 { font-size: 1.11em; }
 .h6 { font-size: 1.1em; }
 
-input[type="submit"], input[type="button"], input[type="text"]:not(#adminbar-search), input[type="search"], textarea, input[type="email"], input[type="password"], form button, input[type="reset"]{
+input[type="submit"], input[type="reset"], input[type="button"], input[type="text"]:not(#adminbar-search), input[type="search"], textarea, input[type="email"], input[type="password"], form button {
 width: 100%;
 min-height:  var(--inputHeight);
 margin: 0px;
@@ -124,10 +124,10 @@ vertical-align: top;
 display: block;
 padding: var(--padding2);
 }
-input[type="submit"] { text-align: center; }
+input[type="submit"], input[type="reset"] { text-align: center; }
 input[type="button"] { cursor: pointer; }
 
-select, input[type="color"], input[type="date"], input[type="number"], input[type="time"], input[type="reset"], input[type="datetime-local"], input[type="file"], input[type="month"], input[type="tel"], input[type="url"], input[type="week"] {
+select, input[type="color"], input[type="date"], input[type="number"], input[type="time"], input[type="datetime-local"], input[type="file"], input[type="month"], input[type="tel"], input[type="url"], input[type="week"] {
 margin-top: 1px;
 margin-bottom: 1px;
 min-height: var(--inputHeight);
@@ -147,9 +147,9 @@ input[type=search], select, select option{
 }
 input[type="color"]{ padding: 5px; }
 input[type="number"]{ line-height: 0; }
-input[type=checkbox],  input[type="reset"] { cursor: pointer; margin: 0; padding: 5px; line-height: normal; }
+input[type=checkbox] { cursor: pointer; margin: 0; padding: 5px; line-height: normal; }
 textarea { outline-color: transparent; outline-style: none; resize: vertical; }
-input[type=submit] { cursor:pointer;  }
+input[type=submit], input[type="reset"] { cursor:pointer;  }
 td { padding: 5px; }
 
 input[type="range"], progress { width: 100%; max-width: 100%; margin: 0; }
@@ -669,7 +669,7 @@ border-bottom: 2px dotted var(--d3);
 /* Print */
 
 @media print {
-/* https://developer.mozilla.org/docs/Web/CSS/CSS_media_queries/Printing */
+/* https://developer.mozilla.org/docs/Web/CSS/CSS_media_queries/Printing#*/
 .navTop, footer, nav {
 display: none;
 }
@@ -716,8 +716,7 @@ del a { text-decoration: line-through; }
 
 /*h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 word-break: break-all;
-}
-h1, h2, h3, h4, h5, h6, .bold, .b, b { letter-spacing: 0.25px; }test and dellme*/
+}*/
 
 @media(max-width: 200px) {
 div, input, textarea, a { word-break: break-all; }
@@ -742,7 +741,7 @@ svg, img { height: auto;  display: inline-block; }
 .over, .over a{
 overflow: hidden;
 white-space: nowrap;
-/* display: inline-flex; display: block; display: inline-block; */display: inline-block;
+/* display: inline-flex; display: block; display: inline-block;*/ display: inline-block;
 max-width: 100%;
 text-overflow: ellipsis;
 }
