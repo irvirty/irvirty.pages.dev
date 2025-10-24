@@ -206,14 +206,17 @@ async function getBanner() {
       throw new Error(`Response status: ` + response.status);
     }
 
-    const result = await response.text();
-    console.log(result);
-          document.getElementById("headerBannerId").innerHTML = result;
-  } catch (error) {
+var result = await response.text();
+result = result.replace('<?xml version="1.0" encoding="UTF-8" standalone="no"?>', '');
+result = result.replace('xmlns:svg="http://www.w3.org/2000/svg"', '');
+//console.log(result);
+document.getElementById("headerBannerId").innerHTML = result;
+} catch (error) {
     console.error(error.message);
-  }
+}
 }
 getBanner();
+
 </script>
 
 </div>
