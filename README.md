@@ -44,7 +44,7 @@ Others:
 
 <!--
 Tags backup:
-javascript, css, html, website, portfolio, web-development, projects, personal-website, homepage, startpage, web-design, webdev, webdesign, cloudflare-page, search-redirect,
+javascript, css, html, website, portfolio, web-development, projects, personal-website, homepage, startpage, web-design, webdev, webdesign, cloudflare-page, search-redirect,  static-site,
 -->
 
 
