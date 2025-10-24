@@ -1,7 +1,8 @@
 # irvirty.pages.dev
 
 <!--https://stackoverflow.com/questions/61071158/add-image-with-link-in-githubs-readme-md#-->
-[![banner](/img/github-banner-settings.png)](/img/screenshot.png)  
+<!--[![banner](/img/github-banner-settings.png)](/img/screenshot.png)  -->
+![banner](/img/github-banner-settings.png)
 
 Homepage, startpage and projects. Search redirect, links, news, games, music collection, images, microblog, to-do list, tools, browser themes and extensions, WP theme, site templates, icons ...
   
@@ -40,4 +41,12 @@ Others:
 ## Download:
   
 [Download ZIP](https://github.com/irvirty/irvirty.pages.dev/archive/refs/heads/main.zip)
+
+<!--
+Tags backup:
+javascript, css, html, website, portfolio, web-development, projects, personal-website, homepage, startpage, web-design, webdev, webdesign, cloudflare-page, search-redirect,
+-->
+
+
+
   
