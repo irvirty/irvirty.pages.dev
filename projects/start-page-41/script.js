@@ -1,6 +1,26 @@
 // Start page v.1.2.1
 
 
+
+
+//https://developer.mozilla.org/en-US/docs/Web/API/Response/text
+async function getData() {
+  const url = "../../img/header-banner.svg";
+  try {
+    const response = await fetch(url);
+    if (!response.ok) {
+      throw new Error(`Response status: ${response.status}`);
+    }
+
+    const result = await response.text();
+    console.log(result);
+          document.getElementById("banner").innerHTML = result;
+  } catch (error) {
+    console.error(error.message);
+  }
+}
+getData();
+
 // time v.1.4.4
 // creation date: 2023
 // inspired by Google Clock
