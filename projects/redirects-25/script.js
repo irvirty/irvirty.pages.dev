@@ -1,4 +1,4 @@
-// Search redirect v.2.10.10
+// Search redirect v.2.10.15
 // Search query + command
 // Example: "text goo" or "text google", "text bin" or "text bing"
 
@@ -2297,7 +2297,6 @@ urlList = [
 
 //"https://chatgpt.com/?q=" + q + "&temporary-chat=true",
 //"https://chat.mistral.ai/chat/?q=" + q,
-//"https://www.phind.com/search?q=$q"
 ];
 if (q == ""){
 urlList = [
@@ -2369,6 +2368,7 @@ sRedirectUrl = url;
 break;
 
 
+case "chatgpt#":
 case "gpt#":
 case "oai#":
 q = q3.replace(qCom, '');
@@ -2380,6 +2380,26 @@ urlList = [
 if (q == ""){
 urlList = [
 "https://chatgpt.com/",
+];
+}
+random = urlList[fuMRandom(0, urlList.length - 1)];
+url = random;
+sRedirectUrl = url;
+break;
+
+
+case "perplexity#":
+case "per#":
+case "pai#":
+q = q3.replace(qCom, '');
+q = q.trim();
+q = encodeURIComponent(q);
+urlList = [
+"https://www.perplexity.ai/search/?q=" + q,
+];
+if (q == ""){
+urlList = [
+"https://www.perplexity.ai/",
 ];
 }
 random = urlList[fuMRandom(0, urlList.length - 1)];
