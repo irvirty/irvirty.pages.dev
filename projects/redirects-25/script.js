@@ -1,4 +1,4 @@
-// Search redirect v.2.10.9
+// Search redirect v.2.10.10
 // Search query + command
 // Example: "text goo" or "text google", "text bin" or "text bing"
 
@@ -2293,20 +2293,17 @@ q = encodeURIComponent(q);
 urlList = [
 "https://www.google.com/search?q=" + q + "&udm=50",
 "https://www.bing.com/copilotsearch?q=" + q + "&FORM=somesite",
+"https://www.perplexity.ai/search/?q=" + q,
 
 //"https://chatgpt.com/?q=" + q + "&temporary-chat=true",
 //"https://chat.mistral.ai/chat/?q=" + q,
+//"https://www.phind.com/search?q=$q"
 ];
 if (q == ""){
 urlList = [
 "https://www.google.com/search?udm=50",
 "https://www.bing.com/copilotsearch",
-
-//"https://chatgpt.com/",
-//"https://chat.mistral.ai/",
-//"https://www.bing.com/copilot",
-//"https://copilot.microsoft.com/",
-//"https://gemini.google.com/",
+"https://www.perplexity.ai/",
 ];
 }
 random = urlList[fuMRandom(0, urlList.length - 1)];
@@ -2320,13 +2317,13 @@ q = q3.replace(qCom, '');
 q = q.trim();
 q = encodeURIComponent(q);
 urlList = [
-"https://www.google.com/search?q=" + q + "&udm=50",
-"https://www.bing.com/copilotsearch?q=" + q + "&FORM=somesite",
+"./?q=" + q + " ai",
 ];
 if (q == ""){
 urlList = [
 "https://gemini.google.com/app",
 "https://copilot.microsoft.com/",
+"https://chatgpt.com/?temporary-chat=true",
 ];
 }
 random = urlList[fuMRandom(0, urlList.length - 1)];
