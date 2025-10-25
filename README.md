@@ -1,8 +1,7 @@
 # irvirty.pages.dev
 
 <!--https://stackoverflow.com/questions/61071158/add-image-with-link-in-githubs-readme-md#-->
-<!--[![banner](/img/github-banner-settings.png)](/img/screenshot.png)  -->
-![banner](/img/github-banner-settings.png)
+[![banner](/img/github-banner-settings.png)](/img/screenshot.png)
 
 Homepage, startpage and projects. Search redirect, links, news, games, music collection, images, microblog, to-do list, tools, browser themes and extensions, WP theme, site templates, icons ...
   
