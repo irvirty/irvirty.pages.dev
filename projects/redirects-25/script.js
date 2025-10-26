@@ -1,4 +1,4 @@
-// Search redirect v.2.10.15
+// Search redirect v.2.10.16
 // Search query + command
 // Example: "text goo" or "text google", "text bin" or "text bing"
 
@@ -2303,6 +2303,9 @@ urlList = [
 "https://www.google.com/search?udm=50",
 "https://www.bing.com/copilotsearch",
 "https://www.perplexity.ai/",
+
+//"https://chatgpt.com/?temporary-chat=true",
+//"https://chat.mistral.ai/,
 ];
 }
 random = urlList[fuMRandom(0, urlList.length - 1)];
@@ -2323,6 +2326,9 @@ urlList = [
 "https://gemini.google.com/app",
 "https://copilot.microsoft.com/",
 "https://chatgpt.com/?temporary-chat=true",
+
+"https://chat.mistral.ai/",
+"https://lumo.proton.me/"
 ];
 }
 random = urlList[fuMRandom(0, urlList.length - 1)];
