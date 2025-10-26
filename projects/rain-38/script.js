@@ -1,12 +1,15 @@
-// v.2.0.0
+// v.2.1.0
 // only for many random div with different position
 
 let rainDropConfig = "";
 rainDropConfig = localStorage.getItem("rainDropConfig");
 
 function rainDropConfigClick(config){
+	
 if (config == "full"){ localStorage.setItem("rainDropConfig", "full"); fuMReload(); }
 if (config == "light"){ localStorage.setItem("rainDropConfig", "light"); fuMReload(); }
+if (config == "silence"){ localStorage.setItem("rainDropConfig", "silence"); fuMReload(); }
+
 }
 
 /*if (rainDropConfig == "light"){
@@ -55,6 +58,7 @@ rainAudioConfig = localStorage.getItem("rainAudioConfig");
 function rainAudioConfigClick(config){
 if (config == "rain"){ localStorage.setItem("rainAudioConfig", "rain"); fuMReload(); }
 if (config == "noise"){ localStorage.setItem("rainAudioConfig", "noise"); fuMReload(); }
+if (config == "silence"){ localStorage.setItem("rainAudioConfig", "silence"); fuMReload(); }
 }
 
 
@@ -79,6 +83,11 @@ document.getElementById("printAudio").innerHTML = `
 }
 
 break;
+
+case "silence":
+// code
+break;
+
 
 default:
 
@@ -112,6 +121,8 @@ document.getElementById("printMode").innerHTML = `
 <a class="brand inlineBlock padding" title="Click to do something" href="#" onclick="rainAudioConfigClick('rain');return false;">rain</a>
 |
 <a class="brand inlineBlock padding" title="Click to do something" href="#" onclick="rainAudioConfigClick('noise');return false;">noise</a>
+|
+<a class="brand inlineBlock padding" title="Click to do something" href="#" onclick="rainAudioConfigClick('silence');return false;">silence</a>
 
 `;
 }
