@@ -1,20 +1,6 @@
 // v.2.1.0
 // only for many random div with different position
 
-let rainDropConfig = "";
-rainDropConfig = localStorage.getItem("rainDropConfig");
-
-function rainDropConfigClick(config){
-	
-if (config == "full"){ localStorage.setItem("rainDropConfig", "full"); fuMReload(); }
-if (config == "light"){ localStorage.setItem("rainDropConfig", "light"); fuMReload(); }
-if (config == "silence"){ localStorage.setItem("rainDropConfig", "silence"); fuMReload(); }
-
-}
-
-/*if (rainDropConfig == "light"){
-
-} else {*/
 if (true){
 let n = 0;
 var print = "";
@@ -80,16 +66,21 @@ document.getElementById("printAudio").innerHTML = `
 </div>
 
 `;
+
+fuLPrintMode("noise");
 }
 
 break;
 
 case "silence":
 // code
+fuLPrintMode("silence");
 break;
 
 
 default:
+
+fuLPrintMode("rain");
 
 if (document.getElementById("printAudio") != null){
 document.getElementById("printAudio").innerHTML = `
@@ -109,21 +100,47 @@ document.getElementById("printAudio").innerHTML = `
 
 }
 
+function fuLPrintMode(mode){
+
 if (document.getElementById("printMode") != null){
-document.getElementById("printMode").innerHTML = `
-<!--Mode:-->
-<!--<span class="inlineBlock padding" style="padding-right: 0;">Rain:</span>
-<a class="brand inlineBlock padding" title="Click to do something" href="#" onclick="rainDropConfigClick('full');return false;">full</a>
-| 
-<a class="brand inlineBlock padding" title="Click to do something" href="#" onclick="rainDropConfigClick('light');return false;">light</a>
-/-->
-<span class="inlineBlock padding" style="padding-right: 0;">Audio:</span>
+
+document.getElementById("printMode").innerHTML = `<span class="inlineBlock padding" style="padding-right: 0;">Audio:</span>`;
+
+if (mode === "rain"){
+document.getElementById("printMode").innerHTML += `
+<a class="gray inlineBlock padding" title="Click to do something" href="#" onclick="rainAudioConfigClick('rain');return false;">rain</a>
+|
+`;
+} else {
+document.getElementById("printMode").innerHTML += `
 <a class="brand inlineBlock padding" title="Click to do something" href="#" onclick="rainAudioConfigClick('rain');return false;">rain</a>
 |
+`;
+}
+
+if (mode === "noise"){
+document.getElementById("printMode").innerHTML += `
+<a class="gray inlineBlock padding" title="Click to do something" href="#" onclick="rainAudioConfigClick('noise');return false;">noise</a>
+|
+`;
+} else {
+document.getElementById("printMode").innerHTML += `
 <a class="brand inlineBlock padding" title="Click to do something" href="#" onclick="rainAudioConfigClick('noise');return false;">noise</a>
 |
-<a class="brand inlineBlock padding" title="Click to do something" href="#" onclick="rainAudioConfigClick('silence');return false;">silence</a>
-
 `;
+}
+
+if (mode === "silence"){
+document.getElementById("printMode").innerHTML += `
+<a class="gray inlineBlock padding" title="Click to do something" href="#" onclick="rainAudioConfigClick('silence');return false;">silence</a>
+`;
+} else {
+document.getElementById("printMode").innerHTML += `
+<a class="brand inlineBlock padding" title="Click to do something" href="#" onclick="rainAudioConfigClick('silence');return false;">silence</a>
+`;
+}
+
+}
+
 }
 
