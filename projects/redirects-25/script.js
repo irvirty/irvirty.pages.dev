@@ -1,4 +1,4 @@
-// Search redirect v.2.12.0
+// Search redirect v.2.14.0
 // Search query + command
 // Example: "text goo" or "text google", "text bin" or "text bing"
 
@@ -1433,79 +1433,6 @@ sRedirectUrl = url;
 break;
 
 
-case "s#":
-case "so#":
-case "soc#":
-q = q3.replace(qCom, '');
-q = q.trim();
-q = encodeURIComponent(q);
-urlList = [
-//"https://www.reddit.com/search/?q=" + q + "&type=posts&sort=new",
-//"https://www.tumblr.com/search/" + q,
-//"https://www.tumblr.com/search/" + q + "?postTypes=chat%2Clink%2Cquote%2Ctext%2Cpoll%2Cask",
-"https://bsky.app/search?q=" + q,
-//"https://wordpress.com/reader/search?q=" + q,
-];
-if (q == ""){
-urlList = [
-//"https://www.reddit.com/",
-//"https://www.tumblr.com/",
-"https://bsky.app/",
-//"https://wordpress.com/discover",
-];
-}
-random = urlList[fuMRandom(0, urlList.length - 1)];
-url = random;
-sRedirectUrl = url;
-break;
-
-case "sl#":
-case "sd#":
-q = q3.replace(qCom, '');
-q = q.trim();
-q = encodeURIComponent(q);
-urlList = [
-//"https://substack.com/search/"+ q +"?searching=note",
-"https://www.tumblr.com/search/" + q + "?t=1",
-"https://wordpress.com/reader/search?q=" + q + "&sort=date",
-];
-if (q == ""){
-urlList = [
-//"https://substack.com/",,
-"https://www.tumblr.com/",
-"https://wordpress.com/discover",
-];
-}
-random = urlList[fuMRandom(0, urlList.length - 1)];
-url = random;
-sRedirectUrl = url;
-break;
-
-
-case "tag#":
-case "ht#":
-case "htag#":
-q = q3.replace(qCom, '');
-q = q.trim();
-q = encodeURIComponent(q);
-urlList = [
-//"https://www.tumblr.com/tagged/" + q,
-"https://bsky.app/hashtag/" + q,
-//"https://wordpress.com/tag/" + q,
-];
-if (q == ""){
-urlList = [
-//"https://www.tumblr.com/",
-"https://bsky.app/",
-//"https://wordpress.com/discover",
-];
-}
-random = urlList[fuMRandom(0, urlList.length - 1)];
-url = random;
-sRedirectUrl = url;
-break;
-
-
 case "aud#":
 case "pod#":
 q = q3.replace(qCom, '');
@@ -2628,7 +2555,7 @@ document.getElementById('printComList').innerHTML = `
 
 Example redirects (random): "Google n" - news about Google.
 
-goo - Google, bin - Bing, n - news, i - images, v - videos, s - social media, l - luck (first search result).
+goo - Google, bin - Bing, n - news, i - images, v - videos, l - I'm feeling lucky (first search result).
 </div>
 
 </details>

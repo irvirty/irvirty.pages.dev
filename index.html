@@ -358,7 +358,6 @@ document.getElementById("last-update").innerHTML = fuPostTime(1759750969);
 <a class="autoColumnItem keepTag2 itemHeight light2 border3 borderRadius2 op" href="/search/?q=i" title="Image search random (text i)">Images</a>
 <a class="autoColumnItem keepTag2 itemHeight light2 border3 borderRadius2 op" href="/search/?q=v" title="Video search random (text v)">Videos</a>
 <a class="autoColumnItem keepTag2 itemHeight light2 border3 borderRadius2 op" href="/search/?q=pod" title="Podcast search (text pod)">Podcast</a>
-<a class="autoColumnItem keepTag2 itemHeight light2 border3 borderRadius2 op" href="/search/?q=s" title="Social media search random (text s)">Social</a>
 <a class="autoColumnItem keepTag2 itemHeight light2 border3 borderRadius2 op" href="/search/?q=t" title="Translate random (text t)">Translate</a>
 <a class="autoColumnItem keepTag2 itemHeight light2 border3 borderRadius2 op" href="/search/?q=ps" title="Google Programmable Search (text ps)">Google ps</a>
 <a class="autoColumnItem keepTag2 itemHeight light2 border3 borderRadius2 op" href="/search/?q=qs" title="Site search (text qs)">Site</a>
@@ -482,7 +481,6 @@ var a = `
 <a class="autoColumnItem keepTag2 itemHeight light2 border3 borderRadius2 op" href="/search/?q=` + text + ` i" title="Image search random (text i)">Images</a>
 <a class="autoColumnItem keepTag2 itemHeight light2 border3 borderRadius2 op" href="/search/?q=` + text + ` v" title="Video search random (text v)">Videos</a>
 <a class="autoColumnItem keepTag2 itemHeight light2 border3 borderRadius2 op" href="/search/?q=` + text + ` pod" title="Podcast search (text pod)">Podcast</a>
-<a class="autoColumnItem keepTag2 itemHeight light2 border3 borderRadius2 op" href="/search/?q=` + text + ` s" title="Socail media search random (text s)">Social</a>
 <a class="autoColumnItem keepTag2 itemHeight light2 border3 borderRadius2 op" href="/search/?q=` + text + ` t" title="Translate random (text t)">Translate</a>
 <a class="autoColumnItem keepTag2 itemHeight light2 border3 borderRadius2 op" href="/search/?q=` + text + ` ps" title="Google Programmable Search (text ps)">Google ps</a>
 <a class="autoColumnItem keepTag2 itemHeight light2 border3 borderRadius2 op" href="/search/?q=` + text + ` qs" title="Site search (text qs)">Site</a>
@@ -577,7 +575,7 @@ if (conf["confTagCloudlStatus"] == "on"){
 document.getElementById("printTagsHeader").innerHTML = `
 
 <div class="bold padding medium">
-<a class="op brand notUnderline" href="/projects/redirects-25/?q=s" title="Social Networks Explore (random)">Social network and web explore:</a>
+<a class="op brand notUnderline" href="/projects/redirects-25/?q=s" title="Web Explore:</a>
 </div>
 
 <div class="padding"></div>
@@ -598,7 +596,7 @@ mode = localStorage.getItem("tagModeData");
 localStorage.setItem("tagModeData", mode);
 }
 
-if (mode == null||mode == undefined){ mode = "Hashtags"; }
+if (mode == null||mode == undefined){ mode = "Search"; }
 
 let tagListSortConf = localStorage.getItem("tagListSortConf");
 
@@ -797,16 +795,12 @@ printTag = fuMClearText(printTag);
 
 switch (mode) {
 
-case 'Keywords':
-tagListPrint += `<a class="inlineBlock padding op ` + tagColor + ` ;" style="font-size: ` + tagSize + `;" href="/search/?q=` + printTagUrl + ` s">` + printTag + `</a>`;
+case 'Search':
+tagListPrint += `<a class="inlineBlock padding op ` + tagColor + ` ;" style="font-size: ` + tagSize + `;" href="/search/?q=` + printTagUrl + ` q">` + printTag + `</a>`;
 break;
 
 case 'News':
 tagListPrint += `<a class="inlineBlock padding op ` + tagColor + ` ;" style="font-size: ` + tagSize + `;" href="/search/?q=` + printTagUrl + ` n">` + printTag + `</a>`;
-break;
-
-case 'Search':
-tagListPrint += `<a class="inlineBlock padding op ` + tagColor + ` ;" style="font-size: ` + tagSize + `;" href="/search/?q=` + printTagUrl + ` q">` + printTag + `</a>`;
 break;
 
 case 'Google':
@@ -830,7 +824,7 @@ tagListPrint += `<span class="inlineBlock padding">` + printTag + `</span>`;
 break;
 
 default:
-tagListPrint += `<a class="inlineBlock padding op ` + tagColor + ` " style="font-size: ` + tagSize + `;" href="/search/?q=` + printTagUrl + ` ht">#` + printTag + `</a>`;
+tagListPrint += `<a class="inlineBlock padding op ` + tagColor + ` " style="font-size: ` + tagSize + `;" href="/search/?q=` + printTagUrl + ` q">#` + printTag + `</a>`;
 
 }
 }
@@ -854,7 +848,7 @@ tagListCloud("");
 function modeSwitch(mode, tagList, tagListSortConf){
 
 let tagModePrint = "";
-let tagsModeList = `Hashtags Keywords News Search Google Bing SearchOther GooglePS`;
+let tagsModeList = `Search News Google Bing SearchOther GooglePS`;
 
 let arr = fuMSplit(tagsModeList);
 let tagListPrint = `<span class="op">mode:</span>`;
