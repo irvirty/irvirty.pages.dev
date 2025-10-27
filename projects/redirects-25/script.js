@@ -1,4 +1,4 @@
-// Search redirect v.2.10.16
+// Search redirect v.2.11.0
 // Search query + command
 // Example: "text goo" or "text google", "text bin" or "text bing"
 
@@ -1013,6 +1013,7 @@ sRedirectUrl = url;
 break;
 
 
+case "wikipedia#":
 case "wik#":
 case "wi#":
 q = q3.replace(qCom, '');
@@ -1023,7 +1024,8 @@ urlList = [
 ];
 if (q == ""){
 urlList = [
-"https://en.wikipedia.org/wiki/Special:Random",
+"https://www.wikipedia.org/",
+//"https://en.wikipedia.org/wiki/Special:Random",
 ];
 }
 random = urlList[fuMRandom(0, urlList.length - 1)];
@@ -1032,7 +1034,10 @@ sRedirectUrl = url;
 break;
 
 
-/*case "wm#":
+case "wikimedia#":
+case "wim#":
+case "wm#":
+case "mw#":
 q = q3.replace(qCom, '');
 q = q.trim();
 q = encodeURIComponent(q);
@@ -1047,21 +1052,21 @@ urlList = [
 random = urlList[fuMRandom(0, urlList.length - 1)];
 url = random;
 sRedirectUrl = url;
-break;*/
+break;
 
 
-case "enc#":
+case "openverse#":
+case "opv#":
+case "ov#":
 q = q3.replace(qCom, '');
 q = q.trim();
 q = encodeURIComponent(q);
 urlList = [
-"https://wikipedia.org/w/?search=" + q,
-//"https://www.thecanadianencyclopedia.ca/en/search?query=" + q,
+"https://openverse.org/search?q=" + q,
 ];
 if (q == ""){
 urlList = [
-"https://en.wikipedia.org/wiki/Special:Random",
-//"https://www.thecanadianencyclopedia.ca/",
+"https://openverse.org/",
 ];
 }
 random = urlList[fuMRandom(0, urlList.length - 1)];
