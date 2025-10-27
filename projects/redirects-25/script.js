@@ -1,4 +1,4 @@
-// Search redirect v.2.11.0
+// Search redirect v.2.12.0
 // Search query + command
 // Example: "text goo" or "text google", "text bin" or "text bing"
 
@@ -83,26 +83,6 @@ var qCom = strArray[strArray.length - 1] + "#";
 var q3 = q + "#";
 
 switch (qCom) {
-
-
-// pi#
-case "rn#":
-q = q3.replace(qCom, '');
-q = q.trim();
-q = encodeURIComponent(q);
-if (q == ""){
-urlList = [
-'n', 'cul', 'spo', 'sci', 'tec', 'dev',
-];
-random = urlList[fuMRandom(0, urlList.length - 1)];
-url = '?q=' + random;
-sRedirectUrl = url;
-} else {
-url = '?q=' + q + " rn q";
-sRedirectUrl = url;
-}
-break;
-
 
 case "l#": case "ll#":
 q = q3.replace(qCom, '');
@@ -738,109 +718,6 @@ sRedirectUrl = url;
 break;
 
 
-case "tec#":
-q = q3.replace(qCom, '');
-q = q.trim();
-q = encodeURIComponent(q);
-urlList = [
-"/?q=" + q + " q",
-];
-if (q == ""){
-urlList = [
-"https://www.reddit.com/r/technology/",
-"https://flipboard.com/topic/technology",
-"https://flipboard.com/topic/computerscience",
-"https://slashdot.org/",
-//"https://alternativeto.net/news/all/",
-//https://www.mojeek.com/news?top=technology
-];
-}
-random = urlList[fuMRandom(0, urlList.length - 1)];
-url = random;
-sRedirectUrl = url;
-break;
-
-
-case "sci#":
-q = q3.replace(qCom, '');
-q = q.trim();
-q = encodeURIComponent(q);
-urlList = [
-"/?q=" + q,
-];
-if (q == ""){
-urlList = [
-"https://www.reddit.com/r/science/",
-"https://flipboard.com/topic/science",
-"https://science.slashdot.org/",
-];
-}
-random = urlList[fuMRandom(0, urlList.length - 1)];
-url = random;
-sRedirectUrl = url;
-break;
-
-
-case "des#":
-q = q3.replace(qCom, '');
-q = q.trim();
-q = encodeURIComponent(q);
-urlList = [
-"https://dribbble.com/search/" + q,
-"https://www.behance.net/search/" + q,
-];
-if (q == ""){
-urlList = [
-"https://dribbble.com/",
-"https://www.behance.net/",
-];
-}
-random = urlList[fuMRandom(0, urlList.length - 1)];
-url = random;
-sRedirectUrl = url;
-break;
-
-
-case "cu#":
-case "cul#":
-q = q3.replace(qCom, '');
-q = q.trim();
-q = encodeURIComponent(q);
-urlList = [
-"/?q=" + q,
-];
-if (q == ""){
-urlList = [
-"https://www.reddit.com/r/culture/",
-"https://flipboard.com/topic/culture",
-"https://flipboard.com/topic/arts",
-];
-}
-random = urlList[fuMRandom(0, urlList.length - 1)];
-url = random;
-sRedirectUrl = url;
-break;
-
-
-case "spo#":
-q = q3.replace(qCom, '');
-q = q.trim();
-q = encodeURIComponent(q);
-urlList = [
-"/?q=" + q,
-];
-if (q == ""){
-urlList = [
-"https://www.reddit.com/r/sports/",
-"https://flipboard.com/topic/sports",
-];
-}
-random = urlList[fuMRandom(0, urlList.length - 1)];
-url = random;
-sRedirectUrl = url;
-break;
-
-
 case "dev#":
 q = q3.replace(qCom, '');
 q = q.trim();
@@ -853,8 +730,6 @@ if (q == ""){
 urlList = [
 "https://dev.to/",
 "https://hashnode.com/community",
-//"https://stackoverflow.com/",
-"https://news.ycombinator.com/",
 ];
 }
 random = urlList[fuMRandom(0, urlList.length - 1)];

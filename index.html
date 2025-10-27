@@ -247,19 +247,6 @@ WordPress theme: I added a background with a randomly selected image to the them
 <div class="small pre"><span class="xSmall" title="Status">Status: </span><span class="ico zero medium">🍂</span> Autumn.</div>
 </div>
 
-<!--<aside>
-<div id="hotLinksTop" class="scrollX tCenter small noscriptHide paddingList notUnderline">
-<span id="urlDayNow"></span>
-<a class="brand inlineBlock padding op small" href="https://wikipedia.org/wiki/" title="Wikipedia, the free encyclopedia">Wiki</a>
-<a class="brand inlineBlock padding op small" href="/projects/redirects-25/?q=nn" title="News (random)">News</a>
-<a class="brand inlineBlock padding op small" href="/projects/redirects-25/?q=cul" title="Other news (random)">Other</a>
-<a class="brand inlineBlock padding op small" href="/projects/redirects-25/?q=spo" title="Sports news (random)">Sports</a>
-<a class="brand inlineBlock padding op small" href="/projects/redirects-25/?q=sci" title="Science news (random)">Sci</a>
-<a class="brand inlineBlock padding op small" href="/projects/redirects-25/?q=tec" title="Technology news (random)">Tech</a>
-<a class="brand inlineBlock padding op small" href="/projects/redirects-25/?q=dev" title="Development (random)">Dev</a>
-</div>
-</aside>-->
-
 <div class="padding1PxList"></div>
 
 </header>
@@ -333,33 +320,6 @@ document.getElementById("last-update").innerHTML = fuPostTime(1759750969);
 }
 }
 </script>
-
-<!--<script>
-// day link
-var monthsEn = ['', 'January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'];
-//https://en.wikipedia.org/wiki/Template:MONTHABBREV
-var monthsEnShort = ['', 'Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
-var dayEn = ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'];
-
-//https://stackoverflow.com/questions/50922593/function-getutcdate-returns-a-month
-var dateObj = new Date();
-var month = dateObj.getMonth() + 1; //months from 1-12
-var day = dateObj.getDate();
-var year = dateObj.getFullYear();
-
-//https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/getDay
-let d = dateObj.getDay();
-
-//var dayNowTitle = day +' '+ dayEn[d];
-var dayNowTitle = dayEn[d] + ', ' + monthsEnShort[month] + ' ' + day;
-
-var urlDayNow = 'https://en.wikipedia.org/wiki/' + monthsEn[month] + '_' + day + '';
-if (document.getElementById('urlDayNow') != null){
-document.getElementById('urlDayNow').innerHTML = `<a class="brand inlineBlock padding op small" href="` + urlDayNow + `" title="Wikipedia">` + dayNowTitle + `</a>`;
-//document.getElementById('urlDayNow').innerHTML = `<a class="brand inlineBlock padding op small" href="https://wikipedia.org/wiki/" title="Wikipedia">` + dayNowTitle + `</a>`
-}
-</script>-->
-
 
 <div id="form" class="noscriptHide">
 <form method="GET" style="margin-top: 0px;" action="./search/" autocomplete="off" role="search">
