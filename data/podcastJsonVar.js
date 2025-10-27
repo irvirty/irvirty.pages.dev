@@ -660,15 +660,6 @@ var podcastJsonVar =
         "rightFooter": ""
     },
     {
-        "text": "Hard Fork - YouTube",
-        "text2": "",
-        "text3": "",
-        "url": "https:\/\/www.youtube.com\/playlist?list=PLB9gMmtMLXxsa8C0PzHFL2tJFh7FrKrYD",
-        "tag": "#podcast #technology #en",
-        "time": 1745761939,
-        "rightFooter": ""
-    },
-    {
         "text": "Waveform Podcast - YouTube",
         "text2": "",
         "text3": "",

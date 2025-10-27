@@ -75,15 +75,6 @@ var tvJsonVar =
         "rightFooter": ""
     },
     {
-        "text": "BBC Learning English - YouTube",
-        "text2": "",
-        "text3": "",
-        "url": "https:\/\/www.youtube.com\/@bbclearningenglish\/featured",
-        "tag": "#TV #learning #english",
-        "time": 1738660330,
-        "rightFooter": ""
-    },
-    {
         "text": "Eurogamer - YouTube",
         "text2": "",
         "text3": "",
