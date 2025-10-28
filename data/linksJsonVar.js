@@ -3,6 +3,36 @@ var linksJsonVar =
 
 [
     {
+        "id": "345",
+        "text": "Home | The Canadian Encyclopedia",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/thecanadianencyclopedia.ca\/",
+        "tag": "#encyclopedia #information #articles",
+        "time": 1761641542,
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=345\"  title=\"id=345 (permanent link)\" >id<\/a>"
+    },
+    {
+        "id": "344",
+        "text": "Encyclopedia.com | Free Online Encyclopedia",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.encyclopedia.com\/",
+        "tag": "#encyclopedia #information #articles",
+        "time": 1761641449,
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=344\"  title=\"id=344 (permanent link)\" >id<\/a>"
+    },
+    {
+        "id": "343",
+        "text": "Grokipedia",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/grokipedia.com\/",
+        "tag": "#encyclopedia #information #articles",
+        "time": 1761641170,
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=343\"  title=\"id=343 (permanent link)\" >id<\/a>"
+    },
+    {
         "id": "342",
         "text": "Openly Licensed Images, Audio and More | Openverse",
         "text2": "",
@@ -138,7 +168,7 @@ var linksJsonVar =
         "text2": "",
         "text3": "",
         "url": "https:\/\/www.wikipedia.org\/",
-        "tag": "#encyclopedia",
+        "tag": "#encyclopedia #information #articles",
         "time": 1758647935,
         "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=326\"  title=\"id=326 (permanent link)\" >id<\/a>"
     },
@@ -1148,7 +1178,7 @@ var linksJsonVar =
         "text2": "",
         "text3": "",
         "url": "https:\/\/en.wikipedia.org\/wiki\/Main_Page",
-        "tag": "#encyclopedia #docs #info #information #articles",
+        "tag": "#encyclopedia #information #articles",
         "time": 1738027714,
         "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=222\"  title=\"id=222 (permanent link)\" >id<\/a>"
     },

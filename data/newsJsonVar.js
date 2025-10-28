@@ -3,6 +3,16 @@ var newsJsonVar =
 
 [
     {
+        "id": "82",
+        "text": "X's Grokipedia is online after it briefly crashed out",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.engadget.com\/social-media\/xs-grokipedia-is-online-after-it-briefly-crashed-out-231108836.html",
+        "tag": "#encyclopedia #information #articles #website #web #internet #AI #Grok #xAI",
+        "time": 1761641789,
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/news\/?id=82\"  title=\"id=82 (permanent link)\" >id<\/a>"
+    },
+    {
         "id": "81",
         "text": "Microsoft Launches Mico, an Official Clippy Successor, in Its Copilot AI Fall Release",
         "text2": "",
