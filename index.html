@@ -596,7 +596,7 @@ mode = localStorage.getItem("tagModeData");
 localStorage.setItem("tagModeData", mode);
 }
 
-if (mode == null||mode == undefined){ mode = "Search"; }
+if (mode == null||mode == undefined){ mode = "News"; }
 
 let tagListSortConf = localStorage.getItem("tagListSortConf");
 
@@ -795,6 +795,10 @@ printTag = fuMClearText(printTag);
 
 switch (mode) {
 
+case 'Social':
+tagListPrint += `<a class="inlineBlock padding op ` + tagColor + ` ;" style="font-size: ` + tagSize + `;" href="/search/?q=` + printTagUrl + ` s">` + printTag + `</a>`;
+break;
+
 case 'Search':
 tagListPrint += `<a class="inlineBlock padding op ` + tagColor + ` ;" style="font-size: ` + tagSize + `;" href="/search/?q=` + printTagUrl + ` q">` + printTag + `</a>`;
 break;
@@ -848,7 +852,7 @@ tagListCloud("");
 function modeSwitch(mode, tagList, tagListSortConf){
 
 let tagModePrint = "";
-let tagsModeList = `Search News Google Bing SearchOther GooglePS`;
+let tagsModeList = `Social Search News Google Bing SearchOther GooglePS`;
 
 let arr = fuMSplit(tagsModeList);
 let tagListPrint = `<span class="op">mode:</span>`;
