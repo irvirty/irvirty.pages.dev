@@ -1,4 +1,4 @@
-// Start page v.1.2.1
+// Start page v.1.3.0
 
 
 
@@ -69,7 +69,23 @@ document.getElementById('audio').innerHTML += `<audio style="display:none" autop
 
 document.getElementById('clock').innerHTML = hours + ':' + minutes + ':' + seconds;
 document.getElementById('clock2').innerHTML = hours2 + ':' + minutes2; // result 2 standart 
-document.getElementById('clockUtc').innerHTML = hoursUtc + ':' + minutesUtc; // result 2 standart 
+
+const dateUtcOffset = new Date(); // Create a Date object for the current date/time
+const offsetMinutes = dateUtcOffset.getTimezoneOffset(); // Get the offset in minutes
+// To convert the offset to hours:
+let offsetHours = -offsetMinutes / 60;
+
+if(String(offsetHours).indexOf("-") != -1){
+offsetHours = offsetHours;
+} else {
+offsetHours = String("+" + offsetHours);
+}
+// fix
+if (offsetHours == "+0"){ offsetHours = 0; }
+
+
+document.getElementById('clockUtc').innerHTML = hoursUtc + ':' + minutesUtc;
+document.getElementById('dateUtcOffset').innerHTML = `(${offsetHours})`;
 
 
 //clock time
@@ -142,6 +158,5 @@ var dayNowTitle = dayEn[d] + ', ' + monthsEn[month] + ' ' + day;
 var urlDayNow = 'https://en.wikipedia.org/wiki/' + monthsEn[month] + '_' + day + '';
 if (document.getElementById('urlDayNow') != null){
 document.getElementById('urlDayNow').innerHTML = dayNowTitle;
-//document.getElementById('urlDayNow').innerHTML = `<a class="brand inlineBlock padding op small" href="` + urlDayNow + `" title="Wikipedia">` + dayNowTitle + `</a>`;
-//document.getElementById('urlDayNow').innerHTML = `<a class="brand inlineBlock padding op small" href="https://wikipedia.org/wiki/" title="Wikipedia">` + dayNowTitle + `</a>`;
+document.getElementById('urlDayNow').innerHTML += "<br>" + day + "/" + month + "/" + year;
 }

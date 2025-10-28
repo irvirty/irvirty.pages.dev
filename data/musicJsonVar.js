@@ -3,6 +3,66 @@ var musicJsonVar =
 
 [
     {
+        "id": "6649",
+        "text": "Chappell Roan - Pink Pony Club (Official Music Video) - YouTube",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=GR3Liudev18",
+        "tag": "#music",
+        "time": 1761660022,
+        "rightFooter": ""
+    },
+    {
+        "id": "6648",
+        "text": "Chappell Roan - Naked in Manhattan (Official Music Video) - YouTube",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=nXZuv1T8bfg",
+        "tag": "#music",
+        "time": 1761659908,
+        "rightFooter": ""
+    },
+    {
+        "id": "6647",
+        "text": "LORDE - Royals - YouTube",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=LFasFq4GJYM",
+        "tag": "#music",
+        "time": 1761659352,
+        "rightFooter": ""
+    },
+    {
+        "id": "6646",
+        "text": "Lorde - Team - YouTube",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=f2JuxM-snGc",
+        "tag": "#music",
+        "time": 1761659321,
+        "rightFooter": ""
+    },
+    {
+        "id": "6645",
+        "text": "Lorde - What Was That - YouTube",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=1UpoZpMBM9Y",
+        "tag": "#music",
+        "time": 1761659197,
+        "rightFooter": ""
+    },
+    {
+        "id": "6644",
+        "text": "Sabrina Carpenter - Manchild (Official Video) - YouTube",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=aSugSGCC12I",
+        "tag": "#music",
+        "time": 1761658651,
+        "rightFooter": ""
+    },
+    {
         "id": "6641",
         "text": "KAYTRANADA - YOU'RE THE ONE (feat. SYD) - YouTube",
         "text2": "",
