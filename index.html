@@ -605,7 +605,7 @@ let tagListColor = `red orange yellow green blue indigo violet`;
 let tagList = localStorage.getItem("tagListData");
 if (tagList == null||tagList == undefined){
 tagList = `
-Example Keyword Keyword
+Example, Keyword, Keyword,
 `;
 }
 
@@ -631,14 +631,15 @@ let size = '';
 //tagList = '';
 
 tagCloudData = tagCloudData.replaceAll(`
-`, ' ');
-tagCloudData = tagCloudData.replaceAll(/,/g, confSymbolForSplit);
-tagCloudData = tagCloudData.replaceAll(/ /g, confSymbolForSplit);
-tagCloudData = tagCloudData.replaceAll('·', '');
-tagCloudData = tagCloudData.replaceAll('.', ' ');
+`, confSymbolForSplit);
+tagCloudData = tagCloudData.replaceAll('·', "");
+tagCloudData = tagCloudData.replaceAll('.', " ");
 
-tagCloudData = '' + tagCloudData + ''.replaceAll(',', confSymbolForSplit);
-tagCloudData = '' + tagCloudData + ''.replaceAll(' ', confSymbolForSplit);
+if (tagCloudData.indexOf(',') != -1){
+tagCloudData = tagCloudData.replaceAll(',', confSymbolForSplit);
+} else {
+tagCloudData = tagCloudData.replaceAll(' ', confSymbolForSplit);
+}
 
 tagCloudData = tagCloudData.split(confSymbolForSplit);
 
