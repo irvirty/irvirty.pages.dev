@@ -528,6 +528,9 @@ document.getElementById("footer").innerHTML = `
 <a class="brand inlineBlock padding" title="Doante" href="${confD}pages/about/#donate">Donate</a>
 <span class="op gray">|</span>
 
+<a class="brand inlineBlock padding" title="Social network" href="https://bsky.app/profile/${conf["confUsername"]}.pages.dev">Bluesky</a>
+<span class="op gray">|</span>
+
 <a class="brand inlineBlock padding" title="RSS News" href="${confD}rss.xml">RSS</a>
 <span class="op gray">|</span>
 
