@@ -8,7 +8,7 @@ var newsJsonVar =
         "text2": "",
         "text3": "",
         "url": "https:\/\/www.engadget.com\/social-media\/xs-grokipedia-is-online-after-it-briefly-crashed-out-231108836.html",
-        "tag": "#encyclopedia #information #articles #website #web #internet #AI #Grok #xAI",
+        "tag": "#encyclopedia #information #articles #website #web #internet #AI #Grok #xAI #X",
         "time": 1761641789,
         "rightFooter": "<a class=\"brand\" href=\"\/pages\/news\/?id=82\"  title=\"id=82 (permanent link)\" >id<\/a>"
     },

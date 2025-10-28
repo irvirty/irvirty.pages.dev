@@ -1,4 +1,4 @@
-// Search redirect v.2.14.0
+// Search redirect v.2.15.0
 // Search query + command
 // Example: "text goo" or "text google", "text bin" or "text bing"
 
@@ -557,6 +557,46 @@ urlList = [
 if (q == ""){
 urlList = [
 "https://www.reddit.com/",
+];
+}
+random = urlList[fuMRandom(0, urlList.length - 1)];
+url = random;
+sRedirectUrl = url;
+break;
+
+
+case "s#":
+q = q3.replace(qCom, '');
+q = q.trim();
+q = encodeURIComponent(q);
+urlList = [
+"https://bsky.app/search?q=" + q,
+"https://wordpress.com/read/search?q=" + q,
+];
+if (q == ""){
+urlList = [
+"https://bsky.app/",
+"https://wordpress.com/read/",
+];
+}
+random = urlList[fuMRandom(0, urlList.length - 1)];
+url = random;
+sRedirectUrl = url;
+break;
+
+
+case "ht#":
+q = q3.replace(qCom, '');
+q = q.trim();
+q = encodeURIComponent(q);
+urlList = [
+"https://bsky.app/hashtag/" + q,
+"https://wordpress.com/tag/" + q,
+];
+if (q == ""){
+urlList = [
+"https://bsky.app/",
+"https://wordpress.com/read/",
 ];
 }
 random = urlList[fuMRandom(0, urlList.length - 1)];
