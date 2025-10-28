@@ -1,4 +1,4 @@
-// v.1.0.0
+// v.1.1.0
 
 
 // other functions keep
@@ -25,8 +25,8 @@ tagCloudData = tagCloudData.replaceAll(/ /g, confSymbolForSplit);
 tagCloudData = tagCloudData.replaceAll('·', '');
 tagCloudData = tagCloudData.replaceAll('.', ' ');
 
-tagCloudData = '' + tagCloudData + ''.replaceAll(',', confSymbolForSplit);
-tagCloudData = '' + tagCloudData + ''.replaceAll(' ', confSymbolForSplit);
+tagCloudData = tagCloudData.replaceAll(',', confSymbolForSplit);
+tagCloudData = tagCloudData.replaceAll(' ', confSymbolForSplit);
 
 tagCloudData = tagCloudData.split(confSymbolForSplit);
 
@@ -227,9 +227,11 @@ ${hlClassList}
 
 `;
 
+if (document.getElementById(tagCloudPrintId) != null){
 document.getElementById(tagCloudPrintId).innerHTML = tagList;
-
-//return tagList;
+} else {
+return tagList;
+}
 
 
 

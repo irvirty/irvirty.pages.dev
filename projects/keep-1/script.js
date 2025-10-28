@@ -1,4 +1,4 @@
-// Keep v.4.5.1
+// Keep v.4.5.2
 // The static version of my offline "keep" PHP script that saves things (links, notes, etc).
 // Inspired by Twitter, Google Keep
 // Not for large data files.
@@ -1305,8 +1305,8 @@ tagList2 = tagList2.replaceAll(/ /g, confSymbolForSplit);
 tagList2 = tagList2.replaceAll('·', '');
 tagList2 = tagList2.replaceAll('.', ' ');
 
-tagList2 = '' + tagList2 + ''.replaceAll(',', confSymbolForSplit);
-tagList2 = '' + tagList2 + ''.replaceAll(' ', confSymbolForSplit);
+tagList2 = tagList2.replaceAll(',', confSymbolForSplit);
+tagList2 = tagList2.replaceAll(' ', confSymbolForSplit);
 
 tagList2 = tagList2.split(confSymbolForSplit);
 

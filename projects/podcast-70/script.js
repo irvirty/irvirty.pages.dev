@@ -75,7 +75,7 @@ if (item['url'] != null){ postUrl = item['url']; }
 if (item['time'] != null){ postTime = item['time']; }
 
 // collect all tag
-printTagList += ' ' + postTag + conf["confSymbolForSplit"] + ' ';
+printTagList += ' ' + postTag + ' ';
 
 let qSearch = "";
 if (q2 != ''){
@@ -172,7 +172,6 @@ document.getElementById('msg2').innerText = `${comMessagePrint}`;
 var multiEmbedStatus = 'off';
 
 
-// fucntion tagList from Blog
 // from blog
 // 2
 // highlight Text2 with autoplay when pressed id (date)
@@ -441,261 +440,13 @@ return text + ' ' + embed + embed2;
 
 
 
-
-
-
-
-
-
-// start taglist
-var hlClass = '';
-var color = 'silver';
-var size = '';
-// fu. tagList from Blog
-// other functions 
-// start tagList
-function tagList(tagList2){
-
-tagList = '';
-
-
-tagList2 = tagList2.replaceAll(/,/g, conf["confSymbolForSplit"]);
-tagList2 = tagList2.replaceAll(/ /g, conf["confSymbolForSplit"]);
-
-tagList2 = tagList2.split(conf["confSymbolForSplit"]);
-
-/*
-//https://stackoverflow.com/questions/8996963/how-to-perform-case-insensitive-sorting-array-of-string-in-javascript
-tagList2.sort(function (a, b) {
-return a.toLowerCase().localeCompare(b.toLowerCase());
-});*/
-
-
-
-
-var tagAverage = 0;
-var tagTotal = 0;
-
-// https://stackoverflow.com/questions/19395257/how-to-count-duplicate-value-in-an-array-in-javascript
-// make uniq and count, object
-var tagListCount = {};
-tagList2.forEach(function (x) {
-if (x != null&&x != ''){
-tagListCount[x] = (tagListCount[x] || 0) + 1;
-}
-});
-
-
-
-
-
-
-
-// Taglist limit
-//https://stackoverflow.com/questions/1069666/sorting-object-property-by-values
-// sort object by value
-let entries = Object.entries(tagListCount);
-let tagListCountSorted = entries.sort((a, b) => a[1] - b[1]);
-tagListCountSorted.reverse();
-
-
-// Taglist limit (cut array) with sorted tag and convert to old object, sorted previos
-tagListCountLimited = {};
-tagListCountSorted.forEach(function (item, key) {
-if (key <= tagListLimit){
-tagListCountLimited[item[0]] = item[1];
-}
-});
-
-
-// sort
-// https://stackoverflow.com/questions/5467129/sort-javascript-object-by-key
-tagListCount = {};
-tagListCount = Object.keys(tagListCountLimited).sort().reduce(
-  (obj, key) => { 
-    obj[key] = tagListCountLimited[key]; 
-    return obj;
-  }, 
-  {}
-);
-// end Taglist limit
-
-
-
-
-
-
-
-/*tagAverage = (Math.min(...Object.values(tagListCount))+Math.max(...Object.values(tagListCount)))/2;
-//console.log(tagAverage);*/
-Object.values(tagListCount).forEach(function (x) {
-tagTotal = tagTotal+x;
-});
-tagAverage = tagTotal/Object.values(tagListCount).length;
-
-
-
-
-var tagSize = '';
-var tagColor = '';
-
-function fuTag(tagCount){
-//let tagPercentage = (Math.floor((tagCount*100)/tagTotal)); // from 100%, need rebuild case from 100
-let tagPercentage = (Math.floor((tagCount*100)/tagAverage)); // over 100%, used average if tag disproportion 1% and 90%
-//console.log(tagPercentage);
-
-// tag font-size and color
-switch (true) {
-
-case tagPercentage >= 500:
-tagColor = "var(--red)";
-tagSize = "200%";
-break;
-
-case tagPercentage >= 300:
-tagColor = "var(--orange)";
-tagSize = "180%";
-break;
-
-case tagPercentage >= 250:
-tagColor = "var(--yellow)";
-tagSize = "170%";
-break;
-
-case tagPercentage >= 100:
-tagColor = "var(--green)";
-tagSize = "150%";
-break;
-
-case tagPercentage >= 80:
-tagColor = "var(--blue)";
-tagSize = "130%";
-break;
-
-case tagPercentage >= 50:
-tagColor = "var(--indigo)";
-tagSize = "120%";
-break;
-
-case tagPercentage >= 30:
-tagColor = "var(--violet)";
-tagSize = "110%";
-break;
-
-default:
-tagColor = "var(--c2)";
-tagSize = "95%";
-}
-
-//console.log(tagColor);
-//return tagColor;
-}
-
-
-
-//https://stackoverflow.com/questions/8996963/how-to-perform-case-insensitive-sorting-array-of-string-in-javascript
-let sortedTags = Object.entries(tagListCount).sort(Intl.Collator().compare)
-
-let hlClassList = '';
-// https://masteringjs.io/tutorials/fundamentals/foreach-object
-sortedTags.forEach(entry => {
-const [key, value] = entry;
-
-
-//alert('test');
-
-tag = key.trim();
-tagCount = value;
-
-
-
-fuTag(tagCount);
-
-
-
-
-if (tag != ''){
-let printTag = tag;
-let printTag2 = tag.replaceAll(/#/g, "");
-let goTag = encodeURIComponent(tag);
-
-let hlClass = '';
-if (printTag[0] != undefined){
-hlClass = 'hlClass'+printTag2[0].toLowerCase();
-hlClassList += printTag2[0].toLowerCase();
-}
-
-if (q == tag){
-tagList += `
-
-<a class="keepTag light border borderRadius2 ${hlClass} c4R" href="${scriptDir}?q=${goTag}" style="background: ${tagColor}; font-size: ${tagSize};">${printTag}</a>
-
-`;
-} else {
-
-tagList += `
-
-<a class="keepTag light border borderRadius2 ${hlClass}" href="${scriptDir}?q=${goTag}"  style="color: ${tagColor}; font-size: ${tagSize};">${printTag}</a>
-
-`;
-}
-}
-});
-
-var hlClassList3 = '';
-hlClassList2 = [...new Set([...hlClassList])]; //https://stackoverflow.com/questions/9229645/remove-duplicate-values-from-js-array
-hlClassList = '';
-hlClassList2.forEach(function(item){
-let hlClass = 'hlClass'+item;
-item = item.toUpperCase();
-hlClassList3 += `
-<a class="keepTag light border borderRadius2 ${hlClass}" onmouseover="hlwClassAdd('${hlClass}')" onmouseout="hlwClassRemove('${hlClass}')" href="#id${hlClass}" id="${hlClass}">${item}</a>
-`;
-});
-
-tagList = `
-
-<div class="wrapper3">
-<div class="tagList">${tagList}</div>
-<div class="block padding2"></div>
-</div>
-
-<div class="wrapper">
-<div class="tagList padding3">${hlClassList3}</div>
-</div>
-
-`;
-
-
-
-
-return tagList;
-
-}
-//  end tag list
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 document.getElementById(printId).innerHTML += `
 <div class="center tCenter">
 <div class="wrapper3 notUnderline">
 
 <div class="margin2 padding2"></div>
 
-<div class="block op small padding2">Tag cloud:</div>
-` + tagList(printTagList) + `
+` + fuTagCloud("NotFoundId", printTagList, q, "", "./") + `
 </div>
 </div>
 `;
