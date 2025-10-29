@@ -70,6 +70,7 @@ document.getElementById('audio').innerHTML += `<audio style="display:none" autop
 document.getElementById('clock').innerHTML = hours + ':' + minutes + ':' + seconds;
 document.getElementById('clock2').innerHTML = hours2 + ':' + minutes2; // result 2 standart 
 
+// Google AI Overview
 const dateUtcOffset = new Date(); // Create a Date object for the current date/time
 const offsetMinutes = dateUtcOffset.getTimezoneOffset(); // Get the offset in minutes
 // To convert the offset to hours:

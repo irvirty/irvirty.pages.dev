@@ -1,4 +1,4 @@
-// Search redirect v.2.15.0
+// Search redirect v.2.15.1
 // Search query + command
 // Example: "text goo" or "text google", "text bin" or "text bing"
 
@@ -571,12 +571,12 @@ q = q.trim();
 q = encodeURIComponent(q);
 urlList = [
 "https://bsky.app/search?q=" + q,
-"https://wordpress.com/read/search?q=" + q,
+"https://wordpress.com/reader/search?q=" + q,
 ];
 if (q == ""){
 urlList = [
 "https://bsky.app/",
-"https://wordpress.com/read/",
+"https://wordpress.com/reader/",
 ];
 }
 random = urlList[fuMRandom(0, urlList.length - 1)];
@@ -596,7 +596,7 @@ urlList = [
 if (q == ""){
 urlList = [
 "https://bsky.app/",
-"https://wordpress.com/read/",
+"https://wordpress.com/reader/",
 ];
 }
 random = urlList[fuMRandom(0, urlList.length - 1)];

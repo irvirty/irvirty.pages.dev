@@ -18,6 +18,7 @@ Video:
 *.youtube.com/*
 *.vimeo.com/*
 *.dailymotion.com/*
+*.sepiasearch.org/*
 
 Blog:
 *.blogspot.com/*
