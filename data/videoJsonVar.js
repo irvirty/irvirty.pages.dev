@@ -3,6 +3,24 @@ var videoJsonVar =
 
 [
     {
+        "text": "Big Stan FULL MOVIE | Comedy Movies | Rob Schneider | The Midnight Screening - YouTube",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=sx8pViXxZQg",
+        "tag": "#video #movie",
+        "time": 1761731409,
+        "rightFooter": ""
+    },
+    {
+        "text": "2nd Chance for Christmas FULL MOVIE | Brittany Underwood | Christmas Movies | Femme Fatales - YouTube",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=9e1o0385OPk",
+        "tag": "#video #movie",
+        "time": 1761731324,
+        "rightFooter": ""
+    },
+    {
         "text": "A Date With Miss Fortune | Full Romantic Comedy Movie - YouTube",
         "text2": "",
         "text3": "",
@@ -4113,15 +4131,6 @@ var videoJsonVar =
         "url": "https:\/\/www.youtube.com\/watch?v=OWtVKOEA-ME",
         "tag": "#video #movie",
         "time": 1705236714,
-        "rightFooter": ""
-    },
-    {
-        "text": "Diamond Dog Caper | Full Family Comedy Movie | French Stewart | Family Central - YouTube",
-        "text2": "",
-        "text3": "",
-        "url": "https:\/\/www.youtube.com\/watch?v=MkjMrzT6TvA",
-        "tag": "#video #movie",
-        "time": 1705236612,
         "rightFooter": ""
     },
     {

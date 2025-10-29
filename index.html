@@ -419,7 +419,7 @@ document.getElementById("last-update").innerHTML = fuPostTime(1759750969);
 
 <div id="printTags" class="balance notUnderline"></div>
 
-<div class="wrapperSmall small tRight">
+<div class="wrapperSmall small">
 <div><span class="notUnderline" id="printMode"></span></div>
 </div>
 
@@ -799,38 +799,38 @@ printTag = fuMClearText(printTag);
 switch (mode) {
 
 case 'Social':
-tagListPrint += `<a class="inlineBlock padding op ` + tagColor + ` ;" style="font-size: ` + tagSize + `;" href="/search/?q=` + printTagUrl + ` s">` + printTag + `</a>`;
+tagListPrint += `<a class="inlineBlock padding op ` + tagColor + ` ;" style="font-size: ` + tagSize + `; padding-right: 0;" href="/search/?q=` + printTagUrl + ` s">` + printTag + `</a>,`;
 break;
 
 case 'Tag':
 printTagUrl = printTagUrl.replaceAll(' ', "");
 printTagUrl = printTagUrl.replaceAll('%20', "");
 
-tagListPrint += `<a class="inlineBlock padding op ` + tagColor + ` ;" style="font-size: ` + tagSize + `;" href="/search/?q=` + printTagUrl + ` ht">` + printTag + `</a>`;
+tagListPrint += `<a class="inlineBlock padding op ` + tagColor + ` ;" style="font-size: ` + tagSize + `; padding-right: 0;" href="/search/?q=` + printTagUrl + ` ht">` + printTag + `</a>,`;
 break;
 
 case 'Search':
-tagListPrint += `<a class="inlineBlock padding op ` + tagColor + ` ;" style="font-size: ` + tagSize + `;" href="/search/?q=` + printTagUrl + ` q">` + printTag + `</a>`;
+tagListPrint += `<a class="inlineBlock padding op ` + tagColor + ` ;" style="font-size: ` + tagSize + `; padding-right: 0;" href="/search/?q=` + printTagUrl + ` q">` + printTag + `</a>,`;
 break;
 
 case 'News':
-tagListPrint += `<a class="inlineBlock padding op ` + tagColor + ` ;" style="font-size: ` + tagSize + `;" href="/search/?q=` + printTagUrl + ` n">` + printTag + `</a>`;
+tagListPrint += `<a class="inlineBlock padding op ` + tagColor + ` ;" style="font-size: ` + tagSize + `; padding-right: 0;" href="/search/?q=` + printTagUrl + ` n">` + printTag + `</a>,`;
 break;
 
 case 'Google':
-tagListPrint += `<a class="inlineBlock padding op ` + tagColor + ` " style="font-size: ` + tagSize + `;" href="/search/?q=` + printTagUrl + ` goo">` + printTag + `</a>`;
+tagListPrint += `<a class="inlineBlock padding op ` + tagColor + ` " style="font-size: ` + tagSize + `; padding-right: 0;" href="/search/?q=` + printTagUrl + ` goo">` + printTag + `</a>,`;
 break;
 
 case 'Bing':
-tagListPrint += `<a class="inlineBlock padding op ` + tagColor + ` " style="font-size: ` + tagSize + `;" href="/search/?q=` + printTagUrl + ` bin">` + printTag + `</a>`;
+tagListPrint += `<a class="inlineBlock padding op ` + tagColor + ` " style="font-size: ` + tagSize + `; padding-right: 0;" href="/search/?q=` + printTagUrl + ` bin">` + printTag + `</a>,`;
 break;
 
 case 'GooglePS':
-tagListPrint += `<a class="inlineBlock padding op ` + tagColor + ` " style="font-size: ` + tagSize + `;" href="/search/?q=` + printTagUrl + ` gps">` + printTag + `</a>`;
+tagListPrint += `<a class="inlineBlock padding op ` + tagColor + ` " style="font-size: ` + tagSize + `; padding-right: 0;" href="/search/?q=` + printTagUrl + ` gps">` + printTag + `</a>,`;
 break;
 
 case 'SearchOther':
-tagListPrint += `<a class="inlineBlock padding op ` + tagColor + ` " style="font-size: ` + tagSize + `;" href="/search/?q=` + printTagUrl + ` o">` + printTag + `</a>`;
+tagListPrint += `<a class="inlineBlock padding op ` + tagColor + ` " style="font-size: ` + tagSize + `; padding-right: 0;" href="/search/?q=` + printTagUrl + ` o">` + printTag + `</a>,`;
 break;
 
 case 'edit':
