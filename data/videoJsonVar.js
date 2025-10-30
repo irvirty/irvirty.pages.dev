@@ -2802,15 +2802,6 @@ var videoJsonVar =
         "rightFooter": ""
     },
     {
-        "text": "The Day Time Ended 1979 (Adventure, Sci-Fi) Jim Davis, Christopher Mitchum, Dorothy Malone | 4K - YouTube",
-        "text2": "",
-        "text3": "",
-        "url": "https:\/\/www.youtube.com\/watch?v=tMeVzwA6VfY",
-        "tag": "#video #movie",
-        "time": 1741007463,
-        "rightFooter": ""
-    },
-    {
         "text": "Double Trouble 1984 | Terence Hill, Bud Spencer | Action Movie | Subtitles - YouTube",
         "text2": "",
         "text3": "",
