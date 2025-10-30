@@ -1,4 +1,4 @@
-// Typing Speed Test (WPM) or Typing Speed Game v.4.0.3
+// Typing Speed Test (WPM) or Typing Speed Game v.4.1.0
 // "Zen" mode inspired by https://monkeytype.com/
 // Ignore some "typing modes" if the site is running on localhost, I use them to translate letters when I type.
 
@@ -283,6 +283,8 @@ if (mode == 'input'||mode == 'i2'){
 var tg = '';
 document.getElementById("bookmarklet").style.display = "inline-block";
 
+if (q === null){
+
 document.getElementsByClassName("input")[0].innerHTML = `
 <div class="wrapper">
 <br>
@@ -307,6 +309,8 @@ if (document.querySelectorAll('textarea').length >= 1){
 var inputA = document.querySelectorAll('textarea')[1];
 //inputA.removeEventListener('input', updateValueInput);
 inputA.addEventListener('input', updateValueInput);
+}
+
 }
 
 // input from Get
