@@ -3,6 +3,15 @@ var podcastJsonVar =
 
 [
     {
+        "text": "The Vergecast - YouTube",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/playlist?list=PL39u5ZEfYDEO5PaNRWyqloGY6zzJ1fjBa",
+        "tag": "#podcast #technology",
+        "time": 1761890584,
+        "rightFooter": ""
+    },
+    {
         "text": "Stream Cisco Podcast Network | Listen to podcast episodes online for free on SoundCloud",
         "text2": "",
         "text3": "",
