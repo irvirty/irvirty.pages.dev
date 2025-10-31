@@ -792,44 +792,48 @@ let printTag = tag;
 
 let printTagUrl = encodeURIComponent(tag.toLowerCase());
 
+if (mode === "Tag"){
+printTag = printTag.replaceAll(" ", "");
+}
+
 printTag = fuMClearText(printTag);
 
 
 switch (mode) {
 
 case 'Social':
-tagListPrint += `<a class="inlineBlock padding op ` + tagColor + ` ;" style="font-size: ` + tagSize + `; padding-right: 0;" href="/search/?q=` + printTagUrl + ` s">` + printTag + `</a>,`;
+tagListPrint += `<a class="inlineBlock padding op ` + tagColor + ` ;" style="font-size: ` + tagSize + `; padding-right: 0;" href="/search/?q=` + printTagUrl + ` s">` + printTag + `</a><span class="gray">,</span>`;
 break;
 
 case 'Tag':
 printTagUrl = printTagUrl.replaceAll(' ', "");
 printTagUrl = printTagUrl.replaceAll('%20', "");
 
-tagListPrint += `<a class="inlineBlock padding op ` + tagColor + ` ;" style="font-size: ` + tagSize + `; padding-right: 0;" href="/search/?q=` + printTagUrl + ` ht">` + printTag + `</a>,`;
+tagListPrint += `<a class="inlineBlock padding op ` + tagColor + ` ;" style="font-size: ` + tagSize + `; padding-right: 0;" href="/search/?q=` + printTagUrl + ` ht">` + printTag + `</a><span class="gray">,</span>`;
 break;
 
 case 'Search':
-tagListPrint += `<a class="inlineBlock padding op ` + tagColor + ` ;" style="font-size: ` + tagSize + `; padding-right: 0;" href="/search/?q=` + printTagUrl + ` q">` + printTag + `</a>,`;
+tagListPrint += `<a class="inlineBlock padding op ` + tagColor + ` ;" style="font-size: ` + tagSize + `; padding-right: 0;" href="/search/?q=` + printTagUrl + ` q">` + printTag + `</a><span class="gray">,</span>`;
 break;
 
 case 'News':
-tagListPrint += `<a class="inlineBlock padding op ` + tagColor + ` ;" style="font-size: ` + tagSize + `; padding-right: 0;" href="/search/?q=` + printTagUrl + ` n">` + printTag + `</a>,`;
+tagListPrint += `<a class="inlineBlock padding op ` + tagColor + ` ;" style="font-size: ` + tagSize + `; padding-right: 0;" href="/search/?q=` + printTagUrl + ` n">` + printTag + `</a><span class="gray">,</span>`;
 break;
 
 case 'Google':
-tagListPrint += `<a class="inlineBlock padding op ` + tagColor + ` " style="font-size: ` + tagSize + `; padding-right: 0;" href="/search/?q=` + printTagUrl + ` goo">` + printTag + `</a>,`;
+tagListPrint += `<a class="inlineBlock padding op ` + tagColor + ` " style="font-size: ` + tagSize + `; padding-right: 0;" href="/search/?q=` + printTagUrl + ` goo">` + printTag + `</a><span class="gray">,</span>`;
 break;
 
 case 'Bing':
-tagListPrint += `<a class="inlineBlock padding op ` + tagColor + ` " style="font-size: ` + tagSize + `; padding-right: 0;" href="/search/?q=` + printTagUrl + ` bin">` + printTag + `</a>,`;
+tagListPrint += `<a class="inlineBlock padding op ` + tagColor + ` " style="font-size: ` + tagSize + `; padding-right: 0;" href="/search/?q=` + printTagUrl + ` bin">` + printTag + `</a><span class="gray">,</span>`;
 break;
 
 case 'GooglePS':
-tagListPrint += `<a class="inlineBlock padding op ` + tagColor + ` " style="font-size: ` + tagSize + `; padding-right: 0;" href="/search/?q=` + printTagUrl + ` gps">` + printTag + `</a>,`;
+tagListPrint += `<a class="inlineBlock padding op ` + tagColor + ` " style="font-size: ` + tagSize + `; padding-right: 0;" href="/search/?q=` + printTagUrl + ` gps">` + printTag + `</a><span class="gray">,</span>`;
 break;
 
 case 'SearchOther':
-tagListPrint += `<a class="inlineBlock padding op ` + tagColor + ` " style="font-size: ` + tagSize + `; padding-right: 0;" href="/search/?q=` + printTagUrl + ` o">` + printTag + `</a>,`;
+tagListPrint += `<a class="inlineBlock padding op ` + tagColor + ` " style="font-size: ` + tagSize + `; padding-right: 0;" href="/search/?q=` + printTagUrl + ` o">` + printTag + `</a><span class="gray">,</span>`;
 break;
 
 case 'edit':
@@ -837,7 +841,7 @@ tagListPrint += `<span class="inlineBlock padding">` + printTag + `</span>`;
 break;
 
 default:
-tagListPrint += `<a class="inlineBlock padding op ` + tagColor + ` " style="font-size: ` + tagSize + `;" href="/search/?q=` + printTagUrl + ` q">#` + printTag + `</a>`;
+tagListPrint += `<a class="inlineBlock padding op ` + tagColor + ` " style="font-size: ` + tagSize + `;" href="/search/?q=` + printTagUrl + ` q">#` + printTag + `</a><span class="gray">,</span>`;
 
 }
 }
