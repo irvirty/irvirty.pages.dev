@@ -1,4 +1,4 @@
-// v.1.0.5
+// v.1.1.0
 
 let totalPost = agicountdownJsonVar.length;
 let totalPredict = 0;
@@ -53,13 +53,16 @@ result = String(result).split('.')[0];
 //https://stackoverflow.com/questions/6002254/get-the-current-year-in-javascript
 resultCountdown = Number(result) - Number(new Date().getFullYear())
 
+let yearsVar = "years";
+if (resultCountdown == 1){ yearsVar = "year"; }
+
 var print = `
 
 <div class="bg shadow2 borderRadius3 padding2">
 <div class="padding2"></div>
 <div class="op padding2 tCenter">Countdown</div>
 <b class="block tCenter large">Artificial General Intelligence</b>
-<h2 class="tCenter">${resultCountdown} years left</h2>
+<h2 class="tCenter">${resultCountdown} ${yearsVar}</h2>
 <h3 class="tCenter">${result}</h3>
 <div class="tCenter op small"><a class="brand" href="data-list.html">${totalPredict} forecasts (${totalPost} - items)</a></div>
 <div class="padding2"></div>
