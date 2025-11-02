@@ -1,4 +1,4 @@
-// Typing Speed Test (WPM) or Typing Speed Game v.4.2.0
+// Typing Speed Test (WPM) or Typing Speed Game v.4.3.0
 // "Zen" mode inspired by https://monkeytype.com/
 // Ignore some "typing modes" if the site is running on localhost, I use them to translate letters when I type.
 
@@ -111,7 +111,7 @@ quote = quoteJsonVar;
 if (quote != null){
 const random = Math.floor(Math.random() * quote.length);
 //console.log(quote[random]['text']);
-task = quote[random]['text'];
+task = quote[random]['text2'];
 }
 
 main(task);
