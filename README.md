@@ -2,20 +2,20 @@
 
 <!--https://stackoverflow.com/questions/61071158/add-image-with-link-in-githubs-readme-md#-->
 [![banner](/img/github-banner-settings.png)](/img/screenshot.png)
-
-Homepage, startpage and projects. Search redirect, links, news, games, music collection, images, microblog, to-do list, tools, browser themes and extensions, WP theme, site templates, icons ...
+  
+🏠📂 Homepage, Startpage and Projects. Search redirect, links, news, games, music collection, images, microblog, to-do list, tools, browser themes and extensions, WP theme, site templates, icons ...
   
 ---
   
-## Features:  
-• 50+ Themes with Dark and Light Modes.  
-• Speed Dial Panel.  
-• To-do List.  
-• JavaScript Games: Typing Speed (WPM), Snake, Memory Symbol, and Tic-Tac-Toe.   
-• Browser Extensions such as a New Tab Redirect and an Auto Theme Switcher (Firefox only).  
-• Themes for the Firefox browser and Geany IDE.  
-• Website templates and "SimpleHomepage" theme for WordPress  
-• Other: Tools, News, Images, Icons, CSS Art, Music Collection etc.  
+## ⭐ Features:  
+🎨 50+ Themes with Dark and Light Modes.  
+📌 Speed Dial Panel.  
+📝 To-do List.  
+🎮 JavaScript Games: Typing Speed (WPM), Snake, Memory Symbol, and Tic-Tac-Toe.   
+🛍️ Browser Extensions such as a New Tab Redirect and an Auto Theme Switcher (Firefox only).  
+🎨 Themes for the Firefox browser and Geany IDE.  
+📄 Website templates and "SimpleHomepage" theme for WordPress  
+📁 Other: Tools, News, Images, Icons, CSS Art, Music Collection etc.  
   
 ---
   
@@ -24,7 +24,7 @@ Homepage, startpage and projects. Search redirect, links, news, games, music col
   
 ---
   
-## License:  
+## 🧾 License:  
   
 • Main: Copyright 2025 Irvirty CC BY-SA 4.0  
   
@@ -37,9 +37,12 @@ Others:
   
 ---  
   
-## Download:
+## 💾 Download:
   
 [Download ZIP](https://github.com/irvirty/irvirty.pages.dev/archive/refs/heads/main.zip)
+
+
+
 
 <!--
 Tags backup:
@@ -47,5 +50,3 @@ javascript, css, html, website, portfolio, web-development, projects, personal-w
 -->
 
 
-
-  
