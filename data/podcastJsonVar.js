@@ -871,7 +871,7 @@ var podcastJsonVar =
         "text2": "",
         "text3": "",
         "url": "https:\/\/tunein.com\/podcasts\/Markets-and-Investing\/Afford-Anything-p830976\/",
-        "tag": "#podcast #makrets #investing #busines #economics #en",
+        "tag": "#podcast #makrets #investing #business #economics #en",
         "time": 1726644543,
         "rightFooter": ""
     },
