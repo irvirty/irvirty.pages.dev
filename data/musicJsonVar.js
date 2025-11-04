@@ -3,6 +3,106 @@ var musicJsonVar =
 
 [
     {
+        "id": "6724",
+        "text": "OFFICIAL VIDEO (2013): \"Wait For Me\" \u2013\u00a0John-Allison Weiss - YouTube",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=TP_olrvztJM",
+        "tag": "#music",
+        "time": 1762177136,
+        "rightFooter": ""
+    },
+    {
+        "id": "6723",
+        "text": "I Was an Island \u00b7 John-Allison Weiss",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=gDOpewaKKzo",
+        "tag": "#music",
+        "time": 1762177024,
+        "rightFooter": ""
+    },
+    {
+        "id": "6722",
+        "text": "Stream Be Glad I Love You (Go To Bed) by Bug Hunter | Listen online for free on SoundCloud",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/soundcloud.com\/bug-hunter\/be-glad-i-love-you-go-to-bed",
+        "tag": "#music",
+        "time": 1762176902,
+        "rightFooter": ""
+    },
+    {
+        "id": "6721",
+        "text": "Stream Upside Down by Elliot Lee | Listen online for free on SoundCloud",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/soundcloud.com\/elliotleemusic\/upsidedown",
+        "tag": "#music",
+        "time": 1762176805,
+        "rightFooter": ""
+    },
+    {
+        "id": "6720",
+        "text": "Stream GoodBadUgly by Elliot Lee | Listen online for free on SoundCloud",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/soundcloud.com\/elliotleemusic\/goodbadugly",
+        "tag": "#music",
+        "time": 1762176760,
+        "rightFooter": ""
+    },
+    {
+        "id": "6719",
+        "text": "Stream TV Head by Elliot Lee | Listen online for free on SoundCloud",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/soundcloud.com\/elliotleemusic\/tvhead",
+        "tag": "#music",
+        "time": 1762176715,
+        "rightFooter": ""
+    },
+    {
+        "id": "6718",
+        "text": "Stream POSTER KID by Peach Martine | Listen online for free on SoundCloud",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/soundcloud.com\/peach-martine\/poster-kid",
+        "tag": "#music",
+        "time": 1762176582,
+        "rightFooter": ""
+    },
+    {
+        "id": "6717",
+        "text": "Stream Fired My Therapist by \u2730madelline\u2b52 \u22c6 | Listen online for free on SoundCloud",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/soundcloud.com\/moodymadelline\/fired-my-therapist_master_main",
+        "tag": "#music",
+        "time": 1762176516,
+        "rightFooter": ""
+    },
+    {
+        "id": "6716",
+        "text": "Stream SAD (Clap Your Hands) by Young Rising Sons | Listen online for free on SoundCloud",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/soundcloud.com\/youngrisingsons\/sad-clap-ya-hands",
+        "tag": "#music",
+        "time": 1762176478,
+        "rightFooter": ""
+    },
+    {
+        "id": "6715",
+        "text": "Participation Trophies by \u2730madelline\u2b52 \u22c6",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/soundcloud.com\/moodymadelline\/participation-trophies_second-master2",
+        "tag": "#music",
+        "time": 1762176398,
+        "rightFooter": ""
+    },
+    {
         "id": "6649",
         "text": "Chappell Roan - Pink Pony Club (Official Music Video) - YouTube",
         "text2": "",
