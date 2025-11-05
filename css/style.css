@@ -12,7 +12,7 @@ font-display: swap;
 .topNav form { width: 100%; max-width: 130px; vertical-align: middle; }
 .topNav input[type=search] { font-size: small; min-height: 10px; height: 30px; }
 .topNav form ::placeholder { font-size: x-small; }
-.topNav form { margin-left: var(--padding); }
+.topNav form { margin: var(--padding); }
 
 .topNav button { margin: 0; }
 .topNav { text-align: center; }
@@ -183,6 +183,7 @@ text-align: left;
 .navMenu a,
 .navMenu2 a {
 text-decoration: 2px underline dotted transparent;
+text-underline-offset: 3px;
 }
 .navMenu a:hover,
 .navMenu2 a:hover {
