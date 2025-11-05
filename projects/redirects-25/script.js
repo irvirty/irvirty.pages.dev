@@ -1,4 +1,4 @@
-// Search redirect v.2.15.1
+// Search redirect v.2.15.2
 // Search query + command
 // Example: "text goo" or "text google", "text bin" or "text bing"
 
@@ -1181,6 +1181,42 @@ q = q.trim();
 q = encodeURIComponent(q);
 urlList = [
 "https://www.youtube.com/results?search_query=" + q + "&sp=EgIQAg%253D%253D",
+];
+if (q == ""){
+urlList = [
+"https://www.youtube.com/feed/trending",
+];
+}
+random = urlList[fuMRandom(0, urlList.length - 1)];
+url = random;
+sRedirectUrl = url;
+break;
+
+
+case "ypl#":
+q = q3.replace(qCom, '');
+q = q.trim();
+q = encodeURIComponent(q);
+urlList = [
+"https://www.youtube.com/results?search_query=" + q + "&sp=CAASAhAD",
+];
+if (q == ""){
+urlList = [
+"https://www.youtube.com/feed/trending",
+];
+}
+random = urlList[fuMRandom(0, urlList.length - 1)];
+url = random;
+sRedirectUrl = url;
+break;
+
+
+case "yht#":
+q = q3.replace(qCom, '');
+q = q.trim();
+q = encodeURIComponent(q);
+urlList = [
+"https://www.youtube.com/hashtag/" + q,
 ];
 if (q == ""){
 urlList = [

@@ -3,6 +3,16 @@ var newsJsonVar =
 
 [
     {
+        "id": "84",
+        "text": "Microsoft Bing gets a free Sora-powered AI video generator | TechCrunch",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/techcrunch.com\/2025\/06\/02\/microsoft-bing-gets-a-free-sora-powered-ai-video-generator\/",
+        "tag": "#AI #GenerativeAI #video #Bing #Sora #OpenAI",
+        "time": 1762306164,
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/news\/?id=84\"  title=\"id=84 (permanent link)\" >id<\/a>"
+    },
+    {
         "id": "83",
         "text": "3I\/ATLAS - Wikipedia",
         "text2": "https:\/\/upload.wikimedia.org\/wikipedia\/commons\/thumb\/1\/10\/3I-ATLAS_noirlab2525b_crop.png\/512px-3I-ATLAS_noirlab2525b_crop.png?20250905161959&.png\r\nBy International Gemini Observatory\/NOIRLab\/NSF\/AURA\/Shadow the Scientist,\r\nCC BY 4.0 https:\/\/creativecommons.org\/licenses\/by\/4.0\r\nhttps:\/\/commons.wikimedia.org\/w\/index.php?curid=174444353",
