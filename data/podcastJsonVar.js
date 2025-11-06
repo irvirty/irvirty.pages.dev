@@ -3,11 +3,38 @@ var podcastJsonVar =
 
 [
     {
+        "text": "Decoder with Nilay Patel | Listen to Podcasts On Demand Free | TuneIn",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/tunein.com\/podcasts\/Technology-Podcasts\/Decoder-with-Nilay-Patel-p885687\/",
+        "tag": "#podcast #technology #en",
+        "time": 1762448692,
+        "rightFooter": ""
+    },
+    {
+        "text": "Kim Komando Daily Tech Update | Listen to Podcasts On Demand Free | TuneIn",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/tunein.com\/podcasts\/Technology-Podcasts\/Kim-Komando-Daily-Tech-Update-p1096248\/",
+        "tag": "#podcast #technology #en",
+        "time": 1762448598,
+        "rightFooter": ""
+    },
+    {
+        "text": "All-In Podcast - YouTube",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/playlist?list=PLn5MTSAqaf8peDZQ57QkJBzewJU1aUokl",
+        "tag": "#podcast #technology #en",
+        "time": 1762444138,
+        "rightFooter": ""
+    },
+    {
         "text": "The Vergecast - YouTube",
         "text2": "",
         "text3": "",
         "url": "https:\/\/www.youtube.com\/playlist?list=PL39u5ZEfYDEO5PaNRWyqloGY6zzJ1fjBa",
-        "tag": "#podcast #technology",
+        "tag": "#podcast #technology #en",
         "time": 1761890584,
         "rightFooter": ""
     },
@@ -43,7 +70,7 @@ var podcastJsonVar =
         "text2": "",
         "text3": "",
         "url": "https:\/\/tunein.com\/podcasts\/Technology-Podcasts\/Tech-Brew-Ride-Home-p1122416\/",
-        "tag": "#podcast #technology",
+        "tag": "#podcast #technology #en",
         "time": 1757901536,
         "rightFooter": ""
     },
@@ -52,7 +79,7 @@ var podcastJsonVar =
         "text2": "",
         "text3": "",
         "url": "https:\/\/soundcloud.com\/techdirt",
-        "tag": "#podcast #technology",
+        "tag": "#podcast #technology #en",
         "time": 1757901277,
         "rightFooter": ""
     },
