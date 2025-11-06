@@ -6,10 +6,10 @@ src: url('../fonts/Roboto-Regular.ttf')  format('truetype');
 font-display: swap;
 }
 
-/* Navigation CSS v.3.2.0 */
+/* Navigation CSS v.3.2.1 */
 
 .topNav form, .topNav input[type=search] { display: inline-block; }
-.topNav form { width: 100%; max-width: 130px; vertical-align: middle; }
+.topNav form { width: 100%; max-width: 115px; vertical-align: middle; }
 .topNav input[type=search] { font-size: small; min-height: 10px; max-height: 27px; }
 .topNav form ::placeholder { font-size: x-small; }
 .topNav form { margin: 3px; margin-left: var(--padding); }
