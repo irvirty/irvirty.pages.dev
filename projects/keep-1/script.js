@@ -1,4 +1,4 @@
-// Keep v.4.5.2
+// Keep v.4.5.3
 // The static version of my offline "keep" PHP script that saves things (links, notes, etc).
 // Inspired by Twitter, Google Keep
 // Not for large data files.
@@ -555,7 +555,7 @@ i3++;
 i++;
 total = i;
 subQListFound = [...new Set(subQListFound)];
-comMessagePrint = `${q} | (s1.1: ${subQListFound}) | ${i}${i} results`;
+comMessagePrint = `${q} | (s1.1: ${subQListFound}) | ${i} results`;
 comMessage = 'found';
 
 // collect for random
