@@ -10,7 +10,7 @@ font-display: swap;
 
 .topNav form, .topNav input[type=search] { display: inline-block; }
 .topNav form { width: 100%; max-width: 130px; vertical-align: middle; }
-.topNav input[type=search] { font-size: small; min-height: 10px; max-height: 16px; height: 30px; }
+.topNav input[type=search] { font-size: small; min-height: 10px; max-height: 27px; }
 .topNav form ::placeholder { font-size: x-small; }
 .topNav form { margin: 3px; margin-left: var(--padding); }
 
