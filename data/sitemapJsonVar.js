@@ -287,13 +287,6 @@ var sitemapJsonVar = [
         "time": "id"
     },
     {
-        "text": "Google trends\n\nGoogle trends. Search trends and tendencies, what people are looking for on the Internet. | google trends: ",
-        "url": "\/old-projects\/google-trends-46\/index.html",
-        "tag": " #widget #Google #trends #info #HTML #embed #JavaScript #project",
-        "id": "fb10b5a600d93d3d9740f92409e8c0f9",
-        "time": "id"
-    },
-    {
         "text": "Guess The Number\n\nYou need to guess the random number. | guess number: ",
         "url": "\/games\/guess-number-10\/index.html",
         "tag": " #game #guuess #number #HTML5 #WebGame #CSS #JavaScript #project",
