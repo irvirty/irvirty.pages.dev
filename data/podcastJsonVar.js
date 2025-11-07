@@ -853,7 +853,7 @@ var podcastJsonVar =
         "text2": "",
         "text3": "",
         "url": "https:\/\/tunein.com\/podcasts\/Science-Podcasts\/Hidden-Brain-p787503\/",
-        "tag": "#podcast #science #technology #storytelling #en",
+        "tag": "#podcast #science #technology #storytelling #ideas #en",
         "time": 1726745966,
         "rightFooter": ""
     },
