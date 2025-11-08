@@ -514,15 +514,7 @@ document.getElementById("footer").innerHTML = `
 <span id="fPinButton"></span>
 </div>
 
-<!--<a class="brand inlineBlock padding" style="padding-left: 0;" title="Start menu" href="${confD}all/">All</a>-->
-
-<a class="brand inlineBlock padding" style="padding-left: 0;" title="About" href="${confD}pages/about/">About</a>
-<span class="op gray">|</span>
-
-<!--<a id="contact" class="brand inlineBlock padding" title="Contact" href="${confD}pages/about/#contact">Contact</a>
-<span class="op gray">|</span>-->
-
-<a id="fSettings" class="brand inlineBlock padding" title="Settings" href="${confD}pages/settings/">Settings</a>
+<a id="fSettings" class="brand inlineBlock padding" style="padding-left: 0;" title="Settings" href="${confD}pages/settings/">Settings</a>
 <span class="op gray">|</span>
 
 <a class="brand inlineBlock padding" title="Social network" href="https://bsky.app/profile/${conf["confUsername"]}.pages.dev">Bluesky</a>
@@ -540,7 +532,11 @@ document.getElementById("footer").innerHTML = `
 <a id="fPrivacy" class="brand inlineBlock padding" title="Cookie Settings" href="${confD}pages/settings/#confDataCollection">Cookie: ${conf["confDataCollection"]}</a>
 <span class="op gray">|</span>
 
-<span class="op inlineBlock padding" style="padding-right: 0;" title="update"><!--2019-->© 2025 ${conf["confUsernameUpper"]} License:</span> 
+<a class="brand inlineBlock padding" style="padding-right: 0;" title="About" href="${confD}pages/about/">About</a>
+
+<br>
+
+<span class="op inlineBlock padding" style="padding-right: 0; padding-left: 0;" title="update"><!--2019-->© 2025 ${conf["confUsernameUpper"]} License:</span> 
 <a class="brand inlineBlock padding" style="padding-left: 0;" rel="license" title="Licenses for content" href="${confD}pages/about/#license">CC BY-SA 4.0 <sup>*</sup></a>
 <span class="op gray">|</span>
 

@@ -1,4 +1,4 @@
-// Search redirect v.2.15.2
+// Search redirect v.2.15.3
 // Search query + command
 // Example: "text goo" or "text google", "text bin" or "text bing"
 
@@ -2209,6 +2209,7 @@ urlList = [
 "https://gemini.google.com/app",
 "https://copilot.microsoft.com/",
 "https://chatgpt.com/?temporary-chat=true",
+"https://grok.com/",
 
 "https://chat.mistral.ai/",
 "https://lumo.proton.me/"
