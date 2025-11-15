@@ -191,7 +191,7 @@ text-underline-offset: 4px;
 transition: 0.3s;
 text-decoration: 1px underline dotted var(--brand);
 }
-.navMenuActive {
+.navMenuActive, .topNav [aria-current="page"] {
 text-decoration: 1px underline dotted var(--c3) !important;
 color: var(--c3) !important;
 }
