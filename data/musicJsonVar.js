@@ -3,6 +3,26 @@ var musicJsonVar =
 
 [
     {
+        "id": "6769",
+        "text": "Young Miko - Lisa - YouTube",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=Y7a_s5OCD5A",
+        "tag": "#music",
+        "time": 1762767717,
+        "rightFooter": ""
+    },
+    {
+        "id": "6768",
+        "text": "Young Miko - En el Ritz (Visualizer) - YouTube",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=ucG_3Ohpwm0",
+        "tag": "#music",
+        "time": 1762767675,
+        "rightFooter": ""
+    },
+    {
         "id": "6724",
         "text": "OFFICIAL VIDEO (2013): \"Wait For Me\" \u2013\u00a0John-Allison Weiss - YouTube",
         "text2": "",
