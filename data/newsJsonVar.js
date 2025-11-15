@@ -3,6 +3,16 @@ var newsJsonVar =
 
 [
     {
+        "id": "85",
+        "text": "Firefox 145.0, See All New Features, Updates and Fixes",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.firefox.com\/en-US\/firefox\/145.0\/releasenotes\/",
+        "tag": "#Firefox #MozillaFirefox #Mozilla #browser #internet #web #app #software",
+        "time": 1763187955,
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/news\/?id=85\"  title=\"id=85 (permanent link)\" >id<\/a>"
+    },
+    {
         "id": "84",
         "text": "Microsoft Bing gets a free Sora-powered AI video generator | TechCrunch",
         "text2": "",
