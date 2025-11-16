@@ -753,7 +753,7 @@ printPost += fuPrintPost(postId, '', postText + ' ' + postUrl + postText2 + post
 }
 } else {
 if (display == "blog"){
-printPost += fuPrintPost(postId, postText + ' ' + postUrl, postTag, postTime, "", rightFooter);
+printPost += fuPrintPost(postId, postText, postText + ' ' + postUrl, postTag, postTime, "", rightFooter);
 } else {
 printPost += fuPrintPost(postId, '', postText + ' ' + postUrl, postTag, postTime, "", rightFooter);
 }
@@ -1576,7 +1576,7 @@ case "search":
 if (q != null){
 lPostTitle = highlightText(postTitle, targetOption, subQforLight);
 lPost = highlightText(post, targetOption, subQforLight);
-if (display == 'blog'){ lPost = `<h2>${lPostTitle}</h2> {postUrl}` + highlightText(post, targetOption, subQforLight); }
+if (display == 'blog'){ lPost = `<h2>${lPostTitle}</h2>` + highlightText(post, targetOption, subQforLight); }
 }
 break;
 
@@ -1585,10 +1585,10 @@ case "idList":
 case "random":
 if (multiEmbedStatus == 'on'){
 lPost = highlightText(post, targetOption);
-if (display == 'blog'){ lPost = `<h2>${postTitle}</h2> {postUrl}` + highlightText(post, targetOption); }
+if (display == 'blog'){ lPost = `<h2>${postTitle}</h2>` + highlightText(post, targetOption); }
 } else {
 lPost = highlightText2(post, targetOption); // autoplay embed
-if (display == 'blog'){ lPost = `<h2>${postTitle}</h2> {postUrl}` + highlightText2(post, targetOption); }
+if (display == 'blog'){ lPost = `<h2>${postTitle}</h2>` + highlightText2(post, targetOption); }
 }
 break;
 
@@ -1596,13 +1596,13 @@ case "list":
 lPost = highlightText(post, targetOption, subQforLight); 
 if (display == 'blog'){
 //lPost = `<span class="large">${lPost}</span>`; // without highlight (embed)
-lPost = `<div class="large"><a class="block firstLetterBold" href="${scriptDir}?id=${id}">${postTitle}</a></div> {postUrl}`; // without highlight (embed)
+lPost = `<div class="large"><a class="block firstLetterBold" href="${scriptDir}?id=${id}">${postTitle}</a></div>`; // without highlight (embed)
 }
 break;
 
 default:
 lPost = highlightText(post, targetOption, subQforLight); 
-if (display == 'blog'){ lPost = `<h2>${postTitle}</h2> {postUrl}` + highlightText(post, targetOption, subQforLight); }
+if (display == 'blog'){ lPost = `<h2>${postTitle}</h2>` + highlightText(post, targetOption, subQforLight); }
 }
 
 
@@ -1672,8 +1672,8 @@ embedStatus = 'off';
 text = clearText(text);
 
 // if code
-text = (text).replaceAll(/</g, "&lt;");
-text = (text).replaceAll(/>/g, "&gt;");
+text = text.replaceAll(/</g, "&lt;");
+text = text.replaceAll(/>/g, "&gt;");
 
 let text2 = '';
 let embed = '';
@@ -2201,8 +2201,9 @@ var idGo = id;
 if (getP2 != ''){ idgo = getP2 + 1; }
 
 // if code
-text = (text).replaceAll(/</g, "&lt;");
-text = (text).replaceAll(/>/g, "&gt;");
+
+text = text.replaceAll(/</g, "&lt;");
+text = text.replaceAll(/>/g, "&gt;");
 
 let text2 = '';
 let embed = '';
