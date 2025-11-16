@@ -13,16 +13,6 @@ var wikiJsonVar =
         "rightFooter": "<a class=\"brand\" href=\"\/pages\/wiki\/?id=154\"  title=\"id=154 (permanent link)\" >id<\/a>"
     },
     {
-        "id": "153",
-        "text": "Digital privacy - Wikipedia",
-        "text2": "Digital privacy is often used in contexts that promote advocacy on behalf of individual and consumer privacy rights in e-services and is typically used in opposition to the business practices of many e-marketers, businesses, and companies to collect and use such information and data.[1][2] Digital privacy, a crucial aspect of modern online interactions and services, can be defined under three sub-related categories: information privacy, communication privacy, and individual privacy.[3]",
-        "text3": "",
-        "url": "https:\/\/en.wikipedia.org\/wiki\/Digital_privacy",
-        "tag": "#web #privacy",
-        "time": 1759843471,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/wiki\/?id=153\"  title=\"id=153 (permanent link)\" >id<\/a>"
-    },
-    {
         "id": "152",
         "text": "Lorem ipsum - Wikipedia",
         "text2": "Lorem ipsum (\/\u02ccl\u0254\u02d0.r\u0259m \u02c8\u026ap.s\u0259m\/ LOR-\u0259m IP-s\u0259m) is a dummy or placeholder text commonly used in graphic design, publishing, and web development. Its purpose is to permit a page layout to be designed, independently of the copy that will subsequently populate it, or to demonstrate various fonts of a typeface without meaningful text that could be distracting.",
