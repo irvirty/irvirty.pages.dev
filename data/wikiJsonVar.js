@@ -3,6 +3,16 @@ var wikiJsonVar =
 
 [
     {
+        "id": "159",
+        "text": "Privacy",
+        "text2": "Privacy is the normative claim that individuals and groups have authority over aspects of their lives shielded from intrusive observation, judgment, or interference by others, encompassing control over personal information, intimate decisions, bodily integrity, and spatial seclusion.[1] This concept, rooted in respect for human dignity and autonomy, enables psychological well-being, trust in social relations, and protection against harms like exploitation or coercion, as empirical studies link privacy violations to heightened stress and reduced interpersonal cooperation.[1] Philosophically, it draws from first principles of limited access to one's inner sphere, distinct from but overlapping with liberty, while legally it manifests as protections against arbitrary state or private incursions, without implying absolute seclusion.[2]",
+        "text3": "",
+        "url": "https:\/\/grokipedia.com\/page\/Privacy",
+        "tag": "#privacy #web #internet",
+        "time": 1763318092,
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/wiki\/?id=159\"  title=\"id=159 (permanent link)\" >id<\/a>"
+    },
+    {
         "id": "158",
         "text": "Privacy - Wikipedia",
         "text2": "Privacy (UK: \/\u02c8pr\u026av\u0259si\/, US: \/\u02c8pra\u026a-\/)[1][2] is the ability of an individual or group to seclude themselves or information about themselves, and thereby express themselves selectively.",
