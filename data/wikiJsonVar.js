@@ -3,16 +3,6 @@ var wikiJsonVar =
 
 [
     {
-        "id": "157",
-        "text": "Privacy - Wikipedia",
-        "text2": "Privacy (UK: \/\u02c8pr\u026av\u0259si\/, US: \/\u02c8pra\u026a-\/)[1][2] is the ability of an individual or group to seclude themselves or information about themselves, and thereby express themselves selectively.",
-        "text3": "",
-        "url": "https:\/\/en.wikipedia.org\/wiki\/Privacy",
-        "tag": "#privacy #web #internet",
-        "time": 1763276063,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/wiki\/?id=157\"  title=\"id=157 (permanent link)\" >id<\/a>"
-    },
-    {
         "id": "154",
         "text": "Tablet computer - Wikipedia",
         "text2": "A tablet computer, commonly shortened to tablet or simply tab, is a mobile device, typically with a mobile operating system and touchscreen display processing circuitry, and a rechargeable battery in a single, thin and flat package. Tablets, being computers, have similar capabilities, but lack some input\/output (I\/O) abilities that others have. Modern tablets are based on smartphones, the only differences being that tablets are relatively larger than smartphones, with screens 7 inches (18 cm) or larger, measured diagonally,[1][2][3][4] and may not support access to a cellular network. Unlike laptops (which have traditionally run off operating systems usually designed for desktops), tablets usually run mobile operating systems, alongside smartphones.",
