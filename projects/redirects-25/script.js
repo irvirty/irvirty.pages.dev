@@ -2328,7 +2328,7 @@ urlList = [
 "https://marginalia-search.com/search?query=" + q,
 "https://search.seznam.cz/?q=" + q,
 //"https://mwmbl.org/?q=" + q,
-//"https://www.mojeek.com/search?q=" + q,
+"https://www.mojeek.com/search?q=" + q,
 //"https://duckduckgo.com/" + q,
 ];
 if (q == ""){
@@ -2336,7 +2336,7 @@ urlList = [
 "https://marginalia-search.com/",
 "https://search.seznam.cz/",
 //"https://mwmbl.org/",
-//"https://www.mojeek.com/",
+"https://www.mojeek.com/",
 //"https://duckduckgo.com/",
 ];
 }
