@@ -3,6 +3,106 @@ var musicJsonVar =
 
 [
     {
+        "id": "6780",
+        "text": "Fever by Madam Snowflake (Official Lyric Video) - YouTube",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=Jp7HifPz5HA",
+        "tag": "#music",
+        "time": 1763398609,
+        "rightFooter": ""
+    },
+    {
+        "id": "6779",
+        "text": "Foolish Game by Madam Snowflake (Official Lyric Video) - YouTube",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=nSXucFHUY_I",
+        "tag": "#music",
+        "time": 1763398304,
+        "rightFooter": ""
+    },
+    {
+        "id": "6778",
+        "text": "To The Mountain by Madam Snowflake (Official Lyric Video) - YouTube",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=6QuVXqw0fDw",
+        "tag": "#music",
+        "time": 1763398208,
+        "rightFooter": ""
+    },
+    {
+        "id": "6777",
+        "text": "All As One by Madam Snowflake (Official Lyric Video) - YouTube",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=PqWyVshnlz8",
+        "tag": "#music",
+        "time": 1763398143,
+        "rightFooter": ""
+    },
+    {
+        "id": "6776",
+        "text": "The Light by Madam Snowflake (Official Lyric Video) - YouTube",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=JG8xuoCHeFU",
+        "tag": "#music",
+        "time": 1763398069,
+        "rightFooter": ""
+    },
+    {
+        "id": "6775",
+        "text": "California Winter by Madam Snowflake - YouTube",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=6ikcB90ZyW4",
+        "tag": "#music",
+        "time": 1763398039,
+        "rightFooter": ""
+    },
+    {
+        "id": "6773",
+        "text": "We Can Change the World As We Know It (We'll All Be Fine) by Madam Snowflake (COVID Parody) - YouTube",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=7dqa6uZgnQM",
+        "tag": "#music",
+        "time": 1763397959,
+        "rightFooter": ""
+    },
+    {
+        "id": "6772",
+        "text": "Rise Up by Madam Snowflake (Official Lyric Video) - YouTube",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=YSSWgVm8GYw",
+        "tag": "#music",
+        "time": 1763397928,
+        "rightFooter": ""
+    },
+    {
+        "id": "6771",
+        "text": "Amplify the Light by Madam Snowflake (Official Lyric Video) - YouTube",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=SWq9AXCm-kM",
+        "tag": "#music",
+        "time": 1763397778,
+        "rightFooter": ""
+    },
+    {
+        "id": "6770",
+        "text": "Living Nightmare by Madam Snowflake (Official Lyric Video) - YouTube",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=vEbobhnT-h0",
+        "tag": "#music",
+        "time": 1763397753,
+        "rightFooter": ""
+    },
+    {
         "id": "6769",
         "text": "Young Miko - Lisa - YouTube",
         "text2": "",
