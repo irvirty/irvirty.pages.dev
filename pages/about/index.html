@@ -262,67 +262,7 @@ Other places
 
 
 
-<div class="margin padding"></div>
 
-<div id="donate" class="bg border borderRadius2 marginList">
-<div class="padding2List">
-
-<h2 class="margin2 bold"><a class="inlineBlock padding borderBottomGreen notUnderline" href="#donate">Donate:</a></h2>
-<div class="padding3List op small"></div>
-
-<div class="wrapperSmall padding2">
-
-The current goal is $25, progress:
-<div class="padding"></div>
-
-<div class="bg2 shadow borderRadius2">
-<div id="donateProgress"></div>
-</div>
-
-<div class="margin"></div>
-
-<script>
-///Donate goal v.1.1.0
-
-let donateGoal = 25;
-let donateAmount = 0;
-let donateProgressPercentage = (donateAmount * 100) / donateGoal;
-
-let donateProgressBg = "";
-if (donateProgressPercentage > 0){ donateProgressBg = " bg4 "; }
-
-if (document.getElementById("donateProgress") != null){
-document.getElementById("donateProgress").innerHTML = `
-<div class=" ` + donateProgressBg + ` borderRadius2 small padding border3 tCenter" style="width: ` + donateProgressPercentage + `%; max-width: 100%; min-width: 45px; z-index: 1; position: abosolute;"><div style="min-width="120px">` + donateProgressPercentage + `%</div></div>`;
-}
-
-</script>
-
-</div>
-
-<div class="margin padding"></div>
-
-<div class="wrapperSmall margin2List">
-<div class="border borderRadius2 tCenter margin2 padding2">
-
-<div class="insertIcon">Bitcoin address:</div>
-<div class="padding"></div>
-<!--<div class="tCenter"><a href="bitcoin:bc1qrgpjr4wn9agy3zdgs836lw60fp0r5smp53qmel"><img class="op borderRadius2 border" src="../../img/bitcoin.png" style="width: 140px;" alt="qr-bitcoin"></a></div>-->
-<div class="padding"></div>
-<div>bc1qrgpjr4wn9agy3zdgs836lw60fp0r5smp53qmel</div>
-<!--<div class="tRight"><a class="inlineBlock padding brand" href="../../img/bitcoin.png">QR Code</a></div>-->
-<div class="padding2"></div>
-
-</div>
-</div>
-
-<div class="margin padding"></div>
-<div class="wrapperSmall padding2">Thank you for your support!</div>
-<div class="margin padding"></div>
-
-
-</div>
-</div>
 
 
 
