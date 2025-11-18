@@ -678,15 +678,6 @@ var podcastJsonVar =
         "rightFooter": ""
     },
     {
-        "text": "This Week in Tech - YouTube",
-        "text2": "",
-        "text3": "",
-        "url": "https:\/\/www.youtube.com\/playlist?list=PLopIQzvI-ehg084sjyvLZ4DIpldntgGzP",
-        "tag": "#podcast #technology #en",
-        "time": 1746047194,
-        "rightFooter": ""
-    },
-    {
         "text": "TED Talks Daily | Listen to Podcasts On Demand Free | TuneIn",
         "text2": "",
         "text3": "",
