@@ -357,6 +357,13 @@ var sitemapJsonVar = [
         "time": "id"
     },
     {
+        "text": "Install Website (PWA)\n\nInstall website as app (PWA). The site or page will look and run like an app and will be among other installed programs. | install: ",
+        "url": "\/pages\/install\/index.html",
+        "tag": " #install #download #website #PWA #WebApp #app #page #main",
+        "id": "7da7e54d1264357eef048f868e6342c1",
+        "time": "id"
+    },
+    {
         "text": "Keep (demo page)\n\nStatic version of the offline 'keep' script that saves things. Not for large data. Demo. | keep: ",
         "url": "\/projects\/keep-1\/index.html",
         "tag": " #demo #content_display_system #microblog #embed #CSS #JavaScript #project",
