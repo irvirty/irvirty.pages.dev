@@ -8,7 +8,7 @@ var quoteJsonVar =
         "text3": "",
         "url": "https:\/\/www.goodreads.com\/quotes\/6586037-its-just-human-nature-people-forget-past-and-only-care",
         "tag": "#quote",
-        "time": 1762080519,
+        "time": 1762087719,
         "rightFooter": ""
     },
     {
@@ -17,7 +17,7 @@ var quoteJsonVar =
         "text3": "",
         "url": "https:\/\/www.reddit.com\/r\/quotes\/comments\/fjzaf7\/dont_compare_your_life_to_others_there_is_no\/",
         "tag": "#quote",
-        "time": 1762080405,
+        "time": 1762087605,
         "rightFooter": ""
     },
     {
@@ -26,7 +26,7 @@ var quoteJsonVar =
         "text3": "",
         "url": "https:\/\/www.goodreads.com\/quotes\/5-an-expert-is-a-person-who-has-made-all-the",
         "tag": "#quote",
-        "time": 1762080318,
+        "time": 1762087518,
         "rightFooter": ""
     },
     {
@@ -35,7 +35,7 @@ var quoteJsonVar =
         "text3": "",
         "url": "https:\/\/www.brainyquote.com\/quotes\/bob_iger_177671",
         "tag": "#quote",
-        "time": 1762080255,
+        "time": 1762087455,
         "rightFooter": ""
     },
     {
@@ -44,7 +44,7 @@ var quoteJsonVar =
         "text3": "",
         "url": "https:\/\/www.brainyquote.com\/quotes\/john_f_kennedy_121367",
         "tag": "#quote",
-        "time": 1762080221,
+        "time": 1762087421,
         "rightFooter": ""
     },
     {
@@ -53,7 +53,7 @@ var quoteJsonVar =
         "text3": "",
         "url": "https:\/\/www.brainyquote.com\/quotes\/maria_montessori_138609",
         "tag": "#quote",
-        "time": 1762080193,
+        "time": 1762087393,
         "rightFooter": ""
     },
     {
@@ -62,7 +62,7 @@ var quoteJsonVar =
         "text3": "",
         "url": "https:\/\/www.goodreads.com\/quotes\/15810-the-hard-part-about-writing-a-novel-is-finishing-it",
         "tag": "#quote",
-        "time": 1762080161,
+        "time": 1762087361,
         "rightFooter": ""
     },
     {
@@ -71,7 +71,7 @@ var quoteJsonVar =
         "text3": "",
         "url": "https:\/\/www.goodreads.com\/quotes\/103-be-not-afraid-of-greatness-some-are-born-great-some",
         "tag": "#quote",
-        "time": 1762080125,
+        "time": 1762087325,
         "rightFooter": ""
     },
     {
@@ -80,7 +80,7 @@ var quoteJsonVar =
         "text3": "",
         "url": "https:\/\/www.goodreads.com\/quotes\/95080-educating-the-mind-without-educating-the-heart-is-no-education",
         "tag": "#quote",
-        "time": 1762080091,
+        "time": 1762087291,
         "rightFooter": ""
     },
     {
@@ -89,7 +89,7 @@ var quoteJsonVar =
         "text3": "",
         "url": "https:\/\/www.goodreads.com\/quotes\/713579-lord-we-know-what-we-are-but-know-not-what",
         "tag": "#quote",
-        "time": 1762080058,
+        "time": 1762087258,
         "rightFooter": ""
     },
     {
@@ -98,7 +98,7 @@ var quoteJsonVar =
         "text3": "",
         "url": "https:\/\/www.goodreads.com\/quotes\/21546-our-doubts-are-traitors-and-make-us-lose-the-good",
         "tag": "#quote",
-        "time": 1762080023,
+        "time": 1762087223,
         "rightFooter": ""
     },
     {
@@ -107,7 +107,7 @@ var quoteJsonVar =
         "text3": "",
         "url": "https:\/\/www.brainyquote.com\/quotes\/natalie_gulbis_268238",
         "tag": "#quote",
-        "time": 1762079993,
+        "time": 1762087193,
         "rightFooter": ""
     },
     {
@@ -116,7 +116,7 @@ var quoteJsonVar =
         "text3": "",
         "url": "https:\/\/www.goodreads.com\/quotes\/24673-if-you-can-dream-it-you-can-do-it-always",
         "tag": "#quote",
-        "time": 1762079935,
+        "time": 1762087135,
         "rightFooter": ""
     },
     {
@@ -125,7 +125,7 @@ var quoteJsonVar =
         "text3": "",
         "url": "https:\/\/www.brainyquote.com\/quotes\/thomas_a_edison_149049",
         "tag": "#quote",
-        "time": 1762079860,
+        "time": 1762087060,
         "rightFooter": ""
     },
     {
@@ -134,7 +134,7 @@ var quoteJsonVar =
         "text3": "",
         "url": "https:\/\/www.goodreads.com\/quotes\/29794-don-t-worry-about-failures-worry-about-the-chances-you-miss",
         "tag": "#quote",
-        "time": 1762079821,
+        "time": 1762087021,
         "rightFooter": ""
     },
     {
@@ -143,7 +143,7 @@ var quoteJsonVar =
         "text3": "",
         "url": "https:\/\/www.goodreads.com\/quotes\/11504915-the-greatest-glory-in-living-lies-not-in-never-falling",
         "tag": "#quote",
-        "time": 1762079780,
+        "time": 1762086980,
         "rightFooter": ""
     },
     {
@@ -152,7 +152,7 @@ var quoteJsonVar =
         "text3": "",
         "url": "https:\/\/www.goodreads.com\/quotes\/31131-the-way-to-get-started-is-to-quit-talking-and",
         "tag": "#quote",
-        "time": 1762079751,
+        "time": 1762086951,
         "rightFooter": ""
     },
     {
@@ -161,7 +161,7 @@ var quoteJsonVar =
         "text3": "",
         "url": "https:\/\/www.brainyquote.com\/quotes\/steve_jobs_416854",
         "tag": "#quote",
-        "time": 1762079710,
+        "time": 1762086910,
         "rightFooter": ""
     },
     {
@@ -170,7 +170,7 @@ var quoteJsonVar =
         "text3": "",
         "url": "https:\/\/www.goodreads.com\/quotes\/10179235-if-you-look-at-what-you-have-in-life-you-ll",
         "tag": "#quote",
-        "time": 1762079592,
+        "time": 1762086792,
         "rightFooter": ""
     },
     {
@@ -179,7 +179,7 @@ var quoteJsonVar =
         "text3": "",
         "url": "https:\/\/www.brainyquote.com\/quotes\/james_cameron_593970",
         "tag": "#quote",
-        "time": 1762079561,
+        "time": 1762086761,
         "rightFooter": ""
     },
     {
@@ -188,7 +188,7 @@ var quoteJsonVar =
         "text3": "",
         "url": "https:\/\/www.brainyquote.com\/quotes\/margaret_mead_141040",
         "tag": "#quote",
-        "time": 1762079532,
+        "time": 1762086732,
         "rightFooter": ""
     },
     {
@@ -197,7 +197,7 @@ var quoteJsonVar =
         "text3": "",
         "url": "https:\/\/www.brainyquote.com\/quotes\/robert_louis_stevenson_101230",
         "tag": "#quote",
-        "time": 1762079494,
+        "time": 1762086694,
         "rightFooter": ""
     },
     {
@@ -206,7 +206,7 @@ var quoteJsonVar =
         "text3": "",
         "url": "https:\/\/www.brainyquote.com\/quotes\/eleanor_roosevelt_100940",
         "tag": "#quote",
-        "time": 1762079463,
+        "time": 1762086663,
         "rightFooter": ""
     },
     {
@@ -215,7 +215,7 @@ var quoteJsonVar =
         "text3": "",
         "url": "https:\/\/www.brainyquote.com\/quotes\/helen_keller_101301",
         "tag": "#quote",
-        "time": 1762079402,
+        "time": 1762086602,
         "rightFooter": ""
     },
     {
@@ -224,7 +224,7 @@ var quoteJsonVar =
         "text3": "",
         "url": "https:\/\/www.brainyquote.com\/quotes\/aristotle_onassis_119068",
         "tag": "#quote",
-        "time": 1762079368,
+        "time": 1762086568,
         "rightFooter": ""
     },
     {
@@ -233,7 +233,7 @@ var quoteJsonVar =
         "text3": "",
         "url": "https:\/\/www.goodreads.com\/quotes\/7113453-and-whoever-is-happy-will-make-others-happy-too-he",
         "tag": "#quote",
-        "time": 1762079318,
+        "time": 1762086518,
         "rightFooter": ""
     },
     {
@@ -242,7 +242,7 @@ var quoteJsonVar =
         "text3": "",
         "url": "https:\/\/www.brainyquote.com\/quotes\/thomas_a_edison_109004",
         "tag": "#quote",
-        "time": 1762079256,
+        "time": 1762086456,
         "rightFooter": ""
     },
     {
@@ -251,7 +251,7 @@ var quoteJsonVar =
         "text3": "",
         "url": "https:\/\/www.goodreads.com\/quotes\/701075-i-don-t-think-the-human-race-will-survive-the-next",
         "tag": "#quote",
-        "time": 1762079186,
+        "time": 1762086386,
         "rightFooter": ""
     },
     {
@@ -260,7 +260,7 @@ var quoteJsonVar =
         "text3": "",
         "url": "https:\/\/www.brainyquote.com\/quotes\/stephen_hawking_627106",
         "tag": "#quote",
-        "time": 1762079132,
+        "time": 1762086332,
         "rightFooter": ""
     },
     {
@@ -269,7 +269,7 @@ var quoteJsonVar =
         "text3": "",
         "url": "https:\/\/www.goodreads.com\/quotes\/267117-one-remember-to-look-up-at-the-stars-and-not",
         "tag": "#quote",
-        "time": 1762079100,
+        "time": 1762086300,
         "rightFooter": ""
     },
     {
@@ -278,7 +278,7 @@ var quoteJsonVar =
         "text3": "",
         "url": "https:\/\/www.goodreads.com\/quotes\/68927-the-greatest-enemy-of-knowledge-is-not-ignorance-it-is",
         "tag": "#quote",
-        "time": 1762079062,
+        "time": 1762086262,
         "rightFooter": ""
     },
     {
@@ -287,7 +287,7 @@ var quoteJsonVar =
         "text3": "",
         "url": "https:\/\/www.goodreads.com\/quotes\/104127-we-can-t-become-what-we-need-to-be-by-remaining",
         "tag": "#quote",
-        "time": 1762078922,
+        "time": 1762086122,
         "rightFooter": ""
     },
     {
@@ -296,7 +296,7 @@ var quoteJsonVar =
         "text3": "",
         "url": "https:\/\/www.brainyquote.com\/quotes\/albert_einstein_122232",
         "tag": "#quote",
-        "time": 1762078891,
+        "time": 1762086091,
         "rightFooter": ""
     },
     {
@@ -305,7 +305,7 @@ var quoteJsonVar =
         "text3": "",
         "url": "https:\/\/www.goodreads.com\/quotes\/269295-don-t-bother-just-to-be-better-than-your-contemporaries-or",
         "tag": "#quote",
-        "time": 1762078855,
+        "time": 1762086055,
         "rightFooter": ""
     },
     {
@@ -314,7 +314,7 @@ var quoteJsonVar =
         "text3": "",
         "url": "https:\/\/www.brainyquote.com\/quotes\/oprah_winfrey_105255",
         "tag": "#quote",
-        "time": 1762078811,
+        "time": 1762086011,
         "rightFooter": ""
     },
     {
@@ -323,7 +323,7 @@ var quoteJsonVar =
         "text3": "",
         "url": "https:\/\/www.brainyquote.com\/quotes\/eleanor_roosevelt_384413",
         "tag": "#quote",
-        "time": 1762078770,
+        "time": 1762085970,
         "rightFooter": ""
     },
     {
@@ -332,7 +332,7 @@ var quoteJsonVar =
         "text3": "",
         "url": "https:\/\/www.goodreads.com\/quotes\/19884-be-yourself-everyone-else-is-already-taken",
         "tag": "#quote",
-        "time": 1762078737,
+        "time": 1762085937,
         "rightFooter": ""
     },
     {
@@ -341,7 +341,7 @@ var quoteJsonVar =
         "text3": "",
         "url": "https:\/\/x.com\/gvanrossum\/status\/1650358686098022400",
         "tag": "#quote",
-        "time": 1762078690,
+        "time": 1762085890,
         "rightFooter": ""
     },
     {
@@ -350,7 +350,7 @@ var quoteJsonVar =
         "text3": "",
         "url": "https:\/\/www.goodreads.com\/quotes\/219455-the-secret-of-getting-ahead-is-getting-started-the-secret",
         "tag": "#quote",
-        "time": 1762078448,
+        "time": 1762085648,
         "rightFooter": ""
     },
     {
@@ -359,7 +359,7 @@ var quoteJsonVar =
         "text3": "",
         "url": "https:\/\/www.goodreads.com\/quotes\/18874-have-no-fear-of-perfection---you-ll-never-reach-it",
         "tag": "#quote",
-        "time": 1762078414,
+        "time": 1762085614,
         "rightFooter": ""
     },
     {
@@ -368,7 +368,7 @@ var quoteJsonVar =
         "text3": "",
         "url": "https:\/\/www.goodreads.com\/quotes\/153929-you-can-t-use-up-creativity-the-more-you-use-the",
         "tag": "#quote",
-        "time": 1762078365,
+        "time": 1762085565,
         "rightFooter": ""
     },
     {
@@ -377,7 +377,7 @@ var quoteJsonVar =
         "text3": "",
         "url": "https:\/\/www.goodreads.com\/quotes\/457177-design-is-not-just-what-it-looks-like-and-feels",
         "tag": "#quote",
-        "time": 1762078329,
+        "time": 1762085529,
         "rightFooter": ""
     },
     {
@@ -386,7 +386,7 @@ var quoteJsonVar =
         "text3": "",
         "url": "https:\/\/www.brainyquote.com\/quotes\/emile_zola_100603",
         "tag": "#quote",
-        "time": 1762078270,
+        "time": 1762085470,
         "rightFooter": ""
     },
     {
@@ -395,7 +395,7 @@ var quoteJsonVar =
         "text3": "",
         "url": "https:\/\/www.brainyquote.com\/quotes\/natalie_wood_106759",
         "tag": "#quote",
-        "time": 1762078246,
+        "time": 1762085446,
         "rightFooter": ""
     },
     {
@@ -404,7 +404,7 @@ var quoteJsonVar =
         "text3": "",
         "url": "https:\/\/www.goodreads.com\/quotes\/8287399-a-flower-blooming-in-the-desert-proves-to-the-world",
         "tag": "#quote",
-        "time": 1762078209,
+        "time": 1762085409,
         "rightFooter": ""
     },
     {
@@ -413,7 +413,7 @@ var quoteJsonVar =
         "text3": "",
         "url": "https:\/\/www.goodreads.com\/quotes\/924-here-s-to-the-crazy-ones-the-misfits-the-rebels-the",
         "tag": "#quote",
-        "time": 1762078163,
+        "time": 1762085363,
         "rightFooter": ""
     },
     {
@@ -422,7 +422,7 @@ var quoteJsonVar =
         "text3": "",
         "url": "https:\/\/www.goodreads.com\/quotes\/27312-going-to-church-doesn-t-make-you-a-christian-any-more",
         "tag": "#quote",
-        "time": 1762078128,
+        "time": 1762085328,
         "rightFooter": ""
     },
     {
@@ -431,7 +431,7 @@ var quoteJsonVar =
         "text3": "",
         "url": "https:\/\/www.brainyquote.com\/quotes\/paulo_coelho_381733",
         "tag": "#quote",
-        "time": 1762078099,
+        "time": 1762085299,
         "rightFooter": ""
     },
     {
@@ -440,7 +440,7 @@ var quoteJsonVar =
         "text3": "",
         "url": "https:\/\/www.brainyquote.com\/quotes\/peter_drucker_131070",
         "tag": "#quote",
-        "time": 1762078067,
+        "time": 1762085267,
         "rightFooter": ""
     },
     {
@@ -449,7 +449,7 @@ var quoteJsonVar =
         "text3": "",
         "url": "https:\/\/www.brainyquote.com\/quotes\/theodore_roosevelt_380703",
         "tag": "#quote",
-        "time": 1762078041,
+        "time": 1762085241,
         "rightFooter": ""
     },
     {
@@ -458,7 +458,7 @@ var quoteJsonVar =
         "text3": "",
         "url": "https:\/\/www.goodreads.com\/quotes\/9070330-she-asks-me-to-kill-the-spider-instead-i-get",
         "tag": "#quote",
-        "time": 1762078008,
+        "time": 1762085208,
         "rightFooter": ""
     },
     {
@@ -467,7 +467,7 @@ var quoteJsonVar =
         "text3": "",
         "url": "https:\/\/www.reddit.com\/r\/quotes\/comments\/1j438ml\/your_time_is_limited_so_dont_waste_it_living\/",
         "tag": "#quote",
-        "time": 1762077966,
+        "time": 1762085166,
         "rightFooter": ""
     },
     {
@@ -476,7 +476,7 @@ var quoteJsonVar =
         "text3": "",
         "url": "https:\/\/www.brainyquote.com\/quotes\/mark_twain_103535",
         "tag": "#quote",
-        "time": 1762077922,
+        "time": 1762085122,
         "rightFooter": ""
     },
     {
@@ -485,7 +485,7 @@ var quoteJsonVar =
         "text3": "",
         "url": "https:\/\/www.brainyquote.com\/quotes\/albert_einstein_125368",
         "tag": "#quote",
-        "time": 1762077891,
+        "time": 1762085091,
         "rightFooter": ""
     },
     {
@@ -494,7 +494,7 @@ var quoteJsonVar =
         "text3": "",
         "url": "https:\/\/www.brainyquote.com\/quotes\/c_s_lewis_141015",
         "tag": "#quote",
-        "time": 1762077829,
+        "time": 1762085029,
         "rightFooter": ""
     },
     {
@@ -503,7 +503,7 @@ var quoteJsonVar =
         "text3": "",
         "url": "https:\/\/www.brainyquote.com\/quotes\/ralph_waldo_emerson_386697",
         "tag": "#quote",
-        "time": 1762077742,
+        "time": 1762084942,
         "rightFooter": ""
     }
 ]

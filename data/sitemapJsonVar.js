@@ -231,6 +231,13 @@ var sitemapJsonVar = [
         "time": "id"
     },
     {
+        "text": "Donate progress\n\nDonate progress, progress bar, goal progress. | donate progress: ",
+        "url": "\/projects\/donate-progress-80\/index.html",
+        "tag": " #donate #progress #bar #goal #HTML #CSS #JavaScript #project",
+        "id": "0bea871a4b57dd2e0b4a270813a32e30",
+        "time": "id"
+    },
+    {
         "text": "Drawing\n\nA simple web application for drawing. | drawing: ",
         "url": "\/projects\/drawing-7\/index.html",
         "tag": " #draw #drawing #art #tool #tools #HTML5 #drawing #app #WebAppproject #JavaScript #project",

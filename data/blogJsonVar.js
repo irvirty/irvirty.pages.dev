@@ -9,7 +9,7 @@ var blogJsonVar =
         "text3": "",
         "url": "",
         "tag": "#DarkMode #Ubuntu #Gnome #LightMode #AutoDark #AutoLight",
-        "time": 1760591655,
+        "time": 1760602455,
         "rightFooter": ""
     },
     {
@@ -19,7 +19,7 @@ var blogJsonVar =
         "text3": "",
         "url": "",
         "tag": "#learning #English",
-        "time": 1757847145,
+        "time": 1757857945,
         "rightFooter": ""
     },
     {
@@ -29,7 +29,7 @@ var blogJsonVar =
         "text3": "",
         "url": "",
         "tag": "#WebDevelopment #website #WebDesign",
-        "time": 1730075757,
+        "time": 1730082957,
         "rightFooter": ""
     },
     {
@@ -39,7 +39,7 @@ var blogJsonVar =
         "text3": "",
         "url": "",
         "tag": "#WebDesign",
-        "time": 1729994594,
+        "time": 1730001794,
         "rightFooter": ""
     },
     {
@@ -49,7 +49,7 @@ var blogJsonVar =
         "text3": "",
         "url": "",
         "tag": "#WebDesign #WebDevelopment #notes",
-        "time": 1721525283,
+        "time": 1721536083,
         "rightFooter": ""
     },
     {
@@ -59,7 +59,7 @@ var blogJsonVar =
         "text3": "",
         "url": "",
         "tag": "#WebDesign #WebDevelopment #resources #links",
-        "time": 1712410445,
+        "time": 1712421245,
         "rightFooter": ""
     },
     {
@@ -69,7 +69,7 @@ var blogJsonVar =
         "text3": "",
         "url": "",
         "tag": "#SEO #WebDesign",
-        "time": 1711321237,
+        "time": 1711328437,
         "rightFooter": ""
     },
     {
@@ -79,7 +79,7 @@ var blogJsonVar =
         "text3": "",
         "url": "",
         "tag": "#theme #auto #automatic #dark #light #mode #AutoDark #AutoLight #DarkMode #LightMode",
-        "time": 1710664085,
+        "time": 1710671285,
         "rightFooter": ""
     },
     {
@@ -89,7 +89,7 @@ var blogJsonVar =
         "text3": "",
         "url": "",
         "tag": "#CSS #responsive #UI #UX #website #WebDesign #note #mobile #adaptive #WebDevelopment",
-        "time": 1706230527,
+        "time": 1706237727,
         "rightFooter": ""
     },
     {
@@ -99,7 +99,7 @@ var blogJsonVar =
         "text3": "",
         "url": "",
         "tag": "#HTML",
-        "time": 1704534741,
+        "time": 1704541941,
         "rightFooter": ""
     },
     {
@@ -109,7 +109,7 @@ var blogJsonVar =
         "text3": "",
         "url": "",
         "tag": "#start #end",
-        "time": 1704235006,
+        "time": 1704242206,
         "rightFooter": ""
     }
 ]

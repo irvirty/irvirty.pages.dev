@@ -8,7 +8,7 @@ var adsJsonVar =
         "text3": "",
         "url": "https:\/\/www.wikipedia.org\/",
         "tag": "#ads",
-        "time": 1758102756,
+        "time": 1758113556,
         "rightFooter": ""
     },
     {
@@ -17,7 +17,7 @@ var adsJsonVar =
         "text3": "",
         "url": "https:\/\/example.com\/",
         "tag": "#ads",
-        "time": 1758102727,
+        "time": 1758113527,
         "rightFooter": ""
     }
 ]

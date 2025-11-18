@@ -8,7 +8,7 @@ var BookDataJsonVar =
         "text3": "",
         "url": "https:\/\/www.gutenberg.org\/cache\/epub\/514\/pg514-images.html",
         "tag": "#BookData",
-        "time": 1721312417,
+        "time": 1721323217,
         "rightFooter": ""
     },
     {
@@ -17,7 +17,7 @@ var BookDataJsonVar =
         "text3": "",
         "url": "https:\/\/www.gutenberg.org\/cache\/epub\/76\/pg76-images.html",
         "tag": "#BookData",
-        "time": 1720619110,
+        "time": 1720629910,
         "rightFooter": ""
     },
     {
@@ -26,7 +26,7 @@ var BookDataJsonVar =
         "text3": "",
         "url": "https:\/\/www.gutenberg.org\/cache\/epub\/2701\/pg2701-images.html",
         "tag": "#BookData",
-        "time": 1719557950,
+        "time": 1719568750,
         "rightFooter": ""
     }
 ]

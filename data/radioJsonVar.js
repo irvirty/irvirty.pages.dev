@@ -8,7 +8,7 @@ var radioJsonVar =
         "text3": "",
         "url": "https:\/\/tunein.com\/radio\/BBC-Radio-3-Unwind-s347240\/",
         "tag": "#radio #classical",
-        "time": 1759823589,
+        "time": 1759834389,
         "rightFooter": ""
     },
     {
@@ -17,7 +17,7 @@ var radioJsonVar =
         "text3": "",
         "url": "https:\/\/tunein.com\/radio\/BBC-Radio-1-Anthems-s347239\/",
         "tag": "#radio #RadioMusic",
-        "time": 1759823566,
+        "time": 1759834366,
         "rightFooter": ""
     },
     {
@@ -26,7 +26,7 @@ var radioJsonVar =
         "text3": "",
         "url": "https:\/\/tunein.com\/radio\/BBC-Radio-1-Dance-s347238\/",
         "tag": "#radio #RadioMusic #dance #PopMusic",
-        "time": 1759823523,
+        "time": 1759834323,
         "rightFooter": ""
     },
     {
@@ -35,7 +35,7 @@ var radioJsonVar =
         "text3": "",
         "url": "https:\/\/tunein.com\/radio\/BBC-World-Service-News-Internet-s341474\/",
         "tag": "#radio #en",
-        "time": 1759823469,
+        "time": 1759834269,
         "rightFooter": ""
     },
     {
@@ -44,7 +44,7 @@ var radioJsonVar =
         "text3": "",
         "url": "https:\/\/tunein.com\/radio\/BBC-World-Service-West-Africa-s140656\/",
         "tag": "#radio #en",
-        "time": 1759823384,
+        "time": 1759834184,
         "rightFooter": ""
     },
     {
@@ -53,7 +53,7 @@ var radioJsonVar =
         "text3": "",
         "url": "https:\/\/tunein.com\/radio\/Polskie-Radio-dla-Zagranicy-Polish-Radio-External-Service-s333723\/",
         "tag": "#radio #pl",
-        "time": 1757807041,
+        "time": 1757817841,
         "rightFooter": ""
     },
     {
@@ -62,7 +62,7 @@ var radioJsonVar =
         "text3": "mp3",
         "url": "https:\/\/www.bbc.com\/audio\/play\/live\/bbc_world_service",
         "tag": "#radio #en #WorldNews #news",
-        "time": 1757805185,
+        "time": 1757815985,
         "rightFooter": ""
     },
     {
@@ -71,7 +71,7 @@ var radioJsonVar =
         "text3": "",
         "url": "https:\/\/tunein.com\/radio\/NewsRadio-Vancouver-1130-s31301\/",
         "tag": "#radio #en #news",
-        "time": 1757801986,
+        "time": 1757812786,
         "rightFooter": ""
     },
     {
@@ -80,7 +80,7 @@ var radioJsonVar =
         "text3": "",
         "url": "https:\/\/tunein.com\/radio\/580-CFRA-s31140\/",
         "tag": "#radio #en",
-        "time": 1757801139,
+        "time": 1757811939,
         "rightFooter": ""
     },
     {
@@ -89,7 +89,7 @@ var radioJsonVar =
         "text3": "",
         "url": "https:\/\/tunein.com\/radio\/KERA-901-s32500\/",
         "tag": "#radio #en",
-        "time": 1757801118,
+        "time": 1757811918,
         "rightFooter": ""
     },
     {
@@ -98,7 +98,7 @@ var radioJsonVar =
         "text3": "",
         "url": "https:\/\/tunein.com\/radio\/Iowa-Public-Radio-News-910-s23012\/",
         "tag": "#radio #en",
-        "time": 1757801100,
+        "time": 1757811900,
         "rightFooter": ""
     },
     {
@@ -107,7 +107,7 @@ var radioJsonVar =
         "text3": "",
         "url": "https:\/\/tunein.com\/radio\/West-Virginia-Public-Broadcasting-885-s23618\/",
         "tag": "#radio #en #news",
-        "time": 1757801069,
+        "time": 1757811869,
         "rightFooter": ""
     },
     {
@@ -116,7 +116,7 @@ var radioJsonVar =
         "text3": "",
         "url": "https:\/\/tunein.com\/radio\/NEWSTALK-1010-s31141\/",
         "tag": "#radio #en #news",
-        "time": 1757801008,
+        "time": 1757811808,
         "rightFooter": ""
     },
     {
@@ -125,7 +125,7 @@ var radioJsonVar =
         "text3": "",
         "url": "https:\/\/tunein.com\/radio\/WBUR-FM-909-s27654\/",
         "tag": "#radio #en",
-        "time": 1757800760,
+        "time": 1757811560,
         "rightFooter": ""
     },
     {
@@ -134,7 +134,7 @@ var radioJsonVar =
         "text3": "mp3",
         "url": "https:\/\/hromadske.radio\/en",
         "tag": "#radio #ua",
-        "time": 1757739041,
+        "time": 1757749841,
         "rightFooter": ""
     },
     {
@@ -143,7 +143,7 @@ var radioJsonVar =
         "text3": "",
         "url": "https:\/\/tunein.com\/radio\/Bible-Radio-Book-s262447\/",
         "tag": "#radio #religion #spirituality",
-        "time": 1747491107,
+        "time": 1747501907,
         "rightFooter": ""
     },
     {
@@ -152,7 +152,7 @@ var radioJsonVar =
         "text3": "",
         "url": "https:\/\/tunein.com\/radio\/AudioBookRadio-s78136\/",
         "tag": "#radio #storytelling #books #literature #poetry",
-        "time": 1747491043,
+        "time": 1747501843,
         "rightFooter": ""
     },
     {
@@ -161,7 +161,7 @@ var radioJsonVar =
         "text3": "",
         "url": "https:\/\/tunein.com\/radio\/CamoesRadiocom-s292223\/",
         "tag": "#radio #pt #RadioMusic",
-        "time": 1745732813,
+        "time": 1745743613,
         "rightFooter": ""
     },
     {
@@ -170,7 +170,7 @@ var radioJsonVar =
         "text3": "",
         "url": "https:\/\/tunein.com\/radio\/FRED-FILM-RADIO-CH8-Portuguese-s186437\/",
         "tag": "#radio #pt",
-        "time": 1745732782,
+        "time": 1745743582,
         "rightFooter": ""
     },
     {
@@ -179,7 +179,7 @@ var radioJsonVar =
         "text3": "",
         "url": "https:\/\/tunein.com\/radio\/RFI-Portugu\u00eas-s209671\/",
         "tag": "#radio #pt",
-        "time": 1745732592,
+        "time": 1745743392,
         "rightFooter": ""
     },
     {
@@ -188,7 +188,7 @@ var radioJsonVar =
         "text3": "",
         "url": "https:\/\/tunein.com\/radio\/Renascen\u00e7a-1034-s25179\/",
         "tag": "#radio #pt",
-        "time": 1745732384,
+        "time": 1745743184,
         "rightFooter": ""
     },
     {
@@ -197,7 +197,7 @@ var radioJsonVar =
         "text3": "",
         "url": "https:\/\/tunein.com\/radio\/Radio-Brockton-Fm-s248347\/",
         "tag": "#radio #pt",
-        "time": 1745732354,
+        "time": 1745743154,
         "rightFooter": ""
     },
     {
@@ -206,7 +206,7 @@ var radioJsonVar =
         "text3": "",
         "url": "https:\/\/tunein.com\/radio\/R\u00e1dio-Vida-FM-971-s114303\/",
         "tag": "#radio #pt",
-        "time": 1745732087,
+        "time": 1745742887,
         "rightFooter": ""
     },
     {
@@ -215,7 +215,7 @@ var radioJsonVar =
         "text3": "",
         "url": "https:\/\/tunein.com\/radio\/R\u00e1dio-Sines-959-s9703\/",
         "tag": "#radio #RadioMusic #LocalMusic",
-        "time": 1745732066,
+        "time": 1745742866,
         "rightFooter": ""
     },
     {
@@ -224,7 +224,7 @@ var radioJsonVar =
         "text3": "",
         "url": "https:\/\/tunein.com\/radio\/Radio-Elmo-991-s83926\/",
         "tag": "#radio #pt",
-        "time": 1745731870,
+        "time": 1745742670,
         "rightFooter": ""
     },
     {
@@ -233,7 +233,7 @@ var radioJsonVar =
         "text3": "",
         "url": "https:\/\/tunein.com\/radio\/Radio-Do-Concelho-De-Mafra-1056-s83942\/",
         "tag": "#radio #RadioMusic",
-        "time": 1745731848,
+        "time": 1745742648,
         "rightFooter": ""
     },
     {
@@ -242,7 +242,7 @@ var radioJsonVar =
         "text3": "",
         "url": "https:\/\/tunein.com\/radio\/R\u00e1dio-Cultura-de-Viseu----RCi-1055-s115125\/",
         "tag": "#radio #RadioMusic",
-        "time": 1745731803,
+        "time": 1745742603,
         "rightFooter": ""
     },
     {
@@ -251,7 +251,7 @@ var radioJsonVar =
         "text3": "",
         "url": "https:\/\/tunein.com\/radio\/R\u00e1dio-Comercial-dos-A\u00e7ores-994-s171239\/",
         "tag": "#radio #pt",
-        "time": 1745731688,
+        "time": 1745742488,
         "rightFooter": ""
     },
     {
@@ -260,7 +260,7 @@ var radioJsonVar =
         "text3": "",
         "url": "https:\/\/tunein.com\/radio\/Radio-Clube-Penafiel-918-s84110\/",
         "tag": "#radio #RadioMusic #AdultHits #top40 #PopMusic",
-        "time": 1745731617,
+        "time": 1745742417,
         "rightFooter": ""
     },
     {
@@ -269,7 +269,7 @@ var radioJsonVar =
         "text3": "",
         "url": "https:\/\/tunein.com\/radio\/R\u00e1dio-Clube-De-Gr\u00e2ndola-913-s82205\/",
         "tag": "#radio #RadioMusic",
-        "time": 1745731559,
+        "time": 1745742359,
         "rightFooter": ""
     },
     {
@@ -278,7 +278,7 @@ var radioJsonVar =
         "text3": "",
         "url": "https:\/\/tunein.com\/radio\/Radio-Caima-FM-971-s48711\/",
         "tag": "#radio #RadioMusic #90s",
-        "time": 1745731475,
+        "time": 1745742275,
         "rightFooter": ""
     },
     {
@@ -287,7 +287,7 @@ var radioJsonVar =
         "text3": "",
         "url": "https:\/\/tunein.com\/radio\/Radio-Antena-Livre-897-s84143\/",
         "tag": "#radio #RadioMusic #LocalMusic #AdultHits #top40 #PopMusic",
-        "time": 1745731380,
+        "time": 1745742180,
         "rightFooter": ""
     },
     {
@@ -296,7 +296,7 @@ var radioJsonVar =
         "text3": "",
         "url": "https:\/\/tunein.com\/radio\/Iris-FM-914-s48677\/",
         "tag": "#radio #LocalMusic",
-        "time": 1745731326,
+        "time": 1745742126,
         "rightFooter": ""
     },
     {
@@ -305,7 +305,7 @@ var radioJsonVar =
         "text3": "",
         "url": "https:\/\/tunein.com\/radio\/Dance-FM-1058-s81858\/",
         "tag": "#radio #RadioMusic #rock",
-        "time": 1745731235,
+        "time": 1745742035,
         "rightFooter": ""
     },
     {
@@ -314,7 +314,7 @@ var radioJsonVar =
         "text3": "",
         "url": "https:\/\/tunein.com\/radio\/Radio-Vaterland-s339504\/",
         "tag": "#radio #RadioMusic",
-        "time": 1745731153,
+        "time": 1745741953,
         "rightFooter": ""
     },
     {
@@ -323,7 +323,7 @@ var radioJsonVar =
         "text3": "",
         "url": "https:\/\/tunein.com\/radio\/NRJ-968-s14839\/",
         "tag": "#radio #RadioMusic #top40 #PopMusic #AdultHits",
-        "time": 1745731005,
+        "time": 1745741805,
         "rightFooter": ""
     },
     {
@@ -332,7 +332,7 @@ var radioJsonVar =
         "text3": "",
         "url": "https:\/\/tunein.com\/radio\/J\u00e4rviradio-1079-s9519\/",
         "tag": "#radio #RadioMusic #AdultHits",
-        "time": 1745730941,
+        "time": 1745741741,
         "rightFooter": ""
     },
     {
@@ -341,7 +341,7 @@ var radioJsonVar =
         "text3": "",
         "url": "https:\/\/tunein.com\/radio\/Basso-1028-s65168\/",
         "tag": "#radio #RadioMusic #top40 #PopMusic",
-        "time": 1745730873,
+        "time": 1745741673,
         "rightFooter": ""
     },
     {
@@ -350,7 +350,7 @@ var radioJsonVar =
         "text3": "",
         "url": "https:\/\/tunein.com\/radio\/\u00c5lands-Radio-913-s17504\/",
         "tag": "#radio #RadioMusic",
-        "time": 1745730825,
+        "time": 1745741625,
         "rightFooter": ""
     },
     {
@@ -359,7 +359,7 @@ var radioJsonVar =
         "text3": "",
         "url": "https:\/\/tunein.com\/radio\/Nostalgie-s309464\/",
         "tag": "#radio #RadioMusic #60s #70s",
-        "time": 1745728708,
+        "time": 1745739508,
         "rightFooter": ""
     },
     {
@@ -368,7 +368,7 @@ var radioJsonVar =
         "text3": "",
         "url": "https:\/\/tunein.com\/radio\/Oldies-100-s277210\/",
         "tag": "#radio #RadioMusic #60s",
-        "time": 1745728679,
+        "time": 1745739479,
         "rightFooter": ""
     },
     {
@@ -377,7 +377,7 @@ var radioJsonVar =
         "text3": "",
         "url": "https:\/\/tunein.com\/radio\/Totally-Radio-60s-s264705\/",
         "tag": "#radio #RadioMusic #60s",
-        "time": 1745728653,
+        "time": 1745739453,
         "rightFooter": ""
     },
     {
@@ -386,7 +386,7 @@ var radioJsonVar =
         "text3": "",
         "url": "https:\/\/tunein.com\/radio\/GotRadio-The-60s-s65669\/",
         "tag": "#radio #RadioMusic #60s",
-        "time": 1745728627,
+        "time": 1745739427,
         "rightFooter": ""
     },
     {
@@ -395,7 +395,7 @@ var radioJsonVar =
         "text3": "",
         "url": "https:\/\/tunein.com\/radio\/70s-Hits-s258565\/",
         "tag": "#radio #RadioMusic #70s",
-        "time": 1745728597,
+        "time": 1745739397,
         "rightFooter": ""
     },
     {
@@ -404,7 +404,7 @@ var radioJsonVar =
         "text3": "",
         "url": "https:\/\/tunein.com\/radio\/ITALOPOWER-s144810\/",
         "tag": "#radio #RadioMusic #DiscoMusic #dance #eletronic",
-        "time": 1745728573,
+        "time": 1745739373,
         "rightFooter": ""
     },
     {
@@ -413,7 +413,7 @@ var radioJsonVar =
         "text3": "",
         "url": "https:\/\/tunein.com\/radio\/The-Disco-Palace-s126780\/",
         "tag": "#radio #RadioMusic #DiscoMusic",
-        "time": 1745728515,
+        "time": 1745739315,
         "rightFooter": ""
     },
     {
@@ -422,7 +422,7 @@ var radioJsonVar =
         "text3": "",
         "url": "https:\/\/tunein.com\/radio\/SomaFM-Left-Coast-70s-s250404\/",
         "tag": "#radio #RadioMusic #70s #rock",
-        "time": 1745728489,
+        "time": 1745739289,
         "rightFooter": ""
     },
     {
@@ -431,7 +431,7 @@ var radioJsonVar =
         "text3": "",
         "url": "https:\/\/tunein.com\/radio\/Totally-Radio-70s-s264704\/",
         "tag": "#radio #RadioMusic #70s",
-        "time": 1745728449,
+        "time": 1745739249,
         "rightFooter": ""
     },
     {
@@ -440,7 +440,7 @@ var radioJsonVar =
         "text3": "",
         "url": "https:\/\/tunein.com\/radio\/The-Disco-Paradise-s249839\/",
         "tag": "#radio #RadioMusic #DiscoMusic",
-        "time": 1745728420,
+        "time": 1745739220,
         "rightFooter": ""
     },
     {
@@ -449,7 +449,7 @@ var radioJsonVar =
         "text3": "",
         "url": "https:\/\/tunein.com\/radio\/Americas-Greatest-70s-Hits-s294324\/",
         "tag": "#radio #RadioMuisc #70s #ClassicHits",
-        "time": 1745728393,
+        "time": 1745739193,
         "rightFooter": ""
     },
     {
@@ -458,7 +458,7 @@ var radioJsonVar =
         "text3": "",
         "url": "https:\/\/tunein.com\/radio\/Totally-Radio-90s-s264702\/",
         "tag": "#radio #RadioMusic #90s",
-        "time": 1745728323,
+        "time": 1745739123,
         "rightFooter": ""
     },
     {
@@ -467,7 +467,7 @@ var radioJsonVar =
         "text3": "",
         "url": "https:\/\/tunein.com\/radio\/80er-Radio-harmony-90er-s309594\/",
         "tag": "#radio #RadioMusic #90s",
-        "time": 1745728264,
+        "time": 1745739064,
         "rightFooter": ""
     },
     {
@@ -476,7 +476,7 @@ var radioJsonVar =
         "text3": "",
         "url": "https:\/\/tunein.com\/radio\/FFH-The-90s-s97089\/",
         "tag": "#radio #RadioMuisc #90s",
-        "time": 1745728236,
+        "time": 1745739036,
         "rightFooter": ""
     },
     {
@@ -485,7 +485,7 @@ var radioJsonVar =
         "text3": "",
         "url": "https:\/\/tunein.com\/radio\/ANTENNE-BAYERN-90er-Hits-s231123\/",
         "tag": "#radio #RadioMusic #90s",
-        "time": 1745728210,
+        "time": 1745739010,
         "rightFooter": ""
     },
     {
@@ -494,7 +494,7 @@ var radioJsonVar =
         "text3": "",
         "url": "https:\/\/tunein.com\/radio\/Freedom-FM-920-s132491\/",
         "tag": "#radio #RadioMusic #90s",
-        "time": 1745728182,
+        "time": 1745738982,
         "rightFooter": ""
     },
     {
@@ -503,7 +503,7 @@ var radioJsonVar =
         "text3": "",
         "url": "https:\/\/tunein.com\/radio\/JOE-Nederland-s307829\/",
         "tag": "#radio #RadioMusic #80s",
-        "time": 1745728106,
+        "time": 1745738906,
         "rightFooter": ""
     },
     {
@@ -512,7 +512,7 @@ var radioJsonVar =
         "text3": "",
         "url": "https:\/\/tunein.com\/radio\/GotRadio-The-80s-s49692\/",
         "tag": "#radio #RadioMusic #80s",
-        "time": 1745728080,
+        "time": 1745738880,
         "rightFooter": ""
     },
     {
@@ -521,7 +521,7 @@ var radioJsonVar =
         "text3": "",
         "url": "https:\/\/tunein.com\/radio\/RetroHitMix-s192299\/",
         "tag": "#radio #RadioMusic #80s",
-        "time": 1745728052,
+        "time": 1745738852,
         "rightFooter": ""
     },
     {
@@ -530,7 +530,7 @@ var radioJsonVar =
         "text3": "",
         "url": "https:\/\/tunein.com\/radio\/Totally-Radio-80s-s264703\/",
         "tag": "#radio #RadioMusic #80s",
-        "time": 1745728030,
+        "time": 1745738830,
         "rightFooter": ""
     },
     {
@@ -539,7 +539,7 @@ var radioJsonVar =
         "text3": "",
         "url": "https:\/\/tunein.com\/radio\/80s-ALIVE-s297204\/",
         "tag": "#radio #RadioMusic #80s",
-        "time": 1745728003,
+        "time": 1745738803,
         "rightFooter": ""
     },
     {
@@ -548,7 +548,7 @@ var radioJsonVar =
         "text3": "",
         "url": "https:\/\/tunein.com\/radio\/Signal-Radio-957-s325938\/",
         "tag": "#radio #RadioMusic #80s",
-        "time": 1745727965,
+        "time": 1745738765,
         "rightFooter": ""
     },
     {
@@ -557,7 +557,7 @@ var radioJsonVar =
         "text3": "",
         "url": "https:\/\/tunein.com\/radio\/RockZone-1059-s84091\/",
         "tag": "#radio #RadioMusic #AlternativeRock",
-        "time": 1745727940,
+        "time": 1745738740,
         "rightFooter": ""
     },
     {
@@ -566,7 +566,7 @@ var radioJsonVar =
         "text3": "",
         "url": "https:\/\/tunein.com\/radio\/Radio-Cas-Ostravsko-928-s8944\/",
         "tag": "#radio #RadioMusic #WorldTalk",
-        "time": 1745727886,
+        "time": 1745738686,
         "rightFooter": ""
     },
     {
@@ -575,7 +575,7 @@ var radioJsonVar =
         "text3": "",
         "url": "https:\/\/tunein.com\/radio\/Hitr\u00e1dio-Zl\u00edn-962-s16388\/",
         "tag": "#radio #RadioMusic #top40 #PopMusic",
-        "time": 1745727853,
+        "time": 1745738653,
         "rightFooter": ""
     },
     {
@@ -584,7 +584,7 @@ var radioJsonVar =
         "text3": "",
         "url": "https:\/\/tunein.com\/radio\/HitRadio-City-Brno-990-s110340\/",
         "tag": "#radio #RadioMusic #top40 #PopMusic",
-        "time": 1745727817,
+        "time": 1745738617,
         "rightFooter": ""
     },
     {
@@ -593,7 +593,7 @@ var radioJsonVar =
         "text3": "",
         "url": "https:\/\/tunein.com\/radio\/Fresh-Radio-Ostrava-1036-FM-s324467\/",
         "tag": "#radio #RadioMusic #dance #eletronic",
-        "time": 1745727787,
+        "time": 1745738587,
         "rightFooter": ""
     },
     {
@@ -602,7 +602,7 @@ var radioJsonVar =
         "text3": "",
         "url": "https:\/\/tunein.com\/radio\/Sunrise-FM-1032-s45562\/",
         "tag": "#radio #RadioMusic #bollywood #IndianMusic",
-        "time": 1745727650,
+        "time": 1745738450,
         "rightFooter": ""
     },
     {
@@ -611,7 +611,7 @@ var radioJsonVar =
         "text3": "",
         "url": "https:\/\/tunein.com\/radio\/Q-Radio-Newry--Mourne-1005-s67861\/",
         "tag": "#radio #RadioMusic #top40 #PopMusic",
-        "time": 1745727594,
+        "time": 1745738394,
         "rightFooter": ""
     },
     {
@@ -620,7 +620,7 @@ var radioJsonVar =
         "text3": "",
         "url": "https:\/\/tunein.com\/radio\/Polish-Radio-London-s54018\/",
         "tag": "#radio #RadioMusic #PolishMusic #PolishTalk",
-        "time": 1745727555,
+        "time": 1745738355,
         "rightFooter": ""
     },
     {
@@ -629,7 +629,7 @@ var radioJsonVar =
         "text3": "",
         "url": "https:\/\/tunein.com\/radio\/Manx-Radio-AM-1368-s37235\/",
         "tag": "#radio #RadioMusic #LocalMusic",
-        "time": 1745727508,
+        "time": 1745738308,
         "rightFooter": ""
     },
     {
@@ -638,7 +638,7 @@ var radioJsonVar =
         "text3": "",
         "url": "https:\/\/tunein.com\/radio\/Mansfield-1032-s45560\/",
         "tag": "#radio #RadioMusic #AdultHits",
-        "time": 1745727459,
+        "time": 1745738259,
         "rightFooter": ""
     },
     {
@@ -647,7 +647,7 @@ var radioJsonVar =
         "text3": "",
         "url": "https:\/\/tunein.com\/radio\/Energy-FM-934-s45495\/",
         "tag": "#radio #RadioMusic #top40 #PopMusic",
-        "time": 1745727332,
+        "time": 1745738132,
         "rightFooter": ""
     },
     {
@@ -656,7 +656,7 @@ var radioJsonVar =
         "text3": "",
         "url": "https:\/\/tunein.com\/radio\/Channel-103-1037-s67846\/",
         "tag": "#radio #RadioMusic #top40 #PopMusic",
-        "time": 1745727304,
+        "time": 1745738104,
         "rightFooter": ""
     },
     {
@@ -665,7 +665,7 @@ var radioJsonVar =
         "text3": "",
         "url": "https:\/\/tunein.com\/radio\/Alive-Radio-1073-s114263\/",
         "tag": "#radio #RadioMusic #00s",
-        "time": 1745727136,
+        "time": 1745737936,
         "rightFooter": ""
     },
     {
@@ -674,7 +674,7 @@ var radioJsonVar =
         "text3": "",
         "url": "https:\/\/tunein.com\/radio\/3FM-1050-s90863\/",
         "tag": "#radio #RadioMusic #AdultHits",
-        "time": 1745727112,
+        "time": 1745737912,
         "rightFooter": ""
     },
     {
@@ -683,7 +683,7 @@ var radioJsonVar =
         "text3": "",
         "url": "https:\/\/tunein.com\/radio\/Radio-Val-dIs\u00e8re-961-s1427\/",
         "tag": "#radio #RadioMusic",
-        "time": 1745727061,
+        "time": 1745737861,
         "rightFooter": ""
     },
     {
@@ -692,7 +692,7 @@ var radioJsonVar =
         "text3": "",
         "url": "https:\/\/tunein.com\/radio\/Radio-Sainte-Baume-889-s162789\/",
         "tag": "#radio #ReligiousMusic",
-        "time": 1745726998,
+        "time": 1745737798,
         "rightFooter": ""
     },
     {
@@ -701,7 +701,7 @@ var radioJsonVar =
         "text3": "",
         "url": "https:\/\/tunein.com\/radio\/Radio-Neptune-938-s127234\/",
         "tag": "#radio #RadioMusic #WorldMusic",
-        "time": 1745726966,
+        "time": 1745737766,
         "rightFooter": ""
     },
     {
@@ -710,7 +710,7 @@ var radioJsonVar =
         "text3": "",
         "url": "https:\/\/tunein.com\/radio\/Radio-N\u00e9o-952-s8990\/",
         "tag": "#radio #RadioMusic #WorldMusic #IndieMusic",
-        "time": 1745726933,
+        "time": 1745737733,
         "rightFooter": ""
     },
     {
@@ -719,7 +719,7 @@ var radioJsonVar =
         "text3": "",
         "url": "https:\/\/tunein.com\/radio\/RADIO-MENERGY-903-s115119\/",
         "tag": "#radio #RadioMusic #top40 #PopMusic",
-        "time": 1745726890,
+        "time": 1745737690,
         "rightFooter": ""
     },
     {
@@ -728,7 +728,7 @@ var radioJsonVar =
         "text3": "",
         "url": "https:\/\/tunein.com\/radio\/Playlist-Radio-911-s152669\/",
         "tag": "#radio #RadioMusic #EuroHits",
-        "time": 1745726810,
+        "time": 1745737610,
         "rightFooter": ""
     },
     {
@@ -737,7 +737,7 @@ var radioJsonVar =
         "text3": "",
         "url": "https:\/\/tunein.com\/radio\/PHARE-fm-953-s14929\/",
         "tag": "#radio #RadioMusic #AdultHits",
-        "time": 1745726776,
+        "time": 1745737576,
         "rightFooter": ""
     },
     {
@@ -746,7 +746,7 @@ var radioJsonVar =
         "text3": "",
         "url": "https:\/\/tunein.com\/radio\/Oxyg\u00e8ne-la-radio-de-la-Seine-et-Marne-1066-s8508\/",
         "tag": "#radio #RadioMusic #top40 #PopMusic",
-        "time": 1745726747,
+        "time": 1745737547,
         "rightFooter": ""
     },
     {
@@ -755,7 +755,7 @@ var radioJsonVar =
         "text3": "",
         "url": "https:\/\/tunein.com\/radio\/NOVA-BORDEAUX-949-s74565\/",
         "tag": "#radio #RadioMusic #IndieMusic",
-        "time": 1745726715,
+        "time": 1745737515,
         "rightFooter": ""
     },
     {
@@ -764,7 +764,7 @@ var radioJsonVar =
         "text3": "",
         "url": "https:\/\/tunein.com\/radio\/N-Radio---La-radio-de-lAisne-926-s149038\/",
         "tag": "#radio #RadioMusic #FrenchMusic",
-        "time": 1745726666,
+        "time": 1745737466,
         "rightFooter": ""
     },
     {
@@ -773,7 +773,7 @@ var radioJsonVar =
         "text3": "",
         "url": "https:\/\/tunein.com\/radio\/L\u00e9gende-FM-1076-s75553\/",
         "tag": "#radio #RadioMusic #top40 #PopMusic #rock",
-        "time": 1745726638,
+        "time": 1745737438,
         "rightFooter": ""
     },
     {
@@ -782,7 +782,7 @@ var radioJsonVar =
         "text3": "",
         "url": "https:\/\/tunein.com\/radio\/Fr\u00e9quence-7-912-s9508\/",
         "tag": "#radio #RadioMusic #MusicTalk #FrecnhTalk",
-        "time": 1745726598,
+        "time": 1745737398,
         "rightFooter": ""
     },
     {
@@ -791,7 +791,7 @@ var radioJsonVar =
         "text3": "",
         "url": "https:\/\/tunein.com\/radio\/Evasion-FM-Sud-77-888-s2930\/",
         "tag": "#radio #RadioMusic #EuroHits",
-        "time": 1745726540,
+        "time": 1745737340,
         "rightFooter": ""
     },
     {
@@ -800,7 +800,7 @@ var radioJsonVar =
         "text3": "",
         "url": "https:\/\/tunein.com\/radio\/Alta-Frequenza-1032-s2421\/",
         "tag": "#radio #RadioMusic #AdultHits",
-        "time": 1745726502,
+        "time": 1745737302,
         "rightFooter": ""
     },
     {
@@ -809,7 +809,7 @@ var radioJsonVar =
         "text3": "",
         "url": "https:\/\/tunein.com\/radio\/ALPES-1-s75535\/",
         "tag": "#radio #RadioMusic #LocalMusic",
-        "time": 1745726465,
+        "time": 1745737265,
         "rightFooter": ""
     },
     {
@@ -818,7 +818,7 @@ var radioJsonVar =
         "text3": "",
         "url": "https:\/\/tunein.com\/radio\/TKO-Radio-Spain-919-s111223\/",
         "tag": "#radio #RadioMusic #AdultHits",
-        "time": 1745726379,
+        "time": 1745737179,
         "rightFooter": ""
     },
     {
@@ -827,7 +827,7 @@ var radioJsonVar =
         "text3": "",
         "url": "https:\/\/tunein.com\/radio\/SER--Bilbao-1070-s309816\/",
         "tag": "#radio #es",
-        "time": 1745726258,
+        "time": 1745737058,
         "rightFooter": ""
     },
     {
@@ -836,7 +836,7 @@ var radioJsonVar =
         "text3": "",
         "url": "https:\/\/tunein.com\/radio\/Radiole-Andalucia-Centro-977-s141923\/",
         "tag": "#radio #RadioMusic #LatinMusic",
-        "time": 1745726182,
+        "time": 1745736982,
         "rightFooter": ""
     },
     {
@@ -845,7 +845,7 @@ var radioJsonVar =
         "text3": "",
         "url": "https:\/\/tunein.com\/radio\/Radio-Radio-Network-988-s114420\/",
         "tag": "#radio #RadioMusic #AdultHits",
-        "time": 1745726148,
+        "time": 1745736948,
         "rightFooter": ""
     },
     {
@@ -854,7 +854,7 @@ var radioJsonVar =
         "text3": "",
         "url": "https:\/\/tunein.com\/radio\/Radio-Popular-de-Bilbao---Herri-Irratia-900-s114397\/",
         "tag": "#radio #es",
-        "time": 1745726115,
+        "time": 1745736915,
         "rightFooter": ""
     },
     {
@@ -863,7 +863,7 @@ var radioJsonVar =
         "text3": "",
         "url": "https:\/\/tunein.com\/radio\/Qfm-943-s48765\/",
         "tag": "#radio #RadioMusic #jazz",
-        "time": 1745726068,
+        "time": 1745736868,
         "rightFooter": ""
     },
     {
@@ -872,7 +872,7 @@ var radioJsonVar =
         "text3": "",
         "url": "https:\/\/tunein.com\/radio\/QD-Radio-1051-s122834\/",
         "tag": "#radio #RadioMusic #variety",
-        "time": 1745726030,
+        "time": 1745736830,
         "rightFooter": ""
     },
     {
@@ -881,7 +881,7 @@ var radioJsonVar =
         "text3": "",
         "url": "https:\/\/tunein.com\/radio\/Onda-Cero-Madrid-Norte-1001-s185285\/",
         "tag": "#radio #es",
-        "time": 1745725993,
+        "time": 1745736793,
         "rightFooter": ""
     },
     {
@@ -890,7 +890,7 @@ var radioJsonVar =
         "text3": "",
         "url": "https:\/\/tunein.com\/radio\/COPE-Cadiz-1020-s105388\/",
         "tag": "#radio #es",
-        "time": 1745725949,
+        "time": 1745736749,
         "rightFooter": ""
     },
     {
@@ -899,7 +899,7 @@ var radioJsonVar =
         "text3": "",
         "url": "https:\/\/tunein.com\/radio\/Cadena-100-Gipuzkoa-950-s154056\/",
         "tag": "#radio #RadioMusic #AdultHits",
-        "time": 1745725919,
+        "time": 1745736719,
         "rightFooter": ""
     },
     {
@@ -908,7 +908,7 @@ var radioJsonVar =
         "text3": "",
         "url": "https:\/\/tunein.com\/radio\/BayRadio-985-s78046\/",
         "tag": "#radio #RadiMusic #AdultHist",
-        "time": 1745725882,
+        "time": 1745736682,
         "rightFooter": ""
     },
     {
@@ -917,7 +917,7 @@ var radioJsonVar =
         "text3": "",
         "url": "https:\/\/tunein.com\/radio\/K100-1005-s118732\/",
         "tag": "#radio #RadioMusic #AdultHits",
-        "time": 1745725764,
+        "time": 1745736564,
         "rightFooter": ""
     },
     {
@@ -926,7 +926,7 @@ var radioJsonVar =
         "text3": "",
         "url": "https:\/\/tunein.com\/radio\/Islenska-Bylgjan-1039-s329404\/",
         "tag": "#radio #RadioMusic #rock",
-        "time": 1745725725,
+        "time": 1745736525,
         "rightFooter": ""
     },
     {
@@ -935,7 +935,7 @@ var radioJsonVar =
         "text3": "",
         "url": "https:\/\/tunein.com\/radio\/Gull-Bylgjan-909-s102569\/",
         "tag": "#radio #RadioMusic #ClassicHits",
-        "time": 1745725698,
+        "time": 1745736498,
         "rightFooter": ""
     },
     {
@@ -944,7 +944,7 @@ var radioJsonVar =
         "text3": "",
         "url": "https:\/\/tunein.com\/radio\/FM957-957-s25264\/",
         "tag": "#radio #RadioMusic #top40 #PopMusic",
-        "time": 1745725669,
+        "time": 1745736469,
         "rightFooter": ""
     },
     {
@@ -953,7 +953,7 @@ var radioJsonVar =
         "text3": "",
         "url": "https:\/\/tunein.com\/radio\/Country-Bylgjan-1039-s329403\/",
         "tag": "#radio #RadioMusic #country",
-        "time": 1745725423,
+        "time": 1745736223,
         "rightFooter": ""
     },
     {
@@ -962,7 +962,7 @@ var radioJsonVar =
         "text3": "",
         "url": "https:\/\/tunein.com\/radio\/Bylgjan-989-s8430\/",
         "tag": "#radio #RadioMusic #AdultHits",
-        "time": 1745725384,
+        "time": 1745736184,
         "rightFooter": ""
     },
     {
@@ -971,7 +971,7 @@ var radioJsonVar =
         "text3": "",
         "url": "https:\/\/tunein.com\/radio\/Apparati\u00f0-s329407\/",
         "tag": "#radio #RadioMusic #LocalMusic",
-        "time": 1745725349,
+        "time": 1745736149,
         "rightFooter": ""
     },
     {
@@ -980,7 +980,7 @@ var radioJsonVar =
         "text3": "",
         "url": "https:\/\/tunein.com\/radio\/Moody-Radio-Florida-911-s30158\/",
         "tag": "#radio #ChristianTalk #ChristianContemporary",
-        "time": 1745721879,
+        "time": 1745732679,
         "rightFooter": ""
     },
     {
@@ -989,7 +989,7 @@ var radioJsonVar =
         "text3": "",
         "url": "https:\/\/tunein.com\/radio\/Bott-Radio-Network-923-s31976\/",
         "tag": "#radio #ChristianTalk #ChristianContemporary",
-        "time": 1745721767,
+        "time": 1745732567,
         "rightFooter": ""
     },
     {
@@ -998,7 +998,7 @@ var radioJsonVar =
         "text3": "",
         "url": "https:\/\/tunein.com\/radio\/UCB-1-s2651\/",
         "tag": "#radio #ChristianTalk #ChristianContemporary",
-        "time": 1745721687,
+        "time": 1745732487,
         "rightFooter": ""
     },
     {
@@ -1007,7 +1007,7 @@ var radioJsonVar =
         "text3": "",
         "url": "https:\/\/tunein.com\/radio\/Premier-Christian-Radio-1332-s17132\/",
         "tag": "#radio #ChristianTalk",
-        "time": 1745721637,
+        "time": 1745732437,
         "rightFooter": ""
     },
     {
@@ -1016,7 +1016,7 @@ var radioJsonVar =
         "text3": "",
         "url": "https:\/\/tunein.com\/radio\/K-Wave-1079-s26389\/",
         "tag": "#radio #ChristianTalk",
-        "time": 1745721577,
+        "time": 1745732377,
         "rightFooter": ""
     },
     {
@@ -1025,7 +1025,7 @@ var radioJsonVar =
         "text3": "",
         "url": "https:\/\/tunein.com\/radio\/96-Three-FM-963-s8257\/",
         "tag": "#radio #ReligiousMusic #ChristianTalk",
-        "time": 1745721296,
+        "time": 1745732096,
         "rightFooter": ""
     },
     {
@@ -1034,7 +1034,7 @@ var radioJsonVar =
         "text3": "",
         "url": "https:\/\/tunein.com\/radio\/2BOB-1047-s152530\/",
         "tag": "#radio #RadioMusic #top40 #PopMusic",
-        "time": 1745721239,
+        "time": 1745732039,
         "rightFooter": ""
     },
     {
@@ -1043,7 +1043,7 @@ var radioJsonVar =
         "text3": "",
         "url": "https:\/\/tunein.com\/radio\/TMCR-FM-953-s137828\/",
         "tag": "#radio #RadioMusic",
-        "time": 1745627524,
+        "time": 1745638324,
         "rightFooter": ""
     },
     {
@@ -1052,7 +1052,7 @@ var radioJsonVar =
         "text3": "",
         "url": "https:\/\/tunein.com\/radio\/988-Castle-FM-Scotland-s65962\/",
         "tag": "#radio #RadioMusic #AdultHits",
-        "time": 1745627438,
+        "time": 1745638238,
         "rightFooter": ""
     },
     {
@@ -1061,7 +1061,7 @@ var radioJsonVar =
         "text3": "",
         "url": "https:\/\/tunein.com\/radio\/B-100-1001-s31123\/",
         "tag": "#radio #RadioMusic #top40 #PopMusic",
-        "time": 1745626962,
+        "time": 1745637762,
         "rightFooter": ""
     },
     {
@@ -1070,7 +1070,7 @@ var radioJsonVar =
         "text3": "",
         "url": "https:\/\/tunein.com\/radio\/Q104-CKQV-1033-s95639\/",
         "tag": "#radio #RadioMusic #ClassicHits",
-        "time": 1745626887,
+        "time": 1745637687,
         "rightFooter": ""
     },
     {
@@ -1079,7 +1079,7 @@ var radioJsonVar =
         "text3": "",
         "url": "https:\/\/tunein.com\/radio\/GotRadio-Classic-Country-s49674\/",
         "tag": "#radio #RadioMusic #ClassicCountry",
-        "time": 1745626841,
+        "time": 1745637641,
         "rightFooter": ""
     },
     {
@@ -1088,7 +1088,7 @@ var radioJsonVar =
         "text3": "",
         "url": "https:\/\/tunein.com\/radio\/HPR1-Traditional-Classic-Country-s54369\/",
         "tag": "#radio #RadioMusic #ClassicCountry",
-        "time": 1745626809,
+        "time": 1745637609,
         "rightFooter": ""
     },
     {
@@ -1097,7 +1097,7 @@ var radioJsonVar =
         "text3": "",
         "url": "https:\/\/tunein.com\/radio\/WBRF-FM-981-s27581\/",
         "tag": "#radio #RadioMusic #ClassicCountry",
-        "time": 1745626756,
+        "time": 1745637556,
         "rightFooter": ""
     },
     {
@@ -1106,7 +1106,7 @@ var radioJsonVar =
         "text3": "",
         "url": "https:\/\/tunein.com\/radio\/The-Ranch---Classic-Country-s135419\/",
         "tag": "#radio #RadioMusic #ClassicCountry",
-        "time": 1745626725,
+        "time": 1745637525,
         "rightFooter": ""
     },
     {
@@ -1115,7 +1115,7 @@ var radioJsonVar =
         "text3": "",
         "url": "https:\/\/tunein.com\/radio\/Highway-65-Radio-s174864\/",
         "tag": "#radio #RadioMusic #country #rock #BluesMusic",
-        "time": 1745626668,
+        "time": 1745637468,
         "rightFooter": ""
     },
     {
@@ -1124,7 +1124,7 @@ var radioJsonVar =
         "text3": "",
         "url": "https:\/\/tunein.com\/radio\/BMLG-s223069\/",
         "tag": "#radio #RadioMusic #country",
-        "time": 1745626622,
+        "time": 1745637422,
         "rightFooter": ""
     },
     {
@@ -1133,7 +1133,7 @@ var radioJsonVar =
         "text3": "",
         "url": "https:\/\/tunein.com\/radio\/WZZK-FM-1047-s24466\/",
         "tag": "#radio #RadioMusic #country",
-        "time": 1745626581,
+        "time": 1745637381,
         "rightFooter": ""
     },
     {
@@ -1142,7 +1142,7 @@ var radioJsonVar =
         "text3": "",
         "url": "https:\/\/tunein.com\/radio\/Q-Country-915-FM-880-s25351\/",
         "tag": "#radio #RadioMusic #country",
-        "time": 1745626522,
+        "time": 1745637322,
         "rightFooter": ""
     },
     {
@@ -1151,7 +1151,7 @@ var radioJsonVar =
         "text3": "",
         "url": "https:\/\/tunein.com\/radio\/Rock-102-1021-s43976\/",
         "tag": "#radio #RadioMusic #rock",
-        "time": 1745626480,
+        "time": 1745637280,
         "rightFooter": ""
     },
     {
@@ -1160,7 +1160,7 @@ var radioJsonVar =
         "text3": "",
         "url": "https:\/\/tunein.com\/radio\/Sportsnet-960-The-FAN-s31110\/",
         "tag": "#radio #sport",
-        "time": 1745626434,
+        "time": 1745637234,
         "rightFooter": ""
     },
     {
@@ -1169,7 +1169,7 @@ var radioJsonVar =
         "text3": "",
         "url": "https:\/\/tunein.com\/radio\/Jack-94-5-945-s43893\/",
         "tag": "#radio #RadioMusic #ClassicHits",
-        "time": 1745626383,
+        "time": 1745637183,
         "rightFooter": ""
     },
     {
@@ -1178,7 +1178,7 @@ var radioJsonVar =
         "text3": "",
         "url": "https:\/\/tunein.com\/radio\/Edmonton-Sports-Talk-s325139\/",
         "tag": "#radio #sport",
-        "time": 1745626314,
+        "time": 1745637114,
         "rightFooter": ""
     },
     {
@@ -1187,7 +1187,7 @@ var radioJsonVar =
         "text3": "",
         "url": "https:\/\/tunein.com\/radio\/KUAC-917-s19975\/",
         "tag": "#radio #en",
-        "time": 1745626275,
+        "time": 1745637075,
         "rightFooter": ""
     },
     {
@@ -1196,7 +1196,7 @@ var radioJsonVar =
         "text3": "",
         "url": "https:\/\/tunein.com\/radio\/The-Rush-987-s107890\/",
         "tag": "#radio #RadioMusic #WorldMusic",
-        "time": 1745626161,
+        "time": 1745636961,
         "rightFooter": ""
     },
     {
@@ -1205,7 +1205,7 @@ var radioJsonVar =
         "text3": "",
         "url": "https:\/\/tunein.com\/radio\/KBRW-680-s31846\/",
         "tag": "#radio #en",
-        "time": 1745626079,
+        "time": 1745636879,
         "rightFooter": ""
     },
     {
@@ -1214,7 +1214,7 @@ var radioJsonVar =
         "text3": "",
         "url": "https:\/\/tunein.com\/radio\/Voice-of-America-Chinese-s9785\/",
         "tag": "#radio #cn",
-        "time": 1745385235,
+        "time": 1745396035,
         "rightFooter": ""
     },
     {
@@ -1223,7 +1223,7 @@ var radioJsonVar =
         "text3": "",
         "url": "https:\/\/tunein.com\/radio\/Relax-Zone-s302892\/",
         "tag": "#radio #AmbientMusic",
-        "time": 1745362497,
+        "time": 1745373297,
         "rightFooter": ""
     },
     {
@@ -1232,7 +1232,7 @@ var radioJsonVar =
         "text3": "",
         "url": "https:\/\/tunein.com\/radio\/Psyndora-Chillout-s248971\/",
         "tag": "#radio #AmbientMusic",
-        "time": 1745362469,
+        "time": 1745373269,
         "rightFooter": ""
     },
     {
@@ -1241,7 +1241,7 @@ var radioJsonVar =
         "text3": "",
         "url": "https:\/\/tunein.com\/radio\/Forest-Green-Radio-s240651\/",
         "tag": "#radio #AmbientMusic",
-        "time": 1745362446,
+        "time": 1745373246,
         "rightFooter": ""
     },
     {
@@ -1250,7 +1250,7 @@ var radioJsonVar =
         "text3": "",
         "url": "https:\/\/tunein.com\/radio\/590-The-Fan-s32691\/",
         "tag": "#radio #AmbientMusic",
-        "time": 1745362419,
+        "time": 1745373219,
         "rightFooter": ""
     },
     {
@@ -1259,7 +1259,7 @@ var radioJsonVar =
         "text3": "",
         "url": "https:\/\/tunein.com\/radio\/Healing-Music-s302889\/",
         "tag": "#radio #AmbientMusic",
-        "time": 1745362396,
+        "time": 1745373196,
         "rightFooter": ""
     },
     {
@@ -1268,7 +1268,7 @@ var radioJsonVar =
         "text3": "",
         "url": "https:\/\/tunein.com\/radio\/181FM-Classical-Guitar-s90484\/",
         "tag": "#radio #AmbientMusic",
-        "time": 1745362358,
+        "time": 1745373158,
         "rightFooter": ""
     },
     {
@@ -1277,7 +1277,7 @@ var radioJsonVar =
         "text3": "",
         "url": "https:\/\/tunein.com\/radio\/985-CKWR-s12245\/",
         "tag": "#radio #AmbientMusic",
-        "time": 1745362307,
+        "time": 1745373107,
         "rightFooter": ""
     },
     {
@@ -1286,7 +1286,7 @@ var radioJsonVar =
         "text3": "",
         "url": "https:\/\/tunein.com\/radio\/Quiet-Time-Radio-s297209\/",
         "tag": "#radio #AmbientMusic",
-        "time": 1745362236,
+        "time": 1745373036,
         "rightFooter": ""
     },
     {
@@ -1295,7 +1295,7 @@ var radioJsonVar =
         "text3": "",
         "url": "https:\/\/tunein.com\/radio\/Slowly-Radio---Slow-s213374\/",
         "tag": "#radio #RadioMusic #60s #70s",
-        "time": 1745361342,
+        "time": 1745372142,
         "rightFooter": ""
     },
     {
@@ -1304,7 +1304,7 @@ var radioJsonVar =
         "text3": "",
         "url": "https:\/\/tunein.com\/radio\/Yimago-Earth-s215840\/",
         "tag": "#radio #AmbientMusic",
-        "time": 1745361261,
+        "time": 1745372061,
         "rightFooter": ""
     },
     {
@@ -1313,7 +1313,7 @@ var radioJsonVar =
         "text3": "",
         "url": "https:\/\/tunein.com\/radio\/Sun-Radio---Caf\u00e9-(Caf\u00e9---Soulside-Radio)-s238256\/",
         "tag": "#radio #AmbientMusic",
-        "time": 1745361231,
+        "time": 1745372031,
         "rightFooter": ""
     },
     {
@@ -1322,7 +1322,7 @@ var radioJsonVar =
         "text3": "",
         "url": "https:\/\/tunein.com\/radio\/The-Oasis---Modern-Easy-Listening-s205347\/",
         "tag": "#radio #AmbientMusic",
-        "time": 1745361211,
+        "time": 1745372011,
         "rightFooter": ""
     },
     {
@@ -1331,7 +1331,7 @@ var radioJsonVar =
         "text3": "",
         "url": "https:\/\/tunein.com\/radio\/Sleep-Radio-s228215\/",
         "tag": "#radio #AmbientMusic",
-        "time": 1745361141,
+        "time": 1745371941,
         "rightFooter": ""
     },
     {
@@ -1340,7 +1340,7 @@ var radioJsonVar =
         "text3": "",
         "url": "https:\/\/tunein.com\/radio\/Buddha-Beach-s302881\/",
         "tag": "#radio #AmbientMusic",
-        "time": 1745361123,
+        "time": 1745371923,
         "rightFooter": ""
     },
     {
@@ -1349,7 +1349,7 @@ var radioJsonVar =
         "text3": "",
         "url": "https:\/\/tunein.com\/radio\/RSH-Relax-s275739\/",
         "tag": "#radio #AmbientMusic #WorldMusic",
-        "time": 1745361053,
+        "time": 1745371853,
         "rightFooter": ""
     },
     {
@@ -1358,7 +1358,7 @@ var radioJsonVar =
         "text3": "",
         "url": "https:\/\/tunein.com\/radio\/Perfectmoods-s291265\/",
         "tag": "#radio #AmbientMusic #jazz",
-        "time": 1745360990,
+        "time": 1745371790,
         "rightFooter": ""
     },
     {
@@ -1367,7 +1367,7 @@ var radioJsonVar =
         "text3": "",
         "url": "https:\/\/tunein.com\/radio\/Costa-Del-Mar---Zen-s282997\/",
         "tag": "#radio #AmbientMusic",
-        "time": 1745360969,
+        "time": 1745371769,
         "rightFooter": ""
     },
     {
@@ -1376,7 +1376,7 @@ var radioJsonVar =
         "text3": "",
         "url": "https:\/\/tunein.com\/radio\/Ibiza-Radio---Chill-s240424\/",
         "tag": "#radio #AmbientMusic #chill",
-        "time": 1745360938,
+        "time": 1745371738,
         "rightFooter": ""
     },
     {
@@ -1385,7 +1385,7 @@ var radioJsonVar =
         "text3": "",
         "url": "https:\/\/tunein.com\/radio\/Costa-Del-Mar-s187256\/",
         "tag": "#radio #AmbientMusic #chill",
-        "time": 1745360735,
+        "time": 1745371535,
         "rightFooter": ""
     },
     {
@@ -1394,7 +1394,7 @@ var radioJsonVar =
         "text3": "",
         "url": "https:\/\/tunein.com\/radio\/NATURE-RADIO-OCEAN-s336624\/",
         "tag": "#radio #AmbientMusic",
-        "time": 1745360717,
+        "time": 1745371517,
         "rightFooter": ""
     },
     {
@@ -1403,7 +1403,7 @@ var radioJsonVar =
         "text3": "",
         "url": "https:\/\/tunein.com\/radio\/Spreeradio-Wellness-s329615\/",
         "tag": "#radio #AmbientMusic",
-        "time": 1745360699,
+        "time": 1745371499,
         "rightFooter": ""
     },
     {
@@ -1412,7 +1412,7 @@ var radioJsonVar =
         "text3": "",
         "url": "https:\/\/tunein.com\/radio\/Vikland-s214235\/",
         "tag": "#radio #AmbientMusic",
-        "time": 1745360668,
+        "time": 1745371468,
         "rightFooter": ""
     },
     {
@@ -1421,7 +1421,7 @@ var radioJsonVar =
         "text3": "",
         "url": "https:\/\/tunein.com\/radio\/696radio-s182595\/",
         "tag": "#radio #AmbientMusic",
-        "time": 1745360631,
+        "time": 1745371431,
         "rightFooter": ""
     },
     {
@@ -1430,7 +1430,7 @@ var radioJsonVar =
         "text3": "",
         "url": "https:\/\/tunein.com\/radio\/Lovers-Only-s299323\/",
         "tag": "#radio #AmbientMusic",
-        "time": 1745360604,
+        "time": 1745371404,
         "rightFooter": ""
     },
     {
@@ -1439,7 +1439,7 @@ var radioJsonVar =
         "text3": "",
         "url": "https:\/\/tunein.com\/radio\/Radio-Dimensione-Relax-s260893\/",
         "tag": "#radio #AmbientMusic",
-        "time": 1745360573,
+        "time": 1745371373,
         "rightFooter": ""
     },
     {
@@ -1448,7 +1448,7 @@ var radioJsonVar =
         "text3": "",
         "url": "https:\/\/tunein.com\/radio\/NATURE-RADIO-RAIN-s336549\/",
         "tag": "#radio #AmbientMusic",
-        "time": 1745360533,
+        "time": 1745371333,
         "rightFooter": ""
     },
     {
@@ -1457,7 +1457,7 @@ var radioJsonVar =
         "text3": "",
         "url": "https:\/\/tunein.com\/radio\/Sleepscapes--Rain-s237131\/",
         "tag": "#radio #AmbientMusic",
-        "time": 1745360496,
+        "time": 1745371296,
         "rightFooter": ""
     },
     {
@@ -1466,7 +1466,7 @@ var radioJsonVar =
         "text3": "",
         "url": "https:\/\/tunein.com\/radio\/Cadena-Dial-917-s9459\/",
         "tag": "#radio #RadioMusic #PopLatino #top40 #PopMusic",
-        "time": 1745129366,
+        "time": 1745140166,
         "rightFooter": ""
     },
     {
@@ -1475,7 +1475,7 @@ var radioJsonVar =
         "text3": "",
         "url": "https:\/\/tunein.com\/radio\/Rockklassiker-1067-s10668\/",
         "tag": "#radio #RadioMusic #rock",
-        "time": 1745129291,
+        "time": 1745140091,
         "rightFooter": ""
     },
     {
@@ -1484,7 +1484,7 @@ var radioJsonVar =
         "text3": "",
         "url": "https:\/\/tunein.com\/radio\/640-Toronto-s31152\/",
         "tag": "#radio #en",
-        "time": 1745129266,
+        "time": 1745140066,
         "rightFooter": ""
     },
     {
@@ -1493,7 +1493,7 @@ var radioJsonVar =
         "text3": "",
         "url": "https:\/\/tunein.com\/radio\/SPIN-1038-1038-s6530\/",
         "tag": "#radio #RadioMusic #top40 #PopMusic #EuroHits #dance #eletronic",
-        "time": 1745129243,
+        "time": 1745140043,
         "rightFooter": ""
     },
     {
@@ -1502,7 +1502,7 @@ var radioJsonVar =
         "text3": "",
         "url": "https:\/\/tunein.com\/radio\/730-CKNW-980-s31271\/",
         "tag": "#radio #en",
-        "time": 1745129129,
+        "time": 1745139929,
         "rightFooter": ""
     },
     {
@@ -1511,7 +1511,7 @@ var radioJsonVar =
         "text3": "",
         "url": "https:\/\/tunein.com\/radio\/Roots-Radio-895-s21192\/",
         "tag": "#radio #RadioMusic #jazz #CollegeRadio",
-        "time": 1745129099,
+        "time": 1745139899,
         "rightFooter": ""
     },
     {
@@ -1520,7 +1520,7 @@ var radioJsonVar =
         "text3": "",
         "url": "https:\/\/tunein.com\/radio\/LBC-UK-s220687\/",
         "tag": "#radio #en",
-        "time": 1745128944,
+        "time": 1745139744,
         "rightFooter": ""
     },
     {
@@ -1529,7 +1529,7 @@ var radioJsonVar =
         "text3": "",
         "url": "https:\/\/tunein.com\/radio\/C-SPAN-Radio-901-s28047\/",
         "tag": "#radio #en #news",
-        "time": 1745128906,
+        "time": 1745139706,
         "rightFooter": ""
     },
     {
@@ -1538,7 +1538,7 @@ var radioJsonVar =
         "text3": "",
         "url": "https:\/\/tunein.com\/radio\/All-Classical-Portland-890-s31824\/",
         "tag": "#radio #RadioMusic #classical",
-        "time": 1745128885,
+        "time": 1745139685,
         "rightFooter": ""
     },
     {
@@ -1547,7 +1547,7 @@ var radioJsonVar =
         "text3": "",
         "url": "https:\/\/tunein.com\/radio\/Times-Radio-s309354\/",
         "tag": "#radio #en",
-        "time": 1745128856,
+        "time": 1745139656,
         "rightFooter": ""
     },
     {
@@ -1556,7 +1556,7 @@ var radioJsonVar =
         "text3": "",
         "url": "https:\/\/tunein.com\/radio\/KNKX-885-s44526\/",
         "tag": "#radio #RadioMusic #jazz",
-        "time": 1745128832,
+        "time": 1745139632,
         "rightFooter": ""
     },
     {
@@ -1565,7 +1565,7 @@ var radioJsonVar =
         "text3": "",
         "url": "https:\/\/tunein.com\/radio\/Jazz-885-s31681\/",
         "tag": "#radio #RadioMusic #jazz",
-        "time": 1745128776,
+        "time": 1745139576,
         "rightFooter": ""
     },
     {
@@ -1574,7 +1574,7 @@ var radioJsonVar =
         "text3": "",
         "url": "https:\/\/tunein.com\/radio\/KBACH-895-FM-s31621\/",
         "tag": "#radio #RadioMusic #classical",
-        "time": 1745128750,
+        "time": 1745139550,
         "rightFooter": ""
     },
     {
@@ -1583,7 +1583,7 @@ var radioJsonVar =
         "text3": "",
         "url": "https:\/\/tunein.com\/radio\/KPBS-FM-895-s34633\/",
         "tag": "#radio #en",
-        "time": 1745128690,
+        "time": 1745139490,
         "rightFooter": ""
     },
     {
@@ -1592,7 +1592,7 @@ var radioJsonVar =
         "text3": "",
         "url": "https:\/\/tunein.com\/radio\/KUVO-Jazz-893-s35972\/",
         "tag": "#radio #RadioMusic #jazz",
-        "time": 1745128653,
+        "time": 1745139453,
         "rightFooter": ""
     },
     {
@@ -1601,7 +1601,7 @@ var radioJsonVar =
         "text3": "",
         "url": "https:\/\/tunein.com\/radio\/KCSM-Jazz-911-s32163\/",
         "tag": "#radio #RadioMusic #jazz",
-        "time": 1745128628,
+        "time": 1745139428,
         "rightFooter": ""
     },
     {
@@ -1610,7 +1610,7 @@ var radioJsonVar =
         "text3": "",
         "url": "https:\/\/tunein.com\/radio\/Classic-FM-1009-s8439\/",
         "tag": "#radio #RadioMusic #classical",
-        "time": 1745128601,
+        "time": 1745139401,
         "rightFooter": ""
     },
     {
@@ -1619,7 +1619,7 @@ var radioJsonVar =
         "text3": "",
         "url": "https:\/\/tunein.com\/radio\/WQXR-FM-1059-s27729\/",
         "tag": "#radio #RadioMusic #classical",
-        "time": 1745128421,
+        "time": 1745139221,
         "rightFooter": ""
     },
     {
@@ -1628,7 +1628,7 @@ var radioJsonVar =
         "text3": "",
         "url": "https:\/\/tunein.com\/radio\/WOSU-897-NPR-News-s21809\/",
         "tag": "#radio #en",
-        "time": 1745128379,
+        "time": 1745139179,
         "rightFooter": ""
     },
     {
@@ -1637,7 +1637,7 @@ var radioJsonVar =
         "text3": "",
         "url": "https:\/\/tunein.com\/radio\/WFUV-907-s28907\/",
         "tag": "#radio #en",
-        "time": 1745128342,
+        "time": 1745139142,
         "rightFooter": ""
     },
     {
@@ -1646,7 +1646,7 @@ var radioJsonVar =
         "text3": "",
         "url": "https:\/\/tunein.com\/radio\/KUER-FM-901-s35868\/",
         "tag": "#radio #en",
-        "time": 1745128287,
+        "time": 1745139087,
         "rightFooter": ""
     },
     {
@@ -1655,7 +1655,7 @@ var radioJsonVar =
         "text3": "",
         "url": "https:\/\/tunein.com\/radio\/Bloomberg-Radio-s165740\/",
         "tag": "#radio #en #business #BusinessNews",
-        "time": 1743682655,
+        "time": 1743693455,
         "rightFooter": ""
     },
     {
@@ -1664,7 +1664,7 @@ var radioJsonVar =
         "text3": "",
         "url": "https:\/\/tunein.com\/radio\/ANTENNE-BAYERN-Workout-Mix-s244473\/",
         "tag": "#radio #RadioMusic #dance #electronic",
-        "time": 1742048128,
+        "time": 1742055328,
         "rightFooter": ""
     },
     {
@@ -1673,7 +1673,7 @@ var radioJsonVar =
         "text3": "",
         "url": "https:\/\/tunein.com\/radio\/NRJ-1051-s2340\/",
         "tag": "#radio #RadioMusic #top40 #PopMusic",
-        "time": 1742047563,
+        "time": 1742054763,
         "rightFooter": ""
     },
     {
@@ -1682,7 +1682,7 @@ var radioJsonVar =
         "text3": "",
         "url": "https:\/\/tunein.com\/radio\/Radio-Metro-\u00d8stfold-1054-s131383\/",
         "tag": "#radio #RadioMusic #AdultHits",
-        "time": 1742047442,
+        "time": 1742054642,
         "rightFooter": ""
     },
     {
@@ -1691,7 +1691,7 @@ var radioJsonVar =
         "text3": "",
         "url": "https:\/\/tunein.com\/radio\/P24-7-Nor-s262513\/",
         "tag": "#radio #RadioMusic #ClassicHits",
-        "time": 1742047387,
+        "time": 1742054587,
         "rightFooter": ""
     },
     {
@@ -1700,7 +1700,7 @@ var radioJsonVar =
         "text3": "",
         "url": "https:\/\/tunein.com\/radio\/Antenne-Tirol-921-s125606\/",
         "tag": "#radio #RadioMusic #top40 #PopMusic",
-        "time": 1742046976,
+        "time": 1742054176,
         "rightFooter": ""
     },
     {
@@ -1709,7 +1709,7 @@ var radioJsonVar =
         "text3": "",
         "url": "https:\/\/tunein.com\/radio\/oe24-Radio-LIVE-s24934\/",
         "tag": "#radio #RadioMusic #top40 #PopMusic",
-        "time": 1742046883,
+        "time": 1742054083,
         "rightFooter": ""
     },
     {
@@ -1718,7 +1718,7 @@ var radioJsonVar =
         "text3": "",
         "url": "https:\/\/tunein.com\/radio\/Radio-Siljan-941-s105236\/",
         "tag": "#radio #RadioMusic #top40 #PopMusic",
-        "time": 1742046027,
+        "time": 1742053227,
         "rightFooter": ""
     },
     {
@@ -1727,7 +1727,7 @@ var radioJsonVar =
         "text3": "",
         "url": "https:\/\/tunein.com\/radio\/FUN-RADIO-953-s105367\/",
         "tag": "#radio #RadioMusic #top40 #PopMusic",
-        "time": 1742045116,
+        "time": 1742052316,
         "rightFooter": ""
     },
     {
@@ -1736,7 +1736,7 @@ var radioJsonVar =
         "text3": "",
         "url": "https:\/\/tunein.com\/radio\/EDM-Nordic-920-s188741\/",
         "tag": "#radio #RadioMusic #house",
-        "time": 1742045007,
+        "time": 1742052207,
         "rightFooter": ""
     },
     {
@@ -1745,7 +1745,7 @@ var radioJsonVar =
         "text3": "",
         "url": "https:\/\/tunein.com\/radio\/RNE-Radio-Cl\u00e1sica-988-s1474\/",
         "tag": "#radio #RadioMusic #classical",
-        "time": 1741157493,
+        "time": 1741164693,
         "rightFooter": ""
     },
     {
@@ -1754,7 +1754,7 @@ var radioJsonVar =
         "text3": "",
         "url": "https:\/\/tunein.com\/radio\/RMF-Classic-878-s48202\/",
         "tag": "#radio #RadioMusic #classical",
-        "time": 1741157435,
+        "time": 1741164635,
         "rightFooter": ""
     },
     {
@@ -1763,7 +1763,7 @@ var radioJsonVar =
         "text3": "",
         "url": "https:\/\/tunein.com\/radio\/The-New-Classical-FM-963-s12364\/",
         "tag": "#radio #RadioMusic #classical",
-        "time": 1741157262,
+        "time": 1741164462,
         "rightFooter": ""
     },
     {
@@ -1772,7 +1772,7 @@ var radioJsonVar =
         "text3": "",
         "url": "https:\/\/tunein.com\/radio\/971-The-Fan-s27545\/",
         "tag": "#radio #sport",
-        "time": 1740923438,
+        "time": 1740930638,
         "rightFooter": ""
     },
     {
@@ -1781,7 +1781,7 @@ var radioJsonVar =
         "text3": "",
         "url": "https:\/\/tunein.com\/radio\/Bailrigg-FM-953-s20314\/",
         "tag": "#radio #RadioMusic #CollegeRadio",
-        "time": 1740908440,
+        "time": 1740915640,
         "rightFooter": ""
     },
     {
@@ -1790,7 +1790,7 @@ var radioJsonVar =
         "text3": "",
         "url": "https:\/\/tunein.com\/radio\/NPO-CAMPUS-s86629\/",
         "tag": "#radio #RadioMusic #AlternativeRock",
-        "time": 1740907721,
+        "time": 1740914921,
         "rightFooter": ""
     },
     {
@@ -1799,7 +1799,7 @@ var radioJsonVar =
         "text3": "",
         "url": "https:\/\/tunein.com\/radio\/The-SoCal-Sound-885-s32164\/",
         "tag": "#radio #RadioMusic #AlternativeRock",
-        "time": 1740907622,
+        "time": 1740914822,
         "rightFooter": ""
     },
     {
@@ -1808,7 +1808,7 @@ var radioJsonVar =
         "text3": "",
         "url": "https:\/\/tunein.com\/radio\/Radio-Superfly-983-s68225\/",
         "tag": "#radio #RadioMusic #soul",
-        "time": 1740907466,
+        "time": 1740914666,
         "rightFooter": ""
     },
     {
@@ -1817,7 +1817,7 @@ var radioJsonVar =
         "text3": "",
         "url": "https:\/\/tunein.com\/radio\/Sanctuary-Radio-Dark-Electro-Channel-s121323\/",
         "tag": "#radio #RadioMusic #AlternativeRock",
-        "time": 1740907272,
+        "time": 1740914472,
         "rightFooter": ""
     },
     {
@@ -1826,7 +1826,7 @@ var radioJsonVar =
         "text3": "",
         "url": "https:\/\/tunein.com\/radio\/TMM-1-s159857\/",
         "tag": "#radio #RadioMusic #IndieMusic",
-        "time": 1740904660,
+        "time": 1740911860,
         "rightFooter": ""
     },
     {
@@ -1835,7 +1835,7 @@ var radioJsonVar =
         "text3": "",
         "url": "https:\/\/tunein.com\/radio\/Y-Not-Radio-s127209\/",
         "tag": "#radio #RadioMusic #IndieMusic",
-        "time": 1740903820,
+        "time": 1740911020,
         "rightFooter": ""
     },
     {
@@ -1844,7 +1844,7 @@ var radioJsonVar =
         "text3": "",
         "url": "https:\/\/tunein.com\/radio\/KWSS-Independent-Radio-939-s97194\/",
         "tag": "#radio #RadioMusic #AlternativeRock",
-        "time": 1740865437,
+        "time": 1740872637,
         "rightFooter": ""
     },
     {
@@ -1853,7 +1853,7 @@ var radioJsonVar =
         "text3": "",
         "url": "https:\/\/tunein.com\/radio\/TMM-2-s155539\/",
         "tag": "#radio #RadioMusic #IndieMusic",
-        "time": 1740865408,
+        "time": 1740872608,
         "rightFooter": ""
     },
     {
@@ -1862,7 +1862,7 @@ var radioJsonVar =
         "text3": "",
         "url": "https:\/\/tunein.com\/radio\/FluxFinest-s259861\/",
         "tag": "#radio #RadioMusic #IndieMusic",
-        "time": 1740865280,
+        "time": 1740872480,
         "rightFooter": ""
     },
     {
@@ -1871,7 +1871,7 @@ var radioJsonVar =
         "text3": "",
         "url": "https:\/\/tunein.com\/radio\/Chill-With-Starter-FM-s197282\/",
         "tag": "#radio #RadioMusic #chill",
-        "time": 1740864749,
+        "time": 1740871949,
         "rightFooter": ""
     },
     {
@@ -1880,7 +1880,7 @@ var radioJsonVar =
         "text3": "",
         "url": "https:\/\/tunein.com\/radio\/Radio-City-994-s14840\/",
         "tag": "#radio #RadioMusic #rock",
-        "time": 1740864590,
+        "time": 1740871790,
         "rightFooter": ""
     },
     {
@@ -1889,7 +1889,7 @@ var radioJsonVar =
         "text3": "",
         "url": "https:\/\/tunein.com\/radio\/Radio-Quartz-939-s10012\/",
         "tag": "#radio #RadioMusic #top40 #PopMusic",
-        "time": 1740846025,
+        "time": 1740853225,
         "rightFooter": ""
     },
     {
@@ -1898,7 +1898,7 @@ var radioJsonVar =
         "text3": "",
         "url": "https:\/\/tunein.com\/radio\/Radio-Media-107-s265999\/",
         "tag": "#radio #RadioMusic #CalssicHits",
-        "time": 1740845910,
+        "time": 1740853110,
         "rightFooter": ""
     },
     {
@@ -1907,7 +1907,7 @@ var radioJsonVar =
         "text3": "",
         "url": "https:\/\/tunein.com\/radio\/Radio-Emotion-Belgique-1049-s242260\/",
         "tag": "#radio #RadioMusic #AdultHits",
-        "time": 1740845779,
+        "time": 1740852979,
         "rightFooter": ""
     },
     {
@@ -1916,7 +1916,7 @@ var radioJsonVar =
         "text3": "",
         "url": "https:\/\/tunein.com\/radio\/HAPPY-HITS-929-s113070\/",
         "tag": "#radio #RadioMusic #top40 #PopMusic",
-        "time": 1740845696,
+        "time": 1740852896,
         "rightFooter": ""
     },
     {
@@ -1925,7 +1925,7 @@ var radioJsonVar =
         "text3": "",
         "url": "https:\/\/tunein.com\/radio\/flash-fm-884-s202287\/",
         "tag": "#radio #RadioMusic #80s",
-        "time": 1740845593,
+        "time": 1740852793,
         "rightFooter": ""
     },
     {
@@ -1934,7 +1934,7 @@ var radioJsonVar =
         "text3": "",
         "url": "https:\/\/tunein.com\/radio\/TV-Visjon-Norge-s80484\/",
         "tag": "#radio #no",
-        "time": 1740845116,
+        "time": 1740852316,
         "rightFooter": ""
     },
     {
@@ -1943,7 +1943,7 @@ var radioJsonVar =
         "text3": "",
         "url": "https:\/\/tunein.com\/radio\/Radio-Troms\u00f8-1056-s10048\/",
         "tag": "#radio #RadioMusic #top40 #PopMusic",
-        "time": 1740844999,
+        "time": 1740852199,
         "rightFooter": ""
     },
     {
@@ -1952,7 +1952,7 @@ var radioJsonVar =
         "text3": "",
         "url": "https:\/\/tunein.com\/radio\/Radio-Sotra-1009-s48188\/",
         "tag": "#radio #RadioMusic #variety",
-        "time": 1740844912,
+        "time": 1740852112,
         "rightFooter": ""
     },
     {
@@ -1961,7 +1961,7 @@ var radioJsonVar =
         "text3": "",
         "url": "https:\/\/tunein.com\/radio\/Radio-Nordsjo-1061-s108040\/",
         "tag": "#radio #RadioMusic #top40 #PopMusic",
-        "time": 1740844483,
+        "time": 1740851683,
         "rightFooter": ""
     },
     {
@@ -1970,7 +1970,7 @@ var radioJsonVar =
         "text3": "",
         "url": "https:\/\/tunein.com\/radio\/Radio-Loland-1044-s110458\/",
         "tag": "#radio #RadioMusic #WorldMusic",
-        "time": 1740844439,
+        "time": 1740851639,
         "rightFooter": ""
     },
     {
@@ -1979,7 +1979,7 @@ var radioJsonVar =
         "text3": "",
         "url": "https:\/\/tunein.com\/radio\/Radio-Bardufoss-1038-s87749\/",
         "tag": "#radio #RadioMusic #AdultHits #top40 #PopMusic",
-        "time": 1740844047,
+        "time": 1740851247,
         "rightFooter": ""
     },
     {
@@ -1988,7 +1988,7 @@ var radioJsonVar =
         "text3": "",
         "url": "https:\/\/tunein.com\/radio\/Radio-Ask\u00f8y-1064-s59399\/",
         "tag": "#radio #RadioMusic #AdultHits",
-        "time": 1740844007,
+        "time": 1740851207,
         "rightFooter": ""
     },
     {
@@ -1997,7 +1997,7 @@ var radioJsonVar =
         "text3": "",
         "url": "https:\/\/tunein.com\/radio\/ElverumsRadioen-993-s165763\/",
         "tag": "#radio #RadioMusic #AdultHits",
-        "time": 1740843277,
+        "time": 1740850477,
         "rightFooter": ""
     },
     {
@@ -2006,7 +2006,7 @@ var radioJsonVar =
         "text3": "",
         "url": "https:\/\/tunein.com\/radio\/Rock-FM-949-s183971\/",
         "tag": "#radio #rock #RadioMusic",
-        "time": 1740839609,
+        "time": 1740846809,
         "rightFooter": ""
     },
     {
@@ -2015,7 +2015,7 @@ var radioJsonVar =
         "text3": "",
         "url": "https:\/\/tunein.com\/radio\/Pulsas-1073-s15902\/",
         "tag": "#radio #RadioMusic #top40 #PopMusic",
-        "time": 1740839459,
+        "time": 1740846659,
         "rightFooter": ""
     },
     {
@@ -2024,7 +2024,7 @@ var radioJsonVar =
         "text3": "",
         "url": "https:\/\/tunein.com\/radio\/M-1-Radio-1059-s15909\/",
         "tag": "#radio #top40 #PopMusic #RadioMusic",
-        "time": 1740838973,
+        "time": 1740846173,
         "rightFooter": ""
     },
     {
@@ -2033,7 +2033,7 @@ var radioJsonVar =
         "text3": "",
         "url": "https:\/\/tunein.com\/radio\/Connecticut-Public-Radio-905-s21980\/",
         "tag": "#radio #en #news",
-        "time": 1739637857,
+        "time": 1739645057,
         "rightFooter": ""
     },
     {
@@ -2042,7 +2042,7 @@ var radioJsonVar =
         "text3": "",
         "url": "https:\/\/tunein.com\/radio\/Capital-London-958-s16534\/",
         "tag": "#radio #RadioMusic #PopMusic",
-        "time": 1739637791,
+        "time": 1739644991,
         "rightFooter": ""
     },
     {
@@ -2051,7 +2051,7 @@ var radioJsonVar =
         "text3": "",
         "url": "https:\/\/tunein.com\/radio\/LBC-London-973-s17569\/",
         "tag": "#radio #en #news",
-        "time": 1739637638,
+        "time": 1739644838,
         "rightFooter": ""
     },
     {
@@ -2060,7 +2060,7 @@ var radioJsonVar =
         "text3": "",
         "url": "https:\/\/tunein.com\/radio\/Deutschlandfunk-Nova-s120806\/",
         "tag": "#radio #RadioMusic #AlternativeRock",
-        "time": 1739637567,
+        "time": 1739644767,
         "rightFooter": ""
     },
     {
@@ -2069,7 +2069,7 @@ var radioJsonVar =
         "text3": "",
         "url": "https:\/\/tunein.com\/radio\/Deutschlandfunk-891-s42828\/",
         "tag": "#radio #de",
-        "time": 1739637495,
+        "time": 1739644695,
         "rightFooter": ""
     },
     {
@@ -2078,7 +2078,7 @@ var radioJsonVar =
         "text3": "",
         "url": "https:\/\/tunein.com\/radio\/Deutschlandfunk-Kultur-896-s6628\/",
         "tag": "#radio #de",
-        "time": 1739637472,
+        "time": 1739644672,
         "rightFooter": ""
     },
     {
@@ -2087,7 +2087,7 @@ var radioJsonVar =
         "text3": "",
         "url": "https:\/\/tunein.com\/radio\/DW-Radio-08-s25478\/",
         "tag": "#radio #de",
-        "time": 1739637356,
+        "time": 1739644556,
         "rightFooter": ""
     },
     {
@@ -2096,7 +2096,7 @@ var radioJsonVar =
         "text3": "",
         "url": "https:\/\/tunein.com\/radio\/KCRW-899-s32152\/",
         "tag": "#radio #en",
-        "time": 1734004730,
+        "time": 1734011930,
         "rightFooter": ""
     },
     {
@@ -2105,7 +2105,7 @@ var radioJsonVar =
         "text3": "",
         "url": "https:\/\/tunein.com\/radio\/Radio-Darkitalia-s305616\/",
         "tag": "#radio #RadioMusic #AlternativeRock",
-        "time": 1733984468,
+        "time": 1733991668,
         "rightFooter": ""
     },
     {
@@ -2114,7 +2114,7 @@ var radioJsonVar =
         "text3": "",
         "url": "https:\/\/tunein.com\/radio\/Radio-Gamma-5-940-s95259\/",
         "tag": "#radio #it",
-        "time": 1729311196,
+        "time": 1729321996,
         "rightFooter": ""
     },
     {
@@ -2123,7 +2123,7 @@ var radioJsonVar =
         "text3": "",
         "url": "https:\/\/tunein.com\/radio\/Radio-Libert\u00e0-1035-s18300\/",
         "tag": "#radio #it",
-        "time": 1729311001,
+        "time": 1729321801,
         "rightFooter": ""
     },
     {
@@ -2132,7 +2132,7 @@ var radioJsonVar =
         "text3": "",
         "url": "https:\/\/tunein.com\/radio\/Radio-Radio-1045-s2488\/",
         "tag": "#radio #it",
-        "time": 1729310939,
+        "time": 1729321739,
         "rightFooter": ""
     },
     {
@@ -2141,7 +2141,7 @@ var radioJsonVar =
         "text3": "",
         "url": "https:\/\/tunein.com\/radio\/RADIO-CATANZARO-s189981\/",
         "tag": "#radio #it",
-        "time": 1729310725,
+        "time": 1729321525,
         "rightFooter": ""
     },
     {
@@ -2150,7 +2150,7 @@ var radioJsonVar =
         "text3": "",
         "url": "https:\/\/tunein.com\/radio\/RAI-Isoradio-1033-s25595\/",
         "tag": "#radio #it",
-        "time": 1729310497,
+        "time": 1729321297,
         "rightFooter": ""
     },
     {
@@ -2159,7 +2159,7 @@ var radioJsonVar =
         "text3": "",
         "url": "https:\/\/tunein.com\/radio\/1059-FM-WMAL-s30062\/",
         "tag": "#radio #en",
-        "time": 1728459829,
+        "time": 1728470629,
         "rightFooter": ""
     },
     {
@@ -2168,7 +2168,7 @@ var radioJsonVar =
         "text3": "",
         "url": "https:\/\/tunein.com\/radio\/The-Bridge-909-s35581\/",
         "tag": "#radio #RadioMusic #AlternativeRock #IndieMusic #WorldMusic #BluesMusic",
-        "time": 1726145713,
+        "time": 1726156513,
         "rightFooter": ""
     },
     {
@@ -2177,7 +2177,7 @@ var radioJsonVar =
         "text3": "",
         "url": "https:\/\/tunein.com\/radio\/913-WYEP-s24147\/",
         "tag": "#radio #RadioMusic #IndieMusic",
-        "time": 1720151486,
+        "time": 1720162286,
         "rightFooter": ""
     },
     {
@@ -2186,7 +2186,7 @@ var radioJsonVar =
         "text3": "",
         "url": "https:\/\/tunein.com\/radio\/Loudspeaker-One-s302839\/",
         "tag": "#radio #RadioMusic #IndieMusic",
-        "time": 1720149299,
+        "time": 1720160099,
         "rightFooter": ""
     },
     {
@@ -2195,7 +2195,7 @@ var radioJsonVar =
         "text3": "",
         "url": "https:\/\/tunein.com\/radio\/Chicagos-Comedy-Scene-Radio-s191879\/",
         "tag": "#radio #en #comedy #culture",
-        "time": 1719774806,
+        "time": 1719785606,
         "rightFooter": ""
     },
     {
@@ -2204,7 +2204,7 @@ var radioJsonVar =
         "text3": "",
         "url": "https:\/\/tunein.com\/radio\/Monocle-24-s147125\/",
         "tag": "#radio #RadioMusic",
-        "time": 1719774700,
+        "time": 1719785500,
         "rightFooter": ""
     },
     {
@@ -2213,7 +2213,7 @@ var radioJsonVar =
         "text3": "",
         "url": "https:\/\/tunein.com\/radio\/Loutraki-FM-969-s103776\/",
         "tag": "#radio #RadioMusic #IndieMusic",
-        "time": 1710832498,
+        "time": 1710839698,
         "rightFooter": ""
     },
     {
@@ -2222,7 +2222,7 @@ var radioJsonVar =
         "text3": "",
         "url": "https:\/\/tunein.com\/radio\/CBC-Radio-One-Ottawa-915-s25437\/",
         "tag": "#radio #en",
-        "time": 1710470890,
+        "time": 1710478090,
         "rightFooter": ""
     },
     {
@@ -2231,7 +2231,7 @@ var radioJsonVar =
         "text3": "",
         "url": "https:\/\/tunein.com\/radio\/Radio-Nova-1062-s14843\/",
         "tag": "#radio #RadioMusic #top40 #PopMusic",
-        "time": 1708517262,
+        "time": 1708524462,
         "rightFooter": ""
     },
     {
@@ -2240,7 +2240,7 @@ var radioJsonVar =
         "text3": "",
         "url": "https:\/\/tunein.com\/radio\/GOLD-FM-1026-s110619\/",
         "tag": "#radio #RadioMusic #ClassicHits",
-        "time": 1708517230,
+        "time": 1708524430,
         "rightFooter": ""
     },
     {
@@ -2249,7 +2249,7 @@ var radioJsonVar =
         "text3": "",
         "url": "https:\/\/tunein.com\/radio\/M-1-Plius-7103-s6692\/",
         "tag": "#radio #RadioMusic #AdultHits",
-        "time": 1708517197,
+        "time": 1708524397,
         "rightFooter": ""
     },
     {
@@ -2258,7 +2258,7 @@ var radioJsonVar =
         "text3": "",
         "url": "https:\/\/tunein.com\/radio\/Radio-Viking-1014-s2748\/",
         "tag": "#radio #RadioMusic #ClassicHits #EasyListening",
-        "time": 1708517153,
+        "time": 1708524353,
         "rightFooter": ""
     },
     {
@@ -2267,7 +2267,7 @@ var radioJsonVar =
         "text3": "",
         "url": "https:\/\/tunein.com\/radio\/Gylne-Hits-Radio-s283544\/",
         "tag": "#radio #RadioMusic #ClassicHits",
-        "time": 1708517087,
+        "time": 1708524287,
         "rightFooter": ""
     },
     {
@@ -2276,7 +2276,7 @@ var radioJsonVar =
         "text3": "",
         "url": "https:\/\/tunein.com\/radio\/Italo-Party-Crew-FM-1070-s120943\/",
         "tag": "#radio #RadioMusic #EuroHits #dance #electronic",
-        "time": 1708516874,
+        "time": 1708524074,
         "rightFooter": ""
     },
     {
@@ -2285,7 +2285,7 @@ var radioJsonVar =
         "text3": "",
         "url": "https:\/\/tunein.com\/radio\/Gold-FM-949-s73333\/",
         "tag": "#radio #RadioMusic #80s",
-        "time": 1708516813,
+        "time": 1708524013,
         "rightFooter": ""
     },
     {
@@ -2294,7 +2294,7 @@ var radioJsonVar =
         "text3": "",
         "url": "https:\/\/tunein.com\/radio\/ROCK-ANTENNE-90er-Rock-s309510\/",
         "tag": "#radio #RadioMusic #AlternativeRock #90s",
-        "time": 1708516777,
+        "time": 1708523977,
         "rightFooter": ""
     },
     {
@@ -2303,7 +2303,7 @@ var radioJsonVar =
         "text3": "",
         "url": "https:\/\/tunein.com\/radio\/KINK80s-s194478\/",
         "tag": "#radio #RadioMusic #80s",
-        "time": 1708516697,
+        "time": 1708523897,
         "rightFooter": ""
     },
     {
@@ -2312,7 +2312,7 @@ var radioJsonVar =
         "text3": "",
         "url": "https:\/\/tunein.com\/radio\/Radio-88-Partille-880-s86498\/",
         "tag": "#radio #RadioMusic #ClassicHits",
-        "time": 1708516660,
+        "time": 1708523860,
         "rightFooter": ""
     },
     {
@@ -2321,7 +2321,7 @@ var radioJsonVar =
         "text3": "",
         "url": "https:\/\/tunein.com\/radio\/Radio-Norge-1039-s84118\/",
         "tag": "#radio #RadioMusic #EuroHits",
-        "time": 1708516266,
+        "time": 1708523466,
         "rightFooter": ""
     },
     {
@@ -2330,7 +2330,7 @@ var radioJsonVar =
         "text3": "",
         "url": "https:\/\/tunein.com\/radio\/NPO-Radio-5-s25544\/",
         "tag": "#radio #RadioMusic #ClassicHits",
-        "time": 1708516169,
+        "time": 1708523369,
         "rightFooter": ""
     },
     {
@@ -2339,7 +2339,7 @@ var radioJsonVar =
         "text3": "",
         "url": "https:\/\/tunein.com\/radio\/2FM-Retro-s107395\/",
         "tag": "#radio #RadioMusic #PopMusic #top40",
-        "time": 1708516088,
+        "time": 1708523288,
         "rightFooter": ""
     },
     {
@@ -2348,7 +2348,7 @@ var radioJsonVar =
         "text3": "",
         "url": "https:\/\/tunein.com\/radio\/80-RTV80-s97148\/",
         "tag": "#radio #RadioMusic #80s #AdultHits",
-        "time": 1708516056,
+        "time": 1708523256,
         "rightFooter": ""
     },
     {
@@ -2357,7 +2357,7 @@ var radioJsonVar =
         "text3": "",
         "url": "https:\/\/tunein.com\/radio\/db962-962-s134690\/",
         "tag": "#radio #RadioMusic #top40 #PopMusic",
-        "time": 1708516021,
+        "time": 1708523221,
         "rightFooter": ""
     },
     {
@@ -2366,7 +2366,7 @@ var radioJsonVar =
         "text3": "",
         "url": "https:\/\/tunein.com\/radio\/Decibel-980-s65005\/",
         "tag": "#radio #RadioMusic #90s",
-        "time": 1708515925,
+        "time": 1708523125,
         "rightFooter": ""
     },
     {
@@ -2375,7 +2375,7 @@ var radioJsonVar =
         "text3": "",
         "url": "https:\/\/tunein.com\/radio\/Freez-FM-s64990\/",
         "tag": "#radio #RadioMusic #WroldMusic",
-        "time": 1708515873,
+        "time": 1708523073,
         "rightFooter": ""
     },
     {
@@ -2384,7 +2384,7 @@ var radioJsonVar =
         "text3": "",
         "url": "https:\/\/tunein.com\/radio\/Radio-Vaticana-Italia-1050-s1545\/",
         "tag": "#radio #religion #it",
-        "time": 1706940169,
+        "time": 1706947369,
         "rightFooter": ""
     },
     {
@@ -2393,7 +2393,7 @@ var radioJsonVar =
         "text3": "",
         "url": "https:\/\/tunein.com\/radio\/Smooth-Jazz-247-s297918\/",
         "tag": "#radio #RadioMusic #jazz #code #coding",
-        "time": 1706183519,
+        "time": 1706190719,
         "rightFooter": ""
     },
     {
@@ -2402,7 +2402,7 @@ var radioJsonVar =
         "text3": "",
         "url": "https:\/\/tunein.com\/radio\/Ambient-Lounge-on-MixLiveie-s158097\/",
         "tag": "#radio #AmbientMusic",
-        "time": 1706183100,
+        "time": 1706190300,
         "rightFooter": ""
     },
     {
@@ -2411,7 +2411,7 @@ var radioJsonVar =
         "text3": "",
         "url": "https:\/\/tunein.com\/radio\/Ambient-Art-Sound-s203450\/",
         "tag": "#radio #AmbientMusic",
-        "time": 1706183068,
+        "time": 1706190268,
         "rightFooter": ""
     },
     {
@@ -2420,7 +2420,7 @@ var radioJsonVar =
         "text3": "",
         "url": "https:\/\/tunein.com\/radio\/AmbientRadionet-(MRGfm)-s221540\/",
         "tag": "#radio #AmbientMusic",
-        "time": 1706183021,
+        "time": 1706190221,
         "rightFooter": ""
     },
     {
@@ -2429,7 +2429,7 @@ var radioJsonVar =
         "text3": "",
         "url": "https:\/\/tunein.com\/radio\/am-ambient-s220755\/",
         "tag": "#radio #AmbientMusic",
-        "time": 1706182911,
+        "time": 1706190111,
         "rightFooter": ""
     },
     {
@@ -2438,7 +2438,7 @@ var radioJsonVar =
         "text3": "",
         "url": "https:\/\/tunein.com\/radio\/Ambient-Sleeping-Pill-s190314\/",
         "tag": "#radio #AmbientMusic",
-        "time": 1706182878,
+        "time": 1706190078,
         "rightFooter": ""
     },
     {
@@ -2447,7 +2447,7 @@ var radioJsonVar =
         "text3": "",
         "url": "https:\/\/tunein.com\/radio\/Radio-Nature-s257734\/",
         "tag": "#radio #AmbientMusic",
-        "time": 1706182768,
+        "time": 1706189968,
         "rightFooter": ""
     },
     {
@@ -2456,7 +2456,7 @@ var radioJsonVar =
         "text3": "",
         "url": "https:\/\/tunein.com\/radio\/Monte-Carlo-Lounge-s260087\/",
         "tag": "#radio #RadioMusic #AlternativeRock",
-        "time": 1706182513,
+        "time": 1706189713,
         "rightFooter": ""
     },
     {
@@ -2465,7 +2465,7 @@ var radioJsonVar =
         "text3": "",
         "url": "https:\/\/tunein.com\/radio\/Retro-Soul-Radio-s127501\/",
         "tag": "#radio #RadioMusic #funk #soul",
-        "time": 1706026210,
+        "time": 1706033410,
         "rightFooter": ""
     },
     {
@@ -2474,7 +2474,7 @@ var radioJsonVar =
         "text3": "",
         "url": "https:\/\/tunein.com\/radio\/181FM-Soul-s90407\/",
         "tag": "#radio #RadioMusic #soul",
-        "time": 1706026155,
+        "time": 1706033355,
         "rightFooter": ""
     },
     {
@@ -2483,7 +2483,7 @@ var radioJsonVar =
         "text3": "",
         "url": "https:\/\/tunein.com\/radio\/STAR-FM-Blues-Rock-s296799\/",
         "tag": "#radio #RadioMusic #blues",
-        "time": 1706026081,
+        "time": 1706033281,
         "rightFooter": ""
     },
     {
@@ -2492,7 +2492,7 @@ var radioJsonVar =
         "text3": "",
         "url": "https:\/\/tunein.com\/radio\/Sublime-Classics-s308312\/",
         "tag": "#radio #RadioMusic #soul",
-        "time": 1706026041,
+        "time": 1706033241,
         "rightFooter": ""
     },
     {
@@ -2501,7 +2501,7 @@ var radioJsonVar =
         "text3": "",
         "url": "https:\/\/tunein.com\/radio\/SOUL-RADIO-s253538\/",
         "tag": "#radio #RadioMusic #soul #ClassicSoul",
-        "time": 1706025913,
+        "time": 1706033113,
         "rightFooter": ""
     },
     {
@@ -2510,7 +2510,7 @@ var radioJsonVar =
         "text3": "",
         "url": "https:\/\/tunein.com\/radio\/Soul-Radio-s98689\/",
         "tag": "#radio #RadioMusic #soul",
-        "time": 1706025781,
+        "time": 1706032981,
         "rightFooter": ""
     },
     {
@@ -2519,7 +2519,7 @@ var radioJsonVar =
         "text3": "",
         "url": "https:\/\/tunein.com\/radio\/CNN-International-s292162\/",
         "tag": "#radio #en #news #WorldNews",
-        "time": 1706025525,
+        "time": 1706032725,
         "rightFooter": ""
     },
     {
@@ -2528,7 +2528,7 @@ var radioJsonVar =
         "text3": "",
         "url": "https:\/\/tunein.com\/radio\/JAM-FM-Black-Label-s237163\/",
         "tag": "#radio #RadioMusic #top40 #PopMusic #dance #HipHopMusic",
-        "time": 1706025422,
+        "time": 1706032622,
         "rightFooter": ""
     },
     {
@@ -2537,7 +2537,7 @@ var radioJsonVar =
         "text3": "",
         "url": "https:\/\/tunein.com\/radio\/RnB-Radio-s309403\/",
         "tag": "#radio #RadioMusic #RnB #HipHopMusic",
-        "time": 1706025280,
+        "time": 1706032480,
         "rightFooter": ""
     },
     {
@@ -2546,7 +2546,7 @@ var radioJsonVar =
         "text3": "",
         "url": "https:\/\/tunein.com\/radio\/Cesky-rozhlas-Vltava-1050-s25461\/",
         "tag": "#radio #cz #cs",
-        "time": 1701003739,
+        "time": 1701010939,
         "rightFooter": ""
     },
     {
@@ -2555,7 +2555,7 @@ var radioJsonVar =
         "text3": "",
         "url": "https:\/\/tunein.com\/radio\/CRo-Plus-954-s1537\/",
         "tag": "#radio #cz #cs",
-        "time": 1701003718,
+        "time": 1701010918,
         "rightFooter": ""
     },
     {
@@ -2564,7 +2564,7 @@ var radioJsonVar =
         "text3": "aac",
         "url": "https:\/\/radiozurnal.rozhlas.cz\/",
         "tag": "#radio #cz #cs",
-        "time": 1701003415,
+        "time": 1701010615,
         "rightFooter": ""
     },
     {
@@ -2573,7 +2573,7 @@ var radioJsonVar =
         "text3": "",
         "url": "https:\/\/tunein.com\/radio\/SBS-Chill-s126939\/",
         "tag": "#radio #RadioMusic #chill #code #coding",
-        "time": 1700037103,
+        "time": 1700044303,
         "rightFooter": ""
     },
     {
@@ -2582,7 +2582,7 @@ var radioJsonVar =
         "text3": "",
         "url": "https:\/\/tunein.com\/radio\/CITY23---Der-neue-Soundtrack-fr-Wien-s112691\/",
         "tag": "#radio #RadioMusic #chill #code #coding",
-        "time": 1700036856,
+        "time": 1700044056,
         "rightFooter": ""
     },
     {
@@ -2591,7 +2591,7 @@ var radioJsonVar =
         "text3": "",
         "url": "https:\/\/tunein.com\/radio\/Antenne-Bayern-Chillout-s96745\/",
         "tag": "#radio #RadioMusic #DanceElectronic",
-        "time": 1700036826,
+        "time": 1700044026,
         "rightFooter": ""
     },
     {
@@ -2600,7 +2600,7 @@ var radioJsonVar =
         "text3": "",
         "url": "https:\/\/tunein.com\/radio\/Yoga-Chill-s302899\/",
         "tag": "#radio #AmbientMusic #chill #code #coding",
-        "time": 1700036589,
+        "time": 1700043789,
         "rightFooter": ""
     },
     {
@@ -2609,7 +2609,7 @@ var radioJsonVar =
         "text3": "mp3",
         "url": "https:\/\/www.wvrvibe.com\/",
         "tag": "#radio #RadioMusic #rnb",
-        "time": 1700036090,
+        "time": 1700043290,
         "rightFooter": ""
     },
     {
@@ -2618,7 +2618,7 @@ var radioJsonVar =
         "text3": "",
         "url": "https:\/\/tunein.com\/radio\/Soft-Radio-s259134\/",
         "tag": "#radio #RadioMusic #chill #code #coding #lofi",
-        "time": 1700035808,
+        "time": 1700043008,
         "rightFooter": ""
     },
     {
@@ -2627,7 +2627,7 @@ var radioJsonVar =
         "text3": "",
         "url": "https:\/\/tunein.com\/radio\/RauteMusik-STUDY-s297751\/",
         "tag": "#radio #RadioMusic #chill #code #coding #lofi",
-        "time": 1700035651,
+        "time": 1700042851,
         "rightFooter": ""
     },
     {
@@ -2636,7 +2636,7 @@ var radioJsonVar =
         "text3": "",
         "url": "https:\/\/tunein.com\/radio\/bigFM-Lofi-Focus-s322842\/",
         "tag": "#radio #RadioMusic #chill #code #coding #lofi",
-        "time": 1700035568,
+        "time": 1700042768,
         "rightFooter": ""
     },
     {
@@ -2645,7 +2645,7 @@ var radioJsonVar =
         "text3": "",
         "url": "https:\/\/tunein.com\/radio\/I-Love-Chillhop-s306649\/",
         "tag": "#radio #RadioMusic #chill #code #coding #lofi",
-        "time": 1700035313,
+        "time": 1700042513,
         "rightFooter": ""
     },
     {
@@ -2654,7 +2654,7 @@ var radioJsonVar =
         "text3": "mp3",
         "url": "https:\/\/www.bigfm.de\/",
         "tag": "#radio #RadioMusic #jazz #lofi #chill #code #coding",
-        "time": 1700013447,
+        "time": 1700020647,
         "rightFooter": ""
     },
     {
@@ -2663,7 +2663,7 @@ var radioJsonVar =
         "text3": "",
         "url": "https:\/\/tunein.com\/radio\/Rockabilly-Radio-s51143\/",
         "tag": "#radio #RadioMusic #50 #rockabilly",
-        "time": 1699411065,
+        "time": 1699418265,
         "rightFooter": ""
     },
     {
@@ -2672,7 +2672,7 @@ var radioJsonVar =
         "text3": "",
         "url": "https:\/\/tunein.com\/radio\/ABC-Sport-s47283\/",
         "tag": "#radio #sport",
-        "time": 1699407509,
+        "time": 1699414709,
         "rightFooter": ""
     },
     {
@@ -2681,7 +2681,7 @@ var radioJsonVar =
         "text3": "",
         "url": "https:\/\/tunein.com\/radio\/talkSPORT-1089-s17077\/",
         "tag": "#radio #sport",
-        "time": 1699407477,
+        "time": 1699414677,
         "rightFooter": ""
     },
     {
@@ -2690,7 +2690,7 @@ var radioJsonVar =
         "text3": "aac",
         "url": "https:\/\/mynorthwest.com\/category\/ktth\/",
         "tag": "#radio #en",
-        "time": 1699004096,
+        "time": 1699011296,
         "rightFooter": ""
     },
     {
@@ -2699,7 +2699,7 @@ var radioJsonVar =
         "text3": "mp3",
         "url": "https:\/\/coderadio.freecodecamp.org\/",
         "tag": "#radio #RadioMusic #chill #code #coding",
-        "time": 1689246757,
+        "time": 1689257557,
         "rightFooter": ""
     },
     {
@@ -2708,7 +2708,7 @@ var radioJsonVar =
         "text3": "m3u8",
         "url": "https:\/\/www.sbs.com.au\/audio\/music\/chill",
         "tag": "#radio #RadioMusic #chill #code #coding",
-        "time": 1689246321,
+        "time": 1689257121,
         "rightFooter": ""
     },
     {
@@ -2717,7 +2717,7 @@ var radioJsonVar =
         "text3": "mp3",
         "url": "https:\/\/tunein.com\/radio\/Lofi-247-s303481\/",
         "tag": "#radio #RadioMusic #chill #code #coding #lofi",
-        "time": 1689245096,
+        "time": 1689255896,
         "rightFooter": ""
     },
     {
@@ -2726,7 +2726,7 @@ var radioJsonVar =
         "text3": "mp3",
         "url": "https:\/\/www.rtp.pt\/antena2\/",
         "tag": "#radio #pt",
-        "time": 1687923880,
+        "time": 1687934680,
         "rightFooter": ""
     },
     {
@@ -2735,7 +2735,7 @@ var radioJsonVar =
         "text3": "mp3",
         "url": "https:\/\/media.rtp.pt\/antena3\/",
         "tag": "#radio #RadioMusic #top40 #AdultHits #PopMusic #AlternativeRock",
-        "time": 1687923807,
+        "time": 1687934607,
         "rightFooter": ""
     },
     {
@@ -2744,7 +2744,7 @@ var radioJsonVar =
         "text3": "mp3",
         "url": "https:\/\/www.jarviradio.fi\/",
         "tag": "#radio #RadioMusic #AdultHits",
-        "time": 1684484252,
+        "time": 1684495052,
         "rightFooter": ""
     },
     {
@@ -2753,7 +2753,7 @@ var radioJsonVar =
         "text3": "mp3",
         "url": "https:\/\/www.p4.no\/",
         "tag": "#radio #RadioMusic #EuroHits",
-        "time": 1684483974,
+        "time": 1684494774,
         "rightFooter": ""
     },
     {
@@ -2762,7 +2762,7 @@ var radioJsonVar =
         "text3": "mp3",
         "url": "http:\/\/scansat.no\/",
         "tag": "#radio #AdultHits #RadioMusic",
-        "time": 1684375592,
+        "time": 1684386392,
         "rightFooter": ""
     },
     {
@@ -2771,7 +2771,7 @@ var radioJsonVar =
         "text3": "mp3",
         "url": "https:\/\/radiomilwaukee.org\/",
         "tag": "#radio #RadioMusic #eclectic",
-        "time": 1683864616,
+        "time": 1683875416,
         "rightFooter": ""
     },
     {
@@ -2780,7 +2780,7 @@ var radioJsonVar =
         "text3": "mp3",
         "url": "https:\/\/www.worldradio.ch\/",
         "tag": "#radio #RadioMusic",
-        "time": 1683728320,
+        "time": 1683739120,
         "rightFooter": ""
     },
     {
@@ -2789,7 +2789,7 @@ var radioJsonVar =
         "text3": "mp3",
         "url": "https:\/\/kutx.org\/",
         "tag": "#radio #RadioMusic #AlternativeRock",
-        "time": 1683440234,
+        "time": 1683451034,
         "rightFooter": ""
     },
     {
@@ -2798,7 +2798,7 @@ var radioJsonVar =
         "text3": "m3u8",
         "url": "https:\/\/jedynka.polskieradio.pl\/",
         "tag": "#radio #pl",
-        "time": 1683440031,
+        "time": 1683450831,
         "rightFooter": ""
     },
     {
@@ -2807,7 +2807,7 @@ var radioJsonVar =
         "text3": "mp3",
         "url": "http:\/\/www.rtve.es\/radio\/",
         "tag": "#radio #es",
-        "time": 1683439731,
+        "time": 1683450531,
         "rightFooter": ""
     },
     {
@@ -2816,7 +2816,7 @@ var radioJsonVar =
         "text3": "mp3",
         "url": "https:\/\/www.cope.es\/",
         "tag": "#radio #es",
-        "time": 1683438763,
+        "time": 1683449563,
         "rightFooter": ""
     },
     {
@@ -2825,7 +2825,7 @@ var radioJsonVar =
         "text3": "mp3",
         "url": "https:\/\/lightning100.com\/",
         "tag": "#radio #RadioMusic #IndieRock",
-        "time": 1683436920,
+        "time": 1683447720,
         "rightFooter": ""
     },
     {
@@ -2834,7 +2834,7 @@ var radioJsonVar =
         "text3": "mp3",
         "url": "https:\/\/kink.nl\/",
         "tag": "#radio #RadioMusic #AlternativeRock",
-        "time": 1683436013,
+        "time": 1683446813,
         "rightFooter": ""
     },
     {
@@ -2843,7 +2843,7 @@ var radioJsonVar =
         "text3": "mp3",
         "url": "https:\/\/suspilne.media\/culture\/",
         "tag": "#radio #ua",
-        "time": 1683435941,
+        "time": 1683446741,
         "rightFooter": ""
     },
     {
@@ -2852,7 +2852,7 @@ var radioJsonVar =
         "text3": "mp3",
         "url": "https:\/\/ukr.radio\/",
         "tag": "#radio #ua",
-        "time": 1683435737,
+        "time": 1683446537,
         "rightFooter": ""
     },
     {
@@ -2861,7 +2861,7 @@ var radioJsonVar =
         "text3": "mp3",
         "url": "https:\/\/www.kqed.org\/radio\/",
         "tag": "#radio #en",
-        "time": 1683435391,
+        "time": 1683446191,
         "rightFooter": ""
     },
     {
@@ -2870,7 +2870,7 @@ var radioJsonVar =
         "text3": "mp3",
         "url": "https:\/\/www.wnyc.org\/",
         "tag": "#radio #en",
-        "time": 1683435320,
+        "time": 1683446120,
         "rightFooter": ""
     },
     {
@@ -2879,7 +2879,7 @@ var radioJsonVar =
         "text3": "aac",
         "url": "https:\/\/www.kexp.org\/",
         "tag": "#radio #RadioMusic #IndieMusic",
-        "time": 1683435187,
+        "time": 1683445987,
         "rightFooter": ""
     },
     {
@@ -2888,7 +2888,7 @@ var radioJsonVar =
         "text3": "mp3",
         "url": "https:\/\/www.abc.net.au\/pacific",
         "tag": "#radio #en",
-        "time": 1683435032,
+        "time": 1683445832,
         "rightFooter": ""
     },
     {
@@ -2897,7 +2897,7 @@ var radioJsonVar =
         "text3": "mp3",
         "url": "https:\/\/promin.fm\/",
         "tag": "#radio #RadioMusic",
-        "time": 1683434926,
+        "time": 1683445726,
         "rightFooter": ""
     },
     {
@@ -2906,7 +2906,7 @@ var radioJsonVar =
         "text3": "mp3",
         "url": "https:\/\/bailriggradio.lancastersu.co.uk\/",
         "tag": "#radio #RadioMusic #CollegeRadio",
-        "time": 1683399019,
+        "time": 1683409819,
         "rightFooter": ""
     },
     {
@@ -2915,7 +2915,7 @@ var radioJsonVar =
         "text3": "mp3",
         "url": "https:\/\/wknc.org\/",
         "tag": "#radio #RadioMusic #IndieMusic",
-        "time": 1683398953,
+        "time": 1683409753,
         "rightFooter": ""
     },
     {
@@ -2924,7 +2924,7 @@ var radioJsonVar =
         "text3": "mp3",
         "url": "https:\/\/cheddar.com\/",
         "tag": "#radio #en",
-        "time": 1683398898,
+        "time": 1683409698,
         "rightFooter": ""
     },
     {
@@ -2933,7 +2933,7 @@ var radioJsonVar =
         "text3": "mp3",
         "url": "https:\/\/www.tokfm.pl\/Tokfm\/0,0.html",
         "tag": "#radio #pl",
-        "time": 1683398591,
+        "time": 1683409391,
         "rightFooter": ""
     },
     {
@@ -2942,7 +2942,7 @@ var radioJsonVar =
         "text3": "mp3",
         "url": "https:\/\/www.radio.katowice.pl\/",
         "tag": "#radio #pl",
-        "time": 1683398548,
+        "time": 1683409348,
         "rightFooter": ""
     },
     {
@@ -2951,7 +2951,7 @@ var radioJsonVar =
         "text3": "mp3",
         "url": "https:\/\/www.meridianfm.com\/",
         "tag": "#radio #RadioMusic #local",
-        "time": 1683398336,
+        "time": 1683409136,
         "rightFooter": ""
     },
     {
@@ -2960,7 +2960,7 @@ var radioJsonVar =
         "text3": "mp3",
         "url": "https:\/\/amazingradio.com\/",
         "tag": "#radio #RadioMusic #IndieMusic",
-        "time": 1683398276,
+        "time": 1683409076,
         "rightFooter": ""
     },
     {
@@ -2969,7 +2969,7 @@ var radioJsonVar =
         "text3": "mp3",
         "url": "https:\/\/www.rtve.es\/radio\/radio-exterior\/",
         "tag": "#radio #es",
-        "time": 1683398156,
+        "time": 1683408956,
         "rightFooter": ""
     },
     {
@@ -2978,7 +2978,7 @@ var radioJsonVar =
         "text3": "mp3",
         "url": "https:\/\/www.talkradioeurope.com\/",
         "tag": "#radio #en",
-        "time": 1683396579,
+        "time": 1683407379,
         "rightFooter": ""
     },
     {
@@ -2987,7 +2987,7 @@ var radioJsonVar =
         "text3": "mp3",
         "url": "http:\/\/www.retrohitradio.co.nz\/",
         "tag": "#radio #RadioMusic #ClassicHits #rock",
-        "time": 1683396522,
+        "time": 1683407322,
         "rightFooter": ""
     },
     {
@@ -2996,7 +2996,7 @@ var radioJsonVar =
         "text3": "mp3",
         "url": "https:\/\/www.classicoldiesradio.com\/",
         "tag": "#radio #RadioMusic #ClassicHits",
-        "time": 1683396435,
+        "time": 1683407235,
         "rightFooter": ""
     },
     {
@@ -3005,7 +3005,7 @@ var radioJsonVar =
         "text3": "mp3",
         "url": "https:\/\/www.majesticjukeboxradio.com\/",
         "tag": "#radio #RadioMusic #variety",
-        "time": 1683396370,
+        "time": 1683407170,
         "rightFooter": ""
     },
     {
@@ -3014,7 +3014,7 @@ var radioJsonVar =
         "text3": "mp3",
         "url": "https:\/\/www.0nradio.com\/",
         "tag": "#radio #RadioMusic #60s",
-        "time": 1683396317,
+        "time": 1683407117,
         "rightFooter": ""
     },
     {
@@ -3023,7 +3023,7 @@ var radioJsonVar =
         "text3": "mp3",
         "url": "https:\/\/radiox.ch\/",
         "tag": "#radio #RadioMusic #variety",
-        "time": 1683396007,
+        "time": 1683406807,
         "rightFooter": ""
     },
     {
@@ -3032,7 +3032,7 @@ var radioJsonVar =
         "text3": "mp3",
         "url": "https:\/\/www.europeanhitradio.lt\/",
         "tag": "#radio #RadioMusic #top40 #PopMusic",
-        "time": 1683395921,
+        "time": 1683406721,
         "rightFooter": ""
     },
     {
@@ -3041,7 +3041,7 @@ var radioJsonVar =
         "text3": "mp3",
         "url": "https:\/\/sverigesradio.se\/p1",
         "tag": "#radio #sv",
-        "time": 1683395818,
+        "time": 1683406618,
         "rightFooter": ""
     },
     {
@@ -3050,7 +3050,7 @@ var radioJsonVar =
         "text3": "mp3",
         "url": "https:\/\/www.nrk.no\/",
         "tag": "#radio #no",
-        "time": 1683395759,
+        "time": 1683406559,
         "rightFooter": ""
     },
     {
@@ -3059,7 +3059,7 @@ var radioJsonVar =
         "text3": "mp3",
         "url": "https:\/\/www.nrk.no\/osloogviken\/",
         "tag": "#radio #no",
-        "time": 1683395714,
+        "time": 1683406514,
         "rightFooter": ""
     },
     {
@@ -3068,7 +3068,7 @@ var radioJsonVar =
         "text3": "mp3",
         "url": "https:\/\/www.bnr.nl\/",
         "tag": "#radio #nl",
-        "time": 1683395627,
+        "time": 1683406427,
         "rightFooter": ""
     },
     {
@@ -3077,7 +3077,7 @@ var radioJsonVar =
         "text3": "mp3",
         "url": "https:\/\/www.kronehit.at\/",
         "tag": "#radio #RadioMusic #top40 #PopMusic",
-        "time": 1683395529,
+        "time": 1683406329,
         "rightFooter": ""
     },
     {
@@ -3086,7 +3086,7 @@ var radioJsonVar =
         "text3": "mp3",
         "url": "https:\/\/fm4.orf.at\/",
         "tag": "#radio #RadioMusic #AlternativeRock",
-        "time": 1683395438,
+        "time": 1683406238,
         "rightFooter": ""
     },
     {
@@ -3095,7 +3095,7 @@ var radioJsonVar =
         "text3": "mp3",
         "url": "https:\/\/www.thesocalsound.org\/",
         "tag": "#radio #RadioMusic #AlternativeRock",
-        "time": 1683395225,
+        "time": 1683406025,
         "rightFooter": ""
     },
     {
@@ -3104,7 +3104,7 @@ var radioJsonVar =
         "text3": "aac",
         "url": "https:\/\/www.fm1021milwaukee.com\/",
         "tag": "#radio #RadioMusic #AlternativeRock",
-        "time": 1683395141,
+        "time": 1683405941,
         "rightFooter": ""
     },
     {
@@ -3113,7 +3113,7 @@ var radioJsonVar =
         "text3": "mp3",
         "url": "https:\/\/superfly.fm\/",
         "tag": "#radio #RadioMusic #soul",
-        "time": 1683395040,
+        "time": 1683405840,
         "rightFooter": ""
     },
     {
@@ -3122,7 +3122,7 @@ var radioJsonVar =
         "text3": "mp3",
         "url": "https:\/\/radioparadise.com\/home",
         "tag": "#radio #RadioMusic #AlternativeRock #IndieMusic",
-        "time": 1683383956,
+        "time": 1683394756,
         "rightFooter": ""
     },
     {
@@ -3131,7 +3131,7 @@ var radioJsonVar =
         "text3": "mp3",
         "url": "https:\/\/8radio.com\/",
         "tag": "#radio #RadioMusic #AlternativeRock",
-        "time": 1683383864,
+        "time": 1683394664,
         "rightFooter": ""
     },
     {
@@ -3140,7 +3140,7 @@ var radioJsonVar =
         "text3": "mp3",
         "url": "https:\/\/theriverboston.com\/",
         "tag": "#radio #RadioMusic #AlternativeRock",
-        "time": 1683383788,
+        "time": 1683394588,
         "rightFooter": ""
     },
     {
@@ -3149,7 +3149,7 @@ var radioJsonVar =
         "text3": "mp3",
         "url": "https:\/\/www.891maxfm.ca\/",
         "tag": "#radio #AlternativeRock",
-        "time": 1683383727,
+        "time": 1683394527,
         "rightFooter": ""
     },
     {
@@ -3158,7 +3158,7 @@ var radioJsonVar =
         "text3": "mp3",
         "url": "https:\/\/96xmemphis.com\/",
         "tag": "#radio #RadioMusic #AlternativeRock",
-        "time": 1683383537,
+        "time": 1683394337,
         "rightFooter": ""
     },
     {
@@ -3167,7 +3167,7 @@ var radioJsonVar =
         "text3": "mp3",
         "url": "https:\/\/kwss.org\/",
         "tag": "#radio #RadioMusic #AlternativeRock",
-        "time": 1683383470,
+        "time": 1683394270,
         "rightFooter": ""
     },
     {
@@ -3176,7 +3176,7 @@ var radioJsonVar =
         "text3": "mp3",
         "url": "https:\/\/www.abc.net.au\/doublej",
         "tag": "#radio #RadioMusic #IndieMusic",
-        "time": 1683383190,
+        "time": 1683393990,
         "rightFooter": ""
     },
     {
@@ -3185,7 +3185,7 @@ var radioJsonVar =
         "text3": "mp3",
         "url": "https:\/\/www.thecurrent.org\/",
         "tag": "#radio #RadioMusic #IndieMusic #rock",
-        "time": 1683383115,
+        "time": 1683393915,
         "rightFooter": ""
     },
     {
@@ -3194,7 +3194,7 @@ var radioJsonVar =
         "text3": "mp3",
         "url": "https:\/\/radio.nme.com\/",
         "tag": "#radio #RadioMusic #IndieMusic",
-        "time": 1683383003,
+        "time": 1683393803,
         "rightFooter": ""
     },
     {
@@ -3203,7 +3203,7 @@ var radioJsonVar =
         "text3": "mp3",
         "url": "https:\/\/somafm.com\/",
         "tag": "#radio #RadioMusic #IndieMusic",
-        "time": 1683382924,
+        "time": 1683393724,
         "rightFooter": ""
     },
     {
@@ -3212,7 +3212,7 @@ var radioJsonVar =
         "text3": "mp3",
         "url": "https:\/\/darkedge.ro\/",
         "tag": "#radio #RadioMusic #IndieMusic",
-        "time": 1683382871,
+        "time": 1683393671,
         "rightFooter": ""
     },
     {
@@ -3221,7 +3221,7 @@ var radioJsonVar =
         "text3": "mp3",
         "url": "https:\/\/www.fluxfm.de\/",
         "tag": "#radio #RadioMusic #IndieMusic",
-        "time": 1683382805,
+        "time": 1683393605,
         "rightFooter": ""
     },
     {
@@ -3230,7 +3230,7 @@ var radioJsonVar =
         "text3": "mp3",
         "url": "https:\/\/kptz.org\/",
         "tag": "#radio #RadioMusic #IndieMusic",
-        "time": 1683382748,
+        "time": 1683393548,
         "rightFooter": ""
     },
     {
@@ -3239,7 +3239,7 @@ var radioJsonVar =
         "text3": "mp3",
         "url": "https:\/\/wluw.org\/",
         "tag": "#radio #RadioMusic #IndieMusic",
-        "time": 1683382664,
+        "time": 1683393464,
         "rightFooter": ""
     },
     {
@@ -3248,7 +3248,7 @@ var radioJsonVar =
         "text3": "mp3",
         "url": "https:\/\/891khol.org\/",
         "tag": "#radio #RadioMusic #IndieMusic",
-        "time": 1683382599,
+        "time": 1683393399,
         "rightFooter": ""
     },
     {
@@ -3257,7 +3257,7 @@ var radioJsonVar =
         "text3": "mp3",
         "url": "https:\/\/www.headsfm.co.nz\/",
         "tag": "#radio #RadioMusic #IndieMusic",
-        "time": 1683382282,
+        "time": 1683393082,
         "rightFooter": ""
     },
     {
@@ -3266,7 +3266,7 @@ var radioJsonVar =
         "text3": "mp3",
         "url": "http:\/\/kslg.com\/",
         "tag": "#radio #RadioMusic #IndieMusic",
-        "time": 1683382222,
+        "time": 1683393022,
         "rightFooter": ""
     },
     {
@@ -3275,7 +3275,7 @@ var radioJsonVar =
         "text3": "mp3",
         "url": "https:\/\/www.ynotradio.net\/",
         "tag": "#radio #RadioMusic #IndieMusic",
-        "time": 1683382144,
+        "time": 1683392944,
         "rightFooter": ""
     },
     {
@@ -3284,7 +3284,7 @@ var radioJsonVar =
         "text3": "mp3",
         "url": "http:\/\/www.radioburgerfuel.com\/",
         "tag": "#radio #RadioMusic #IndieMusic",
-        "time": 1683382021,
+        "time": 1683392821,
         "rightFooter": ""
     },
     {
@@ -3293,7 +3293,7 @@ var radioJsonVar =
         "text3": "mp3",
         "url": "http:\/\/wmxm.org\/",
         "tag": "#radio #RadioMusic #IndieMusic",
-        "time": 1683377519,
+        "time": 1683388319,
         "rightFooter": ""
     },
     {
@@ -3302,7 +3302,7 @@ var radioJsonVar =
         "text3": "mp3",
         "url": "https:\/\/listen2krdp.com\/",
         "tag": "#radio #RadioMusic #jazz",
-        "time": 1683377456,
+        "time": 1683388256,
         "rightFooter": ""
     },
     {
@@ -3311,7 +3311,7 @@ var radioJsonVar =
         "text3": "mp3",
         "url": "https:\/\/www.lovebrothersband.com\/",
         "tag": "#radio #RadioMusic #IndieMusic",
-        "time": 1683377398,
+        "time": 1683388198,
         "rightFooter": ""
     },
     {
@@ -3320,7 +3320,7 @@ var radioJsonVar =
         "text3": "mp3",
         "url": "https:\/\/idobi.com\/",
         "tag": "#radio #RadioMusic #IndieMusic",
-        "time": 1683377336,
+        "time": 1683388136,
         "rightFooter": ""
     },
     {
@@ -3329,7 +3329,7 @@ var radioJsonVar =
         "text3": "mp3",
         "url": "https:\/\/www.loudspeaker.org\/channels\/one",
         "tag": "#radio #RadioMusic #IndieMusic",
-        "time": 1683377279,
+        "time": 1683388079,
         "rightFooter": ""
     },
     {
@@ -3338,7 +3338,7 @@ var radioJsonVar =
         "text3": "mp3",
         "url": "https:\/\/wfuv.org\/",
         "tag": "#radio #RadioMusic #CollegeRadio #IndieMusic",
-        "time": 1683377140,
+        "time": 1683387940,
         "rightFooter": ""
     },
     {
@@ -3347,7 +3347,7 @@ var radioJsonVar =
         "text3": "aac",
         "url": "https:\/\/wers.org\/",
         "tag": "#radio #RadioMusic #IndieMusic #WolrdMusic",
-        "time": 1683377038,
+        "time": 1683387838,
         "rightFooter": ""
     },
     {
@@ -3356,7 +3356,7 @@ var radioJsonVar =
         "text3": "mp3",
         "url": "https:\/\/wyep.org\/",
         "tag": "#radio #RadioMusic #IndieMusic",
-        "time": 1683376962,
+        "time": 1683387762,
         "rightFooter": ""
     },
     {
@@ -3365,7 +3365,7 @@ var radioJsonVar =
         "text3": "mp3",
         "url": "https:\/\/wumb.org\/",
         "tag": "#radio #RadioMusic #IndieMusic",
-        "time": 1683376901,
+        "time": 1683387701,
         "rightFooter": ""
     },
     {
@@ -3374,7 +3374,7 @@ var radioJsonVar =
         "text3": "mp3",
         "url": "https:\/\/www.abc.net.au\/triplej",
         "tag": "#radio #RadioMusic #HipHopMusic #AlternativeRock #IndieMusic",
-        "time": 1683376642,
+        "time": 1683387442,
         "rightFooter": ""
     },
     {
@@ -3383,7 +3383,7 @@ var radioJsonVar =
         "text3": "mp3",
         "url": "https:\/\/kboo.fm\/",
         "tag": "#radio #RadioMusic #IndieMusic",
-        "time": 1683376534,
+        "time": 1683387334,
         "rightFooter": ""
     },
     {
@@ -3392,7 +3392,7 @@ var radioJsonVar =
         "text3": "mp3",
         "url": "https:\/\/therebelhd2.com\/",
         "tag": "#radio #RadioMusic #CollegeRadio",
-        "time": 1683376384,
+        "time": 1683387184,
         "rightFooter": ""
     },
     {
@@ -3401,7 +3401,7 @@ var radioJsonVar =
         "text3": "mp3",
         "url": "https:\/\/radiobyron.com\/",
         "tag": "#radio #RadioMusic #AlternativeRock",
-        "time": 1683376305,
+        "time": 1683387105,
         "rightFooter": ""
     },
     {
@@ -3410,7 +3410,7 @@ var radioJsonVar =
         "text3": "mp3",
         "url": "https:\/\/www.thedumpradio.com\/",
         "tag": "#radio #RadioMusic #AlternativeRock",
-        "time": 1683376237,
+        "time": 1683387037,
         "rightFooter": ""
     },
     {
@@ -3419,7 +3419,7 @@ var radioJsonVar =
         "text3": "mp3",
         "url": "https:\/\/labgateradio.com\/",
         "tag": "#radio #RadioMusic #AlternativeRock",
-        "time": 1683375983,
+        "time": 1683386783,
         "rightFooter": ""
     },
     {
@@ -3428,7 +3428,7 @@ var radioJsonVar =
         "text3": "mp3",
         "url": "https:\/\/slammintunes.com\/",
         "tag": "#radio #RadioMusic #AdultHits",
-        "time": 1683375905,
+        "time": 1683386705,
         "rightFooter": ""
     },
     {
@@ -3437,7 +3437,7 @@ var radioJsonVar =
         "text3": "mp3",
         "url": "https:\/\/www.antenasatelor.ro\/",
         "tag": "#radio #ro",
-        "time": 1683375818,
+        "time": 1683386618,
         "rightFooter": ""
     },
     {
@@ -3446,7 +3446,7 @@ var radioJsonVar =
         "text3": "mp3",
         "url": "https:\/\/www.romania-actualitati.ro\/",
         "tag": "#radio #ro",
-        "time": 1683375685,
+        "time": 1683386485,
         "rightFooter": ""
     },
     {
@@ -3455,7 +3455,7 @@ var radioJsonVar =
         "text3": "mp3",
         "url": "https:\/\/www.mprnews.org\/",
         "tag": "#radio #en",
-        "time": 1683375558,
+        "time": 1683386358,
         "rightFooter": ""
     },
     {
@@ -3464,7 +3464,7 @@ var radioJsonVar =
         "text3": "mp3",
         "url": "https:\/\/www.gbnews.com\/",
         "tag": "#radio #en",
-        "time": 1683375430,
+        "time": 1683386230,
         "rightFooter": ""
     },
     {
@@ -3473,7 +3473,7 @@ var radioJsonVar =
         "text3": "ogg",
         "url": "http:\/\/actualidadradio.com\/",
         "tag": "#radio #es",
-        "time": 1683375314,
+        "time": 1683386114,
         "rightFooter": ""
     },
     {
@@ -3482,7 +3482,7 @@ var radioJsonVar =
         "text3": "mp3",
         "url": "https:\/\/toronto.citynews.ca\/",
         "tag": "#radio #en",
-        "time": 1683375182,
+        "time": 1683385982,
         "rightFooter": ""
     },
     {
@@ -3491,7 +3491,7 @@ var radioJsonVar =
         "text3": "aac",
         "url": "https:\/\/sverigesradio.se\/vasternorrland",
         "tag": "#radio #sv",
-        "time": 1683375004,
+        "time": 1683385804,
         "rightFooter": ""
     },
     {
@@ -3500,7 +3500,7 @@ var radioJsonVar =
         "text3": "mp3",
         "url": "https:\/\/english.radio.cz\/",
         "tag": "#radio #en",
-        "time": 1683374863,
+        "time": 1683385663,
         "rightFooter": ""
     },
     {
@@ -3509,7 +3509,7 @@ var radioJsonVar =
         "text3": "mp3",
         "url": "https:\/\/budejovice.rozhlas.cz\/",
         "tag": "#radio #cz #cs",
-        "time": 1683370771,
+        "time": 1683381571,
         "rightFooter": ""
     },
     {
@@ -3518,7 +3518,7 @@ var radioJsonVar =
         "text3": "mp3",
         "url": "https:\/\/www.francetvinfo.fr\/",
         "tag": "#radio #fr",
-        "time": 1683368740,
+        "time": 1683379540,
         "rightFooter": ""
     },
     {
@@ -3527,7 +3527,7 @@ var radioJsonVar =
         "text3": "mp3",
         "url": "https:\/\/www.rfi.fr\/es\/",
         "tag": "#radio #es",
-        "time": 1683368666,
+        "time": 1683379466,
         "rightFooter": ""
     },
     {
@@ -3536,7 +3536,7 @@ var radioJsonVar =
         "text3": "mp3",
         "url": "https:\/\/www.rfi.fr\/en\/",
         "tag": "#radio #fr",
-        "time": 1683368615,
+        "time": 1683379415,
         "rightFooter": ""
     },
     {
@@ -3545,7 +3545,7 @@ var radioJsonVar =
         "text3": "mp3",
         "url": "https:\/\/www.rfi.fr\/sw\/",
         "tag": "#radio #sw",
-        "time": 1683368552,
+        "time": 1683379352,
         "rightFooter": ""
     },
     {
@@ -3554,7 +3554,7 @@ var radioJsonVar =
         "text3": "mp3",
         "url": "https:\/\/www.rfi.fr\/br\/ao-vivo",
         "tag": "#radio #pt",
-        "time": 1683360074,
+        "time": 1683370874,
         "rightFooter": ""
     },
     {
@@ -3563,7 +3563,7 @@ var radioJsonVar =
         "text3": "mp3",
         "url": "https:\/\/www.sudradio.fr\/",
         "tag": "#radio #fr",
-        "time": 1683359985,
+        "time": 1683370785,
         "rightFooter": ""
     },
     {
@@ -3572,7 +3572,7 @@ var radioJsonVar =
         "text3": "mp3",
         "url": "https:\/\/www.croonerradio.fr\/",
         "tag": "#radio #RadioMusic #AmbientMusic",
-        "time": 1683359508,
+        "time": 1683370308,
         "rightFooter": ""
     },
     {
@@ -3581,7 +3581,7 @@ var radioJsonVar =
         "text3": "mp3",
         "url": "https:\/\/www.rockantenne.de\/",
         "tag": "#radio #RadioMusic #AlternativeRock",
-        "time": 1683359365,
+        "time": 1683370165,
         "rightFooter": ""
     },
     {
@@ -3590,7 +3590,7 @@ var radioJsonVar =
         "text3": "mp3",
         "url": "https:\/\/berlin.starfm.de\/",
         "tag": "#radio #RadioMusic #AlternativeRock",
-        "time": 1683359210,
+        "time": 1683370010,
         "rightFooter": ""
     },
     {
@@ -3599,7 +3599,7 @@ var radioJsonVar =
         "text3": "mp3",
         "url": "https:\/\/gotradio.com\/",
         "tag": "#radio #RadioMusic #AlternativeRock",
-        "time": 1683359091,
+        "time": 1683369891,
         "rightFooter": ""
     },
     {
@@ -3608,7 +3608,7 @@ var radioJsonVar =
         "text3": "aac",
         "url": "https:\/\/www.bpr.org\/",
         "tag": "#radio #en",
-        "time": 1683358910,
+        "time": 1683369710,
         "rightFooter": ""
     },
     {
@@ -3617,7 +3617,7 @@ var radioJsonVar =
         "text3": "mp3",
         "url": "https:\/\/www.xsmanchester.co.uk\/",
         "tag": "#radio #RadioMusic #IndieRock",
-        "time": 1683358754,
+        "time": 1683369554,
         "rightFooter": ""
     },
     {
@@ -3626,7 +3626,7 @@ var radioJsonVar =
         "text3": "mp3",
         "url": "https:\/\/esradio.libertaddigital.com\/",
         "tag": "#radio #es",
-        "time": 1683358409,
+        "time": 1683369209,
         "rightFooter": ""
     },
     {
@@ -3635,7 +3635,7 @@ var radioJsonVar =
         "text3": "mp3",
         "url": "https:\/\/www.qcindie.com\/",
         "tag": "#radio #RadioMusic #IndieMusic #alternative",
-        "time": 1683358190,
+        "time": 1683368990,
         "rightFooter": ""
     },
     {
@@ -3644,7 +3644,7 @@ var radioJsonVar =
         "text3": "mp3",
         "url": "https:\/\/www.cayaradio.com\/",
         "tag": "#radio #RadioMusic #IndieMusic #90s #rock #alternative",
-        "time": 1683358049,
+        "time": 1683368849,
         "rightFooter": ""
     },
     {
@@ -3653,7 +3653,7 @@ var radioJsonVar =
         "text3": "mp3",
         "url": "https:\/\/www.webradios.de\/",
         "tag": "#radio #RadioMusic #IndieMusic",
-        "time": 1683357928,
+        "time": 1683368728,
         "rightFooter": ""
     },
     {
@@ -3662,7 +3662,7 @@ var radioJsonVar =
         "text3": "mp3",
         "url": "https:\/\/play.radioking.com\/radio\/the-independent-fm-1",
         "tag": "#radio #RadioMusic #IndieRock",
-        "time": 1683357761,
+        "time": 1683368561,
         "rightFooter": ""
     },
     {
@@ -3671,7 +3671,7 @@ var radioJsonVar =
         "text3": "iframe",
         "url": "https:\/\/zloteprzeboje.pl\/",
         "tag": "#radio #RadioMusic #PopMusic",
-        "time": 1683357519,
+        "time": 1683368319,
         "rightFooter": ""
     },
     {
@@ -3680,7 +3680,7 @@ var radioJsonVar =
         "text3": "mp3",
         "url": "https:\/\/www.hot977fm.com\/",
         "tag": "#radio #RadioMusic #top40 #PopMusic #AdultHits",
-        "time": 1683356097,
+        "time": 1683366897,
         "rightFooter": ""
     },
     {
@@ -3689,7 +3689,7 @@ var radioJsonVar =
         "text3": "mp3",
         "url": "https:\/\/www.foxfm.com\/",
         "tag": "#radio #RadioMusic #top40 #PopMusic",
-        "time": 1683355974,
+        "time": 1683366774,
         "rightFooter": ""
     },
     {
@@ -3698,7 +3698,7 @@ var radioJsonVar =
         "text3": "mp3",
         "url": "https:\/\/100hitz.com\/radiochannel\/hot-hitz\/",
         "tag": "#radio #RadioMusic #top40 #PopMusic",
-        "time": 1683355790,
+        "time": 1683366590,
         "rightFooter": ""
     },
     {
@@ -3707,7 +3707,7 @@ var radioJsonVar =
         "text3": "iframe",
         "url": "https:\/\/www.slam.nl\/",
         "tag": "#radio #RadioMusic #top40 #PopMusic",
-        "time": 1683355670,
+        "time": 1683366470,
         "rightFooter": ""
     },
     {
@@ -3716,7 +3716,7 @@ var radioJsonVar =
         "text3": "mp3",
         "url": "https:\/\/totalhitsradio.com\/",
         "tag": "#radio #RadioMusic #top40 #PopMusic",
-        "time": 1683354775,
+        "time": 1683365575,
         "rightFooter": ""
     },
     {
@@ -3725,7 +3725,7 @@ var radioJsonVar =
         "text3": "mp3",
         "url": "https:\/\/www.1017theone.ca\/",
         "tag": "#radio #RadioMusic #top40 #PopMusic",
-        "time": 1683354685,
+        "time": 1683365485,
         "rightFooter": ""
     },
     {
@@ -3734,7 +3734,7 @@ var radioJsonVar =
         "text3": "mp3",
         "url": "https:\/\/www.juiceonair.com\/",
         "tag": "#radio #RadioMusic #top40 #PopMusic",
-        "time": 1683354609,
+        "time": 1683365409,
         "rightFooter": ""
     },
     {
@@ -3743,7 +3743,7 @@ var radioJsonVar =
         "text3": "mp3",
         "url": "https:\/\/cheesyfm.co.uk\/",
         "tag": "#radio #RadioMusic #top40 #PopMusic #ClassicHits",
-        "time": 1683354517,
+        "time": 1683365317,
         "rightFooter": ""
     },
     {
@@ -3752,7 +3752,7 @@ var radioJsonVar =
         "text3": "mp3",
         "url": "https:\/\/www.swr3.de\/index.html",
         "tag": "#radio #RadioMusic #top40 #PopMusic",
-        "time": 1683353996,
+        "time": 1683364796,
         "rightFooter": ""
     },
     {
@@ -3761,7 +3761,7 @@ var radioJsonVar =
         "text3": "mp3",
         "url": "https:\/\/www.energy.de\/berlin",
         "tag": "#radio #RadioMusic #top40 #PopMusic #EuroHits",
-        "time": 1683353880,
+        "time": 1683364680,
         "rightFooter": ""
     },
     {
@@ -3770,7 +3770,7 @@ var radioJsonVar =
         "text3": "mp3",
         "url": "https:\/\/www.kfmradio.com\/",
         "tag": "#radio #RadioMusic #90s",
-        "time": 1683353302,
+        "time": 1683364102,
         "rightFooter": ""
     },
     {
@@ -3779,7 +3779,7 @@ var radioJsonVar =
         "text3": "mp3",
         "url": "https:\/\/www.c977.ca\/",
         "tag": "#radio #RadioMusic #90s",
-        "time": 1683353217,
+        "time": 1683364017,
         "rightFooter": ""
     },
     {
@@ -3788,7 +3788,7 @@ var radioJsonVar =
         "text3": "mp3",
         "url": "https:\/\/www.anthemsradio.com\/",
         "tag": "#radio #RadioMusic #90s",
-        "time": 1683352514,
+        "time": 1683363314,
         "rightFooter": ""
     },
     {
@@ -3797,7 +3797,7 @@ var radioJsonVar =
         "text3": "mp3",
         "url": "https:\/\/alive.radio\/00s\/",
         "tag": "#radio #RadioMusic #00s",
-        "time": 1683352444,
+        "time": 1683363244,
         "rightFooter": ""
     },
     {
@@ -3806,7 +3806,7 @@ var radioJsonVar =
         "text3": "mp3",
         "url": "https:\/\/www.cleansingmusic.com\/",
         "tag": "#radio #RadioMusic #00s",
-        "time": 1683350795,
+        "time": 1683361595,
         "rightFooter": ""
     },
     {
@@ -3815,7 +3815,7 @@ var radioJsonVar =
         "text3": "mp3",
         "url": "https:\/\/www.nationplayer.com\/",
         "tag": "#radio #RadioMusic #top40 #00s",
-        "time": 1683337048,
+        "time": 1683347848,
         "rightFooter": ""
     },
     {
@@ -3824,7 +3824,7 @@ var radioJsonVar =
         "text3": "mp3",
         "url": "https:\/\/www.happyhits.co.uk\/00s\/",
         "tag": "#radio #RadioMusic #00s",
-        "time": 1683336822,
+        "time": 1683347622,
         "rightFooter": ""
     },
     {
@@ -3833,7 +3833,7 @@ var radioJsonVar =
         "text3": "mp3",
         "url": "https:\/\/011fm.com\/",
         "tag": "#radio #RadioMusic",
-        "time": 1683328374,
+        "time": 1683339174,
         "rightFooter": ""
     },
     {
@@ -3842,7 +3842,7 @@ var radioJsonVar =
         "text3": "",
         "url": "https:\/\/tunein.com\/radio\/00s-ALIVE-s291029\/",
         "tag": "#radio #RadioMusic #00s",
-        "time": 1681865817,
+        "time": 1681876617,
         "rightFooter": ""
     },
     {
@@ -3851,7 +3851,7 @@ var radioJsonVar =
         "text3": "",
         "url": "https:\/\/tunein.com\/radio\/Anthems-Radio-s265796\/",
         "tag": "#radio #RadioMusic #90s",
-        "time": 1681865722,
+        "time": 1681876522,
         "rightFooter": ""
     },
     {
@@ -3860,7 +3860,7 @@ var radioJsonVar =
         "text3": "",
         "url": "https:\/\/tunein.com\/radio\/C97-7-977-s89527\/",
         "tag": "#radio #RadioMusic #90s",
-        "time": 1681865699,
+        "time": 1681876499,
         "rightFooter": ""
     },
     {
@@ -3869,7 +3869,7 @@ var radioJsonVar =
         "text3": "",
         "url": "https:\/\/tunein.com\/radio\/Kfm-Radio-976-s80451\/",
         "tag": "#radio #RadioMusic #90s",
-        "time": 1681865675,
+        "time": 1681876475,
         "rightFooter": ""
     },
     {
@@ -3878,7 +3878,7 @@ var radioJsonVar =
         "text3": "",
         "url": "https:\/\/tunein.com\/radio\/ENERGY-Berlin-1034-s11067\/",
         "tag": "#radio #RadioMusic #top40 #PopMusic",
-        "time": 1680325916,
+        "time": 1680336716,
         "rightFooter": ""
     },
     {
@@ -3887,7 +3887,7 @@ var radioJsonVar =
         "text3": "",
         "url": "https:\/\/tunein.com\/radio\/SWR3-996-s24896\/",
         "tag": "#radio #RadioMusic #top40 #PopMusic",
-        "time": 1680325689,
+        "time": 1680336489,
         "rightFooter": ""
     },
     {
@@ -3896,7 +3896,7 @@ var radioJsonVar =
         "text3": "",
         "url": "https:\/\/tunein.com\/radio\/Nova-FM-975-s157009\/",
         "tag": "#radio #RadioMusic #top40 #PopMusic",
-        "time": 1680325582,
+        "time": 1680336382,
         "rightFooter": ""
     },
     {
@@ -3905,7 +3905,7 @@ var radioJsonVar =
         "text3": "",
         "url": "https:\/\/tunein.com\/radio\/ENERGY-Hits-s96837\/",
         "tag": "#radio #RadioMusic #top40 #PopMusic",
-        "time": 1680325438,
+        "time": 1680336238,
         "rightFooter": ""
     },
     {
@@ -3914,7 +3914,7 @@ var radioJsonVar =
         "text3": "",
         "url": "https:\/\/tunein.com\/radio\/Cheesy-FM-s240329\/",
         "tag": "#radio #RadioMusic #top40 #PopMusic",
-        "time": 1680324564,
+        "time": 1680335364,
         "rightFooter": ""
     },
     {
@@ -3923,7 +3923,7 @@ var radioJsonVar =
         "text3": "",
         "url": "https:\/\/tunein.com\/radio\/1017-The-One-s31273\/",
         "tag": "#radio #RadioMusic #top40 #PopMusic",
-        "time": 1680324386,
+        "time": 1680335186,
         "rightFooter": ""
     },
     {
@@ -3932,7 +3932,7 @@ var radioJsonVar =
         "text3": "",
         "url": "https:\/\/tunein.com\/radio\/SLAM-Non-Stop-s253879\/",
         "tag": "#radio #RadioMusic #top40 #PopMusic",
-        "time": 1680324138,
+        "time": 1680334938,
         "rightFooter": ""
     },
     {
@@ -3941,7 +3941,7 @@ var radioJsonVar =
         "text3": "",
         "url": "https:\/\/tunein.com\/radio\/100hitz-Hot-Hitz--Todays-Hitz-without-rap-s111388\/",
         "tag": "#radio #RadioMusic #top40 #PopMusic",
-        "time": 1680324111,
+        "time": 1680334911,
         "rightFooter": ""
     },
     {
@@ -3950,7 +3950,7 @@ var radioJsonVar =
         "text3": "",
         "url": "https:\/\/tunein.com\/radio\/The-Fox-999-s31121\/",
         "tag": "#radio #RadioMusic #top40 #PopMusic",
-        "time": 1680324047,
+        "time": 1680334847,
         "rightFooter": ""
     },
     {
@@ -3959,7 +3959,7 @@ var radioJsonVar =
         "text3": "",
         "url": "https:\/\/tunein.com\/radio\/The-Independent-FM-s165640\/",
         "tag": "#radio #RadioMusic #IndieRock",
-        "time": 1680313194,
+        "time": 1680323994,
         "rightFooter": ""
     },
     {
@@ -3968,7 +3968,7 @@ var radioJsonVar =
         "text3": "",
         "url": "https:\/\/tunein.com\/radio\/ON-Indie-s307213\/",
         "tag": "#radio #RadioMusic  #IndieMusic",
-        "time": 1680313124,
+        "time": 1680323924,
         "rightFooter": ""
     },
     {
@@ -3977,7 +3977,7 @@ var radioJsonVar =
         "text3": "",
         "url": "https:\/\/tunein.com\/radio\/QCIndie-s253577\/",
         "tag": "#radio #RadioMusic #AlternativeRock",
-        "time": 1680312711,
+        "time": 1680323511,
         "rightFooter": ""
     },
     {
@@ -3986,7 +3986,7 @@ var radioJsonVar =
         "text3": "",
         "url": "https:\/\/tunein.com\/radio\/esradio-Directo-991-s111410\/",
         "tag": "#es #radio",
-        "time": 1679806847,
+        "time": 1679817647,
         "rightFooter": ""
     },
     {
@@ -3995,7 +3995,7 @@ var radioJsonVar =
         "text3": "",
         "url": "https:\/\/tunein.com\/radio\/Jazz24-885-s34682\/",
         "tag": "#radio #RadioMusic #jazz",
-        "time": 1679752920,
+        "time": 1679760120,
         "rightFooter": ""
     },
     {
@@ -4004,7 +4004,7 @@ var radioJsonVar =
         "text3": "",
         "url": "https:\/\/tunein.com\/radio\/XS-Manchester-1061-s91723\/",
         "tag": "#radio #RadioMusic #IndieRock",
-        "time": 1679708575,
+        "time": 1679715775,
         "rightFooter": ""
     },
     {
@@ -4013,7 +4013,7 @@ var radioJsonVar =
         "text3": "",
         "url": "https:\/\/tunein.com\/radio\/BPR-News-905-s23561\/",
         "tag": "#en #radio",
-        "time": 1679367620,
+        "time": 1679374820,
         "rightFooter": ""
     },
     {
@@ -4022,7 +4022,7 @@ var radioJsonVar =
         "text3": "",
         "url": "https:\/\/tunein.com\/radio\/GotRadio-90s-Alternative-s65667\/",
         "tag": "#radio #RadioMusic #AlternativeRock",
-        "time": 1679365003,
+        "time": 1679372203,
         "rightFooter": ""
     },
     {
@@ -4031,7 +4031,7 @@ var radioJsonVar =
         "text3": "",
         "url": "https:\/\/tunein.com\/radio\/GotRadio-Alternative-Rock-s49668\/",
         "tag": "#radio #RadioMusic #AlternativeRock",
-        "time": 1679128857,
+        "time": 1679136057,
         "rightFooter": ""
     },
     {
@@ -4040,7 +4040,7 @@ var radioJsonVar =
         "text3": "",
         "url": "https:\/\/tunein.com\/radio\/ROCK-ANTENNE-Alternative-s125936\/",
         "tag": "#radio #RadioMusic #AlternativeRock",
-        "time": 1679025705,
+        "time": 1679032905,
         "rightFooter": ""
     },
     {
@@ -4049,7 +4049,7 @@ var radioJsonVar =
         "text3": "",
         "url": "https:\/\/tunein.com\/radio\/Crooner-Radio-Lounge-s298983\/",
         "tag": "#radio #RadioMusic #jazz",
-        "time": 1678453768,
+        "time": 1678460968,
         "rightFooter": ""
     },
     {
@@ -4058,7 +4058,7 @@ var radioJsonVar =
         "text3": "",
         "url": "https:\/\/tunein.com\/radio\/Ljungbykanalen-958-s10283\/",
         "tag": "#radio #RadioMusic #AdultHits",
-        "time": 1657016506,
+        "time": 1657027306,
         "rightFooter": ""
     },
     {
@@ -4067,7 +4067,7 @@ var radioJsonVar =
         "text3": "",
         "url": "https:\/\/tunein.com\/radio\/SER-Madrid-1054-s17503\/",
         "tag": "#es #radio",
-        "time": 1654866420,
+        "time": 1654877220,
         "rightFooter": ""
     },
     {
@@ -4076,7 +4076,7 @@ var radioJsonVar =
         "text3": "",
         "url": "https:\/\/tunein.com\/radio\/CityNews-Toronto-680-s31147\/",
         "tag": "#en #radio",
-        "time": 1654865555,
+        "time": 1654876355,
         "rightFooter": ""
     },
     {
@@ -4085,7 +4085,7 @@ var radioJsonVar =
         "text3": "",
         "url": "https:\/\/tunein.com\/radio\/WMAY-News-927-s30899\/",
         "tag": "#en #radio",
-        "time": 1654865373,
+        "time": 1654876173,
         "rightFooter": ""
     },
     {
@@ -4094,7 +4094,7 @@ var radioJsonVar =
         "text3": "",
         "url": "https:\/\/tunein.com\/radio\/Cadena-SER-s309802\/",
         "tag": "#es #radio",
-        "time": 1652952469,
+        "time": 1652963269,
         "rightFooter": ""
     },
     {
@@ -4103,7 +4103,7 @@ var radioJsonVar =
         "text3": "",
         "url": "https:\/\/tunein.com\/radio\/Cadena-SER--s309803\/",
         "tag": "#es #radio",
-        "time": 1652952459,
+        "time": 1652963259,
         "rightFooter": ""
     },
     {
@@ -4112,7 +4112,7 @@ var radioJsonVar =
         "text3": "",
         "url": "https:\/\/tunein.com\/radio\/WBGO-883-s27437\/",
         "tag": "#radio #RadioMusic #jazz",
-        "time": 1647881297,
+        "time": 1647888497,
         "rightFooter": ""
     },
     {
@@ -4121,7 +4121,7 @@ var radioJsonVar =
         "text3": "",
         "url": "https:\/\/tunein.com\/radio\/GB-News-Radio-s310252\/",
         "tag": "#radio #en",
-        "time": 1647880431,
+        "time": 1647887631,
         "rightFooter": ""
     },
     {
@@ -4130,7 +4130,7 @@ var radioJsonVar =
         "text3": "",
         "url": "https:\/\/tunein.com\/radio\/VPM-News-889-s28089\/",
         "tag": "#radio #en",
-        "time": 1647880396,
+        "time": 1647887596,
         "rightFooter": ""
     },
     {
@@ -4139,7 +4139,7 @@ var radioJsonVar =
         "text3": "",
         "url": "https:\/\/tunein.com\/radio\/MPR-News-911-s34350\/",
         "tag": "#radio #en",
-        "time": 1647880363,
+        "time": 1647887563,
         "rightFooter": ""
     },
     {
@@ -4148,7 +4148,7 @@ var radioJsonVar =
         "text3": "",
         "url": "https:\/\/tunein.com\/radio\/Radio-Romanian---Dance-s184643\/",
         "tag": "#radio #RadioMusic #dance #electronic",
-        "time": 1647854552,
+        "time": 1647861752,
         "rightFooter": ""
     },
     {
@@ -4157,7 +4157,7 @@ var radioJsonVar =
         "text3": "",
         "url": "https:\/\/tunein.com\/radio\/Slammin-Tunes-s164266\/",
         "tag": "#radio #RadioMusic #AdultHits",
-        "time": 1647750122,
+        "time": 1647757322,
         "rightFooter": ""
     },
     {
@@ -4166,7 +4166,7 @@ var radioJsonVar =
         "text3": "",
         "url": "https:\/\/tunein.com\/radio\/Labgate-Alternative-Rock-and-grunge-s301152\/",
         "tag": "#radio #RadioMusic #AlternativeRock",
-        "time": 1647750049,
+        "time": 1647757249,
         "rightFooter": ""
     },
     {
@@ -4175,7 +4175,7 @@ var radioJsonVar =
         "text3": "",
         "url": "https:\/\/tunein.com\/radio\/The-Dump---Internet-Radio-s140358\/",
         "tag": "#radio #RadioMusic #AlternativeRock",
-        "time": 1647749410,
+        "time": 1647756610,
         "rightFooter": ""
     },
     {
@@ -4184,7 +4184,7 @@ var radioJsonVar =
         "text3": "",
         "url": "https:\/\/tunein.com\/radio\/Radio-Byron-s243820\/",
         "tag": "#radio #RadioMusic #AlternativeRock",
-        "time": 1647746970,
+        "time": 1647754170,
         "rightFooter": ""
     },
     {
@@ -4193,7 +4193,7 @@ var radioJsonVar =
         "text3": "",
         "url": "https:\/\/tunein.com\/radio\/The-Rebel-HD2-915-s137229\/",
         "tag": "#radio #RadioMusic #PopMusic #CollegeRadio",
-        "time": 1647590071,
+        "time": 1647597271,
         "rightFooter": ""
     },
     {
@@ -4202,7 +4202,7 @@ var radioJsonVar =
         "text3": "",
         "url": "https:\/\/tunein.com\/radio\/CBC-Music-Halifax-1027-s25283\/",
         "tag": "#radio #RadioMusic #calssical #IndieMusic #rock",
-        "time": 1647587450,
+        "time": 1647594650,
         "rightFooter": ""
     },
     {
@@ -4211,7 +4211,7 @@ var radioJsonVar =
         "text3": "",
         "url": "https:\/\/tunein.com\/radio\/KBOO-Community-Radio-907-s31809\/",
         "tag": "#radio #RadioMusic #IndieMusic",
-        "time": 1647587409,
+        "time": 1647594609,
         "rightFooter": ""
     },
     {
@@ -4220,7 +4220,7 @@ var radioJsonVar =
         "text3": "",
         "url": "https:\/\/tunein.com\/radio\/CBC-Music-Toronto-941-s16699\/",
         "tag": "#radio #RadioMusic #classical #IndieMusic #rock",
-        "time": 1647586689,
+        "time": 1647593889,
         "rightFooter": ""
     },
     {
@@ -4229,7 +4229,7 @@ var radioJsonVar =
         "text3": "",
         "url": "https:\/\/tunein.com\/radio\/triple-j-1057-s25508\/",
         "tag": "#radio #RadioMusic #HipHopMusic #IndieMusic",
-        "time": 1647586373,
+        "time": 1647593573,
         "rightFooter": ""
     },
     {
@@ -4238,7 +4238,7 @@ var radioJsonVar =
         "text3": "",
         "url": "https:\/\/tunein.com\/radio\/WUMB-FM-919-s23389\/",
         "tag": "#radio #RadioMusic #IndieMusic",
-        "time": 1647586185,
+        "time": 1647593385,
         "rightFooter": ""
     },
     {
@@ -4247,7 +4247,7 @@ var radioJsonVar =
         "text3": "",
         "url": "https:\/\/tunein.com\/radio\/WERS-889-s28589\/",
         "tag": "#radio #RadioMusic #IndieMusic #RMBMusic",
-        "time": 1647579646,
+        "time": 1647586846,
         "rightFooter": ""
     },
     {
@@ -4256,7 +4256,7 @@ var radioJsonVar =
         "text3": "",
         "url": "https:\/\/tunein.com\/radio\/FUV-Music-907-s52436\/",
         "tag": "#radio #RadioMusic #IndieMusic #CollegeRadio",
-        "time": 1647570718,
+        "time": 1647577918,
         "rightFooter": ""
     },
     {
@@ -4265,7 +4265,7 @@ var radioJsonVar =
         "text3": "",
         "url": "https:\/\/tunein.com\/radio\/idobi-Anthm-s237005\/",
         "tag": "#radio #RadioMusic #IndieMusic",
-        "time": 1647535832,
+        "time": 1647543032,
         "rightFooter": ""
     },
     {
@@ -4274,7 +4274,7 @@ var radioJsonVar =
         "text3": "",
         "url": "https:\/\/tunein.com\/radio\/WMXM-889-s21320\/",
         "tag": "#radio #RadioMusic #IndieMusic",
-        "time": 1647534381,
+        "time": 1647541581,
         "rightFooter": ""
     },
     {
@@ -4283,7 +4283,7 @@ var radioJsonVar =
         "text3": "",
         "url": "https:\/\/tunein.com\/radio\/Radio-BurgerFuel-s178759\/",
         "tag": "#radio #RadioMusic #IndieMusic",
-        "time": 1647533029,
+        "time": 1647540229,
         "rightFooter": ""
     },
     {
@@ -4292,7 +4292,7 @@ var radioJsonVar =
         "text3": "",
         "url": "https:\/\/tunein.com\/radio\/Heads-1064FM-s167040\/",
         "tag": "#radio #RadioMusic #IndieMusic",
-        "time": 1647527567,
+        "time": 1647534767,
         "rightFooter": ""
     },
     {
@@ -4301,7 +4301,7 @@ var radioJsonVar =
         "text3": "",
         "url": "https:\/\/tunein.com\/radio\/WLUW-FM-887-s30828\/",
         "tag": "#radio #RadioMusic #IndieMusic",
-        "time": 1647524616,
+        "time": 1647531816,
         "rightFooter": ""
     },
     {
@@ -4310,7 +4310,7 @@ var radioJsonVar =
         "text3": "",
         "url": "https:\/\/tunein.com\/radio\/LuxuriaMusic-s98681\/",
         "tag": "#radio #RadioMusic #IndieMusic",
-        "time": 1647523686,
+        "time": 1647530886,
         "rightFooter": ""
     },
     {
@@ -4319,7 +4319,7 @@ var radioJsonVar =
         "text3": "",
         "url": "https:\/\/tunein.com\/radio\/KPTZ-919-s138748\/",
         "tag": "#radio #RadioMusic #IndieMusic",
-        "time": 1647519029,
+        "time": 1647526229,
         "rightFooter": ""
     },
     {
@@ -4328,7 +4328,7 @@ var radioJsonVar =
         "text3": "",
         "url": "https:\/\/tunein.com\/radio\/Dark-Edge-Radio-s304142\/",
         "tag": "#radio #RadioMusic #IndieMusic",
-        "time": 1647517058,
+        "time": 1647524258,
         "rightFooter": ""
     },
     {
@@ -4337,7 +4337,7 @@ var radioJsonVar =
         "text3": "",
         "url": "https:\/\/tunein.com\/radio\/SomaFM-PopTron-s112350\/",
         "tag": "#radio #RadioMusic #IndieMusic",
-        "time": 1647512950,
+        "time": 1647520150,
         "rightFooter": ""
     },
     {
@@ -4346,7 +4346,7 @@ var radioJsonVar =
         "text3": "",
         "url": "https:\/\/tunein.com\/radio\/SomaFM-Indie-Pop-Rocks-s2592\/",
         "tag": "#radio #RadioMusic #IndieMusic",
-        "time": 1647510551,
+        "time": 1647517751,
         "rightFooter": ""
     },
     {
@@ -4355,7 +4355,7 @@ var radioJsonVar =
         "text3": "",
         "url": "https:\/\/tunein.com\/radio\/The-Current-893-s20620\/",
         "tag": "#radio #RadioMusic #IndieMusic",
-        "time": 1647509348,
+        "time": 1647516548,
         "rightFooter": ""
     },
     {
@@ -4364,7 +4364,7 @@ var radioJsonVar =
         "text3": "",
         "url": "https:\/\/tunein.com\/radio\/Double-J-Sydney-s20270\/",
         "tag": "#radio #RadioMusic #IndieMusic",
-        "time": 1647508935,
+        "time": 1647516135,
         "rightFooter": ""
     },
     {
@@ -4373,7 +4373,7 @@ var radioJsonVar =
         "text3": "",
         "url": "https:\/\/tunein.com\/radio\/WNRN-919-s21535\/",
         "tag": "#radio #RadioMusic #IndieMusic #AlternativeRock #WorldMusic",
-        "time": 1647507943,
+        "time": 1647515143,
         "rightFooter": ""
     },
     {
@@ -4382,7 +4382,7 @@ var radioJsonVar =
         "text3": "",
         "url": "https:\/\/tunein.com\/radio\/Fuse-FM-s2915\/",
         "tag": "#radio #RadioMusic #AlternativeRock",
-        "time": 1647490801,
+        "time": 1647498001,
         "rightFooter": ""
     },
     {
@@ -4391,7 +4391,7 @@ var radioJsonVar =
         "text3": "",
         "url": "https:\/\/tunein.com\/radio\/96X-s309941\/",
         "tag": "#radio #RadioMusic #AlternativeRock",
-        "time": 1647488590,
+        "time": 1647495790,
         "rightFooter": ""
     },
     {
@@ -4400,7 +4400,7 @@ var radioJsonVar =
         "text3": "",
         "url": "https:\/\/tunein.com\/radio\/Houston-Public-Media-Mixtape-887-s67085\/",
         "tag": "#radio #RadioMusic #HipHopMusic",
-        "time": 1647487939,
+        "time": 1647495139,
         "rightFooter": ""
     },
     {
@@ -4409,7 +4409,7 @@ var radioJsonVar =
         "text3": "",
         "url": "https:\/\/tunein.com\/radio\/Alternative-X-Rock-Station-s263683\/",
         "tag": "#radio #RadioMusic #AlternativeRock",
-        "time": 1647444718,
+        "time": 1647451918,
         "rightFooter": ""
     },
     {
@@ -4418,7 +4418,7 @@ var radioJsonVar =
         "text3": "",
         "url": "https:\/\/tunein.com\/radio\/VRT-Studio-Brussel-1006-s2611\/",
         "tag": "#radio #RadioMusic #AlternativeRock",
-        "time": 1647439970,
+        "time": 1647447170,
         "rightFooter": ""
     },
     {
@@ -4427,7 +4427,7 @@ var radioJsonVar =
         "text3": "",
         "url": "https:\/\/tunein.com\/radio\/891-Max-FM-s131113\/",
         "tag": "#radio #RadioMusic #AlternativeRock",
-        "time": 1647439249,
+        "time": 1647446449,
         "rightFooter": ""
     },
     {
@@ -4436,7 +4436,7 @@ var radioJsonVar =
         "text3": "",
         "url": "https:\/\/tunein.com\/radio\/WXRV925-the-River-s24062\/",
         "tag": "#radio #RadioMusic #AlternativeRock",
-        "time": 1647438465,
+        "time": 1647445665,
         "rightFooter": ""
     },
     {
@@ -4445,7 +4445,7 @@ var radioJsonVar =
         "text3": "",
         "url": "https:\/\/tunein.com\/radio\/8Radio-943-s162354\/",
         "tag": "#radio #RadioMusic #AlternativeRock",
-        "time": 1647436108,
+        "time": 1647443308,
         "rightFooter": ""
     },
     {
@@ -4454,7 +4454,7 @@ var radioJsonVar =
         "text3": "",
         "url": "https:\/\/tunein.com\/radio\/Radio-Paradise-s13606\/",
         "tag": "#radio #RadioMusic #AlternativeRock #IndieMusic",
-        "time": 1647431060,
+        "time": 1647438260,
         "rightFooter": ""
     },
     {
@@ -4463,7 +4463,7 @@ var radioJsonVar =
         "text3": "m3u8",
         "url": "https:\/\/www.rtp.pt\/play\/direto\/antena1",
         "tag": "#radio #pt",
-        "time": 1646988263,
+        "time": 1646995463,
         "rightFooter": ""
     },
     {
@@ -4472,7 +4472,7 @@ var radioJsonVar =
         "text3": "",
         "url": "https:\/\/tunein.com\/radio\/radio-klassik-Stephansdom-1073-s11109\/",
         "tag": "#radio #RadioMusic #classical",
-        "time": 1646356835,
+        "time": 1646364035,
         "rightFooter": ""
     },
     {
@@ -4481,7 +4481,7 @@ var radioJsonVar =
         "text3": "",
         "url": "https:\/\/tunein.com\/radio\/radio-88-6-886-s25744\/",
         "tag": "#radio #rock #RadioMusic",
-        "time": 1646356781,
+        "time": 1646363981,
         "rightFooter": ""
     },
     {
@@ -4490,7 +4490,7 @@ var radioJsonVar =
         "text3": "",
         "url": "https:\/\/tunein.com\/radio\/AlternativeRadious-s221580\/",
         "tag": "#radio #RadioMusic #AlternativeRock",
-        "time": 1646356273,
+        "time": 1646363473,
         "rightFooter": ""
     },
     {
@@ -4499,7 +4499,7 @@ var radioJsonVar =
         "text3": "",
         "url": "https:\/\/tunein.com\/radio\/ORF-Radio-FM4-1038-s8235\/",
         "tag": "#radio #RadioMusic #AlternativeRock",
-        "time": 1646355903,
+        "time": 1646363103,
         "rightFooter": ""
     },
     {
@@ -4508,7 +4508,7 @@ var radioJsonVar =
         "text3": "",
         "url": "https:\/\/tunein.com\/radio\/kronehit-1058-s15532\/",
         "tag": "#radio #RadioMusic #top40 #PopMusic",
-        "time": 1646355774,
+        "time": 1646362974,
         "rightFooter": ""
     },
     {
@@ -4517,7 +4517,7 @@ var radioJsonVar =
         "text3": "",
         "url": "https:\/\/tunein.com\/radio\/ENERGY-STERREICH-1042-s9211\/",
         "tag": "#radio #RadioMusic #top40 #PopMusic",
-        "time": 1646354383,
+        "time": 1646361583,
         "rightFooter": ""
     },
     {
@@ -4526,7 +4526,7 @@ var radioJsonVar =
         "text3": "",
         "url": "https:\/\/tunein.com\/radio\/Studio-Alphen-1054-s77672\/",
         "tag": "#radio #nl",
-        "time": 1646115966,
+        "time": 1646123166,
         "rightFooter": ""
     },
     {
@@ -4535,7 +4535,7 @@ var radioJsonVar =
         "text3": "",
         "url": "https:\/\/tunein.com\/radio\/NPO-3FM-968-s6707\/",
         "tag": "#radio #RadioMusic #top40 #PopMusic",
-        "time": 1646115864,
+        "time": 1646123064,
         "rightFooter": ""
     },
     {
@@ -4544,7 +4544,7 @@ var radioJsonVar =
         "text3": "",
         "url": "https:\/\/tunein.com\/radio\/OSU-Radio-1067-s159488\/",
         "tag": "#radio #RadioMusic #WorldMusic",
-        "time": 1646114388,
+        "time": 1646121588,
         "rightFooter": ""
     },
     {
@@ -4553,7 +4553,7 @@ var radioJsonVar =
         "text3": "",
         "url": "https:\/\/tunein.com\/radio\/NPO-Radio-4-943-s25548\/",
         "tag": "#radio #RadioMusic #classical",
-        "time": 1646113225,
+        "time": 1646120425,
         "rightFooter": ""
     },
     {
@@ -4562,7 +4562,7 @@ var radioJsonVar =
         "text3": "",
         "url": "https:\/\/tunein.com\/radio\/Concertzender-819-s69048\/",
         "tag": "#radio #RadioMusic #classical",
-        "time": 1646111845,
+        "time": 1646119045,
         "rightFooter": ""
     },
     {
@@ -4571,7 +4571,7 @@ var radioJsonVar =
         "text3": "",
         "url": "https:\/\/tunein.com\/radio\/classicnl-s2967\/",
         "tag": "#radio #RadioMusic #classical",
-        "time": 1646111817,
+        "time": 1646119017,
         "rightFooter": ""
     },
     {
@@ -4580,7 +4580,7 @@ var radioJsonVar =
         "text3": "",
         "url": "https:\/\/tunein.com\/radio\/Bo-1053-s81529\/",
         "tag": "#radio #RadioMusic #top40 #PopMusic",
-        "time": 1646111713,
+        "time": 1646118913,
         "rightFooter": ""
     },
     {
@@ -4589,7 +4589,7 @@ var radioJsonVar =
         "text3": "",
         "url": "https:\/\/tunein.com\/radio\/Arrow-Classic-Rock-s6702\/",
         "tag": "#radio #rock #RadioMusic",
-        "time": 1646111243,
+        "time": 1646118443,
         "rightFooter": ""
     },
     {
@@ -4598,7 +4598,7 @@ var radioJsonVar =
         "text3": "",
         "url": "https:\/\/tunein.com\/radio\/100-NL-1044-s76590\/",
         "tag": "#radio #RadioMusic #top40 #PopMusic",
-        "time": 1646111109,
+        "time": 1646118309,
         "rightFooter": ""
     },
     {
@@ -4607,7 +4607,7 @@ var radioJsonVar =
         "text3": "",
         "url": "https:\/\/tunein.com\/radio\/Radio-Rox-901-s161244\/",
         "tag": "#radio #rock #RadioMusic",
-        "time": 1646047014,
+        "time": 1646054214,
         "rightFooter": ""
     },
     {
@@ -4616,7 +4616,7 @@ var radioJsonVar =
         "text3": "",
         "url": "https:\/\/tunein.com\/radio\/P24-7-Mix-s248655\/",
         "tag": "#radio #RadioMusic #EasyListening",
-        "time": 1646046415,
+        "time": 1646053615,
         "rightFooter": ""
     },
     {
@@ -4625,7 +4625,7 @@ var radioJsonVar =
         "text3": "",
         "url": "https:\/\/tunein.com\/radio\/Nea-Nyheter-s309696\/",
         "tag": "#radio #no",
-        "time": 1646042935,
+        "time": 1646050135,
         "rightFooter": ""
     },
     {
@@ -4634,7 +4634,7 @@ var radioJsonVar =
         "text3": "",
         "url": "https:\/\/tunein.com\/radio\/Clsico-898-s309578\/",
         "tag": "#radio #RadioMusic #classical",
-        "time": 1646041771,
+        "time": 1646048971,
         "rightFooter": ""
     },
     {
@@ -4643,7 +4643,7 @@ var radioJsonVar =
         "text3": "",
         "url": "https:\/\/tunein.com\/radio\/Radio-Bstad-961-s60240\/",
         "tag": "#radio #RadioMusic #top40 #PopMusic",
-        "time": 1645970552,
+        "time": 1645977752,
         "rightFooter": ""
     },
     {
@@ -4652,7 +4652,7 @@ var radioJsonVar =
         "text3": "",
         "url": "https:\/\/tunein.com\/radio\/P3-993-s25681\/",
         "tag": "#radio #RadioMusic #top40 #PopMusic",
-        "time": 1645969380,
+        "time": 1645976580,
         "rightFooter": ""
     },
     {
@@ -4661,7 +4661,7 @@ var radioJsonVar =
         "text3": "",
         "url": "https:\/\/tunein.com\/radio\/Mix-Megapol-1043-s25041\/",
         "tag": "#radio #RadioMusic #top40 #PopMusic",
-        "time": 1645968723,
+        "time": 1645975923,
         "rightFooter": ""
     },
     {
@@ -4670,7 +4670,7 @@ var radioJsonVar =
         "text3": "",
         "url": "https:\/\/tunein.com\/radio\/Radiocentras-1011-s15897\/",
         "tag": "#radio #RadioMusic #PopMusic #dance #electronic",
-        "time": 1645966669,
+        "time": 1645973869,
         "rightFooter": ""
     },
     {
@@ -4679,7 +4679,7 @@ var radioJsonVar =
         "text3": "",
         "url": "https:\/\/tunein.com\/radio\/Radijo-stotis-Laluna-949-s9851\/",
         "tag": "#radio #PopMusic #top40",
-        "time": 1645966339,
+        "time": 1645973539,
         "rightFooter": ""
     },
     {
@@ -4688,7 +4688,7 @@ var radioJsonVar =
         "text3": "",
         "url": "https:\/\/tunein.com\/radio\/Power-Hit-Radio-959-s2862\/",
         "tag": "#dance #PopMusic #RadioMusic #radio",
-        "time": 1645965794,
+        "time": 1645972994,
         "rightFooter": ""
     },
     {
@@ -4697,7 +4697,7 @@ var radioJsonVar =
         "text3": "",
         "url": "https:\/\/tunein.com\/radio\/LRT-RADIJAS-612-s25518\/",
         "tag": "#lt #radio",
-        "time": 1645964963,
+        "time": 1645972163,
         "rightFooter": ""
     },
     {
@@ -4706,7 +4706,7 @@ var radioJsonVar =
         "text3": "",
         "url": "https:\/\/tunein.com\/radio\/LRT-OPUS-983-s15908\/",
         "tag": "#radio #RadioMusic #dance #electronic",
-        "time": 1645964659,
+        "time": 1645971859,
         "rightFooter": ""
     },
     {
@@ -4715,7 +4715,7 @@ var radioJsonVar =
         "text3": "",
         "url": "https:\/\/tunein.com\/radio\/LRT-KLASIKA-962-s55188\/",
         "tag": "#radio #RadioMusic #classical",
-        "time": 1645964049,
+        "time": 1645971249,
         "rightFooter": ""
     },
     {
@@ -4724,7 +4724,7 @@ var radioJsonVar =
         "text3": "",
         "url": "https:\/\/tunein.com\/radio\/Radio-Helsinki-985-s97243\/",
         "tag": "#radio #RadiMusic #WorldMusic",
-        "time": 1645957483,
+        "time": 1645964683,
         "rightFooter": ""
     },
     {
@@ -4733,7 +4733,7 @@ var radioJsonVar =
         "text3": "",
         "url": "https:\/\/tunein.com\/radio\/Radio-Classic-929-s191306\/",
         "tag": "#radio #RadioMusic #classical",
-        "time": 1645955000,
+        "time": 1645962200,
         "rightFooter": ""
     },
     {
@@ -4742,7 +4742,7 @@ var radioJsonVar =
         "text3": "",
         "url": "https:\/\/tunein.com\/radio\/Bassoradio-1028-s65168\/",
         "tag": "#radio #PopMusic #top40 #RadioMusic",
-        "time": 1645953164,
+        "time": 1645960364,
         "rightFooter": ""
     },
     {
@@ -4751,7 +4751,7 @@ var radioJsonVar =
         "text3": "",
         "url": "https:\/\/tunein.com\/radio\/Radio-X-945-s15444\/",
         "tag": "#radio #RadioMusic #variety",
-        "time": 1644844052,
+        "time": 1644851252,
         "rightFooter": ""
     },
     {
@@ -4760,7 +4760,7 @@ var radioJsonVar =
         "text3": "",
         "url": "https:\/\/tunein.com\/radio\/Radio-Kyiv-FM-980-s81360\/",
         "tag": "#radio #ua",
-        "time": 1644475916,
+        "time": 1644483116,
         "rightFooter": ""
     },
     {
@@ -4769,7 +4769,7 @@ var radioJsonVar =
         "text3": "mp3",
         "url": "https:\/\/www.rockabillyradio.net\/",
         "tag": "#radio #RadioMusic #rockabilly #50",
-        "time": 1631709181,
+        "time": 1631719981,
         "rightFooter": ""
     },
     {
@@ -4778,7 +4778,7 @@ var radioJsonVar =
         "text3": "",
         "url": "https:\/\/tunein.com\/radio\/Majestic-Jukebox-Radio-s302456\/",
         "tag": "#radio #RadiMusic #60s",
-        "time": 1631708201,
+        "time": 1631719001,
         "rightFooter": ""
     },
     {
@@ -4787,7 +4787,7 @@ var radioJsonVar =
         "text3": "",
         "url": "https:\/\/tunein.com\/radio\/Classically-s234027\/",
         "tag": "#radio #RadioMusic #classical",
-        "time": 1630985722,
+        "time": 1630996522,
         "rightFooter": ""
     },
     {
@@ -4796,7 +4796,7 @@ var radioJsonVar =
         "text3": "",
         "url": "https:\/\/tunein.com\/radio\/WUFT-Classic-891-s67215\/",
         "tag": "#radio #RadioMusic #classical",
-        "time": 1630985168,
+        "time": 1630995968,
         "rightFooter": ""
     },
     {
@@ -4805,7 +4805,7 @@ var radioJsonVar =
         "text3": "",
         "url": "https:\/\/tunein.com\/radio\/Classic-1073-963-s67317\/",
         "tag": "#radio #RadioMusic #classical",
-        "time": 1630984730,
+        "time": 1630995530,
         "rightFooter": ""
     },
     {
@@ -4814,7 +4814,7 @@ var radioJsonVar =
         "text3": "",
         "url": "https:\/\/tunein.com\/radio\/Classic-Oldies-s268898\/",
         "tag": "#radio #RadioMusic #ClassicHits",
-        "time": 1630983403,
+        "time": 1630994203,
         "rightFooter": ""
     },
     {
@@ -4823,7 +4823,7 @@ var radioJsonVar =
         "text3": "",
         "url": "https:\/\/tunein.com\/radio\/ABC-Classic-2-s224618\/",
         "tag": "#radio #RadioMusic #classical",
-        "time": 1630983222,
+        "time": 1630994022,
         "rightFooter": ""
     },
     {
@@ -4832,7 +4832,7 @@ var radioJsonVar =
         "text3": "",
         "url": "https:\/\/tunein.com\/radio\/Hit-FM-1035-s222241\/",
         "tag": "#radio #RadioMusic #variety",
-        "time": 1629530949,
+        "time": 1629541749,
         "rightFooter": ""
     },
     {
@@ -4841,7 +4841,7 @@ var radioJsonVar =
         "text3": "",
         "url": "https:\/\/tunein.com\/radio\/Top-Hit-Radio-Belgium-s291611\/",
         "tag": "#radio #RadioMusic #top40 #PopMusic",
-        "time": 1629530111,
+        "time": 1629540911,
         "rightFooter": ""
     },
     {
@@ -4850,7 +4850,7 @@ var radioJsonVar =
         "text3": "",
         "url": "https:\/\/tunein.com\/radio\/Talk-Radio-Europe-919-s132639\/",
         "tag": "#en #radio",
-        "time": 1628732694,
+        "time": 1628743494,
         "rightFooter": ""
     },
     {
@@ -4859,7 +4859,7 @@ var radioJsonVar =
         "text3": "",
         "url": "https:\/\/tunein.com\/radio\/The-Spy-FM-s137971\/",
         "tag": "#radio #RadioMusic #AlternativeRock",
-        "time": 1628726274,
+        "time": 1628737074,
         "rightFooter": ""
     },
     {
@@ -4868,7 +4868,7 @@ var radioJsonVar =
         "text3": "",
         "url": "https:\/\/tunein.com\/radio\/RNE-Radio-Exterior-s55342\/",
         "tag": "#es #radio",
-        "time": 1627201000,
+        "time": 1627211800,
         "rightFooter": ""
     },
     {
@@ -4877,7 +4877,7 @@ var radioJsonVar =
         "text3": "",
         "url": "https:\/\/tunein.com\/radio\/Amazing-Radio-s105824\/",
         "tag": "#radio #RadioMusic #IndieMusic",
-        "time": 1626665593,
+        "time": 1626676393,
         "rightFooter": ""
     },
     {
@@ -4886,7 +4886,7 @@ var radioJsonVar =
         "text3": "",
         "url": "https:\/\/tunein.com\/radio\/107-Meridian-FM-1070-s98953\/",
         "tag": "#radio #RadioMusic",
-        "time": 1626659700,
+        "time": 1626670500,
         "rightFooter": ""
     },
     {
@@ -4895,7 +4895,7 @@ var radioJsonVar =
         "text3": "",
         "url": "https:\/\/tunein.com\/radio\/KVPR-Classical-893-s308918\/",
         "tag": "#radio #RadioMusic #classical",
-        "time": 1626245875,
+        "time": 1626256675,
         "rightFooter": ""
     },
     {
@@ -4904,7 +4904,7 @@ var radioJsonVar =
         "text3": "",
         "url": "https:\/\/tunein.com\/radio\/Classical-WWNO-899-s45411\/",
         "tag": "#radio #RadioMusic #classical",
-        "time": 1626245846,
+        "time": 1626256646,
         "rightFooter": ""
     },
     {
@@ -4913,7 +4913,7 @@ var radioJsonVar =
         "text3": "",
         "url": "https:\/\/tunein.com\/radio\/KISS-Classical-s250237\/",
         "tag": "#radio #RadioMusic #classical",
-        "time": 1626245812,
+        "time": 1626256612,
         "rightFooter": ""
     },
     {
@@ -4922,7 +4922,7 @@ var radioJsonVar =
         "text3": "",
         "url": "https:\/\/tunein.com\/radio\/Rai-Radio-Classica-1003-s17167\/",
         "tag": "#radio #RadioMusic #classical",
-        "time": 1626245307,
+        "time": 1626256107,
         "rightFooter": ""
     },
     {
@@ -4931,7 +4931,7 @@ var radioJsonVar =
         "text3": "",
         "url": "https:\/\/tunein.com\/radio\/News-Radio-UK-s275794\/",
         "tag": "#radio #en",
-        "time": 1624839137,
+        "time": 1624849937,
         "rightFooter": ""
     },
     {
@@ -4940,7 +4940,7 @@ var radioJsonVar =
         "text3": "",
         "url": "https:\/\/tunein.com\/radio\/KCRW-News-s44525\/",
         "tag": "#en #radio",
-        "time": 1624839089,
+        "time": 1624849889,
         "rightFooter": ""
     },
     {
@@ -4949,7 +4949,7 @@ var radioJsonVar =
         "text3": "",
         "url": "https:\/\/tunein.com\/radio\/Caf-del-Mar-Radio-(official)-s280322\/",
         "tag": "#radio #RadioMusic #chill #code #coding",
-        "time": 1624768789,
+        "time": 1624779589,
         "rightFooter": ""
     },
     {
@@ -4958,7 +4958,7 @@ var radioJsonVar =
         "text3": "",
         "url": "https:\/\/tunein.com\/radio\/Ibiza-Sonica-Radio-924-s78109\/",
         "tag": "#radio #RadioMusic #dance #electronic",
-        "time": 1624768131,
+        "time": 1624778931,
         "rightFooter": ""
     },
     {
@@ -4967,7 +4967,7 @@ var radioJsonVar =
         "text3": "",
         "url": "https:\/\/tunein.com\/radio\/WMAY-News-970-s30899\/",
         "tag": "#en #radio",
-        "time": 1624767968,
+        "time": 1624778768,
         "rightFooter": ""
     },
     {
@@ -4976,7 +4976,7 @@ var radioJsonVar =
         "text3": "",
         "url": "https:\/\/tunein.com\/radio\/Cheddar-News-s296280\/",
         "tag": "#en #radio",
-        "time": 1624767921,
+        "time": 1624778721,
         "rightFooter": ""
     },
     {
@@ -4985,7 +4985,7 @@ var radioJsonVar =
         "text3": "",
         "url": "https:\/\/tunein.com\/radio\/Ibiza-Live-Radio-s203278\/",
         "tag": "#radio #RadioMusic #house",
-        "time": 1624767843,
+        "time": 1624778643,
         "rightFooter": ""
     },
     {
@@ -4994,7 +4994,7 @@ var radioJsonVar =
         "text3": "",
         "url": "https:\/\/tunein.com\/radio\/WKNC-Raleigh-881-s30302\/",
         "tag": "#radio #RadioMusic #IndieRock",
-        "time": 1624751730,
+        "time": 1624762530,
         "rightFooter": ""
     },
     {
@@ -5003,7 +5003,7 @@ var radioJsonVar =
         "text3": "",
         "url": "https:\/\/tunein.com\/radio\/Onda-Cero-Madrid-980-s6784\/",
         "tag": "#es #radio",
-        "time": 1620121134,
+        "time": 1620131934,
         "rightFooter": ""
     },
     {
@@ -5012,7 +5012,7 @@ var radioJsonVar =
         "text3": "",
         "url": "https:\/\/tunein.com\/radio\/COPE-Madrid-999-s24956\/",
         "tag": "#radio #es",
-        "time": 1620121116,
+        "time": 1620131916,
         "rightFooter": ""
     },
     {
@@ -5021,7 +5021,7 @@ var radioJsonVar =
         "text3": "",
         "url": "https:\/\/tunein.com\/radio\/RNE-R5-TN-657-s15350\/",
         "tag": "#radio #es",
-        "time": 1620121100,
+        "time": 1620131900,
         "rightFooter": ""
     },
     {
@@ -5030,7 +5030,7 @@ var radioJsonVar =
         "text3": "",
         "url": "https:\/\/tunein.com\/radio\/RNE-Radio-Nacional-1359-s9752\/",
         "tag": "#es #radio",
-        "time": 1620121086,
+        "time": 1620131886,
         "rightFooter": ""
     },
     {
@@ -5039,7 +5039,7 @@ var radioJsonVar =
         "text3": "",
         "url": "https:\/\/tunein.com\/radio\/esRadioElche-1037-s159380\/",
         "tag": "#es #radio",
-        "time": 1620121076,
+        "time": 1620131876,
         "rightFooter": ""
     },
     {
@@ -5048,7 +5048,7 @@ var radioJsonVar =
         "text3": "",
         "url": "https:\/\/tunein.com\/radio\/CBC-Radio-One-St-Johns-640-s1198\/",
         "tag": "#en #radio",
-        "time": 1620118990,
+        "time": 1620129790,
         "rightFooter": ""
     },
     {
@@ -5057,7 +5057,7 @@ var radioJsonVar =
         "text3": "",
         "url": "https:\/\/tunein.com\/radio\/ABC-Radio-Australia-English-s25557\/",
         "tag": "#radio #en #WorldNews #news",
-        "time": 1620118953,
+        "time": 1620129753,
         "rightFooter": ""
     },
     {
@@ -5066,7 +5066,7 @@ var radioJsonVar =
         "text3": "mp3",
         "url": "https:\/\/www.bbc.co.uk\/sounds\/play\/live:bbc_world_service",
         "tag": "#radio #en",
-        "time": 1620118832,
+        "time": 1620129632,
         "rightFooter": ""
     },
     {
@@ -5075,7 +5075,7 @@ var radioJsonVar =
         "text3": "",
         "url": "https:\/\/tunein.com\/radio\/KEXP-903-s32537\/",
         "tag": "#radio #RadioMusic #IndieMusic",
-        "time": 1620118606,
+        "time": 1620129406,
         "rightFooter": ""
     },
     {
@@ -5084,7 +5084,7 @@ var radioJsonVar =
         "text3": "",
         "url": "https:\/\/tunein.com\/radio\/WAMU-885-s27111\/",
         "tag": "#en #radio",
-        "time": 1620118531,
+        "time": 1620129331,
         "rightFooter": ""
     },
     {
@@ -5093,7 +5093,7 @@ var radioJsonVar =
         "text3": "",
         "url": "https:\/\/tunein.com\/radio\/WNYC-FM-939-s21606\/",
         "tag": "#radio #en #news",
-        "time": 1620118501,
+        "time": 1620129301,
         "rightFooter": ""
     },
     {
@@ -5102,7 +5102,7 @@ var radioJsonVar =
         "text3": "",
         "url": "https:\/\/tunein.com\/radio\/KQED-FM-885-s34804\/",
         "tag": "#en #radio",
-        "time": 1620118467,
+        "time": 1620129267,
         "rightFooter": ""
     },
     {
@@ -5111,7 +5111,7 @@ var radioJsonVar =
         "text3": "",
         "url": "https:\/\/tunein.com\/radio\/KUTX-989-s32961\/",
         "tag": "#radio #RadioMusic #AlternativeRock",
-        "time": 1620088621,
+        "time": 1620099421,
         "rightFooter": ""
     },
     {
@@ -5120,7 +5120,7 @@ var radioJsonVar =
         "text3": "",
         "url": "https:\/\/tunein.com\/radio\/KINK-s210430\/",
         "tag": "#radio #RadioMusic #AlternativeRock",
-        "time": 1620088607,
+        "time": 1620099407,
         "rightFooter": ""
     },
     {
@@ -5129,7 +5129,7 @@ var radioJsonVar =
         "text3": "",
         "url": "https:\/\/tunein.com\/radio\/Lightning-100-1001-s22480\/",
         "tag": "#radio #RadioMusic #IndieRock",
-        "time": 1620088589,
+        "time": 1620099389,
         "rightFooter": ""
     }
 ]

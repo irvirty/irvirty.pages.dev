@@ -8,7 +8,7 @@ var HowMuchDoesAWebsiteCostJsonVar =
         "text3": "",
         "url": "https:\/\/www.brandingbrothers.de\/pricing",
         "tag": "#HowMuchDoesAWebsiteCost",
-        "time": 1756658449,
+        "time": 1756669249,
         "rightFooter": ""
     },
     {
@@ -17,7 +17,7 @@ var HowMuchDoesAWebsiteCostJsonVar =
         "text3": "",
         "url": "https:\/\/www.webfx.com\/web-design\/pricing\/website-costs\/",
         "tag": "#HowMuchDoesAWebsiteCost #research",
-        "time": 1743088933,
+        "time": 1743096133,
         "rightFooter": ""
     },
     {
@@ -26,7 +26,7 @@ var HowMuchDoesAWebsiteCostJsonVar =
         "text3": "",
         "url": "https:\/\/www.reddit.com\/r\/webdev\/comments\/ukb4bj\/how_much_does_it_cost_to_run_a_simple_website\/",
         "tag": "#HowMuchDoesAWebsiteCost #research",
-        "time": 1743088748,
+        "time": 1743095948,
         "rightFooter": ""
     },
     {
@@ -35,7 +35,7 @@ var HowMuchDoesAWebsiteCostJsonVar =
         "text3": "",
         "url": "https:\/\/www.reddit.com\/r\/web_design\/comments\/1265xzh\/how_much_do_you_charge_to_build_a_simple_5_page\/",
         "tag": "#HowMuchDoesAWebsiteCost #research",
-        "time": 1743074384,
+        "time": 1743081584,
         "rightFooter": ""
     },
     {
@@ -44,7 +44,7 @@ var HowMuchDoesAWebsiteCostJsonVar =
         "text3": "",
         "url": "https:\/\/www.reddit.com\/r\/Entrepreneur\/comments\/u4hn2f\/how_much_did_it_cost_you_to_get_a_website_made\/",
         "tag": "#HowMuchDoesAWebsiteCost",
-        "time": 1743068760,
+        "time": 1743075960,
         "rightFooter": ""
     },
     {
@@ -53,7 +53,7 @@ var HowMuchDoesAWebsiteCostJsonVar =
         "text3": "",
         "url": "https:\/\/www.godaddy.com\/resources\/skills\/how-much-does-a-website-cost",
         "tag": "#HowMuchDoesAWebsiteCost",
-        "time": 1743068054,
+        "time": 1743075254,
         "rightFooter": ""
     },
     {
@@ -62,7 +62,7 @@ var HowMuchDoesAWebsiteCostJsonVar =
         "text3": "",
         "url": "https:\/\/www.forbes.com\/advisor\/business\/software\/how-much-does-a-website-cost\/",
         "tag": "#HowMuchDoesAWebsiteCost #research",
-        "time": 1743067825,
+        "time": 1743075025,
         "rightFooter": ""
     }
 ]

@@ -9,7 +9,7 @@ var newsJsonVar =
         "text3": "",
         "url": "https:\/\/www.firefox.com\/en-US\/firefox\/145.0\/releasenotes\/",
         "tag": "#Firefox #MozillaFirefox #Mozilla #browser #internet #web #app #software",
-        "time": 1763187955,
+        "time": 1763195155,
         "rightFooter": "<a class=\"brand\" href=\"\/pages\/news\/?id=85\"  title=\"id=85 (permanent link)\" >id<\/a>"
     },
     {
@@ -19,7 +19,7 @@ var newsJsonVar =
         "text3": "",
         "url": "https:\/\/techcrunch.com\/2025\/06\/02\/microsoft-bing-gets-a-free-sora-powered-ai-video-generator\/",
         "tag": "#AI #GenerativeAI #video #Bing #Sora #OpenAI",
-        "time": 1762306164,
+        "time": 1762313364,
         "rightFooter": "<a class=\"brand\" href=\"\/pages\/news\/?id=84\"  title=\"id=84 (permanent link)\" >id<\/a>"
     },
     {
@@ -29,7 +29,7 @@ var newsJsonVar =
         "text3": "",
         "url": "https:\/\/en.wikipedia.org\/wiki\/3I\/ATLAS",
         "tag": "#space #comet #InterstellarComet",
-        "time": 1761919207,
+        "time": 1761926407,
         "rightFooter": "<a class=\"brand\" href=\"\/pages\/news\/?id=83\"  title=\"id=83 (permanent link)\" >id<\/a>"
     },
     {
@@ -39,7 +39,7 @@ var newsJsonVar =
         "text3": "",
         "url": "https:\/\/www.engadget.com\/social-media\/xs-grokipedia-is-online-after-it-briefly-crashed-out-231108836.html",
         "tag": "#encyclopedia #information #articles #website #web #internet #AI #Grok #xAI #X",
-        "time": 1761641789,
+        "time": 1761648989,
         "rightFooter": "<a class=\"brand\" href=\"\/pages\/news\/?id=82\"  title=\"id=82 (permanent link)\" >id<\/a>"
     },
     {
@@ -49,7 +49,7 @@ var newsJsonVar =
         "text3": "",
         "url": "https:\/\/www.cnet.com\/tech\/services-and-software\/microsoft-launches-mico-an-official-clippy-successor-in-its-copilot-ai-fall-release\/",
         "tag": "#technology #AI #assistant #Mico #Microsoft #Copilot #Windows",
-        "time": 1761487476,
+        "time": 1761494676,
         "rightFooter": "<a class=\"brand\" href=\"\/pages\/news\/?id=81\"  title=\"id=81 (permanent link)\" >id<\/a>"
     },
     {
@@ -59,7 +59,7 @@ var newsJsonVar =
         "text3": "",
         "url": "https:\/\/blog.google\/technology\/research\/quantum-echoes-willow-verifiable-quantum-advantage\/",
         "tag": "#technology #QuantumComputer #Google #Willow",
-        "time": 1761322131,
+        "time": 1761332931,
         "rightFooter": "<a class=\"brand\" href=\"\/pages\/news\/?id=80\"  title=\"id=80 (permanent link)\" >id<\/a>"
     },
     {
@@ -69,7 +69,7 @@ var newsJsonVar =
         "text3": "",
         "url": "https:\/\/openai.com\/index\/introducing-chatgpt-atlas\/",
         "tag": "#technology #browser #web #internet #ChatGPT #OpenAI #Atlas",
-        "time": 1761114831,
+        "time": 1761125631,
         "rightFooter": "<a class=\"brand\" href=\"\/pages\/news\/?id=78\"  title=\"id=78 (permanent link)\" >id<\/a>"
     },
     {
@@ -79,7 +79,7 @@ var newsJsonVar =
         "text3": "",
         "url": "https:\/\/blogs.windows.com\/windowsexperience\/2025\/10\/16\/making-every-windows-11-pc-an-ai-pc\/",
         "tag": "#technology #Windows11 #Windows #PC #app #software #OS #Microsoft #Copilot #AI",
-        "time": 1760881113,
+        "time": 1760891913,
         "rightFooter": "<a class=\"brand\" href=\"\/pages\/news\/?id=76\"  title=\"id=76 (permanent link)\" >id<\/a>"
     },
     {
@@ -89,7 +89,7 @@ var newsJsonVar =
         "text3": "",
         "url": "https:\/\/blog.google\/technology\/ai\/veo-updates-flow\/",
         "tag": "#technology #AI #GenerativeAI #Google #video",
-        "time": 1760866332,
+        "time": 1760877132,
         "rightFooter": "<a class=\"brand\" href=\"\/pages\/news\/?id=74\"  title=\"id=74 (permanent link)\" >id<\/a>"
     },
     {
@@ -99,7 +99,7 @@ var newsJsonVar =
         "text3": "",
         "url": "https:\/\/www.firefox.com\/en-US\/firefox\/144.0\/releasenotes\/",
         "tag": "#technology #app #software #Firefox #MozillaFirefox #browser",
-        "time": 1760495868,
+        "time": 1760506668,
         "rightFooter": "<a class=\"brand\" href=\"\/pages\/news\/?id=73\"  title=\"id=73 (permanent link)\" >id<\/a>"
     },
     {
@@ -109,7 +109,7 @@ var newsJsonVar =
         "text3": "",
         "url": "https:\/\/blog.mozilla.org\/en\/firefox\/profile-management\/",
         "tag": "#technology #browser #Firefox #MozillaFirefox #feature #update",
-        "time": 1760244610,
+        "time": 1760255410,
         "rightFooter": "<a class=\"brand\" href=\"\/pages\/news\/?id=72\"  title=\"id=72 (permanent link)\" >id<\/a>"
     },
     {
@@ -119,7 +119,7 @@ var newsJsonVar =
         "text3": "",
         "url": "https:\/\/openai.com\/index\/sora-2\/",
         "tag": "#technology #OpenAI #Sora #GenerativeAI #AI #AGI",
-        "time": 1760167763,
+        "time": 1760178563,
         "rightFooter": "<a class=\"brand\" href=\"\/pages\/news\/?id=69\"  title=\"id=69 (permanent link)\" >id<\/a>"
     },
     {
@@ -129,7 +129,7 @@ var newsJsonVar =
         "text3": "",
         "url": "https:\/\/ir.amd.com\/news-events\/press-releases\/detail\/1260\/amd-and-openai-announce-strategic-partnership-to-deploy-6-gigawatts-of-amd-gpus",
         "tag": "#technology #AMD #AI #AGI #OpanAI #ChatGPT",
-        "time": 1759995119,
+        "time": 1760005919,
         "rightFooter": "<a class=\"brand\" href=\"\/pages\/news\/?id=67\"  title=\"id=67 (permanent link)\" >id<\/a>"
     },
     {
@@ -139,7 +139,7 @@ var newsJsonVar =
         "text3": "",
         "url": "https:\/\/bsky.app\/profile\/bsky.app\/post\/3m2kdgmbbzc2o",
         "tag": "#technology #Bluesky #SocialNetwork #web #internet #platform #SocialMedia",
-        "time": 1759811082,
+        "time": 1759821882,
         "rightFooter": "<a class=\"brand\" href=\"\/pages\/news\/?id=57\"  title=\"id=57 (permanent link)\" >id<\/a>"
     },
     {
@@ -149,7 +149,7 @@ var newsJsonVar =
         "text3": "",
         "url": "https:\/\/bsky.app\/profile\/obsproject.com\/post\/3lzrij2yie22j",
         "tag": "#technology #app #software #stream #live #recording #OBS",
-        "time": 1759130782,
+        "time": 1759141582,
         "rightFooter": "<a class=\"brand\" href=\"\/pages\/news\/?id=48\"  title=\"id=48 (permanent link)\" >id<\/a>"
     },
     {
@@ -159,7 +159,7 @@ var newsJsonVar =
         "text3": "",
         "url": "https:\/\/doodles.google\/doodle\/googles-27th-birthday\/",
         "tag": "#technology #doodle #search #platform #web #logo #logotype #Google",
-        "time": 1759058992,
+        "time": 1759069792,
         "rightFooter": "<a class=\"brand\" href=\"\/pages\/news\/?id=47\"  title=\"id=47 (permanent link)\" >id<\/a>"
     },
     {
@@ -169,7 +169,7 @@ var newsJsonVar =
         "text3": "",
         "url": "https:\/\/www.firefox.com\/en-US\/firefox\/143.0\/releasenotes\/",
         "tag": "#technology #Firefox  #MozillaFirefox #browser #update #app #software",
-        "time": 1758172231,
+        "time": 1758183031,
         "rightFooter": "<a class=\"brand\" href=\"\/pages\/news\/?id=44\"  title=\"id=44 (permanent link)\" >id<\/a>"
     },
     {
@@ -179,7 +179,7 @@ var newsJsonVar =
         "text3": "",
         "url": "https:\/\/openai.com\/index\/introducing-gpt-5\/",
         "tag": "#technology #AI #AGI #OpenAI #ChatGPT",
-        "time": 1755677889,
+        "time": 1755688689,
         "rightFooter": "<a class=\"brand\" href=\"\/pages\/news\/?id=38\"  title=\"id=38 (permanent link)\" >id<\/a>"
     },
     {
@@ -189,7 +189,7 @@ var newsJsonVar =
         "text3": "",
         "url": "https:\/\/thenextweb.com\/news\/lworlds-first-song-made-by-quantum-and-ai",
         "tag": "#technology #AI #QuantumComputer",
-        "time": 1746854581,
+        "time": 1746865381,
         "rightFooter": "<a class=\"brand\" href=\"\/pages\/news\/?id=36\"  title=\"id=36 (permanent link)\" >id<\/a>"
     },
     {
@@ -199,7 +199,7 @@ var newsJsonVar =
         "text3": "",
         "url": "https:\/\/bsky.app\/profile\/bsky.app\/post\/3lh5iyaqqos24",
         "tag": "#technology #web #SocialNetwork #SocialMedia #Bluesky",
-        "time": 1745333300,
+        "time": 1745344100,
         "rightFooter": "<a class=\"brand\" href=\"\/pages\/news\/?id=32\"  title=\"id=32 (permanent link)\" >id<\/a>"
     },
     {
@@ -209,7 +209,7 @@ var newsJsonVar =
         "text3": "",
         "url": "https:\/\/bsky.app\/profile\/neocities.org\/post\/3lhu7xapg3s2x",
         "tag": "#technology #web #internet #hosting #Neocities",
-        "time": 1745333263,
+        "time": 1745344063,
         "rightFooter": "<a class=\"brand\" href=\"\/pages\/news\/?id=31\"  title=\"id=31 (permanent link)\" >id<\/a>"
     },
     {
@@ -219,7 +219,7 @@ var newsJsonVar =
         "text3": "",
         "url": "https:\/\/www.youtube.com\/watch?v=OIuG1bBkfs0",
         "tag": "#web #internet #video #platform #YouTube",
-        "time": 1745321783,
+        "time": 1745332583,
         "rightFooter": "<a class=\"brand\" href=\"\/pages\/news\/?id=30\"  title=\"id=30 (permanent link)\" >id<\/a>"
     },
     {
@@ -229,7 +229,7 @@ var newsJsonVar =
         "text3": "",
         "url": "https:\/\/theconversation.com\/chatgpt-just-passed-the-turing-test-but-that-doesnt-mean-ai-is-now-as-smart-as-humans-253946",
         "tag": "#technology #AI #AGI #OpenAI #ChatGPT",
-        "time": 1744634711,
+        "time": 1744645511,
         "rightFooter": "<a class=\"brand\" href=\"\/pages\/news\/?id=27\"  title=\"id=27 (permanent link)\" >id<\/a>"
     },
     {
@@ -239,7 +239,7 @@ var newsJsonVar =
         "text3": "",
         "url": "https:\/\/www.gimp.org\/news\/2025\/03\/16\/gimp-3-0-released\/",
         "tag": "#technology #app #software #graphic #GraphicDesign #GIMP",
-        "time": 1743253627,
+        "time": 1743260827,
         "rightFooter": "<a class=\"brand\" href=\"\/pages\/news\/?id=25\"  title=\"id=25 (permanent link)\" >id<\/a>"
     },
     {
@@ -249,7 +249,7 @@ var newsJsonVar =
         "text3": "",
         "url": "https:\/\/www.mozilla.org\/en-US\/firefox\/134.0\/releasenotes\/",
         "tag": "#technology #web #internet #browser #app #software #Firefox #MozillaFirefox",
-        "time": 1736454871,
+        "time": 1736462071,
         "rightFooter": "<a class=\"brand\" href=\"\/pages\/news\/?id=17\"  title=\"id=17 (permanent link)\" >id<\/a>"
     },
     {
@@ -259,7 +259,7 @@ var newsJsonVar =
         "text3": "",
         "url": "https:\/\/theconversation.com\/an-ai-system-has-reached-human-level-on-a-test-for-general-intelligence-heres-what-that-means-246529",
         "tag": "#technology #AI #AGI #OpenAI #ChatGPT",
-        "time": 1735508925,
+        "time": 1735516125,
         "rightFooter": "<a class=\"brand\" href=\"\/pages\/news\/?id=15\"  title=\"id=15 (permanent link)\" >id<\/a>"
     },
     {
@@ -269,7 +269,7 @@ var newsJsonVar =
         "text3": "",
         "url": "https:\/\/www.youtube.com\/watch?v=61JHONRXhjs",
         "tag": "#video #search #web #trend #social #SearchEngine",
-        "time": 1734681436,
+        "time": 1734688636,
         "rightFooter": "<a class=\"brand\" href=\"\/pages\/news\/?id=7\"  title=\"id=7 (permanent link)\" >id<\/a>"
     },
     {
@@ -279,7 +279,7 @@ var newsJsonVar =
         "text3": "",
         "url": "https:\/\/blog.google\/products\/search\/google-year-in-search-2024\/",
         "tag": "#search #trends #web #internet",
-        "time": 1733981107,
+        "time": 1733988307,
         "rightFooter": "<a class=\"brand\" href=\"\/pages\/news\/?id=6\"  title=\"id=6 (permanent link)\" >id<\/a>"
     },
     {
@@ -289,7 +289,7 @@ var newsJsonVar =
         "text3": "",
         "url": "https:\/\/www.mozilla.org\/en-US\/firefox\/132.0\/releasenotes\/",
         "tag": "#technology #software #app #update #browser #web #internet #Firefox",
-        "time": 1730313353,
+        "time": 1730320553,
         "rightFooter": "<a class=\"brand\" href=\"\/pages\/news\/?id=4\"  title=\"id=4 (permanent link)\" >id<\/a>"
     }
 ]
