@@ -8,10 +8,15 @@ var answer = [];
 var mode = [];
 mode[0] = 10;
 
-
+//https://stackoverflow.com/questions/17883692/how-to-set-time-delay-in-javascript
+var delayInMilliseconds = 1000; //1 second
 
 var gameMode = '5,10,25,50,100,1000,10000,100000,1000000';
 var printGameMode = '';
+
+
+
+
 
 function modeSelect(mode33){
 
@@ -57,18 +62,46 @@ task[0] = Math.floor(Math.random() * mode[0]);
 if(task[0] == answer[0]){
 document.getElementById("gameResult").innerHTML = `
 <div class="h3">
-<span class="padding2 h3 orange bold">win</span><br><br>
+<!--<span class="padding2 h3 orange bold"></span>-->
+<br><br>
+<span class="orange bold"></span>
+<span class="bold"></span>
+<span class="bold">${answer[0]}</span>
+</div>
+<span class="op padding2 margin2 xSmall">(mode: 0-${mode[0]})</span>
+`;
+
+setTimeout(function() {
+document.getElementById("gameResult").innerHTML = `
+<div class="h3">
+<!--<span class="padding2 h3 orange bold">win</span>-->
+<br><br>
 <span class="orange bold">${task[0]}</span>
 <span class="bold">==</span>
 <span class="green bold">${answer[0]}</span>
 </div>
 <span class="op padding2 margin2 xSmall">(mode: 0-${mode[0]})</span>
 <audio style="display:none" autoplay="false" src="${confD}audio/win.mp3"></audio>
-`;;
-}else{
+`;
+}, delayInMilliseconds);
+
+} else {
 document.getElementById("gameResult").innerHTML = `
 <div class="h3">
-<span class="padding2 h3 red bold">end</span><br><br>
+<!--<span class="padding2 h3 red bold"></span>-->
+<br><br>
+<span class="orange bold"></span>
+<span class="bold"></span>
+<span class="bold">${answer[0]}</span>
+</div>
+<span class="op padding2 margin2 xSmall">(mode: 0-${mode[0]})</span>
+`;
+
+setTimeout(function() {
+document.getElementById("gameResult").innerHTML = `
+<div class="h3">
+<!--<span class="padding2 h3 red bold">end</span>-->
+<br><br>
 <span class="orange bold">${task[0]}</span>
 <span class="bold">!=</span>
 <span class="red bold">${answer[0]}</span>
@@ -76,6 +109,8 @@ document.getElementById("gameResult").innerHTML = `
 <span class="op padding2 margin2 xSmall">(mode: 0-${mode[0]})</span>
 <audio style="display:none" autoplay="false" src="${confD}audio/error.mp3"></audio>
 `;
+}, delayInMilliseconds);
+
 }
 
 
@@ -89,8 +124,8 @@ var print = `
 <div id="gameResult" class="block tCenter"></div>
 
 <form id="form">
-
 <label class="op block tLeft xSmall paddingList">input number:</label>
+</form>
 
 <div id="number2"></div>
 <div class="buttonPlusMinus">
@@ -101,10 +136,6 @@ var print = `
 
 <a class="block tCenter button border light h3 op small submit notUnderline" style="cursor: pointer;" onclick="start();return false;" href="#">Submit</a>
 
-</div>
-</div>
-
-
 <div class="tCenter block padding2 margin2">
 <div>
 <br>
@@ -112,7 +143,8 @@ var print = `
 </div>
 </div>
 
-
+</div>
+</div>
 `;
 
 
@@ -125,6 +157,7 @@ function submitButtonPrev(){
 rangeValue = document.getElementById("range").value;
 
 answer[0] = Number(rangeValue) - 1;
+if (answer[0]  == -1){ answer[0] = 0; }
 
 document.getElementById("range").value = answer[0];
 document.getElementById("number").value = answer[0];

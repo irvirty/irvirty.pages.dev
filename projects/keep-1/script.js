@@ -1,4 +1,4 @@
-// Keep v.4.5.3
+// Keep v.4.6.0
 // The static version of my offline "keep" PHP script that saves things (links, notes, etc).
 // Inspired by Twitter, Google Keep
 // Not for large data files.
@@ -21,7 +21,7 @@ let keepConfig = {
 "bottomMsg":`
 <!-- bottom text or code -->
 `, // text
-"display":"", // gallery, art, blog (text, text2), all (text, text2, text3)
+"display":"", // gallery, art, blog (text, text2, text3), all (text, text2, text3)
 "timeStatus":"", // off, disable post time (post id)
 "rightFooterStatus":"", // on, off, right footer in data
 "usernameStatus":"", // on, off
@@ -753,7 +753,7 @@ printPost += fuPrintPost(postId, '', postText + ' ' + postUrl + postText2 + post
 }
 } else {
 if (display == "blog"){
-printPost += fuPrintPost(postId, postText, postText + ' ' + postUrl, postTag, postTime, "", rightFooter);
+printPost += fuPrintPost(postId, postText, postText + postUrl + postText2 + postText3, postTag, postTime, "", rightFooter);
 } else {
 printPost += fuPrintPost(postId, '', postText + ' ' + postUrl, postTag, postTime, "", rightFooter);
 }
@@ -1602,7 +1602,7 @@ break;
 
 default:
 lPost = highlightText(post, targetOption, subQforLight); 
-if (display == 'blog'){ lPost = `<h2>${postTitle}</h2>` + highlightText(post, targetOption, subQforLight); }
+if (display == 'blog'){ lPost = `<h2>${postTitle}</h2>jj` + highlightText(post, targetOption, subQforLight); }
 }
 
 
