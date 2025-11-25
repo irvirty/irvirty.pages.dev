@@ -1,11 +1,11 @@
-// v.2.1.0
+// v.2.2.0
 // only for many random div with different position
 
 if (true){
 let n = 0;
 var print = "";
-let min = 30;
-let max = 300;
+let min = 50;
+let max = 150;
 // https://stackoverflow.com/questions/4959975/generate-random-number-between-two-numbers-in-javascript
 var dropflake = Math.floor(Math.random() * (max - min + 1) + min);
 

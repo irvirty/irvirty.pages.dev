@@ -76,7 +76,7 @@ transform: scaleY(1);
 
 .ani {
 	position: absolute;
-	animation: ani 6s linear infinite;
+	animation: ani 2.5s linear infinite;
 }
 
 /*.dropflake {
