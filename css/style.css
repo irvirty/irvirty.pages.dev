@@ -183,16 +183,16 @@ text-align: left;
 
 .navMenu a,
 .navMenu2 a {
-text-decoration: 1px underline dotted transparent;
+text-decoration: 1px underline solid transparent;
 text-underline-offset: 4px;
 }
 .navMenu a:hover,
 .navMenu2 a:hover {
 transition: 0.3s;
-text-decoration: 1px underline dotted var(--brand);
+text-decoration: 1px underline solid var(--brand);
 }
 .navMenuActive, .topNav [aria-current="page"] {
-text-decoration: 1px underline dotted var(--c3) !important;
+text-decoration: 1px underline solid var(--c3) !important;
 color: var(--c3) !important;
 }
 
