@@ -1,4 +1,4 @@
-// Typing Speed Test (WPM) or Typing Speed Game v.4.3.1
+// Typing Speed Test (WPM) or Typing Speed Game v.4.3.2
 // "Zen" mode inspired by https://monkeytype.com/
 // Ignore some "typing modes" if the site is running on localhost, I use them to translate letters when I type.
 
@@ -782,7 +782,8 @@ case '\n':
 text11 += `<span class="red">⏎\n</span>`;
 break;
 case ' ':
-text11 += '<span style="background-color: var(--red);">' + item + '</span>';
+//text11 += '<span style="background-color: var(--red);">' + item + '</span>';
+text11 += '<span style="background-color: var(--red);">&nbsp;</span>';
 break;
 default:
 text11 += '<span class="red">' + item + '</span>';
