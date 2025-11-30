@@ -21,13 +21,14 @@ if(qGMode == "staticnotstorage"){ qGMode = "static"; }
 // qGAiMode
 if(qGAiMode != null&&qGAiMode != ""){
 qGAiMode = qGAiMode.trim();
-localStorage.setItem('qGAiMode', "off");
+localStorage.setItem('qGAiMode', "on");
 }
 
 if(qGAiMode == null||qGAiMode == ""){ qGAiMode = localStorage.getItem('qGAiMode'); }
-if(qGAiMode == null||qGAiMode == "") { qGAiMode = "off"; }
-if(qGAiMode == "off"){ qGAiMode = "off"; }
+if(qGAiMode == null||qGAiMode == "") { qGAiMode = "on"; }
+if(qGAiMode == "on"){ qGAiMode = "on"; }
 
+alert(qGAiMode);
 if (qGAiMode == "off"){
 
 document.getElementById("IdAIMode").innerHTML = `
