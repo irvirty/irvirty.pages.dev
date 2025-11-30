@@ -1246,7 +1246,7 @@ conf["confEmbedBlockMsg"] = `<div class="tCenter padding bg border small borderR
 if (conf["confDataCollection"] != "allow embed"){
 //conf["confDataCollection"] conf["confEmbedBlockMsg"]
 if (conf["confDataCollection"] != "on"){
-if (document.getElementById("disableEmbedMsg") != null){
+if (document.getElementById("disableEmbedMsg") != null&&String(document.location).indexOf("file://") == -1){
 document.getElementById("disableEmbedMsg").innerHTML = conf["confEmbedBlockMsg"];
 }
 }

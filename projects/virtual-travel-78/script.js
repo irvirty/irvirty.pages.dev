@@ -230,10 +230,12 @@ function getVtItem(vTTitle, vTEmoji, vTLang, vTDomain, vTDesc, vTSource, vTLinks
 if (vTGTrend == undefined){ vTGTrend = vTDomain; }
 
 let vTLangPrint = "";
+vTLang = vTLang.replaceAll(",", " ");
 vTLang = (vTLang + " ").split(" ");
 vTLang.forEach((valLang, indexLang) => {
 valLang = valLang.trim();
 if (valLang != ""&&valLang != undefined){
+valLang = valLang.trim();
 vTLangPrint += `<a class="inline padding brand" style="padding-right: 0;" href="./?q=${encodeURIComponent(valLang)}">${valLang}</a>, `;
 }
 });

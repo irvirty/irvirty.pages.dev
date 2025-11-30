@@ -3,7 +3,9 @@
 var geturl = location.href;
 var url = new URL(geturl);
 var qGMode = url.searchParams.get("mode");
+var qGAiMode = url.searchParams.get("aiMode");
 
+var qGAiModeConf = "&tbs=cdr:1,cd_min:,cd_max:11/30/2022&"; // inspired by "Slop Evader" extension
 
 if(qGMode != null&&qGMode != ""){
 qGMode = qGMode.trim();
@@ -15,6 +17,69 @@ localStorage.setItem('qGMode', qGMode);
 if(qGMode == null||qGMode == ""){ qGMode = localStorage.getItem('qGMode'); }
 if(qGMode == null||qGMode == "") { qGMode = "web"; }
 if(qGMode == "staticnotstorage"){ qGMode = "static"; }
+
+// qGAiMode
+if(qGAiMode != null&&qGAiMode != ""){
+qGAiMode = qGAiMode.trim();
+localStorage.setItem('qGAiMode', "off");
+}
+
+if(qGAiMode == null||qGAiMode == ""){ qGAiMode = localStorage.getItem('qGAiMode'); }
+if(qGAiMode == null||qGAiMode == "") { qGAiMode = "off"; }
+if(qGAiMode == "off"){ qGAiMode = "off"; }
+
+if (qGAiMode == "off"){
+
+document.getElementById("IdAIMode").innerHTML = `
+<button class="small padding light border op borderRadius2" onclick="qGAiModeSet('on');return false;">On AI (All result, test)</button>
+`;
+//https://stackoverflow.com/questions/1000795/create-a-hidden-field-in-javascript
+var input = document.createElement("input");
+input.setAttribute("type", "hidden");
+input.setAttribute("name", "qGAiMode");
+input.setAttribute("value", "off");
+document.getElementById("formGInput").appendChild(input);
+} else {
+
+qGAiModeConf = "";
+document.getElementById("IdAIMode").innerHTML = `
+<button class="small padding light border op borderRadius2" onclick="qGAiModeSet('off');return false;">Off AI (Results before Nov 30, 2022, test)</button>
+`;
+//https://stackoverflow.com/questions/1000795/create-a-hidden-field-in-javascript
+var input = document.createElement("input");
+input.setAttribute("type", "hidden");
+input.setAttribute("name", "qGAiMode");
+input.setAttribute("value", "on");
+document.getElementById("formGInput").appendChild(input);
+}
+
+function qGAiModeSet(item){
+if (item == "on"){
+localStorage.setItem('qGAiMode', "on");
+document.getElementById("IdAIMode").innerHTML = `
+<button class="small padding light border op borderRadius2" onclick="qGAiModeSet('off');return false;">Off AI (Results before Nov 30, 2022, test)</button>
+`; 
+//https://stackoverflow.com/questions/1000795/create-a-hidden-field-in-javascript
+var input = document.createElement("input");
+input.setAttribute("type", "hidden");
+input.setAttribute("name", "qGAiMode");
+input.setAttribute("value", "on");
+document.getElementById("formGInput").appendChild(input);
+}
+if (item == "off"){
+localStorage.setItem('qGAiMode', "off");
+document.getElementById("IdAIMode").innerHTML = `
+<button class="small padding light border op borderRadius2" onclick="qGAiModeSet('on');return false;">On AI (All result, test)</button>
+`;
+//https://stackoverflow.com/questions/1000795/create-a-hidden-field-in-javascript
+var input = document.createElement("input");
+input.setAttribute("type", "hidden");
+input.setAttribute("name", "qGAiMode");
+input.setAttribute("value", "off");
+document.getElementById("formGInput").appendChild(input);
+}
+}
+
 
 var qGQ = url.searchParams.get("q");
 if (qGQ == null){ qGQ = ""; }
@@ -97,11 +162,11 @@ lQModePrint = `<a class="light autoColumnItem keepTag2 itemHeight border borderR
 lQMode.forEach((item, item2) => {
 if (item["comName"] == qGMode){
 lQModePrint += `
-<a class="active2 light3 autoColumnItem keepTag2 itemHeight border borderRadius2 small borderBottomBrand" title="${item["title"]}" href="?mode=${item["title"]}&q=${qGQ}">${item["name"]}</a>
+<a class="active2 light3 autoColumnItem keepTag2 itemHeight border borderRadius2 small borderBottomBrand" title="${item["title"]}" href="?mode=${item["title"]}&${qGAiModeConf}&q=${qGQ}">${item["name"]}</a>
 `;
 } else {
 lQModePrint += `
-<a class="autoColumnItem keepTag2 itemHeight light2 border borderRadius2 small" title="${item["title"]}" href="?mode=${item["comName"]}&q=${qGQ}">${item["name"]}</a>
+<a class="autoColumnItem keepTag2 itemHeight light2 border borderRadius2 small" title="${item["title"]}" href="?mode=${item["comName"]}&${qGAiModeConf}&q=${qGQ}">${item["name"]}</a>
 `;
 }
 });
@@ -115,11 +180,11 @@ document.getElementById("mode").innerHTML = `${lQModePrint}`;
 lQMode.forEach((item, item2) => {
 if (item["comName"] == qGMode){
 lQModePrint += `
-<a class="active2 light3 autoColumnItem keepTag2 itemHeight border borderRadius2 small borderBottomBrand" title="${item["title"]}" href="?mode=${item["comName"]}&q=${qGQ}">${item["name"]}</a>
+<a class="active2 light3 autoColumnItem keepTag2 itemHeight border borderRadius2 small borderBottomBrand" title="${item["title"]}" href="?mode=${item["comName"]}&${qGAiModeConf}&q=${qGQ}">${item["name"]}</a>
 `;
 } else {
 lQModePrint += `
-<a class="autoColumnItem keepTag2 light2 itemHeight border borderRadius2 small" title="${item["title"]}" href="?mode=${item["comName"]}&q=${qGQ}">${item["name"]}</a>
+<a class="autoColumnItem keepTag2 light2 itemHeight border borderRadius2 small" title="${item["title"]}" href="?mode=${item["comName"]}&${qGAiModeConf}&q=${qGQ}">${item["name"]}</a>
 `;
 }
 });
