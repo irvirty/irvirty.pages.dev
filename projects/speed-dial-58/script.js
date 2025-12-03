@@ -12,7 +12,7 @@ locationSpeedDialUrl = locationSpeedDialUrl.replaceAll("#speedDialAnchor", "");
 
 // fix for short text link
 if (conf["confUserNameInTitleStatus"] == 'on'){
-locationSpeedDialTitle = locationSpeedDialTitle.replace(' / ' + conf["confUsernameUpper"], '');
+locationSpeedDialTitle = locationSpeedDialTitle.replace(conf["confUserNameInTitle"], '');
 }
 
 if (localStorage.getItem("confSpeedDialData")) {

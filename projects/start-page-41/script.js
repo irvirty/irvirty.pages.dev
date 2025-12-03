@@ -93,7 +93,7 @@ document.getElementById('dateUtcOffset').innerHTML = `(${offsetHours})`;
 let printTitleText = hours + ':' + minutes + ':' + seconds + " - Start page";
 //let printTitleText = hours + ':' + minutes + " - Start page";
 
-document.getElementsByTagName('title')[0].innerText = printTitleText + conf["confDomainNameInTitle"];
+document.getElementsByTagName('title')[0].innerText = printTitleText + conf["confUserNameInTitle"];
 
 }
 

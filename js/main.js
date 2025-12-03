@@ -35,6 +35,7 @@ conf["confMenuItemAverageWidth"] = 120;
 conf["confMenuItemAverageWidth"] = 70;
 
 conf["confUserNameInTitleStatus"] = "on"; // on, off
+conf["confUserNameInTitle"] = "";
 
 //IndexedDB, DB list for clear (comma)
 conf["confDbList"] = "todo-list,todo-list-ideas";
@@ -166,7 +167,8 @@ function fuMCapitalizeFirstLetter(val) {
 // user name in titile
 if (conf["confUserNameInTitleStatus"] == "on"){
 if (document.getElementsByTagName('title')[0] != null){
-document.getElementsByTagName('title')[0].innerHTML += ' / ' + conf["confUsernameUpper"];
+conf["confUserNameInTitle"] = ' / ' + conf["confUsernameUpper"];
+document.getElementsByTagName('title')[0].innerHTML += conf["confUserNameInTitle"];
 }
 }
 
