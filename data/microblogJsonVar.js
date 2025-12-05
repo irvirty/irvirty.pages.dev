@@ -3,6 +3,16 @@ var microblogJsonVar =
 
 [
     {
+        "id": "303",
+        "text": "In 1995, a Netscape employee wrote a hack in 10 days that now runs the Internet - Ars Technica",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/arstechnica.com\/gadgets\/2025\/12\/in-1995-a-netscape-employee-wrote-a-hack-in-10-days-that-now-runs-the-internet\/",
+        "tag": "#JavaScript #web #internet #WebDevelopment #programming #coding",
+        "time": 1764916287,
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/microblog\/?id=303\"  title=\"id=303 (permanent link)\" >id<\/a>"
+    },
+    {
         "id": "302",
         "text": "Is Your Phone Face Up on the Table? Here's Why That's a Bad Idea - CNET",
         "text2": "",
