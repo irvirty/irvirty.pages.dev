@@ -1,4 +1,4 @@
-// Typing Speed Test (WPM) or Typing Speed Game v.4.3.5
+// Typing Speed Test (WPM) or Typing Speed Game v.4.3.6
 // "Zen" mode inspired by https://monkeytype.com/
 // Ignore some "typing modes" if the site is running on localhost, I use them to translate letters when I type.
 
@@ -296,7 +296,7 @@ document.getElementsByClassName("input")[0].innerHTML = `
 <a href="./" class="submit" onclick="fuMReload();return false;">Reload (submit)</a>
 </div>-->
 
-<a href="./"  class="submit button block borderRadius">Reload (submit)</a>
+<a href="./index.html"  class="submit button block borderRadius">Reload (submit)</a>
 
 </form>
 <div id="input2Status"></div>
