@@ -1,4 +1,4 @@
-// Guess number game v.1.5.1
+// Guess number game v.1.5.2
 
 var limit = 10;
 var rangeValue = 0;
@@ -254,11 +254,11 @@ document.getElementById("result").innerHTML = print;
 //https://stackoverflow.com/questions/5629805/disabling-enter-key-for-form
 //window.addEventListener('keydown',function(e){
 document.getElementById("number2").addEventListener('keydown',function(e){
-if(e.keyIdentifier=='U+000A'||e.keyIdentifier=='Enter'||e.keyCode==13){
+if(e.keyIdentifier == 'U+000A'||e.keyIdentifier == 'Enter'||e.keyCode==13){
 start();
 e.preventDefault();
 //return false;
-if(e.target.nodeName=='INPUT'&&e.target.type=='text'){
+if(e.target.nodeName == 'INPUT'&&e.target.type == 'text'){
 e.preventDefault();
 //return false;
 
