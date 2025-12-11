@@ -3,6 +3,16 @@ var microblogJsonVar =
 
 [
     {
+        "id": "304",
+        "text": "Design for developers - Learn web development | MDN",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/developer.mozilla.org\/en-US\/docs\/Learn_web_development\/Core\/Design_for_developers",
+        "tag": "#WebDesign #WebDevelopment",
+        "time": 1765449808,
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/microblog\/?id=304\"  title=\"id=304 (permanent link)\" >id<\/a>"
+    },
+    {
         "id": "303",
         "text": "In 1995, a Netscape employee wrote a hack in 10 days that now runs the Internet - Ars Technica",
         "text2": "",

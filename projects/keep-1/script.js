@@ -1606,7 +1606,7 @@ if (display == 'blog'){ lPost = `<h2>${postTitle}</h2>jj` + highlightText(post, 
 }
 
 
-var username = conf["confDomainName"];
+var username = fuMCapitalizeFirstLetter(conf["confUsername"]);
 
 var keepPostFooter = ' twoColumn keepPostFooter blockMobile ';
 var keepPostFooterPadding = '';
