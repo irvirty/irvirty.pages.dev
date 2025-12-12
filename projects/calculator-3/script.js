@@ -1,4 +1,4 @@
-// v.1.2.1
+// v.1.2.2
 // inspired by Bing Web Calculator, Google Web Calculator, Google Calculator App and other
 
 //console.log(Math.pow(10, 100));
@@ -85,19 +85,22 @@ const grid = `
 
 </div>
 
+<div class="block margin padding"></div>
+
+</div>
+
+
+</div>
+
+
+</div>
+
+
+<div class="wrapperSmall2">
 <div class="block margin2 padding2"></div>
-
 <a class="button w100 op tag light border borderRadius2 gray" onclick="fuMReload();return false;" href="#">reload</a>
-
 </div>
 
-
-</div>
-
-
-
-
-</div>
 `;
 
 
