@@ -1379,9 +1379,9 @@ return document.querySelectorAll("iframe")[index].src = newUrl;
 
 
 
-// fu ClearText, fix print, fix input v.1.0.0
+// fu ClearText, fix print, fix input v.2.0.0
 function fuMClearText(text){
-if (text != undefined){
+if (text != undefined&&text != ""){
 
 //text = text.replaceAll("'", '\'');
 //text = text.replaceAll('"', '\"');
@@ -1397,6 +1397,9 @@ text = text.replaceAll(/'/g, '&apos;');
 text = text.replaceAll(/'/g, '%27');
 text = text.replaceAll('%', '&percnt;');
 text = text.replaceAll("+", '&plus;');
+
+//https://stackoverflow.com/questions/822452/strip-html-tags-from-text-using-plain-javascript
+text = text.replace(/<[^>]*>?/gm, '');
 
 return text;
 }
