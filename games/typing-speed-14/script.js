@@ -1,4 +1,4 @@
-// Typing Speed Test (WPM) or Typing Speed Game v.4.3.7
+// Typing Speed Test (WPM) or Typing Speed Game v.4.3.8
 // "Zen" mode inspired by https://monkeytype.com/
 // Ignore some "typing modes" if the site is running on localhost, I use them to translate letters when I type.
 
@@ -514,9 +514,8 @@ letters = transliterate(letters);
 
 //https://stackoverflow.com/questions/22962220/remove-multiple-line-breaks-n-in-javascript
 //letters = letters.replaceAll(/(\r\n|\r|\n){2,}/g, '\n');
-
-
-
+letters = letters.replaceAll(/(\r\n){2,}/g, '\n\n');
+letters = letters.replaceAll(/(\r){2,}/g, '\n');
 
 
 letters = letters.replaceAll("‑", "-");
