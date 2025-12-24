@@ -131,7 +131,8 @@
 
 <form id="form" method="GET" class="block" action="./" style="margin:0 auto;" role="search">
 
-<label id="search" class="op block tLeft xSmall padding1PxList" for="q"><span class="bold orange">✪</span> Search:</label>
+<label id="search" class="op inlineBlock tLeft xSmall padding1PxList" for="q"><span class="bold orange">✪</span> Search:</label>
+<a class="padding floatRight gray xSmall notUnderline" style="padding-right: 0;" href="#clear" onclick="clearQ('q');return false;">[ X ]</a>
 <input id="q" class="borderRadius" aria-labelledby="search" type="search" name="q" autofocus="autofocus" placeholder="" autocomplete="off" spellcheck="true">
 
 <div style="display: grid; grid-template-columns: 1fr 1fr; grid-gap: 2px;">
@@ -143,6 +144,15 @@
 
 </form>
 </div>
+
+<script>
+function clearQ(q){
+if (document.getElementById(q) != null){
+document.getElementById(q).value = "";
+document.getElementById(q).focus();
+}
+}
+</script>
 
 <div class="margin"></div>
 

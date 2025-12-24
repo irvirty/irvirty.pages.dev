@@ -1078,8 +1078,8 @@ print += `
 
 <div class="wrapperSmall">
 <form id="keepForm" method="GET" style="margin-top: 0px;" action="?">
-<label class="op inlineBlock tLeft xSmall padding1PxList" for="inputKeep">✪ Search:</label>
-<a class="padding floatRight gray xSmall notUnderline" style="padding-right: 0;" href="#clear" onclick="clearQ('inputKeep');return false;">[ X ]</a>
+<label class="op block tLeft xSmall padding1PxList" for="inputKeep">✪ Search:</label>
+
 <input id="inputKeep" class="borderRadius" type="search" name="q"  autocomplete="off" placeholder="">
 
 <div style="display: grid; grid-template-columns: 1fr 1fr; grid-gap: 2px;">
@@ -2940,6 +2940,43 @@ window.location.replace(rangeRedirectUrl,);
 }
 }
 
+
+
+/*
+//https://stackoverflow.com/questions/22697936/binary-search-in-javascript
+function binarySearch(arr, val) {
+  let start = 0;
+  let end = arr.length - 1;
+
+  while (start <= end) {
+    let mid = Math.floor((start + end) / 2);
+
+    if (arr[mid] === val) {
+      return mid;
+    }
+
+    if (val < arr[mid]) {
+      end = mid - 1;
+    } else {
+      start = mid + 1;
+    }
+  }
+  return -1;
+}*/
+
+/*
+//https://stackoverflow.com/questions/9206013/javascript-list-js-implement-a-fuzzy-search
+function fuzzySearch(text, q){
+
+String.prototype.fuzzy = function (s) {
+    var hay = this.toLowerCase(), i = 0, n = -1, l;
+    s = s.toLowerCase();
+    for (; l = s[i++] ;) if (!~(n = hay.indexOf(l, n + 1))) return false;
+    return true;
+};
+
+return (text).fuzzy(q); 
+}*/
 
 
 function clearQ(q){

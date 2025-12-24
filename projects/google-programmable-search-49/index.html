@@ -75,7 +75,8 @@ JavaScript, project,
 <!--<label id="search" class="block op tLeft xSmall"><span class="bold orange">✪</span> Web search (redirect, random):</label>
 <input id="gsc-i-id1" aria-labelledby="search" type="search"  name="q" autofocus="autofocus"  placeholder="" autocomplete="off" spellcheck="true">-->
 
-<label id="search" class="op block tLeft xSmall padding1PxList" for="q"><span class="bold orange">✪</span> Web search:</label>
+<label id="search" class="op inlineBlock tLeft xSmall padding1PxList" for="q"><span class="bold orange">✪</span> Web search:</label>
+<a class="padding floatRight gray xSmall notUnderline" style="padding-right: 0;" href="#clear" onclick="clearQ('q');return false;">[ X ]</a>
 <!--<span id="printInputSearch"></span>-->
 
 <input id="gsc-i-id1" class="borderRadius" aria-labelledby="search" type="search"  name="q" autofocus="autofocus"  placeholder="" autocomplete="off" spellcheck="true">
@@ -96,7 +97,14 @@ JavaScript, project,
 
 </div>
 
-
+<script>
+function clearQ(q){
+if (document.getElementById(q) != null){
+document.getElementById(q).value = "";
+document.getElementById(q).focus();
+}
+}
+</script>
 
 <div class="margin"></div>
 <div id="mode" class="tCenter autoColumn notUnderline"></div>

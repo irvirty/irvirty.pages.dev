@@ -323,7 +323,8 @@ document.getElementById("last-update").innerHTML = fuPostTime(1762344099);
 <div id="form" class="noscriptHide">
 <form method="GET" style="margin-top: 0px;" action="./search/" autocomplete="off" role="search">
 
-<label id="search" class="op block tLeft xSmall padding1PxList" for="q"><span class="bold orange">✪</span> Web search (redirect, random, <a class="brand notUnderline" title="WPM - Words per minute" href="/games/typing-speed-14/">WPM: <span id="wpm" class="orange bold">0</span></a>):</label>
+<label id="search" class="op inlineBlock tLeft xSmall padding1PxList" for="q"><span class="bold orange">✪</span> Web search (redirect, random, <a class="brand notUnderline" title="WPM - Words per minute" href="/games/typing-speed-14/">WPM: <span id="wpm" class="orange bold">0</span></a>):</label>
+<a class="padding floatRight gray xSmall notUnderline" style="padding-right: 0;" href="#clear" onclick="clearQ('q');return false;">[ X ]</a>
 <input id="q" class="borderRadius" aria-labelledby="search" type="search" name="q" autofocus="autofocus" placeholder="" autocomplete="off" spellcheck="true">
 
 <!--<div style="display: grid; grid-template-columns: 1fr 1fr; grid-gap: 2px;">-->
@@ -339,6 +340,15 @@ document.getElementById("last-update").innerHTML = fuPostTime(1762344099);
 </form>
 
 </div>
+
+<script>
+function clearQ(q){
+if (document.getElementById(q) != null){
+document.getElementById(q).value = "";
+document.getElementById(q).focus();
+}
+}
+</script>
 
 <div  class="center noscriptHide" style="margin-top: 7px;">
 <div class="wrapper tCenter small"><!--if scrollX horizontal class rm keepTagList)-->
