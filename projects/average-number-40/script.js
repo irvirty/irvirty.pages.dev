@@ -1,4 +1,4 @@
-// Average number v.1.2.2
+// Average number v.1.3.0
 // Inspired by a post on X.com when I wanted to know an average number.
 
 
@@ -45,7 +45,7 @@ delimiter.forEach( (value) => {
 //q = encodeURIComponent(e.target.value);
 
 // prepare for split 1
-q = q.replaceAll(",", "");
+q = q.replaceAll(",", ".");
 q = q.replaceAll(" ", "|");
 delimiter.forEach((value) => {
 q = q.replaceAll(value, "|");
