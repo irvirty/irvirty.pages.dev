@@ -203,6 +203,13 @@ var sitemapJsonVar = [
         "time": "id"
     },
     {
+        "text": "Collection of English words\n\nCollection of English words. | en words: ",
+        "url": "\/projects\/en-words-82\/index.html",
+        "tag": " #Collection #English #words #HTML #CSS #JavaScript #project",
+        "id": "21b6c3ab95e39e0c42cd22187c03ffe7",
+        "time": "id"
+    },
+    {
         "text": "Color Picker\n\nColor picker. | color picker: ",
         "url": "\/projects\/color-picker-4\/index.html",
         "tag": " #color #tool #tools #picker #HTML #CSS #JavaScript #project",
@@ -781,6 +788,13 @@ var sitemapJsonVar = [
         "url": "\/projects\/todo-list-ideas-32\/index.html",
         "tag": " #todo #idea #tool #tools #JavaScript #project",
         "id": "98ad9a9c4d9b4d0c5a9ede137fdd6f02",
+        "time": "id"
+    },
+    {
+        "text": "Translator\n\nTranslator. Translation of words. Translated words. | translator: ",
+        "url": "\/projects\/translator-81\/index.html",
+        "tag": " #Translator #translation #words #translate #HTML #CSS #JavaScript #project",
+        "id": "676b3fec460511ecb642e74e101df90a",
         "time": "id"
     },
     {
