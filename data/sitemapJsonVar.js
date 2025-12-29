@@ -476,7 +476,7 @@ var sitemapJsonVar = [
         "time": "id"
     },
     {
-        "text": "Page generation test\n\nPage generation test | lag test: ",
+        "text": "Page generation test\n\nPage generation test. Carefully. Experimental, test. | lag test: ",
         "url": "\/projects\/lag-test-47\/index.html",
         "tag": " #Experimental #test #lag #test #JavaScript #project",
         "id": "6b3d0c0efa47d4814fcab6ba9e6c292f",
@@ -781,6 +781,13 @@ var sitemapJsonVar = [
         "url": "\/projects\/todo-list-ideas-32\/index.html",
         "tag": " #todo #idea #tool #tools #JavaScript #project",
         "id": "98ad9a9c4d9b4d0c5a9ede137fdd6f02",
+        "time": "id"
+    },
+    {
+        "text": "Translator\n\nTranslator | translator: ",
+        "url": "\/projects\/translator-81\/index.html",
+        "tag": " #Translator #HTML #CSS #JavaScript #project",
+        "id": "676b3fec460511ecb642e74e101df90a",
         "time": "id"
     },
     {

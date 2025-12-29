@@ -1,4 +1,4 @@
-/* Main.css style v.23.12.0 */
+/* Main.css style v.23.12.1 */
 /* main.css + theme (auto.css, light.css ...) */
 /* The style is mostly based on classes. */
 
@@ -8,7 +8,7 @@
 
 :root{
 /* .brand - link, accent color (red, orange, yellow, green, blue, indigo, violet) */
---brandColor: color-mix(in srgb, var(--blue) 80%, var(--violet));
+--brandColor: color-mix(in srgb, var(--blue) 80%, var(--blue));
 
 --brand: color-mix(in srgb, var(--brandColor) 70%, var(--c4));
 --brand2: color-mix(in srgb, var(--brandColor) 35%, var(--c4));

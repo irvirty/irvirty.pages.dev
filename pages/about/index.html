@@ -259,9 +259,65 @@ Other places
 
 
 
+<div class="margin padding"></div>
+
+<div id="donate" class="bg border borderRadius2 marginList">
+<div class="padding2List">
+
+<h2 class="margin2 bold"><a class="inlineBlock padding borderBottomGreen notUnderline" href="#donate">Donate:</a></h2>
+<div class="padding3List op small"></div>
+
+<div class="wrapperSmall padding2">
+
+The current goal is <span id="goal"></span>, progress:
+<div class="padding"></div>
+
+<div class="bg2 shadow borderRadius2">
+<div id="donateProgress"></div>
+</div>
+
+<div class="margin"></div>
+
+<script>
+///Donate goal v.1.2.0
+
+let donateGoal = 25;
+let donateAmount = 0;
+let donateProgressPercentage = (donateAmount * 100) / donateGoal;
+
+let donateProgressBg = "";
+if (donateProgressPercentage > 0){ donateProgressBg = " bg4 "; }
+
+if (document.getElementById("donateProgress") != null){
+document.getElementById("donateProgress").innerHTML = `
+<div class=" ` + donateProgressBg + ` borderRadius2 small padding border3 tCenter" style="width: ` + donateProgressPercentage + `%; max-width: 100%; min-width: 45px; z-index: 1; position: abosolute;"><div style="min-width="120px">` + donateProgressPercentage + `%</div></div>`;
+}
+
+if (document.getElementById("donateProgress") != null){
+document.getElementById("goal").innerHTML = donateGoal;
+}
+
+</script>
+
+</div>
+
+<div class="margin padding"></div>
+
+<div class="wrapperSmall margin2List">
+<div class="border borderRadius2 tCenter margin2 padding2">
+
+<span class="icon orange">₿</span> Bitcoin address:<br><span>bc1qrgpjr4wn9agy3zdgs836lw60fp0r5smp53qmel</span>
+
+</div>
+</div>
+
+<div class="margin padding"></div>
+<div class="wrapperSmall padding2">Thank you for your support!</div>
+<div class="margin padding"></div>
 
 
-
+</div>
+</div>
 
 
 
