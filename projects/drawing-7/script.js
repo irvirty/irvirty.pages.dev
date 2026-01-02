@@ -295,5 +295,3 @@ context.beginPath();
 context.fillStyle = bg;
 context.fillRect(0,0,window.innerWidth, window.innerHeight);
 }
-
-

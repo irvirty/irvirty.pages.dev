@@ -3,6 +3,33 @@ var radioJsonVar =
 
 [
     {
+        "text": "RNZ Pacific | Free Internet Radio | TuneIn",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/tunein.com\/radio\/RNZ-Pacific-s1863\/",
+        "tag": "#radio #nz #en",
+        "time": 1767339509,
+        "rightFooter": ""
+    },
+    {
+        "text": "RNZ Concert, 92.6 FM, Wellington, New Zealand | Free Internet Radio | TuneIn",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/tunein.com\/radio\/RNZ-Concert-926-s45474\/",
+        "tag": "#radio #RadioMusic #classical",
+        "time": 1767339479,
+        "rightFooter": ""
+    },
+    {
+        "text": "RNZ National, Radio New Zealand National 567 AM, Wellington, New Zealand | Free Internet Radio | TuneIn",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/tunein.com\/radio\/RNZ-National-567-s25645\/",
+        "tag": "#nz #en #radio",
+        "time": 1767172908,
+        "rightFooter": ""
+    },
+    {
         "text": "BBC Radio 3 Unwind | Free Internet Radio | TuneIn",
         "text2": "",
         "text3": "",
