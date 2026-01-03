@@ -4,6 +4,7 @@
 
 const wmpAverageLimit = 100;
 const wordLengthLimit = 5.1;
+//const wordLengthLimit = 8.31;
 const allowError = 70;
 const whenTypeProgress = 300;
 
