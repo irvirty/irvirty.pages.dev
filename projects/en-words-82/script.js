@@ -1,4 +1,4 @@
-// v.1.1.0
+// v.1.1.1
 
 
 let print = "";
@@ -29,11 +29,14 @@ document.getElementById("result").innerHTML = `
 Total: ${enWordsJsonVar.length}
 Random: ${randomItem}
 Average word length: ${averageWordLength}
+Average word length from Google: 5.1
 
 ${print}
+
 Total: ${enWordsJsonVar.length}
 Random: ${randomItem}
 Average word length: ${averageWordLength}
+Average word length from Google: 5.1
 
 `;
 
