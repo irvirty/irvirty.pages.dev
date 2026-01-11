@@ -529,7 +529,7 @@ document.getElementById("footer").innerHTML = `
 
 <br>
 
-<span class="op inlineBlock padding" style="padding-right: 0; padding-left: 0;" title="update"><!--2019-->© 2025 ${conf["confUsernameUpper"]} License:</span> 
+<span class="op inlineBlock padding" style="padding-right: 0; padding-left: 0;" title="update"><!--2019-->© 2026 ${conf["confUsernameUpper"]} License:</span> 
 <a class="brand inlineBlock padding" style="padding-left: 0;" rel="license" title="Licenses for content" href="${confD}pages/about/#license">CC BY-SA 4.0 <sup>*</sup></a>
 <span class="op gray">|</span>
 
