@@ -26,7 +26,7 @@
   
 ## 🧾 License:  
   
-• Main: Copyright 2025 Irvirty CC BY-SA 4.0  
+• Main: © 2025 Irvirty, license: CC BY-SA 4.0  
   
 Others:  
 • SimpleHomepage theme for WordPress: Copyright 2025 Irvirty GNU General Public License v2 or later  
