@@ -1,4 +1,4 @@
-/* Main.css style v.23.12.1 */
+/* Main.css style v.23.12.2 */
 /* main.css + theme (auto.css, light.css ...) */
 /* The style is mostly based on classes. */
 
@@ -19,7 +19,7 @@
 --inputHeight: 45px;
 --fontSize: 14px;
 
-/* main.js (for nav) */
+/* edit in main.js for nav */
 --wrapper: 560px;
 --wrapper2: 700px;
 --wrapper3: 900px;
@@ -62,7 +62,7 @@ overflow-wrap: break-word;
 /*word-break: break-all;*/
 }
 html, body, input, button, textarea, select {
-font-size: 13.4px; font-size: 0.9375em; font-size: var(--fontSize);
+font-size: var(--fontSize);
 }
 
 nav a, a:hover { text-decoration: none; }
