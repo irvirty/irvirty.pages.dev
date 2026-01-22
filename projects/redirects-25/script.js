@@ -1,4 +1,4 @@
-// Search redirect v.2.15.3
+// Search redirect v.2.15.4
 // Search query + command
 // Example: "text goo" or "text google", "text bin" or "text bing"
 
@@ -2211,7 +2211,7 @@ urlList = [
 "https://chatgpt.com/?temporary-chat=true",
 "https://grok.com/",
 
-"https://chat.mistral.ai/",
+"https://chat.mistral.ai/incognito",
 "https://lumo.proton.me/"
 ];
 }
@@ -2290,6 +2290,25 @@ urlList = [
 if (q == ""){
 urlList = [
 "https://www.perplexity.ai/",
+];
+}
+random = urlList[fuMRandom(0, urlList.length - 1)];
+url = random;
+sRedirectUrl = url;
+break;
+
+
+case "mistral#":
+case "mis#":
+q = q3.replace(qCom, '');
+q = q.trim();
+q = encodeURIComponent(q);
+urlList = [
+"https://chat.mistral.ai/chat/?q=" + q,
+];
+if (q == ""){
+urlList = [
+"https://chat.mistral.ai/incognito",
 ];
 }
 random = urlList[fuMRandom(0, urlList.length - 1)];
