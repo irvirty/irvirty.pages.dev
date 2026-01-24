@@ -1148,7 +1148,7 @@ conf["confThemeEmbed"] = "light";
 
 bgImage = fuMClearText(bgImage);
 
-if (bgImage == undefined||bgImage == null||bgImage == ""){
+if (bgImage == undefined||bgImage == "undefined"||bgImage == null||bgImage == ""){
 let mBg = fuMRandomItem("index.svg line-square.svg star.svg circle.svg triangle.svg square-solid.svg binary.svg short-line.svg shape.svg line-chaotic.svg wood.png deco-paper.svg grid.png granite.png flower.png flower-2.png mondrian.svg mondrian-oval.svg");
 let mBgDark = fuMRandomItem("index-d.svg line-square-d.svg star-d.svg circle-d.svg triangle-d.svg square-solid-d.svg binary-d.svg short-line-d.svg shape-d.svg line-chaotic-d.svg wood-d.png deco-paper-d.svg grid-d.png granite-d.png flower-d.png flower-2-d.png mondrian-d.svg mondrian-oval-d.svg");
 //mBg = fuMRandomItem("mondrian.svg"); mBgDark = fuMRandomItem("mondrian-d.svg");
