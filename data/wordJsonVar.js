@@ -1279,8 +1279,8 @@ var wordJsonVar =
     },
     {
         "text": "\u0432\u043e\u043b\u044f",
-        "text2": "will",
-        "text3": "voluntad"
+        "text2": "freedom",
+        "text3": "libertad"
     },
     {
         "text": "\u0432\u043e\u043d\u043e",
