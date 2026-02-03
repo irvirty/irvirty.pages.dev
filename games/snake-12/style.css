@@ -1,4 +1,4 @@
-/* v.1.0.4 */
+/* v.1.0.5 */
 
 
 
@@ -79,7 +79,7 @@ font-size: 9px !important;
 
 .snakeGreen { background: var(--green) !important; border: 1px solid var(--d2); }
 .snakeHead { background: var(--green2) !important; border: 1px inset var(--d2); }
-.food { background: var(--orange2); border: 1px solid var(--d2); }
+.food, .food:hover { background: var(--orange2); border: 1px solid var(--d2); }
 
 
 .control { text-align: center; }
