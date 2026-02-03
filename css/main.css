@@ -4,7 +4,6 @@
 
 /* Main */
 @charset "UTF-8";
-* { color-scheme: light dark; } /* view-source:about:blank, fixed blink */
 
 :root{
 /* .brand - link, accent color (red, orange, yellow, green, blue, indigo, violet) */

@@ -1,3 +1,5 @@
+* { color-scheme: light; } /* view-source:about:blank, fixed blink */
+
 :root{
 --bg: #EBEBEB;
 --l: #EDEDED;

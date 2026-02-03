@@ -1,6 +1,6 @@
 /* v.1.0.0 */
 
-
+* { color-scheme: light; } /* view-source:about:blank, fixed blink */
 
 html, body { margin:0; padding:0; }
 body{ height: 100%; overflow-y: scroll; }

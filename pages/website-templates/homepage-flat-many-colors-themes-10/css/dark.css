@@ -1,3 +1,5 @@
+* { color-scheme: dark; } /* view-source:about:blank, fixed blink */
+
 :root{
 --bg: #2D2D2E;
 --l: #2F2F30;
