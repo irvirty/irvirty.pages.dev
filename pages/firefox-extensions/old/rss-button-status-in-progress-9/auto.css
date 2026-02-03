@@ -1,5 +1,7 @@
-/* Auto dark light CSS theme v.1.2.0 */
+/* Auto dark light CSS theme v.1.2.1 */
 /* if no main.js for set theme */
+
+* { color-scheme: light; } /* view-source:about:blank, fixed blink */
 
 /* light */
 :root{
@@ -8,8 +10,8 @@
 --l2: #F2F2F2;
 --l3: #F7F7F7;
 --l4: #FFFFFF;
---d: #E6E6E6;
---d2: #E0E0E0;
+--d: #E0E0E0;
+--d2: #DBDBDB;
 --d3: #CCCCCC;
 --d4: #333333;
 
@@ -17,10 +19,10 @@
 --c2: #333333;
 --c3: #1A1A1A;
 --c4: #0D0D0D;
---rC: #A6A6A6;
---rC2: #CCCCCC;
---rC3: #E6E6E6;
---rC4: #F2F2F2;
+--cR: #A6A6A6;
+--c2R: #CCCCCC;
+--c3R: #E6E6E6;
+--c4R: #F2F2F2;
 --red: #943328;
 --red2: #B33E30;
 --orange: #D47900;
@@ -45,6 +47,9 @@ html{ scrollbar-color: var(--d3) var(--l2); }
 
 /* dark */
 @media (prefers-color-scheme: dark) {
+
+* { color-scheme: dark; } /* view-source:about:blank, fixed blink */
+
 :root{
 --bg: #2D2D2E;
 --l: #2F2F30;
@@ -60,12 +65,12 @@ html{ scrollbar-color: var(--d3) var(--l2); }
 --c2: #D6D6D6;
 --c3: #E6E6E6;
 --c4: #F7F7F7;
---rC: #4D4D4D;
---rC2: #292929;
---rC3: #1A1A1A;
---rC4: #080808;
---red: #FF7066;
---red2: #FF938C;
+--cR: #4D4D4D;
+--c2R: #292929;
+--c3R: #1A1A1A;
+--c4R: #080808;
+--red: #E66C5C;
+--red2: #FF7866;
 --orange: #FFD68C;
 --orange2: #FFDFA6;
 --yellow: #D9CA82;

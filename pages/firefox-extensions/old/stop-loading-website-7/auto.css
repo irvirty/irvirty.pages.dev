@@ -1,6 +1,8 @@
 /* Auto dark light CSS theme v.1.2.1 */
 /* if no main.js for set theme */
 
+* { color-scheme: light; } /* view-source:about:blank, fixed blink */
+
 /* light */
 :root{
 --bg: #EBEBEB;
@@ -45,6 +47,9 @@ html{ scrollbar-color: var(--d3) var(--l2); }
 
 /* dark */
 @media (prefers-color-scheme: dark) {
+
+* { color-scheme: dark; } /* view-source:about:blank, fixed blink */
+
 :root{
 --bg: #2D2D2E;
 --l: #2F2F30;
