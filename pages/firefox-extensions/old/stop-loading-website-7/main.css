@@ -1,9 +1,11 @@
-/* Main.css style v.23.14.0 */
+/* Main.css style v.23.14.1 */
 /* main.css + theme (auto.css, light.css ...) */
 /* The style is mostly based on classes. */
 
 /* Main */
 @charset "UTF-8";
+
+* { color-scheme: light dark; }
 
 :root{
 /* .brand - link, accent color (red, orange, yellow, green, blue, indigo, violet) */
