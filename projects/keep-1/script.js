@@ -1,4 +1,4 @@
-// Keep v.4.6.0
+// Keep v.4.70
 // The static version of my offline "keep" PHP script that saves things (links, notes, etc).
 // Inspired by Twitter, Google Keep
 // Not for large data files.
@@ -1537,7 +1537,7 @@ text = [...text];
 
 let forSplit = [
 //delme',', "*", "{", "}", "(", ")", "[", "[", "•", "«", "»", "☞", " "
- "*", "{", "}", "(", ")", "[", "[", "•", "«", "»", "☞", " ", `
+ ",", "*", "{", "}", "(", ")", "[", "[", "•", "«", "»", "☞", " ", `
 `, "\r", "\n", "\r\n",
 ]
 text.forEach((item) => {
@@ -2067,7 +2067,7 @@ text = [...text];
 
 let forSplit = [
 //delme',', "*", "{", "}", "(", ")", "[", "[", "•", "«", "»", "☞", " "
- "*", "{", "}", "(", ")", "[", "[", "•", "«", "»", "☞", " ", `
+",", "*", "{", "}", "(", ")", "[", "[", "•", "«", "»", "☞", " ", `
 `, "\r", "\n", "\r\n",
 ]
 text.forEach((item) => {
