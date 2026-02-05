@@ -3,6 +3,16 @@ var newsJsonVar =
 
 [
     {
+        "id": "87",
+        "text": "AI controls are coming to Firefox",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/blog.mozilla.org\/en\/firefox\/ai-controls\/",
+        "tag": "#Mozilla #Firefox #browser #app #software #web #internet",
+        "time": 1770295311,
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/news\/?id=87\"  title=\"id=87 (permanent link)\" >id<\/a>"
+    },
+    {
         "id": "86",
         "text": "Gemini 3: Introducing the latest Gemini AI model from Google",
         "text2": "",

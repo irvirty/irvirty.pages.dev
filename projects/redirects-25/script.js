@@ -1,4 +1,4 @@
-// Search redirect v.2.15.4
+// Search redirect v.2.15.5
 // Search query + command
 // Example: "text goo" or "text google", "text bin" or "text bing"
 
@@ -337,6 +337,7 @@ break;
 
 
 case "bluesky#":
+case "bsky#":
 case "bs#":
 case "blu#":
 q = q3.replace(qCom, '');
