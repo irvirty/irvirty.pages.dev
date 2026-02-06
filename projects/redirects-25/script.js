@@ -2104,7 +2104,6 @@ break;
 
 
 case "qq#":
-case "ql#":
 case "qd#":
 q = q3.replace(qCom, '');
 q = q.trim();
@@ -2466,6 +2465,7 @@ sRedirectUrl = url;
 break;
 
 
+case "ql#":
 case "qs#":
 q = q3.replace(qCom, '');
 q = q.trim();

@@ -283,6 +283,7 @@ window.location.href = window.location.href + '#StopRedirect';
 break;
 
 
+case 'ql#':
 case 'qs#':
 q = q3.replace(qCom, '');
 q = q.trim();
