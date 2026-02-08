@@ -9,7 +9,7 @@
 
 :root{
 /* .brand - link, accent color (red, orange, yellow, green, blue, indigo, violet) */
---brandColor: color-mix(in srgb, var(--blue) 70%, var(--blue2));
+--brandColor: color-mix(in srgb, var(--blue) 70%, var(--blue));
 
 --brand: color-mix(in srgb, var(--brandColor) 70%, var(--c4));
 --brand2: color-mix(in srgb, var(--brandColor) 35%, var(--c4));

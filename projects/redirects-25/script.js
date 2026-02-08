@@ -1,4 +1,4 @@
-// Search redirect v.2.15.5
+// Search redirect v.2.15.6
 // Search query + command
 // Example: "text goo" or "text google", "text bin" or "text bing"
 
@@ -1957,52 +1957,17 @@ sRedirectUrl = url;
 break;
 
 
-case "ducd#":
+case "ecosia#":
+case "eco#":
 q = q3.replace(qCom, '');
 q = q.trim();
 q = encodeURIComponent(q);
 urlList = [
-"https://duckduckgo.com/?q=" + q + "&df=d",
+"https://www.ecosia.org/search?q=" + q,
 ];
 if (q == ""){
 urlList = [
-"https://duckduckgo.com/",
-];
-}
-random = urlList[fuMRandom(0, urlList.length - 1)];
-url = random;
-sRedirectUrl = url;
-break;
-
-
-case "ducw#":
-q = q3.replace(qCom, '');
-q = q.trim();
-q = encodeURIComponent(q);
-urlList = [
-"https://duckduckgo.com/?q=" + q + "&df=w",
-];
-if (q == ""){
-urlList = [
-"https://duckduckgo.com/",
-];
-}
-random = urlList[fuMRandom(0, urlList.length - 1)];
-url = random;
-sRedirectUrl = url;
-break;
-
-
-case "ducm#":
-q = q3.replace(qCom, '');
-q = q.trim();
-q = encodeURIComponent(q);
-urlList = [
-"https://duckduckgo.com/?q=" + q + "&df=m",
-];
-if (q == ""){
-urlList = [
-"https://duckduckgo.com/",
+"https://www.ecosia.org/",
 ];
 }
 random = urlList[fuMRandom(0, urlList.length - 1)];
@@ -2018,60 +1983,6 @@ q = q.trim();
 q = encodeURIComponent(q);
 urlList = [
 "https://search.yahoo.com/search/?p=" + q,
-];
-if (q == ""){
-urlList = [
-"https://search.yahoo.com/",
-];
-}
-random = urlList[fuMRandom(0, urlList.length - 1)];
-url = random;
-sRedirectUrl = url;
-break;
-
-
-case "yahd#":
-q = q3.replace(qCom, '');
-q = q.trim();
-q = encodeURIComponent(q);
-urlList = [
-"https://search.yahoo.com/search/?p=" + q + "&btf=d",
-];
-if (q == ""){
-urlList = [
-"https://search.yahoo.com/",
-];
-}
-random = urlList[fuMRandom(0, urlList.length - 1)];
-url = random;
-sRedirectUrl = url;
-break;
-
-
-case "yahw#":
-q = q3.replace(qCom, '');
-q = q.trim();
-q = encodeURIComponent(q);
-urlList = [
-"https://search.yahoo.com/search/?p=" + q + "&btf=w",
-];
-if (q == ""){
-urlList = [
-"https://search.yahoo.com/",
-];
-}
-random = urlList[fuMRandom(0, urlList.length - 1)];
-url = random;
-sRedirectUrl = url;
-break;
-
-
-case "yahm#":
-q = q3.replace(qCom, '');
-q = q.trim();
-q = encodeURIComponent(q);
-urlList = [
-"https://search.yahoo.com/search/?p=" + q + "&btf=m",
 ];
 if (q == ""){
 urlList = [
@@ -2368,7 +2279,6 @@ urlList = [
 "https://search.seznam.cz/?q=" + q,
 //"https://mwmbl.org/?q=" + q,
 "https://www.mojeek.com/search?q=" + q,
-//"https://duckduckgo.com/" + q,
 ];
 if (q == ""){
 urlList = [
@@ -2376,7 +2286,6 @@ urlList = [
 "https://search.seznam.cz/",
 //"https://mwmbl.org/",
 "https://www.mojeek.com/",
-//"https://duckduckgo.com/",
 ];
 }
 random = urlList[fuMRandom(0, urlList.length - 1)];
