@@ -3,7 +3,7 @@
 <!--https://stackoverflow.com/questions/61071158/add-image-with-link-in-githubs-readme-md#-->
 [![banner](/img/github-banner-settings.png)](/img/screenshot.png)
   
-🏠📂 Homepage, Startpage and Projects. Search redirect, links, news, games, music collection, images, microblog, to-do list, tools, browser themes and extensions, WP theme, site templates, icons ...
+🏠📂 Homepage and Projects. Search redirect, links, news, games, music collection, images, microblog, to-do list, tools, browser themes and extensions, WP theme, site templates, icons ...
   
 ---
   
