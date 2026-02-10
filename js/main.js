@@ -8,6 +8,7 @@ var conf = [];
 
 conf["confGoogleAnalyticsId"] = "G-RQJTJG7DF9";
 conf["confUsername"] = "irvirty"; // only in some places
+conf["confUsername"] = "irvirty"; // only in some places
 conf["confUsernameUpper"] = fuMCapitalizeFirstLetter(conf["confUsername"]);
 conf["confWebsiteUrl"] = "irvirty.pages.dev";
 
@@ -516,7 +517,7 @@ document.getElementById("footer").innerHTML = `
 <a id="fSettings" class="brand inlineBlock padding" title="Settings" href="${confD}pages/settings/">Settings</a>
 <span class="op gray">|</span>
 
-<a class="brand inlineBlock padding" title="Social network" href="https://bsky.app/profile/${conf["confUsername"]}.pages.dev">Bluesky</a>
+<a class="brand inlineBlock padding" title="Social network" href="https://nostter.app/npub17ha3jmkrz767kgda656ql6qqquzvm0ath2872mxaa6547w4gcvys8eu8th">Nostter</a>
 <span class="op gray">|</span>
 
 <a class="brand inlineBlock padding" title="RSS News" href="${confD}rss.xml">RSS</a>
