@@ -1,4 +1,4 @@
-// Search redirect v.2.15.6
+// Search redirect v.2.15.7
 // Search query + command
 // Example: "text goo" or "text google", "text bin" or "text bing"
 
@@ -586,17 +586,20 @@ break;
 
 
 case "s#":
+case "soc#":
 q = q3.replace(qCom, '');
 q = q.trim();
 q = encodeURIComponent(q);
 urlList = [
-"https://bsky.app/search?q=" + q,
+//"https://bsky.app/search?q=" + q,
 "https://wordpress.com/reader/search?q=" + q,
+//"https://nostter.app/search?q=" + q + "&proxy=on",
 ];
 if (q == ""){
 urlList = [
-"https://bsky.app/",
+//"https://bsky.app/",
 "https://wordpress.com/reader/",
+//"https://nostter.app/",
 ];
 }
 random = urlList[fuMRandom(0, urlList.length - 1)];
@@ -610,13 +613,15 @@ q = q3.replace(qCom, '');
 q = q.trim();
 q = encodeURIComponent(q);
 urlList = [
-"https://bsky.app/hashtag/" + q,
+//"https://bsky.app/hashtag/" + q,
 "https://wordpress.com/tag/" + q,
+//"https://nostter.app/search?q=" + q + "&proxy=on",
 ];
 if (q == ""){
 urlList = [
-"https://bsky.app/",
+//"https://bsky.app/",
 "https://wordpress.com/reader/",
+//"https://nostter.app/",
 ];
 }
 random = urlList[fuMRandom(0, urlList.length - 1)];
