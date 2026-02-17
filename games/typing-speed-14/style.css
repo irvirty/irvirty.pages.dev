@@ -1,13 +1,13 @@
 /* v.1.1.25 */
 
 :root {
---typingFont: 1.188em;
+--typingFont: large;
 }
 
 .result, textarea, #statTopWpm {
 margin: 0 auto;
 font-size: 120%;
-font-size: 1.3em; font-size: 1.125em; font-size: medium; font-size: medium; font-size: 1.25em; font-size: 1.188em; font-size: var(--typingFont);
+font-size: var(--typingFont);
 padding: 0 9px;
 }
 
