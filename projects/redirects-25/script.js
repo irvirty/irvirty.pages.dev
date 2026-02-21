@@ -1471,6 +1471,7 @@ sRedirectUrl = url;
 break;
 
 
+case "tvv#":
 case "tv2#":
 case "kick#":
 q = q3.replace(qCom, '');
