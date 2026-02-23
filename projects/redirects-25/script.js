@@ -593,12 +593,12 @@ q = q.trim();
 q = encodeURIComponent(q);
 urlList = [
 "https://wordpress.com/reader/search?q=" + q,
-"https://www.tumblr.com/search/" + q,
+//"https://www.tumblr.com/search/" + q,
 ];
 if (q == ""){
 urlList = [
 "https://wordpress.com/reader/",
-"https://www.tumblr.com/",
+//"https://www.tumblr.com/",
 ];
 }
 random = urlList[fuMRandom(0, urlList.length - 1)];
@@ -613,12 +613,12 @@ q = q.trim();
 q = encodeURIComponent(q);
 urlList = [
 "https://wordpress.com/tag/" + q,
-"https://www.tumblr.com/tagged/" + q,
+//"https://www.tumblr.com/tagged/" + q,
 ];
 if (q == ""){
 urlList = [
 "https://wordpress.com/reader/",
-"https://www.tumblr.com/",
+//"https://www.tumblr.com/",
 ];
 }
 random = urlList[fuMRandom(0, urlList.length - 1)];

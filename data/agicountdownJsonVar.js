@@ -3,6 +3,16 @@ var agicountdownJsonVar =
 
 [
     {
+        "id": "23",
+        "text": "When Will Weakly General AI Arrive?",
+        "text2": "2028",
+        "text3": "",
+        "url": "https:\/\/www.metaculus.com\/questions\/3479\/date-weakly-general-ai-is-publicly-known\/#2",
+        "tag": "#poll",
+        "time": 1771765063,
+        "rightFooter": ""
+    },
+    {
         "id": "21",
         "text": "Singularity Predictions 2026 : r\/singularity",
         "text2": "2028 2023 2027 2028 2028 2029 2030 2027 2025 2030 2028 2030 2026",
