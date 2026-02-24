@@ -1,4 +1,4 @@
-// Search redirect v.2.15.7
+// Search redirect v.2.15.8
 // Search query + command
 // Example: "text goo" or "text google", "text bin" or "text bing"
 
@@ -1511,8 +1511,7 @@ sRedirectUrl = url;
 break;
 
 
-case "bb#":
-case "bblo#":
+case "blo#":
 q = q3.replace(qCom, '');
 q = q.trim();
 q = encodeURIComponent(q);
@@ -1902,12 +1901,49 @@ sRedirectUrl = url;
 break;
 
 
+case "bd#":
 case "binn#":
 q = q3.replace(qCom, '');
 q = q.trim();
 q = encodeURIComponent(q);
 urlList = [
 "https://www.bing.com/search?q=" + q + "&filters=ex1%3a%22ez1%22&form=somesite",
+];
+if (q == ""){
+urlList = [
+"https://www.bing.com/",
+];
+}
+random = urlList[fuMRandom(0, urlList.length - 1)];
+url = random;
+sRedirectUrl = url;
+break;
+
+
+case "bw#":
+q = q3.replace(qCom, '');
+q = q.trim();
+q = encodeURIComponent(q);
+urlList = [
+"https://www.bing.com/search?q=" + q + "&filters=ex1%3a%22ez2%22&form=somesite",
+];
+if (q == ""){
+urlList = [
+"https://www.bing.com/",
+];
+}
+random = urlList[fuMRandom(0, urlList.length - 1)];
+url = random;
+sRedirectUrl = url;
+break;
+
+
+case "bm#":
+q = q3.replace(qCom, '');
+q = q.trim();
+q = encodeURIComponent(q);
+urlList = [
+"https://www.bing.com/search?q=" + q + "&filters=ex1%3a%22ez3%22&form=somesite",
 ];
 if (q == ""){
 urlList = [
