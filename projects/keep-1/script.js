@@ -1244,12 +1244,12 @@ tagSize = "xx-large";
 break;
 
 case tagPercentage >= 300:
-tagColor = "orange";
+tagColor = "yellow";
 tagSize = "x-large";
 break;
 
 case tagPercentage >= 250:
-tagColor = "yellow";
+tagColor = "orange";
 tagSize = "large";
 break;
 
