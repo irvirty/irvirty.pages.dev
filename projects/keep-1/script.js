@@ -1,4 +1,4 @@
-// Keep v.4.70
+// Keep v.4.8.0
 // The static version of my offline "keep" PHP script that saves things (links, notes, etc).
 // Inspired by Twitter, Google Keep
 // Not for large data files.
@@ -1181,6 +1181,7 @@ var tagTotal = 0;
 // make uniq and count, object
 var tagListCount = {};
 tagList2.forEach(function (x) {
+x = x.trim();
 if (x != null&&x != ''){
 tagListCount[x] = (tagListCount[x] || 0) + 1;
 }
@@ -1193,7 +1194,7 @@ tagListCount[x] = (tagListCount[x] || 0) + 1;
 // sort object by value
 let entries = Object.entries(tagListCount);
 let tagListCountSorted = entries.sort((a, b) => a[1] - b[1]);
-//test delme tagListCountSorted.reverse();
+tagListCountSorted.reverse();
 
 
 // Taglist limit (cut array) with sorted tag and convert to old object, sorted previos

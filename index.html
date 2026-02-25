@@ -234,7 +234,7 @@ getBanner();
 <span class="xSmall">Site update: <span class="brand" id="last-update"></span></span>
 </summary>
 <div class="wrapperSmall small inlineBlock padding2 pre bg shadow borderRadius2 tLeft">
-Trying to fix sorting in tag cloud
+Trying to fix sorting in the tag cloud if the tag has a line break.
 
 <a class="brand inlineBlock w100 padding2 small tCenter border2 light borderRadius2" href="./pages/updates/" title="Update Log">more</a>
 </div>
@@ -414,7 +414,7 @@ document.getElementById(q).focus();
 </noscript>
 <div class="padding2 margin2"></div>
 
-<!-- tag cloud 1.0.0 -->
+<!-- tag cloud 1.2.0 -->
 <aside>
 <div class="wrapper2 tCenter">
 
@@ -626,12 +626,13 @@ let size = '';
 
 //tagList = '';
 
+tagCloudData = tagCloudData.replaceAll(`
+`, confSymbolForSplit);
+tagCloudData = tagCloudData.replace(/(?:\[rn])+/g, confSymbolForSplit);
 
 if (tagCloudData.indexOf(',') != -1){
-tagCloudData = tagCloudData.replace(/(?:\[rn])+/g, ",");
 tagCloudData = tagCloudData.replaceAll(',', confSymbolForSplit);
 } else {
-tagCloudData = tagCloudData.replace(/(?:\[rn])+/g, " ");
 tagCloudData = tagCloudData.replaceAll(' ', confSymbolForSplit);
 }
 
@@ -655,6 +656,7 @@ var tagTotal = 0;
 // make uniq and count, object
 var tagListCount = {};
 tagCloudData.forEach(function (x) {
+x = x.trim();
 if (x != null&&x != ''){
 tagListCount[x] = (tagListCount[x] || 0) + 1;
 }
@@ -667,7 +669,7 @@ tagListCount[x] = (tagListCount[x] || 0) + 1;
 // sort object by value
 let entries = Object.entries(tagListCount);
 let tagListCountSorted = entries.sort((a, b) => a[1] - b[1]);
-//test delme tagListCountSorted.reverse();
+tagListCountSorted.reverse();
 
 
 // Taglist limit (cut array) with sorted tag and convert to old object, sorted previos

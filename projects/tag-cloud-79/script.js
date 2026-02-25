@@ -1,4 +1,4 @@
-// v.1.1.0
+// v.1.2.0
 
 
 // other functions keep
@@ -46,6 +46,7 @@ var tagTotal = 0;
 // make uniq and count, object
 var tagListCount = {};
 tagCloudData.forEach(function (x) {
+x = x.trim();
 if (x != null&&x != ''){
 tagListCount[x] = (tagListCount[x] || 0) + 1;
 }
