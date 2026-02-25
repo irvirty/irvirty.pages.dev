@@ -234,7 +234,7 @@ getBanner();
 <span class="xSmall">Site update: <span class="brand" id="last-update"></span></span>
 </summary>
 <div class="wrapperSmall small inlineBlock padding2 pre bg shadow borderRadius2 tLeft">
-An attempt to change the social network.
+Trying to fix sorting in tag cloud
 
 <a class="brand inlineBlock w100 padding2 small tCenter border2 light borderRadius2" href="./pages/updates/" title="Update Log">more</a>
 </div>
@@ -315,7 +315,7 @@ return time + ' ago';
 window.addEventListener("load", myInitFunctionUpdate);
 function myInitFunctionUpdate(){
 if (document.getElementById("last-update") != null){
-document.getElementById("last-update").innerHTML = fuPostTime(1770727612);
+document.getElementById("last-update").innerHTML = fuPostTime(1772019891);
 }
 }
 </script>
@@ -626,16 +626,17 @@ let size = '';
 
 //tagList = '';
 
-tagCloudData = tagCloudData.replaceAll(`
-`, confSymbolForSplit);
-tagCloudData = tagCloudData.replaceAll('·', "");
-tagCloudData = tagCloudData.replaceAll('.', " ");
 
 if (tagCloudData.indexOf(',') != -1){
+tagCloudData = tagCloudData.replace(/(?:\[rn])+/g, ",");
 tagCloudData = tagCloudData.replaceAll(',', confSymbolForSplit);
 } else {
+tagCloudData = tagCloudData.replace(/(?:\[rn])+/g, " ");
 tagCloudData = tagCloudData.replaceAll(' ', confSymbolForSplit);
 }
+
+tagCloudData = tagCloudData.replaceAll('·', "");
+tagCloudData = tagCloudData.replaceAll('.', " ");
 
 tagCloudData = tagCloudData.split(confSymbolForSplit);
 
@@ -666,7 +667,7 @@ tagListCount[x] = (tagListCount[x] || 0) + 1;
 // sort object by value
 let entries = Object.entries(tagListCount);
 let tagListCountSorted = entries.sort((a, b) => a[1] - b[1]);
-tagListCountSorted.reverse();
+//test delme tagListCountSorted.reverse();
 
 
 // Taglist limit (cut array) with sorted tag and convert to old object, sorted previos

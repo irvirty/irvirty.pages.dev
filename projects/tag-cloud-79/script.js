@@ -19,7 +19,8 @@ let tagList = "";
 /*tagCloudData = tagCloudData.toLowerCase();
 confSymbolForSplit = confSymbolForSplit.toLowerCase();*/
 
-tagCloudData = tagCloudData.replaceAll(/(?:\r\n|\r|\n)/g, ' ');
+//tagCloudData = tagCloudData.replaceAll(/(?:\r\n|\r|\n)/g, ' ');
+tagCloudData = tagCloudData.replace(/(?:\\[rn])+/g, " ");
 tagCloudData = tagCloudData.replaceAll(/,/g, confSymbolForSplit);
 tagCloudData = tagCloudData.replaceAll(/ /g, confSymbolForSplit);
 tagCloudData = tagCloudData.replaceAll('·', '');
@@ -57,7 +58,7 @@ tagListCount[x] = (tagListCount[x] || 0) + 1;
 // sort object by value
 let entries = Object.entries(tagListCount);
 let tagListCountSorted = entries.sort((a, b) => a[1] - b[1]);
-tagListCountSorted.reverse();
+//test delme tagListCountSorted.reverse();
 
 
 // Taglist limit (cut array) with sorted tag and convert to old object, sorted previos
