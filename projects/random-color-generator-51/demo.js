@@ -215,7 +215,10 @@ if (document.getElementById("result") != null){
 
 let n = 0;
 while (n <= lLimit) {
+
+if (q != ""&&q!= null &&q != undefined){
 randColor = fuRandomColorGenerator(q);
+}
 
 print = `
 

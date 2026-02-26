@@ -5,11 +5,15 @@ function fuRandomColorGenerator(colorListCommaSeparator){
 
 var delimiter = [",", " ", "\r\n", "\r", "\n", "<", ">", "'", '"'];
 
+if (colorListCommaSeparator != undefined){
 colorListCommaSeparator = colorListCommaSeparator.replaceAll(" ", ",");
 colorListCommaSeparator = colorListCommaSeparator.replaceAll(",,", ",");
 colorListCommaSeparator = colorListCommaSeparator.replaceAll(" ", ",");
+}
 delimiter.forEach((value) => {
+if (colorListCommaSeparator != undefined&&value != undefined){
 colorListCommaSeparator = colorListCommaSeparator.replaceAll(value, ",");
+}
 });
 
 //rm empty
@@ -18,7 +22,9 @@ let colorListCommaSeparator2 = '';
 //https://stackoverflow.com/questions/822452/strip-html-tags-from-text-using-plain-javascript
 value = fuMClearText(value);
 //https://stackoverflow.com/questions/23476532/check-if-string-contains-only-letters-in-javascript
+if (value != undefined){
 if (value.trim() != ''/*&&!/[^a-zA-Z]/.test(value)*/){ colorListCommaSeparator2 += value.trim() + ','; }
+}
 });
 colorListCommaSeparator = colorListCommaSeparator2.slice(0, -1);
 let lColorList = colorListCommaSeparator.split(",");
