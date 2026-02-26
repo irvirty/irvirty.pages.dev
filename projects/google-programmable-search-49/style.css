@@ -87,7 +87,7 @@ box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
 }
 
 .gsc-search-button, .gsc-selected-option-container.gsc-inline-block {
-min-width: 80px;
+min-width: 100%;
 }
 
 .gsc-control-cse,
@@ -119,7 +119,7 @@ box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
 
 .gsc-orderby-label,
 .gsc-result-info {
-color: var(--c3) !important;
+color: var(--c2) !important;
 }
 
 .gsc-above-wrapper-area {
@@ -272,4 +272,33 @@ margin-top: var(--margin2) !important;
   display: inline-block;
   margin: 5px;
   padding: 5px;
+}
+
+.gsc-tabsArea {
+display: grid;
+grid-template-columns: 1fr 1fr;
+}
+
+.gsc-inline-block {
+display: inline-block !important;
+padding: 0 !important; margin: 0 !important;
+}
+
+.gsc-tabHeader.gsc-tabhActive, .gsc-tabHeader.gsc-tabhInactive {
+background-color: var(--d) !important;
+border-bottom: 3px solid var(--brand) !important;
+color: var(--c3) !important;
+}
+
+.gsc-tabHeader.gsc-tabhInactive {
+border-bottom: 3px solid var(--d4) !important;
+color: var(--brand) !important;
+}
+
+.gsc-results .gsc-cursor-box .gsc-cursor-page {
+background-color: var(--l3) !important;
+}
+
+.gsc-results .gsc-cursor-box .gsc-cursor-page:hover {
+background-color: var(--l4) !important;
 }
