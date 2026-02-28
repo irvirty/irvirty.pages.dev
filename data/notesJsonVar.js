@@ -3,6 +3,16 @@ var notesJsonVar =
 
 [
     {
+        "id": "122",
+        "text": "Element: setHTML() method - Web APIs | MDN",
+        "text2": "===\r\nconst target = document.getElementById(\"target\");\r\n\r\n\/\/ setHTML() with default sanitizer\r\ntarget.setHTML(unsanitizedString);",
+        "text3": "",
+        "url": "https:\/\/developer.mozilla.org\/en-US\/docs\/Web\/API\/Element\/setHTML",
+        "tag": "#JavaScript #JS #code",
+        "time": 1772187295,
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/notes\/?id=122\"  title=\"id=122 (permanent link)\" >id<\/a>"
+    },
+    {
         "id": "121",
         "text": "Can I turn off the tab groups? | Firefox Support Forum | Mozilla Support",
         "text2": "===\r\n browser.tabs.groups.enabled\r\n\r\nIf the value is set to true, toggle it to false",

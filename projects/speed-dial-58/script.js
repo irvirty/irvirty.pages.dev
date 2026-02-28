@@ -58,7 +58,7 @@ fPinButton = `<a title="Remove page from speed dial" id="mPin" class="inlineBloc
 });
 
 if (document.getElementById("fPinButton") != null){
-document.getElementById("fPinButton").innerHTML = fPinButton; 
+document.getElementById("fPinButton").innerHTML = fPinButton;
 }
 // // pin button and status
 
