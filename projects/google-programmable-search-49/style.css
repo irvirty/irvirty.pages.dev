@@ -35,6 +35,7 @@ max-width: 100% !important;
 
 .gsc-control-cse {
 border: 1px solid transparent !important;
+padding: 0px !important;
 }
 
 
@@ -281,17 +282,18 @@ grid-template-columns: 1fr 1fr;
 
 .gsc-inline-block {
 display: inline-block !important;
-padding: 0 !important; margin: 0 !important;
+padding: var(--padding) !important; margin: 0 !important;
 }
 
 .gsc-tabHeader.gsc-tabhActive, .gsc-tabHeader.gsc-tabhInactive {
-background-color: var(--d) !important;
+background-color: var(--l2) !important;
 border-bottom: 3px solid var(--brand) !important;
 color: var(--c3) !important;
 }
 
 .gsc-tabHeader.gsc-tabhInactive {
-border-bottom: 3px solid var(--d4) !important;
+background-color: var(--l) !important;
+border-bottom: 3px solid var(--d) !important;
 color: var(--brand) !important;
 }
 
@@ -302,3 +304,5 @@ background-color: var(--l3) !important;
 .gsc-results .gsc-cursor-box .gsc-cursor-page:hover {
 background-color: var(--l4) !important;
 }
+
+.gsc-tabsArea { margin: 0 !important; }
