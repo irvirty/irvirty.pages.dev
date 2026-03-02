@@ -3,6 +3,86 @@ var musicJsonVar =
 
 [
     {
+        "id": "6793",
+        "text": "Jain, Solomun - Tout le monde est fou (Official Video) - YouTube",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=oKg125fcMH8",
+        "tag": "#music",
+        "time": 1772463488,
+        "rightFooter": ""
+    },
+    {
+        "id": "6792",
+        "text": "Jain - Oh Man (Official Lyric Video) - YouTube",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=laov59vIvEs",
+        "tag": "#music",
+        "time": 1772463376,
+        "rightFooter": ""
+    },
+    {
+        "id": "6791",
+        "text": "Jain - On My Way (Official Lyric Video) - YouTube",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=-Npr_8FtQzM",
+        "tag": "#music",
+        "time": 1772463327,
+        "rightFooter": ""
+    },
+    {
+        "id": "6790",
+        "text": "Jain - Star (Lyrics Video) - YouTube",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=9ED6U14NkPU",
+        "tag": "#music",
+        "time": 1772463306,
+        "rightFooter": ""
+    },
+    {
+        "id": "6789",
+        "text": "Jain - Flash (Pointe-Noire) (Lyrics Video) - YouTube",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=SHGhmC2-Uvc",
+        "tag": "#music",
+        "time": 1772463183,
+        "rightFooter": ""
+    },
+    {
+        "id": "6788",
+        "text": "Kanye West - Gold Digger ft. Jamie Foxx - YouTube",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=6vwNcNOTVzY",
+        "tag": "#music",
+        "time": 1772385908,
+        "rightFooter": ""
+    },
+    {
+        "id": "6787",
+        "text": "DIE ANTWOORD - DADDY (Official Audio) - YouTube",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=XjNWlzJz2VA",
+        "tag": "#music",
+        "time": 1772379323,
+        "rightFooter": ""
+    },
+    {
+        "id": "6786",
+        "text": "Swedish House Mafia - One (Your Name) (Official Video) - YouTube",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=PkQ5rEJaTmk",
+        "tag": "#music",
+        "time": 1772379165,
+        "rightFooter": ""
+    },
+    {
         "id": "6780",
         "text": "Fever by Madam Snowflake (Official Lyric Video) - YouTube",
         "text2": "",
