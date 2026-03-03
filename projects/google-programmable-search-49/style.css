@@ -306,3 +306,12 @@ background-color: var(--l4) !important;
 }
 
 .gsc-tabsArea { margin: 0 !important; }
+
+
+.gsc-resultsRoot .gsc-results .gsc-cursor-box {
+margin: 0px !important;
+margin-top: var(--margin2) !important;
+}
+
+
+
