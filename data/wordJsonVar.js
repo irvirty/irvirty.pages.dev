@@ -913,6 +913,11 @@ var wordJsonVar =
         "text3": "bronce"
     },
     {
+        "text": "\u0431\u0440\u043e\u043d\u044c",
+        "text2": "reservation",
+        "text3": "reserva"
+    },
+    {
         "text": "\u0431\u0440\u043e\u043d\u044f",
         "text2": "armor",
         "text3": "armadura"
@@ -5706,11 +5711,6 @@ var wordJsonVar =
         "text": "\u043f\u043e\u0432\u043e\u0440\u043e\u0442",
         "text2": "turn",
         "text3": "torcer"
-    },
-    {
-        "text": "\u043f\u043e\u0432\u0456\u0442\u0440\u044f",
-        "text2": "air",
-        "text3": "aire"
     },
     {
         "text": "\u043f\u043e\u0433\u043e\u0434\u0430",
