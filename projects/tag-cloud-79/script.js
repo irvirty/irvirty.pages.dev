@@ -91,7 +91,7 @@ tagListCount = Object.keys(tagListCountLimited).sort().reduce(
 Object.values(tagListCount).forEach(function (x) {
 tagTotal = tagTotal + x;
 });
-tagAverage = tagTotal / Object.values(tagListCount).length;
+tagAverage = Math.floor(tagTotal / Object.values(tagListCount).length);
 
 var tagSize = '';
 var tagColor = '';
@@ -163,10 +163,10 @@ const [key, value] = entry;
 tag = key.trim();
 tagCount = value;
 
-fuTag(tagCount);
-
 
 if (tag != ""){
+fuTag(tagCount);
+
 let printTag = tag;
 let printTag2 = tag.replaceAll(/#/g, "");
 let goTag = encodeURIComponent(tag);
