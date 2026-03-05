@@ -1,4 +1,4 @@
-// v.1.2.0
+// v.1.3.0
 
 
 // other functions keep
@@ -59,7 +59,7 @@ tagListCount[x] = (tagListCount[x] || 0) + 1;
 // sort object by value
 let entries = Object.entries(tagListCount);
 let tagListCountSorted = entries.sort((a, b) => a[1] - b[1]);
-//test delme tagListCountSorted.reverse();
+tagListCountSorted.reverse();
 
 
 // Taglist limit (cut array) with sorted tag and convert to old object, sorted previos
