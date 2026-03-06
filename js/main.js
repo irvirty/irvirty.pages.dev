@@ -1,4 +1,4 @@
-// Main js v.7.3.3
+// Main js v.7.3.4
 // For second navigation, footer, themes, etc
 
 if (confD == undefined) { var confD = "/"; }
@@ -1421,12 +1421,14 @@ if (idOrClass != undefined&&idOrClass != null&&idOrClass != ""){
 
 if (document.getElementById(idOrClass) != null){
 document.getElementById(idOrClass).value = "";
+document.getElementById(idOrClass).focus();
 }
 
 var formClassList = document.getElementsByClassName(idOrClass);
 [...formClassList].forEach((val, index) => {
 //console.log(val + "=" + index);
 document.getElementsByClassName(idOrClass[index]).value = "";
+document.getElementsByClassName(idOrClass[index]).focus();
 });
 
 }
