@@ -1080,7 +1080,7 @@ print += `
 <div class="wrapperSmall">
 <form id="keepForm" method="GET" style="margin-top: 0px;" action="?">
 <label class="op inlineBlock tLeft xSmall padding1PxList" for="inputKeep">✪ Search:</label>
-<a class="padding floatRight gray xSmall notUnderline" style="padding-right: 0;" href="#clear" onclick="clearQ('inputKeep');return false;">[ X ]</a>
+<a class="padding floatRight gray xSmall notUnderline" style="padding-right: 0;" href="#clear" onclick="fuMResetForm('inputKeep');return false;">[ X ]</a>
 <input id="inputKeep" class="borderRadius" type="search" name="q"  autocomplete="off" placeholder="">
 
 <div style="display: grid; grid-template-columns: 1fr 1fr; grid-gap: 2px;">
@@ -2942,14 +2942,4 @@ rangeRedirectUrl += "&q=" + q
 window.location.replace(rangeRedirectUrl,);
 }
 }
-
-
-
-function clearQ(q){
-if (document.getElementById(q) != null){
-document.getElementById(q).value = "";
-document.getElementById(q).focus();
-}
-}
-
 
