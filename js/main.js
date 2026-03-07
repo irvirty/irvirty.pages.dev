@@ -1,4 +1,4 @@
-// Main js v.7.3.4
+// Main js v.7.3.5
 // For second navigation, footer, themes, etc
 
 if (confD == undefined) { var confD = "/"; }
@@ -190,7 +190,7 @@ conf["confMenuItems"] = [
 {"url":`${confD}games/`, "title":"Games", "text":"Games", "class":""},
 {"url":`${confD}projects/`, "title":"Projects", "text":"Projects", "class":""},
 {"url":`${confD}mini-projects/`, "title":"Mini projects", "text":"Mini projects", "class":""},
-//{"url":`${confD}pages/guestbook/`, "title":"Guestbook", "text":"Guestbook", "class":""},
+{"url":`${confD}pages/guestbook/`, "title":"Guestbook", "text":"Guestbook", "class":""},
 {"url":`${confD}pages/about/`, "title":"About page", "text":"About", "class":""},
 ];
 
@@ -517,7 +517,7 @@ document.getElementById("footer").innerHTML = `
 <a class="brand inlineBlock padding" title="RSS News" href="${confD}rss.xml">RSS</a>
 <span class="op gray">|</span>
 
-<a class="brand inlineBlock padding" title="Social network" href="https://${conf["confUsername"]}.wordpress.com/">WordPress</a>
+<a class="brand inlineBlock padding" title="Social network" href="https://${conf["confUsername"]}.wordpress.com/">WP Blog</a>
 <span class="op gray">|</span>
 
 <a class="brand inlineBlock padding" title="Source code (repository)" href="https://github.com/${conf["confUsername"]}/${conf["confWebsiteUrl"]}">Source Code</a>
