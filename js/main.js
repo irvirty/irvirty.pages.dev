@@ -1,4 +1,4 @@
-// Main js v.7.3.5
+// Main js v.7.3.6
 // For second navigation, footer, themes, etc
 
 if (confD == undefined) { var confD = "/"; }
@@ -166,7 +166,7 @@ function fuMCapitalizeFirstLetter(val) {
 
 
 // user name in titile
-if (conf["confUserNameInTitleStatus"] == "on"){
+if (conf["confDomainNameInTitleStatus"] == 'on'&&String(window.location.pathname) != "/"){
 if (document.getElementsByTagName('title')[0] != null){
 conf["confUserNameInTitle"] = ' / ' + conf["confUsernameUpper"];
 document.getElementsByTagName('title')[0].innerHTML += conf["confUserNameInTitle"];
