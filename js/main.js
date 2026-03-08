@@ -165,8 +165,8 @@ function fuMCapitalizeFirstLetter(val) {
 
 
 
-// user name in titile
-if (conf["confDomainNameInTitleStatus"] == 'on'&&String(window.location.pathname) != "/"){
+// username in titile
+if (conf["confUserNameInTitleStatus"] == 'on'&&String(window.location.pathname) != "/"){
 if (document.getElementsByTagName('title')[0] != null){
 conf["confUserNameInTitle"] = ' / ' + conf["confUsernameUpper"];
 document.getElementsByTagName('title')[0].innerHTML += conf["confUserNameInTitle"];
