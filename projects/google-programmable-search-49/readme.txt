@@ -30,6 +30,8 @@ Static:
 *.github.io/*
 *.gitlab.io/*
 *.neocities.org/*
++ NotStatic:
+*.is-local.org/*
 
 Social Network:
 *.bsky.app/*
