@@ -1,4 +1,4 @@
-// Search redirect v.2.15.8
+// Search redirect v.2.15.9
 // Search query + command
 // Example: "text goo" or "text google", "text bin" or "text bing"
 
@@ -1106,44 +1106,8 @@ sRedirectUrl = url;
 break;
 
 
-//hour
-case "yh#":
-q = q3.replace(qCom, '');
-q = q.trim();
-q = encodeURIComponent(q);
-urlList = [
-"https://www.youtube.com/results?search_query=" + q + "&sp=EggIARABGAJYAw%253D%253D",
-];
-if (q == ""){
-urlList = [
-"https://www.youtube.com/",
-];
-}
-random = urlList[fuMRandom(0, urlList.length - 1)];
-url = random;
-sRedirectUrl = url;
-break;
-
-
-case "yl#":
-q = q3.replace(qCom, '');
-q = q.trim();
-q = encodeURIComponent(q);
-urlList = [
-"https://www.youtube.com/results?search_query=" + q + "&sp=CAISBBABGAI%253D",
-];
-if (q == ""){
-urlList = [
-"https://www.youtube.com/",
-];
-}
-random = urlList[fuMRandom(0, urlList.length - 1)];
-url = random;
-sRedirectUrl = url;
-break;
-
-
 case "yd#":
+case "yl#":
 q = q3.replace(qCom, '');
 q = q.trim();
 q = encodeURIComponent(q);
