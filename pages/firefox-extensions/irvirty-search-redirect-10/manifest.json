@@ -1,8 +1,8 @@
 {
   "manifest_version": 3,
   "name": "Irvirty search redirect",
-  "version": "1.7.5",
-  "description": "URL irvirty.pages.dev/search/?q={searchTerms} as search engine.",
+  "version": "1.7.6",
+  "description": "URL irvirty.is-local.org/search/?q={searchTerms} as search engine.",
   
 "icons": {
   "512": "icon512x512.png"
@@ -12,8 +12,8 @@
   "chrome_settings_overrides": {
   "search_provider": {
     "name": "Irvirty",
-    "search_url": "https://irvirty.pages.dev/search/?q={searchTerms}",
-    "keyword": "@irvirty",
+    "search_url": "https://irvirty.is-local.org/search/?q={searchTerms}",
+    "keyword": "@irvi",
     "favicon_url": "icon512x512.png"
   }
 },
