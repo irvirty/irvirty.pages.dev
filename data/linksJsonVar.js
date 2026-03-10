@@ -3,6 +3,16 @@ var linksJsonVar =
 
 [
     {
+        "id": "363",
+        "text": "SearXNG instances",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/searx.space\/",
+        "tag": "#platform #search #engine #SearchEngine #tool #service",
+        "time": 1773147971,
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=363\"  title=\"id=363 (permanent link)\" >id<\/a>"
+    },
+    {
         "id": "362",
         "text": "Socialfolio",
         "text2": "",
