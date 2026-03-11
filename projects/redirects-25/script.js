@@ -1,4 +1,4 @@
-// Search redirect v.2.15.10
+// Search redirect v.2.15.11
 // Search query + command
 // Example: "text goo" or "text google", "text bin" or "text bing"
 
@@ -1241,7 +1241,27 @@ q = q.trim();
 q = encodeURIComponent(q);
 urlList = [
 "https://www.google.com/search?q=" + q + "&newwindow=1&tbm=vid&tbs=dur:l",
-"https://www.bing.com/videos/search?q=" + q + "&qft=+filterui:duration-long+filterui:videoage-lt43200&form=somesite",
+"https://www.bing.com/videos/search?q=" + q + "&qft=+filterui:duration-long&form=somesite",
+];
+if (q == ""){
+urlList = [
+"https://www.google.com/videohp",
+"https://www.bing.com/videos/",
+];
+}
+random = urlList[fuMRandom(0, urlList.length - 1)];
+url = random;
+sRedirectUrl = url;
+break;
+
+
+case "vl#":
+q = q3.replace(qCom, '');
+q = q.trim();
+q = encodeURIComponent(q);
+urlList = [
+"https://www.google.com/search?q=" + q + "&newwindow=1&tbm=vid&tbs=qdr:d",
+"https://www.bing.com/videos/search?q=" + q + "&qft=+filterui:videoage-lt1440&form=somesite",
 ];
 if (q == ""){
 urlList = [
@@ -1952,6 +1972,25 @@ urlList = [
 if (q == ""){
 urlList = [
 "https://duckduckgo.com/",
+];
+}
+random = urlList[fuMRandom(0, urlList.length - 1)];
+url = random;
+sRedirectUrl = url;
+break;
+
+
+case "perplexity#":
+case "per#":
+q = q3.replace(qCom, '');
+q = q.trim();
+q = encodeURIComponent(q);
+urlList = [
+"https://www.perplexity.ai/search/?q=" + q,
+];
+if (q == ""){
+urlList = [
+"https://www.perplexity.ai/",
 ];
 }
 random = urlList[fuMRandom(0, urlList.length - 1)];
