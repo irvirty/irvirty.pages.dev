@@ -1,16 +1,20 @@
 
 # Auto theme switcher
-This extension automatically sets your theme by syncing with your operating system's color scheme (dark/light mode) using the browser or following a custom time schedule.  
+Change the theme for day and night using time or automatic mode.  
 
-## Explanation:  
-1. Auto mode - depends on the browser color scheme.  
-2. Time mode - depending on the time.  
+## Description:
+This extension automatically sets your theme using the browser color scheme (light/dark) or following a custom time schedule.  
 
-## Warning:  
+## How to use:
+1. Select mode.  
+2. Choose themes for the day and a theme for the night.  
+3. Click the send button.  
+
+## Warning:
 1. Automatic mode works unstably if a dark theme is selected for day and a light theme for night.  
 2. Pressing the submit button is required.  
 
-## Recommendations:  
+## Recommendations:
 Use "Time" mode.
 
 ### Keywords:
