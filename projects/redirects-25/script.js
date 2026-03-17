@@ -2517,7 +2517,8 @@ sRedirectUrl = random;
 
 
 if (sRedirectUrl != ''&&sRedirectUrl != undefined&&sRedirectUrl != null){
-rUrlGet = fuMHideFileNameExt(sRedirectUrl);
+//fixme undefined rUrlGet = fuMHideFileNameExt(sRedirectUrl);
+rUrlGet = (sRedirectUrl);
 
 if (com == "on"){
 //location.href = "/projects/redirects-25/?rUrl="+sRedirectUrl;
