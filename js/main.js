@@ -1,4 +1,4 @@
-// Main js v.7.3.6
+// Main js v.7.3.7
 // For second navigation, footer, themes, etc
 
 if (confD == undefined) { var confD = "/"; }
@@ -1266,12 +1266,12 @@ return "on";
 
 
 
-// Hide page extenstion v.1.0.0
+// Hide page extenstion v.1.1.0
 // for fix PWA 404 page if no ext
 function fuMHideFileNameExt(url){
 var newUrl = url;
 if (conf["confHideLinkExt"] == "on"){
-if (newUrl != null&&newUrl != undefined){
+if (newUrl != null&&newUrl != undefined&&newUrl != "undefined"){
 if (url[0] == "/"||url[0] == "."/*||String(newUrl).indexOf(location.hostname) != -1*/){
 if (String(newUrl).indexOf("=http") == -1){
 var arr = (conf["confLinkExtList"]).split(',');
@@ -1279,7 +1279,7 @@ arr.forEach((element) => {
 newUrl = String(newUrl).replaceAll(element, '');
 });
 return newUrl;
-}
+} else { return url; }
 } else { return url; }
 } else { return url; }
 } else { return url; }

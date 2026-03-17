@@ -1,4 +1,4 @@
-// Search redirect v.2.15.11
+// Search redirect v.2.15.12
 // Search query + command
 // Example: "text goo" or "text google", "text bin" or "text bing"
 
@@ -2517,9 +2517,7 @@ sRedirectUrl = random;
 
 
 if (sRedirectUrl != ''&&sRedirectUrl != undefined&&sRedirectUrl != null){
-//fixme undefined rUrlGet = fuMHideFileNameExt(sRedirectUrl);
-rUrlGet = (sRedirectUrl);
-
+rUrlGet = fuMHideFileNameExt(sRedirectUrl);
 if (com == "on"){
 //location.href = "/projects/redirects-25/?rUrl="+sRedirectUrl;
 //location.href.replace(/projects/redirects-25/?rUrl="+sRedirectUrl,);
