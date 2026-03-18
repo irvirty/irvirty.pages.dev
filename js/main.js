@@ -514,27 +514,27 @@ document.getElementById("footer").innerHTML = `
 <a class="brand inlineBlock padding" style="padding-left: 0;" title="About" href="${confD}pages/about/">About</a>
 <span class="op gray">|</span>
 
-<a class="orange inlineBlock padding" title="RSS News" href="${confD}rss.xml">RSS</a>
+<a class="yellow inlineBlock padding" title="RSS News" href="${confD}rss.xml">RSS</a>
 <span class="op gray">|</span>
 
 <a class="brand inlineBlock padding" title="Social network" href="https://www.tumblr.com/${conf["confUsername"]}">Tumblr</a>
 <span class="op gray">|</span>
 
-<a class="green inlineBlock padding" title="Source code (repository)" href="https://github.com/${conf["confUsername"]}/${conf["confWebsiteUrl"]}">Source Code</a>
+<a class="brand inlineBlock padding" title="Source code (repository)" href="https://github.com/${conf["confUsername"]}/${conf["confWebsiteUrl"]}">Source Code</a>
 <span class="op gray">|</span>
 
 <a id="fSettings" class="brand inlineBlock padding" title="Settings" href="${confD}pages/settings/">Settings</a>
 <span class="op gray">|</span>
 
-<a id="fPrivacy" class="yellow inlineBlock padding" style="padding-right: 0;" title="Cookie Settings" href="${confD}pages/settings/#confDataCollection">Cookie: ${conf["confDataCollection"]}</a>
+<a id="fPrivacy" class="brand inlineBlock padding" style="padding-right: 0;" title="Cookie Settings" href="${confD}pages/settings/#confDataCollection">Cookie: ${conf["confDataCollection"]}</a>
 
 <br>
 
 <span class="op inlineBlock padding" style="padding-right: 0; padding-left: 0;" title="update"><!--2019-->© 2026 ${conf["confUsernameUpper"]}, License:</span> 
-<a class="indigo inlineBlock padding" style="padding-left: 0;" rel="license" title="Licenses for content" href="${confD}pages/about/#license">CC BY-SA 4.0 <sup>*</sup></a>
+<a class="brand inlineBlock padding" style="padding-left: 0;" rel="license" title="Licenses for content" href="${confD}pages/about/#license">CC BY-SA 4.0 <sup>*</sup></a>
 <span class="op gray">|</span>
 
-<span class="op inlineBlock padding" style="padding-right: 0;">Powered by</span> <a class="orange inlineBlock padding" style="padding-left: 0; padding-right: 0;"  href="https://pages.cloudflare.com/">Cloudflare Pages</a>
+<span class="op inlineBlock padding" style="padding-right: 0;">Powered by</span> <a class="brand inlineBlock padding" style="padding-left: 0; padding-right: 0;"  href="https://pages.cloudflare.com/">Cloudflare Pages</a>
 
 </div>
 </nav>
