@@ -1,5 +1,25 @@
 [
     {
+        "id": "163",
+        "text": "Microsoft Bing - Wikipedia",
+        "text2": "Microsoft Bing (also known simply as Bing) is a search engine owned and operated by Microsoft, and developed by Microsoft AI. The service traces its roots back to Microsoft's earlier search engines, including MSN Search, Windows Live Search, and Live Search. Bing offers a broad spectrum of search services, encompassing web, video, image, and map search products, all developed using ASP.NET.",
+        "text3": "",
+        "url": "https:\/\/en.wikipedia.org\/wiki\/Microsoft_Bing",
+        "tag": "#technology #search #SearchEngine #platform #web #internet",
+        "time": 1773845373,
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/wiki\/?id=163\"  title=\"id=163 (permanent link)\" >id<\/a>"
+    },
+    {
+        "id": "162",
+        "text": "Google Search - Wikipedia",
+        "text2": "Google Search (also known simply as Google or google.com) is a search engine operated by Google. It allows users to search for information on the Web by entering keywords or phrases. Google Search uses algorithms to analyze and rank websites based on their relevance to the search query. Google Search is the most-visited website in the world. As of 2025, Google Search has a 90% share of the global search engine market.[3] Approximately 24.1% of Google's monthly global traffic comes from the United States, 5.6% from India, 5.5% from Japan, 4.8% from Brazil, and 3.7% from the United Kingdom according to data provided by Similarweb. The same source reports that 58% of users are male and 42% are female.[4]",
+        "text3": "",
+        "url": "https:\/\/en.wikipedia.org\/wiki\/Google_Search",
+        "tag": "#technology #search #SearchEngine #platform #web #internet",
+        "time": 1773845335,
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/wiki\/?id=162\"  title=\"id=162 (permanent link)\" >id<\/a>"
+    },
+    {
         "id": "154",
         "text": "Tablet computer - Wikipedia",
         "text2": "A tablet computer, commonly shortened to tablet or simply tab, is a mobile device, typically with a mobile operating system and touchscreen display processing circuitry, and a rechargeable battery in a single, thin and flat package. Tablets, being computers, have similar capabilities, but lack some input\/output (I\/O) abilities that others have. Modern tablets are based on smartphones, the only differences being that tablets are relatively larger than smartphones, with screens 7 inches (18 cm) or larger, measured diagonally,[1][2][3][4] and may not support access to a cellular network. Unlike laptops (which have traditionally run off operating systems usually designed for desktops), tablets usually run mobile operating systems, alongside smartphones.",
