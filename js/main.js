@@ -1,4 +1,4 @@
-// Main js v.7.3.7
+// Main js v.7.4.0
 // For second navigation, footer, themes, etc
 
 if (confD == undefined) { var confD = "/"; }
@@ -1266,13 +1266,13 @@ return "on";
 
 
 
-// Hide page extenstion v.1.1.0
+// Hide file extension v.1.1.0
 // for fix PWA 404 page if no ext
 function fuMHideFileNameExt(url){
 var newUrl = url;
 if (conf["confHideLinkExt"] == "on"){
 if (newUrl != null&&newUrl != undefined&&newUrl != "undefined"){
-if (url[0] == "/"||url[0] == "."/*||String(newUrl).indexOf(location.hostname) != -1*/){
+if (url[0] == "/"||url[0] == "."||url[0] == "i"&&url[1] == "n"&&url[2] == "d"/*||String(newUrl).indexOf(location.hostname) != -1*/){
 if (String(newUrl).indexOf("=http") == -1){
 var arr = (conf["confLinkExtList"]).split(',');
 arr.forEach((element) => {
@@ -1291,6 +1291,8 @@ return newUrl;
 function fuMHideFileNameExt2(){
 
 if (conf["confHideLinkExt"] == "on"){
+if (url[0] == "/"||url[0] == "."||url[0] == "i"&&url[1] == "n"&&url[2] == "d"/*||String(newUrl).indexOf(location.hostname) != -1*/){
+
 //document.addEventListener("DOMContentLoaded", (event) => {});
 var newUrl = '';
 
@@ -1372,8 +1374,9 @@ return document.querySelectorAll("iframe")[index].src = newUrl;
 });
 
 
-
 }
+}
+
 }
 
 //fuMHideFileNameExt2(); in embed, test delme
