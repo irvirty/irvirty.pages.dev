@@ -1,4 +1,4 @@
-// Search redirect v.2.15.12
+// Search redirect v.2.15.14
 // Search query + command
 // Example: "text goo" or "text google", "text bin" or "text bing"
 
@@ -1748,6 +1748,7 @@ break;
 case "gg#":
 case "gooo#":
 case "gd#":
+case "gl#":
 q = q3.replace(qCom, '');
 q = q.trim();
 q = encodeURIComponent(q);
@@ -1886,6 +1887,7 @@ break;
 
 
 case "bd#":
+case "bl#":
 case "binn#":
 q = q3.replace(qCom, '');
 q = q.trim();
