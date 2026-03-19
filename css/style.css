@@ -7,6 +7,20 @@ font-display: swap;
 }
 
 /* Navigation CSS v.3.2.1 */
+.navMenu a,
+.navMenu2 a {
+text-decoration: 1px underline dashed var(--brand);
+text-underline-offset: 4px;
+}
+.navMenu a:hover,
+.navMenu2 a:hover {
+transition: 0.3s;
+text-decoration: 1px underline solid var(--brand);
+}
+.navMenuActive, .topNav [aria-current="page"] {
+text-decoration: 1px underline solid var(--c3) !important;
+color: var(--c3) !important;
+}
 
 .topNav form, .topNav input[type=search] { display: inline-block; }
 .topNav form { width: 100%; max-width: 115px; vertical-align: middle; }
@@ -181,20 +195,7 @@ text-align: left;
 }
 }
 
-.navMenu a,
-.navMenu2 a {
-text-decoration: 1px underline solid transparent;
-text-underline-offset: 4px;
-}
-.navMenu a:hover,
-.navMenu2 a:hover {
-transition: 0.3s;
-text-decoration: 1px underline solid var(--brand);
-}
-.navMenuActive, .topNav [aria-current="page"] {
-text-decoration: 1px underline solid var(--c3) !important;
-color: var(--c3) !important;
-}
+
 
 /*
 .logo, .logo2{
