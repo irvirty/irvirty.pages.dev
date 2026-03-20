@@ -1,4 +1,4 @@
-// Search redirect v.2.15.14
+// Search redirect v.2.15.15
 // Search query + command
 // Example: "text goo" or "text google", "text bin" or "text bing"
 
@@ -592,13 +592,15 @@ q = q3.replace(qCom, '');
 q = q.trim();
 q = encodeURIComponent(q);
 urlList = [
-"https://wordpress.com/reader/search?q=" + q,
+"https://bsky.app/search?q=" + q,
 "https://www.tumblr.com/search/" + q,
+"https://wordpress.com/reader/search?q=" + q,
 ];
 if (q == ""){
 urlList = [
-"https://wordpress.com/reader/",
+"https://bsky.app/",
 "https://www.tumblr.com/",
+"https://wordpress.com/reader/",
 ];
 }
 random = urlList[fuMRandom(0, urlList.length - 1)];
@@ -612,13 +614,15 @@ q = q3.replace(qCom, '');
 q = q.trim();
 q = encodeURIComponent(q);
 urlList = [
-"https://wordpress.com/tag/" + q,
+"https://bsky.app/hashtag/" + q,
 "https://www.tumblr.com/tagged/" + q,
+"https://wordpress.com/tag/" + q,
 ];
 if (q == ""){
 urlList = [
-"https://wordpress.com/reader/",
+"https://bsky.app/",
 "https://www.tumblr.com/",
+"https://wordpress.com/reader/",
 ];
 }
 random = urlList[fuMRandom(0, urlList.length - 1)];
