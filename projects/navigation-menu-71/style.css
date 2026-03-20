@@ -4,13 +4,13 @@
 
 /* Navigation CSS v.3.2.1 */
 
-.navMenu a,
-.navMenu2 a {
+.navMenu a:not(#dropdownMenuButton),
+.navMenu2 a:not(#dropdownMenuButton) {
 text-decoration: 1px underline dashed var(--brand);
 text-underline-offset: 4px;
 }
-.navMenu a:hover,
-.navMenu2 a:hover {
+.navMenu a:hover:not(#dropdownMenuButton),
+.navMenu2 a:hover:not(#dropdownMenuButton) {
 transition: 0.3s;
 text-decoration: 1px underline solid var(--brand);
 }
