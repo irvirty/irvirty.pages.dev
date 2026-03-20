@@ -1,4 +1,4 @@
-// Main js v.7.4.0
+// Main js v.7.4.1
 // For second navigation, footer, themes, etc
 
 if (confD == undefined) { var confD = "/"; }
@@ -1291,7 +1291,7 @@ return newUrl;
 function fuMHideFileNameExt2(){
 
 if (conf["confHideLinkExt"] == "on"){
-if (url[0] == "/"||url[0] == "."||url[0] == "i"&&url[1] == "n"&&url[2] == "d"/*||String(newUrl).indexOf(location.hostname) != -1*/){
+
 
 //document.addEventListener("DOMContentLoaded", (event) => {});
 var newUrl = '';
@@ -1304,6 +1304,7 @@ if (item != ""){
 
 try {
 var url = new URL(item);
+if (url[0] == "/"||url[0] == "."||url[0] == "i"&&url[1] == "n"&&url[2] == "d"){
 newUrl = item.href;
 if (url.hostname == location.hostname&&String(newUrl).indexOf("=http") == -1){
 //console.log(newUrl);
@@ -1312,6 +1313,7 @@ arr.forEach((element) => {
 newUrl = newUrl.replaceAll(element, "");
 });
 return document.querySelectorAll("a")[index].href = newUrl;
+}
 }
 } catch (error){ console.log(error + ":" + item); }
 
@@ -1326,6 +1328,7 @@ if (item != ""){
 try{
 var url = new URL(item.action);
 newUrl = item.action;
+if (url[0] == "/"||url[0] == "."||url[0] == "i"&&url[1] == "n"&&url[2] == "d"){
 if (url.hostname == location.hostname&&String(newUrl).indexOf("=http") == -1){
 //console.log(newUrl);
 var arr = conf["confLinkExtList"].split(',');
@@ -1333,6 +1336,7 @@ arr.forEach((element) => {
 newUrl = newUrl.replaceAll(element, "");
 });
 return document.querySelectorAll("form")[index].action = newUrl;
+}
 }
 } catch (error){ console.log(error + ":" + item); }
 
@@ -1347,6 +1351,7 @@ if (item != ""){
 try {
 var url = new URL(item.src);
 newUrl = item.src;
+if (url[0] == "/"||url[0] == "."||url[0] == "i"&&url[1] == "n"&&url[2] == "d"){
 if (url.hostname == location.hostname&&String(newUrl).indexOf("=http") == -1){
 // if ulr exit
 fetch(
@@ -1368,13 +1373,13 @@ return document.querySelectorAll("iframe")[index].src = newUrl;
 });
 
 }
+}
 } catch (error){ console.log(error + ":" + item); }
 }
 
 });
 
 
-}
 }
 
 }
