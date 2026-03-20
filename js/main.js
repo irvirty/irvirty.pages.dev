@@ -517,7 +517,7 @@ document.getElementById("footer").innerHTML = `
 <a class="yellow inlineBlock padding" title="RSS News" href="${confD}rss.xml">RSS</a>
 <span class="op gray">|</span>
 
-<a class="brand inlineBlock padding" title="Social network" href="https://www.tumblr.com/${conf["confUsername"]}">Tumblr</a>
+<a class="brand inlineBlock padding" title="Social network" href="https://bsky.app/profile/${conf["confUsername"]}.is-local.org">Bluesky</a>
 <span class="op gray">|</span>
 
 <a class="brand inlineBlock padding" title="Source code (repository)" href="https://github.com/${conf["confUsername"]}/${conf["confWebsiteUrl"]}">Source Code</a>
