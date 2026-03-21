@@ -9,7 +9,7 @@ font-display: swap;
 /* Navigation CSS v.3.2.1 */
 .navMenu a:not(#dropdownMenuButton),
 .navMenu2 a:not(#dropdownMenuButton) {
-text-decoration: 1px underline dashed var(--brand);
+text-decoration: 1px underline dotted var(--brand);
 text-underline-offset: 4px;
 }
 .navMenu a:hover:not(#dropdownMenuButton),
