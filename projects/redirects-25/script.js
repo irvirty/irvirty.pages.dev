@@ -593,14 +593,14 @@ q = q.trim();
 q = encodeURIComponent(q);
 urlList = [
 "https://bsky.app/search?q=" + q,
-"https://www.tumblr.com/search/" + q,
-"https://wordpress.com/reader/search?q=" + q,
+//"https://www.tumblr.com/search/" + q,
+//"https://wordpress.com/reader/search?q=" + q,
 ];
 if (q == ""){
 urlList = [
 "https://bsky.app/",
-"https://www.tumblr.com/",
-"https://wordpress.com/reader/",
+//"https://www.tumblr.com/",
+//"https://wordpress.com/reader/",
 ];
 }
 random = urlList[fuMRandom(0, urlList.length - 1)];
@@ -615,14 +615,14 @@ q = q.trim();
 q = encodeURIComponent(q);
 urlList = [
 "https://bsky.app/hashtag/" + q,
-"https://www.tumblr.com/tagged/" + q,
-"https://wordpress.com/tag/" + q,
+//"https://www.tumblr.com/tagged/" + q,
+//"https://wordpress.com/tag/" + q,
 ];
 if (q == ""){
 urlList = [
 "https://bsky.app/",
-"https://www.tumblr.com/",
-"https://wordpress.com/reader/",
+//"https://www.tumblr.com/",
+//"https://wordpress.com/reader/",
 ];
 }
 random = urlList[fuMRandom(0, urlList.length - 1)];

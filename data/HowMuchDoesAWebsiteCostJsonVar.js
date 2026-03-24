@@ -3,6 +3,15 @@ var HowMuchDoesAWebsiteCostJsonVar =
 
 [
     {
+        "text": "Design Monks Pricing | Affordable UI\/UX & Web Design Packages",
+        "text2": "1800",
+        "text3": "",
+        "url": "https:\/\/www.designmonks.co\/pricing",
+        "tag": "#HowMuchDoesAWebsiteCost",
+        "time": 1774273191,
+        "rightFooter": ""
+    },
+    {
         "text": "Our Branding Pricing & Services | Branding Brothers",
         "text2": "2000",
         "text3": "",

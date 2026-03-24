@@ -3,6 +3,16 @@ var microblogJsonVar =
 
 [
     {
+        "id": "306",
+        "text": "The Average Web Page (Data from Analyzing 8 Million Websites) | CSS-Tricks",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/css-tricks.com\/average-web-page-data-analyzing-8-million-websites\/",
+        "tag": "#WebDesign #WebDevelopment #web #internet",
+        "time": 1774274254,
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/microblog\/?id=306\"  title=\"id=306 (permanent link)\" >id<\/a>"
+    },
+    {
         "id": "305",
         "text": "25 years of Wikipedia",
         "text2": "",
