@@ -1,4 +1,4 @@
-// Quiz v.2.1.0
+// Quiz v.2.1.1
 
 var jsonVar = quizJsonVar;
 
@@ -69,7 +69,7 @@ tag = tag.trim();
 }
 
 if(q == null){ q = localStorage.getItem('randomQuizQ'); }
-if(q == null||q == '') { q = '#space'; tag = q; }
+if(q == null||q == '') { q = '#all'; tag = q; }
 var q2 = q;
 
 
