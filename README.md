@@ -6,14 +6,14 @@
 ---
   
 ## ⭐ Features:  
-🎨 50+ Themes with Dark and Light Modes.  
+🎨 Many themes and background with random image.  
 📌 Speed Dial Panel.  
-📝 To-do List.  
+📝 To-Do List.  
 🎮 JavaScript Games: Typing Speed (WPM), Snake, Memory Symbol, and Tic-Tac-Toe.   
-🛍️ Browser Extensions such as a New Tab Redirect and an Auto Theme Switcher (Firefox only).  
+🛍️ Browser extensions such as a "New Tab Redirect" and an "Auto Theme Switcher" (Firefox only).  
 🎨 Themes for the Firefox browser and Geany IDE.  
-📄 Website templates and "SimpleHomepage" theme for WordPress  
-📁 Other: Tools, News, Images, Icons, CSS Art, Music Collection etc.  
+📄 "SimpleHomepage" theme for WordPress and website templates.  
+📁 Other: Tools, News, Images, Icons, CSS Art, Music Collection, etc.  
   
 ---
   
