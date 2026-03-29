@@ -3,6 +3,36 @@ var linksJsonVar =
 
 [
     {
+        "id": "366",
+        "text": "HandBrake: Open Source Video Transcoder",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/handbrake.fr\/",
+        "tag": "#app #software #video #convert",
+        "time": 1774776140,
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=366\"  title=\"id=366 (permanent link)\" >id<\/a>"
+    },
+    {
+        "id": "365",
+        "text": "nostter - Home",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/nostter.app\/home",
+        "tag": "#nostr #SocialMedia #SocialNetwork #platform",
+        "time": 1774775344,
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=365\"  title=\"id=365 (permanent link)\" >id<\/a>"
+    },
+    {
+        "id": "364",
+        "text": "Primal",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/primal.net\/home",
+        "tag": "#nostr #SocialMedia #SocialNetwork #platform",
+        "time": 1774775285,
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=364\"  title=\"id=364 (permanent link)\" >id<\/a>"
+    },
+    {
         "id": "363",
         "text": "SearXNG instances",
         "text2": "",
