@@ -506,7 +506,7 @@ var sitemapJsonVar = [
     {
         "text": "Podcast\n\nA small collection of podcasts that are randomly selected and automatically played. | podcast: ",
         "url": "\/projects\/podcast-70\/index.html",
-        "tag": " #podcast #random #online #colection #embed #JavaScript #project",
+        "tag": " #podcast #random #online #collection #embed #JavaScript #project",
         "id": "45035fca1a58fbf64d92ed9bb1c454ef",
         "time": "id"
     },
@@ -534,7 +534,7 @@ var sitemapJsonVar = [
     {
         "text": "Radio\n\nA small collection of radio stations with the ability to play online, which is chosen randomly. Radio online. Online radio. | radio: ",
         "url": "\/projects\/radio-22\/index.html",
-        "tag": " #radio #random #online #station #colection #embed #JavaScript #project",
+        "tag": " #radio #random #online #station #collection #embed #JavaScript #project",
         "id": "b31f7cd39ade46560c86d8f7dc26ed78",
         "time": "id"
     },
