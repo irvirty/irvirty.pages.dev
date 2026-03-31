@@ -247,6 +247,8 @@ ${conf["confMenuItems2"]}
 <!-- links for show in dropdown (duplicate) -->
 ${conf["confMenuItems2"]}
 <!-- // links for show in dropdown (duplicate) -->
+<hr>
+<a class="block w100 tRight padding small gray" href="#" onclick="fuMDropdownButtonClose();return false;" title="Close menu">Close</a>
 </div>
 </div>
 
