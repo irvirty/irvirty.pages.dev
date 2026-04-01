@@ -3,6 +3,16 @@ var newsJsonVar =
 
 [
     {
+        "id": "92",
+        "text": "Artemis II - Wikipedia",
+        "text2": "Artemis II is a planned lunar flyby mission under the Artemis program, scheduled to launch on April 1, 2026 from the Kennedy Space Center. The ten-day mission will carry NASA astronauts Reid Wiseman, Victor Glover, and Christina Koch, along with Canadian Space Agency astronaut Jeremy Hansen, on a free-return trajectory around the Moon and back to Earth. It will be the second flight of the Space Launch System (SLS), the first crewed mission of the Orion spacecraft, and the first crewed mission beyond low Earth orbit since Apollo 17 in 1972.",
+        "text3": "",
+        "url": "https:\/\/en.wikipedia.org\/wiki\/Artemis_II",
+        "tag": "#space #technology #science",
+        "time": 1775046585,
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/news\/?id=92\"  title=\"id=92 (permanent link)\" >id<\/a>"
+    },
+    {
         "id": "91",
         "text": "Firefox 149.0, See All New Features, Updates and Fixes",
         "text2": "",
