@@ -1,4 +1,4 @@
-// Keep v.4.8.0
+// Keep v.4.8.1
 // The static version of my offline "keep" PHP script that saves things (links, notes, etc).
 // Inspired by Twitter, Google Keep
 // Not for large data files.
@@ -1453,13 +1453,13 @@ case "list":
 lPost = highlightText(post, targetOption, subQforLight); 
 if (display == 'blog'){
 //lPost = `<span class="large">${lPost}</span>`; // without highlight (embed)
-lPost = `<div class="large"><a class="block firstLetterBold" href="${scriptDir}?id=${id}">${postTitle}</a></div>`; // without highlight (embed)
+lPost = `<div class="large"><a class="block firstLetterBold underline" href="${scriptDir}?id=${id}">${postTitle}</a></div>`; // without highlight (embed)
 }
 break;
 
 default:
 lPost = highlightText(post, targetOption, subQforLight); 
-if (display == 'blog'){ lPost = `<h2>${postTitle}</h2>jj` + highlightText(post, targetOption, subQforLight); }
+if (display == 'blog'){ lPost = `<h2>${postTitle}</h2>` + highlightText(post, targetOption, subQforLight); }
 }
 
 
