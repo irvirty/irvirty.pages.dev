@@ -50,8 +50,8 @@ function printWeather(){
 
 result[0] += `
 
-<div class="block op margin2 xSmall">
-api:<br>
+<div class="block op margin2 small">
+API:
 <a class="brand" href="https://open-meteo.com/">open-meteo.com</a>,
 <a class="brand" href="https://ipapi.co/">ipapi.co</a>
 </div>
