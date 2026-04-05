@@ -13,7 +13,7 @@
   "search_provider": {
     "name": "Irvirty",
     "search_url": "https://irvirty.is-local.org/search/?q={searchTerms}",
-    "keyword": "@irvi",
+    "keyword": "@irvirty",
     "favicon_url": "icon512x512.png"
   }
 },
