@@ -12,7 +12,7 @@ text-underline-offset: 4px;
 .navMenu a:hover:not(#dropdownMenuButton),
 .navMenu2 a:hover:not(#dropdownMenuButton) {
 transition: 0.3s;
-text-decoration: 1px underline dotted var(--brand);
+text-decoration: 1px underline solid var(--brand);
 }
 .navMenuActive, .topNav [aria-current="page"] {
 text-decoration: 1px underline solid var(--c3) !important;
