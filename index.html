@@ -417,7 +417,7 @@ document.getElementById("last-update").innerHTML = fuPostTime(1775222095);
 
 <div id="printTags" class="balance notUnderline"></div>
 
-<div class="wrapperSmall small">
+<div class="wrapper small">
 <div><span class="notUnderline" id="printMode"></span></div>
 </div>
 
@@ -785,39 +785,57 @@ fuTag(tagCount);
 
 if (tag != ""){
 let printTag = tag;
+let printTagRandom = sortedTags[fuMRandom(0, sortedTags.length - 1)][0];
 
 //printTag = printTag.replaceAll(/#/g, "");
 //printTag = printTag.replaceAll(' ', "");
 
 let printTagUrl = encodeURIComponent(tag.toLowerCase());
+let printTagUrlRandom = printTagRandom;
 
 if (mode === "Tag"){
 printTag = printTag.replaceAll(" ", "");
+printTagRandom = printTag.replaceAll(" ", "");
 }
 
 printTag = fuMClearText(printTag);
-
+printTagRandom = fuMClearText(printTagRandom);
 
 switch (mode) {
 
 case 'Search':
 tagListPrint += `<a class="inlineBlock padding op ` + tagColor + ` ;" style="font-size: ` + tagSize + `; padding-right: 0;" href="/search/?q=` + printTagUrl + ` q">` + printTag + `</a><span class="gray">,</span>`;
+
+printRandomTag ("tagRandom", `<a class="inlineBlock padding op brand small notUnderline" href="/search/?q=` + printTagUrlRandom + ` q">RandomTag</a>`);
+
 break;
 
 case 'SearchOther':
 tagListPrint += `<a class="inlineBlock padding op ` + tagColor + ` " style="font-size: ` + tagSize + `; padding-right: 0;" href="/search/?q=` + printTagUrl + ` o">` + printTag + `</a><span class="gray">,</span>`;
+
+printRandomTag ("tagRandom", `<a class="inlineBlock padding op brand small notUnderline" href="/search/?q=` + printTagUrlRandom + ` 0">RandomTag</a>`);
+
 break;
 
 case 'News':
 tagListPrint += `<a class="inlineBlock padding op ` + tagColor + ` " style="font-size: ` + tagSize + `; padding-right: 0;" href="/search/?q=` + printTagUrl + ` n">` + printTag + `</a><span class="gray">,</span>`;
+
+printRandomTag ("tagRandom", `<a class="inlineBlock padding op brand small notUnderline" href="/search/?q=` + printTagUrlRandom + ` n">RandomTag</a>`);
+
 break;
 
 case 'Social':
 tagListPrint += `<a class="inlineBlock padding op ` + tagColor + ` " style="font-size: ` + tagSize + `; padding-right: 0;" href="/search/?q=` + printTagUrl + ` s">` + printTag + `</a><span class="gray">,</span>`;
+
+printRandomTag ("tagRandom", `<a class="inlineBlock padding op brand small notUnderline" href="/search/?q=` + printTagUrlRandom + ` s">RandomTag</a>`);
+
 break;
 
 case 'Hashtag':
 tagListPrint += `<a class="inlineBlock padding op ` + tagColor + ` " style="font-size: ` + tagSize + `; padding-right: 0;" href="/search/?q=` + printTagUrl + ` ht">` + printTag + `</a><span class="gray">,</span>`;
+
+printRandomTag ("tagRandom", `<a class="inlineBlock padding op brand small notUnderline" href="/search/?q=` + printTagUrlRandom + ` ht">RandomTag</a>`);
+
 break;
 
 case 'edit':
@@ -866,12 +884,16 @@ tagModePrint += `
 });
 
 
+tagModePrint += `<span id="tagRandom"></span>`; // fixme (position)
+
 if (tagListSortConf == "sort"){
+
 tagModePrint += `
 <span class="op gray">/</span>
 <a class="inlineBlock padding op gray" title="Close" href="#" onclick="tagListSortConfSet('unsort'); return false;">unsort</a>
 `;
 } else {
+
 tagModePrint += `
 <span class="op gray">/</span>
 <a class="inlineBlock padding op brand" href="#" onclick="tagListSortConfSet('sort'); return false;">sort</a>
@@ -887,6 +909,8 @@ tagModePrint += `
 <a class="inlineBlock padding op brand" href="#" onclick="tagListCloud('edit'); return false;">edit</a>
 `;
 }
+
+
 
 document.getElementById("printMode").innerHTML = `<hr><span class="op gray">mode:</span> `;
 document.getElementById("printMode").innerHTML += tagModePrint;
@@ -930,6 +954,14 @@ tagListCloud("");
 }
 
 }
+
+
+function printRandomTag(id, text){
+if (document.getElementById("tagListEditForm") != undefined){
+document.getElementById("tagListEditForm").innerHTML = text;
+}
+}
+
 </script>
 
 

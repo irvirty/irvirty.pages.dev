@@ -31,12 +31,10 @@
        style="fill:#797995;paint-order:markers fill stroke;fill-opacity:1;stroke-width:1.00045453;stroke-dasharray:none"
        id="circle4" />
   </g>
-  <circle
-     cx="1077.0988"
-     cy="141.59509"
-     style="fill:#797995;stroke-width:0.938858;paint-order:markers fill stroke;fill-opacity:1"
+  <path
      id="circle8"
-     r="118.09853" />
+     style="fill:#797995;stroke-width:0.938858;paint-order:markers fill stroke"
+     d="m 1195.1973,141.59509 c 0,65.22401 -52.907,120.15902 -118.0985,118.09854 -68.4702,-2.16411 -219.42945,-120.42841 -118.09858,-118.09854 65.20678,1.49928 52.87458,-118.098559 118.09858,-118.098531 65.224,1.7e-5 118.0985,52.874525 118.0985,118.098531 z" />
   <g
      id="g4345"
      transform="translate(11.956411,-8.408867)"
