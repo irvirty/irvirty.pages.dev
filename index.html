@@ -418,7 +418,7 @@ document.getElementById("last-update").innerHTML = fuPostTime(1775222095);
 <div id="printTags" class="balance notUnderline"></div>
 
 <div class="wrapper small">
-<div><span class="notUnderline" id="printMode"></span></div>
+<div><span class="notUnderline" id="printMode"></span><span id="tagRandom"></span></div>
 </div>
 
 <div id="tagListEditForm"></div>
@@ -806,35 +806,35 @@ switch (mode) {
 case 'Search':
 tagListPrint += `<a class="inlineBlock padding op ` + tagColor + ` ;" style="font-size: ` + tagSize + `; padding-right: 0;" href="/search/?q=` + printTagUrl + ` q">` + printTag + `</a><span class="gray">,</span>`;
 
-printRandomTag ("tagRandom", `<a class="inlineBlock padding op brand small notUnderline" href="/search/?q=` + printTagUrlRandom + ` q">RandomTag</a>`);
+printRandomTag ("tagRandom", `<a class="inlineBlock padding op brand small notUnderline" href="/search/?q=` + printTagUrlRandom + ` q">randomTag</a>`);
 
 break;
 
 case 'SearchOther':
 tagListPrint += `<a class="inlineBlock padding op ` + tagColor + ` " style="font-size: ` + tagSize + `; padding-right: 0;" href="/search/?q=` + printTagUrl + ` o">` + printTag + `</a><span class="gray">,</span>`;
 
-printRandomTag ("tagRandom", `<a class="inlineBlock padding op brand small notUnderline" href="/search/?q=` + printTagUrlRandom + ` 0">RandomTag</a>`);
+printRandomTag ("tagRandom", `<a class="inlineBlock padding op brand small notUnderline" href="/search/?q=` + printTagUrlRandom + ` 0">randomTag</a>`);
 
 break;
 
 case 'News':
 tagListPrint += `<a class="inlineBlock padding op ` + tagColor + ` " style="font-size: ` + tagSize + `; padding-right: 0;" href="/search/?q=` + printTagUrl + ` n">` + printTag + `</a><span class="gray">,</span>`;
 
-printRandomTag ("tagRandom", `<a class="inlineBlock padding op brand small notUnderline" href="/search/?q=` + printTagUrlRandom + ` n">RandomTag</a>`);
+printRandomTag ("tagRandom", `<a class="inlineBlock padding op brand small notUnderline" href="/search/?q=` + printTagUrlRandom + ` n">randomTag</a>`);
 
 break;
 
 case 'Social':
 tagListPrint += `<a class="inlineBlock padding op ` + tagColor + ` " style="font-size: ` + tagSize + `; padding-right: 0;" href="/search/?q=` + printTagUrl + ` s">` + printTag + `</a><span class="gray">,</span>`;
 
-printRandomTag ("tagRandom", `<a class="inlineBlock padding op brand small notUnderline" href="/search/?q=` + printTagUrlRandom + ` s">RandomTag</a>`);
+printRandomTag ("tagRandom", `<a class="inlineBlock padding op brand small notUnderline" href="/search/?q=` + printTagUrlRandom + ` s">randomTag</a>`);
 
 break;
 
 case 'Hashtag':
 tagListPrint += `<a class="inlineBlock padding op ` + tagColor + ` " style="font-size: ` + tagSize + `; padding-right: 0;" href="/search/?q=` + printTagUrl + ` ht">` + printTag + `</a><span class="gray">,</span>`;
 
-printRandomTag ("tagRandom", `<a class="inlineBlock padding op brand small notUnderline" href="/search/?q=` + printTagUrlRandom + ` ht">RandomTag</a>`);
+printRandomTag ("tagRandom", `<a class="inlineBlock padding op brand small notUnderline" href="/search/?q=` + printTagUrlRandom + ` ht">randomTag</a>`);
 
 break;
 
@@ -884,7 +884,7 @@ tagModePrint += `
 });
 
 
-tagModePrint += `<span id="tagRandom"></span>`; // fixme (position)
+
 
 if (tagListSortConf == "sort"){
 
@@ -910,7 +910,7 @@ tagModePrint += `
 `;
 }
 
-
+tagModePrint += `<span id="tagRandom"></span>`;
 
 document.getElementById("printMode").innerHTML = `<hr><span class="op gray">mode:</span> `;
 document.getElementById("printMode").innerHTML += tagModePrint;
@@ -957,8 +957,8 @@ tagListCloud("");
 
 
 function printRandomTag(id, text){
-if (document.getElementById("tagListEditForm") != undefined){
-document.getElementById("tagListEditForm").innerHTML = text;
+if (document.getElementById("tagRandom") != undefined){
+document.getElementById("tagRandom").innerHTML = text;
 }
 }
 
