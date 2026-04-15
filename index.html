@@ -782,7 +782,7 @@ tag = key.trim();
 tagCount = value;
 
 fuTag(tagCount);
-
+let printTagRandom = sortedTags[fuMRandom(0, sortedTags.length - 1)][0];
 if (tag != ""){
 let printTag = tag;
 let printTagRandom = sortedTags[fuMRandom(0, sortedTags.length - 1)][0];
@@ -791,7 +791,7 @@ let printTagRandom = sortedTags[fuMRandom(0, sortedTags.length - 1)][0];
 //printTag = printTag.replaceAll(' ', "");
 
 let printTagUrl = encodeURIComponent(tag.toLowerCase());
-let printTagUrlRandom = printTagRandom;
+let printTagUrlRandom = encodeURIComponent(printTagRandom.toLowerCase());
 
 if (mode === "Tag"){
 printTag = printTag.replaceAll(" ", "");
@@ -844,6 +844,8 @@ break;
 
 default:
 tagListPrint += `<a class="inlineBlock padding op ` + tagColor + ` " style="font-size: ` + tagSize + `; padding-right: 0;" href="/search/?q=` + printTagUrl + ` q">#` + printTag + `</a><span class="gray">,</span>`;
+
+printRandomTag ("tagRandom", `<a class="inlineBlock padding op brand small notUnderline" href="/search/?q=` + printTagUrlRandom + ` q">randomTag</a>`);
 
 }
 }
