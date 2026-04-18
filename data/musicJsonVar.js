@@ -3,6 +3,26 @@ var musicJsonVar =
 
 [
     {
+        "id": "6796",
+        "text": "JOSEY WAILS - WAITING (FOR MY FIX) - YouTube",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=m4BMMUO3oqk",
+        "tag": "#music",
+        "time": 1776267305,
+        "rightFooter": ""
+    },
+    {
+        "id": "6795",
+        "text": "JOSEY WAILS - LIKE EVERYONE - YouTube",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=x2eSDVHX204",
+        "tag": "#music",
+        "time": 1776267198,
+        "rightFooter": ""
+    },
+    {
         "id": "6793",
         "text": "Jain, Solomun - Tout le monde est fou (Official Video) - YouTube",
         "text2": "",
