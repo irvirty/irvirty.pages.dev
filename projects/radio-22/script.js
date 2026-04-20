@@ -77,7 +77,7 @@ printTagList += ' ' + postTag + ' ';
 let qSearch = "";
 if(q2 != ''){
 //qSearch = String(q.toLowerCase()).replaceAll(/ /g, "|"); //if((qData).search(qSearch) != -1){}
-qSearch = q2;
+qSearch = q2 + " ";
 qSearch = String(qSearch).toLowerCase();
 }
 
@@ -86,6 +86,7 @@ qSearch = String(qSearch).toLowerCase();
 // if tag
 //if(qSearch[0] == '#'){}
 qData = String(postText + ' ' + postText2 + ' ' + postText3 + ' ' + postTag + ' ' + postUrl).toLowerCase();
+qData = qData + " ";
 /*if(qSearch[0] == '#'){ qData = qData.replaceAll(/,/g, ' '); } */
 if((qData).indexOf((qSearch)) != -1){
 arrListForRandom.push(key);

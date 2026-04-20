@@ -790,6 +790,7 @@ if (q != ''){
 //qSearch = String(q.toLowerCase()).replaceAll(/ /g, "|"); //if ((qData).search(qSearch) != -1){}
 //qSearch = decodeURIComponent(q);
 qSearch = (q);
+qSearch = qSearch + " ";
 qSearch = String(qSearch).toLowerCase();
 
 qSearch = (qSearch + ' ').split(' ');
@@ -821,6 +822,8 @@ if (item['rightFooter'] != null){ rightFooter = item['rightFooter']; }
 postText = postText.trim();
 
 qData = String(postText + ' ' + postUrl + ' ' + postText2 + ' ' + postText3 + ' ' + postTag).toLowerCase();
+
+qData = qData + " ";
 
 
 let checkFound = 0;

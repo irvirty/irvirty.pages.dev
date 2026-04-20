@@ -73,13 +73,14 @@ printTagList += (' ' + postText + ' ' + postText2 + ' ' + postText3 + ' ' + post
 let qSearch = "";
 if(q2 != ''){
 //qSearch = String(q.toLowerCase()).replaceAll(/ /g, "|"); //if((qData).search(qSearch) != -1){}
-qSearch = q2;
+qSearch = q2 + " ";
 qSearch = String(qSearch).toLowerCase();
 }
 
 
 // if tag
 qData = String(postText + ' ' + postText2 + ' ' + postText3 + ' ' + postUrl + ' ' + postTag).toLowerCase();
+qData = qData + " ";
 /*if(qSearch[0] == '#'){ qData = qData.replaceAll(/,/g, ' '); } */
 //qData = qData.replaceAll(/,/g, ' ');
 if((qData+' ').indexOf((qSearch.toLowerCase())) >= 0){

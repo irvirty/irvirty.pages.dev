@@ -2073,15 +2073,6 @@ var radioJsonVar =
         "rightFooter": ""
     },
     {
-        "text": "LBC London, 97.3 FM, London, UK | Free Internet Radio | TuneIn",
-        "text2": "",
-        "text3": "",
-        "url": "https:\/\/tunein.com\/radio\/LBC-London-973-s17569\/",
-        "tag": "#radio #en #news",
-        "time": 1739644838,
-        "rightFooter": ""
-    },
-    {
         "text": "Deutschlandfunk Nova | Free Internet Radio | TuneIn",
         "text2": "",
         "text3": "",
