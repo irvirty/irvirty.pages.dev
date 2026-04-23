@@ -504,6 +504,13 @@ var sitemapJsonVar = [
         "time": "id"
     },
     {
+        "text": "Photos\n\nSometimes I take photos. | photos: ",
+        "url": "\/pages\/photos\/index.html",
+        "tag": " #photo #photos #page #main",
+        "id": "775eb83c65ce88511be4f716452df981",
+        "time": "id"
+    },
+    {
         "text": "Podcast\n\nA small collection of podcasts that are randomly selected and automatically played. | podcast: ",
         "url": "\/projects\/podcast-70\/index.html",
         "tag": " #podcast #random #online #collection #embed #JavaScript #project",
