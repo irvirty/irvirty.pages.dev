@@ -3,6 +3,16 @@ var newsJsonVar =
 
 [
     {
+        "id": "94",
+        "text": "Canonical releases Ubuntu 26.04 LTS Resolute Raccoon",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/canonical.com\/blog\/canonical-releases-ubuntu-26-04-lts-resolute-raccoon",
+        "tag": "#OS #Ubuntu #OperationSystem #software #app",
+        "time": 1777003732,
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/news\/?id=94\"  title=\"id=94 (permanent link)\" >id<\/a>"
+    },
+    {
         "id": "93",
         "text": "Tim Cook to become Apple Executive Chairman John Ternus to become Apple CEO - Apple",
         "text2": "",
