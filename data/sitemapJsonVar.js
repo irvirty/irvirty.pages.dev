@@ -378,10 +378,10 @@ var sitemapJsonVar = [
         "time": "id"
     },
     {
-        "text": "Language learning quiz\n\nLanguage learning quiz. Language quiz. Quiz word. It is necessary to choose the correct version of the translated word. | lnnguage learning quiz: ",
-        "url": "\/games\/lnnguage-learning-quiz-45\/index.html",
+        "text": "Language learning quiz\n\nLanguage learning quiz. Language quiz. Quiz word. It is necessary to choose the correct version of the translated word. | language quiz: ",
+        "url": "\/games\/language-quiz-45\/index.html",
         "tag": " #Experimental #learning #language #game #quiz #word #CSS #JavaScript #project",
-        "id": "1aa601d5ec54262d925b603220542d6d",
+        "id": "d4b4965e21f083a386b69bbe518e044f",
         "time": "id"
     },
     {
