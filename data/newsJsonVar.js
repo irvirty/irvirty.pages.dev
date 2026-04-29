@@ -3,6 +3,16 @@ var newsJsonVar =
 
 [
     {
+        "id": "95",
+        "text": "Firefox 150.0, See All New Features, Updates and Fixes",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.firefox.com\/en-US\/firefox\/150.0\/releasenotes\/",
+        "tag": "#technology #app #software #browser #Firefox #MozillaFirefox #Mozilla",
+        "time": 1777472548,
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/news\/?id=95\"  title=\"id=95 (permanent link)\" >id<\/a>"
+    },
+    {
         "id": "94",
         "text": "Canonical releases Ubuntu 26.04 LTS Resolute Raccoon",
         "text2": "",

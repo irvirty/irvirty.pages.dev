@@ -6810,7 +6810,7 @@ var wordJsonVar =
     {
         "text": "\u0440\u043e\u043c",
         "text2": "rum",
-        "text3": "ron"
+        "text3": "rom"
     },
     {
         "text": "\u0440\u043e\u043c\u0430\u043d",
