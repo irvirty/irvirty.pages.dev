@@ -18,8 +18,8 @@
 ---
   
 > [!IMPORTANT]
-> The Google analytics ID is in the file "/js/main.js", it works if accept the cookie (you can replace with your ID).  
-> You can find the lightweight version of the site in the section: pages -> website templates -> homepage.
+> • The Google analytics ID is in the file "/js/main.js", it works if accept the cookie (you can replace with your ID).  
+> • You can find the lightweight version of the site in the section: pages -> website templates -> homepage.
   
 ---
   
