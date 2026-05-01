@@ -1,5 +1,5 @@
 
-//var myCacheVersion = "v.1.2.2026.04";
+//var myCacheVersion = "v.1.2.2026.05";
 
 
 
@@ -70,7 +70,7 @@ function swJsInstallFiles(){
 //https://stackoverflow.com/questions/66529102/uncaught-in-promise-typeerror-failed-to-execute-cache-on-addall-request
 //https://github.com/mdn/pwa-examples
 self.addEventListener('install', (e) => {
-e.waitUntil(caches.open("v.1.2.2026.04").then((cache) => cache.addAll(fileListArrFound)),);
+e.waitUntil(caches.open("v.1.2.2026.05").then((cache) => cache.addAll(fileListArrFound)),);
 });*/
 
 
@@ -512,8 +512,9 @@ var fileListArr = ["/404.html",
 "/pages/art/2025/squares-illusion-inkscape-gimp-34.png",
 "/pages/art/2025/squares-inkscape-32.png",
 "/pages/art/2025/tool-test-inkscape-26.jpeg",
-"/pages/art/2026/oilify-gimp-42.jpg",
+"/pages/art/2026/empty-gimp-43.jpg",
 "/pages/art/2026/",
+"/pages/art/2026/oilify-gimp-42.jpg",
 "/pages/art/2026/wave-kaleidoscope-gimp-41.jpg",
 "/pages/art/index.html",
 "/pages/art/tpl-gimp-0.png",
@@ -1491,7 +1492,7 @@ if (res.ok) {
 // file is present at URL
 console.log('try cache.add ' + file);
 //https://web.dev/learn/pwa/caching/
-caches.open("v.1.2.2026.04")
+caches.open("v.1.2.2026.05")
 .then(cache => {
 cache.add(file); // it stores only one resource
 //  cache.addAll(["styles.css", "app.js"]); // it stores two resources
@@ -1517,7 +1518,7 @@ if (res.ok) {
 // file is present at URL
 console.log('try cache.add ' + newFile);
 //https://web.dev/learn/pwa/caching/
-caches.open("v.1.2.2026.04")
+caches.open("v.1.2.2026.05")
 .then(cache => {
 cache.add(newFile); // it stores only one resource
 //  cache.addAll(["styles.css", "app.js"]); // it stores two resources
@@ -1550,7 +1551,7 @@ console.log('404 not found ' + newFile);
 // rm old cache
 //https://developer.mozilla.org/en-US/docs/Web/API/CacheStorage/delete
 this.addEventListener("activate", (event) => {
-  const cachesToKeep = ["v.1.2.2026.04"];
+  const cachesToKeep = ["v.1.2.2026.05"];
 
   event.waitUntil(
     caches.keys().then((keyList) =>
