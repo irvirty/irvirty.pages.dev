@@ -522,9 +522,6 @@ document.getElementById("footer").innerHTML = `
 <a class="brand inlineBlock padding" title="Social network" href="https://bsky.app/profile/${conf["confUsername"]}.is-local.org">Bluesky</a>
 <span class="op gray">|</span>
 
-<a id="fSettings" class="brand inlineBlock padding" title="Settings" href="${confD}pages/about/#donate">Donate</a>
-<span class="op gray">|</span>
-
 <a class="brand inlineBlock padding" title="Source code (repository)" href="https://github.com/${conf["confUsername"]}/${conf["confWebsiteUrl"]}">Source Code</a>
 <span class="op gray">|</span>
 
