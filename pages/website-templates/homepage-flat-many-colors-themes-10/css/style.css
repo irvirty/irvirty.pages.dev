@@ -14,29 +14,25 @@ z-index: -1;
 
 .menu {
 display: grid;
-/*grid-template-areas: "a a a a a";*/
-/*grid-template-columns: repeat(4, 1fr);*/
-/*grid-template-columns: repeat(auto-fill, minmax(130px, max-content));*/
-grid-template-columns: repeat(auto-fill, minmax(130px, 1fr));
-/*grid-auto-columns: 1fr;*/
+grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
 grid-gap: 5px;
 margin: 0 auto;
 justify-content: center;
 }
 
-@media(max-width: 150px) { .menu { display: block; width: 100%; }}
+@media (max-width: 150px) {
+.menu { display: block; width: 100%;}
+}
 
-.menu a{
+.menu a {
 display: flex;
 min-width: 100%;
-min-height: 100%;
 justify-content: start;
 align-content: center;
-text-transform: lowercase;
-padding: 12px;
-margin:0;
+margin: 0 auto;
 text-wrap: balance;
 text-align: left;
+/*min-height: 50px;*/
 text-decoration: none;
 }
 
