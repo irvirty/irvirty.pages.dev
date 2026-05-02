@@ -10,8 +10,8 @@
 🎮 JavaScript Games: Typing Speed (WPM), Snake, Memory Symbol, and Tic-Tac-Toe (in games).   
 🛍️ Browser extensions such as a "New Tab Redirect" and an "Auto Theme Switcher" (Firefox only) (in pages).  
 🎨 Themes for the Firefox browser and Geany IDE (in pages).  
-📄 "SimpleHomepage" theme for WordPress and website templates (inn pages).    
-📁 Other: News, Images, Icons, CSS Art (in pages), Music Collection, Tools (in projects).   
+📄 "SimpleHomepage" theme for WordPress and website templates (in pages).    
+📁 Other: News, Images, Icons, Photos, Art, CSS Art (in pages), Music collection, Tools (in projects), etc.   
   
 ---
   
