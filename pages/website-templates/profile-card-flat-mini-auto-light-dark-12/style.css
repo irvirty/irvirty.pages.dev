@@ -10,7 +10,7 @@ body, html { margin: 0; padding: 0; }
 display: block;
 min-height: 60dvh;
 width: 100%;
-background-image: url('/img/tpl/woman.svg');
+background-image: url('../../../ai/img/gemini-woman-laptop.jpg');
 background-size: 60dvh;
 background-position: center; /*background-position: center;*/
 background-repeat: no-repeat;
