@@ -86,9 +86,6 @@ self.addEventListener('install', (e) => {
 
 // start check 404, file list 2
 var fileListArr = ["/404.html",
-"/ai/img/gemini-woman-laptop.jpg",
-"/ai/",
-"/ai/img/",
 "/all/index.html",
 "/all/",
 "/all/script.js",
