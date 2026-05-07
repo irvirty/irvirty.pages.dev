@@ -1,7 +1,7 @@
 /* v.1.0.0 */
 
 :root {
---flowerPetalSize: 11%;
+
 }
 
 
@@ -12,29 +12,75 @@ aspect-ratio: 1 / 1;
 margin: 0 auto;
 position: relative;
 
-background-color: snow;
+background-color: var(--l);
 }
 
-.house {
+.house, .house2 {
 display: block;
 position: absolute;
-width: 25%;
-height: 25%;
+width: 20%;
+height: 30%;
 
-bottom: 5%;
-left: 5%;
-background: var(--red);
+bottom: 25%;
+left: 30%;
+background: var(--blue);
 }
 
-.roof {
-width: 35%;
-height: 20%;
-background-color: blue;
+.roof, .roof2 {
+width: 30%;
+height: 10%;
+background-color: var(--d4);
 clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
 
 display: block;
 position: absolute;
-bottom: 30%;
-left: 1%;
+bottom: 53%;
+left: 25%;
+
+z-index: 2;
 }
+
+
+.house2 {
+left: 60%;
+}
+
+.roof2 {
+left: 55%;
+}
+
+.tree {
+width: 15%;
+height: 25%;
+border-radius: 50%;
+background-color: var(--green);
+
+position: absolute;
+bottom: 25%;
+left: 10%;
+}
+
+.trunk {
+width: 5%;
+height: 10%;
+background-color: var(--d4);
+
+position: absolute;
+bottom: 16%;
+left: 15%;
+}
+
+.sun {
+position: absolute;
+right: 10%;
+top: 10%;
+
+background-color: var(--orange);
+
+width: 20%;
+height: 20%;
+border-radius: 50%;
+}
+
+
 

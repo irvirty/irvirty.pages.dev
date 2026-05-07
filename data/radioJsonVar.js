@@ -2928,15 +2928,6 @@ var radioJsonVar =
         "rightFooter": ""
     },
     {
-        "text": "Cheddar News",
-        "text2": "http:\/\/cheddar.streamguys1.com\/live-mp3",
-        "text3": "mp3",
-        "url": "https:\/\/cheddar.com\/",
-        "tag": "#radio #en",
-        "time": 1683409698,
-        "rightFooter": ""
-    },
-    {
         "text": "Wiadomo\u015bci z kraju i ze \u015bwiata - Portal Informacyjny - Tokfm.pl",
         "text2": "http:\/\/radiostream.pl\/tuba10-1.mp3",
         "text3": "mp3",
@@ -4977,15 +4968,6 @@ var radioJsonVar =
         "url": "https:\/\/tunein.com\/radio\/WMAY-News-970-s30899\/",
         "tag": "#en #radio",
         "time": 1624778768,
-        "rightFooter": ""
-    },
-    {
-        "text": "Cheddar News | Free Internet Radio | TuneIn",
-        "text2": "",
-        "text3": "",
-        "url": "https:\/\/tunein.com\/radio\/Cheddar-News-s296280\/",
-        "tag": "#en #radio",
-        "time": 1624778721,
         "rightFooter": ""
     },
     {
