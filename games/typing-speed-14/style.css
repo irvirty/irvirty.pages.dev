@@ -1,4 +1,4 @@
-/* v.1.1.25 */
+/* v.1.2.0 */
 
 :root {
 --typingFont: large;
@@ -64,15 +64,24 @@ html { scroll-padding-top: 240px; }
 
 
 
-.gridStat {
+.typingStat {
 display: grid;
 grid-template-columns: 30% 70%;
 grid-gap: 5px;
 width: 100%;
 max-width: 100%;
 margin: 0 auto;
-padding: 0;
+
+padding: var(--padding2);
+border: 1px solid var(--d);
+border-radius: var(--borderRadius2);
+background-color: var(--l3);
 }
+
+.typingStat:hover {
+background-color: var(--l4);
+}
+
 
 @media(max-width: 500px) {
 #countSymbolTask, #stat { display: block; text-align: right; font-size: small; }
