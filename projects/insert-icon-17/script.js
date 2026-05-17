@@ -391,6 +391,7 @@ let icons2 = [
 {"t":"page", "t2":"📄", "t3":"page"},
 {"t":"question", "t2":"❓", "t3":"question"},
 {"t":"thank", "t2":"🙏"},
+{"t":"wiki", "t2":"📖", "t3":"books"},
 
 {"t":"light", "t2":"⬜️"},
 {"t":"highlight", "t2":"⬜️", "t3":"bottom-line"},

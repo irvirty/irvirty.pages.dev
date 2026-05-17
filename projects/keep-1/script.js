@@ -1,4 +1,4 @@
-// Keep v.4.9.0
+// Keep v.4.9.1
 // The static version of my offline "keep" PHP script that saves things (links, notes, etc).
 // Inspired by Twitter, Google Keep
 // Not for large data files.
@@ -1097,7 +1097,7 @@ print += `
 
 <br>
 <div class="block padding2 tRight">
-<span class="tCenter op block padding2 xSmall">total: ${jsonVar.length}</span>
+<span class="tCenter op block padding2 xSmall">Total or last: ${jsonVar.length}</span>
 </div>
 
 </div>
