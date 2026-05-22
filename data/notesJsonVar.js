@@ -3,6 +3,16 @@ var notesJsonVar =
 
 [
     {
+        "id": "125",
+        "text": "String: length - JavaScript | MDN",
+        "text2": "===\r\nconst str = \"Life, the universe and everything. Answer:\";\r\n\r\nconsole.log(`${str} ${str.length}`);\r\n\/\/ Expected output: \"Life, the universe and everything. Answer: 42\"",
+        "text3": "",
+        "url": "https:\/\/developer.mozilla.org\/en-US\/docs\/Web\/JavaScript\/Reference\/Global_Objects\/String\/length",
+        "tag": "#JavaScript #JS #code",
+        "time": 1779297168,
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/notes\/?id=125\"  title=\"id=125 (permanent link)\" >id<\/a>"
+    },
+    {
         "id": "124",
         "text": "How to disable the tab preview in Firefox? | Firefox Support Forum | Mozilla Support",
         "text2": "",
