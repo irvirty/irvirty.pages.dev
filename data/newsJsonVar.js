@@ -3,6 +3,16 @@ var newsJsonVar =
 
 [
     {
+        "id": "99",
+        "text": "WordPress 7.0 \u201cArmstrong\u201d \u2013 WordPress News",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/wordpress.org\/news\/2026\/05\/armstrong\/",
+        "tag": "#CMS #WP #WordPress #release",
+        "time": 1779446975,
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/news\/?id=99\"  title=\"id=99 (permanent link)\" >id<\/a>"
+    },
+    {
         "id": "98",
         "text": "Google I\/O '26 Keynote - YouTube",
         "text2": "",
@@ -18,7 +28,7 @@ var newsJsonVar =
         "text2": "",
         "text3": "",
         "url": "https:\/\/www.firefox.com\/en-US\/firefox\/150.0\/releasenotes\/",
-        "tag": "#technology #app #software #browser #Firefox #MozillaFirefox #Mozilla",
+        "tag": "#technology #app #software #browser #Firefox #MozillaFirefox #Mozilla #release",
         "time": 1777472548,
         "rightFooter": "<a class=\"brand\" href=\"\/pages\/news\/?id=95\"  title=\"id=95 (permanent link)\" >id<\/a>"
     },
@@ -28,7 +38,7 @@ var newsJsonVar =
         "text2": "",
         "text3": "",
         "url": "https:\/\/canonical.com\/blog\/canonical-releases-ubuntu-26-04-lts-resolute-raccoon",
-        "tag": "#technology #OS #Ubuntu #OperationSystem #software #app",
+        "tag": "#technology #OS #Ubuntu #OperationSystem #software #app #release",
         "time": 1777003732,
         "rightFooter": "<a class=\"brand\" href=\"\/pages\/news\/?id=94\"  title=\"id=94 (permanent link)\" >id<\/a>"
     },
@@ -58,7 +68,7 @@ var newsJsonVar =
         "text2": "",
         "text3": "",
         "url": "https:\/\/www.firefox.com\/en-US\/firefox\/149.0\/releasenotes\/",
-        "tag": "#web #technology #app #software #browser",
+        "tag": "#web #technology #app #software #browser #release",
         "time": 1774581988,
         "rightFooter": "<a class=\"brand\" href=\"\/pages\/news\/?id=91\"  title=\"id=91 (permanent link)\" >id<\/a>"
     },
@@ -68,7 +78,7 @@ var newsJsonVar =
         "text2": "",
         "text3": "",
         "url": "https:\/\/blog.google\/innovation-and-ai\/technology\/ai\/nano-banana-2\/",
-        "tag": "#technology #AI #Google",
+        "tag": "#technology #AI #Google #release",
         "time": 1772631789,
         "rightFooter": "<a class=\"brand\" href=\"\/pages\/news\/?id=88\"  title=\"id=88 (permanent link)\" >id<\/a>"
     },
@@ -88,7 +98,7 @@ var newsJsonVar =
         "text2": "",
         "text3": "",
         "url": "https:\/\/blog.google\/products\/gemini\/gemini-3\/",
-        "tag": "#AI #GenerativeAI #Google",
+        "tag": "#AI #GenerativeAI #Google #release",
         "time": 1764049254,
         "rightFooter": "<a class=\"brand\" href=\"\/pages\/news\/?id=86\"  title=\"id=86 (permanent link)\" >id<\/a>"
     },
@@ -98,7 +108,7 @@ var newsJsonVar =
         "text2": "",
         "text3": "",
         "url": "https:\/\/www.firefox.com\/en-US\/firefox\/145.0\/releasenotes\/",
-        "tag": "#Firefox #MozillaFirefox #Mozilla #browser #internet #web #app #software",
+        "tag": "#Firefox #MozillaFirefox #Mozilla #browser #internet #web #app #software #release",
         "time": 1763195155,
         "rightFooter": "<a class=\"brand\" href=\"\/pages\/news\/?id=85\"  title=\"id=85 (permanent link)\" >id<\/a>"
     },
@@ -188,7 +198,7 @@ var newsJsonVar =
         "text2": "",
         "text3": "",
         "url": "https:\/\/www.firefox.com\/en-US\/firefox\/144.0\/releasenotes\/",
-        "tag": "#technology #app #software #Firefox #MozillaFirefox #browser",
+        "tag": "#technology #app #software #Firefox #MozillaFirefox #browser #release",
         "time": 1760506668,
         "rightFooter": "<a class=\"brand\" href=\"\/pages\/news\/?id=73\"  title=\"id=73 (permanent link)\" >id<\/a>"
     },
