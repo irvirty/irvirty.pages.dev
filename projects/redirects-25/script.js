@@ -1,4 +1,4 @@
-// Search redirect v.2.15.15
+// Search redirect v.2.15.16
 // Search query + command
 // Example: "text goo" or "text google", "text bin" or "text bing"
 
@@ -2345,17 +2345,21 @@ q = q3.replace(qCom, '');
 q = q.trim();
 q = encodeURIComponent(q);
 urlList = [
-"https://marginalia-search.com/search?query=" + q,
+//"https://marginalia-search.com/search?query=" + q,
 "https://search.seznam.cz/?q=" + q,
+"https://www.ecosia.org/search?q=" + q,
+"https://duckduckgo.com/?q=" + q,
 //"https://mwmbl.org/?q=" + q,
-"https://www.mojeek.com/search?q=" + q,
+//"https://www.mojeek.com/search?q=" + q,
 ];
 if (q == ""){
 urlList = [
-"https://marginalia-search.com/",
+//"https://marginalia-search.com/",
 "https://search.seznam.cz/",
+"https://www.ecosia.org/",
+"https://duckduckgo.com/",
 //"https://mwmbl.org/",
-"https://www.mojeek.com/",
+//"https://www.mojeek.com/",
 ];
 }
 random = urlList[fuMRandom(0, urlList.length - 1)];
