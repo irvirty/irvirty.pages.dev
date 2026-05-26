@@ -77,6 +77,13 @@ var sitemapJsonVar = [
         "time": "id"
     },
     {
+        "text": "Binary To Text\n\nBinary to text. Conversion binary format to text format using JavaScript. | binary to text: ",
+        "url": "\/projects\/binary-to-text-83\/index.html",
+        "tag": " #text #binary #tool #tools #conversion #converter #JavaScript #project",
+        "id": "b9c0101c88cf1faf25d344f4ea5d4b84",
+        "time": "id"
+    },
+    {
         "text": "Blocked\n\nBlock || status page.\r\nNot intended for viewing. | blocked: ",
         "url": "\/old-projects\/blocked-65\/index.html",
         "tag": " #block #JavaScript #project",
@@ -744,7 +751,7 @@ var sitemapJsonVar = [
     {
         "text": "Text To Binary\n\nBinary text. Conversion of text and symbols into binary format using JavaScript. | text to binary: ",
         "url": "\/projects\/text-to-binary-52\/index.html",
-        "tag": " #Experimental #text #binary #tool #tools #conversion #converter #JavaScript #project",
+        "tag": " #text #binary #tool #tools #conversion #converter #JavaScript #project",
         "id": "e6459362df1ce316ace4a26040df03f8",
         "time": "id"
     },
