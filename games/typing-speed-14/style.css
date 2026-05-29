@@ -6,7 +6,7 @@
 
 .result, textarea, #statTopWpm {
 margin: 0 auto;
-font-size: 120%;
+font-size: 150%;
 font-size: var(--typingFont);
 padding: 0 9px;
 }
