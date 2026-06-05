@@ -9,7 +9,7 @@
 📝 To-Do List (in projects).  
 🎮 Games: Quiz, Snake, Memory Symbol, Tic-Tac-Toe, and Typing Speed (WPM) (in games).   
 🛍️ Browser extensions such as a "New Tab Redirect" and an "Auto Theme Switcher" (Firefox only) (in pages).  
-🎨 Themes for the Firefox browser and Geany IDE (in pages).  
+🎨 Themes for Geany IDE and the Firefox browser (in pages).  
 📄 "SimpleHomepage" theme for WordPress and website templates (in pages).    
 📁 Other: News, Images, Icons, Photos, Art, CSS Art (in pages), Music collection, Tools (in projects), etc.   
   
