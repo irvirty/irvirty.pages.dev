@@ -17,6 +17,10 @@ New Tab Redirect, Custom New Tab,
 [![screenshot](screenshot.png)](screenshot.png)
 [![screenshot2](screenshot2.png)](screenshot2.png)
 
+## 🛍️ For install:
+  
+[https://addons.mozilla.org/firefox/addon/new-tab-redirect-2/](https://addons.mozilla.org/firefox/addon/new-tab-redirect-2/)
+
 
 
 

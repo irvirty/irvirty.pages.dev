@@ -8,3 +8,6 @@ URL irvirty.is-local.org/search/?q={searchTerms} as search engine.
 • Privacy:  
 Cloudflare's Privacy Policy - https://www.cloudflare.com/privacypolicy/
 
+## 🛍️ For install:
+  
+[https://addons.mozilla.org/firefox/addon/irvirty-search-redirect/](https://addons.mozilla.org/firefox/addon/irvirty-search-redirect/)

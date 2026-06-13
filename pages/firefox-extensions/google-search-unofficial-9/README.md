@@ -8,6 +8,10 @@ This extension was created to see the URL address when searching.
 ## Screenshot:
 [![screenshot](screenshot.png)](screenshot.png)
 
+## 🛍️ For install:
+  
+[https://addons.mozilla.org/firefox/addon/google-search-unofficial/](https://addons.mozilla.org/firefox/addon/google-search-unofficial/)
+
 
 
 

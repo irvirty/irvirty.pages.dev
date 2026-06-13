@@ -22,6 +22,10 @@ Dark Mode, Light Mode, Auto Theme, Theme Switcher, Automatic Theme, Schedule, Ti
 
 [![screenshot](screenshot.png)](screenshot.png)
 
+## 🛍️ For install:
+  
+[https://addons.mozilla.org/firefox/addon/auto-theme-switcher/](https://addons.mozilla.org/firefox/addon/auto-theme-switcher/)
+
 
 
 
