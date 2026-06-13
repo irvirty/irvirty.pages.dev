@@ -18,4 +18,6 @@ Other:
 [![screenshot](screenshot.png)](screenshot.png)
 
 
-
+## 🛍️ For download:
+  
+[https://wordpress.org/themes/simplehomepage/](https://wordpress.org/themes/simplehomepage/)
