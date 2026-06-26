@@ -528,8 +528,17 @@ document.getElementById( 'topNav' ).style.display = 'block';
 
 // WPM v.1.2.0
 if (document.getElementById("q") != null){ 
+
 var inputA2 = document.getElementById("q");
+if (inputA2 != null){
 inputA2.addEventListener('input', getWpm);
+}
+
+var inputA3 = document.getElementById("q2");
+if (inputA3 != null){
+inputA3.addEventListener('input', getWpm);
+}
+
 }
 
 // new core 2

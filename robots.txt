@@ -23,4 +23,4 @@ Allow: /
 #https://developers.google.com/search/docs/crawling-indexing/sitemaps/build-sitemap#xml
 #https://www.reddit.com/robots.txt
 
-Sitemap: https://irvirty.pages.dev/sitemap.xml
+Sitemap: https://irvirty.is-local.org/sitemap.xml
