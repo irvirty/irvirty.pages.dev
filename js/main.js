@@ -522,13 +522,13 @@ document.getElementById("footer").innerHTML = `
 <a class="brand inlineBlock padding" title="Social network" href="https://bsky.app/profile/${conf["confUsername"]}.is-local.org">Bluesky</a>
 <span class="op gray">|</span>
 
-<a class="brand inlineBlock padding" title="Source code (repository)" href="https://github.com/${conf["confUsername"]}/${conf["confWebsiteUrl"]}">Source Code</a>
-<span class="op gray">|</span>
-
 <a id="fSettings" class="brand inlineBlock padding" title="Settings" href="${confD}pages/settings/">Settings</a>
 <span class="op gray">|</span>
 
-<a id="fPrivacy" class="brand inlineBlock padding" style="padding-right: 0;" title="Cookie Settings" href="${confD}pages/settings/#confDataCollection">Cookie: ${conf["confDataCollection"]}</a>
+<a id="fPrivacy" class="brand inlineBlock padding" title="Cookie Settings" href="${confD}pages/settings/#confDataCollection">Cookie: ${conf["confDataCollection"]}</a>
+<span class="op gray">|</span>
+
+<a class="brand inlineBlock padding" style="padding-right: 0;" title="Source code (repository)" href="https://github.com/${conf["confUsername"]}/${conf["confWebsiteUrl"]}">Source Code</a>
 
 <br>
 
