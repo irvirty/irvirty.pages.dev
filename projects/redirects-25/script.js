@@ -594,15 +594,17 @@ q = q3.replace(qCom, '');
 q = q.trim();
 q = encodeURIComponent(q);
 urlList = [
-"https://bsky.app/search?q=" + q,
+//"https://bsky.app/search?q=" + q,
 //"https://www.tumblr.com/search/" + q,
 //"https://wordpress.com/reader/search?q=" + q,
+"https://nostter.app/search?q=" + q + "&proxy=on",
 ];
 if (q == ""){
 urlList = [
-"https://bsky.app/",
+//"https://bsky.app/",
 //"https://www.tumblr.com/",
 //"https://wordpress.com/reader/",
+"https://nostter.app/",
 ];
 }
 random = urlList[fuMRandom(0, urlList.length - 1)];
