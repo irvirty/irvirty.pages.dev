@@ -519,7 +519,7 @@ document.getElementById("footer").innerHTML = `
 <a class="yellow inlineBlock padding" title="RSS News" href="${confD}rss.xml">RSS</a>
 <span class="op gray">|</span>
 
-<a class="brand inlineBlock padding" title="Social network" href="https://bsky.app/profile/${conf["confUsername"]}.is-local.org">Bluesky</a>
+<a class="brand inlineBlock padding" title="Social network" href="https://nostter.app/npub17ha3jmkrz767kgda656ql6qqquzvm0ath2872mxaa6547w4gcvys8eu8th">Nostr</a>
 <span class="op gray">|</span>
 
 <a id="fSettings" class="brand inlineBlock padding" title="Settings" href="${confD}pages/settings/">Settings</a>
