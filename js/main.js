@@ -519,6 +519,9 @@ document.getElementById("footer").innerHTML = `
 <a class="yellow inlineBlock padding" title="RSS News" href="${confD}rss.xml">RSS</a>
 <span class="op gray">|</span>
 
+<a class="brand inlineBlock padding" title="Social" href="https://friendica.world/profile/${conf["confUsername"]}">Friendica</a>
+<span class="op gray">|</span>
+
 <a id="fSettings" class="brand inlineBlock padding" title="Settings" href="${confD}pages/settings/">Settings</a>
 <span class="op gray">|</span>
 
