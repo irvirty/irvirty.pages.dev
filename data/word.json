@@ -630,6 +630,11 @@
         "text3": "pan"
     },
     {
+        "text": "\u0431\u0430\u044f\u043d",
+        "text2": "accordion",
+        "text3": "acorde\u00f3n"
+    },
+    {
         "text": "\u0431\u0435\u0433\u0435\u043c\u043e\u0442",
         "text2": "hippo",
         "text3": "hipop\u00f3tamo"
@@ -4488,11 +4493,6 @@
         "text": "\u043c\u0438\u0442\u0440\u043e\u043f\u043e\u043b\u0438\u0442",
         "text2": "metropolitan",
         "text3": "el metropolitano"
-    },
-    {
-        "text": "\u043c\u0438\u0442\u0442\u044f",
-        "text2": "washing",
-        "text3": "lavado"
     },
     {
         "text": "\u043c\u043e\u0432\u043b\u0435\u043d\u043d\u044f",

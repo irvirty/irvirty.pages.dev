@@ -1,4 +1,4 @@
-// Random color generator v.1.1.0
+// Random color generator v.1.2.0
 
 
 function fuRandomColorGenerator(colorListCommaSeparator){
@@ -60,7 +60,7 @@ let lRandTone = getRandomInt(100);
 let lRandTone2 = getRandomInt(100);
 
 
-return `color-mix(in srgb, ${lRandColor} ${lRandTone}%, ${lRandColor2})`;
+return ` color-mix(in srgb, ${lRandColor} ${lRandTone}%, ${lRandColor2} ${lRandTone2}%) `;
 
 
 }
