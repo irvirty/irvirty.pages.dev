@@ -556,11 +556,11 @@ q = q3.replace(qCom, '');
 q = q.trim();
 q = encodeURIComponent(q);
 urlList = [
-"https://friendica.world/search?q=" + q,
+"https://social.netdynamics.eu/search?q=" + q,
 ];
 if (q == ""){
 urlList = [
-"https://friendica.world/",
+"https://social.netdynamics.eu/",
 ];
 }
 random = urlList[fuMRandom(0, urlList.length - 1)];
@@ -613,11 +613,11 @@ q = q3.replace(qCom, '');
 q = q.trim();
 q = encodeURIComponent(q);
 urlList = [
-"https://friendica.world/search?q=" + q,
+"https://social.netdynamics.eu/search?q=" + q,
 ];
 if (q == ""){
 urlList = [
-"https://friendica.world/",
+"https://social.netdynamics.eu/",
 ];
 }
 random = urlList[fuMRandom(0, urlList.length - 1)];
