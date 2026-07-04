@@ -3,6 +3,15 @@ var tvJsonVar =
 
 [
     {
+        "text": "ALF - Twitch",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.twitch.tv\/alf",
+        "tag": "#tv #live #series",
+        "time": 1783142782,
+        "rightFooter": ""
+    },
+    {
         "text": "FULL EPISODES | Curious George | Season 4 - YouTube",
         "text2": "",
         "text3": "",

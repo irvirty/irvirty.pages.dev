@@ -283,6 +283,14 @@ embed = `<iframe width="${w}" height="300" src="${item}"></iframe>`;
 }
 break;
 
+case 'www.twitch.tv':
+play = item.split('/');
+play = play[play.length - 1];
+if (play == ''){ play = play[play.length - 2]; }
+embed = `<iframe src="https://embed.twitch.tv?channel=${play}&layout=video&referrer=some-referer-url&parent=${(location.hostname)}" allowfullscreen="" scrolling="no" frameborder="0" height="${h}"></iframe>`;
+embedServiceList += 'twitch';
+break;
+
 //default:
 
 
