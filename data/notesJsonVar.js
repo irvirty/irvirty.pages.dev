@@ -3,6 +3,16 @@ var notesJsonVar =
 
 [
     {
+        "id": "126",
+        "text": "for - JavaScript | MDN",
+        "text2": "===\r\nlet str = \"\";\r\n\r\nfor (let i = 0; i < 9; i++) {\r\n  str += i;\r\n}\r\n\r\nconsole.log(str);\r\n\/\/ Expected output: \"012345678\"",
+        "text3": "",
+        "url": "https:\/\/developer.mozilla.org\/en-US\/docs\/Web\/JavaScript\/Reference\/Statements\/for",
+        "tag": "#JavaScript",
+        "time": 1783587692,
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/notes\/?id=126\"  title=\"id=126 (permanent link)\" >id<\/a>"
+    },
+    {
         "id": "125",
         "text": "String: length - JavaScript | MDN",
         "text2": "===\r\nconst str = \"Life, the universe and everything. Answer:\";\r\n\r\nconsole.log(`${str} ${str.length}`);\r\n\/\/ Expected output: \"Life, the universe and everything. Answer: 42\"",
