@@ -556,11 +556,30 @@ q = q3.replace(qCom, '');
 q = q.trim();
 q = encodeURIComponent(q);
 urlList = [
-"https://social.netdynamics.eu/search?q=" + q,
+"https://friendica.visionroot.org/search?q=" + q,
 ];
 if (q == ""){
 urlList = [
-"https://social.netdynamics.eu/",
+"https://friendica.visionroot.org/",
+];
+}
+random = urlList[fuMRandom(0, urlList.length - 1)];
+url = random;
+sRedirectUrl = url;
+break;
+
+
+case "pleroma#":
+case "ple#":
+q = q3.replace(qCom, '');
+q = q.trim();
+q = encodeURIComponent(q);
+urlList = [
+"https://devs.live/search?query=" + q,
+];
+if (q == ""){
+urlList = [
+"https://devs.live/",
 ];
 }
 random = urlList[fuMRandom(0, urlList.length - 1)];
@@ -613,11 +632,13 @@ q = q3.replace(qCom, '');
 q = q.trim();
 q = encodeURIComponent(q);
 urlList = [
-"https://nostter.app/search?q=" + q + "&proxy=on",
+//"https://nostter.app/search?q=" + q + "&proxy=on",
+"https://bsky.app/search?q=" + q,
 ];
 if (q == ""){
 urlList = [
-"https://nostter.app/",
+//"https://nostter.app/",
+"https://bsky.app/",
 ];
 }
 random = urlList[fuMRandom(0, urlList.length - 1)];
