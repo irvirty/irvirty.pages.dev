@@ -651,11 +651,13 @@ q = q3.replace(qCom, '');
 q = q.trim();
 q = encodeURIComponent(q);
 urlList = [
-"https://nostter.app/search?q=" + q + "&proxy=on",
+//"https://nostter.app/search?q=" + q + "&proxy=on",
+"https://mu.social/search?q=" + q,
 ];
 if (q == ""){
 urlList = [
-"https://nostter.app/",
+//"https://nostter.app/",
+"https://mu.social/",
 ];
 }
 random = urlList[fuMRandom(0, urlList.length - 1)];
