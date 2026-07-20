@@ -1368,6 +1368,11 @@ var wordJsonVar =
         "text3": "gas"
     },
     {
+        "text": "\u0433\u0430\u0437\u0435\u043b\u044c",
+        "text2": "gazelle",
+        "text3": "gacela"
+    },
+    {
         "text": "\u0433\u0430\u0437\u0435\u0442\u0430",
         "text2": "newspaper",
         "text3": "peri\u00f3dico"
@@ -6001,11 +6006,6 @@ var wordJsonVar =
         "text": "\u043f\u0440\u0430\u043f\u043e\u0440",
         "text2": "flag",
         "text3": "la bandera"
-    },
-    {
-        "text": "\u043f\u0440\u0430\u0441\u0443\u0432\u0430\u043d\u043d\u044f",
-        "text2": "ironing",
-        "text3": "planchado"
     },
     {
         "text": "\u043f\u0440\u0435\u0430\u043c\u0431\u0443\u043b\u0430",

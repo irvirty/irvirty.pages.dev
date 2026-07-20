@@ -358,6 +358,25 @@ sRedirectUrl = url;
 break;
 
 
+case "eurosky#":
+case "mu#":
+q = q3.replace(qCom, '');
+q = q.trim();
+q = encodeURIComponent(q);
+urlList = [
+"https://mu.social/search?q=" + q,
+];
+if (q == ""){
+urlList = [
+"https://mu.social/",
+];
+}
+random = urlList[fuMRandom(0, urlList.length - 1)];
+url = random;
+sRedirectUrl = url;
+break;
+
+
 case "substack#":
 case "sub#":
 q = q3.replace(qCom, '');
@@ -632,13 +651,11 @@ q = q3.replace(qCom, '');
 q = q.trim();
 q = encodeURIComponent(q);
 urlList = [
-//"https://nostter.app/search?q=" + q + "&proxy=on",
-"https://bsky.app/search?q=" + q,
+"https://nostter.app/search?q=" + q + "&proxy=on",
 ];
 if (q == ""){
 urlList = [
-//"https://nostter.app/",
-"https://bsky.app/",
+"https://nostter.app/",
 ];
 }
 random = urlList[fuMRandom(0, urlList.length - 1)];
