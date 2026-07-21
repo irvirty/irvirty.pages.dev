@@ -1424,8 +1424,8 @@ var wordJsonVar =
     },
     {
         "text": "\u0433\u0435\u0439",
-        "text2": "gay",
-        "text3": "gay"
+        "text2": "hey",
+        "text3": "hola"
     },
     {
         "text": "\u0433\u0435\u0439\u043c\u0435\u0440",
