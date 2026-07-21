@@ -652,12 +652,12 @@ q = q.trim();
 q = encodeURIComponent(q);
 urlList = [
 //"https://nostter.app/search?q=" + q + "&proxy=on",
-"https://mu.social/search?q=" + q,
+"https://bsky.app/search?q=" + q,
 ];
 if (q == ""){
 urlList = [
 //"https://nostter.app/",
-"https://mu.social/",
+"https://bsky.app/",
 ];
 }
 random = urlList[fuMRandom(0, urlList.length - 1)];
