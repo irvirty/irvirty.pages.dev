@@ -1,5 +1,15 @@
 [
     {
+        "id": "15",
+        "text": "How long it takes light from the Sun to reach Earth | BBC Sky at Night Magazine",
+        "text2": "Approximately how long does it take for light from the Sun to reach the Earth?",
+        "text3": "1 minute|||false|||\r\n___\r\n1 seconds|||false|||\r\n___\r\n8 seconds|||false|||\r\n___\r\n1 hour|||false|||\r\n___\r\n4 hour|||false|||\r\n___\r\n8 minutes and 20 seconds|||true|||\r\n___",
+        "url": "https:\/\/www.skyatnightmagazine.com\/space-science\/how-take-light-from-sun-reach-earth",
+        "tag": "#all #space #science",
+        "time": 1784905395,
+        "rightFooter": ""
+    },
+    {
         "id": "14",
         "text": "TIL only 12 people have walked on the moon, all within 4 years of each other and not for 52 years : r\/todayilearned",
         "text2": "How many people have been on the Moon?",
