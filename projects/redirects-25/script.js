@@ -801,12 +801,14 @@ urlList = [
 "https://www.google.com/search?q=" + q + "&tbm=nws",
 "https://www.bing.com/news/search?q=" + q + "&form=somesite",
 //"https://www.mojeek.com/search?q=" + q + "&fmt=news",
+"https://www.techmeme.com/search/query?q=" + q,
 ];
 if (q == ""){
 urlList = [
 "https://news.google.com/",
 "https://www.bing.com/news",
 //"https://www.mojeek.com/news"
+"https://www.techmeme.com/",
 ];
 }
 random = urlList[fuMRandom(0, urlList.length - 1)];
@@ -828,7 +830,6 @@ if (q == ""){
 urlList = [
 "https://www.reddit.com/r/worldnews/",
 "https://flipboard.com/topic/world",
-"https://en.wikinews.org/",
 ];
 }
 random = urlList[fuMRandom(0, urlList.length - 1)];
@@ -999,6 +1000,25 @@ urlList = [
 if (q == ""){
 urlList = [
 "https://www.google.com/finance/",
+];
+}
+random = urlList[fuMRandom(0, urlList.length - 1)];
+url = random;
+sRedirectUrl = url;
+break;
+
+
+case "techmeme#":
+case "mem#":
+q = q3.replace(qCom, '');
+q = q.trim();
+q = encodeURIComponent(q);
+urlList = [
+"https://www.techmeme.com/search/query?q=" + q,
+];
+if (q == ""){
+urlList = [
+"https://www.techmeme.com/",
 ];
 }
 random = urlList[fuMRandom(0, urlList.length - 1)];
