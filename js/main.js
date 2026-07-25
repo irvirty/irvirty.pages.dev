@@ -186,7 +186,7 @@ document.getElementById('theme').id = 'themeDisable';
 
 conf["confMenuItems"] = [
 {"url":`${confD}all/`, "title":"All pages", "text":"All", "class":""},
-{"url":`${confD}pages/`, "title":"Main pages", "text":"Pages", "class":""},
+{"url":`${confD}pages/`, "title":"Main pages", "text":"Main Pages", "class":""},
 {"url":`${confD}games/`, "title":"Games", "text":"Games", "class":""},
 {"url":`${confD}projects/`, "title":"Projects", "text":"Projects", "class":""},
 {"url":`${confD}mini-projects/`, "title":"Mini projects", "text":"Mini projects", "class":""},
