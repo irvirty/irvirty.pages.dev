@@ -3,6 +3,26 @@ var musicJsonVar =
 
 [
     {
+        "id": "6801",
+        "text": "Melody's Echo Chamber - Looking Backward (Official Video) - YouTube",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=83R6r2xILx8",
+        "tag": "#music",
+        "time": 1784955293,
+        "rightFooter": ""
+    },
+    {
+        "id": "6800",
+        "text": "Melody's Echo Chamber - Emotional Eternal (Official Audio) - YouTube",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=hOJDoXroMCQ",
+        "tag": "#music",
+        "time": 1784955234,
+        "rightFooter": ""
+    },
+    {
         "id": "6797",
         "text": "1234 \u00b7 Ingrid",
         "text2": "",
