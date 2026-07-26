@@ -511,7 +511,7 @@ var qSearchNoQuote = qSearch.replaceAll('"', '');
 // s1.1, tag
 if (qSearch[0] == '#'||(qSearch[0] + ' ').indexOf("%23") != -1){
 qData2 = qData.replaceAll(/,/g, ' ');
-if ((qData2 + ' ').indexOf((qSearch + ' ')) >= 0){
+if ((qData2.trim() + " ").indexOf((qSearch.trim() + " ")) >= 0){
 subQListFound.push(qSearch);
 var subQforLight = subQListFound.join(confSymbolForSplit);
 
@@ -576,8 +576,8 @@ qData.indexOf(String(qSearch)) != -1||
 qData.indexOf(String(qSearch23)) != -1||
 qData.indexOf(String(qSearchNoQuote)) != -1
 ){
-if (qData.indexOf(String(qSearch23)) != -1){ qSearch = qSearch23; }
-if (qData.indexOf(String(qSearchNoQuote)) != -1){ qSearch = qSearchNoQuote; }
+if (qData.trim() + " ".indexOf(String(qSearch23.trim() + " ")) != -1){ qSearch = qSearch23; }
+if (qData.trim() + " ".indexOf(String(qSearchNoQuote.trim() + " ")) != -1){ qSearch = qSearchNoQuote; }
 
 //subQListFound.push(subQListFound);
 let qSearchTmp = qSearch.split(" ");

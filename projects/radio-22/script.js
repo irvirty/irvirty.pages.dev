@@ -84,12 +84,14 @@ qSearch = String(qSearch).toLowerCase();
 
 
 // if tag
-//if(qSearch[0] == '#'){}
-qData = String(postText + ' ' + postText2 + ' ' + postText3 + ' ' + postTag + ' ' + postUrl).toLowerCase();
+
+qData = String(postText + ' ' + postText2 + ' ' + postText3 + ' ' + postUrl + ' ' + postTag).toLowerCase();
 qData = qData + " ";
 /*if(qSearch[0] == '#'){ qData = qData.replaceAll(/,/g, ' '); } */
-if((qData).indexOf((qSearch)) != -1){
+//qData = qData.replaceAll(/,/g, ' ');
+if((qData.trim() + ' ').indexOf((qSearch.trim() + " ".toLowerCase())) >= 0){
 arrListForRandom.push(key);
+
 i++;
 total = i;
 comMessagePrint = `${q2} ${i}`;

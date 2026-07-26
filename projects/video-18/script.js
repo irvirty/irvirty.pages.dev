@@ -79,14 +79,13 @@ qSearch = String(qSearch).toLowerCase();
 
 
 // if tag
+
 qData = String(postText + ' ' + postText2 + ' ' + postText3 + ' ' + postUrl + ' ' + postTag).toLowerCase();
 qData = qData + " ";
 /*if(qSearch[0] == '#'){ qData = qData.replaceAll(/,/g, ' '); } */
 //qData = qData.replaceAll(/,/g, ' ');
-if((qData + ' ').indexOf((qSearch.toLowerCase())) >= 0){
+if((qData.trim() + ' ').indexOf((qSearch.trim() + " ".toLowerCase())) >= 0){
 arrListForRandom.push(key);
-
-
 
 i++;
 total = i;

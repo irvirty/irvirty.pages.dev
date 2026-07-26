@@ -2429,7 +2429,6 @@ break;
 
 
 case "o#":
-case "so#":
 case "oth#":
 q = q3.replace(qCom, '');
 q = q.trim();
