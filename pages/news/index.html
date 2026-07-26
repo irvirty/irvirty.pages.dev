@@ -116,36 +116,6 @@
 
 <!--<span class="xSmall block tCenter op">Short news on various topics. Web, technology, innovation, etc.</span>-->
 
-
-<script src="../../data/newsJsonVar.js"></script>
-<script>
-// fresh data example in script.js
-if(keepJsonVar == undefined||keepJsonVar == ''){
-var keepJsonVar = 
-
-
-[
-    {
-        "id": 251,
-        "text": "test2 text2",
-        "url": "https:\/\/example.com",
-        "tag": "#test2 #tag",
-        "time": 1671480576
-    },
-    {
-        "id": 250,
-        "text": "test text",
-        "url": "https:\/\/example.com",
-        "tag": "#test #tag",
-        "time": 1668444918
-    }
-]
-
-
-
-}
-</script>
-
 <div id="printKeep"></div>
 
 <noscript>
@@ -189,7 +159,7 @@ let keepConfig = {
 };
 </script>
 
-<script src="../../projects/keep-1/script.js" onload="keep('printKeep', newsJsonVar, 'wrapper', './', keepConfig)"></script>
+<script src="../../projects/keep-1/script.js" onload="keep('printKeep', '../../data/news.json', 'wrapper', './', keepConfig)"></script>
 <script></script>
 
 </body>

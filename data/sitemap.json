@@ -1,4 +1,4 @@
-var sitemapJsonVar = [
+[
     {
         "text": "\n\n | googlebbaafeebecb: ",
         "url": "\/googlebb934aafeeb1ecb6.html",
@@ -422,7 +422,7 @@ var sitemapJsonVar = [
     {
         "text": "Microblog\n\nMicroblog: reposts, likes, and other. | microblog: ",
         "url": "\/pages\/microblog\/index.html",
-        "tag": " #reposts #likes #microblog #page #main",
+        "tag": " #reposts #likes #microblog #page'.\/..\/..\/data\/images.json' #main",
         "id": "9fd746c7a23f7988f6b4b7f33c7e1716",
         "time": "id"
     },
