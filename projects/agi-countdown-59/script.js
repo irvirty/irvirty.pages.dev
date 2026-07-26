@@ -1,13 +1,27 @@
 // v.1.1.0
 
-let totalPost = agicountdownJsonVar.length;
+// start fetch data
+fetch(jsonUrl)
+  .then(response => {
+    if (!response.ok) {
+      throw new Error(`HTTP error! Status: ${response.status}`);
+    }
+    return response.json(); // Returns another promise
+  })
+  .then(data => {
+//console.table(data);
+var jsonVar = data;
+
+
+
+let totalPost = jsonVar.length;
 let totalPredict = 0;
 let averageYear = 0;
 let result = "empty";
 let resultCountdown = "empty";
 
 let i = 0;
-agicountdownJsonVar.forEach((item, key) => {
+jsonVar.forEach((item, key) => {
 
 postId = '';
 postText = '';
@@ -95,3 +109,14 @@ Similar site or page:<br>
 if(document.getElementById("result") != null){
 document.getElementById("result").innerHTML = print; 
 }
+
+
+
+
+// end fetch data
+  })
+  .then(undefined, error => {
+    console.error('Error:', error);
+ });
+ 
+ 
