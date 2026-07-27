@@ -152,17 +152,6 @@
 
 </div>
 
-
-
-
-<script src="../data/sitemapJsonVar.js"></script>
-<script src="../data/linksJsonVar.js"></script>
-<script src="../data/newsJsonVar.js"></script>
-<script src="../data/microblogJsonVar.js"></script>
-<script src="../data/blogJsonVar.js"></script>
-<script src="../data/wikiJsonVar.js"></script>
-<script src="../data/notesJsonVar.js"></script>
-
 <script>
 
 var data = [];
@@ -172,14 +161,6 @@ if (confSpeedDialDataArr2 != null){
 confSpeedDialDataArr2 = JSON.parse(confSpeedDialDataArr2);
 data = data.concat(confSpeedDialDataArr2);
 }
-
-
-
-data = data.concat(sitemapJsonVar, linksJsonVar, newsJsonVar, microblogJsonVar, blogJsonVar, wikiJsonVar, notesJsonVar);
-//data = [...sitemapJsonVar, ...linksJsonVar, newsJsonVar, ...microblogJsonVar, ...blogJsonVar, ...wikiJsonVar, ...notesJsonVar,];
-
-
-
 
 </script>
 
@@ -283,7 +264,7 @@ lPrint += `<a class="op autoColumnItem keepTag2 border light2 borderRadius2 acti
 lPrint += `<a class="op autoColumnItem keepTag2 border light2 borderRadius2" href="?` + q55PrintUrl + `&dmode=` + val + `">`+ val + `</a> `;
 }
 });
-document.getElementById("modeList").innerHTML = lPrint;
+//document.getElementById("modeList").innerHTML = lPrint;
 
 
 
@@ -377,13 +358,7 @@ let keepConfig = {
 
 
 <script>
-//https://stackoverflow.com/questions/724857/how-to-find-javascript-variable-by-its-name
-if (dataMode != "all"&&dataMode != null&&dataMode != "null"&&dataMode != undefined&&dataMode != ""){
-dataMode = window[dataMode + 'JsonVar'];
-keep("printKeep", dataMode, 'wrapper', './', keepConfig);
-} else {
-keep("printKeep", data, 'wrapper', './', keepConfig);
-}
+keep("printKeep", '../../../data/sitemap.json', 'wrapper', './', keepConfig);
 </script>
 
 
