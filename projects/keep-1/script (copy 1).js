@@ -1,4 +1,4 @@
-// Keep v.4.9.1
+// Keep v.4.4.0
 // The static version of my offline "keep" PHP script that saves things (links, notes, etc).
 // Inspired by Twitter, Google Keep
 // Not for large data files.
@@ -21,7 +21,7 @@ let keepConfig = {
 "bottomMsg":`
 <!-- bottom text or code -->
 `, // text
-"display":"", // gallery, art, blog (text, text2, text3), all (text, text2, text3)
+"display":"", // gallery, art, blog (text, text2), all (text, text2, text3)
 "timeStatus":"", // off, disable post time (post id)
 "rightFooterStatus":"", // on, off, right footer in data
 "usernameStatus":"", // on, off
@@ -191,7 +191,7 @@ var url = new URL(window.location);
 
 var sTimeRedir = [];
 sTimeRedir[0] = 10000;
-sTimeRedir[2] = 1200; // I'm Feeling Lucky
+sTimeRedir[2] = 1200; // Luck
 
 var q = url.searchParams.get("q");
 
@@ -283,7 +283,6 @@ window.location.href = window.location.href + '#StopRedirect';
 break;
 
 
-case 'ql#':
 case 'qs#':
 q = q3.replace(qCom, '');
 q = q.trim();
@@ -459,7 +458,7 @@ if (mode == 'list'&&tagListStatus == 'on'){
 
 /*print += `
 <!--<div class="block tCenter padding2">
-mode:${mode} id:${id} | q:${q}| p:${getP} | p2:${getP2}
+mode:${mode} id:${id} q:${q} p:${getP} p2:${getP2}
 <a href="?id=">random</a>
 </div>-->
 `;*/
@@ -515,12 +514,12 @@ if ((qData2 + ' ').indexOf((qSearch + ' ')) >= 0){
 subQListFound.push(qSearch);
 var subQforLight = subQListFound.join(confSymbolForSplit);
 
-// I'm Feeling Lucky
+// Luck
 if (q2 == 'l'&&String('' + window.location + '').indexOf("#StopRedirect") == -1){
 //if (postUrl == ''&&postId != ''){ window.location.href = scriptDir + '?id=' + postId; }
 if (postUrl != ''){
 sTimeRedir[2] = 1200;
-comMessagePrint = `I'm Feeling Lucky, redirect to URL: `+ sTimeRedir[2] / 1000 +` sec.`;
+comMessagePrint = `Luck search, redirect to URL: `+ sTimeRedir[2] / 1000 +` sec.`;
 window.location.href = '/projects/redirects-25/?rUrl=' + postUrl;
 //window.location.href = postUrl;
 window.location.href = window.location.href + '#StopRedirect'; 
@@ -531,7 +530,7 @@ window.location.href = window.location.href + '#StopRedirect';
 }
 //console.log(postUrl);
 }
-// end I'm Feeling Lucky
+// end Luck search
 
 if (getP3 <= i){
 if (i3 <= postLimit - 1){
@@ -556,7 +555,7 @@ i3++;
 i++;
 total = i;
 subQListFound = [...new Set(subQListFound)];
-comMessagePrint = `${q} | (s1.1: ${subQListFound}) | ${i} results`;
+comMessagePrint = `${q} (s1.1: ${subQListFound}) ${i}`;
 comMessage = 'found';
 
 // collect for random
@@ -586,7 +585,7 @@ subQListFound.push(qSearchTmp);
 var subQforLight = subQListFound.join(confSymbolForSplit);
 
 
-// I'm Feeling Lucky
+// Luck
 if (q2 == 'l'&&String('' + window.location + '').indexOf("#StopRedirect") == -1){
 if (postUrl != ''){
 comMessagePrint = `Luck search, redirect to URL: ` + sTimeRedir[2] / 1000 +` sec.`;
@@ -600,7 +599,7 @@ window.location.href = window.location.href + '#StopRedirect';
 }
 //console.log(postUrl);
 }
-// end I'm Feeling Lucky
+// end Luck search
 
 if (getP3 <= i){
 if (i3 <= postLimit - 1){
@@ -629,7 +628,7 @@ subQListFound = [...new Set(subQListFound)];
 subQListFound = subQListFound.join(",");
 subQListFound = subQListFound.replaceAll(confSymbolForSplit, ' ');
 
-comMessagePrint = `${q} | (s1.2: ${subQListFound}) | ${i} results`;
+comMessagePrint = `${q} (s1.2: ${subQListFound}) ${i}`;
 comMessage = 'found';
 
 // collect for random
@@ -645,7 +644,7 @@ lFoundQUrlList.push(postUrl);
 
 
 
-if (comMessage != 'found') { comMessagePrint = `${q} | Probably not found`; }
+if (comMessage != 'found') { comMessagePrint = `${q} Probably not found`; }
 break;
 // end search 1
 
@@ -687,7 +686,7 @@ i++;
 getP = key;
 }
 }
-if (comMessagePrint == '') { comMessagePrint = `${q} | Probably not found`; }
+if (comMessagePrint == '') { comMessagePrint = `${q} Probably not found`; }
 // end s1
 break;
 
@@ -698,7 +697,7 @@ postLimit = 1;
 if (getP2 == key){
 if (i <= postLimit - 1){
 
-// I'm Feeling Lucky
+// Luck
 if (mode == 'randomurl'&&String('' + window.location + '').indexOf("#StopRedirect") == -1){
 //if (postUrl == ''&&postId != ''){ window.location.href = scriptDir + '?id=' + postId; }
 if (postUrl != ''){
@@ -713,7 +712,7 @@ window.location.href = window.location.href + '#StopRedirect';
 }
 //console.log(postUrl);
 }
-// end I'm Feeling Lucky
+// end Luck search
 
 if (postText2 != ''){ postText2 = `
 
@@ -754,7 +753,7 @@ printPost += fuPrintPost(postId, '', postText + ' ' + postUrl + postText2 + post
 }
 } else {
 if (display == "blog"){
-printPost += fuPrintPost(postId, postText, postText + postUrl + postText2 + postText3, postTag, postTime, "", rightFooter);
+printPost += fuPrintPost(postId, postText, postText + ' ' + postUrl, postTag, postTime, "", rightFooter);
 } else {
 printPost += fuPrintPost(postId, '', postText + ' ' + postUrl, postTag, postTime, "", rightFooter);
 }
@@ -790,7 +789,6 @@ if (q != ''){
 //qSearch = String(q.toLowerCase()).replaceAll(/ /g, "|"); //if ((qData).search(qSearch) != -1){}
 //qSearch = decodeURIComponent(q);
 qSearch = (q);
-qSearch = qSearch + " ";
 qSearch = String(qSearch).toLowerCase();
 
 qSearch = (qSearch + ' ').split(' ');
@@ -823,14 +821,12 @@ postText = postText.trim();
 
 qData = String(postText + ' ' + postUrl + ' ' + postText2 + ' ' + postText3 + ' ' + postTag).toLowerCase();
 
-qData = qData + " ";
-
 
 let checkFound = 0;
 
-for (item3344 of qSearch) {
+for (const item3344 of qSearch) {
     // ...use `element`...
-item3344 = item3344 + " ";
+
 // query
 //if ((qData.split(item)).length > 1&&item334 != ''){
 if ((qData.indexOf(item3344)) != -1&&item3344 != ""){
@@ -841,25 +837,25 @@ checkFoundCounter++;
 subQListFound.push(item3344);
 var subQforLight = subQListFound.join(confSymbolForSplit);
 
+
 if (checkFoundCounter == (qSearch.length)){
 
-// I'm Feeling Lucky
-if (q2 == 'l'&&String('' + window.location + '').indexOf("#StopRedirect") == -1){
+// Luck
+if (q2 == 'l'){
 //if (postUrl == ''&&postId != ''){ window.location.href = scriptDir + '?id=' + postId; }
-if (postUrl != ''){
-sTimeRedir[2] = 1200;
-comMessagePrint = `I'm Feeling Lucky, redirect to URL: `+ sTimeRedir[2] / 1000 +` sec.`;
+if (postUrl != ''&&String('' + window.location + '').indexOf("#StopRedirect") == -1){
+comMessagePrint = `Luck search, redirect to URL: ` + sTimeRedir[2] / 1000+` sec.`;
 window.location.href = '/projects/redirects-25/?rUrl=' + postUrl;
 //window.location.href = postUrl;
 window.location.href = window.location.href + '#StopRedirect'; 
 //setTimeout(function(){ window.location.href = postUrl; }, sTimeRedir[2]);
 } else {
 window.location.href = scriptDir + '?p2=' + key;
-window.location.href = window.location.href + '#StopRedirect'; 
+window.location.href = window.location.href + '#StopRedirect';
 }
 //console.log(postUrl);
 }
-// end I'm Feeling Lucky
+// end Luck search
 
 
 
@@ -885,7 +881,7 @@ i3++;
 i++;
 total = i;
 subQListFound = [...new Set(subQListFound)];
-comMessagePrint = `${q} | s2: ${subQListFound} | ${i} results`;
+comMessagePrint = `${q} (s2 new: ${subQListFound}) ${i}`;
 qData = "";
 checkFound = "";
 //comMessage = "found";
@@ -918,24 +914,279 @@ checkFoundCounter = 0;
 
 
 
-}
+};
 
 checkFoundCounter = 0;
 
 
 });
 
-};
+}
 
 
-};
+}
 
 
 
 
 
-if (mode == 'search'&&comMessage != 'found') { comMessagePrint = `${q} | Probably not found`; }
+if (mode == 'search'&&comMessage != 'found') { comMessagePrint = `${q} Probably not found`; }
 // end s2 new Search 2
+
+
+/*
+// s3 Search 3, word
+
+if (mode == 'search'&&comMessage != 'found'){
+
+var subQListFound = [];
+
+comMessagePrint = '';
+
+if (q != ''){
+
+//qSearch = String(q.toLowerCase()).replaceAll(/ /g, "|"); //if ((qData).search(qSearch) != -1){}
+//qSearch = decodeURIComponent(q);
+qSearch = (q);
+qSearch = String(qSearch).toLowerCase();
+
+qSearch = (qSearch + ' ').split(' ');
+//https://stackoverflow.com/questions/55685037/how-to-remove-empty-array-values-from-an-array
+qSearch = qSearch.filter(item => item);
+
+jsonVar.forEach((item, key) => {
+
+postId = '';
+postText = '';
+postText2 = '';
+postText3 = '';
+postTag = '';
+postUrl = '';
+postTime = '';
+rightFooter = '';
+
+if (item['id'] != null){ postId = item['id']; }
+if (item['text'] != null){ postText = item['text']; }
+if (item['text2'] != null){ postText2 = item['text2']; }
+if (item['text3'] != null){ postText3 = item['text3']; }
+if (item['tag'] != null){ postTag = item['tag']; }
+if (item['url'] != null){ postUrl = item['url']; }
+if (item['time'] != null){ postTime = item['time']; }
+if (item['rightFooter'] != null){ rightFooter = item['rightFooter']; }
+
+postText = postText.trim();
+
+qData = String(postText + ' ' + postUrl + ' ' + postText2 + ' ' + postText3 + ' ' + postTag).toLowerCase();
+
+
+let checkFound = 0;
+
+//https://stackoverflow.com/questions/55685037/how-to-remove-empty-array-values-from-an-array
+qSearch = qSearch.filter(item => item);
+
+for (const item3344 of qSearch) {
+    // ...use `element`...
+// query
+//if ((qData.split(item)).length > 1&&item334 != ''){
+if ((qData.indexOf(item3344)) != -1&&item3344 != ''){
+subQListFound.push(item3344);
+var subQforLight = subQListFound.join(confSymbolForSplit);
+
+// Luck
+if (q2 == 'l'){
+//if (postUrl == ''&&postId != ''){ window.location.href = scriptDir + '?id=' + postId; }
+if (postUrl != ''&&String('' + window.location + '').indexOf("#StopRedirect") == -1){
+comMessagePrint = `Luck search, redirect to URL: ` + sTimeRedir[2] / 1000+` sec.`;
+window.location.href = '/projects/redirects-25/?rUrl=' + postUrl;
+//window.location.href = postUrl;
+window.location.href = window.location.href + '#StopRedirect'; 
+//setTimeout(function(){ window.location.href = postUrl; }, sTimeRedir[2]);
+} else {
+window.location.href = scriptDir + '?p2=' + key;
+window.location.href = window.location.href + '#StopRedirect';
+}
+//console.log(postUrl);
+}
+// end Luck search
+
+
+
+
+if (getP3 <= i){
+if (i3 <= postLimit - 1){
+//printPost += fuPrintPost(postId, '', postText + ' ' + postUrl, postTag, postTime, subQforLight, rightFooter, rightFooter);
+if (display == "all"||mode == "search"){
+
+if (postText2 != ''){ postText2 = `
+
+` + postText2; };
+if (postText3 != ''){ postText3 = `
+
+` + postText3; };
+printPost += fuPrintPost(postId, '', postText + ' ' + postUrl + postText2 + postText3, postTag, postTime, subQforLight, rightFooter);
+} else {
+printPost += fuPrintPost(postId, '', postText + ' ' + postUrl, postTag, postTime, subQforLight, rightFooter);
+}
+}
+i3++;
+}
+i++;
+total = i;
+subQListFound = [...new Set(subQListFound)];
+comMessagePrint = `${q} (s3: ${subQListFound}) ${i}`;
+qData = '';
+checkFound = '';
+comMessage = 'found';
+
+// collect for random
+if (postUrl == ''&&postId != ''){
+//lFoundQUrlList.push(scriptDir + '?id=' + postId);
+lFoundQUrlList.push(scriptDir + '?p2=' + key);
+} else {
+lFoundQUrlList.push(postUrl);
+}
+
+}
+
+};
+
+
+});
+
+}
+
+
+}
+
+
+
+
+
+if (mode == 'search'&&comMessage != 'found') { comMessagePrint = `${q} Probably not found`; }
+// end s3 Search 3
+*/
+
+
+// s4, search 4
+if (mode == 'search'&&comMessage != 'found'){
+var subQ = [];
+comMessagePrint = '';
+
+if (q != ''){
+//qSearch = String(q.toLowerCase()).replaceAll(/ /g, "|"); //if ((qData).search(qSearch) != -1){}
+//qSearch = decodeURIComponent(q);
+qSearch = (q);
+qSearch = String(qSearch).toLowerCase();
+var qSearchList = (qSearch + ' ').split(' ');
+
+jsonVar.forEach((item, key) => {
+
+postId = '';
+postText = '';
+postText2 = '';
+postText3 = '';
+postTag = '';
+postUrl = '';
+postTime = '';
+rightFooter = '';
+
+if (item['id'] != null){ postId = item['id']; }
+if (item['text'] != null){ postText = item['text']; }
+if (item['text2'] != null){ postText2 = item['text2']; }
+if (item['text3'] != null){ postText3 = item['text3']; }
+if (item['tag'] != null){ postTag = item['tag']; }
+if (item['url'] != null){ postUrl = item['url']; }
+if (item['time'] != null){ postTime = item['time']; }
+if (item['rightFooter'] != null){ rightFooter = item['rightFooter']; }
+
+postText = postText.trim();
+
+let qData = String(postText + ' ' + postUrl + ' ' + postText2 + ' ' + postText3 + ' ' + postTag + ' ').toLowerCase();
+
+qData = (qData + ' ').split(' ');
+
+var checkDublicateId = [];
+qData.forEach(function(item336) { // foreach post word and quary for search
+//if ((qData.split(item336)).length > 1&&item33 != ''){
+//if ((qData.indexOf(item336)) >= 0){
+//console.log(item);
+
+// query
+qSearchList.forEach((qSearchListItem) => {
+//console.log(fuzzySearch(item336, qSearchListItem));
+if (fuzzySearch(item336, qSearchListItem) == true&&item336 != ''&&qSearchListItem != ''){
+//var subQ = 's3: ' + item336 + ',';
+subQ.push(String(item336).trim() + ' ');
+//https://stackoverflow.com/questions/9229645/remove-duplicate-values-from-js-array
+subQ = [...new Set(subQ)];
+var subQforLight = subQ.join(confSymbolForSplit);
+
+if (checkDublicateId[0] != postId){ // fixed dublicate post when search and found
+
+// fixme for s3
+// Luck
+if (q2 == 'l'){
+//if (postUrl == ''&&postId != ''){ window.location.href = scriptDir + '?id=' + postId; }
+if (postUrl != ''&&String('' + window.location + '').indexOf("#StopRedirect") == -1){
+comMessagePrint = `Luck search, redirect to URL: ` + sTimeRedir[2] / 1000+` sec.`;
+window.location.href = '/projects/redirects-25/?rUrl=' + postUrl;
+//window.location.href = postUrl;
+window.location.href = window.location.href + '#StopRedirect'; 
+//setTimeout(function(){ window.location.href = postUrl; }, sTimeRedir[2]);
+} else {
+window.location.href = scriptDir + '?p2=' + key;
+window.location.href = window.location.href + '#StopRedirect';
+}
+//console.log(postUrl);
+}
+// end Luck search
+
+if (getP3 <= i){
+if (i3 <= postLimit - 1){
+if (display == "all"||mode == "search"){
+if (postText2 != ''){ postText2 = `
+
+` + postText2; };
+if (postText3 != ''){ postText3 = `
+
+` + postText3; };
+printPost += fuPrintPost(postId, '', postText + ' ' + postUrl + postText2 + postText3, postTag, postTime, subQforLight, rightFooter);
+} else {
+printPost += fuPrintPost(postId, '', postText + ' ' + postUrl, postTag, postTime, subQforLight, rightFooter);
+}
+//printPost += fuPrintPost(postId, '', postText + ' ' + postUrl, postTag, postTime, subQforLight, rightFooter);
+}
+i3++;
+}
+i++;
+total = i;
+let subQprint = subQ.slice(0, 5).join(", ") + ' ...';
+comMessagePrint = `${q} (s4: ${subQprint}) ${i}`;
+qData = '';
+comMessage = 'found';
+checkDublicateId[0] = postId;
+
+// collect for random
+if (postUrl == ''&&postId != ''){
+//lFoundQUrlList.push(scriptDir + '?id=' + postId);
+lFoundQUrlList.push(scriptDir + '?p2=' + key);
+} else {
+lFoundQUrlList.push(postUrl);
+}
+
+}
+}
+})
+
+
+})
+})
+}
+};
+
+if (mode == 'search'&&comMessage != 'found') { comMessagePrint = `${q} Probably not found`; }
+// end s4, search 4
+
 
 
 let keepStyle = "";
@@ -954,7 +1205,7 @@ justify-content: center;
 max-width: 100%;
 margin: 0 auto;
 
-align-items: stretch;
+align-items: stretch
 }
 
 .keepContent .keepPost {
@@ -1082,8 +1333,8 @@ print += `
 
 <div class="wrapperSmall">
 <form id="keepForm" method="GET" style="margin-top: 0px;" action="?">
-<label class="op inlineBlock tLeft xSmall padding1PxList" for="inputKeep">✪ Search:</label>
-<a class="padding floatRight gray xSmall notUnderline" style="padding-right: 0;" href="#clear" onclick="fuMResetForm('inputKeep');return false;">[ X ]</a>
+<label class="op block tLeft xSmall padding1PxList" for="inputKeep">✪ Search:</label>
+
 <input id="inputKeep" class="borderRadius" type="search" name="q"  autocomplete="off" placeholder="">
 
 <div style="display: grid; grid-template-columns: 1fr 1fr; grid-gap: 2px;">
@@ -1097,7 +1348,7 @@ print += `
 
 <br>
 <div class="block padding2 tRight">
-<span class="tCenter op block padding2 xSmall">Total or last: ${jsonVar.length}</span>
+<span class="tCenter op block padding2 xSmall">total: ${jsonVar.length}</span>
 </div>
 
 </div>
@@ -1123,7 +1374,7 @@ input.setAttribute("value", dMode);
 document.getElementById("keepForm").appendChild(input);
 
 
-comMessagePrint = `mode: ${mode} | ` + comMessagePrint;
+comMessagePrint = `mode: ${mode} ` + comMessagePrint;
 if (comMessagePrint != ''){
 if (document.getElementById('comMsg') != null){
 
@@ -1157,15 +1408,14 @@ tagList = '';
 /*tagList2 = tagList2.toLowerCase();
 confSymbolForSplit = confSymbolForSplit.toLowerCase();*/
 
-//test delme tagList2 = tagList2.replaceAll(/(?:\r\n|\r|\n)/g, ' ');
-tagList2 = tagList2.replace(/(?:\\[rn])+/g, " ");
+tagList2 = tagList2.replaceAll(/(?:\r\n|\r|\n)/g, ' ');
 tagList2 = tagList2.replaceAll(/,/g, confSymbolForSplit);
 tagList2 = tagList2.replaceAll(/ /g, confSymbolForSplit);
 tagList2 = tagList2.replaceAll('·', '');
 tagList2 = tagList2.replaceAll('.', ' ');
 
-tagList2 = tagList2.replaceAll(',', confSymbolForSplit);
-tagList2 = tagList2.replaceAll(' ', confSymbolForSplit);
+tagList2 = '' + tagList2 + ''.replaceAll(',', confSymbolForSplit);
+tagList2 = '' + tagList2 + ''.replaceAll(' ', confSymbolForSplit);
 
 tagList2 = tagList2.split(confSymbolForSplit);
 
@@ -1184,7 +1434,6 @@ var tagTotal = 0;
 // make uniq and count, object
 var tagListCount = {};
 tagList2.forEach(function (x) {
-x = x.trim();
 if (x != null&&x != ''){
 tagListCount[x] = (tagListCount[x] || 0) + 1;
 }
@@ -1226,9 +1475,9 @@ tagListCount = Object.keys(tagListCountLimited).sort().reduce(
 /*tagAverage = (Math.min(...Object.values(tagListCount))+Math.max(...Object.values(tagListCount)))/2;
 //console.log(tagAverage);*/
 Object.values(tagListCount).forEach(function (x) {
-tagTotal = tagTotal + x;
+tagTotal = tagTotal+x;
 });
-tagAverage = Math.floor(tagTotal / Object.values(tagListCount).length);
+tagAverage = tagTotal / Object.values(tagListCount).length;
 
 var tagSize = '';
 var tagColor = '';
@@ -1237,7 +1486,6 @@ function fuTag(tagCount){
 //let tagPercentage = (Math.floor((tagCount*100)/tagTotal)); // from 100%, need rebuild case from 100
 let tagPercentage = (Math.floor((tagCount * 100) / tagAverage)); // over 100%, used average if tag disproportion 1% and 90%
 //console.log(tagPercentage);
-//console.log(tagAverage);
 
 // tag font-size and color
 switch (true) {
@@ -1248,12 +1496,12 @@ tagSize = "xx-large";
 break;
 
 case tagPercentage >= 300:
-tagColor = "yellow";
+tagColor = "orange";
 tagSize = "x-large";
 break;
 
 case tagPercentage >= 250:
-tagColor = "orange";
+tagColor = "yellow";
 tagSize = "large";
 break;
 
@@ -1301,10 +1549,11 @@ const [key, value] = entry;
 tag = key.trim();
 tagCount = value;
 
-if (tag != ''){
+
 fuTag(tagCount);
 
 
+if (tag != ''){
 let printTag = tag;
 let printTag2 = tag.replaceAll(/#/g, "");
 let goTag = encodeURIComponent(tag);
@@ -1456,7 +1705,7 @@ case "list":
 lPost = highlightText(post, targetOption, subQforLight); 
 if (display == 'blog'){
 //lPost = `<span class="large">${lPost}</span>`; // without highlight (embed)
-lPost = `<div class="large"><a class="block firstLetterBold underline" href="${scriptDir}?id=${id}">${postTitle}</a></div>`; // without highlight (embed)
+lPost = `<div class="large"><a class="block firstLetterBold" href="${scriptDir}?id=${id}">${postTitle}</a></div>`; // without highlight (embed)
 }
 break;
 
@@ -1466,7 +1715,7 @@ if (display == 'blog'){ lPost = `<h2>${postTitle}</h2>` + highlightText(post, ta
 }
 
 
-var username = fuMCapitalizeFirstLetter(conf["confUsername"]);
+var username = conf["confDomainName"];
 
 var keepPostFooter = ' twoColumn keepPostFooter blockMobile ';
 var keepPostFooterPadding = '';
@@ -1543,7 +1792,7 @@ text = [...text];
 
 let forSplit = [
 //delme',', "*", "{", "}", "(", ")", "[", "[", "•", "«", "»", "☞", " "
- ",", "*", "{", "}", "(", ")", "[", "[", "•", "«", "»", "☞", " ", `
+ "*", "{", "}", "(", ")", "[", "[", "•", "«", "»", "☞", " ", `
 `, "\r", "\n", "\r\n",
 ]
 text.forEach((item) => {
@@ -1897,8 +2146,7 @@ embedServiceList += 'mpd';
 }
 
 if (itemCheck.search(
-`${confSymbolForSplit}webp|${confSymbolForSplit}jpg|${confSymbolForSplit}svg|${confSymbolForSplit}jpeg|${confSymbolForSplit}png|${confSymbolForSplit}gif|${confSymbolForSplit}img|${confSymbolForSplit}ico`
-) != -1&&itemCheck.search('/') != -1&&itemCheck.search('/') != -1) {
+`${confSymbolForSplit}jpg|${confSymbolForSplit}svg|${confSymbolForSplit}jpeg|${confSymbolForSplit}png|${confSymbolForSplit}gif|${confSymbolForSplit}img|${confSymbolForSplit}ico`) != -1&&itemCheck.search('/') != -1&&itemCheck.search('/') != -1) {
 //echo 'test';
 embed2 = `
 <a href="${item}"><img class="img" src="${item}" alt="img"></a>`;
@@ -2073,7 +2321,7 @@ text = [...text];
 
 let forSplit = [
 //delme',', "*", "{", "}", "(", ")", "[", "[", "•", "«", "»", "☞", " "
-",", "*", "{", "}", "(", ")", "[", "[", "•", "«", "»", "☞", " ", `
+ "*", "{", "}", "(", ")", "[", "[", "•", "«", "»", "☞", " ", `
 `, "\r", "\n", "\r\n",
 ]
 text.forEach((item) => {
@@ -2433,9 +2681,7 @@ embed2 = `<audio controls autoplay style="width:100%; opacity:0.8"><source src="
 item = `<a class="brand" target="_blank" href="${item}">${item}</a>`;
 }
 
-if (itemCheck.search(
-`${confSymbolForSplit}webp|${confSymbolForSplit}jpg|${confSymbolForSplit}svg|${confSymbolForSplit}jpeg|${confSymbolForSplit}png|${confSymbolForSplit}gif|${confSymbolForSplit}img|${confSymbolForSplit}ico`
-) != -1&&itemCheck.search('/') != -1&&itemCheck.search('/') != -1) {
+if (itemCheck.search(`${confSymbolForSplit}svg|${confSymbolForSplit}jpg|${confSymbolForSplit}jpeg|${confSymbolForSplit}png|${confSymbolForSplit}gif|${confSymbolForSplit}img|${confSymbolForSplit}ico`) != -1&&itemCheck.search('/') != -1) {
 //echo 'test';
 embed2 = `
 <a href="${item}"><img class="img" src="${item}" alt="img"></a>`;
@@ -2945,4 +3191,46 @@ rangeRedirectUrl += "&q=" + q
 window.location.replace(rangeRedirectUrl,);
 }
 }
+
+
+
+/*
+//https://stackoverflow.com/questions/22697936/binary-search-in-javascript
+function binarySearch(arr, val) {
+  let start = 0;
+  let end = arr.length - 1;
+
+  while (start <= end) {
+    let mid = Math.floor((start + end) / 2);
+
+    if (arr[mid] === val) {
+      return mid;
+    }
+
+    if (val < arr[mid]) {
+      end = mid - 1;
+    } else {
+      start = mid + 1;
+    }
+  }
+  return -1;
+}*/
+
+
+//https://stackoverflow.com/questions/9206013/javascript-list-js-implement-a-fuzzy-search
+function fuzzySearch(text, q){
+
+String.prototype.fuzzy = function (s) {
+    var hay = this.toLowerCase(), i = 0, n = -1, l;
+    s = s.toLowerCase();
+    for (; l = s[i++] ;) if (!~(n = hay.indexOf(l, n + 1))) return false;
+    return true;
+};
+
+return (text).fuzzy(q); 
+}
+
+
+
+
 

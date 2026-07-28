@@ -1,19 +1,5 @@
 // v.1.0.5
 
-// start fetch data
-fetch(jsonUrl)
-  .then(response => {
-    if (!response.ok) {
-      throw new Error(`HTTP error! Status: ${response.status}`);
-    }
-    return response.json(); // Returns another promise
-  })
-  .then(data => {
-//console.table(data);
-var jsonVar = data;
-
-
-
 let totalPost = data.length;
 let result = "empty";
 var lRandomWebsiteCounter = 0;
@@ -61,9 +47,3 @@ if (lRandomWebsiteCounter >= 15){ clearInterval(lRandomWebsiteTimer); }
 var lRandomWebsiteTimer = setInterval( lRandomSiteMain, 150);
 
 
-
-// end fetch data
-  })
-  .then(undefined, error => {
-    console.error('Error:', error);
- });

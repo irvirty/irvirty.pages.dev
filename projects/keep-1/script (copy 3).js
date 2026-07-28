@@ -1,4 +1,4 @@
-// Keep v.4.9.1
+// Keep v.4.6.0
 // The static version of my offline "keep" PHP script that saves things (links, notes, etc).
 // Inspired by Twitter, Google Keep
 // Not for large data files.
@@ -283,7 +283,6 @@ window.location.href = window.location.href + '#StopRedirect';
 break;
 
 
-case 'ql#':
 case 'qs#':
 q = q3.replace(qCom, '');
 q = q.trim();
@@ -790,7 +789,6 @@ if (q != ''){
 //qSearch = String(q.toLowerCase()).replaceAll(/ /g, "|"); //if ((qData).search(qSearch) != -1){}
 //qSearch = decodeURIComponent(q);
 qSearch = (q);
-qSearch = qSearch + " ";
 qSearch = String(qSearch).toLowerCase();
 
 qSearch = (qSearch + ' ').split(' ');
@@ -823,14 +821,12 @@ postText = postText.trim();
 
 qData = String(postText + ' ' + postUrl + ' ' + postText2 + ' ' + postText3 + ' ' + postTag).toLowerCase();
 
-qData = qData + " ";
-
 
 let checkFound = 0;
 
-for (item3344 of qSearch) {
+for (const item3344 of qSearch) {
     // ...use `element`...
-item3344 = item3344 + " ";
+
 // query
 //if ((qData.split(item)).length > 1&&item334 != ''){
 if ((qData.indexOf(item3344)) != -1&&item3344 != ""){
@@ -1082,8 +1078,8 @@ print += `
 
 <div class="wrapperSmall">
 <form id="keepForm" method="GET" style="margin-top: 0px;" action="?">
-<label class="op inlineBlock tLeft xSmall padding1PxList" for="inputKeep">✪ Search:</label>
-<a class="padding floatRight gray xSmall notUnderline" style="padding-right: 0;" href="#clear" onclick="fuMResetForm('inputKeep');return false;">[ X ]</a>
+<label class="op block tLeft xSmall padding1PxList" for="inputKeep">✪ Search:</label>
+
 <input id="inputKeep" class="borderRadius" type="search" name="q"  autocomplete="off" placeholder="">
 
 <div style="display: grid; grid-template-columns: 1fr 1fr; grid-gap: 2px;">
@@ -1097,7 +1093,7 @@ print += `
 
 <br>
 <div class="block padding2 tRight">
-<span class="tCenter op block padding2 xSmall">Total or last: ${jsonVar.length}</span>
+<span class="tCenter op block padding2 xSmall">total: ${jsonVar.length}</span>
 </div>
 
 </div>
@@ -1157,8 +1153,7 @@ tagList = '';
 /*tagList2 = tagList2.toLowerCase();
 confSymbolForSplit = confSymbolForSplit.toLowerCase();*/
 
-//test delme tagList2 = tagList2.replaceAll(/(?:\r\n|\r|\n)/g, ' ');
-tagList2 = tagList2.replace(/(?:\\[rn])+/g, " ");
+tagList2 = tagList2.replaceAll(/(?:\r\n|\r|\n)/g, ' ');
 tagList2 = tagList2.replaceAll(/,/g, confSymbolForSplit);
 tagList2 = tagList2.replaceAll(/ /g, confSymbolForSplit);
 tagList2 = tagList2.replaceAll('·', '');
@@ -1184,7 +1179,6 @@ var tagTotal = 0;
 // make uniq and count, object
 var tagListCount = {};
 tagList2.forEach(function (x) {
-x = x.trim();
 if (x != null&&x != ''){
 tagListCount[x] = (tagListCount[x] || 0) + 1;
 }
@@ -1226,9 +1220,9 @@ tagListCount = Object.keys(tagListCountLimited).sort().reduce(
 /*tagAverage = (Math.min(...Object.values(tagListCount))+Math.max(...Object.values(tagListCount)))/2;
 //console.log(tagAverage);*/
 Object.values(tagListCount).forEach(function (x) {
-tagTotal = tagTotal + x;
+tagTotal = tagTotal+x;
 });
-tagAverage = Math.floor(tagTotal / Object.values(tagListCount).length);
+tagAverage = tagTotal / Object.values(tagListCount).length;
 
 var tagSize = '';
 var tagColor = '';
@@ -1237,7 +1231,6 @@ function fuTag(tagCount){
 //let tagPercentage = (Math.floor((tagCount*100)/tagTotal)); // from 100%, need rebuild case from 100
 let tagPercentage = (Math.floor((tagCount * 100) / tagAverage)); // over 100%, used average if tag disproportion 1% and 90%
 //console.log(tagPercentage);
-//console.log(tagAverage);
 
 // tag font-size and color
 switch (true) {
@@ -1248,12 +1241,12 @@ tagSize = "xx-large";
 break;
 
 case tagPercentage >= 300:
-tagColor = "yellow";
+tagColor = "orange";
 tagSize = "x-large";
 break;
 
 case tagPercentage >= 250:
-tagColor = "orange";
+tagColor = "yellow";
 tagSize = "large";
 break;
 
@@ -1301,10 +1294,11 @@ const [key, value] = entry;
 tag = key.trim();
 tagCount = value;
 
-if (tag != ''){
+
 fuTag(tagCount);
 
 
+if (tag != ''){
 let printTag = tag;
 let printTag2 = tag.replaceAll(/#/g, "");
 let goTag = encodeURIComponent(tag);
@@ -1456,13 +1450,13 @@ case "list":
 lPost = highlightText(post, targetOption, subQforLight); 
 if (display == 'blog'){
 //lPost = `<span class="large">${lPost}</span>`; // without highlight (embed)
-lPost = `<div class="large"><a class="block firstLetterBold underline" href="${scriptDir}?id=${id}">${postTitle}</a></div>`; // without highlight (embed)
+lPost = `<div class="large"><a class="block firstLetterBold" href="${scriptDir}?id=${id}">${postTitle}</a></div>`; // without highlight (embed)
 }
 break;
 
 default:
 lPost = highlightText(post, targetOption, subQforLight); 
-if (display == 'blog'){ lPost = `<h2>${postTitle}</h2>` + highlightText(post, targetOption, subQforLight); }
+if (display == 'blog'){ lPost = `<h2>${postTitle}</h2>jj` + highlightText(post, targetOption, subQforLight); }
 }
 
 
@@ -1543,7 +1537,7 @@ text = [...text];
 
 let forSplit = [
 //delme',', "*", "{", "}", "(", ")", "[", "[", "•", "«", "»", "☞", " "
- ",", "*", "{", "}", "(", ")", "[", "[", "•", "«", "»", "☞", " ", `
+ "*", "{", "}", "(", ")", "[", "[", "•", "«", "»", "☞", " ", `
 `, "\r", "\n", "\r\n",
 ]
 text.forEach((item) => {
@@ -2073,7 +2067,7 @@ text = [...text];
 
 let forSplit = [
 //delme',', "*", "{", "}", "(", ")", "[", "[", "•", "«", "»", "☞", " "
-",", "*", "{", "}", "(", ")", "[", "[", "•", "«", "»", "☞", " ", `
+ "*", "{", "}", "(", ")", "[", "[", "•", "«", "»", "☞", " ", `
 `, "\r", "\n", "\r\n",
 ]
 text.forEach((item) => {
@@ -2945,4 +2939,51 @@ rangeRedirectUrl += "&q=" + q
 window.location.replace(rangeRedirectUrl,);
 }
 }
+
+
+
+/*
+//https://stackoverflow.com/questions/22697936/binary-search-in-javascript
+function binarySearch(arr, val) {
+  let start = 0;
+  let end = arr.length - 1;
+
+  while (start <= end) {
+    let mid = Math.floor((start + end) / 2);
+
+    if (arr[mid] === val) {
+      return mid;
+    }
+
+    if (val < arr[mid]) {
+      end = mid - 1;
+    } else {
+      start = mid + 1;
+    }
+  }
+  return -1;
+}*/
+
+/*
+//https://stackoverflow.com/questions/9206013/javascript-list-js-implement-a-fuzzy-search
+function fuzzySearch(text, q){
+
+String.prototype.fuzzy = function (s) {
+    var hay = this.toLowerCase(), i = 0, n = -1, l;
+    s = s.toLowerCase();
+    for (; l = s[i++] ;) if (!~(n = hay.indexOf(l, n + 1))) return false;
+    return true;
+};
+
+return (text).fuzzy(q); 
+}*/
+
+
+function clearQ(q){
+if (document.getElementById(q) != null){
+document.getElementById(q).value = "";
+document.getElementById(q).focus();
+}
+}
+
 

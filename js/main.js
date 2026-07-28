@@ -186,7 +186,7 @@ document.getElementById('theme').id = 'themeDisable';
 
 conf["confMenuItems"] = [
 {"url":`${confD}all/`, "title":"All pages", "text":"All", "class":""},
-{"url":`${confD}pages/`, "title":"Main pages", "text":"Main Pages", "class":""},
+{"url":`${confD}pages/`, "title":"Main pages", "text":"Pages", "class":""},
 {"url":`${confD}games/`, "title":"Games", "text":"Games", "class":""},
 {"url":`${confD}projects/`, "title":"Projects", "text":"Projects", "class":""},
 {"url":`${confD}mini-projects/`, "title":"Mini projects", "text":"Mini projects", "class":""},
@@ -519,7 +519,7 @@ document.getElementById("footer").innerHTML = `
 <a class="yellow inlineBlock padding" title="RSS News" href="${confD}rss.xml">RSS</a>
 <span class="op gray">|</span>
 
-<a class="brand inlineBlock padding" title="Social" href="https://bsky.app/profile/${conf["confUsername"]}.is-local.org">Bluesky</a>
+<a class="brand inlineBlock padding" title="RSS News" href="https://bsky.app/profile/${conf["confUsername"]}.is-local.org">Bluesky</a>
 <span class="op gray">|</span>
 
 <a id="fSettings" class="brand inlineBlock padding" title="Settings" href="${confD}pages/settings/">Settings</a>

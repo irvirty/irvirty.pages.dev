@@ -77,6 +77,32 @@ var confD = "../../";
 
 
 <!-- Keep -->
+<script src="../../data/musicJsonVar.js"></script>
+<script>
+// fresh data example in script.js
+if(jsonVar == undefined||jsonVar == ''){
+var jsonVar = 
+
+
+[
+    {
+        "id": 251,
+        "text": "test2 text2",
+        "url": "https:\/\/example.com",
+        "tag": "#test2 #tag",
+        "time": 1671480576
+    },
+    {
+        "id": 250,
+        "text": "test text",
+        "url": "https:\/\/example.com",
+        "tag": "#test #tag",
+        "time": 1668444918
+    }
+];
+
+}
+</script>
 
 <script>
 // fresh config in script.js
@@ -92,7 +118,7 @@ let keepConfig = {
 "timeStatus":"", // off, disable post time (post id)
 };
 </script>
-<script src="../../projects/keep-1/script.js" onload="keep('echoKeep', '../../data/music.json', ' wrapper post ', './data-list.html', keepConfig)"></script>
+<script src="../../projects/keep-1/script.js" onload="keep('echoKeep', musicJsonVar, ' wrapper post ', './data-list.html', keepConfig)"></script>
 <!-- // keep -->
 
 

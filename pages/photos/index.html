@@ -60,7 +60,7 @@
 <span id="navMenu" class="navMenu">
 <!-- links in nav -->
 <a class="inlineBlock padding brand empty" tabindex="0" href="../../all/" title="All pages">All</a>
-<a class="active2 navMenuActive inlineBlock padding empty" tabindex="0" href="../../pages/" title="Main pages">Main Pages</a>
+<a class="active2 navMenuActive inlineBlock padding empty" tabindex="0" href="../../pages/" title="Main pages">Pages</a>
 <a class="inlineBlock padding brand empty" tabindex="0" href="../../games/" title="Games">Games</a>
 <a class="inlineBlock padding brand empty" tabindex="0" href="../../projects/" title="JavaScript projects">Projects</a>
 <a class="inlineBlock padding brand empty" tabindex="0" href="../../mini-projects/" title="HTML and CSS projects">Mini projects</a>
@@ -77,7 +77,7 @@
 <div class="dropdownMenuColumn shadow bg2 padding2 borderRadius2">
 <!-- links for show in dropdown (duplicate) -->
 <a class="inlineBlock padding brand empty" tabindex="0" href="../../all/" title="All pages">All</a>
-<a class="active2 navMenuActive inlineBlock padding empty" tabindex="0" href="../../pages/" title="Main pages">Main Pages</a>
+<a class="active2 navMenuActive inlineBlock padding empty" tabindex="0" href="../../pages/" title="Main pages">Pages</a>
 <a class="inlineBlock padding brand empty" tabindex="0" href="../../games/" title="Games">Games</a>
 <a class="inlineBlock padding brand empty" tabindex="0" href="../../projects/" title="JavaScript projects">Projects</a>
 <a class="inlineBlock padding brand empty" tabindex="0" href="../../mini-projects/" title="HTML and CSS projects">Mini projects</a>
@@ -115,6 +115,108 @@
 
 <h1 class="tCenter op insertIconTitle">Photos</h1>
 
+<script>
+var keepJsonVar = [
+    {
+        "id": "202621",
+        "text": "Sky",
+        "url": ".\/2026\/sky-21.jpeg",
+        "tag": " #sky #jpeg",
+        "time": "id"
+    },
+    {
+        "id": "202620",
+        "text": "Tree flowering",
+        "url": ".\/2026\/tree-flowering-20.jpeg",
+        "tag": " #tree #flowering #jpeg",
+        "time": "id"
+    },
+    {
+        "id": "202619",
+        "text": "Coffee beans",
+        "url": ".\/2026\/coffee-beans-19.jpeg",
+        "tag": " #coffee #beans #jpeg",
+        "time": "id"
+    },
+    {
+        "id": "202417",
+        "text": "Flower",
+        "url": ".\/2024\/flower-17.jpg",
+        "tag": " #flower #jpg",
+        "time": "id"
+    },
+    {
+        "id": "202415",
+        "text": "Flower",
+        "url": ".\/2024\/flower-15.jpg",
+        "tag": " #flower #jpg",
+        "time": "id"
+    },
+    {
+        "id": "202411",
+        "text": "Frog",
+        "url": ".\/2024\/frog-11.jpg",
+        "tag": " #frog #jpg",
+        "time": "id"
+    },
+    {
+        "id": "202410",
+        "text": "Branch",
+        "url": ".\/2024\/branch-10.jpg",
+        "tag": " #branch #jpg",
+        "time": "id"
+    },
+    {
+        "id": "20249",
+        "text": "Branch",
+        "url": ".\/2024\/branch-9.jpg",
+        "tag": " #branch #jpg",
+        "time": "id"
+    },
+    {
+        "id": "20247",
+        "text": "Droplets branch",
+        "url": ".\/2024\/droplets-branch-7.jpg",
+        "tag": " #droplets #branch #jpg",
+        "time": "id"
+    },
+    {
+        "id": "20246",
+        "text": "Flower",
+        "url": ".\/2024\/flower-6.jpg",
+        "tag": " #flower #jpg",
+        "time": "id"
+    },
+    {
+        "id": "20245",
+        "text": "Droplets and branch",
+        "url": ".\/2024\/droplets-and-branch-5.jpg",
+        "tag": " #droplets #and #branch #jpg",
+        "time": "id"
+    },
+    {
+        "id": "20244",
+        "text": "Droplets and branch",
+        "url": ".\/2024\/droplets-and-branch-4.jpg",
+        "tag": " #droplets #and #branch #jpg",
+        "time": "id"
+    },
+    {
+        "id": "20243",
+        "text": "Droplets and branch",
+        "url": ".\/2024\/droplets-and-branch-3.jpg",
+        "tag": " #droplets #and #branch #jpg",
+        "time": "id"
+    },
+    {
+        "id": "20242",
+        "text": "Flower",
+        "url": ".\/2024\/flower-2.jpg",
+        "tag": " #flower #jpg",
+        "time": "id"
+    }
+];
+</script>
 <div class="wrapper3">
 <div id="printKeep"></div>
 </div>
@@ -133,6 +235,38 @@ var confD = "../../";
 <script src="../../js/main.js"></script>
 <script src="../../js/script.js"></script>
 
+
+
+<script src="../../projects/keep-1/script.js"></script>
+
+
+<script>
+// fresh data example in script.js
+if(keepJsonVar == undefined||keepJsonVar == ''){
+var keepJsonVar = 
+
+
+[
+    {
+        "id": 251,
+        "text": "test2 text2",
+        "url": "https:\/\/example.com",
+        "tag": "#test2 #tag",
+        "time": 1671480576
+    },
+    {
+        "id": 250,
+        "text": "test text",
+        "url": "https:\/\/example.com",
+        "tag": "#test #tag",
+        "time": 1668444918
+    }
+]
+
+
+
+}
+</script>
 
 
 
@@ -155,8 +289,12 @@ let keepConfig = {
 "confD":"../../", //
 };
 </script>
+<script>
+keep("printKeep", keepJsonVar, 'wrapperSmall', './', keepConfig);
+// printId, keepJsonVar, wrapper, embedStatus, tagListStatus, postLimit, scriptDir, multiEmbedStatus
+</script>
 
-<script src="../../projects/keep-1/script.js" onload="keep('printKeep','../../data/photos.json', 'wrapperSmall', './', keepConfig)"></script>
+
 
 
 </body>
