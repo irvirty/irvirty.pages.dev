@@ -3,6 +3,16 @@ var musicJsonVar =
 
 [
     {
+        "id": "6802",
+        "text": "Jain - Kill It With The Beat (Official Video) - YouTube",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=nao8wFenafI",
+        "tag": "#music",
+        "time": 1785242943,
+        "rightFooter": ""
+    },
+    {
         "id": "6801",
         "text": "Melody's Echo Chamber - Looking Backward (Official Video) - YouTube",
         "text2": "",
