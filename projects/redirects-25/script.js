@@ -1,4 +1,4 @@
-// Search redirect v.2.15.16
+// Search redirect v.2.15.17
 // Search query + command
 // Example: "text goo" or "text google", "text bin" or "text bing"
 
@@ -350,6 +350,26 @@ urlList = [
 if (q == ""){
 urlList = [
 "https://bsky.app/",
+];
+}
+random = urlList[fuMRandom(0, urlList.length - 1)];
+url = random;
+sRedirectUrl = url;
+break;
+
+
+case "eurosky#":
+case "eur#":
+case "mu#":
+q = q3.replace(qCom, '');
+q = q.trim();
+q = encodeURIComponent(q);
+urlList = [
+"https://mu.social/search?q=" + q,
+];
+if (q == ""){
+urlList = [
+"https://mu.social/",
 ];
 }
 random = urlList[fuMRandom(0, urlList.length - 1)];
