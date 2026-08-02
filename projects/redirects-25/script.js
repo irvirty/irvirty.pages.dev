@@ -359,6 +359,7 @@ break;
 
 
 case "eurosky#":
+case "sky#":
 case "eur#":
 case "mu#":
 q = q3.replace(qCom, '');
