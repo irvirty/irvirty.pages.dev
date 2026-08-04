@@ -1,4 +1,4 @@
-// Search redirect v.2.15.17
+// Search redirect v.2.15.18
 // Search query + command
 // Example: "text goo" or "text google", "text bin" or "text bing"
 
@@ -673,11 +673,11 @@ q = q3.replace(qCom, '');
 q = q.trim();
 q = encodeURIComponent(q);
 urlList = [
-"https://friendica.world/search?tag=" + q,
+"https://bsky.app/hashtag/" + q,
 ];
 if (q == ""){
 urlList = [
-"https://friendica.world/",
+"https://bsky.app/",
 ];
 }
 random = urlList[fuMRandom(0, urlList.length - 1)];
