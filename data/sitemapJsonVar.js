@@ -455,9 +455,9 @@ var sitemapJsonVar = [
         "time": "id"
     },
     {
-        "text": "Music\n\nA collection of music,  played randomly, using third-party platforms and their players. | music: ",
+        "text": "Music\n\nA collection of music,  played randomly, using third-party platforms and their players. Music list. | music: ",
         "url": "\/projects\/music-20\/index.html",
-        "tag": " #music #collection #random #embed #JavaScript #project",
+        "tag": " #music #collection #random #embed #list #JavaScript #project",
         "id": "e6daf18cc1e29a8ca88f27d0032c14fc",
         "time": "id"
     },
@@ -518,9 +518,9 @@ var sitemapJsonVar = [
         "time": "id"
     },
     {
-        "text": "Podcast\n\nA small collection of podcasts that are randomly selected and automatically played. | podcast: ",
+        "text": "Podcast\n\nA small collection of podcasts that are randomly selected and automatically played. Podcast list. | podcast: ",
         "url": "\/projects\/podcast-70\/index.html",
-        "tag": " #podcast #random #online #collection #embed #JavaScript #project",
+        "tag": " #podcast #random #list #online #collection #embed #JavaScript #project",
         "id": "45035fca1a58fbf64d92ed9bb1c454ef",
         "time": "id"
     },
@@ -546,9 +546,9 @@ var sitemapJsonVar = [
         "time": "id"
     },
     {
-        "text": "Radio\n\nA small collection of radio stations with the ability to play online, which is chosen randomly. Radio online. Online radio. | radio: ",
+        "text": "Radio\n\nA small collection of radio stations with the ability to play online, which is chosen randomly. Radio online. Online radio. Raio list. | radio: ",
         "url": "\/projects\/radio-22\/index.html",
-        "tag": " #radio #random #online #station #collection #embed #JavaScript #project",
+        "tag": " #radio #random #list #online #station #collection #embed #JavaScript #project",
         "id": "b31f7cd39ade46560c86d8f7dc26ed78",
         "time": "id"
     },
@@ -735,9 +735,9 @@ var sitemapJsonVar = [
         "time": "id"
     },
     {
-        "text": "TV\n\nA small collection of playlists, which is chosen randomly. | tv: ",
+        "text": "TV\n\nA small collection of playlists, which is chosen randomly. TV list. | tv: ",
         "url": "\/projects\/tv-36\/index.html",
-        "tag": " #playlist #playlists #random #collection #embed #JavaScript #project",
+        "tag": " #playlist #playlists #random #collection #embed #list #JavaScript #project",
         "id": "51dbcbafa80241f5d7d53c57d624d6c1",
         "time": "id"
     },
@@ -849,7 +849,7 @@ var sitemapJsonVar = [
     {
         "text": "Video\n\nA small collection video, shown randomly. | video: ",
         "url": "\/projects\/video-18\/index.html",
-        "tag": " #video #random #collection #movie #cartoon #embed #JavaScript #project",
+        "tag": " #video #random #collection #list #movie #cartoon #embed #JavaScript #project",
         "id": "cf8764f66497b8a627865ab36433767c",
         "time": "id"
     },

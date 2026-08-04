@@ -426,15 +426,6 @@ var videoJsonVar =
         "rightFooter": ""
     },
     {
-        "text": "Guarding Tess (1994) - FREE MOVIE - YouTube",
-        "text2": "",
-        "text3": "",
-        "url": "https:\/\/www.youtube.com\/watch?v=v25ssQp7deI",
-        "tag": "#video #movie",
-        "time": 1760891274,
-        "rightFooter": ""
-    },
-    {
         "text": "Armed and Dangerous (1986) - FREE MOVIE - YouTube",
         "text2": "",
         "text3": "",

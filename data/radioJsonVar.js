@@ -2857,7 +2857,7 @@ var radioJsonVar =
     },
     {
         "text": "\u0413\u043e\u043b\u043e\u0432\u043d\u0430 | \u0423\u043a\u0440\u0430\u0457\u043d\u0441\u044c\u043a\u0435 \u0440\u0430\u0434\u0456\u043e",
-        "text2": "https:\/\/radio.nrcu.gov.ua\/ur1-mp3",
+        "text2": "https:\/\/radio.ukr.radio\/ur1-mp3-m",
         "text3": "mp3",
         "url": "https:\/\/ukr.radio\/",
         "tag": "#radio #ua",
