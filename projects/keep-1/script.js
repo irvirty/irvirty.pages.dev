@@ -1678,6 +1678,35 @@ embedServiceList += 'tunein';
 break;
 
 
+case "bsky.app":
+/* notfixed because "fetch"
+play = item.split('/');
+let playEmbed = play[play.length - 1];
+let playUsername = play[play.length - 3];
+
+embed = `<!--<iframe src="https://tunein.com/embed/player/${play}/?autoplay=false&background=${confThemeEmbed}" style="height:100px;" scrolling="no" frameborder="no" sandbox="allow-same-origin allow-scripts allow-popups allow-forms"></iframe>--><!-- ban if many by Clouflare -->`;
+embedServiceList += 'tunein';
+
+fetch('https://bsky.social/xrpc/com.atproto.identity.resolveHandle?handle=' + playUsername)
+  .then(response => {
+    if (!response.ok) {
+      throw new Error(`HTTP error! Status: ${response.status}`);
+    }
+    return response.json(); // Returns a promise resolving to JSON data
+  })
+  .then(data => {
+//console.log(data);   
+embed = `<blockquote class="bluesky-embed" data-bluesky-uri="at://${data}/app.bsky.feed.post/${playEmbed}"><p lang="en"></blockquote><!--<script async src="https://embed.bsky.app/static/embed.js" charset="utf-8"></script>-->`;
+embedServiceList += 'bsky';
+
+  })
+  .catch(error => {
+    console.error('Fetch operation failed:', error.message);
+  });
+*/
+break;
+
+
 case "codepen.io":
 if (item.split('/').length >= 6){
 play = item.split('/');
@@ -2830,7 +2859,6 @@ script2.src = 'https://cdn.dashjs.org/latest/dash.all.min.js';
 document.getElementsByTagName('head')[0].appendChild(script2);
 }
 
-
 if (embedServiceList.indexOf('reddit') != -1) {
 var script2 = document.createElement('script');
 script2.crossorigin = "anonymous";
@@ -2839,6 +2867,17 @@ script2.type='text/javascript';
 script2.defer = true;
 script2.charset = 'utf-8';
 script2.src = 'https://embed.reddit.com/widgets.js';
+document.getElementsByTagName('head')[0].appendChild(script2);
+}
+
+if (embedServiceList.indexOf('bsky') != -1) {
+var script2 = document.createElement('script');
+script2.crossorigin = "anonymous";
+script2.type='text/javascript';
+//script2.async = true;
+script2.defer = true;
+script2.charset = 'utf-8';
+script2.src = 'https://embed.bsky.app/static/embed.js';
 document.getElementsByTagName('head')[0].appendChild(script2);
 }
 
