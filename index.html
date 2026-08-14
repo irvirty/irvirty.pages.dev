@@ -134,6 +134,7 @@ opacity: .7;
 <a class="inlineBlock padding brand empty" tabindex="0" href="./games/" title="Games">Games</a>
 <a class="inlineBlock padding brand empty" tabindex="0" href="./projects/" title="JavaScript projects">Projects</a>
 <a class="inlineBlock padding brand empty" tabindex="0" href="./mini-projects/" title="HTML and CSS projects">Mini projects</a>
+<a class="inlineBlock padding brand empty" tabindex="0" href="./search" title="Search redirect">Search Redirect</a>
 <a class="inlineBlock padding brand empty" tabindex="0" href="./pages/about/" title="About page">About</a>
 <!-- // links in nav -->
 </span>
@@ -151,6 +152,7 @@ opacity: .7;
 <a class="inlineBlock padding brand empty" tabindex="0" href="./games/" title="Games">Games</a>
 <a class="inlineBlock padding brand empty" tabindex="0" href="./projects/" title="JavaScript projects">Projects</a>
 <a class="inlineBlock padding brand empty" tabindex="0" href="./mini-projects/" title="HTML and CSS projects">Mini projects</a>
+<a class="inlineBlock padding brand empty" tabindex="0" href="./search" title="Search redirect">Search Redirect</a>
 <a class="inlineBlock padding brand empty" tabindex="0" href="./pages/about/" title="About page">About</a>
 <!-- // links for show in dropdown (duplicate) -->
 <hr>
@@ -317,57 +319,77 @@ document.getElementById("last-update").innerHTML = fuPostTime(1783089255);
 }
 }
 </script>
+<h2 class="op tCenter">Main Pages</h2>
+<!-- menu -->
+<nav>
 
-<div id="form" class="noscriptHide">
-<form method="GET" style="margin-top: 0px;" action="./search/" autocomplete="off" role="search">
 
-<label id="search" class="op inlineBlock tLeft xSmall padding1PxList" for="q"><span class="bold orange">✪</span> Web search (redirect, random, <a class="brand notUnderline" title="WPM - Words per minute" href="/games/typing-speed-14/">WPM: <span id="wpm" class="orange bold">0</span></a>):</label>
-<a class="padding floatRight gray xSmall notUnderline" style="padding-right: 0;" href="#clear" onclick="fuMResetForm('q');return false;">[ X ]</a>
-<input id="q" class="borderRadius" aria-labelledby="search" type="search" name="q" autofocus="autofocus" placeholder="" autocomplete="off" spellcheck="true">
 
-<!--<div style="display: grid; grid-template-columns: 1fr 1fr; grid-gap: 2px;">-->
-<div class="twoColumn">
-<!--<input class="smaller op tCenter submit borderRadius" type="submit" value="Search" title="Random search engine">-->
-<button class="smaller op tCenter submit borderRadius" type="submit" title="Random search engine, text q">Search</button>
-<!--https://stackoverflow.com/questions/4171664/html-submit-button-different-value-button-text#-->
-<!--<button class="smaller op tCenter submit borderRadius" name="q2" value="ai" type="submit" title="AI Mode, text ai">AI</button>-->
-<button class="smaller op tCenter submit borderRadius" name="q2" value="l" type="submit" title="First search result, text l">I'm Feeling Lucky</button>
-<!--<input  class="smaller op tCenter" type="submit" name="q2" value="l">-->
+
+ 
+
+<div class="menu small">
+<a class="button light3 border3 borderRadius2 itemHeight2 firstLetterBold" tabindex="0" href="./pages/about/"><span class="insertIcon firstLetterBold">About</span></a>
+<a class="button light3 border3 borderRadius2 itemHeight2 firstLetterBold" tabindex="0" href="./pages/art/"><span class="insertIcon firstLetterBold">Art</span></a>
+<a class="button light3 border3 borderRadius2 itemHeight2 firstLetterBold" tabindex="0" href="./pages/blog/"><span class="insertIcon firstLetterBold">Blog</span></a>
+<a class="button light3 border3 borderRadius2 itemHeight2 firstLetterBold" tabindex="0" href="./pages/chrome-extensions/"><span class="insertIcon firstLetterBold">Chrome extensions</span></a>
+<a class="button light3 border3 borderRadius2 itemHeight2 firstLetterBold" tabindex="0" href="./pages/chrome-themes/"><span class="insertIcon firstLetterBold">Chrome themes</span></a>
+<a class="button light3 border3 borderRadius2 itemHeight2 firstLetterBold" tabindex="0" href="./pages/css-art/"><span class="insertIcon firstLetterBold">Css art</span></a>
+<a class="button light3 border3 borderRadius2 itemHeight2 firstLetterBold" tabindex="0" href="./pages/data-page/"><span class="insertIcon firstLetterBold">Data page</span></a>
+<a class="button light3 border3 borderRadius2 itemHeight2 firstLetterBold" tabindex="0" href="./pages/firefox-extensions/"><span class="insertIcon firstLetterBold">Firefox extensions</span></a>
+<a class="button light3 border3 borderRadius2 itemHeight2 firstLetterBold" tabindex="0" href="./pages/firefox-themes/"><span class="insertIcon firstLetterBold">Firefox themes</span></a>
+<a class="button light3 border3 borderRadius2 itemHeight2 firstLetterBold" tabindex="0" href="./pages/geany-themes/"><span class="insertIcon firstLetterBold">Geany themes</span></a>
+<a class="button light3 border3 borderRadius2 itemHeight2 firstLetterBold" tabindex="0" href="./pages/icons/"><span class="insertIcon firstLetterBold">Icons</span></a>
+<a class="button light3 border3 borderRadius2 itemHeight2 firstLetterBold" tabindex="0" href="./pages/images/"><span class="insertIcon firstLetterBold">Images</span></a>
+<a class="button light3 border3 borderRadius2 itemHeight2 firstLetterBold" tabindex="0" href="./pages/links/"><span class="insertIcon firstLetterBold">Links</span></a>
+<a class="button light3 border3 borderRadius2 itemHeight2 firstLetterBold" tabindex="0" href="./pages/microblog/"><span class="insertIcon firstLetterBold">Microblog</span></a>
+<a class="button light3 border3 borderRadius2 itemHeight2 firstLetterBold" tabindex="0" href="./pages/news/"><span class="insertIcon firstLetterBold">News</span></a>
+<a class="button light3 border3 borderRadius2 itemHeight2 firstLetterBold" tabindex="0" href="./pages/notes/"><span class="insertIcon firstLetterBold">Notes</span></a>
+<a class="button light3 border3 borderRadius2 itemHeight2 firstLetterBold" tabindex="0" href="./pages/photos/"><span class="insertIcon firstLetterBold">Photos</span></a>
+<a class="button light3 border3 borderRadius2 itemHeight2 firstLetterBold" tabindex="0" href="./pages/services/"><span class="insertIcon firstLetterBold">Services</span></a>
+<a class="button light3 border3 borderRadius2 itemHeight2 firstLetterBold" tabindex="0" href="./pages/sitemap/"><span class="insertIcon firstLetterBold">Sitemap</span></a>
+<a class="button light3 border3 borderRadius2 itemHeight2 firstLetterBold" tabindex="0" href="./pages/updates/"><span class="insertIcon firstLetterBold">Updates</span></a>
+<a class="button light3 border3 borderRadius2 itemHeight2 firstLetterBold" tabindex="0" href="./pages/website-templates/"><span class="insertIcon firstLetterBold">Website templates</span></a>
+<a class="button light3 border3 borderRadius2 itemHeight2 firstLetterBold" tabindex="0" href="./pages/wiki/"><span class="insertIcon firstLetterBold">Wiki</span></a>
+<a class="button light3 border3 borderRadius2 itemHeight2 firstLetterBold" tabindex="0" href="./pages/wordpress-themes/"><span class="insertIcon firstLetterBold">Wordpress themes</span></a>
 </div>
 
-</form>
+<div class="margin2"></div>
+
+
+</nav>
+<!-- // menu -->
+
+<!-- nav2 -->
+<div class="margin padding"></div>
+<hr>
+<h2 class="op tCenter">Lists:</h2>
+
+<div class="xSmall op block tLeft padding1PxList margin1PxList"><span class="bold green">✪</span> Lists:</div>
+
+<div class="menu small">
+
+<a class=" button light3 border3 borderRadius2 itemHeight2" tabindex="0" href="./all/"><span class="insertIcon firstLetterBold">All</span></a>
+
+<a class=" button light3 border3 borderRadius2 itemHeight2" tabindex="0" href="./pages/"><span class="insertIcon firstLetterBold">Main Pages</span></a>
+
+<a class=" button light3 border3 borderRadius2 itemHeight2" tabindex="0" href="./games/"><span class="insertIcon firstLetterBold">Games</span></a>
+
+<a class=" button light3 border3 borderRadius2 itemHeight2" tabindex="0" href="./projects/"><span class="insertIcon firstLetterBold">Projects</span></a>
+
+<a class=" button light3 border3 borderRadius2 itemHeight2" tabindex="0" href="./mini-projects/"><span class="insertIcon firstLetterBold">Mini projects</span></a>
+
+<a class=" button light3 border3 borderRadius2 itemHeight2" tabindex="0" href="./old-projects/"><span class="insertIcon firstLetterBold">Old projects</span></a>
 
 </div>
 
-<div  class="center noscriptHide" style="margin-top: 7px;">
-<div class="wrapper tCenter small"><!--if scrollX horizontal class rm keepTagList)-->
-<div id="hotLinks">
+<div class="padding2"></div>
+<!-- // nav2 -->
 
-<div class="autoColumn notUnderline">
-<!--<span class="x-small op c" title="Commands:">com: </span>-->
+<div class="padding2"></div>
 
-<a class="autoColumnItem keepTag2 itemHeight light2 border3 borderRadius2 op" href="/search/?q=goo" title="Google search (text goo)">Google</a>
-<a class="autoColumnItem keepTag2 itemHeight light2 border3 borderRadius2 op" href="/search/?q=bin" title="Bing search (text bin)">Bing</a>
-<a class="autoColumnItem keepTag2 itemHeight light2 border3 borderRadius2 op" href="/search/?q=o" title="Other search (text o)">Other</a>
-<a class="autoColumnItem keepTag2 itemHeight light2 border3 borderRadius2 op" href="/search/?q=i" title="Images search (text i)">Images</a>
-<a class="autoColumnItem keepTag2 itemHeight light2 border3 borderRadius2 op" href="/search/?q=v" title="Videos search (text v)">Videos</a>
-<a class="autoColumnItem keepTag2 itemHeight light2 border3 borderRadius2 op" href="/search/?q=pod" title="Podcast search (text pod)">Podcast</a>
-<a class="autoColumnItem keepTag2 itemHeight light2 border3 borderRadius2 op" href="/search/?q=n" title="News search (text n)">News</a>
-<a class="autoColumnItem keepTag2 itemHeight light2 border3 borderRadius2 op" href="/search/?q=s" title="Social (text s)">Social</a>
-<a class="autoColumnItem keepTag2 itemHeight light2 border3 borderRadius2 op" href="/search/?q=ps" title="Google programmable search (text ps)">Google PS</a>
-<a class="autoColumnItem keepTag2 itemHeight light2 border3 borderRadius2 op" href="/search/?q=ql" title="Site search (text ql)">Site</a>
-</div>
+<span id="speedDialPrint"></span>
 
-</div>
-</div>
-</div>
-
-
-
-
-
-
-<div class="margin3 padding3"></div>
 
 
 </div>
@@ -406,28 +428,6 @@ document.getElementById("last-update").innerHTML = fuPostTime(1783089255);
 </noscript>
 <div class="padding2 margin2"></div>
 
-<!-- tag cloud 1.2.0 -->
-<aside>
-<div class="wrapper2 tCenter">
-
-<div id="printTagsHeader"></div>
-
-<div id="printTags" class="balance notUnderline"></div>
-
-<div class="wrapper small">
-<div><span class="notUnderline" id="printMode"></span><span id="tagRandom"></span></div>
-</div>
-
-<div id="tagListEditForm"></div>
-
-</div>
-</aside>
-<!--// tag cloud -->
-
-
-
-
-
 </main>
 <!-- // content -->
 
@@ -443,538 +443,6 @@ var confD = "./";
 
 
 
-
-<script>
-// v.1.1.3
-// hot links
-
-if (document.getElementById("q") != null){ 
-var inputA = document.getElementById("q");
-inputA.addEventListener('input', updateValueIn);
-}
-
-if (document.getElementById("q2") != null){ 
-var inputB = document.getElementById("q2");
-inputB.addEventListener('input', updateValueIn);
-}
-
-
-function updateValueIn(e) {
-var text = encodeURIComponent(e.target.value);
-
-var a = `
-
-<div class="autoColumn notUnderline">
-<a class="autoColumnItem keepTag2 itemHeight light2 border3 borderRadius2 op" href="/search/?q=` + text + ` goo" title="Google search (text goo)">Google</a>
-<a class="autoColumnItem keepTag2 itemHeight light2 border3 borderRadius2 op" href="/search/?q=` + text + ` bin" title="Bing search (text bin)">Bing</a>
-<a class="autoColumnItem keepTag2 itemHeight light2 border3 borderRadius2 op" href="/search/?q=` + text + ` o" title="Other search (text o)">Other</a>
-<a class="autoColumnItem keepTag2 itemHeight light2 border3 borderRadius2 op" href="/search/?q=` + text + ` i" title="Images search (text i)">Images</a>
-<a class="autoColumnItem keepTag2 itemHeight light2 border3 borderRadius2 op" href="/search/?q=` + text + ` v" title="Videos search (text v)">Videos</a>
-<a class="autoColumnItem keepTag2 itemHeight light2 border3 borderRadius2 op" href="/search/?q=` + text + ` pod" title="Podcast search (text pod)">Podcast</a>
-<a class="autoColumnItem keepTag2 itemHeight light2 border3 borderRadius2 op" href="/search/?q=` + text + ` n" title="News search (text n)">News</a>
-<a class="autoColumnItem keepTag2 itemHeight light2 border3 borderRadius2 op" href="/search/?q=` + text + ` s" title="Social (text s)">Social</a>
-<a class="autoColumnItem keepTag2 itemHeight light2 border3 borderRadius2 op" href="/search/?q=` + text + ` ps" title="Google programmable search (text ps)">Google PS</a>
-<a class="autoColumnItem keepTag2 itemHeight light2 border3 borderRadius2 op" href="/search/?q=` + text + ` ql" title="Site search (text ql)">Site</a>
-</div>
-
-`;
-
-document.getElementById("hotLinks").innerHTML = a; 
-
-}
-
-
-// hide top header if mobile
-if (conf["confDevice"] == 'mobile'){
-var getclick2 = document.getElementById('form');
-if (getclick2 != null){
-document.addEventListener('click', function(event) {
-if (getclick2.contains(event.target)) {
-
-if (document.getElementById('topHeader') != null){
-document.getElementById( 'topHeader' ).style.display = 'none';
-}
-if (document.getElementById('topNav') != null){
-document.getElementById( 'topNav' ).style.display = 'none';
-}
-
-} else {
-
-if (document.getElementById('topHeader') != null){
-document.getElementById( 'topHeader' ).style.display = 'block';
-}
-if (document.getElementById('topNav') != null){
-document.getElementById( 'topNav' ).style.display = 'block';
-}
-
-}
-});
-}
-}
-
-// hot links
-
-</script>
-
-<script>
-
-// WPM v.1.2.0
-if (document.getElementById("q") != null){ 
-
-var inputA2 = document.getElementById("q");
-if (inputA2 != null){
-inputA2.addEventListener('input', getWpm);
-}
-
-var inputA3 = document.getElementById("q2");
-if (inputA3 != null){
-inputA3.addEventListener('input', getWpm);
-}
-
-}
-
-// new core 2
-
-let dateArr = [];
-let dateArrLast = [];
-const wordLengthLimit = 5.1;
-
-function getWpm(e){
-//if (e.target.value == ""){ dateArr = []; } //fixme
-if (dateArrLast[0] == undefined){ dateArrLast[0] =  Date.now(); }
-dateArr.push(((Date.now() - dateArrLast[0]) / 1000).toFixed(3));
-//console.table(wpmTime);
-dateArrLast[0] = Date.now();
-
-var wpm = 0;
-if (dateArr.length >= 2){
-dateArr.forEach(function(item) {
-wpm = Number(wpm) + Number(item);
-});
-
-var wpmAverageSec = wpm / dateArr.length;
-wpm =  (1 * 60 / wpmAverageSec) / wordLengthLimit;
-wpm = Math.round(wpm);
-}
-
-if (document.getElementById("wpm") != null){
-document.getElementById("wpm").innerHTML = wpm;
-}
-
-dateArr = dateArr.slice(-500);
-}
-
-</script>
-
-
-
-<script>
-
-if (conf["confTagCloudlStatus"] == "on"){
-
-document.getElementById("printTagsHeader").innerHTML = `
-
-<div class="bold padding medium">
-<a class="op brand notUnderline" href="/projects/redirects-25/?q=s" title="Web Explore:</a>
-</div>
-
-<div class="padding"></div>
-
-`;
-
-
-
-//window.addEventListener('load', function() {});
-
-function tagListCloud(mode){
-
-let tagModePrint = "";
-
-if (mode == undefined||mode == ""){
-mode = localStorage.getItem("tagModeData");
-} else if (mode != "edit"){
-localStorage.setItem("tagModeData", mode);
-}
-
-if (mode == null||mode == undefined){ mode = "Search"; }
-
-let tagListSortConf = localStorage.getItem("tagListSortConf");
-
-let tagListColor = `red orange yellow green blue indigo violet`;
-
-let tagList = localStorage.getItem("tagListData");
-if (tagList == null||tagList == undefined){
-tagList = `
-Example, Keyword, Keyword,
-`;
-}
-
-let arr = fuMSplit(tagList);
-
-/*
-if (tagListSortConf == "sort"){
-arr = fuMSort(arr, "", "arr");
-}*/
-
-
-
-// new
-let tagListLimit = "38";
-
-tagCloudData = tagList;
-
-
-let confSymbolForSplit = "confSymbolForSplit";
-let color = fuMRandomItem(tagListColor);
-let size = '';
-
-//tagList = '';
-
-tagCloudData = tagCloudData.replaceAll(`
-`, confSymbolForSplit);
-tagCloudData = tagCloudData.replace(/(?:\[rn])+/g, confSymbolForSplit);
-
-if (tagCloudData.indexOf(',') != -1){
-tagCloudData = tagCloudData.replaceAll(',', confSymbolForSplit);
-} else {
-tagCloudData = tagCloudData.replaceAll(' ', confSymbolForSplit);
-}
-
-tagCloudData = tagCloudData.replaceAll('·', "");
-tagCloudData = tagCloudData.replaceAll('.', " ");
-
-tagCloudData = tagCloudData.split(confSymbolForSplit);
-
-/*
-//https://stackoverflow.com/questions/8996963/how-to-perform-case-insensitive-sorting-array-of-string-in-javascript
-tagCloudData.sort(function (a, b) {
-return a.toLowerCase().localeCompare(b.toLowerCase());
-});*/
-
-
-
-var tagAverage = 0;
-var tagTotal = 0;
-
-// https://stackoverflow.com/questions/19395257/how-to-count-duplicate-value-in-an-array-in-javascript
-// make uniq and count, object
-var tagListCount = {};
-tagCloudData.forEach(function (x) {
-x = x.trim();
-if (x != null&&x != ''){
-tagListCount[x] = (tagListCount[x] || 0) + 1;
-}
-});
-
-
-
-// Taglist limit
-//https://stackoverflow.com/questions/1069666/sorting-object-property-by-values
-// sort object by value
-let entries = Object.entries(tagListCount);
-let tagListCountSorted = entries.sort((a, b) => a[1] - b[1]);
-tagListCountSorted.reverse();
-
-
-// Taglist limit (cut array) with sorted tag and convert to old object, sorted previos
-tagListCountLimited = {};
-tagListCountSorted.forEach(function (item, key) {
-if (key <= tagListLimit){
-tagListCountLimited[item[0]] = item[1];
-}
-});
-
-if (tagListSortConf == "sort"){
-// sort
-// https://stackoverflow.com/questions/5467129/sort-javascript-object-by-key
-tagListCount = {};
-tagListCount = Object.keys(tagListCountLimited).sort().reduce(
-  (obj, key) => { 
-    obj[key] = tagListCountLimited[key]; 
-    return obj;
-  }, 
-  {}
-);
-}
-
-// end Taglist limit
-
-/*tagAverage = (Math.min(...Object.values(tagListCount))+Math.max(...Object.values(tagListCount)))/2;
-//console.log(tagAverage);*/
-Object.values(tagListCount).forEach(function (x) {
-tagTotal = tagTotal + x;
-});
-tagAverage = Math.floor(tagTotal / Object.values(tagListCount).length);
-
-var tagSize = "";
-var tagColor = "";
-var tagPercentage = "";
-
-function fuTag(tagCount){
-//tagPercentage = (Math.floor((tagCount*100)/tagTotal)); // from 100%, need rebuild case from 100
-tagPercentage = (Math.floor((tagCount * 100) / tagAverage)); // over 100%, used average if tag disproportion 1% and 90%
-//console.log(tagPercentage);
-
-// tag font-size and color
-switch (true) {
-
-case tagPercentage >= 500:
-tagColor = "red";
-tagSize = "xx-large";
-break;
-
-case tagPercentage >= 300:
-tagColor = "orange";
-tagSize = "x-large";
-break;
-
-case tagPercentage >= 250:
-tagColor = "yellow";
-tagSize = "large";
-break;
-
-case tagPercentage >= 100:
-tagColor = "green";
-tagSize = "medium";
-break;
-
-case tagPercentage >= 80:
-tagColor = "blue";
-tagSize = "1em";
-break;
-
-case tagPercentage >= 50:
-tagColor = "indigo";
-tagSize = "small";
-break;
-
-case tagPercentage >= 30:
-tagColor = "violet";
-tagSize = "smaller";
-break;
-
-default:
-tagColor = "c2";
-tagColor = fuMRandomItem(tagListColor)
-tagSize = "x-small";
-}
-
-//console.log(tagColor);
-//return tagColor;
-
-}
-
-
-
-let sortedTags = "";
-//https://stackoverflow.com/questions/8996963/how-to-perform-case-insensitive-sorting-array-of-string-in-javascript
-if (tagListSortConf == "sort"){
-sortedTags = Object.entries(tagListCount).sort(Intl.Collator().compare);
-} else {
-sortedTags = Object.entries(tagListCount);
-// https://masteringjs.io/tutorials/fundamentals/foreach-object
-}
-
-//let sortedTags = Object.entries(tagListCount).sort(Intl.Collator().compare);
-// end new
-
-let tagListPrint = "";
-
-sortedTags.forEach(entry => {
-const [key, value] = entry;
-
-tag = key.trim();
-tagCount = value;
-
-fuTag(tagCount);
-let printTagRandom = sortedTags[fuMRandom(0, sortedTags.length - 1)][0];
-if (tag != ""){
-let printTag = tag;
-let printTagRandom = sortedTags[fuMRandom(0, sortedTags.length - 1)][0];
-
-//printTag = printTag.replaceAll(/#/g, "");
-//printTag = printTag.replaceAll(' ', "");
-
-let printTagUrl = encodeURIComponent(tag.toLowerCase());
-let printTagUrlRandom = encodeURIComponent(printTagRandom.toLowerCase());
-
-if (mode === "Tag"){
-printTag = printTag.replaceAll(" ", "");
-printTagRandom = printTag.replaceAll(" ", "");
-}
-
-printTag = fuMClearText(printTag);
-printTagRandom = fuMClearText(printTagRandom);
-
-switch (mode) {
-
-case 'Search':
-tagListPrint += `<a class="inlineBlock padding op ` + tagColor + ` ;" style="font-size: ` + tagSize + `; padding-right: 0;" href="/search/?q=` + printTagUrl + ` q">` + printTag + `</a><span class="gray">,</span>`;
-
-printRandomTag ("tagRandom", `<a class="inlineBlock padding op brand small notUnderline" href="/search/?q=` + printTagUrlRandom + ` q">randomTag</a>`);
-
-break;
-
-case 'SearchOther':
-tagListPrint += `<a class="inlineBlock padding op ` + tagColor + ` " style="font-size: ` + tagSize + `; padding-right: 0;" href="/search/?q=` + printTagUrl + ` o">` + printTag + `</a><span class="gray">,</span>`;
-
-printRandomTag ("tagRandom", `<a class="inlineBlock padding op brand small notUnderline" href="/search/?q=` + printTagUrlRandom + ` o">randomTag</a>`);
-
-break;
-
-case 'News':
-tagListPrint += `<a class="inlineBlock padding op ` + tagColor + ` " style="font-size: ` + tagSize + `; padding-right: 0;" href="/search/?q=` + printTagUrl + ` n">` + printTag + `</a><span class="gray">,</span>`;
-
-printRandomTag ("tagRandom", `<a class="inlineBlock padding op brand small notUnderline" href="/search/?q=` + printTagUrlRandom + ` n">randomTag</a>`);
-
-break;
-
-case 'Social':
-tagListPrint += `<a class="inlineBlock padding op ` + tagColor + ` " style="font-size: ` + tagSize + `; padding-right: 0;" href="/search/?q=` + printTagUrl + ` s">` + printTag + `</a><span class="gray">,</span>`;
-
-printRandomTag ("tagRandom", `<a class="inlineBlock padding op brand small notUnderline" href="/search/?q=` + printTagUrlRandom + ` s">randomTag</a>`);
-
-break;
-
-case 'Hashtag':
-tagListPrint += `<a class="inlineBlock padding op ` + tagColor + ` " style="font-size: ` + tagSize + `; padding-right: 0;" href="/search/?q=` + printTagUrl + ` ht">` + printTag + `</a><span class="gray">,</span>`;
-
-printRandomTag ("tagRandom", `<a class="inlineBlock padding op brand small notUnderline" href="/search/?q=` + printTagUrlRandom + ` ht">randomTag</a>`);
-
-break;
-
-case 'GooglePS':
-tagListPrint += `<a class="inlineBlock padding op ` + tagColor + ` " style="font-size: ` + tagSize + `; padding-right: 0;" href="/search/?q=` + printTagUrl + ` ps">` + printTag + `</a><span class="gray">,</span>`;
-
-printRandomTag ("tagRandom", `<a class="inlineBlock padding op brand small notUnderline" href="/search/?q=` + printTagUrlRandom + ` ps">randomTag</a>`);
-
-break;
-
-case 'edit':
-tagListPrint += `<span class="inlineBlock padding">` + printTag + `</span>`;
-break;
-
-default:
-tagListPrint += `<a class="inlineBlock padding op ` + tagColor + ` " style="font-size: ` + tagSize + `; padding-right: 0;" href="/search/?q=` + printTagUrl + ` q">#` + printTag + `</a><span class="gray">,</span>`;
-
-printRandomTag ("tagRandom", `<a class="inlineBlock padding op brand small notUnderline" href="/search/?q=` + printTagUrlRandom + ` q">randomTag</a>`);
-
-}
-}
-});
-
-document.getElementById("printTags").innerHTML = tagListPrint;
-
-modeSwitch(mode, tagList, tagListSortConf);
-
-}
-
-tagListCloud("");
-
-
-function tagListSortConfSet(item){
-localStorage.setItem("tagListSortConf", item);
-tagListCloud("");
-}
-
-
-function modeSwitch(mode, tagList, tagListSortConf){
-
-let tagModePrint = "";
-let tagsModeList = `Search SearchOther News Social Hashtag GooglePS`;
-
-let arr = fuMSplit(tagsModeList);
-let tagListPrint = `<span class="op">mode:</span>`;
-arr.forEach((val, index) => {
-if (mode == val){
-tagModePrint += `
-<a class="inlineBlock padding op active2" href="#" onclick="tagListCloud('` + val +`'); return false;">` + val +`</a>
-`;
-} else {
-tagModePrint += `
-<a class="inlineBlock padding op brand" href="#" onclick="tagListCloud('` + val +`'); return false;">` + val +`</a>
-`;
-}
-});
-
-
-
-
-if (tagListSortConf == "sort"){
-
-tagModePrint += `
-<span class="op gray">/</span>
-<a class="inlineBlock padding op gray" title="Close" href="#" onclick="tagListSortConfSet('unsort'); return false;">unsort</a>
-`;
-} else {
-
-tagModePrint += `
-<span class="op gray">/</span>
-<a class="inlineBlock padding op brand" href="#" onclick="tagListSortConfSet('sort'); return false;">sort</a>
-`;
-}
-
-if (mode == "edit"){
-tagModePrint += `
-<a class="inlineBlock padding op gray" title="Close" href="#" onclick="closeTagListData(''); return false;">edit</a>
-`;
-} else {
-tagModePrint += `
-<a class="inlineBlock padding op brand" href="#" onclick="tagListCloud('edit'); return false;">edit</a>
-`;
-}
-
-document.getElementById("printMode").innerHTML = `<hr><span class="op gray">mode:</span> `;
-document.getElementById("printMode").innerHTML += tagModePrint;
-
-if (mode == "edit"){
-document.getElementById("tagListEditForm").innerHTML = `
-<form action="" method="get" class="form-example">
-<textarea id="tagListEditData" rows="5">` + tagList + `</textarea>
-<a class="submit block button padding2 op borderRadius2" href="#" onclick="saveTagListData(); return false;">Save</a>
-<div class="tRight"><a class="submit tRight button padding2 op red borderRadius2" href="#" onclick="resetTagListData(); return false;">Reset</a></div>
-  </div>
-</form>
-`;
-}
-
-}
-
-
-
-
-
-
-function saveTagListData(){
-let data = document.getElementById("tagListEditData").value;
-localStorage.setItem("tagListData", data);
-document.getElementById("tagListEditForm").innerHTML = ``;
-tagListCloud("");
-}
-
-function resetTagListData(){
-if (window.confirm("Are you sure?")) {
-localStorage.removeItem("tagListData")
-}
-document.getElementById("tagListEditForm").innerHTML = ``;
-tagListCloud("");
-}
-
-function closeTagListData(){
-document.getElementById("tagListEditForm").innerHTML = ``;
-tagListCloud("");
-}
-
-}
-
-
-function printRandomTag(id, text){
-if (document.getElementById("tagRandom") != undefined){
-document.getElementById("tagRandom").innerHTML = text;
-}
-}
-
-</script>
 
 
 
