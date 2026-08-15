@@ -1,4 +1,4 @@
-// Keep v.4.9.1
+// Keep v.4.9.2
 // The static version of my offline "keep" PHP script that saves things (links, notes, etc).
 // Inspired by Twitter, Google Keep
 // Not for large data files.
@@ -289,6 +289,15 @@ q = q3.replace(qCom, '');
 q = q.trim();
 //q = encodeURIComponent(q);
 window.location.href = "/site-search/?q=" + q;
+window.location.href = window.location.href + '#StopRedirect'; 
+break;
+
+
+case 'qq#':
+q = q3.replace(qCom, '');
+q = q.trim();
+//q = encodeURIComponent(q);
+window.location.href = "/search/?q=" + q;
 window.location.href = window.location.href + '#StopRedirect'; 
 break;
 
