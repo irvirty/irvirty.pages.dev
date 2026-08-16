@@ -650,7 +650,7 @@ var wordJsonVar =
     {
         "text": "\u0431\u0435\u0439\u0434\u0436",
         "text2": "badge",
-        "text3": "insignia"
+        "text3": "tarjeta de identificaci\u00f3n"
     },
     {
         "text": "\u0431\u0435\u0439\u0441\u0431\u043e\u043b",

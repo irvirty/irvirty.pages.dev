@@ -3,6 +3,16 @@ var linksJsonVar =
 
 [
     {
+        "id": "370",
+        "text": "\u200as\u200al\u200ao\u200aw\u00a0\u00a0r\u200ao\u200aa\u200ad\u200as",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/slowroads.io\/",
+        "tag": "#app #web",
+        "time": 1786807903,
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=370\"  title=\"id=370 (permanent link)\" >id<\/a>"
+    },
+    {
         "id": "369",
         "text": "Chrome Music Lab",
         "text2": "",

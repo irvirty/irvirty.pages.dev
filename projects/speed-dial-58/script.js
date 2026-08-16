@@ -265,8 +265,12 @@ let speedDialItemUrl = confSpeedDialDataArr[index].url;
 
 //https://stackoverflow.com/questions/5383520/populate-an-input-field-with-a-string-that-contains-a-double-quote
 
+if (speedDialItemText != undefined){
 speedDialItemText = speedDialItemText.replaceAll(/"/g, '&quot;');
+}
+if (speedDialItemUrl != undefined){
 speedDialItemUrl = speedDialItemUrl.replaceAll(/"/g, '&quot;');
+}
 
 speedDialItemText = fuMClearText(speedDialItemText);
 speedDialItemUrl = fuMClearText(speedDialItemUrl);
