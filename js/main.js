@@ -190,7 +190,7 @@ conf["confMenuItems"] = [
 {"url":`${confD}games/`, "title":"Games", "text":"Games", "class":""},
 {"url":`${confD}projects/`, "title":"Projects", "text":"Projects", "class":""},
 {"url":`${confD}mini-projects/`, "title":"Mini projects", "text":"Mini projects", "class":""},
-//{"url":`${confD}pages/guestbook/`, "title":"Guestbook", "text":"Guestbook", "class":""},
+{"url":`${confD}search/`, "title":"Search redirect", "text":"Search Redirect", "class":""},
 {"url":`${confD}pages/about/`, "title":"About page", "text":"About", "class":""},
 ];
 
