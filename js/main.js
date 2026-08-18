@@ -99,7 +99,7 @@ var confData = [
 },
 {
 "confTitle":"Tag cloud",
-"confDescription":`Tag cloud on the main page.`,
+"confDescription":`Tag cloud on the "search" page.`,
 "confName":"confTagCloudlStatus",
 "confValueDefault":"off",
 "confValueVariant":["on", "off"],
