@@ -158,6 +158,12 @@ randomWordButtons += `
 <a ${randomWordButtonsCode} href="/?q=WordOfTheDay ht">Hashtag</a>
 </div>
 
+<div class="margin2 padding2"></div>
+<hr>
+<div class="tRight gray">
+* The word is unique for each user.
+</div>
+
 `;
 
 
