@@ -8,7 +8,7 @@ var notesJsonVar =
         "text2": "",
         "text3": "",
         "url": "https:\/\/stackoverflow.com\/questions\/22240581\/running-julia-jl-files",
-        "tag": "#programming #julia",
+        "tag": "#programming #Julia",
         "time": 1784802712,
         "rightFooter": "<a class=\"brand\" href=\"\/pages\/notes\/?id=127\"  title=\"id=127 (permanent link)\" >id<\/a>"
     },

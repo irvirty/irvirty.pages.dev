@@ -67,14 +67,32 @@ var print2 = ``;
 let randomWordButtons = ``;
 let randomWordButtonsCode = ` target="_blank" class="small tag border3 borderRadius2 light3 margin1Px"  `;
 
-randomWordButtons = `
+let hashTagGo = encodeURIComponent(randomWord.replaceAll(' ', ''));
+
+randomWordButtons += `
+
+<hr>
+<div class="small paddingList">Search:</div>
+<div class="hotLinks">
+<a ${randomWordButtonsCode} href="/?q=${randomWordGo} goo">Google</a>
+<a ${randomWordButtonsCode} href="/?q=${randomWordGo} bin">Bing</a>
+<a ${randomWordButtonsCode} href="/?q=${randomWordGo} o">Other</a>
+<a ${randomWordButtonsCode} href="/?q=${randomWordGo} n">News</a>
+<a ${randomWordButtonsCode} href="/?q=${randomWordGo} v">Video</a>
+<a ${randomWordButtonsCode} href="/?q=${randomWordGo} s">Social</a>
+<a ${randomWordButtonsCode} href="/?q=${hashTagGo} ht">Hashtag</a>
+</div>
+
+`;
+
+randomWordButtons += `
 
 <hr>
 <div class="small paddingList">Word translation:</div>
 <div class="hotLinks">
 <a ${randomWordButtonsCode} href="https://translate.google.com/?op=translate&sl=en&tl=auto&text=${randomWordGo}">Google</a>
 <a ${randomWordButtonsCode} href="https://www.bing.com/translator/?text=${randomWordGo}&from=en&to=auto">Bing</a> 
-<a ${randomWordButtonsCode} href="https://www.deepl.com/en/translator#en/auto/${randomWordGo}">Deepl</a> 
+<!--<a ${randomWordButtonsCode} href="https://www.deepl.com/en/translator#en/auto/${randomWordGo}">Deepl</a>--> 
 </div>
 
 `;
@@ -102,23 +120,7 @@ randomWordButtons += `
 `;
 
 
-let hashTagGo = encodeURIComponent(randomWord.replaceAll(' ', ''));
 
-randomWordButtons += `
-
-<hr>
-<div class="small paddingList">Search:</div>
-<div class="hotLinks">
-<a ${randomWordButtonsCode} href="/?q=${randomWordGo} goo">Google</a>
-<a ${randomWordButtonsCode} href="/?q=${randomWordGo} bin">Bing</a>
-<a ${randomWordButtonsCode} href="/?q=${randomWordGo} o">Other</a>
-<a ${randomWordButtonsCode} href="/?q=${randomWordGo} n">News</a>
-<a ${randomWordButtonsCode} href="/?q=${randomWordGo} v">Video</a>
-<a ${randomWordButtonsCode} href="/?q=${randomWordGo} s">Social</a>
-<a ${randomWordButtonsCode} href="/?q=${hashTagGo} ht">Hashtag</a>
-</div>
-
-`;
 
 
 
@@ -159,10 +161,10 @@ randomWordButtons += `
 </div>
 
 <div class="margin2 padding2"></div>
-<hr>
+<!--<hr>
 <div class="tRight gray">
 * The word is unique for each user.
-</div>
+</div>-->
 
 `;
 
