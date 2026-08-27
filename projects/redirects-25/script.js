@@ -1,4 +1,4 @@
-// Search redirect v.2.15.18
+// Search redirect v.2.15.19
 // Search query + command
 // Example: "text goo" or "text google", "text bin" or "text bing"
 
@@ -802,13 +802,15 @@ q = encodeURIComponent(q);
 urlList = [
 "https://www.google.com/search?q=" + q + "&tbm=nws",
 "https://www.bing.com/news/search?q=" + q + "&form=somesite",
-//"https://www.mojeek.com/search?q=" + q + "&fmt=news",
+"https://www.mojeek.com/search?q=" + q + "&fmt=news",
+"https://www.techmeme.com/search/query?q=" + q,
 ];
 if (q == ""){
 urlList = [
 "https://news.google.com/",
 "https://www.bing.com/news",
-//"https://www.mojeek.com/news"
+"https://www.mojeek.com/news"
+"https://www.techmeme.com/",
 ];
 }
 random = urlList[fuMRandom(0, urlList.length - 1)];
