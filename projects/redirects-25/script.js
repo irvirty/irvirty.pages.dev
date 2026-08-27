@@ -809,7 +809,7 @@ if (q == ""){
 urlList = [
 "https://news.google.com/",
 "https://www.bing.com/news",
-"https://www.mojeek.com/news"
+"https://www.mojeek.com/news",
 "https://www.techmeme.com/",
 ];
 }
