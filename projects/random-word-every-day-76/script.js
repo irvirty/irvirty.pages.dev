@@ -52,7 +52,8 @@ function capitalizeFirstLetter(val) {
 
 print = `
 <div class="padding2 margin2"></div>
-<h2 class="tCenter capitalize"><span id="randomWord"></span></h2>
+<!--<h2 class="tCenter capitalize"><span id="randomWord"></span></h2>-->
+<h2 class="tCenter"><span id="randomWord"></span></h2>
 <div class="padding2 margin2"></div>
 `;
 

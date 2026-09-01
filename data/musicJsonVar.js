@@ -3,6 +3,26 @@ var musicJsonVar =
 
 [
     {
+        "id": "6815",
+        "text": "Lullaby of Broadway (Live Radio Recordings) \u00b7 Ambrose & His Band \u00b7 Sam Browne & Trio",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=HLv5iIV3ZNc",
+        "tag": "#music",
+        "time": 1788070375,
+        "rightFooter": ""
+    },
+    {
+        "id": "6814",
+        "text": "We're Tops on Saturday Night (Live Radio Recordings) \u00b7 Ambrose & His Band \u00b7 Jack Cooper",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=QtwXsZsK660",
+        "tag": "#music",
+        "time": 1788070332,
+        "rightFooter": ""
+    },
+    {
         "id": "6802",
         "text": "Jain - Kill It With The Beat (Official Video) - YouTube",
         "text2": "",
