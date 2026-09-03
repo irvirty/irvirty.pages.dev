@@ -273,6 +273,11 @@ var wordJsonVar =
         "text3": "el conjunto"
     },
     {
+        "text": "\u0430\u043d\u0442\u0438\u0434\u043e\u0442",
+        "text2": "antidote",
+        "text3": "ant\u00eddoto"
+    },
+    {
         "text": "\u0430\u043d\u0442\u0438\u043b\u043e\u043f\u0430",
         "text2": "antelope",
         "text3": "ant\u00edlope"
@@ -6061,11 +6066,6 @@ var wordJsonVar =
         "text": "\u043f\u0440\u0435\u0446\u0435\u0434\u0435\u043d\u0442",
         "text2": "precedent",
         "text3": "precedente"
-    },
-    {
-        "text": "\u043f\u0440\u0438\u0431\u0438\u0440\u0430\u043d\u043d\u044f",
-        "text2": "cleaning",
-        "text3": "limpiando"
     },
     {
         "text": "\u043f\u0440\u0438\u0437\u043c\u0430",
