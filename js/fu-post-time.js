@@ -22,6 +22,9 @@ delta -= year * 31557600;
 var month = Math.floor(delta / 2629800);
 delta -= month * 2629800;
 
+var week = Math.floor(delta / 604800);
+delta -= week * 604800;
+
 // calculate (and subtract) whole days
 var days = Math.floor(delta / 86400);
 delta -= days * 86400;
@@ -37,19 +40,22 @@ delta -= minutes * 60;
 // what's left is seconds
 var seconds = delta % 60;  // in theory the modulus is not required
 
-if(year > 0){
+if (year > 0){
 time = year + ' year ';
-} else if(month > 0){
+} else if (month > 0){
 time = month + ' month ';
+} else if (week > 0){
+time = week + ' week ';
 } else if (days > 0){
 time = days + ' day ';
-} else if(hours > 0){
+} else if (hours > 0){
 time = hours + ' hour ';
-} else if (minutes > 0) {
-time = minutes + ' min ';
-} else {
-time = checkTime(Math.floor(seconds))+' sec ';
-}
+} else if (minutes > 0) { time = minutes + ' minute '; }
+else { time = checkTime(Math.floor(seconds)) + ' second '; }
+
+time = time + ' ago';
+
+if (p == 0||isNaN(p) == true||p == ''){ time = p; }
 
 //return time + ' ago';
 return time;
