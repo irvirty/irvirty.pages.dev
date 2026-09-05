@@ -189,6 +189,8 @@ if (conf["confTagCloudlStatus"] == "on"){
 
 document.getElementById("printTagsHeader").innerHTML = `
 
+<div class="padding medium op tCenter">Tag cloud:</div>
+
 <div class="bold padding medium">
 <a class="op brand notUnderline" href="/projects/redirects-25/?q=s" title="Web Explore:</a>
 </div>
