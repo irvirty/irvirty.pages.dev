@@ -1,5 +1,5 @@
 /* v.1.2.1 */
-// https://stackoverflow.com/questions/13903897/javascript-return-number-of-days-hours-minutes-seconds-between-two-dates
+//https://stackoverflow.com/questions/13903897/javascript-return-number-of-days-hours-minutes-seconds-between-two-dates
 
 // Time  post date
 function checkTime(i) {
