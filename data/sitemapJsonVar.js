@@ -14,7 +14,7 @@ var sitemapJsonVar = [
         "time": "id"
     },
     {
-        "text": "About me\n\nAbout me, profiles, license, contacts, donate. | about: ",
+        "text": "About me\n\nAbout me, profiles, license, contacts, donate. A short page about me. Links to other places. Interests, hobbies, skills, licenses, and about the site. | about: ",
         "url": "\/pages\/about\/index.html",
         "tag": " #about #contact #donate #profile #support #page #main",
         "id": "485f986de6d6e7c5720d6d940ab4b434",
@@ -455,7 +455,7 @@ var sitemapJsonVar = [
         "time": "id"
     },
     {
-        "text": "Music\n\nA collection of music,  played randomly, using third-party platforms and their players. Music list. | music: ",
+        "text": "Music\n\nA collection of music,  played randomly, using third-party platforms and their players. Music list. I don\u2019t always understand it, but I like the rhythms. | music: ",
         "url": "\/projects\/music-20\/index.html",
         "tag": " #music #collection #random #embed #list #JavaScript #project",
         "id": "e6daf18cc1e29a8ca88f27d0032c14fc",
@@ -630,7 +630,7 @@ var sitemapJsonVar = [
         "time": "id"
     },
     {
-        "text": "Search Redirect\n\nSearch Redirect. Google or Bing search (randomly, redirect, possible changes in the future). | search: ",
+        "text": "Search Redirect\n\nSearch Redirect. Google or Bing search (randomly, redirect, possible changes in the future). And redirection to other search engines. Pages with redirects. | search: ",
         "url": "\/search\/index.html",
         "tag": " #redirect #web #search #URL #page #redirection #form #random #engine #page #main",
         "id": "8c81733a022c63f034be7fa6f62af3ad",

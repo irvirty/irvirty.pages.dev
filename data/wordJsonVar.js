@@ -1210,7 +1210,7 @@ var wordJsonVar =
     {
         "text": "\u0432\u0438\u0434",
         "text2": "kind",
-        "text3": "especie"
+        "text3": "tipo"
     },
     {
         "text": "\u0432\u0438\u043a\u043e\u0440\u0438\u0441\u0442\u0430\u043d\u043d\u044f",
@@ -3191,11 +3191,6 @@ var wordJsonVar =
         "text": "\u043a\u043e\u043a\u0430",
         "text2": "coca",
         "text3": "coca"
-    },
-    {
-        "text": "\u043a\u043e\u043a\u0441",
-        "text2": "coke",
-        "text3": "coque"
     },
     {
         "text": "\u043a\u043e\u043a\u0442\u0435\u0439\u043b\u044c",
@@ -9001,6 +8996,11 @@ var wordJsonVar =
         "text": "\u0444\u044e\u0440\u0435\u0440",
         "text2": "Fuhrer",
         "text3": "f\u00fchrer"
+    },
+    {
+        "text": "\u0444\u0456\u0442\u043d\u0435\u0441",
+        "text2": "fitness",
+        "text3": "aptitud f\u00edsica"
     },
     {
         "text": "\u0445\u0430\u0431\u0430\u0440",
