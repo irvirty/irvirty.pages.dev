@@ -8739,7 +8739,7 @@ var wordJsonVar =
     },
     {
         "text": "\u0444\u0430\u0440\u0448",
-        "text2": "stuffing",
+        "text2": "minced meat",
         "text3": "carne picada"
     },
     {
