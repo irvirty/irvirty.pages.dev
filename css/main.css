@@ -514,7 +514,7 @@ a { color: var(--c2); }
 a:hover { color: var(--c4); } 
 
 hr { border: 1px solid var(--d2); border-bottom:1px solid var(--l); }
-::selection { background: color-mix(in srgb, var(--orange) 50%, #fff); color: #000; }
+::selection { background: color-mix(in srgb, var(--blue) 50%, #fff); color: #000; }
 mark { font-weight: bold;}
 
 input, input:focus, textarea, select, button, input[type="file"] { 
@@ -642,7 +642,7 @@ form fieldset { border: 1px solid var(--d3); }
 
 .highlight { background: var(--l4) !important; color: var(--c4) !important; }
 .highlight:hover { background: var(--l4); color: var(--c4) !important; }
-.highlight2, .highlight2:hover { background: color-mix(in srgb, var(--orange) 50%, #fff) !important; color: #000 !important; }
+.highlight2, .highlight2:hover { background: color-mix(in srgb, var(--blue) 50%, #fff) !important; color: #000 !important; }
 
 .borderBottomBrand { border-bottom: 2px solid color-mix(in srgb, var(--brand) 60%, transparent); }
 .borderBottomRed { border-bottom: 2px solid color-mix(in srgb, var(--red) 50%, transparent); }
