@@ -514,7 +514,7 @@ a { color: var(--c2); }
 a:hover { color: var(--c4); } 
 
 hr { border: 1px solid var(--d2); border-bottom:1px solid var(--l); }
-::selection { background: color-mix(in srgb, var(--blue) 50%, #fff); color: #000; }
+::selection { background: color-mix(in srgb, var(--blue) 50%, #000); color: #fff; }
 mark { font-weight: bold;}
 
 input, input:focus, textarea, select, button, input[type="file"] { 

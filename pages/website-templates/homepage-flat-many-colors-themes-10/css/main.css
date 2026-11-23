@@ -1,13 +1,15 @@
-/* Main.css style v.23.12.2 */
+/* Main.css style v.24.1.0 */
 /* main.css + theme (auto.css, light.css ...) */
 /* The style is mostly based on classes. */
 
 /* Main */
 @charset "UTF-8";
 
+* { color-scheme: light dark; }
+
 :root{
 /* .brand - link, accent color (red, orange, yellow, green, blue, indigo, violet) */
---brandColor: color-mix(in srgb, var(--blue) 80%, var(--blue));
+--brandColor: color-mix(in srgb, var(--blue) 70%, var(--indigo));
 
 --brand: color-mix(in srgb, var(--brandColor) 70%, var(--c4));
 --brand2: color-mix(in srgb, var(--brandColor) 35%, var(--c4));
@@ -16,7 +18,8 @@
 
 --bodyPadding: 3vw;
 --inputHeight: 45px;
---fontSize: 14px;
+--fontSize: 15px;
+--keepPostFontSize: 14px;
 
 /* edit in main.js for nav */
 --wrapper: 560px;
@@ -157,6 +160,7 @@ input[type="number"]{ padding: 5px; }
 
 
 /* class */
+.keepPost:not(.large,.h2), .keepPost a:not(.large a,h2 a) { font-size: var(--keepPostFontSize); }
 
 .keepPost {
 width: 100%;
@@ -510,7 +514,7 @@ a { color: var(--c2); }
 a:hover { color: var(--c4); } 
 
 hr { border: 1px solid var(--d2); border-bottom:1px solid var(--l); }
-::selection { background: color-mix(in srgb, var(--orange) 50%, #fff); color: #000; }
+::selection { background: color-mix(in srgb, var(--blue) 50%, #000); color: #fff; }
 mark { font-weight: bold;}
 
 input, input:focus, textarea, select, button, input[type="file"] { 
@@ -638,7 +642,7 @@ form fieldset { border: 1px solid var(--d3); }
 
 .highlight { background: var(--l4) !important; color: var(--c4) !important; }
 .highlight:hover { background: var(--l4); color: var(--c4) !important; }
-.highlight2, .highlight2:hover { background: color-mix(in srgb, var(--orange) 50%, #fff) !important; color: #000 !important; }
+.highlight2, .highlight2:hover { background: color-mix(in srgb, var(--blue) 50%, #fff) !important; color: #000 !important; }
 
 .borderBottomBrand { border-bottom: 2px solid color-mix(in srgb, var(--brand) 60%, transparent); }
 .borderBottomRed { border-bottom: 2px solid color-mix(in srgb, var(--red) 50%, transparent); }
