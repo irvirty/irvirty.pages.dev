@@ -1,6 +1,6 @@
-// Typing Speed Test (WPM) or Typing Speed Game v.4.3.9
+// Typing Speed Test (WPM) or Typing Speed Game v.4.3.10
 // "Zen" mode inspired by https://monkeytype.com/
-// Ignore some "typing modes" if the site is running on localhost, I use them to translate letters when I type.
+// Ignore some "typing modes" if the site is running on localhost, I use them to translate words when I type.
 
 const wmpAverageLimit = 100;
 const wordLengthLimit = 5.1;
@@ -476,7 +476,7 @@ var a = {
 "½":"1/2", "―":"-", 
 "…":"...",
 "`":"'", "·":"*", "•":"*", "›":">",
-"’":"'", "—":"-", "«":'"', "»":'"',
+"’":"'", "—":"--", "«":'"', "»":'"',
 '“':'"', '”':'"', "…":"...",
 "–":"-", "‘":'"'
 };
