@@ -1,4 +1,4 @@
-// Typing Speed Test (WPM) or Typing Speed Game v.4.3.10
+// Typing Speed Test (WPM) or Typing Speed Game v.4.3.11
 // "Zen" mode inspired by https://monkeytype.com/
 // Ignore some "typing modes" if the site is running on localhost, I use them to translate words when I type.
 
@@ -1104,7 +1104,7 @@ winMsg = `
 <div class="margin"></div>
 <!--<b class="${printMsgWinColor} padding2">${printMsgWin}</b>-->
 
-<div class="margin2List" style="border-bottom: 5px solid  color-mix(in srgb, var(--${printMsgWinColor}) 25%, transparent);">
+<div class="margin2List" style="border-bottom: 9px solid  color-mix(in srgb, var(--${printMsgWinColor}) 25%, transparent);">
 <h3>
 <span title="word per minute">WPM:</span> <span class="orange">${wpm}</span>
 <span title="Difference with the previous">${wpmProgress}</span>
